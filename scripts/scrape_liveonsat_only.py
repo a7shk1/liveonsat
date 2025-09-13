@@ -78,11 +78,49 @@ def clean_text(t: str) -> str:
 def parse_liveonsat(html: str):
     """
     نقرأ القنوات كما تظهر على الموقع (نفس الأسماء).
-    من الـ DOM اللي عطيتني، القنوات تكون داخل div.fLeft_live
-    ووقت البداية في div.fLeft_time_live
-    واسم المباراة يظهر كسطر سابق لنفس البلوك يحتوي ' v '.
+    القنوات داخل div.fLeft_live
+    ووقت البداية ST الأقرب لنفس البلوك
+    واسم المباراة كسطر سابق يحتوي ' v '.
     """
     soup = BeautifulSoup(html, "html.parser")
+
+    ST_RE = re.compile(r"\bST:\s*([0-2]?\d:[0-5]\d)\b", re.IGNORECASE)
+
+    def nearest_st_for_block(live_block):
+        """
+        نلقط ST الأقرب لنفس بلوك القنوات:
+        - نفحص الأشقاء السابقين ثم اللاحقين
+        - كـ fallback نفحص داخل الأب div.fLeft
+        """
+        root = live_block.parent  # div.fLeft
+
+        # 1) الأشقاء السابقين
+        sib = live_block.previous_sibling
+        hops = 0
+        while sib and hops < 12:
+            txt = clean_text(getattr(sib, "get_text", lambda: "")())
+            m = ST_RE.search(txt)
+            if m: return m.group(1)
+            sib = sib.previous_sibling
+            hops += 1
+
+        # 2) الأشقاء اللاحقين
+        sib = live_block.next_sibling
+        hops = 0
+        while sib and hops < 12:
+            txt = clean_text(getattr(sib, "get_text", lambda: "")())
+            m = ST_RE.search(txt)
+            if m: return m.group(1)
+            sib = sib.next_sibling
+            hops += 1
+
+        # 3) fallback: داخل نفس الأب
+        time_div = root.select_one("div.fLeft_time_live")
+        if time_div:
+            m = ST_RE.search(clean_text(time_div.get_text()))
+            if m: return m.group(1)
+
+        return None
 
     # كل بلوكات القنوات
     blocks = soup.select("div.fLeft div.fLeft_live")
@@ -90,27 +128,18 @@ def parse_liveonsat(html: str):
 
     for live_block in blocks:
         root = live_block.parent  # هذا div.fLeft
-        # وقت البداية (ST: 22:00) إن وجد
-        time_div = root.select_one("div.fLeft_time_live")
-        st_text = clean_text(time_div.get_text()) if time_div else ""
-        kickoff = ""
-        if st_text:
-            m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", st_text)
-            if m:
-                kickoff = m.group(1)
 
-        # نحاول نلقى عنوان المباراة من السطر السابق (غالباً نص فيه ' v ')
+        # ---- الوقت (ST) الأقرب لهذا البلوك تحديداً ----
+        kickoff = nearest_st_for_block(live_block)
+
+        # ---- عنوان المباراة (حسب منطقك الأصلي) ----
         title = ""
-        # نمشي على الـ previous siblings للـ root ونلتقط أول نص فيه ' v '
         prev = root.previous_sibling
         hop = 0
         while prev and hop < 8 and not title:
             if hasattr(prev, "get_text"):
                 txt = clean_text(prev.get_text())
                 if " v " in txt or " vs " in txt or " V " in txt:
-                    # غالبًا يكون مثل "Brentford v Chelsea"
-                    # أحيانًا يجي بسطر منفصل ضمن نفس التجمع
-                    # نأخذ أول خط يحتوي v
                     for line in re.split(r"[\r\n]+", txt):
                         l = clean_text(line)
                         if " v " in l or " vs " in l or " V " in l:
@@ -119,7 +148,6 @@ def parse_liveonsat(html: str):
             prev = prev.previous_sibling
             hop += 1
 
-        # إذا ما لقينا من الأخ، نجرب نصوص أعلى (الوالد/الجد)
         if not title:
             parent = root.parent
             tries = 0
@@ -132,7 +160,7 @@ def parse_liveonsat(html: str):
                 parent = parent.parent
                 tries += 1
 
-        # الآن القنوات: كل جدول داخل fLeft_live يحوي td.chan_col > a
+        # ---- القنوات (كما هي) ----
         ch_names = []
         for a in live_block.select("table td.chan_col a"):
             nm = clean_text(a.get_text())
@@ -140,16 +168,15 @@ def parse_liveonsat(html: str):
                 ch_names.append(nm)
 
         if not ch_names:
-            # كأمان إضافي، أحيانًا القنوات تكون td.chan_col بدون <a>
             for td in live_block.select("table td.chan_col"):
                 nm = clean_text(td.get_text())
                 if nm:
                     ch_names.append(nm)
 
-        # نبني عنصر المباراة حتى لو ما عرفنا العنوان — على الأقل القنوات مع وقت ST
+        # نبني عنصر المباراة
         matches.append({
-            "title": title or None,               # مثال: "Brentford v Chelsea"
-            "kickoff_baghdad": kickoff or None,   # مثال: "22:00"
+            "title": title or None,               # مثال: "Rionegro Águilas v Independiente Medellín"
+            "kickoff_baghdad": kickoff or None,   # مثال: "02:00" (ST كما هو، GMT+03)
             "channels_raw": ch_names,             # نفس الأسماء الظاهرة بالموقع
         })
 
@@ -167,7 +194,7 @@ def main():
         "date": today,
         "source_url": url,
         "matches": items,
-        "_note": "channels_raw are copied exactly as shown on LiveOnSat",
+        "_note": "kickoff_baghdad is copied from ST (GMT+03) exactly; channels_raw are as shown on LiveOnSat.",
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
