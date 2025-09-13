@@ -20,25 +20,12 @@ UA_POOL = [
 ]
 
 def get_html_with_playwright(url: str, timeout_ms: int = 90000) -> str:
-    """
-    نجيب الـ HTML عبر Playwright ونتأكد من تغيير التوقيت بشكل فعلي.
-    """
     ua = random.choice(UA_POOL)
     print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=[
-            "--disable-blink-features=AutomationControlled",
-            "--no-sandbox",
-            "--disable-gpu",
-        ])
-        ctx = browser.new_context(
-            user_agent=ua,
-            locale="en-GB",
-            timezone_id="Asia/Baghdad",
-            viewport={"width": 1366, "height": 900},
-            java_script_enabled=True,
-        )
+        browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled", "--no-sandbox", "--disable-gpu"])
+        ctx = browser.new_context(user_agent=ua, locale="en-GB", timezone_id="Asia/Baghdad", viewport={"width": 1366, "height": 900}, java_script_enabled=True)
         page = ctx.new_page()
         page.set_default_timeout(timeout_ms)
         try:
@@ -77,31 +64,23 @@ def clean_text(t: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 def parse_liveonsat(html: str):
-    """
-    يقرأ الصفحة، يلتقط عنوان البطولة أولاً ثم يضيفه لكل مباراة تابعة له.
-    """
     soup = BeautifulSoup(html, "html.parser")
     if "Timezone Error" in soup.get_text():
         print("[parse] Skipping parsing due to timezone setting error.")
         return []
 
     matches = []
-    current_competition = ""  # متغير لحفظ اسم البطولة الحالية
+    current_competition = ""
 
-    # ✨ التعديل الأساسي هنا: نختار عناوين البطولات وبلوكات المباريات معًا بالترتيب
     for element in soup.select('span.comp_head, div.fLeft_live'):
-        
-        # إذا كان العنصر هو عنوان بطولة، نحفظه وننتقل للعنصر التالي
         if element.name == 'span' and 'comp_head' in element.get('class', []):
             current_competition = clean_text(element.get_text())
             continue
 
-        # إذا كان العنصر هو بلوك مباراة، نبدأ باستخراج تفاصيله
         if element.name == 'div' and 'fLeft_live' in element.get('class', []):
             live_block = element
             root = live_block.parent
 
-            # استخراج وقت المباراة
             time_div = root.select_one("div.fLeft_time_live")
             st_text = clean_text(time_div.get_text()) if time_div else ""
             kickoff = ""
@@ -109,24 +88,32 @@ def parse_liveonsat(html: str):
                 m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", st_text)
                 if m: kickoff = m.group(1)
 
-            # استخراج عنوان المباراة (الفريقين)
+            # ✨ تعديل منطق البحث عن عنوان المباراة هنا ✨
             title = ""
-            prev = root.previous_sibling
-            hop = 0
-            while prev and hop < 8 and not title:
-                if hasattr(prev, "get_text"):
-                    txt = clean_text(prev.get_text())
-                    if " v " in txt or " vs " in txt or " V " in txt:
-                        for line in re.split(r"[\r\n]+", txt):
-                            l = clean_text(line)
-                            if " v " in l or " vs " in l or " V " in l:
-                                title = l
-                                break
-                if title: break
-                prev = prev.previous_sibling
-                hop += 1
+            # الطريقة الجديدة: البحث عن العنوان في الـ div السابق مباشرة
+            title_element = root.find_previous_sibling('div')
+            if title_element:
+                txt = clean_text(title_element.get_text())
+                if " v " in txt or " vs " in txt or " V " in txt:
+                    title = txt
+            
+            # الطريقة القديمة كخطة بديلة إذا فشلت الطريقة الجديدة
+            if not title:
+                prev = root.previous_sibling
+                hop = 0
+                while prev and hop < 4 and not title:
+                    if hasattr(prev, "get_text"):
+                        txt = clean_text(prev.get_text())
+                        if " v " in txt or " vs " in txt or " V " in txt:
+                            for line in re.split(r"[\r\n]+", txt):
+                                l = clean_text(line)
+                                if " v " in l or " vs " in l or " V " in l:
+                                    title = l
+                                    break
+                    if title: break
+                    prev = prev.previous_sibling
+                    hop += 1
 
-            # استخراج القنوات
             ch_names = []
             for a in live_block.select("table td.chan_col a"):
                 nm = clean_text(a.get_text())
@@ -136,7 +123,6 @@ def parse_liveonsat(html: str):
                     nm = clean_text(td.get_text())
                     if nm: ch_names.append(nm)
 
-            # تجميع بيانات المباراة مع إضافة اسم البطولة
             if ch_names:
                 matches.append({
                     "competition": current_competition or None,
