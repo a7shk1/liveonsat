@@ -22,7 +22,6 @@ UA_POOL = [
 def get_html_with_playwright(url: str, timeout_ms: int = 90000) -> str:
     ua = random.choice(UA_POOL)
     print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
-
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled", "--no-sandbox", "--disable-gpu"])
         ctx = browser.new_context(user_agent=ua, locale="en-GB", timezone_id="Asia/Baghdad", viewport={"width": 1366, "height": 900}, java_script_enabled=True)
@@ -71,67 +70,70 @@ def parse_liveonsat(html: str):
 
     matches = []
     current_competition = ""
+    
+    # ✨ المنطق الجديد والأكثر قوة ✨
+    # نختار كل العناصر الرئيسية (عناوين البطولات والبلوكات الرئيسية للمباريات)
+    all_elements = soup.select('span.comp_head, div.fLeft')
+    
+    title_block = None # متغير مؤقت لخزن بلوك العنوان
 
-    for element in soup.select('span.comp_head, div.fLeft_live'):
+    for element in all_elements:
+        # الحالة 1: العنصر هو عنوان بطولة
         if element.name == 'span' and 'comp_head' in element.get('class', []):
             current_competition = clean_text(element.get_text())
+            title_block = None # نصفر العنوان عند بداية كل بطولة جديدة
             continue
 
-        if element.name == 'div' and 'fLeft_live' in element.get('class', []):
-            live_block = element
-            root = live_block.parent
-
-            time_div = root.select_one("div.fLeft_time_live")
-            st_text = clean_text(time_div.get_text()) if time_div else ""
-            kickoff = ""
-            if st_text:
-                m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", st_text)
-                if m: kickoff = m.group(1)
-
-            # ✨ تعديل منطق البحث عن عنوان المباراة هنا ✨
-            title = ""
-            # الطريقة الجديدة: البحث عن العنوان في الـ div السابق مباشرة
-            title_element = root.find_previous_sibling('div')
-            if title_element:
-                txt = clean_text(title_element.get_text())
-                if " v " in txt or " vs " in txt or " V " in txt:
-                    title = txt
+        # الحالة 2: العنصر هو بلوك مباراة (div.fLeft)
+        if element.name == 'div' and 'fLeft' in element.get('class', []):
             
-            # الطريقة القديمة كخطة بديلة إذا فشلت الطريقة الجديدة
-            if not title:
-                prev = root.previous_sibling
-                hop = 0
-                while prev and hop < 4 and not title:
-                    if hasattr(prev, "get_text"):
-                        txt = clean_text(prev.get_text())
-                        if " v " in txt or " vs " in txt or " V " in txt:
-                            for line in re.split(r"[\r\n]+", txt):
-                                l = clean_text(line)
-                                if " v " in l or " vs " in l or " V " in l:
-                                    title = l
-                                    break
-                    if title: break
-                    prev = prev.previous_sibling
-                    hop += 1
-
-            ch_names = []
-            for a in live_block.select("table td.chan_col a"):
-                nm = clean_text(a.get_text())
-                if nm: ch_names.append(nm)
-            if not ch_names:
-                for td in live_block.select("table td.chan_col"):
-                    nm = clean_text(td.get_text())
-                    if nm: ch_names.append(nm)
-
-            if ch_names:
-                matches.append({
-                    "competition": current_competition or None,
-                    "title": title or "Unknown Match",
-                    "kickoff_baghdad": kickoff or None,
-                    "channels_raw": ch_names,
-                })
+            # إذا كان هذا البلوك يحتوي على معلومات القنوات (fLeft_live)
+            if element.find('div', class_='fLeft_live'):
+                # فهذا يعني أن البلوك السابق كان هو بلوك العنوان
+                if title_block:
+                    # نستخرج العنوان من البلوك المحفوظ
+                    title = clean_text(title_block.get_text())
+                    
+                    # والآن نستخرج باقي المعلومات من البلوك الحالي
+                    live_block = element.find('div', class_='fLeft_live')
+                    time_div = element.find("div", class_="fLeft_time_live")
+                    
+                    kickoff = ""
+                    if time_div:
+                        st_text = clean_text(time_div.get_text())
+                        m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", st_text)
+                        if m: kickoff = m.group(1)
+                    
+                    ch_names = []
+                    for a in live_block.select("table td.chan_col a"):
+                        nm = clean_text(a.get_text())
+                        if nm: ch_names.append(nm)
+                    if not ch_names:
+                        for td in live_block.select("table td.chan_col"):
+                            nm = clean_text(td.get_text())
+                            if nm: ch_names.append(nm)
+                    
+                    if ch_names:
+                        matches.append({
+                            "competition": current_competition or None,
+                            "title": title, # العنوان من البلوك المحفوظ
+                            "kickoff_baghdad": kickoff or None,
+                            "channels_raw": ch_names,
+                        })
+                    
+                    title_block = None # نصفر العنوان بعد استخدامه
+            
+            # إذا لم يكن بلوك قنوات، فهو غالبًا بلوك عنوان، فنقوم بحفظه
+            else:
+                txt = element.get_text()
+                # نتأكد أنه يحتوي على صيغة مباراة لتجنب البلوكات الأخرى
+                if " v " in txt or " vs " in txt or " V " in txt:
+                    title_block = element
+                else:
+                    title_block = None
 
     return matches
+
 
 def main():
     url = os.environ.get("FORCE_URL") or DEFAULT_URL
