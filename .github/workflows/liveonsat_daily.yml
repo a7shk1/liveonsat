@@ -11,7 +11,6 @@ permissions:
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -26,24 +25,20 @@ jobs:
           sudo apt-get update
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
           python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4
-
-      - name: Install Playwright browser deps
-        run: |
+          pip install playwright
+          pip install beautifulsoup4  # مو مستخدم الآن، بس ما يضر
           python -m playwright install-deps
           python -m playwright install chromium
 
       - name: Scrape LiveOnSat (RAW)
-        # لو تريد نسخة الموبايل (أسهل أحيانًا):
-        # env:
-        #   FORCE_URL: https://m.liveonsat.com/2day.php
         run: |
           python scripts/scrape_liveonsat.py
 
-      - name: Commit & push JSON
+      - name: Commit & push JSON (+ optional debug HTML)
         run: |
           git config --global user.name "gh-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add matches/liveonsat_raw.json
-          git commit -m "update liveonsat_raw.json [skip ci]" || echo "no changes"
+          git add matches/liveonsat_raw.json || true
+          git add matches/liveonsat_debug.html || true
+          git commit -m "update liveonsat raw [skip ci]" || echo "no changes"
           git push
