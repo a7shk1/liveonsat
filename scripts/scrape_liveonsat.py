@@ -5,6 +5,7 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
+# إعدادات عامة
 BAGHDAD_TZ = ZoneInfo("Asia/Baghdad")
 DEFAULT_URL = "https://liveonsat.com/2day.php"
 
@@ -14,6 +15,7 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "liveonsat_raw.json"
 
 UA_POOL = [
+    # شوية يوزر-أجنتس حديثة (Chrome/Edge/Firefox)
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0",
@@ -21,6 +23,9 @@ UA_POOL = [
 ]
 
 def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
+    """
+    نجيب الـ HTML عبر Playwright/Chromium لتجاوز أي بلوك.
+    """
     ua = random.choice(UA_POOL)
     print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
 
@@ -33,21 +38,31 @@ def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
         ctx = browser.new_context(
             user_agent=ua,
             locale="en-GB",
-            timezone_id="Asia/Baghdad",
+            timezone_id="Asia/Baghdad",  # نخلي التوقيت بغداد حتى ST يقرب لك
             viewport={"width": 1366, "height": 900},
             java_script_enabled=True,
+            extra_http_headers={
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9,ar;q=0.5",
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+                "Upgrade-Insecure-Requests": "1",
+            },
         )
 
         page = ctx.new_page()
         page.set_default_timeout(timeout_ms)
 
+        # Referrer بسيط
         page.goto("https://google.com", wait_until="domcontentloaded")
+        # زيارة الهدف
         page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
         try:
             page.wait_for_load_state("networkidle", timeout=20000)
         except PWTimeout:
             pass
 
+        # لو الصفحة قصيرة، ننزل شوي لتفعيل lazy content
         for y in (400, 1000, 1800, 2600, 3600):
             page.evaluate(f"window.scrollTo(0, {y});")
             time.sleep(0.2)
@@ -61,12 +76,21 @@ def clean_text(t: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 def parse_liveonsat(html: str):
+    """
+    نقرأ القنوات كما تظهر على الموقع (نفس الأسماء).
+    من الـ DOM: القنوات داخل div.fLeft_live
+    ووقت البداية في div.fLeft_time_live
+    واسم المباراة يظهر كسطر سابق لنفس البلوك يحتوي ' v ' أو ' vs '.
+    """
     soup = BeautifulSoup(html, "html.parser")
+
+    # كل بلوكات القنوات
     blocks = soup.select("div.fLeft div.fLeft_live")
     matches = []
 
     for live_block in blocks:
-        root = live_block.parent
+        root = live_block.parent  # هذا div.fLeft
+        # وقت البداية (ST: 22:00) إن وجد
         time_div = root.select_one("div.fLeft_time_live")
         st_text = clean_text(time_div.get_text()) if time_div else ""
         kickoff = ""
@@ -75,6 +99,7 @@ def parse_liveonsat(html: str):
             if m:
                 kickoff = m.group(1)
 
+        # نحاول نلقى عنوان المباراة من السطر السابق (غالباً نص فيه ' v ')
         title = ""
         prev = root.previous_sibling
         hop = 0
@@ -82,6 +107,7 @@ def parse_liveonsat(html: str):
             if hasattr(prev, "get_text"):
                 txt = clean_text(prev.get_text())
                 if " v " in txt or " vs " in txt or " V " in txt:
+                    # مثال: "Brentford v Chelsea"
                     for line in re.split(r"[\r\n]+", txt):
                         l = clean_text(line)
                         if " v " in l or " vs " in l or " V " in l:
@@ -90,21 +116,25 @@ def parse_liveonsat(html: str):
             prev = prev.previous_sibling
             hop += 1
 
+        # القنوات: كل جدول داخل fLeft_live يحوي td.chan_col > a
         ch_names = []
         for a in live_block.select("table td.chan_col a"):
             nm = clean_text(a.get_text())
             if nm:
                 ch_names.append(nm)
+
         if not ch_names:
+            # أحيانًا القنوات تكون td.chan_col بدون <a>
             for td in live_block.select("table td.chan_col"):
                 nm = clean_text(td.get_text())
                 if nm:
                     ch_names.append(nm)
 
+        # نبني عنصر المباراة حتى لو ما عرفنا العنوان — على الأقل القنوات مع وقت ST
         matches.append({
-            "title": title or None,
-            "kickoff_baghdad": kickoff or None,
-            "channels_raw": ch_names,
+            "title": title or None,               # مثال: "Brentford v Chelsea"
+            "kickoff_baghdad": kickoff or None,   # مثال: "22:00"
+            "channels_raw": ch_names,             # نفس الأسماء الظاهرة بالموقع
         })
 
     return matches
@@ -113,6 +143,7 @@ def main():
     url = os.environ.get("FORCE_URL") or DEFAULT_URL
     print(f"[LiveOnSat] GET {url}")
     html = get_html_with_playwright(url, timeout_ms=90000)
+
     items = parse_liveonsat(html)
     today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
 
