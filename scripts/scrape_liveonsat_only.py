@@ -24,7 +24,6 @@ UA_POOL = [
 def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
     ua = random.choice(UA_POOL)
     print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
-
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
             "--disable-blink-features=AutomationControlled",
@@ -38,7 +37,6 @@ def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
             viewport={"width": 1366, "height": 900},
             java_script_enabled=True,
         )
-
         page = ctx.new_page()
         page.set_default_timeout(timeout_ms)
         page.goto("https://google.com", wait_until="domcontentloaded")
@@ -47,11 +45,9 @@ def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
             page.wait_for_load_state("networkidle", timeout=20000)
         except PWTimeout:
             pass
-
         for y in (400, 1000, 1800, 2600, 3600):
             page.evaluate(f"window.scrollTo(0, {y});")
             time.sleep(0.2)
-
         html = page.content()
         browser.close()
         return html
@@ -68,9 +64,9 @@ def parse_liveonsat(html: str):
     for live_block in blocks:
         root = live_block.parent  # div.fLeft
 
-        # الوقت: نقرأه كما هو من div.fLeft_time_live
-        time_div = root.select_one("div.fLeft_time_live")
+        # الوقت: نقرأ النص كما هو بعد ST:
         kickoff = None
+        time_div = root.select_one("div.fLeft_time_live")
         if time_div:
             txt = clean_text(time_div.get_text())
             m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", txt)
@@ -119,7 +115,7 @@ def parse_liveonsat(html: str):
 
         matches.append({
             "title": title or None,
-            "kickoff_baghdad": kickoff or None,  # نفس النص من ST (GMT+03)
+            "kickoff": kickoff or None,     # بس اسمها kickoff
             "channels_raw": ch_names,
         })
 
@@ -129,7 +125,6 @@ def main():
     url = os.environ.get("FORCE_URL") or DEFAULT_URL
     print(f"[LiveOnSat] GET {url}")
     html = get_html_with_playwright(url, timeout_ms=90000)
-
     items = parse_liveonsat(html)
     today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
 
@@ -137,13 +132,11 @@ def main():
         "date": today,
         "source_url": url,
         "matches": items,
-        "_note": "kickoff_baghdad is taken directly from ST (GMT+03, same as Baghdad).",
+        "_note": "kickoff is taken exactly from ST on site (GMT+03).",
     }
-
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-
     print(f"[write] {OUT_PATH} with {len(items)} matches.")
 
 if __name__ == "__main__":
