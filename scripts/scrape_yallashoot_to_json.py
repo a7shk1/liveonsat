@@ -17,7 +17,8 @@ OUT_DIR = REPO_ROOT / "matches"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "today.json"
 
-# ===================== قنواتك الحرفية =====================
+# ======================================================
+# قنواتك الحرفية (هي المرجع)
 CHANNEL_CANON = [
     "starzplay1","starzplay2",
     "abudhabi sport 1","abudhabi sport 2",
@@ -33,76 +34,115 @@ CHANNEL_CANON = [
     "SSC 1","SSC 2","Thmanyah 1","Thmanyah 2","Thmanyah 3",
 ]
 
-# أنماط تحويل أسماء LiveOnSat إلى أسمائك
-CHANNEL_PATTERNS = []
-for i in range(1,10):
-    CHANNEL_PATTERNS.append((re.compile(rf"(?i)\bbeIN\s*Sports?\s*(?:HD\s*)?{i}\b.*"), f"beIN SPORTS {i}"))
-for i in range(1,7):
-    CHANNEL_PATTERNS.append((re.compile(rf"(?i)\bDAZN\s*{i}\b.*"), f"DAZN {i}"))
-CHANNEL_PATTERNS.append((re.compile(r"(?i)\bESPN\b(?!\s*\d)"), "ESPN"))
-for i in range(2,8):
-    CHANNEL_PATTERNS.append((re.compile(rf"(?i)\bESPN\s*{i}\b"), f"ESPN {i}"))
-CHANNEL_PATTERNS += [
-    (re.compile(r"(?i)\bVarzesh\b.*"), "Varzesh TV Iran"),
-    (re.compile(r"(?i)\bVarzish\b.*"), "Varzish TV Tajikistan"),
-    (re.compile(r"(?i)\bFootball\s*HD\b.*Tajikistan\b"), "Football HD Tajikistan"),
-    (re.compile(r"(?i)\bIRIB\s*TV\s*3\b"), "IRIB TV 3 Iran"),
-    (re.compile(r"(?i)\bPersiana\b.*Sports\b"), "Persiana Sports Iran"),
-    (re.compile(r"(?i)\bMatch!?[\s\-]*Futbol\s*1\b.*"), "Match! Futbol 1"),
-    (re.compile(r"(?i)\bMatch!?[\s\-]*Futbol\s*2\b.*"), "Match! Futbol 2"),
-    (re.compile(r"(?i)\bMatch!?[\s\-]*Futbol\s*3\b.*"), "Match! Futbol 3"),
-    (re.compile(r"(?i)\bMatch!?[\s\-]*TV\b.*"), "Match! TV Russia"),
-    (re.compile(r"(?i)\bSport\s*TV\s*1\b.*"), "Sport TV 1"),
-    (re.compile(r"(?i)\bSport\s*TV\s*2\b.*"), "Sport TV 2"),
-    (re.compile(r"(?i)\bMBC\s*Action\b"), "mbc Action"),
-    (re.compile(r"(?i)\bMBC\s*Drama\+\b"), "MBC Drama+"),
-    (re.compile(r"(?i)\bMBC\s*Drama\b"), "MBC Drama"),
-    (re.compile(r"(?i)\bMBC\s*Masr\s*2\b"), "mbc masr2"),
-    (re.compile(r"(?i)\bMBC\s*Masr\b"), "mbc masr"),
-    (re.compile(r"(?i)\bTNT\s*Sports?\b(?!\s*\d)"), "TNT SPORTS"),
-    (re.compile(r"(?i)\bTNT\s*Sports?\s*1\b"), "TNT SPORTS 1"),
-    (re.compile(r"(?i)\bTNT\s*Sports?\s*2\b"), "TNT SPORTS 2"),
-    (re.compile(r"(?i)\bSky\s*Sports?\s*Main\s*Event\b.*"), "Sky Sports Main Event HD"),
-    (re.compile(r"(?i)\bSky\s*(?:Sports?\s*)?Premier\s*League\b.*"), "Sky Premier League HD"),
-    (re.compile(r"(?i)\bSSC\s*1\b.*"), "SSC 1"),
-    (re.compile(r"(?i)\bSSC\s*2\b.*"), "SSC 2"),
-    (re.compile(r"(?i)\bThmanyah\s*1\b.*"), "Thmanyah 1"),
-    (re.compile(r"(?i)\bThmanyah\s*2\b.*"), "Thmanyah 2"),
-    (re.compile(r"(?i)\bThmanyah\s*3\b.*"), "Thmanyah 3"),
-    (re.compile(r"(?i)\bAbu\s*Dhabi\b.*\bSports?\s*1\b.*"), "abudhabi sport 1"),
-    (re.compile(r"(?i)\bAbu\s*Dhabi\b.*\bSports?\s*2\b.*"), "abudhabi sport 2"),
-    (re.compile(r"(?i)\bStarz\s*Play\b.*\b1\b.*|\bSTARZPLAY\b.*\b1\b.*"), "starzplay1"),
-    (re.compile(r"(?i)\bStarz\s*Play\b.*\b2\b.*|\bSTARZPLAY\b.*\b2\b.*"), "starzplay2"),
-]
-
+# ======================================================
+# دالة تطبيع أسماء القنوات → تعيد الاسم الحرفي من لستتك
 def map_channel_to_canonical(los_name: str) -> str | None:
-    for pat, canon in CHANNEL_PATTERNS:
-        if pat.search(los_name or ""):
-            return canon
+    if not los_name:
+        return None
+    name = los_name.lower()
+
+    # شيل كلمات إضافية
+    junk_words = ["hd","mena","portugal","france","usa","premium",
+                  "plus","deutsch","geo","malaysia","brazil","life","alb","albania"]
+    for jw in junk_words:
+        name = name.replace(jw,"")
+    name = re.sub(r"[^a-z0-9]+"," ",name).strip()
+
+    # beIN
+    if "bein" in name:
+        m = re.search(r"\b(\d{1,2})\b",name)
+        if m: return f"beIN SPORTS {m.group(1)}"
+        return "beIN SPORTS 1"
+
+    # DAZN
+    if "dazn" in name:
+        m = re.search(r"\b(\d{1,2})\b",name)
+        if m: return f"DAZN {m.group(1)}"
+        return "DAZN 1"
+
+    # ESPN
+    if "espn" in name:
+        m = re.search(r"\b(\d{1,2})\b",name)
+        if m: return f"ESPN {m.group(1)}"
+        return "ESPN"
+
+    # Sky
+    if "sky" in name and "premier" in name:
+        return "Sky Premier League HD"
+    if "sky" in name and "main" in name:
+        return "Sky Sports Main Event HD"
+
+    # SSC
+    if "ssc" in name:
+        m = re.search(r"\b(\d)\b",name)
+        if m: return f"SSC {m.group(1)}"
+
+    # Thmanyah
+    if "thmanyah" in name:
+        m = re.search(r"\b(\d)\b",name)
+        if m: return f"Thmanyah {m.group(1)}"
+
+    # Abu Dhabi
+    if "abu" in name and "dhabi" in name:
+        if "1" in name: return "abudhabi sport 1"
+        if "2" in name: return "abudhabi sport 2"
+
+    # Varzesh / Varzish / IRIB / Persiana
+    if "varzesh" in name: return "Varzesh TV Iran"
+    if "varzish" in name: return "Varzish TV Tajikistan"
+    if "football" in name: return "Football HD Tajikistan"
+    if "irib" in name and "3" in name: return "IRIB TV 3 Iran"
+    if "persiana" in name: return "Persiana Sports Iran"
+
+    # Match! الروسية
+    if "match" in name and "futbol" in name:
+        m = re.search(r"\b(\d)\b",name)
+        if m: return f"Match! Futbol {m.group(1)}"
+    if "match" in name and "tv" in name:
+        return "Match! TV Russia"
+
+    # Sport TV
+    if "sport tv" in name:
+        m = re.search(r"\b(\d)\b",name)
+        if m: return f"Sport TV {m.group(1)}"
+
+    # MBC
+    if "mbc" in name and "action" in name: return "mbc Action"
+    if "mbc" in name and "drama+" in name: return "MBC Drama+"
+    if "mbc" in name and "drama" in name: return "MBC Drama"
+    if "mbc" in name and "masr2" in name: return "mbc masr2"
+    if "mbc" in name and "masr" in name: return "mbc masr"
+
+    # TNT
+    if "tnt" in name:
+        m = re.search(r"\b(\d)\b",name)
+        if m: return f"TNT SPORTS {m.group(1)}"
+        return "TNT SPORTS"
+
     return None
 
-# ===================== LiveOnSat utils =====================
+# ======================================================
+# LiveOnSat utils
 def _session_with_retries():
-    s = requests.Session()
-    retry = Retry(total=5, connect=5, read=5, status=5,
-                  backoff_factor=1.2,
-                  status_forcelist=[429,500,502,503,504],
-                  allowed_methods=frozenset(["GET","HEAD"]),
-                  raise_on_status=False)
-    ad = HTTPAdapter(max_retries=retry)
-    s.mount("http://", ad); s.mount("https://", ad)
+    s=requests.Session()
+    retry=Retry(total=5,connect=5,read=5,status=5,backoff_factor=1.2,
+                status_forcelist=[429,500,502,503,504],
+                allowed_methods=frozenset(["GET","HEAD"]),
+                raise_on_status=False)
+    ad=HTTPAdapter(max_retries=retry)
+    s.mount("http://",ad); s.mount("https://",ad)
     s.headers.update({"User-Agent":"Mozilla/5.0"})
     return s
 
 def fetch_liveonsat_html():
-    url = os.environ.get("LOS_URL","https://liveonsat.com/2day.php")
-    s = _session_with_retries()
-    r = s.get(url,timeout=(10,60)); r.raise_for_status(); return r.text
+    url=os.environ.get("LOS_URL","https://liveonsat.com/2day.php")
+    s=_session_with_retries()
+    r=s.get(url,timeout=(10,60)); r.raise_for_status(); return r.text
 
-def _normspace(s:str)->str: return re.sub(r"\s+"," ",(s or "").strip())
-def _strip_tags(s:str)->str: return re.sub(r"<[^>]+>","",s or "")
+def _normspace(s): return re.sub(r"\s+"," ",(s or "").strip())
+def _strip_tags(s): return re.sub(r"<[^>]+>","",s or "")
 
-def parse_liveonsat_basic(html:str):
+def parse_liveonsat_basic(html):
     results=[]
     comp_pat=re.compile(r'<span\s+class="comp_head">(?P<comp>.*?)</span>',re.S)
     for m in comp_pat.finditer(html):
@@ -118,25 +158,23 @@ def parse_liveonsat_basic(html:str):
         channels=[]
         for live_area in re.finditer(r'<div\s+class="fLeft_live"[^>]*?>(?P<html>.*?)</div>',block,re.S):
             area=live_area.group("html")
-            for a in re.finditer(r'<a[^>]+class="chan_live_(?P<ctype>[^"]+)"[^>]*?>(?P<text>.*?)</a>',area,re.S):
+            for a in re.finditer(r'<a[^>]+class="chan_live_.*?"[^>]*?>(?P<text>.*?)</a>',area,re.S):
                 name=_normspace(unescape(_strip_tags(a.group("text"))))
                 if name: channels.append({"name":name})
         results.append({"competition":comp,"fixture":fixture,"home":home,"away":away,"channels":channels})
     return results
 
-def _normalize_team(s:str)->str:
+def _normalize_team(s):
     s=s or ""; s=unicodedata.normalize("NFKD",s)
     s="".join(ch for ch in s if not unicodedata.combining(ch))
     s=s.lower(); s=re.sub(r"[^a-z0-9]+"," ",s).strip()
     return re.sub(r"\s+"," ",s)
 
-TEAM_MAP_AR2EN={"أتلتيك بلباو":"Athletic Bilbao","ألافيس":"Alaves","برشلونة":"Barcelona","ريال مدريد":"Real Madrid","ريال سوسيداد":"Real Sociedad"}
+TEAM_MAP_AR2EN={"أتلتيك بلباو":"Athletic Bilbao","ألافيس":"Alaves","برشلونة":"Barcelona","ريال مدريد":"Real Madrid","ريال سوسيداد":"Real Sociedad","الهلال":"Al Hilal","القادسية":"Al Qadisiyah"}
 
-def _to_en(name:str)->str:
-    if re.search(r"[\u0600-\u06FF]",name or ""): return TEAM_MAP_AR2EN.get(name,name)
-    return name
+def _to_en(name): return TEAM_MAP_AR2EN.get(name.strip(),name.strip())
 
-def _similar(a:str,b:str)->float: return SequenceMatcher(None,a,b).ratio()
+def _similar(a,b): return SequenceMatcher(None,a,b).ratio()
 
 def find_best_los_match(y_home,y_away,los_matches,threshold=0.8):
     yh,ya=_normalize_team(_to_en(y_home)),_normalize_team(_to_en(y_away))
@@ -147,7 +185,8 @@ def find_best_los_match(y_home,y_away,los_matches,threshold=0.8):
         if score>best_score: best,best_score=m,score
     return best if best_score>=threshold else None
 
-# ===================== Scraper =====================
+# ======================================================
+# Scraper (YallaShoot)
 def gradual_scroll(page, step=900, pause=0.25):
     last_h=0
     while True:
@@ -213,7 +252,7 @@ def scrape():
             "time_baghdad":c["time_local"],
             "status":normalize_status(c["status_text"]),
             "status_text":c["status_text"],"result_text":c["result_text"],
-            "channel":[], # نملأها من LiveOnSat
+            "channel":[], # نعبيها من LiveOnSat
             "competition":c["competition"],"_source":"yalla1shoot"
         })
 
@@ -230,6 +269,13 @@ def scrape():
                     canon=map_channel_to_canonical(ch.get("name",""))
                     if canon and canon in CHANNEL_CANON and canon not in seen:
                         seen.add(canon); chan_set.append(canon)
+
+            # 👇 خاص: إذا المباراة من الدوري الإيطالي → أضف starzplay1 و starzplay2
+            if m.get("competition") and "ايطالي" in m["competition"]:
+                for sp in ["starzplay1","starzplay2"]:
+                    if sp not in chan_set:
+                        chan_set.append(sp)
+
             m["channel"]=chan_set
             if chan_set: replaced+=1
         print(f"[liveonsat] replaced channels for {replaced}/{len(out['matches'])} matches")
