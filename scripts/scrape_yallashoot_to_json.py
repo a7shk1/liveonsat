@@ -18,119 +18,6 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "today.json"
 
 # ======================================================
-# قنواتك الحرفية (هي المرجع)
-CHANNEL_CANON = [
-    "starzplay1","starzplay2",
-    "abudhabi sport 1","abudhabi sport 2",
-    "beIN SPORTS 1","beIN SPORTS 2","beIN SPORTS 3","beIN SPORTS 4",
-    "beIN SPORTS 5","beIN SPORTS 6","beIN SPORTS 7","beIN SPORTS 8","beIN SPORTS 9",
-    "DAZN 1","DAZN 2","DAZN 3","DAZN 4","DAZN 5","DAZN 6",
-    "ESPN","ESPN 2","ESPN 3","ESPN 4","ESPN 5","ESPN 6","ESPN 7",
-    "Varzesh TV Iran","Varzish TV Tajikistan","Football HD Tajikistan","IRIB TV 3 Iran","Persiana Sports Iran",
-    "Match! Futbol 1","Match! Futbol 2","Match! Futbol 3","Match! TV Russia",
-    "Sport TV 1","Sport TV 2",
-    "mbc Action","MBC Drama+","MBC Drama","mbc masr","mbc masr2",
-    "TNT SPORTS","TNT SPORTS 1","TNT SPORTS 2","Sky Sports Main Event HD","Sky Premier League HD",
-    "SSC 1","SSC 2","Thmanyah 1","Thmanyah 2","Thmanyah 3",
-]
-
-# ======================================================
-# دالة تطبيع أسماء القنوات → تعيد الاسم الحرفي من لستتك (ذكية)
-def map_channel_to_canonical(los_name: str) -> str | None:
-    if not los_name:
-        return None
-
-    raw_lower = los_name.lower()
-
-    # كلمات/لاحقات كثيرة تظهر في LiveOnSat نشيلها من الاعتبار
-    junk_words = [
-        "uhd","hd","hdr","mena","arabia","english","en","ksa","uae","qatar",
-        "portugal","pt","france","fr","espana","spain","es","italia","italy","deutschland","germany","de",
-        "usa","us","brazil","malaysia","slovenija","slovenia","slovakia","albania","togo","georgia","armenia",
-        "premium","premier","plus","extra","max","life","bar","connect","online","[online]",
-        "(s/geo/r)","(s/geo)","(geo/r)","$/geo/r","$/geo","geo/r","$/r","$/s",
-        "sport","sports"  # نحذفها حتى ما تربك التحليل، ونضيف قواعدنا أدناه
-    ]
-    name = raw_lower
-    for jw in junk_words:
-        name = name.replace(jw, " ")
-    name = re.sub(r"[^a-z0-9]+", " ", name).strip()
-
-    # beIN (يتحمل كل أشكال الكتابة + يستخرج الرقم)
-    if "bein" in name:
-        m = re.search(r"\b(\d{1,2})\b", name)
-        canon = f"beIN SPORTS {m.group(1)}" if m else "beIN SPORTS 1"
-        return canon
-
-    # DAZN (أي بلد/لاحقة → الرقم إن وجد)
-    if "dazn" in name:
-        m = re.search(r"\b(\d{1,2})\b", name)
-        canon = f"DAZN {m.group(1)}" if m else "DAZN 1"
-        return canon
-
-    # ESPN
-    if "espn" in name:
-        m = re.search(r"\b(\d{1,2})\b", name)
-        canon = f"ESPN {m.group(1)}" if m else "ESPN"
-        return canon
-
-    # Sky (نهتم بالقناتين هذوله عندك)
-    # Sky Sports Premier League / Main Event
-    if "sky" in name and "premier" in raw_lower:
-        return "Sky Premier League HD"
-    if "sky" in name and ("main" in raw_lower or "event" in raw_lower):
-        return "Sky Sports Main Event HD"
-
-    # SSC
-    if "ssc" in name:
-        m = re.search(r"\b(\d)\b", name)
-        return f"SSC {m.group(1)}" if m else None
-
-    # Thmanyah (مع/بدون HD)
-    if "thmanyah" in name:
-        m = re.search(r"\b(\d)\b", name)
-        return f"Thmanyah {m.group(1)}" if m else None
-
-    # Abu Dhabi Sports
-    if "abu" in name and "dhabi" in name:
-        if re.search(r"\b1\b", name): return "abudhabi sport 1"
-        if re.search(r"\b2\b", name): return "abudhabi sport 2"
-
-    # Varzesh / Varzish / Football HD (tjk) / IRIB / Persiana
-    # نستخدم raw_lower هنا لأن الكلمات قد تظهر خارج التطبيع
-    if "varzesh" in raw_lower: return "Varzesh TV Iran"
-    if "varzish" in raw_lower: return "Varzish TV Tajikistan"
-    if "football" in raw_lower and "hd" in raw_lower: return "Football HD Tajikistan"
-    if "irib" in raw_lower and re.search(r"\b3\b", raw_lower): return "IRIB TV 3 Iran"
-    if "persiana" in raw_lower and "sport" in raw_lower: return "Persiana Sports Iran"
-
-    # Match! الروسية
-    if "match" in name and "futbol" in name:
-        m = re.search(r"\b(\d)\b", name)
-        return f"Match! Futbol {m.group(1)}" if m else None
-    if "match" in name and "tv" in name:
-        return "Match! TV Russia"
-
-    # Sport TV (البرتغالي)
-    if "sport tv" in name:
-        m = re.search(r"\b(\d)\b", name)
-        return f"Sport TV {m.group(1)}" if m else None
-
-    # MBC
-    if "mbc" in name and "action" in name: return "mbc Action"
-    if "mbc" in name and "drama+" in name: return "MBC Drama+"
-    if "mbc" in name and "drama" in name: return "MBC Drama"
-    if "mbc" in name and ("masr2" in name or "masr 2" in name): return "mbc masr2"
-    if "mbc" in name and "masr" in name: return "mbc masr"
-
-    # TNT SPORTS
-    if "tnt" in name:
-        m = re.search(r"\b(\d)\b", name)
-        return f"TNT SPORTS {m.group(1)}" if m else "TNT SPORTS"
-
-    return None
-
-# ======================================================
 # LiveOnSat utils
 def _session_with_retries():
     s = requests.Session()
@@ -197,31 +84,23 @@ def _normalize_team(s):
 
 # قاموس عربي→إنجليزي (موسع، زوده تدريجياً حسب الحاجة)
 TEAM_MAP_AR2EN = {
-    # Saudi
     "الهلال": "Al Hilal", "القادسية": "Al Qadisiyah",
-    # Italy
     "يوفنتوس": "Juventus", "إنتر ميلان": "Inter Milan", "انتر ميلان": "Inter Milan",
     "فيورنتينا": "Fiorentina", "نابولي": "Napoli", "ميلان": "AC Milan",
     "ايه سي ميلان": "AC Milan", "انتر": "Inter Milan", "روما": "Roma", "لاتسيو": "Lazio",
     "اتالانتا": "Atalanta", "تورينو": "Torino", "بولونيا": "Bologna", "جنوى": "Genoa", "كالياري": "Cagliari",
-    # Spain
     "أتلتيكو مدريد": "Atletico Madrid", "اتلتيكو مدريد": "Atletico Madrid",
     "فياريال": "Villarreal",
     "بلد الوليد": "Real Valladolid", "ألميريا": "Almeria",
     "أتلتيك بلباو": "Athletic Bilbao", "اتلتيك بلباو": "Athletic Bilbao",
-    # England
     "برينتفورد": "Brentford", "تشيلسي": "Chelsea", "وست هام يونايتد": "West Ham United",
     "توتنهام هوتسبر": "Tottenham Hotspur", "توتنهام": "Tottenham Hotspur",
-    # Germany
     "بايرن ميونخ": "Bayern Munich", "هامبورج": "Hamburg", "هامبورغ": "Hamburg",
-    # France
     "أوكسير": "Auxerre", "موناكو": "Monaco",
-    # Morocco / Egypt
     "الجيش الملكي": "AS FAR Rabat", "اتحاد يعقوب المنصور": "Ittihad Yakoub Al Mansour",
     "الفتح الرباطي": "FUS Rabat", "الرجاء البيضاوي": "Raja Casablanca",
     "الزمالك": "Zamalek", "المصري": "Al Masry",
     "سيراميكا كليوباترا": "Ceramica Cleopatra", "سموحة": "Smouha",
-    # Common
     "ريال مدريد": "Real Madrid", "ريال سوسيداد": "Real Sociedad",
     "برشلونة": "Barcelona",
 }
@@ -234,7 +113,6 @@ def _similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 def find_best_los_match(y_home, y_away, los_matches, threshold=0.72):
-    # نحاول الاسم كما هو + المعكوس احتياطاً
     candidates = [(y_home, y_away), (y_away, y_home)]
     best, best_score = None, -1.0
     for cand_home, cand_away in candidates:
@@ -345,7 +223,7 @@ def scrape():
             "_source": "yalla1shoot"
         })
 
-    # ======== إحلال القنوات من LiveOnSat ========
+    # ======== إحلال القنوات من LiveOnSat (RAW: بدون فلترة/تطبيع) ========
     try:
         los_html = fetch_liveonsat_html()
         los_list = parse_liveonsat_basic(los_html)
@@ -354,11 +232,10 @@ def scrape():
             los_m = find_best_los_match(m["home"], m["away"], los_list, threshold=0.72)
             chan_set = []
             if los_m:
-                seen = set()
                 for ch in los_m.get("channels", []):
-                    canon = map_channel_to_canonical(ch.get("name", ""))
-                    if canon and canon in CHANNEL_CANON and canon not in seen:
-                        seen.add(canon); chan_set.append(canon)
+                    nm = (ch.get("name") or "").strip()
+                    if nm:
+                        chan_set.append(nm)  # 👈 نضيف الاسم كما هو من LiveOnSat
 
             # خاص: كل مباراة بالدوري الإيطالي → أضف starzplay1 و starzplay2
             if m.get("competition") and "ايطالي" in m["competition"]:
@@ -370,7 +247,8 @@ def scrape():
                 print(f"[no-channels] {m['home']} vs {m['away']}  (comp={m.get('competition')})")
 
             m["channel"] = chan_set  # دائماً List
-            if chan_set: replaced += 1
+            if chan_set:
+                replaced += 1
 
         print(f"[liveonsat] replaced channels for {replaced}/{len(out['matches'])} matches")
     except Exception as e:
