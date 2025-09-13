@@ -22,9 +22,9 @@ UA_POOL = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/127.0.0.0 Chrome/127.0.0.0 Safari/537.36",
 ]
 
-def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
+def get_html_with_playwright(url: str, timeout_ms: int = 90000) -> str:
     """
-    نجيب الـ HTML عبر Playwright/Chromium لتجاوز 403.
+    نجيب الـ HTML عبر Playwright/Chromium ونجبر التوقيت على Asia/Baghdad.
     """
     ua = random.choice(UA_POOL)
     print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
@@ -53,23 +53,37 @@ def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
         page = ctx.new_page()
         page.set_default_timeout(timeout_ms)
 
-        page.goto("https://google.com", wait_until="domcontentloaded")
-        page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
-
-        # --- ✨ التعديل الأساسي هنا ✨ ---
-        # بعد تحميل الصفحة، نختار التوقيت الصحيح من القائمة المنسدلة
-        print("[LiveOnSat] Setting timezone to GMT+3...")
         try:
-            # القائمة اسمها 'expando' وقيمة GMT+3 هي '3'
-            page.select_option('select[name="expando"]', value='3')
-            # ننتظر الشبكة تهدأ بعد تغيير التوقيت لضمان تحديث الأوقات
-            print("[LiveOnSat] Waiting for times to update...")
-            page.wait_for_load_state("networkidle", timeout=15000)
-        except PWTimeout:
-            print("[LiveOnSat] Network idle timeout after timezone change, proceeding anyway.")
+            page.goto("https://google.com", wait_until="domcontentloaded")
+            page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+
+            # --- ✨ التعديل النهائي بناءً على الـ HTML الصحيح ✨ ---
+            print("[LiveOnSat] Forcing timezone to Asia/Baghdad (GMT+3)...")
+            # هذا هو الـ ID الصحيح لقائمة التوقيت اللي أرسلتها
+            selector = '#selecttz'
+            
+            # 1. ننتظر حتى تظهر قائمة التوقيت بشكل مؤكد
+            print(f"[LiveOnSat] Waiting for timezone selector '{selector}' to be visible...")
+            page.wait_for_selector(selector, state='visible', timeout=15000)
+
+            # 2. نختار التوقيت بناءً على القيمة الدقيقة 'Asia/Baghdad'
+            print("[LiveOnSat] Selecting timezone by value: 'Asia/Baghdad'...")
+            page.select_option(selector, value='Asia/Baghdad')
+
+            # 3. ننتظر الشبكة تهدأ لضمان تحديث الأوقات
+            print("[LiveOnSat] Waiting for network to idle after timezone change...")
+            page.wait_for_load_state("networkidle", timeout=20000)
+            print("[LiveOnSat] Timezone successfully set to Asia/Baghdad.")
+            # --- نهاية التعديل ---
+
         except Exception as e:
-            print(f"[LiveOnSat] Could not set timezone: {e}")
-        # --- نهاية التعديل ---
+            print(f"[LiveOnSat] FATAL ERROR: Could not set timezone. Taking a screenshot.")
+            error_screenshot_path = "liveonsat_error.png"
+            page.screenshot(path=error_screenshot_path)
+            print(f"[LiveOnSat] Screenshot saved to '{error_screenshot_path}'. Aborting.")
+            browser.close()
+            # نرجع HTML فارغ أو نطلق استثناء لمنع تحليل بيانات خاطئة
+            return "<html><body>Timezone Error</body></html>"
 
         # لو الصفحة قصيرة، ننزل شوي لتفعيل lazy content
         for y in (400, 1000, 1800, 2600, 3600):
@@ -87,19 +101,18 @@ def clean_text(t: str) -> str:
 def parse_liveonsat(html: str):
     """
     نقرأ القنوات كما تظهر على الموقع (نفس الأسماء).
-    من الـ DOM اللي عطيتني، القنوات تكون داخل div.fLeft_live
-    ووقت البداية في div.fLeft_time_live
-    واسم المباراة يظهر كسطر سابق لنفس البلوك يحتوي ' v '.
     """
     soup = BeautifulSoup(html, "html.parser")
 
-    # كل بلوكات القنوات
+    if "Timezone Error" in soup.get_text():
+        print("[parse] Skipping parsing due to timezone setting error.")
+        return []
+
     blocks = soup.select("div.fLeft div.fLeft_live")
     matches = []
 
     for live_block in blocks:
-        root = live_block.parent  # هذا div.fLeft
-        # وقت البداية (ST: 22:00) إن وجد
+        root = live_block.parent
         time_div = root.select_one("div.fLeft_time_live")
         st_text = clean_text(time_div.get_text()) if time_div else ""
         kickoff = ""
@@ -108,18 +121,13 @@ def parse_liveonsat(html: str):
             if m:
                 kickoff = m.group(1)
 
-        # نحاول نلقى عنوان المباراة من السطر السابق (غالباً نص فيه ' v ')
         title = ""
-        # نمشي على الـ previous siblings للـ root ونلتقط أول نص فيه ' v '
         prev = root.previous_sibling
         hop = 0
         while prev and hop < 8 and not title:
             if hasattr(prev, "get_text"):
                 txt = clean_text(prev.get_text())
                 if " v " in txt or " vs " in txt or " V " in txt:
-                    # غالبًا يكون مثل "Brentford v Chelsea"
-                    # أحيانًا يجي بسطر منفصل ضمن نفس التجمع
-                    # نأخذ أول خط يحتوي v
                     for line in re.split(r"[\r\n]+", txt):
                         l = clean_text(line)
                         if " v " in l or " vs " in l or " V " in l:
@@ -128,7 +136,6 @@ def parse_liveonsat(html: str):
             prev = prev.previous_sibling
             hop += 1
 
-        # إذا ما لقينا من الأخ، نجرب نصوص أعلى (الوالد/الجد)
         if not title:
             parent = root.parent
             tries = 0
@@ -141,7 +148,6 @@ def parse_liveonsat(html: str):
                 parent = parent.parent
                 tries += 1
 
-        # الآن القنوات: كل جدول داخل fLeft_live يحوي td.chan_col > a
         ch_names = []
         for a in live_block.select("table td.chan_col a"):
             nm = clean_text(a.get_text())
@@ -149,34 +155,36 @@ def parse_liveonsat(html: str):
                 ch_names.append(nm)
 
         if not ch_names:
-            # كأمان إضافي، أحيانًا القنوات تكون td.chan_col بدون <a>
             for td in live_block.select("table td.chan_col"):
                 nm = clean_text(td.get_text())
                 if nm:
                     ch_names.append(nm)
 
-        # نبني عنصر المباراة حتى لو ما عرفنا العنوان — على الأقل القنوات مع وقت ST
-        matches.append({
-            "title": title or None,               # مثال: "Brentford v Chelsea"
-            "kickoff_baghdad": kickoff or None,   # مثال: "22:00"
-            "channels_raw": ch_names,             # نفس الأسماء الظاهرة بالموقع
-        })
+        if ch_names:
+            matches.append({
+                "title": title or "Unknown Match",
+                "kickoff_baghdad": kickoff or None,
+                "channels_raw": ch_names,
+            })
 
     return matches
 
 def main():
     url = os.environ.get("FORCE_URL") or DEFAULT_URL
     print(f"[LiveOnSat] GET {url}")
-    html = get_html_with_playwright(url, timeout_ms=90000)
+    html = get_html_with_playwright(url)
 
     items = parse_liveonsat(html)
-    today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
+    if not items and "Timezone Error" in html:
+        print("[main] No matches found due to an earlier critical error.")
+        return
 
+    today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
     out = {
         "date": today,
         "source_url": url,
         "matches": items,
-        "_note": "channels_raw are copied exactly as shown on LiveOnSat",
+        "_note": "channels_raw are copied exactly as shown on LiveOnSat with GMT+3 (Asia/Baghdad) timezone.",
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
