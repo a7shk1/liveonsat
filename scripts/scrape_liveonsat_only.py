@@ -1,180 +1,146 @@
 # scripts/scrape_liveonsat_only.py
-import os, json, datetime as dt, random, time, re
-from pathlib import Path
-from zoneinfo import ZoneInfo
-from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+# يجلب كل المباريات والقنوات من LiveOnSat (صفحة اليوم) ويكتب matches/liveonsat_raw.json
 
-# إعدادات عامة
-BAGHDAD_TZ = ZoneInfo("Asia/Baghdad")
-DEFAULT_URL = "https://liveonsat.com/2day.php"
+import json
+import re
+import time
+from pathlib import Path
+import requests
+from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = REPO_ROOT / "matches"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "liveonsat_raw.json"
 
-UA_POOL = [
-    # شوية يوزر-أجنتس حديثة (Chrome/Edge)
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/127.0.0.0 Chrome/127.0.0.0 Safari/537.36",
-]
+URL = "https://liveonsat.com/2day.php"
 
-def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
-    """
-    نجيب الـ HTML عبر Playwright/Chromium لتجاوز 403.
-    """
-    ua = random.choice(UA_POOL)
-    print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9,ar;q=0.8",
+    "Referer": "https://liveonsat.com/",
+    "Cache-Control": "no-cache",
+}
 
+def fetch_requests(url: str, retries=3, timeout=45) -> str:
+    last_err = None
+    for i in range(retries):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=timeout)
+            if r.status_code == 200:
+                return r.text
+            if r.status_code in (403, 406, 429):
+                last_err = Exception(f"Blocked with status {r.status_code}")
+            else:
+                r.raise_for_status()
+        except Exception as e:
+            last_err = e
+        time.sleep(2 + i)
+    if last_err:
+        raise last_err
+    raise RuntimeError("Failed to fetch")
+
+def fetch_playwright(url: str, timeout_ms=45000) -> str:
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=[
-            "--disable-blink-features=AutomationControlled",
-            "--no-sandbox",
-            "--disable-gpu",
-        ])
-        ctx = browser.new_context(
-            user_agent=ua,
-            locale="en-GB",
-            timezone_id="Asia/Baghdad",  # نخلي التوقيت بغداد حتى ST يقرب لك
-            viewport={"width": 1366, "height": 900},
-            java_script_enabled=True,
-            extra_http_headers={
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                "Accept-Language": "en-US,en;q=0.9,ar;q=0.5",
-                "Cache-Control": "no-cache",
-                "Pragma": "no-cache",
-                "Upgrade-Insecure-Requests": "1",
-            },
-        )
-
+        browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
+        ctx = browser.new_context(user_agent=HEADERS["User-Agent"], locale="en-GB")
         page = ctx.new_page()
         page.set_default_timeout(timeout_ms)
-
-        # Referrer بسيط
-        page.goto("https://google.com", wait_until="domcontentloaded")
-        # زيارة الهدف
-        page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
-        try:
-            page.wait_for_load_state("networkidle", timeout=20000)
-        except PWTimeout:
-            pass
-
-        # لو الصفحة قصيرة، ننزل شوي لتفعيل lazy content
-        for y in (400, 1000, 1800, 2600, 3600):
-            page.evaluate(f"window.scrollTo(0, {y});")
-            time.sleep(0.2)
-
+        page.goto(url, wait_until="domcontentloaded")
         html = page.content()
+        ctx.close()
         browser.close()
         return html
 
-def clean_text(t: str) -> str:
-    if not t: return ""
-    return re.sub(r"\s+", " ", t).strip()
+def fetch_html(url: str) -> str:
+    # جرب Requests أولاً، وإن اتمنعنا نستخدم Playwright
+    try:
+        print(f"[LiveOnSat] GET {url}")
+        return fetch_requests(url)
+    except Exception as e:
+        print(f"[LiveOnSat] requests blocked ({e}), fallback to Playwright…")
+        return fetch_playwright(url)
 
-def parse_liveonsat(html: str):
-    """
-    نقرأ القنوات كما تظهر على الموقع (نفس الأسماء).
-    من الـ DOM اللي عطيتني، القنوات تكون داخل div.fLeft_live
-    ووقت البداية في div.fLeft_time_live
-    واسم المباراة يظهر كسطر سابق لنفس البلوك يحتوي ' v '.
-    """
+def text_clean(s: str) -> str:
+    s = (s or "").strip()
+    s = re.sub(r"\s+", " ", s)
+    return s
+
+def parse(html: str):
     soup = BeautifulSoup(html, "html.parser")
 
-    # كل بلوكات القنوات
-    blocks = soup.select("div.fLeft div.fLeft_live")
-    matches = []
-
-    for live_block in blocks:
-        root = live_block.parent  # هذا div.fLeft
-        # وقت البداية (ST: 22:00) إن وجد
-        time_div = root.select_one("div.fLeft_time_live")
-        st_text = clean_text(time_div.get_text()) if time_div else ""
+    items = []
+    # كل بلوك قنوات يكون تحت div.fLeft_live وبجانبه وقت ST داخل div.fLeft_time_live
+    for live_block in soup.select("div.fLeft_live"):
+        # الوقت
+        time_div = live_block.find_previous_sibling("div", class_="fLeft_time_live")
+        st = text_clean(time_div.get_text()) if time_div else ""
+        # ST: 22:00 → 22:00
         kickoff = ""
-        if st_text:
-            m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", st_text)
-            if m:
-                kickoff = m.group(1)
+        m = re.search(r"(\d{1,2}:\d{2})", st)
+        if m:
+            kickoff = m.group(1)
 
-        # نحاول نلقى عنوان المباراة من السطر السابق (غالباً نص فيه ' v ')
+        # العنوان (المباراة)
+        # عادةً اسم المباراة يكون أعلى ضمن نفس المجموعة داخل div.fLeft أو ما قبله
+        # نبحث للخلف عن نص فيه " v " أو " vs "
         title = ""
-        # نمشي على الـ previous siblings للـ root ونلتقط أول نص فيه ' v '
-        prev = root.previous_sibling
-        hop = 0
-        while prev and hop < 8 and not title:
-            if hasattr(prev, "get_text"):
-                txt = clean_text(prev.get_text())
-                if " v " in txt or " vs " in txt or " V " in txt:
-                    # غالبًا يكون مثل "Brentford v Chelsea"
-                    # أحيانًا يجي بسطر منفصل ضمن نفس التجمع
-                    # نأخذ أول خط يحتوي v
-                    for line in re.split(r"[\r\n]+", txt):
-                        l = clean_text(line)
-                        if " v " in l or " vs " in l or " V " in l:
-                            title = l
-                            break
-            prev = prev.previous_sibling
-            hop += 1
-
-        # إذا ما لقينا من الأخ، نجرب نصوص أعلى (الوالد/الجد)
+        cur = live_block
+        for _ in range(5):
+            cur = cur.find_previous(string=lambda t: isinstance(t, str) and (" v " in t or " vs " in t))
+            if cur:
+                title = text_clean(cur)
+                break
         if not title:
-            parent = root.parent
-            tries = 0
-            while parent and tries < 3 and not title:
-                txt = clean_text(parent.get_text())
-                m2 = re.search(r"([^\n]+ v [^\n]+)", txt)
-                if m2:
-                    title = clean_text(m2.group(1))
-                    break
-                parent = parent.parent
-                tries += 1
+            # fallback: جرّب ضمن parent
+            parent = live_block.parent
+            if parent:
+                fulltxt = text_clean(parent.get_text(" "))
+                # التقط أول سطر يحوي v
+                for line in fulltxt.split("  "):
+                    if " v " in line or " vs " in line:
+                        title = text_clean(line)
+                        break
 
-        # الآن القنوات: كل جدول داخل fLeft_live يحوي td.chan_col > a
-        ch_names = []
-        for a in live_block.select("table td.chan_col a"):
-            nm = clean_text(a.get_text())
-            if nm:
-                ch_names.append(nm)
+        # القنوات
+        channels = []
+        for a in live_block.select("a"):
+            label = text_clean(a.get_text())
+            if not label:
+                continue
+            # تجاهل نصوص التنقّل/الفارغة
+            if len(label) < 2:
+                continue
+            channels.append(label)
+        channels = list(dict.fromkeys(channels))  # unique-kept order
 
-        if not ch_names:
-            # كأمان إضافي، أحيانًا القنوات تكون td.chan_col بدون <a>
-            for td in live_block.select("table td.chan_col"):
-                nm = clean_text(td.get_text())
-                if nm:
-                    ch_names.append(nm)
+        if not channels:
+            continue
 
-        # نبني عنصر المباراة حتى لو ما عرفنا العنوان — على الأقل القنوات مع وقت ST
-        matches.append({
-            "title": title or None,               # مثال: "Brentford v Chelsea"
-            "kickoff_baghdad": kickoff or None,   # مثال: "22:00"
-            "channels_raw": ch_names,             # نفس الأسماء الظاهرة بالموقع
+        # إن ما وجدنا عنوان واضح، نبني عنوانًا بسيطًا
+        if not title:
+            title = f"ST: {kickoff} " + " ".join(channels[:3])
+
+        # خزن العنصر
+        items.append({
+            "title": title,
+            "kickoff_baghdad": kickoff,
+            "channels_raw": channels
         })
 
-    return matches
+    return items
 
 def main():
-    url = os.environ.get("FORCE_URL") or DEFAULT_URL
-    print(f"[LiveOnSat] GET {url}")
-    html = get_html_with_playwright(url, timeout_ms=90000)
-
-    items = parse_liveonsat(html)
-    today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
-
+    html = fetch_html(URL)
+    items = parse(html)
     out = {
-        "date": today,
-        "source_url": url,
-        "matches": items,
-        "_note": "channels_raw are copied exactly as shown on LiveOnSat",
+        "source_url": URL,
+        "matches": items
     }
-
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-
-    print(f"[write] {OUT_PATH} with {len(items)} matches.")
+    print(f"[LiveOnSat] wrote {OUT_PATH} with {len(items)} items.")
 
 if __name__ == "__main__":
     main()
