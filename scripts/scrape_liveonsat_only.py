@@ -1,12 +1,9 @@
 # scripts/scrape_liveonsat_only.py
 import os, json, datetime as dt, random, time, re
 from pathlib import Path
-from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
-# إعدادات عامة
-BAGHDAD_TZ = ZoneInfo("Asia/Baghdad")
 DEFAULT_URL = "https://liveonsat.com/2day.php"
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -25,15 +22,9 @@ def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
     ua = random.choice(UA_POOL)
     print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=[
-            "--disable-blink-features=AutomationControlled",
-            "--no-sandbox",
-            "--disable-gpu",
-        ])
+        browser = p.chromium.launch(headless=True)
         ctx = browser.new_context(
             user_agent=ua,
-            locale="en-GB",
-            timezone_id="Asia/Baghdad",
             viewport={"width": 1366, "height": 900},
             java_script_enabled=True,
         )
@@ -64,7 +55,7 @@ def parse_liveonsat(html: str):
     for live_block in blocks:
         root = live_block.parent  # div.fLeft
 
-        # الوقت: نقرأ النص كما هو بعد ST:
+        # الوقت: ناخذ النص مثل ما هو من ST
         kickoff = None
         time_div = root.select_one("div.fLeft_time_live")
         if time_div:
@@ -115,7 +106,7 @@ def parse_liveonsat(html: str):
 
         matches.append({
             "title": title or None,
-            "kickoff": kickoff or None,     # بس اسمها kickoff
+            "kickoff": kickoff or None,   # اسم الحقل بسيط: kickoff
             "channels_raw": ch_names,
         })
 
@@ -125,18 +116,21 @@ def main():
     url = os.environ.get("FORCE_URL") or DEFAULT_URL
     print(f"[LiveOnSat] GET {url}")
     html = get_html_with_playwright(url, timeout_ms=90000)
+
     items = parse_liveonsat(html)
-    today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
+    today = dt.datetime.now().date().isoformat()
 
     out = {
         "date": today,
         "source_url": url,
         "matches": items,
-        "_note": "kickoff is taken exactly from ST on site (GMT+03).",
+        "_note": "kickoff is copied exactly from ST on site (GMT+03).",
     }
+
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
+
     print(f"[write] {OUT_PATH} with {len(items)} matches.")
 
 if __name__ == "__main__":
