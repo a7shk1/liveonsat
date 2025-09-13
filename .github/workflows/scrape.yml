@@ -1,0 +1,72 @@
+# اسم الورك فلو اللي راح يظهر في صفحة Actions
+name: Scrape and Filter Match Data
+
+# متى يشتغل هذا الورك فلو؟
+on:
+  # 1. تشغيل أوتوماتيكي مجدول (هنا كل 6 ساعات)
+  schedule:
+    - cron: '0 */6 * * *'
+
+  # 2. تشغيل يدوي (تقدر تشغله بنفسك من صفحة Actions)
+  workflow_dispatch:
+
+  # 3. تشغيل عند كل push على برانش الـ main (مفيد للتجربة)
+  push:
+    branches:
+      - main
+
+jobs:
+  # اسم المهمة (Job)
+  build-and-commit:
+    # سيتم تشغيله على سيرفر أوبونتو افتراضي
+    runs-on: ubuntu-latest
+
+    steps:
+      # الخطوة 1: نسخ كود المشروع للسيرفر الافتراضي
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # الخطوة 2: تنصيب بايثون
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip' # لتسريع عملية تثبيت المكتبات بالمرات القادمة
+
+      # الخطوة 3: تثبيت المكتبات اللي يحتاجها السكربت
+      - name: Install dependencies
+        run: |
+          pip install beautifulsoup4 playwright
+
+      # الخطوة 4: خطوة مهمة جداً - تثبيت متصفحات playwright
+      - name: Install Playwright browsers
+        run: playwright install --with-deps
+
+      # الخطوة 5: تشغيل سكربت سحب البيانات
+      - name: Run Scraper
+        run: python scripts/scrape_liveonsat_only.py
+
+      # الخطوة 6: تشغيل سكربت الفلترة
+      - name: Run Filter
+        run: python scripts/filter_json.py
+
+      # الخطوة 7: حفظ النتائج (ملفات الجيسون) في الريبو مالتك
+      - name: Commit and push JSON results
+        run: |
+          # تعريف معلومات الشخص اللي سوى التغيير (بوت)
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          
+          # إضافة الملفات الجديدة أو اللي تغيرت للمرحلة القادمة
+          git add matches/liveonsat_raw.json matches/filtered_matches.json
+          
+          # التحقق إذا كان هناك تغييرات فعلية قبل الكوميت
+          if git diff --staged --quiet; then
+            echo "No changes detected, skipping commit."
+          else
+            # عمل كوميت بالتغييرات مع رسالة تحتوي على التاريخ والوقت
+            git commit -m "📊 Automated match data update"
+            
+            # دفع (push) الكوميت للريبو مالتك
+            git push
+          fi
