@@ -1,16 +1,16 @@
-name: YallaShoot Daily JSON
+name: LiveOnSat Daily (RAW)
 
 on:
   schedule:
-    # 11:00 UTC ≈ 14:00 بغداد (عدّل إذا تحب)
-    - cron: "0 11 * * *"
+    # 11:05 UTC ≈ 14:05 بغداد — عدل التوقيت إذا تريد
+    - cron: "5 11 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  scrape-yallashoot:
+  run-scraper:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,21 +27,24 @@ jobs:
           sudo apt-get update
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
           python -m pip install --upgrade pip
-          pip install playwright
+          pip install playwright beautifulsoup4
+
+      - name: Install Playwright browser deps
+        run: |
           python -m playwright install-deps
           python -m playwright install chromium
 
-      - name: Run scraper
-        # إذا تحب تغيّر الرابط (نسخة ثانية من الصفحة) استخدم secret:
+      - name: Scrape LiveOnSat (RAW)
+        # لو تحب تستخدم نسخة الموبايل أو رابط بديل، فعّل env أدناه:
         # env:
-        #   FORCE_URL: ${{ secrets.YS_URL }}
+        #   FORCE_URL: ${{ secrets.LIVEONSAT_URL }}
         run: |
-          python scripts/scrape_yallashoot_to_json.py
+          python scripts/scrape_liveonsat.py
 
       - name: Commit & push JSON
         run: |
           git config --global user.name "gh-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add matches/today.json
-          git commit -m "update today.json [skip ci]" || echo "no changes"
+          git add matches/liveonsat_raw.json
+          git commit -m "update liveonsat_raw.json [skip ci]" || echo "no changes"
           git push
