@@ -1,39 +1,148 @@
 # scripts/scrape_liveonsat.py
-import os, json, datetime as dt, random, time, re
+import os, json, time, random, datetime as dt
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from bs4 import BeautifulSoup, Tag, NavigableString
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 BAGHDAD_TZ = ZoneInfo("Asia/Baghdad")
-DEFAULT_URL = "https://liveonsat.com/2day.php"
+DEFAULT_URL = os.environ.get("FORCE_URL") or "https://liveonsat.com/2day.php"
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = REPO_ROOT / "matches"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "liveonsat_raw.json"
+DBG_HTML = OUT_DIR / "liveonsat_debug.html"
 
 UA_POOL = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/127.0.0.0 Chrome/127.0.0.0 Safari/537.36",
 ]
 
-SPACES = re.compile(r"\s+")
-ST_RE = re.compile(r"\bST:\s*([0-2]?\d:[0-5]\d)\b", re.IGNORECASE)
-COMP_HINTS = re.compile(
-    r"(Liga|League|Cup|Copa|Super|Supercup|Supercopa|Troph|Bundesliga|Serie|Ligue|Primera|Pro|Nations|EURO|World|Qualif|Conference)",
-    re.IGNORECASE,
-)
+JS_EXTRACT = r"""
+() => {
+  const clean = (s) => (s || "").replace(/\s+/g, " ").trim();
+  const out = [];
 
-def clean_text(t: str) -> str:
-    if not t: return ""
-    return SPACES.sub(" ", t).strip()
+  // 1) القالب الأساسي: blockfix
+  const blocks = Array.from(document.querySelectorAll("div.blockfix"));
+  const grabFromBlock = (block) => {
+    // Title
+    const title = clean(block.querySelector("div.fix_text div.fLeft")?.textContent || "");
 
-def get_html_with_playwright(url: str, timeout_ms: int = 90000) -> str:
+    // ST time
+    const stRaw = clean(block.querySelector("div.fLeft_time_live")?.textContent || "");
+    const st = (stRaw.match(/ST:\s*([0-2]?\d:[0-5]\d)/i) || [])[1] || "";
+
+    // Channels
+    const chans = [];
+    block.querySelectorAll("div.fLeft_live table td.chan_col a").forEach(a => {
+      const t = clean(a.textContent);
+      if (t) chans.push(t);
+    });
+    if (chans.length === 0) {
+      block.querySelectorAll("div.fLeft_live table td.chan_col").forEach(td => {
+        const t = clean(td.textContent);
+        if (t) chans.push(t);
+      });
+    }
+
+    // Competition (أقرب عنوان فوق البلوك يحتوي تلميح بطولة)
+    let comp = "";
+    const hints = /(Liga|League|Cup|Copa|Super|Supercup|Supercopa|Troph|Bundesliga|Serie|Ligue|Primera|Pro|Nations|EURO|World|Qualif|Conference)/i;
+    let cur = block;
+    for (let hop = 0; hop < 20 && cur; hop++) {
+      let p = cur.previousSibling;
+      while (p) {
+        if (p.textContent) {
+          const txt = clean(p.textContent);
+          if (txt && hints.test(txt) && !/ST:\s*\d{1,2}:\d{2}/i.test(txt) && txt.length <= 160) {
+            comp = txt;
+            break;
+          }
+        }
+        p = p.previousSibling;
+      }
+      if (comp) break;
+      cur = cur.parentElement;
+    }
+
+    if (title || st || chans.length) {
+      out.push({
+        competition: comp || null,
+        title: title || null,
+        kickoff_baghdad: st || null,
+        channels_raw: Array.from(new Set(chans)),
+      });
+    }
+  };
+
+  if (blocks.length) {
+    blocks.forEach(grabFromBlock);
+    return out;
+  }
+
+  // 2) Fallback: بعض الصفحات ما تستعمل blockfix (نفس البُنية الداخلية)
+  const altBlocks = Array.from(document.querySelectorAll("div.fLeft_live")).map(el => el.closest("div.fLeft"));
+  const seen = new Set();
+  (altBlocks || []).forEach(root => {
+    if (!root || seen.has(root)) return;
+    seen.add(root);
+
+    const title = clean(root.previousElementSibling?.querySelector("div.fix_text div.fLeft")?.textContent
+      || root.parentElement?.querySelector("div.fix_text div.fLeft")?.textContent
+      || "");
+
+    const stRaw = clean(root.querySelector("div.fLeft_time_live")?.textContent || "");
+    const st = (stRaw.match(/ST:\s*([0-2]?\d:[0-5]\d)/i) || [])[1] || "";
+
+    const chans = [];
+    root.querySelectorAll("div.fLeft_live table td.chan_col a").forEach(a => {
+      const t = clean(a.textContent); if (t) chans.push(t);
+    });
+    if (chans.length === 0) {
+      root.querySelectorAll("div.fLeft_live table td.chan_col").forEach(td => {
+        const t = clean(td.textContent); if (t) chans.push(t);
+      });
+    }
+
+    // competition بالـ fallback — نبحث للأعلى شوية
+    let comp = "";
+    const hints = /(Liga|League|Cup|Copa|Super|Supercup|Supercopa|Troph|Bundesliga|Serie|Ligue|Primera|Pro|Nations|EURO|World|Qualif|Conference)/i;
+    let cur = root;
+    for (let hop = 0; hop < 20 && cur; hop++) {
+      let p = cur.previousSibling;
+      while (p) {
+        const txt = clean(p.textContent || "");
+        if (txt && hints.test(txt) && !/ST:\s*\d{1,2}:\d{2}/i.test(txt) && txt.length <= 160) { comp = txt; break; }
+        p = p.previousSibling;
+      }
+      if (comp) break;
+      cur = cur.parentElement;
+    }
+
+    if (title || st || chans.length) {
+      out.push({
+        competition: comp || null,
+        title: title || null,
+        kickoff_baghdad: st || null,
+        channels_raw: Array.from(new Set(chans)),
+      });
+    }
+  });
+
+  return out;
+}
+"""
+
+def gradual_scroll(page):
+    # تفعيل أي lazy content
+    for y in (300, 900, 1500, 2200, 3000, 3800, 4600, 5400, 6200):
+        page.evaluate(f"window.scrollTo(0, {y});")
+        time.sleep(0.12)
+
+def fetch_once(url: str):
     ua = random.choice(UA_POOL)
-    print(f"[LiveOnSat] GET {url} …")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
             "--disable-blink-features=AutomationControlled",
@@ -43,107 +152,47 @@ def get_html_with_playwright(url: str, timeout_ms: int = 90000) -> str:
         ctx = browser.new_context(
             user_agent=ua,
             locale="en-GB",
-            timezone_id="Asia/Baghdad",  # الصفحة أصلاً تعرض GMT+03 (ST)
+            timezone_id="Asia/Baghdad",
             viewport={"width": 1366, "height": 900},
             java_script_enabled=True,
         )
         page = ctx.new_page()
-        page.set_default_timeout(timeout_ms)
+        page.set_default_timeout(90000)
         page.goto("https://google.com", wait_until="domcontentloaded")
-        page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+        page.goto(url, wait_until="domcontentloaded", timeout=90000)
         try:
-            page.wait_for_load_state("networkidle", timeout=20000)
+            page.wait_for_load_state("networkidle", timeout=25000)
         except PWTimeout:
             pass
-        for y in (400, 1000, 1800, 2600, 3600, 4600, 5400):
-            page.evaluate(f"window.scrollTo(0, {y});"); time.sleep(0.12)
+        gradual_scroll(page)
+        items = page.evaluate(JS_EXTRACT)
         html = page.content()
         browser.close()
-        return html
-
-def nearest_competition(block: Tag, max_hops: int = 20) -> str | None:
-    """
-    نلتقط أقرب عنوان بطولة فوق .blockfix: نص بسيط يحتوي تلميحات (League/Cup/Primera…)
-    """
-    cur: Tag | None = block
-    hops = 0
-    while cur and hops < max_hops:
-        prev = cur.previous_sibling
-        while prev:
-            txt = clean_text(prev.get_text() if isinstance(prev, Tag) else str(prev))
-            if txt and COMP_HINTS.search(txt) and "ST:" not in txt and len(txt) <= 160:
-                return txt
-            if isinstance(prev, Tag):
-                # عناصر بارزة داخل السابق
-                for tag in ("b", "strong", "font", "span", "td", "div"):
-                    for el in prev.find_all(tag):
-                        t2 = clean_text(el.get_text())
-                        if t2 and COMP_HINTS.search(t2) and "ST:" not in t2 and len(t2) <= 160:
-                            return t2
-            prev = prev.previous_sibling
-        cur = cur.parent if isinstance(cur, Tag) else None
-        hops += 1
-    return None
-
-def parse_liveonsat(html: str):
-    soup = BeautifulSoup(html, "html.parser")
-    matches = []
-
-    # كل بلوك مباراة بالشكل اللي أرسلته (.blockfix)
-    for block in soup.select("div.blockfix"):
-        # عنوان المباراة
-        title_div = block.select_one("div.fix_text div.fLeft")
-        title = clean_text(title_div.get_text()) if title_div else None
-
-        # وقت ST القريب داخل نفس البلوك
-        time_div = block.select_one("div.fLeft_time_live")
-        kickoff = None
-        if time_div:
-            m = ST_RE.search(clean_text(time_div.get_text()))
-            if m: kickoff = m.group(1)
-
-        # القنوات
-        ch_names: list[str] = []
-        # أولاً: <a> داخل خلايا chan_col
-        for a in block.select("div.fLeft_live table td.chan_col a"):
-            nm = clean_text(a.get_text())
-            if nm: ch_names.append(nm)
-        # لو ماكو <a> نلتقط نص الخلية نفسها
-        if not ch_names:
-            for td in block.select("div.fLeft_live table td.chan_col"):
-                nm = clean_text(td.get_text())
-                if nm: ch_names.append(nm)
-
-        # البطولة (اختياري): أقرب عنوان فوق البلوك
-        competition = nearest_competition(block)
-
-        # خزّن فقط إذا عندنا على الأقل قنوات أو عنوان (نتجنّب الضوضاء)
-        if title or ch_names or kickoff:
-            matches.append({
-                "competition": competition,
-                "title": title,
-                "kickoff_baghdad": kickoff,      # نفس ST بدون تحويل (الموقع GMT+03)
-                "channels_raw": ch_names,        # أسماء القنوات كما بالموقع
-            })
-
-    return matches
+    return items, html
 
 def main():
-    url = os.environ.get("FORCE_URL") or DEFAULT_URL
-    html = get_html_with_playwright(url, timeout_ms=90000)
-    items = parse_liveonsat(html)
+    # محاولة 1: الديسكتوب
+    items, html = fetch_once(DEFAULT_URL)
+
+    # محاولة 2: نسخة الموبايل fallback إذا ما لقينا شي
+    if not items:
+        print("[info] no blocks found on desktop; trying mobile…")
+        items, html = fetch_once("https://m.liveonsat.com/2day.php")
+
+    # إذا بعده فارغ: خزّن الـ HTML للديبَغ حتى تقدر تشوفه بالريبو
+    if not items:
+        DBG_HTML.write_text(html, encoding="utf-8")
+        print(f"[warn] no matches parsed. Wrote debug HTML to {DBG_HTML}")
 
     today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
     out = {
         "date": today,
-        "source_url": url,
+        "source_url": DEFAULT_URL,
         "matches": items,
-        "_note": "channels_raw are copied exactly as shown on LiveOnSat (ST is GMT+03).",
+        "_note": "ST is already GMT+03 (Baghdad). channels_raw as shown on LiveOnSat.",
     }
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-
     print(f"[write] {OUT_PATH} with {len(items)} matches.")
 
 if __name__ == "__main__":
