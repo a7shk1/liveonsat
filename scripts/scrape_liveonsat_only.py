@@ -1,181 +1,180 @@
 # scripts/scrape_liveonsat_only.py
-import re
-import json
-import time
+import os, json, datetime as dt, random, time, re
 from pathlib import Path
-
-import requests
+from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+
+# إعدادات عامة
+BAGHDAD_TZ = ZoneInfo("Asia/Baghdad")
+DEFAULT_URL = "https://liveonsat.com/2day.php"
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = REPO_ROOT / "matches"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "liveonsat_raw.json"
 
-URL = "https://liveonsat.com/2day.php"
+UA_POOL = [
+    # شوية يوزر-أجنتس حديثة (Chrome/Edge)
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/127.0.0.0 Chrome/127.0.0.0 Safari/537.36",
+]
 
-HEADERS = {
-    "user-agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/127.0.0.0 Safari/537.36"
-    ),
-    "accept-language": "en-US,en;q=0.9,ar;q=0.8",
-    "cache-control": "no-cache",
-    "pragma": "no-cache",
-}
+def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
+    """
+    نجيب الـ HTML عبر Playwright/Chromium لتجاوز 403.
+    """
+    ua = random.choice(UA_POOL)
+    print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
 
-def fetch_html(url: str, retries: int = 3, timeout: int = 45) -> str:
-    last_err = None
-    for i in range(retries):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True, args=[
+            "--disable-blink-features=AutomationControlled",
+            "--no-sandbox",
+            "--disable-gpu",
+        ])
+        ctx = browser.new_context(
+            user_agent=ua,
+            locale="en-GB",
+            timezone_id="Asia/Baghdad",  # نخلي التوقيت بغداد حتى ST يقرب لك
+            viewport={"width": 1366, "height": 900},
+            java_script_enabled=True,
+            extra_http_headers={
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9,ar;q=0.5",
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+                "Upgrade-Insecure-Requests": "1",
+            },
+        )
+
+        page = ctx.new_page()
+        page.set_default_timeout(timeout_ms)
+
+        # Referrer بسيط
+        page.goto("https://google.com", wait_until="domcontentloaded")
+        # زيارة الهدف
+        page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
         try:
-            r = requests.get(url, headers=HEADERS, timeout=timeout)
-            r.raise_for_status()
-            return r.text
-        except Exception as e:
-            last_err = e
-            time.sleep(1 + i * 2)
-    raise last_err
+            page.wait_for_load_state("networkidle", timeout=20000)
+        except PWTimeout:
+            pass
 
-def text_clean(s: str) -> str:
-    if not s:
-        return ""
-    # نحافظ على الاسم كما بالموقع، فقط نشيل الفراغات الزائدة والإيموجي المرفقة
-    return (
-        s.replace("📺", "")
-         .replace("[$]", "")
-         .strip()
-    )
+        # لو الصفحة قصيرة، ننزل شوي لتفعيل lazy content
+        for y in (400, 1000, 1800, 2600, 3600):
+            page.evaluate(f"window.scrollTo(0, {y});")
+            time.sleep(0.2)
 
-def guess_match_title(block: BeautifulSoup) -> str:
-    """
-    نبحث داخل نفس الكتلة عن سطر فيه ' v ' (مثل: Brentford v Chelsea).
-    إذا لم نجد، نرجع نصًا فاضيًا.
-    """
-    txt = " ".join(block.get_text(" ", strip=True).split())
-    # الترتيب: league line ثم title ثم ST ثم القنوات. نلتقط أقرب عنوان قبل ST.
-    # نجرّب أولاً التقاط كل العناوين المحتملة:
-    cands = re.findall(r"([^\n\r]+?\s+v\s+[^\n\r]+?)", txt, flags=re.IGNORECASE)
-    if cands:
-        # ناخذ أقصر/أوضح واحدة (غالباً تكون الحقيقية)
-        cands = sorted(set(cands), key=len)
-        return cands[0]
-    return ""
+        html = page.content()
+        browser.close()
+        return html
 
-def split_home_away(title: str):
-    m = re.search(r"(.+?)\s+v\s+(.+)", title, flags=re.IGNORECASE)
-    if m:
-        return m.group(1).strip(), m.group(2).strip()
-    return None, None
+def clean_text(t: str) -> str:
+    if not t: return ""
+    return re.sub(r"\s+", " ", t).strip()
 
 def parse_liveonsat(html: str):
     """
-    يرجع قائمة مباريات:
-    [
-      {
-        "match_title": "Brentford v Chelsea",
-        "home": "Brentford",
-        "away": "Chelsea",
-        "time_st": "22:00",
-        "channels": ["beIN Sports MENA 1 HD", "Sky Sports Premier League HD", ...]
-      },
-      ...
-    ]
+    نقرأ القنوات كما تظهر على الموقع (نفس الأسماء).
+    من الـ DOM اللي عطيتني، القنوات تكون داخل div.fLeft_live
+    ووقت البداية في div.fLeft_time_live
+    واسم المباراة يظهر كسطر سابق لنفس البلوك يحتوي ' v '.
     """
     soup = BeautifulSoup(html, "html.parser")
 
-    # الفكرة: كل مجموعة قنوات لها div.fLeft_time_live (يحمل ST: HH:MM) ومعه div.fLeft_live فيه عدة جداول قنوات.
-    # هنمشي على كل div.fLeft_time_live ونربطه بأقرب كتلة عليا تحتويه (حتى نستخرج عنوان المباراة والقنوات).
-    results_map = {}  # key: (title, time) -> list channels
-
-    time_divs = soup.select("div.fLeft_time_live")
-    for tdiv in time_divs:
-        raw_time = tdiv.get_text(strip=True) or ""
-        mt = re.search(r"ST:\s*(\d{1,2}:\d{2})", raw_time)
-        if not mt:
-            continue
-        time_st = mt.group(1)
-
-        # ابحث عن div.fLeft_live ضمن نفس الكتلة
-        live_div = None
-        parent = tdiv.parent
-        for _ in range(6):
-            if parent is None:
-                break
-            live_div = parent.select_one("div.fLeft_live")
-            if live_div:
-                break
-            parent = parent.parent
-
-        if not live_div:
-            live_div = tdiv.find_next("div", class_="fLeft_live")
-        if not live_div:
-            continue
-
-        # القنوات: كل <a> داخل الجداول
-        channels = []
-        for a in live_div.select("table a"):
-            name = text_clean(a.get_text(" ", strip=True))
-            if name:
-                channels.append(name)
-        # إزالة التكرار مع الحفاظ على الترتيب
-        seen = set()
-        uniq_channels = []
-        for c in channels:
-            if c not in seen:
-                seen.add(c)
-                uniq_channels.append(c)
-
-        # عنوان المباراة: نحاول من نفس كتلة parent العليا
-        block = parent if parent else tdiv
-        match_title = guess_match_title(block)
-        if not match_title:
-            # fallback: شوف قبل div الوقت بقليل
-            prev_txt = " ".join((tdiv.find_previous(string=True) or "").split())
-            pm = re.search(r"(.+?)\s+v\s+(.+)", prev_txt, flags=re.IGNORECASE)
-            if pm:
-                match_title = pm.group(0).strip()
-
-        key = (match_title, time_st)
-        if key in results_map:
-            # دمج قنوات لو تكررت نفس الخانة
-            existing = results_map[key]
-            for c in uniq_channels:
-                if c not in existing:
-                    existing.append(c)
-        else:
-            results_map[key] = uniq_channels
-
-    # صياغة النتيجة النهائية
+    # كل بلوكات القنوات
+    blocks = soup.select("div.fLeft div.fLeft_live")
     matches = []
-    for (title, time_st), chans in results_map.items():
-        home, away = split_home_away(title) if title else (None, None)
+
+    for live_block in blocks:
+        root = live_block.parent  # هذا div.fLeft
+        # وقت البداية (ST: 22:00) إن وجد
+        time_div = root.select_one("div.fLeft_time_live")
+        st_text = clean_text(time_div.get_text()) if time_div else ""
+        kickoff = ""
+        if st_text:
+            m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", st_text)
+            if m:
+                kickoff = m.group(1)
+
+        # نحاول نلقى عنوان المباراة من السطر السابق (غالباً نص فيه ' v ')
+        title = ""
+        # نمشي على الـ previous siblings للـ root ونلتقط أول نص فيه ' v '
+        prev = root.previous_sibling
+        hop = 0
+        while prev and hop < 8 and not title:
+            if hasattr(prev, "get_text"):
+                txt = clean_text(prev.get_text())
+                if " v " in txt or " vs " in txt or " V " in txt:
+                    # غالبًا يكون مثل "Brentford v Chelsea"
+                    # أحيانًا يجي بسطر منفصل ضمن نفس التجمع
+                    # نأخذ أول خط يحتوي v
+                    for line in re.split(r"[\r\n]+", txt):
+                        l = clean_text(line)
+                        if " v " in l or " vs " in l or " V " in l:
+                            title = l
+                            break
+            prev = prev.previous_sibling
+            hop += 1
+
+        # إذا ما لقينا من الأخ، نجرب نصوص أعلى (الوالد/الجد)
+        if not title:
+            parent = root.parent
+            tries = 0
+            while parent and tries < 3 and not title:
+                txt = clean_text(parent.get_text())
+                m2 = re.search(r"([^\n]+ v [^\n]+)", txt)
+                if m2:
+                    title = clean_text(m2.group(1))
+                    break
+                parent = parent.parent
+                tries += 1
+
+        # الآن القنوات: كل جدول داخل fLeft_live يحوي td.chan_col > a
+        ch_names = []
+        for a in live_block.select("table td.chan_col a"):
+            nm = clean_text(a.get_text())
+            if nm:
+                ch_names.append(nm)
+
+        if not ch_names:
+            # كأمان إضافي، أحيانًا القنوات تكون td.chan_col بدون <a>
+            for td in live_block.select("table td.chan_col"):
+                nm = clean_text(td.get_text())
+                if nm:
+                    ch_names.append(nm)
+
+        # نبني عنصر المباراة حتى لو ما عرفنا العنوان — على الأقل القنوات مع وقت ST
         matches.append({
-            "match_title": title or None,
-            "home": home,
-            "away": away,
-            "time_st": time_st,
-            "channels": chans
+            "title": title or None,               # مثال: "Brentford v Chelsea"
+            "kickoff_baghdad": kickoff or None,   # مثال: "22:00"
+            "channels_raw": ch_names,             # نفس الأسماء الظاهرة بالموقع
         })
 
-    # ترتيب اختياري: حسب الوقت ثم العنوان
-    def sort_key(m):
-        return (m["time_st"] or "99:99", m["match_title"] or "")
-    matches.sort(key=sort_key)
     return matches
 
 def main():
-    print("[LiveOnSat] GET", URL)
-    html = fetch_html(URL, retries=3, timeout=45)
-    print("[LiveOnSat] parsing ...")
-    matches = parse_liveonsat(html)
+    url = os.environ.get("FORCE_URL") or DEFAULT_URL
+    print(f"[LiveOnSat] GET {url}")
+    html = get_html_with_playwright(url, timeout_ms=90000)
+
+    items = parse_liveonsat(html)
+    today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
+
     out = {
-        "source": URL,
-        "count": len(matches),
-        "matches": matches
+        "date": today,
+        "source_url": url,
+        "matches": items,
+        "_note": "channels_raw are copied exactly as shown on LiveOnSat",
     }
-    OUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[write] {OUT_PATH}  (matches={len(matches)})")
+
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with OUT_PATH.open("w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+
+    print(f"[write] {OUT_PATH} with {len(items)} matches.")
 
 if __name__ == "__main__":
     main()
