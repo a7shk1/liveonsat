@@ -1,12 +1,12 @@
-name: Scrape (YallaShoot + LiveOnSat) → today.json
+name: Scrape All-In-One → matches/today.json
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # كل 5 دقائق (UTC)
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       force_url:
-        description: "اختياري: URL مخصص ليلا شوت"
+        description: "اختياري: URL ليلا شوت (لو تحب تغيّره)"
         required: false
 
 permissions:
@@ -26,32 +26,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install deps (Playwright + parsing)
         run: |
           python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4 pyyaml requests
+          pip install playwright requests beautifulsoup4
           playwright install --with-deps chromium
 
-      # 1) YallaShoot → matches/today.json
-      - name: Scrape YallaShoot
+      - name: Run all-in-one scraper
         env:
           FORCE_URL: ${{ github.event.inputs.force_url }}
         run: |
-          python scripts/scrape_yallashoot_to_json.py
-
-      # 2) LiveOnSat → matches/liveonsat_raw.json
-      - name: Scrape LiveOnSat
-        run: |
-          python scripts/scrape_liveonsat_only.py
-
-      # 3) Merge → update matches/today.json (adds channels)
-      - name: Merge channels into today.json
-        run: |
-          python scripts/merge_liveonsat_into_yallashoot.py
-          echo "---- matches/today.json (after merge) ----"
+          python scripts/scrape_all_in_one.py
+          echo "---- matches/today.json ----"
           cat matches/today.json || true
 
-      # اسحب آخر التغييرات قبل الدفع لتفادي non-fast-forward
       - name: Pull latest (rebase) to avoid non-fast-forward
         run: |
           git config --global user.name "github-actions[bot]"
@@ -61,7 +49,5 @@ jobs:
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update matches/today.json (merged LiveOnSat channels)"
-          file_pattern: |
-            matches/today.json
-            matches/liveonsat_raw.json
+          commit_message: "chore: update matches/today.json (all-in-one)"
+          file_pattern: matches/today.json
