@@ -5,9 +5,11 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 from html import unescape
 from difflib import SequenceMatcher
+
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+from bs4 import BeautifulSoup
 
 BAGHDAD_TZ = ZoneInfo("Asia/Baghdad")
 DEFAULT_URL = "https://www.yalla1shoot.com/matches-today_1/"
@@ -17,15 +19,15 @@ OUT_DIR = REPO_ROOT / "matches"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "today.json"
 
-# ======================================================
-# LiveOnSat utils
+# ==============================
+# Utils
 def _session_with_retries():
     s = requests.Session()
     retry = Retry(
-        total=5, connect=5, read=5, status=5, backoff_factor=1.2,
+        total=6, connect=6, read=6, status=6,
+        backoff_factor=1.2,
         status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=frozenset(["GET", "HEAD"]),
-        raise_on_status=False
+        allowed_methods=frozenset(["GET", "HEAD"])
     )
     ad = HTTPAdapter(max_retries=retry)
     s.mount("http://", ad); s.mount("https://", ad)
@@ -39,42 +41,10 @@ def fetch_liveonsat_html():
     r.raise_for_status()
     return r.text
 
-def _normspace(s): return re.sub(r"\s+", " ", (s or "").strip())
+def _norm(s): return re.sub(r"\s+", " ", (s or "").strip())
 def _strip_tags(s): return re.sub(r"<[^>]+>", "", s or "")
 
-def parse_liveonsat_basic(html):
-    results = []
-    comp_pat = re.compile(r'<span\s+class="comp_head">(?P<comp>.*?)</span>', re.S)
-    for m in comp_pat.finditer(html):
-        comp = _strip_tags(m.group("comp"))
-        start = m.end()
-        nxt = comp_pat.search(html, start)
-        end = nxt.start() if nxt else len(html)
-        block = html[start:end]
-
-        tm = re.search(r'<div\s+class="fLeft"[^>]*?>\s*([^<]*\sv\s[^<]*)</div>', block)
-        fixture = _normspace(unescape(_strip_tags(tm.group(1))) if tm else "")
-        home = away = ""
-        if " v " in fixture:
-            parts = [p.strip() for p in fixture.split(" v ", 1)]
-            if len(parts) == 2:
-                home, away = parts
-
-        channels = []
-        for live_area in re.finditer(r'<div\s+class="fLeft_live"[^>]*?>(?P<html>.*?)</div>', block, re.S):
-            area = live_area.group("html")
-            for a in re.finditer(r'<a[^>]+class="chan_live_.*?"[^>]*?>(?P<text>.*?)</a>', area, re.S):
-                name = _normspace(unescape(_strip_tags(a.group("text"))))
-                if name:
-                    channels.append({"name": name})
-
-        results.append({
-            "competition": comp, "fixture": fixture,
-            "home": home, "away": away, "channels": channels
-        })
-    return results
-
-def _normalize_team(s):
+def _normalize_team(s: str) -> str:
     s = s or ""
     s = unicodedata.normalize("NFKD", s)
     s = "".join(ch for ch in s if not unicodedata.combining(ch))
@@ -82,13 +52,12 @@ def _normalize_team(s):
     s = re.sub(r"[^a-z0-9]+", " ", s).strip()
     return re.sub(r"\s+", " ", s)
 
-# قاموس عربي→إنجليزي (موسع، زوده تدريجياً حسب الحاجة)
 TEAM_MAP_AR2EN = {
     "الهلال": "Al Hilal", "القادسية": "Al Qadisiyah",
     "يوفنتوس": "Juventus", "إنتر ميلان": "Inter Milan", "انتر ميلان": "Inter Milan",
-    "فيورنتينا": "Fiorentina", "نابولي": "Napoli", "ميلان": "AC Milan",
-    "ايه سي ميلان": "AC Milan", "انتر": "Inter Milan", "روما": "Roma", "لاتسيو": "Lazio",
-    "اتالانتا": "Atalanta", "تورينو": "Torino", "بولونيا": "Bologna", "جنوى": "Genoa", "كالياري": "Cagliari",
+    "فيورنتينا": "Fiorentina", "نابولي": "Napoli", "ميلان": "AC Milan", "ايه سي ميلان": "AC Milan",
+    "روما": "Roma", "لاتسيو": "Lazio", "اتالانتا": "Atalanta", "تورينو": "Torino",
+    "بولونيا": "Bologna", "جنوى": "Genoa", "كالياري": "Cagliari",
     "أتلتيكو مدريد": "Atletico Madrid", "اتلتيكو مدريد": "Atletico Madrid",
     "فياريال": "Villarreal",
     "بلد الوليد": "Real Valladolid", "ألميريا": "Almeria",
@@ -105,7 +74,7 @@ TEAM_MAP_AR2EN = {
     "برشلونة": "Barcelona",
 }
 
-def _to_en(name):
+def _to_en(name: str) -> str:
     name = (name or "").strip()
     return TEAM_MAP_AR2EN.get(name, name)
 
@@ -113,23 +82,126 @@ def _similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 def find_best_los_match(y_home, y_away, los_matches, threshold=0.72):
-    candidates = [(y_home, y_away), (y_away, y_home)]
-    best, best_score = None, -1.0
-    for cand_home, cand_away in candidates:
-        yh = _normalize_team(_to_en(cand_home))
-        ya = _normalize_team(_to_en(cand_away))
-        for m in los_matches:
-            lh = _normalize_team(m.get("home", ""))
-            la = _normalize_team(m.get("away", ""))
-            s1 = _similar(f"{yh} {ya}", f"{lh} {la}")
-            s2 = _similar(f"{yh} {ya}", _normalize_team(m.get("fixture", "")))
-            score = max(s1, s2)
-            if score > best_score:
-                best, best_score = m, score
+    yh = _normalize_team(_to_en(y_home))
+    ya = _normalize_team(_to_en(y_away))
+    best = None
+    best_score = -1.0
+    for m in los_matches:
+        lh = _normalize_team(m.get("home", ""))
+        la = _normalize_team(m.get("away", ""))
+        s1 = _similar(f"{yh} {ya}", f"{lh} {la}")
+        s2 = _similar(f"{yh} {ya}", _normalize_team(m.get("fixture", "")))
+        score = max(s1, s2)
+        if score > best_score:
+            best = m; best_score = score
     return best if best_score >= threshold else None
 
-# ======================================================
-# Scraper (YallaShoot)
+# ==============================
+# Parse LiveOnSat using the structure you sent (fLeft_live)
+def parse_liveonsat(html: str):
+    """
+    يطلع List من المباريات:
+    {
+      'competition': 'Premier League - Week 4',
+      'fixture': 'Brentford v Chelsea',
+      'home': 'Brentford',
+      'away': 'Chelsea',
+      'channels': [ 'beIN Sports MENA 1 HD', 'DAZN 1 Portugal HD', ... ]
+    }
+    """
+    soup = BeautifulSoup(html, "html.parser")
+
+    # كل بلوك قنوات داخل fLeft_live. نطلع أقرب fixture موجود داخل نفس الحاوية.
+    live_divs = soup.select("div.fLeft_live")
+    results = []
+
+    def find_fixture_container(live_div):
+        # نصعد للأب ونفتش عن div.fLeft نصه يحتوي " v "
+        node = live_div
+        for _ in range(5):  # جرّب لحد 5 مستويات للأعلى
+            parent = node.parent
+            if not parent: break
+            # دور على أي div.fLeft جوّا الـ parent نصه فيه v بين الفريقين
+            for d in parent.find_all("div", class_="fLeft"):
+                txt = _norm(d.get_text(" ", strip=True))
+                if " v " in txt.lower():
+                    return parent, txt
+            node = parent
+        return None, ""
+
+    # نحتاج أيضًا التقاط اسم المسابقة إن وجدت قريبة (<span class="comp_head">)
+    comp_heads = []
+    for sp in soup.select("span.comp_head"):
+        comp_heads.append((sp, _norm(sp.get_text(" ", strip=True))))
+
+    def nearest_comp_text(container):
+        # ابحث للأعلى عن أقرب comp_head نصّي
+        node = container
+        for _ in range(6):
+            if not node: break
+            # إذا sibling سابق يحتوي comp_head
+            prev = node.previous_sibling
+            steps = 0
+            while prev and steps < 6:
+                if getattr(prev, "select", None):
+                    span = prev.select_one("span.comp_head")
+                    if span:
+                        return _norm(span.get_text(" ", strip=True))
+                prev = prev.previous_sibling
+                steps += 1
+            node = node.parent
+        return ""
+
+    # اجمع كل العناصر
+    for live in live_divs:
+        container, fixture_txt = find_fixture_container(live)
+        if not container or not fixture_txt:
+            # fallback: جرّب أخذ أول div.fLeft فوق
+            up = live
+            for _ in range(5):
+                up = up.parent
+                if not up: break
+                hint = up.select_one("div.fLeft")
+                if hint:
+                    t = _norm(hint.get_text(" ", strip=True))
+                    if " v " in t.lower():
+                        container = up; fixture_txt = t; break
+
+        if not fixture_txt:
+            continue
+
+        # استخرج home / away
+        fix = _strip_tags(unescape(fixture_txt))
+        fixture = _norm(fix)
+        home, away = "", ""
+        if " v " in fixture.lower():
+            parts = re.split(r"\sv\s", fixture, flags=re.I, maxsplit=1)
+            if len(parts) == 2:
+                home, away = parts[0].strip(), parts[1].strip()
+
+        # القنوات: كل a داخل live يحمل class يبدأ بـ chan_live_
+        channels = []
+        for a in live.select("a"):
+            cls = " ".join(a.get("class", []))
+            if "chan_live" in cls:
+                nm = _norm(unescape(a.get_text(" ", strip=True)))
+                if nm:
+                    channels.append(nm)
+
+        # المسابقة الأقرب
+        comp_text = nearest_comp_text(container)
+
+        results.append({
+            "competition": comp_text,
+            "fixture": fixture,
+            "home": home, "away": away,
+            "channels": [{"name": c} for c in channels]
+        })
+
+    return results
+
+# ==============================
+# YallaShoot part (كما هو مع تعديلات بسيطة)
 def gradual_scroll(page, step=900, pause=0.25):
     last_h = 0
     while True:
@@ -149,7 +221,7 @@ def scrape():
         browser = p.chromium.launch(headless=True)
         ctx = browser.new_context(
             viewport={"width": 1366, "height": 864},
-            user_agent="Mozilla/5.0",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127 Safari/537.36",
             locale="ar",
             timezone_id="Asia/Baghdad",
         )
@@ -197,6 +269,8 @@ def scrape():
         cards = page.evaluate(js)
         browser.close()
 
+    print(f"[found] {len(cards)} cards")
+
     def normalize_status(ar_text: str) -> str:
         t = (ar_text or "").strip()
         if not t: return "NS"
@@ -218,41 +292,42 @@ def scrape():
             "status": normalize_status(c["status_text"]),
             "status_text": c["status_text"],
             "result_text": c["result_text"],
-            "channel": [],  # نعبيها من LiveOnSat (دائماً List)
+            "channel": [],  # سنملؤها من LiveOnSat
             "competition": c["competition"],
             "_source": "yalla1shoot"
         })
 
-    # ======== إحلال القنوات من LiveOnSat (RAW: بدون فلترة/تطبيع) ========
+    # ===== قنوات LiveOnSat (خام كما هي) =====
     try:
         los_html = fetch_liveonsat_html()
-        los_list = parse_liveonsat_basic(los_html)
+        los_matches = parse_liveonsat(los_html)
+
         replaced = 0
         for m in out["matches"]:
-            los_m = find_best_los_match(m["home"], m["away"], los_list, threshold=0.72)
-            chan_set = []
+            los_m = find_best_los_match(m["home"], m["away"], los_matches, threshold=0.72)
+            chan_list = []
             if los_m:
                 for ch in los_m.get("channels", []):
                     nm = (ch.get("name") or "").strip()
                     if nm:
-                        chan_set.append(nm)  # 👈 نضيف الاسم كما هو من LiveOnSat
+                        chan_list.append(nm)
 
-            # خاص: كل مباراة بالدوري الإيطالي → أضف starzplay1 و starzplay2
-            if m.get("competition") and "ايطالي" in m["competition"]:
-                for sp in ["starzplay1", "starzplay2"]:
-                    if sp not in chan_set:
-                        chan_set.append(sp)
+            # خاص: الدوري الإيطالي → أضف starzplay1 و starzplay2
+            comp = m.get("competition", "") or ""
+            if "إيطالي" in comp or "ايطالي" in comp:
+                for sp in ("starzplay1", "starzplay2"):
+                    if sp not in chan_list:
+                        chan_list.append(sp)
 
-            if not chan_set:
-                print(f"[no-channels] {m['home']} vs {m['away']}  (comp={m.get('competition')})")
-
-            m["channel"] = chan_set  # دائماً List
-            if chan_set:
+            m["channel"] = chan_list
+            if chan_list:
                 replaced += 1
+            else:
+                print(f"[no-channels] {m['home']} vs {m['away']} (comp={comp})")
 
-        print(f"[liveonsat] replaced channels for {replaced}/{len(out['matches'])} matches")
+        print(f"[liveonsat] set channels for {replaced}/{len(out['matches'])} matches")
     except Exception as e:
-        print(f"[liveonsat][warn]", e)
+        print("[liveonsat][warn]", e)
 
     with OUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
