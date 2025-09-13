@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       force_url:
-        description: "اختياري: URL مخصص بدل الافتراضي"
+        description: "اختياري: URL مخصص بدل الافتراضي (مثلاً https://liveonsat.com/2day.php)"
         required: false
 
 permissions:
@@ -15,6 +15,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -26,25 +27,32 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps (Playwright + extras)
+      - name: Install deps (requests + bs4)
         run: |
           python -m pip install --upgrade pip
-          pip install playwright pyyaml requests beautifulsoup4
-          playwright install --with-deps chromium
+          pip install requests beautifulsoup4
 
-      - name: Run scraper
+      - name: Run LiveOnSat scraper
         env:
           FORCE_URL: ${{ github.event.inputs.force_url }}
         run: |
-          python scripts/scrape_yallashoot_to_json.py
+          python scripts/scrape_liveonsat_only.py
 
       - name: Show output
         run: |
-          echo "---- matches/today.json ----"
-          cat matches/today.json || true
+          echo "---- matches/liveonsat_raw.json ----"
+          cat matches/liveonsat_raw.json || true
+
+      # معالجة تفرّع الهستوري قبل الدفع (non-fast-forward)
+      - name: Pull latest (rebase) to avoid non-fast-forward
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin "$(git rev-parse --abbrev-ref HEAD)" || true
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update matches/today.json (scraped)"
-          file_pattern: matches/today.json
+          commit_message: "chore: update matches/liveonsat_raw.json (scraped)"
+          file_pattern: matches/liveonsat_raw.json
+          # push_options: '--force-with-lease'   # فعّلها فقط إذا استمرت مشكلة الدفع
