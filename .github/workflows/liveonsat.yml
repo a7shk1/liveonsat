@@ -2,8 +2,7 @@ name: LiveOnSat Daily (Raw + Filtered)
 
 on:
   schedule:
-    # 11:05 UTC ≈ 14:05 Baghdad
-    - cron: "5 11 * * *"
+    - cron: "5 11 * * *"   # 14:05 بغداد
   workflow_dispatch:
 
 permissions:
@@ -35,11 +34,8 @@ jobs:
           python -m playwright install chromium
 
       - name: Scrape LiveOnSat (RAW)
-        # لو عندك رابط بديل، فعّل السطر التالي وحط السر بالريبو:
-        # env:
-        #   FORCE_URL: ${{ secrets.LIVEONSAT_URL }}
         run: |
-          python scripts/scrape_liveonsat_only.py
+          python scripts/scrape_liveonsat.py
 
       - name: Filter whitelist (competitions)
         run: |
