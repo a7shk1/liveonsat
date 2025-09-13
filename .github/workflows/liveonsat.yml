@@ -2,9 +2,12 @@ name: LiveOnSat Daily (Raw + Filtered)
 
 on:
   schedule:
-    # شغّل يومياً 11:05 UTC ≈ 14:05 بغداد (عدّل التوقيت إذا تريد)
+    # 11:05 UTC ≈ 14:05 بغداد
     - cron: "5 11 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-scrapers:
@@ -14,21 +17,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install deps
+      - name: Install system deps (tzdata & playwright deps)
         run: |
+          sudo apt-get update
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
           python -m pip install --upgrade pip
           pip install playwright beautifulsoup4
-          playwright install chromium
+          python -m playwright install-deps
+
+      - name: Install Chromium for Playwright
+        run: |
+          python -m playwright install chromium
 
       - name: Scrape LiveOnSat (RAW)
         env:
-          # تقدر تغيّر الرابط لو عندك صفحة بديلة:
-          # FORCE_URL: ${{ secrets.LIVEONSAT_URL }}
+          # FORCE_URL: ${{ secrets.LIVEONSAT_URL }}  # إذا عندك لينك مخصص
         run: |
           python scripts/scrape_liveonsat_only.py
 
