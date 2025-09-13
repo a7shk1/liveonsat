@@ -15,7 +15,6 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT_PATH = OUT_DIR / "liveonsat_raw.json"
 
 UA_POOL = [
-    # شوية يوزر-أجنتس حديثة (Chrome/Edge)
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0",
@@ -23,9 +22,6 @@ UA_POOL = [
 ]
 
 def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
-    """
-    نجيب الـ HTML عبر Playwright/Chromium لتجاوز 403.
-    """
     ua = random.choice(UA_POOL)
     print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
 
@@ -38,31 +34,20 @@ def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
         ctx = browser.new_context(
             user_agent=ua,
             locale="en-GB",
-            timezone_id="Asia/Baghdad",  # نخلي التوقيت بغداد حتى ST يقرب لك
+            timezone_id="Asia/Baghdad",
             viewport={"width": 1366, "height": 900},
             java_script_enabled=True,
-            extra_http_headers={
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                "Accept-Language": "en-US,en;q=0.9,ar;q=0.5",
-                "Cache-Control": "no-cache",
-                "Pragma": "no-cache",
-                "Upgrade-Insecure-Requests": "1",
-            },
         )
 
         page = ctx.new_page()
         page.set_default_timeout(timeout_ms)
-
-        # Referrer بسيط
         page.goto("https://google.com", wait_until="domcontentloaded")
-        # زيارة الهدف
         page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
         try:
             page.wait_for_load_state("networkidle", timeout=20000)
         except PWTimeout:
             pass
 
-        # لو الصفحة قصيرة، ننزل شوي لتفعيل lazy content
         for y in (400, 1000, 1800, 2600, 3600):
             page.evaluate(f"window.scrollTo(0, {y});")
             time.sleep(0.2)
@@ -76,63 +61,23 @@ def clean_text(t: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 def parse_liveonsat(html: str):
-    """
-    نقرأ القنوات كما تظهر على الموقع (نفس الأسماء).
-    القنوات داخل div.fLeft_live
-    ووقت البداية ST الأقرب لنفس البلوك
-    واسم المباراة كسطر سابق يحتوي ' v '.
-    """
     soup = BeautifulSoup(html, "html.parser")
-
-    ST_RE = re.compile(r"\bST:\s*([0-2]?\d:[0-5]\d)\b", re.IGNORECASE)
-
-    def nearest_st_for_block(live_block):
-        """
-        نلقط ST الأقرب لنفس بلوك القنوات:
-        - نفحص الأشقاء السابقين ثم اللاحقين
-        - كـ fallback نفحص داخل الأب div.fLeft
-        """
-        root = live_block.parent  # div.fLeft
-
-        # 1) الأشقاء السابقين
-        sib = live_block.previous_sibling
-        hops = 0
-        while sib and hops < 12:
-            txt = clean_text(getattr(sib, "get_text", lambda: "")())
-            m = ST_RE.search(txt)
-            if m: return m.group(1)
-            sib = sib.previous_sibling
-            hops += 1
-
-        # 2) الأشقاء اللاحقين
-        sib = live_block.next_sibling
-        hops = 0
-        while sib and hops < 12:
-            txt = clean_text(getattr(sib, "get_text", lambda: "")())
-            m = ST_RE.search(txt)
-            if m: return m.group(1)
-            sib = sib.next_sibling
-            hops += 1
-
-        # 3) fallback: داخل نفس الأب
-        time_div = root.select_one("div.fLeft_time_live")
-        if time_div:
-            m = ST_RE.search(clean_text(time_div.get_text()))
-            if m: return m.group(1)
-
-        return None
-
-    # كل بلوكات القنوات
-    blocks = soup.select("div.fLeft div.fLeft_live")
     matches = []
 
+    blocks = soup.select("div.fLeft div.fLeft_live")
     for live_block in blocks:
-        root = live_block.parent  # هذا div.fLeft
+        root = live_block.parent  # div.fLeft
 
-        # ---- الوقت (ST) الأقرب لهذا البلوك تحديداً ----
-        kickoff = nearest_st_for_block(live_block)
+        # الوقت: نقرأه كما هو من div.fLeft_time_live
+        time_div = root.select_one("div.fLeft_time_live")
+        kickoff = None
+        if time_div:
+            txt = clean_text(time_div.get_text())
+            m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", txt)
+            if m:
+                kickoff = m.group(1)
 
-        # ---- عنوان المباراة (حسب منطقك الأصلي) ----
+        # العنوان (Team v Team)
         title = ""
         prev = root.previous_sibling
         hop = 0
@@ -160,24 +105,22 @@ def parse_liveonsat(html: str):
                 parent = parent.parent
                 tries += 1
 
-        # ---- القنوات (كما هي) ----
+        # القنوات
         ch_names = []
         for a in live_block.select("table td.chan_col a"):
             nm = clean_text(a.get_text())
             if nm:
                 ch_names.append(nm)
-
         if not ch_names:
             for td in live_block.select("table td.chan_col"):
                 nm = clean_text(td.get_text())
                 if nm:
                     ch_names.append(nm)
 
-        # نبني عنصر المباراة
         matches.append({
-            "title": title or None,               # مثال: "Rionegro Águilas v Independiente Medellín"
-            "kickoff_baghdad": kickoff or None,   # مثال: "02:00" (ST كما هو، GMT+03)
-            "channels_raw": ch_names,             # نفس الأسماء الظاهرة بالموقع
+            "title": title or None,
+            "kickoff_baghdad": kickoff or None,  # نفس النص من ST (GMT+03)
+            "channels_raw": ch_names,
         })
 
     return matches
@@ -194,7 +137,7 @@ def main():
         "date": today,
         "source_url": url,
         "matches": items,
-        "_note": "kickoff_baghdad is copied from ST (GMT+03) exactly; channels_raw are as shown on LiveOnSat.",
+        "_note": "kickoff_baghdad is taken directly from ST (GMT+03, same as Baghdad).",
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
