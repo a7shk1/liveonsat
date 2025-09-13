@@ -1,110 +1,133 @@
-# scripts/filter_liveonsat_whitelist.py
-import json, re
+# scripts/scrape_liveonsat.py
+import os, json, datetime as dt, random, time, re
 from pathlib import Path
+from zoneinfo import ZoneInfo
+from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+
+BAGHDAD_TZ = ZoneInfo("Asia/Baghdad")
+DEFAULT_URL = "https://liveonsat.com/2day.php"
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-IN_PATH  = REPO_ROOT / "matches" / "liveonsat_raw.json"
-OUT_PATH = REPO_ROOT / "matches" / "liveonsat_filtered.json"
+OUT_DIR = REPO_ROOT / "matches"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+OUT_PATH = OUT_DIR / "liveonsat_raw.json"
 
-# ----- Whitelist (English) -----
-# leagues (top 5)
-LEAGUES = [
-    r"\bPremier League\b",                     # England
-    r"\bLa Liga\b|\bPrimera Division\b",      # Spain
-    r"\bSerie A\b",                            # Italy
-    r"\bBundesliga\b",                         # Germany
-    r"\bLigue 1\b",                            # France
+UA_POOL = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/127.0.0.0 Chrome/127.0.0.0 Safari/537.36",
 ]
 
-# domestic cups & super cups
-DOMESTIC_CUPS = [
-    r"\bCopa del Rey\b",                       # Spain
-    r"\bSupercopa de España\b|\bSpanish Super Cup\b",
-    r"\bCoppa Italia\b",                       # Italy
-    r"\bSupercoppa Italiana\b|\bItalian Super Cup\b",
-    r"\bCoupe de France\b|\bFrench Cup\b",     # France
-    r"\bTroph[ée]e des Champions\b|\bFrench Super Cup\b",
-    r"\bDFB[- ]Pokal\b|\bGerman Cup\b",        # Germany
-    r"\bDFL[- ]Supercup\b|\bGerman Super Cup\b",
-    r"\bFA Cup\b",                              # England
-    r"\bEFL Cup\b|\bCarabao Cup\b|\bEnglish Football League Cup\b",
-]
+def get_html_with_playwright(url: str, timeout_ms: int = 60000) -> str:
+    ua = random.choice(UA_POOL)
+    print(f"[LiveOnSat] Playwright GET {url} with UA={ua[:30]}...")
 
-# clubs – continental & international
-CLUB_INTL = [
-    r"\bUEFA Champions League\b",
-    r"\bUEFA Europa League\b",
-    r"\bUEFA Europa Conference League\b",
-    r"\bFIFA Club World Cup\b",
-]
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True, args=[
+            "--disable-blink-features=AutomationControlled",
+            "--no-sandbox",
+            "--disable-gpu",
+        ])
+        ctx = browser.new_context(
+            user_agent=ua,
+            locale="en-GB",
+            timezone_id="Asia/Baghdad",
+            viewport={"width": 1366, "height": 900},
+            java_script_enabled=True,
+        )
 
-# national teams
-NATIONAL_TEAMS = [
-    r"\bFIFA World Cup\b",  # finals
-    r"\bWorld Cup Qualif(ier|ying|iers)\b|\bWC Qualifiers\b",
-    r"\bWorld Cup Play[- ]offs?\b|\bIntercontinental Play[- ]offs?\b|\bPlay[- ]off\b",
-    r"\bUEFA Nations League\b",
-    r"\bUEFA European Championship\b|\bUEFA EURO\b|\bEURO(?:\s20\d{2})?\b",
-    r"\bCopa Am[eé]rica\b",
-    r"\bAfrica Cup of Nations\b|\bAFCON\b",
-    r"\bAFC Asian Cup\b",
-    r"\bArab Cup\b",
-]
+        page = ctx.new_page()
+        page.set_default_timeout(timeout_ms)
 
-# اجمع كل الأنماط ضمن قائمة واحدة
-WHITELIST_PATTERNS = [
-    *LEAGUES, *DOMESTIC_CUPS, *CLUB_INTL, *NATIONAL_TEAMS
-]
-WHITELIST_REGEX = re.compile("|".join(f"(?:{p})" for p in WHITELIST_PATTERNS), re.IGNORECASE)
+        page.goto("https://google.com", wait_until="domcontentloaded")
+        page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+        try:
+            page.wait_for_load_state("networkidle", timeout=20000)
+        except PWTimeout:
+            pass
 
-# تنظيف بسيط لنص العنوان
-SPACES = re.compile(r"\s+")
-def clean_text(s: str) -> str:
-    if not s: return ""
-    return SPACES.sub(" ", s).strip()
+        for y in (400, 1000, 1800, 2600, 3600):
+            page.evaluate(f"window.scrollTo(0, {y});")
+            time.sleep(0.2)
 
-def match_competition(title: str):
-    """رجّع النص الذي طابق، حتى نخزّنه كـ matched_tag للمراجعة."""
-    if not title:
-        return None
-    for pat in WHITELIST_PATTERNS:
-        if re.search(pat, title, flags=re.IGNORECASE):
-            return pat
-    return None
+        html = page.content()
+        browser.close()
+        return html
+
+def clean_text(t: str) -> str:
+    if not t: return ""
+    return re.sub(r"\s+", " ", t).strip()
+
+def parse_liveonsat(html: str):
+    soup = BeautifulSoup(html, "html.parser")
+    blocks = soup.select("div.fLeft div.fLeft_live")
+    matches = []
+
+    for live_block in blocks:
+        root = live_block.parent
+        time_div = root.select_one("div.fLeft_time_live")
+        st_text = clean_text(time_div.get_text()) if time_div else ""
+        kickoff = ""
+        if st_text:
+            m = re.search(r"ST:\s*([0-2]?\d:[0-5]\d)", st_text)
+            if m:
+                kickoff = m.group(1)
+
+        title = ""
+        prev = root.previous_sibling
+        hop = 0
+        while prev and hop < 8 and not title:
+            if hasattr(prev, "get_text"):
+                txt = clean_text(prev.get_text())
+                if " v " in txt or " vs " in txt or " V " in txt:
+                    for line in re.split(r"[\r\n]+", txt):
+                        l = clean_text(line)
+                        if " v " in l or " vs " in l or " V " in l:
+                            title = l
+                            break
+            prev = prev.previous_sibling
+            hop += 1
+
+        ch_names = []
+        for a in live_block.select("table td.chan_col a"):
+            nm = clean_text(a.get_text())
+            if nm:
+                ch_names.append(nm)
+        if not ch_names:
+            for td in live_block.select("table td.chan_col"):
+                nm = clean_text(td.get_text())
+                if nm:
+                    ch_names.append(nm)
+
+        matches.append({
+            "title": title or None,
+            "kickoff_baghdad": kickoff or None,
+            "channels_raw": ch_names,
+        })
+
+    return matches
 
 def main():
-    if not IN_PATH.exists():
-        raise FileNotFoundError(f"Input JSON not found: {IN_PATH}")
+    url = os.environ.get("FORCE_URL") or DEFAULT_URL
+    print(f"[LiveOnSat] GET {url}")
+    html = get_html_with_playwright(url, timeout_ms=90000)
+    items = parse_liveonsat(html)
+    today = dt.datetime.now(BAGHDAD_TZ).date().isoformat()
 
-    with IN_PATH.open("r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    items = data.get("matches", [])
-    filtered = []
-    for it in items:
-        title = clean_text(it.get("title") or "")
-        # ملاحظة: LiveOnSat غالباً ما يذكر البطولة قرب البلوك،
-        # لو العنوان ما يحتوي البطولة قد تنفلت بعض المباريات.
-        # نبدأ بهيك نهج محافظ، وإذا احتجت نضيف "context scraping" لاحقاً.
-        tag = match_competition(title)
-        if tag:
-            new_item = dict(it)
-            new_item["title"] = title
-            new_item["matched_tag"] = tag
-            filtered.append(new_item)
-
-    out = dict(data)
-    out["matches"] = filtered
-    out["_filter_note"] = (
-        "Applied whitelist on title text only. If some competitions are missing from titles, "
-        "we can extend parser to capture surrounding headings/sections."
-    )
+    out = {
+        "date": today,
+        "source_url": url,
+        "matches": items,
+        "_note": "channels_raw are copied exactly as shown on LiveOnSat",
+    }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
-    print(f"[filter] kept {len(filtered)} / {len(items)}. Wrote {OUT_PATH}")
+    print(f"[write] {OUT_PATH} with {len(items)} matches.")
 
 if __name__ == "__main__":
     main()
