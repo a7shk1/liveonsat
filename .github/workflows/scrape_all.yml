@@ -1,4 +1,4 @@
-name: Scrape LiveOnSat (liveonsat_raw.json)
+name: Scrape (YallaShoot + LiveOnSat) → today.json
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       force_url:
-        description: "اختياري: URL مخصص بدل الافتراضي (مثلاً https://liveonsat.com/2day.php)"
+        description: "اختياري: URL مخصص ليلا شوت"
         required: false
 
 permissions:
@@ -15,7 +15,6 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -27,24 +26,32 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps (Playwright + bs4)
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4
+          pip install playwright beautifulsoup4 pyyaml requests
           playwright install --with-deps chromium
 
-      - name: Run LiveOnSat scraper
+      # 1) YallaShoot → matches/today.json
+      - name: Scrape YallaShoot
         env:
           FORCE_URL: ${{ github.event.inputs.force_url }}
         run: |
+          python scripts/scrape_yallashoot_to_json.py
+
+      # 2) LiveOnSat → matches/liveonsat_raw.json
+      - name: Scrape LiveOnSat
+        run: |
           python scripts/scrape_liveonsat_only.py
 
-      - name: Show output
+      # 3) Merge → update matches/today.json (adds channels)
+      - name: Merge channels into today.json
         run: |
-          echo "---- matches/liveonsat_raw.json ----"
-          cat matches/liveonsat_raw.json || true
+          python scripts/merge_liveonsat_into_yallashoot.py
+          echo "---- matches/today.json (after merge) ----"
+          cat matches/today.json || true
 
-      # اسحب آخر تغييرات قبل الدفع (لتفادي non-fast-forward)
+      # اسحب آخر التغييرات قبل الدفع لتفادي non-fast-forward
       - name: Pull latest (rebase) to avoid non-fast-forward
         run: |
           git config --global user.name "github-actions[bot]"
@@ -54,5 +61,7 @@ jobs:
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update matches/liveonsat_raw.json (scraped)"
-          file_pattern: matches/liveonsat_raw.json
+          commit_message: "chore: update matches/today.json (merged LiveOnSat channels)"
+          file_pattern: |
+            matches/today.json
+            matches/liveonsat_raw.json
