@@ -1,53 +1,37 @@
-name: Scrape All-In-One → matches/today.json
+name: Daily Matches Scraper
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
-  workflow_dispatch:
-    inputs:
-      force_url:
-        description: "اختياري: URL ليلا شوت (لو تحب تغيّره)"
-        required: false
-
-permissions:
-  contents: write
+    - cron: "0 10 * * *"   # كل يوم 10:00 UTC (يعني 13:00 بغداد)
+  workflow_dispatch:       # تقدر تشغله يدوي
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install deps (Playwright + parsing)
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install playwright requests beautifulsoup4
-          playwright install --with-deps chromium
+          pip install playwright
+          playwright install chromium
 
-      - name: Run all-in-one scraper
-        env:
-          FORCE_URL: ${{ github.event.inputs.force_url }}
+      - name: Run scraper
         run: |
-          python scripts/scrape_all_in_one.py
-          echo "---- matches/today.json ----"
-          cat matches/today.json || true
+          python scripts/scrape_yallashoot_with_liveonsat.py
 
-      - name: Pull latest (rebase) to avoid non-fast-forward
+      - name: Commit & push JSON
         run: |
-          git config --global user.name "github-actions[bot]"
+          git config --global user.name "gh-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin "$(git rev-parse --abbrev-ref HEAD)" || true
-
-      - name: Commit & push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update matches/today.json (all-in-one)"
-          file_pattern: matches/today.json
+          git add matches/today.json
+          git commit -m "update matches json [skip ci]" || echo "no changes"
+          git push
