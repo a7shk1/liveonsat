@@ -12,7 +12,7 @@ INPUT_PATH = MATCHES_DIR / "liveonsat_raw.json"
 OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 YALLASHOOT_URL = "https://raw.githubusercontent.com/a7shk1/yallashoot/refs/heads/main/matches/today.json"
 
-# --- القواميس اليدوية للترجمة والفلترة ---
+# --- ✨ قائمة البطولات النهائية (مثبتة حسب طلبك) ✨ ---
 TRANSLATION_MAP = {
     "English Premier League": "الدوري الإنجليزي الممتاز", "Spanish La Liga (Primera)": "الدوري الإسباني",
     "Italian Serie A": "الدوري الإيطالي", "German 1. Bundesliga": "الدوري الألماني", "French Ligue 1": "الدوري الفرنسي",
@@ -29,7 +29,7 @@ TRANSLATION_MAP = {
 }
 LEAGUE_KEYWORDS = list(TRANSLATION_MAP.keys())
 
-# --- ✨ قاموس الفرق العملاق (الأكثر اكتمالاً حتى الآن) ✨ ---
+# --- ✨ قاموس الفرق النهائي (مثبت حسب طلبك) ✨ ---
 TEAM_NAME_MAP = {
     # Saudi Arabia
     "Al-Hilal": "الهلال", "Al-Nassr": "النصر", "Al-Ittihad": "الاتحاد", "Al-Ahli": "الأهلي", "Al-Shabab": "الشباب",
@@ -69,57 +69,31 @@ TEAM_NAME_MAP = {
     "Flamengo": "فلامنغو", "Palmeiras": "بالميراس", "Boca Juniors": "بوكا جونيورز", "River Plate": "ريفر بليت",
 }
 
+# --- ✨ قائمة القنوات النهائية (مثبتة حسب طلبك) ✨ ---
 CHANNEL_KEYWORDS = [
-    "beIN Sports 1 HD",
-    "beIN Sports 2 HD",
-    "beIN Sports 3 HD",
-    "MATCH! Futbol 1",
-    "MATCH! Futbol 2",
-    "MATCH! Futbol 3",
-    "Football HD (tjk)",
-    "Sport TV1 Portugal HD",
-    "Sport TV2 Portugal HD",
-    "ESPN 1 Brazil",
-    "ESPN 2 Brazil",
-    "ESPN 3 Brazil",
-    "ESPN 4 Brazil",
-    "ESPN 5 Brazil",
-    "ESPN 6 Brazil",
-    "ESPN 7 Brazil",
-    "DAZN 1 Portugal HD",
-    "DAZN 2 Portugal HD",
-    "DAZN 3 Portugal HD",
-    "DAZN 4 Portugal HD",
-    "DAZN 5 Portugal HD",
-    "DAZN 6 Portugal HD",
-    "MATCH! Premier HD",
-    "Sky Sports Main Event HD",
-    "Sky Sport Premier League HD",
-    "IRIB Varzesh HD",
-    "Persiana Sport HD",
-    "MBC Action HD",
-    "TNT Sports 1 HD",
-    "TNT Sports 2 HD",
-    "TNT Sports HD",
-    "MBC masrHD",
-    "MBC masr2HD",
-    "ssc1 hd",
-    "ssc2 hd",
-    "Shahid MBC",
+    "beIN Sports 1 HD", "beIN Sports 2 HD", "beIN Sports 3 HD", "MATCH! Futbol 1", "MATCH! Futbol 2",
+    "MATCH! Futbol 3", "Football HD (tjk)", "Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
+    "ESPN 1 Brazil", "ESPN 2 Brazil", "ESPN 3 Brazil", "ESPN 4 Brazil", "ESPN 5 Brazil", "ESPN 6 Brazil", "ESPN 7 Brazil",
+    "DAZN 1 Portugal HD", "DAZN 2 Portugal HD", "DAZN 3 Portugal HD", "DAZN 4 Portugal HD", "DAZN 5 Portugal HD", "DAZN 6 Portugal HD",
+    "MATCH! Premier HD", "Sky Sports Main Event HD", "Sky Sport Premier League HD", "IRIB Varzesh HD",
+    "Persiana Sport HD", "MBC Action HD", "TNT Sports 1 HD", "TNT Sports 2 HD", "TNT Sports HD",
+    "MBC masrHD", "MBC masr2HD", "ssc1 hd", "ssc2 hd", "Shahid MBC",
 ]
 
-def normalize_name(name):
-    """'تنظيف' الاسم للمطابقة: إزالة المسافات، الـ التعريف، fc/sc، وجعله بأحرف صغيرة"""
-    if not name: return ""
-    name = re.sub(r'\(.*?\)', '', name)
-    name = name.lower().replace(" ", "").replace("ال-", "").replace("ال", "").replace("fc", "").replace("sc", "").strip()
-    return name
 
-def translate_text(text, translator, cache, manual_map):
-    text_stripped = text.strip()
-    for key, value in manual_map.items():
-        if key.lower() in text_stripped.lower():
-            return value
+def normalize_text(text):
+    if not text: return ""
+    text = re.sub(r'\(.*?\)', '', text)
+    text = text.lower().replace(" ", "").replace("-", "").replace("ال", "")
+    text = text.replace("fc", "").replace("sc", "").replace("cf", "")
+    return text.strip()
+
+def translate_text(text_en, translator, cache, manual_map):
+    text_stripped = text_en.strip()
+    normalized_text_en = normalize_text(text_stripped)
+    for key_en, value_ar in manual_map.items():
+        if normalize_text(key_en) == normalized_text_en:
+            return value_ar
     if text_stripped not in cache:
         cache[text_stripped] = translator.translate(text_stripped, dest='ar').text
     return cache[text_stripped]
@@ -138,16 +112,18 @@ def filter_matches_by_league():
     translator = Translator()
     translation_cache = {}
     yallashoot_map = {}
+    yallashoot_keys_for_debug = []
     try:
-        response = requests.get(YALLASHOOT_URL, timeout=10)
+        response = requests.get(YALLASHOOT_URL, timeout=15)
         response.raise_for_status()
         yallashoot_data = response.json()
         for match in yallashoot_data.get("matches", []):
             home = match.get("home", "").strip()
             away = match.get("away", "").strip()
             if home and away:
-                match_key = f"{normalize_name(home)}-{normalize_name(away)}"
+                match_key = f"{normalize_text(home)}-{normalize_text(away)}"
                 yallashoot_map[match_key] = match
+                yallashoot_keys_for_debug.append(match_key)
         print(f"Successfully created a map of {len(yallashoot_map)} matches from yallashoot.")
     except requests.exceptions.RequestException as e:
         print(f"WARNING: Could not fetch extra data. Error: {e}")
@@ -191,15 +167,23 @@ def filter_matches_by_league():
                 }
                 
                 if home_team_ar and away_team_ar:
-                    lookup_key = f"{normalize_name(home_team_ar)}-{normalize_name(away_team_ar)}"
+                    lookup_key = f"{normalize_text(home_team_ar)}-{normalize_text(away_team_ar)}"
                     found_match = yallashoot_map.get(lookup_key)
+                    
                     if found_match:
                         new_match_entry.update({
-                            "home_logo": found_match.get("home_logo"),
-                            "away_logo": found_match.get("away_logo"),
-                            "status_text": found_match.get("status_text"),
-                            "result_text": found_match.get("result_text")
+                            "home_logo": found_match.get("home_logo"), "away_logo": found_match.get("away_logo"),
+                            "status_text": found_match.get("status_text"), "result_text": found_match.get("result_text")
                         })
+                    else:
+                        print("\n" + "="*20)
+                        print(f"[DEBUG] Match not found for: {home_team_ar} vs {away_team_ar}")
+                        print(f"  - Generated Key: '{lookup_key}'")
+                        similar_keys = [key for key in yallashoot_keys_for_debug if normalize_text(home_team_ar) in key or normalize_text(away_team_ar) in key]
+                        if similar_keys:
+                            print(f"  - Did you mean one of these keys from yallashoot.json? {similar_keys[:3]}")
+                        print("="*20 + "\n")
+
                 filtered_list.append(new_match_entry)
 
             except Exception as e:
