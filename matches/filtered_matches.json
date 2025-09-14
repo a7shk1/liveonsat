@@ -3,9 +3,10 @@
   "source_url": "https://liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
-      "title": "روما ضد تورينو",
+      "competition": "الدوري الإيطالي",
       "kickoff_baghdad": "13:30",
+      "home_team": "روما",
+      "away_team": "تورينو",
       "channels_raw": [
         "Football HD (tjk)",
         "MATCH! Futbol 1 HD",
@@ -13,9 +14,10 @@
       ]
     },
     {
-      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
-      "title": "سيلتا فيجو في جيرونا",
+      "competition": "الدوري الإسباني",
       "kickoff_baghdad": "15:00",
+      "home_team": "سيلتا فيجو",
+      "away_team": "جيرونا",
       "channels_raw": [
         "beIN Sports 1 HD (Astro)",
         "DAZN 2 Portugal HD",
@@ -23,9 +25,10 @@
       ]
     },
     {
-      "competition": "الدوري الإنجليزي الممتاز - الأسبوع 4",
-      "title": "بيرنلي ضد ليفربول",
+      "competition": "الدوري الإنجليزي الممتاز",
       "kickoff_baghdad": "16:00",
+      "home_team": "بيرنلي",
+      "away_team": "ليفربول",
       "channels_raw": [
         "DAZN 1 Portugal HD",
         "ESPN 1 Brazil HD",
@@ -35,34 +38,38 @@
       ]
     },
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
-      "title": "Atalanta في Lecce",
+      "competition": "الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
+      "home_team": "أتالانتا",
+      "away_team": "lecce",
       "channels_raw": [
         "MATCH! Futbol 1 HD"
       ]
     },
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
-      "title": "كتب في دهشة",
+      "competition": "الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
+      "home_team": "بيزا",
+      "away_team": "udinese",
       "channels_raw": [
         "MATCH! Futbol 3 HD"
       ]
     },
     {
-      "competition": "الألمانية 1. البوندسليجا - الأسبوع 3",
-      "title": "سانت باولي في أوغسبورغ",
+      "competition": "الدوري الألماني",
       "kickoff_baghdad": "16:30",
+      "home_team": "سانت باولي",
+      "away_team": "أوغسبورغ",
       "channels_raw": [
         "beIN Sports 3 HD (Astro)",
         "DAZN 3 Portugal HD"
       ]
     },
     {
-      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
-      "title": "Levante v real betis",
+      "competition": "الدوري الإسباني",
       "kickoff_baghdad": "17:15",
+      "home_team": "ليفانتي",
+      "away_team": "بيتيس الحقيقي",
       "channels_raw": [
         "beIN Sports 1 HD (Astro)",
         "DAZN 2 Portugal HD",
@@ -70,9 +77,10 @@
       ]
     },
     {
-      "competition": "الدوري الإنجليزي الممتاز - الأسبوع 4",
-      "title": "مانشستر سيتي ضد مانشستر يونايتد",
+      "competition": "الدوري الإنجليزي الممتاز",
       "kickoff_baghdad": "18:30",
+      "home_team": "مانشستر سيتي",
+      "away_team": "مانشستر يونايتد",
       "channels_raw": [
         "DAZN 1 Portugal HD",
         "ESPN 1 Brazil HD",
@@ -82,9 +90,10 @@
       ]
     },
     {
-      "competition": "الألمانية 1. البوندسليجا - الأسبوع 3",
-      "title": "Mönchengladbach v Werder Bremen",
+      "competition": "الدوري الألماني",
       "kickoff_baghdad": "18:30",
+      "home_team": "Mönchengladbach",
+      "away_team": "فيردر بريمن",
       "channels_raw": [
         "beIN Sports 3 HD (Astro)",
         "DAZN 3 Portugal HD",
@@ -92,34 +101,38 @@
       ]
     },
     {
-      "competition": "الدوري المهني السعودي - الأسبوع 2",
-      "title": "الراياد ضد النجما",
+      "competition": "دوري المحترفين السعودي",
       "kickoff_baghdad": "18:35",
+      "home_team": "الرياض",
+      "away_team": "آل الإيجار",
       "channels_raw": [
         "Shahid MBC ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "الدوري المهني السعودي - الأسبوع 2",
-      "title": "DAMAC FC في Nemo SC",
+      "competition": "دوري المحترفين السعودي",
       "kickoff_baghdad": "18:50",
+      "home_team": "DAMAC FC",
+      "away_team": "نوم SC",
       "channels_raw": [
         "Shahid MBC ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
-      "title": "Sassuolo v Lazio",
+      "competition": "الدوري الإيطالي",
       "kickoff_baghdad": "19:00",
+      "home_team": "ساسوولو",
+      "away_team": "لاتسيو",
       "channels_raw": [
         "ESPN 4 Brazil HD",
         "MATCH! Futbol 1 HD"
       ]
     },
     {
-      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
-      "title": "Osasuna v Ray Vallecano",
+      "competition": "الدوري الإسباني",
       "kickoff_baghdad": "19:30",
+      "home_team": "صحة",
+      "away_team": "راي فاليكانو",
       "channels_raw": [
         "beIN Sports 1 HD (Astro)",
         "DAZN 2 Portugal HD",
@@ -127,17 +140,19 @@
       ]
     },
     {
-      "competition": "الدوري المهني السعودي - الأسبوع 2",
-      "title": "آل نصر ضد خول",
+      "competition": "دوري المحترفين السعودي",
       "kickoff_baghdad": "21:00",
+      "home_team": "Al Nassr",
+      "away_team": "كولد",
       "channels_raw": [
         "Shahid MBC ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
-      "title": "AC Milan v Bologna",
+      "competition": "الدوري الإيطالي",
       "kickoff_baghdad": "21:45",
+      "home_team": "AC ميلانو",
+      "away_team": "بولونيا",
       "channels_raw": [
         "Football HD (tjk)",
         "MATCH! Futbol 1 HD",
@@ -146,9 +161,10 @@
       ]
     },
     {
-      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
-      "title": "برشلونة في فالنسيا",
+      "competition": "الدوري الإسباني",
       "kickoff_baghdad": "22:00",
+      "home_team": "برشلونة",
+      "away_team": "فالنسيا",
       "channels_raw": [
         "beIN Sports 1 HD (Astro)",
         "DAZN 1 Portugal HD",
