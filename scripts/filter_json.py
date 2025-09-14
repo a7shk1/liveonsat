@@ -57,9 +57,57 @@ TEAM_NAME_MAP = {
     "Werder Bremen": "فيردر بريمن", "St. Pauli": "سانت باولي", "Augsburg": "أوغسبورغ", "Borussia Mönchengladbach": "بوروسيا مونشنغلادباخ",
     # France
     "Paris Saint-Germain": "باريس سان جيرمان", "AS Monaco": "موناكو", "Marseille": "مارسيليا",
+     # Netherlands
+    "PSV Eindhoven": "آيندهوفن", "Feyenoord": "فاينورد", "Ajax": "أياكس",
+    # Portugal
+    "Sporting CP": "سبورتينغ لشبونة", "Benfica": "بنفيكا", "Porto": "بورتو", "Braga": "سبورتينغ براغا",
+    # Turkey
+    "Galatasaray": "غلطة سراي", "Fenerbahçe": "فنربخشة",
+    # Egypt
+    "Al Ahly": "الأهلي", "Zamalek": "الزمالك", "Pyramids FC": "بيراميدز",
+    # Brazil & Argentina
+    "Flamengo": "فلامنغو", "Palmeiras": "بالميراس", "Boca Juniors": "بوكا جونيورز", "River Plate": "ريفر بليت",
+}
 }
 
-CHANNEL_KEYWORDS = [ "beIN", "SSC", "Abu Dhabi Sport", "Alkass", "Dubai Sport", "MATCH!", "Sport TV", "ESPN", "DAZN", "Sky Sports", "TNT Sports", "Shahid" ]
+CHANNEL_KEYWORDS = [
+    "beIN Sports 1 HD",
+    "beIN Sports 2 HD",
+    "beIN Sports 3 HD",
+    "MATCH! Futbol 1",
+    "MATCH! Futbol 2",
+    "MATCH! Futbol 3",
+    "Football HD (tjk)",
+    "Sport TV1 Portugal HD",
+    "Sport TV2 Portugal HD",
+    "ESPN 1 Brazil",
+    "ESPN 2 Brazil",
+    "ESPN 3 Brazil",
+    "ESPN 4 Brazil",
+    "ESPN 5 Brazil",
+    "ESPN 6 Brazil",
+    "ESPN 7 Brazil",
+    "DAZN 1 Portugal HD",
+    "DAZN 2 Portugal HD",
+    "DAZN 3 Portugal HD",
+    "DAZN 4 Portugal HD",
+    "DAZN 5 Portugal HD",
+    "DAZN 6 Portugal HD",
+    "MATCH! Premier HD",
+    "Sky Sports Main Event HD",
+    "Sky Sport Premier League HD",
+    "IRIB Varzesh HD",
+    "Persiana Sport HD",
+    "MBC Action HD",
+    "TNT Sports 1 HD",
+    "TNT Sports 2 HD",
+    "TNT Sports HD",
+    "MBC masrHD",
+    "MBC masr2HD",
+    "ssc1 hd",
+    "ssc2 hd",
+    "Shahid MBC",
+]
 
 def normalize_name(name):
     """'تنظيف' الاسم للمطابقة: إزالة المسافات، الـ التعريف، fc/sc، وجعله بأحرف صغيرة"""
