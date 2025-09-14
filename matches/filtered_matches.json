@@ -10,6 +10,7 @@
       "channels_raw": [
         "Football HD (tjk)",
         "MATCH! Futbol 1 HD",
+        "STARZPLAY Sports 1",
         "Sport TV2 Portugal HD"
       ]
     },
@@ -19,9 +20,9 @@
       "home_team": "سيلتا فيغو",
       "away_team": "جيرونا",
       "channels_raw": [
-        "beIN Sports 1 HD (Astro)",
         "DAZN 2 Portugal HD",
-        "MATCH! Futbol 2 HD"
+        "MATCH! Futbol 2 HD",
+        "beIN Sports 1 HD (Astro)"
       ]
     },
     {
@@ -43,16 +44,18 @@
       "home_team": "أتالانتا",
       "away_team": "ليتشي",
       "channels_raw": [
-        "MATCH! Futbol 1 HD"
+        "MATCH! Futbol 1 HD",
+        "STARZPLAY Sports 1"
       ]
     },
     {
       "competition": "الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
       "home_team": "بيزا",
-      "away_team": "udinese",
+      "away_team": "أودينيزي",
       "channels_raw": [
-        "MATCH! Futbol 3 HD"
+        "MATCH! Futbol 3 HD",
+        "STARZPLAY Sports 1"
       ]
     },
     {
@@ -61,8 +64,8 @@
       "home_team": "سانت باولي",
       "away_team": "أوغسبورغ",
       "channels_raw": [
-        "beIN Sports 3 HD (Astro)",
-        "DAZN 3 Portugal HD"
+        "DAZN 3 Portugal HD",
+        "beIN Sports 3 HD (Astro)"
       ]
     },
     {
@@ -71,9 +74,9 @@
       "home_team": "ليفانتي",
       "away_team": "ريال بيتيس",
       "channels_raw": [
-        "beIN Sports 1 HD (Astro)",
         "DAZN 2 Portugal HD",
-        "MATCH! Futbol 2 HD"
+        "MATCH! Futbol 2 HD",
+        "beIN Sports 1 HD (Astro)"
       ]
     },
     {
@@ -92,21 +95,22 @@
     {
       "competition": "الدوري الألماني",
       "kickoff_baghdad": "18:30",
-      "home_team": "بوروسيا مونشنغلادباخ",
+      "home_team": "Mönchengladbach",
       "away_team": "فيردر بريمن",
       "channels_raw": [
-        "beIN Sports 3 HD (Astro)",
         "DAZN 3 Portugal HD",
-        "MBC Action HD"
+        "MBC Action HD",
+        "beIN Sports 3 HD (Astro)"
       ]
     },
     {
       "competition": "دوري المحترفين السعودي",
       "kickoff_baghdad": "18:35",
       "home_team": "الرياض",
-      "away_team": "النجمة",
+      "away_team": "آل الإيجار",
       "channels_raw": [
-        "Shahid MBC ($/geo/R) 📺"
+        "Shahid MBC ($/geo/R) 📺",
+        "Thmanyah 1 HD"
       ]
     },
     {
@@ -115,7 +119,8 @@
       "home_team": "ضمك",
       "away_team": "نيوم",
       "channels_raw": [
-        "Shahid MBC ($/geo/R) 📺"
+        "Shahid MBC ($/geo/R) 📺",
+        "Thmanyah 1 HD"
       ]
     },
     {
@@ -125,7 +130,8 @@
       "away_team": "لاتسيو",
       "channels_raw": [
         "ESPN 4 Brazil HD",
-        "MATCH! Futbol 1 HD"
+        "MATCH! Futbol 1 HD",
+        "STARZPLAY Sports 1"
       ]
     },
     {
@@ -134,18 +140,19 @@
       "home_team": "أوساسونا",
       "away_team": "رايو فاليكانو",
       "channels_raw": [
-        "beIN Sports 1 HD (Astro)",
         "DAZN 2 Portugal HD",
-        "MATCH! Futbol 2 HD"
+        "MATCH! Futbol 2 HD",
+        "beIN Sports 1 HD (Astro)"
       ]
     },
     {
       "competition": "دوري المحترفين السعودي",
       "kickoff_baghdad": "21:00",
-      "home_team": "النصر",
-      "away_team": "كولد",
+      "home_team": "Al Nassr",
+      "away_team": "الخلود",
       "channels_raw": [
-        "Shahid MBC ($/geo/R) 📺"
+        "Shahid MBC ($/geo/R) 📺",
+        "Thmanyah 1 HD"
       ]
     },
     {
@@ -156,6 +163,7 @@
       "channels_raw": [
         "Football HD (tjk)",
         "MATCH! Futbol 1 HD",
+        "STARZPLAY Sports 1",
         "Sport TV2 Portugal HD",
         "TNT Sports 1 HD"
       ]
@@ -166,11 +174,11 @@
       "home_team": "برشلونة",
       "away_team": "فالنسيا",
       "channels_raw": [
-        "beIN Sports 1 HD (Astro)",
         "DAZN 1 Portugal HD",
         "ESPN 1 Brazil HD",
         "MATCH! Futbol 2 HD",
-        "Persiana Sport HD"
+        "Persiana Sport HD",
+        "beIN Sports 1 HD (Astro)"
       ]
     }
   ]
