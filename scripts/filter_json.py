@@ -173,22 +173,32 @@ TEAM_NAME_MAP = {
     "Flamengo": "فلامنغو", "Palmeiras": "بالميراس", "Boca Juniors": "بوكا جونيورز", "River Plate": "ريفر بليت",
 }
 
-TEAM_ALIASES = {
-    "Gladbach": "بوروسيا مونشنغلادباخ",
-}
+TEAM_ALIASES = {"Gladbach": "بوروسيا مونشنغلادباخ"}
 
 # --- ✨ قنوات + تنظيف ✨ ---
+# NOTE: حذفنا Astro/ST/SuperSport من القائمة + سنمنعها بالـ blocklist أيضًا
 CHANNEL_KEYWORDS = [
-    # ملاحظة: قنوات beIN نضيفها فقط من yallashoot
+    # beIN تُدار بمنطق منفصل (من yalla فقط)
     "beIN Sports 1 HD", "beIN Sports 2 HD", "beIN Sports 3 HD",
     "MATCH! Futbol 1", "MATCH! Futbol 2", "MATCH! Futbol 3",
-    "Football HD","Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
+    "Football HD",
+    "Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
     "ESPN 1 Brazil", "ESPN 2 Brazil", "ESPN 3 Brazil", "ESPN 4 Brazil", "ESPN 5 Brazil", "ESPN 6 Brazil", "ESPN 7 Brazil",
     "DAZN 1 Portugal HD", "DAZN 2 Portugal HD", "DAZN 3 Portugal HD", "DAZN 4 Portugal HD", "DAZN 5 Portugal HD", "DAZN 6 Portugal HD",
     "MATCH! Premier HD", "Sky Sports Main Event HD", "Sky Sport Premier League HD", "IRIB Varzesh HD",
     "Persiana Sport HD", "MBC Action HD", "TNT Sports 1 HD", "TNT Sports 2 HD", "TNT Sports HD",
     "MBC masrHD", "MBC masr2HD", "ssc1 hd", "ssc2 hd", "Shahid MBC",
 ]
+
+# قنوات ممنوعة نهائيًا (من المصدرين كليهما)
+CHANNEL_BLOCKLIST = {s.lower(): True for s in [
+    "Astro Football HD",
+    "ST World Football HD",
+    "SuperSport Football HD",
+]}
+
+def is_blocked_channel(name: str) -> bool:
+    return (name or "").lower().strip() in CHANNEL_BLOCKLIST
 
 def clean_channel_name(name: str) -> str:
     if not name: return ""
@@ -249,7 +259,7 @@ def in_yalla(yalla_map: dict, home_ar: str, away_ar: str):
         return yalla_map[k2]
     return None
 
-# ---- NEW: اجمع قنوات yalla (تشمل حقل "channel" المفرد) ----
+# تجميع قنوات yalla (تشمل حقول channel المفردة)
 SPLIT_RE = re.compile(r'\s*(?:,|،|/|\||&| و | and )\s*', re.IGNORECASE)
 
 def to_list_channels(val):
@@ -258,13 +268,11 @@ def to_list_channels(val):
     if isinstance(val, str):
         if not val.strip():
             return []
-        # فك أي فواصل شائعة
         parts = [p.strip() for p in SPLIT_RE.split(val) if p.strip()]
         return parts if parts else [val.strip()]
     return []
 
 def collect_yalla_channels(yalla_match: dict) -> list:
-    # نجرب مفاتيح مختلفة شائعة في yalla
     keys_try = [
         "channels_raw", "channels", "tv_channels",
         "channel", "channel_ar", "channel_en",
@@ -274,8 +282,9 @@ def collect_yalla_channels(yalla_match: dict) -> list:
     for k in keys_try:
         if k in yalla_match:
             out.extend(to_list_channels(yalla_match.get(k)))
-    # إزالة فراغات زائدة وحفظ الترتيب
     out = [c.strip() for c in out if c and c.strip()]
+    # شيل البلوك ليست
+    out = [c for c in out if not is_blocked_channel(c)]
     return unique_preserving(out)
 
 def filter_matches_by_league():
@@ -329,26 +338,28 @@ def filter_matches_by_league():
         home_team = translate_team_or_fallback(home_en)
         away_team = translate_team_or_fallback(away_en)
 
-        # --- الشرط: لازم تكون نفس المباراة موجودة في yallashoot ---
+        # لازم تكون نفس المباراة موجودة في yallashoot
         found = in_yalla(yallashoot_map, home_team, away_team)
         if not found:
             print(f"[SKIP] Not in yallashoot: {home_team} vs {away_team}")
             continue
 
-        # قنوات (غير beIN) من الملف الأول
+        # قنوات (غير beIN) من الملف الأول + شيل البلوك ليست
         original_channels = match_data.get("channels_raw", []) or []
         non_bein_channels = []
         for ch in original_channels:
             ch_str = str(ch or "")
             if is_bein_channel(ch_str):
                 continue  # تجاهل beIN من الملف الأول
+            if is_blocked_channel(ch_str):
+                continue  # شيل Astro/ST/SuperSport
             ch_l = ch_str.lower()
             for kw in CHANNEL_KEYWORDS:
                 if kw.lower() in ch_l:
                     non_bein_channels.append(clean_channel_name(ch_str))
                     break
 
-        # beIN من yallashoot فقط (كما هي)
+        # beIN من yallashoot فقط (كما هي) + شيل البلوك ليست (ما يفترض تكون beIN)
         bein_from_yalla = []
         yalla_channels = collect_yalla_channels(found)
         for ch in yalla_channels:
@@ -363,9 +374,7 @@ def filter_matches_by_league():
             channels.append("Thmanyah 1 HD")
         if "الإيطالي" in competition_ar and not contains_ignore_case(channels, "STARZPLAY Sports 1"):
             channels.append("STARZPLAY Sports 1")
-        # الدوري الفرنسي: ضمّن beIN SPORTS 4 HD دائمًا
-        if "الدوري الفرنسي" in competition_ar and not contains_ignore_case(channels, "beIN SPORTS 4 HD"):
-            channels.append("beIN SPORTS 4 HD")
+        # ملاحظة: أزلنا إضافة beIN SPORTS 4 HD التلقائية للدوري الفرنسي
 
         new_match_entry = {
             "competition": competition_ar,
@@ -397,7 +406,7 @@ def filter_matches_by_league():
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Process complete. (Strict intersection with yallashoot; beIN from yalla only; Ligue 1 adds beIN SPORTS 4 HD)")
+    print("Process complete. (Intersection with yallashoot; beIN from yalla only; removed Astro/ST/SuperSport; no auto beIN SPORTS 4 HD for Ligue 1)")
 
 if __name__ == "__main__":
     filter_matches_by_league()
