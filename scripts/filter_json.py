@@ -12,45 +12,24 @@ INPUT_PATH = MATCHES_DIR / "liveonsat_raw.json"
 OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 YALLASHOOT_URL = "https://raw.githubusercontent.com/a7shk1/yallashoot/refs/heads/main/matches/today.json"
 
-
-# --- ✨ القاموس اليدوي الكامل للبطولات (تمت استعادته بالكامل) ✨ ---
+# --- القواميس اليدوية للترجمة والفلترة ---
 TRANSLATION_MAP = {
-    "English Premier League": "الدوري الإنجليزي الممتاز",
-    "Spanish La Liga (Primera)": "الدوري الإسباني",
-    "Italian Serie A": "الدوري الإيطالي",
-    "German 1. Bundesliga": "الدوري الألماني",
-    "French Ligue 1": "الدوري الفرنسي",
-    "English FA Cup": "كأس الاتحاد الإنجليزي",
-    "English League Cup": "كأس الرابطة الإنجليزية",
-    "Carabao Cup": "كأس كاراباو",
-    "EFL Cup": "كأس الرابطة الإنجليزية",
-    "Community Shield": "الدرع الخيرية الإنجليزية",
-    "Copa del Rey": "كأس ملك إسبانيا",
-    "Supercopa": "كأس السوبر الإسباني",
-    "Italian Cup (Coppa Italia)": "كأس إيطاليا",
-    "Supercoppa Italiana": "كأس السوبر الإيطالي",
-    "DFB-Pokal": "كأس ألمانيا",
-    "DFL-Supercup": "كأس السوبر الألماني",
-    "Coupe de France": "كأس فرنسا",
-    "Trophée des Champions": "كأس الأبطال الفرنسي",
-    "Champions League": "دوري أبطال أوروبا",
-    "Europa League": "الدوري الأوروبي",
-    "Conference League": "دوري المؤتمر الأوروبي",
-    "Club World Cup": "كأس العالم للأندية",
-    "World Cup": "كأس العالم",
-    "WC Qualifier": "تصفيات كأس العالم",
-    "UEFA Euro": "بطولة أمم أوروبا (اليورو)",
-    "Copa America": "كوبا أمريكا",
-    "Africa Cup of Nations": "كأس الأمم الأفريقية",
-    "AFCON": "كأس الأمم الأفريقية",
-    "AFC Asian Cup": "كأس آسيا",
-    "Nations League": "دوري الأمم",
-    "Arab Cup": "كأس العرب",
+    "English Premier League": "الدوري الإنجليزي الممتاز", "Spanish La Liga (Primera)": "الدوري الإسباني",
+    "Italian Serie A": "الدوري الإيطالي", "German 1. Bundesliga": "الدوري الألماني", "French Ligue 1": "الدوري الفرنسي",
+    "English FA Cup": "كأس الاتحاد الإنجليزي", "Carabao Cup": "كأس كاراباو", "EFL Cup": "كأس الرابطة الإنجليزية",
+    "Community Shield": "الدرع الخيرية الإنجليزية", "Copa del Rey": "كأس ملك إسبانيا", "Supercopa": "كأس السوبر الإسباني",
+    "Italian Cup (Coppa Italia)": "كأس إيطاليا", "Supercoppa Italiana": "كأس السوبر الإيطالي",
+    "DFB-Pokal": "كأس ألمانيا", "DFL-Supercup": "كأس السوبر الألماني", "Coupe de France": "كأس فرنسا",
+    "Trophée des Champions": "كأس الأبطال الفرنسي", "Champions League": "دوري أبطال أوروبا", "Europa League": "الدوري الأوروبي",
+    "Conference League": "دوري المؤتمر الأوروبي", "Club World Cup": "كأس العالم للأندية",
+    "World Cup": "كأس العالم", "WC Qualifier": "تصفيات كأس العالم", "UEFA Euro": "بطولة أمم أوروبا (اليورو)",
+    "Copa America": "كوبا أمريكا", "Africa Cup of Nations": "كأس الأمم الأفريقية", "AFCON": "كأس الأمم الأفريقية",
+    "AFC Asian Cup": "كأس آسيا", "Nations League": "دوري الأمم", "Arab Cup": "كأس العرب",
     "Saudi Professional League": "دوري المحترفين السعودي",
 }
 LEAGUE_KEYWORDS = list(TRANSLATION_MAP.keys())
 
-# --- ✨ قاموس الفرق الموسع ✨ ---
+# --- ✨ قاموس الفرق العملاق (الأكثر اكتمالاً حتى الآن) ✨ ---
 TEAM_NAME_MAP = {
     # Saudi Arabia
     "Al-Hilal": "الهلال", "Al-Nassr": "النصر", "Al-Ittihad": "الاتحاد", "Al-Ahli": "الأهلي", "Al-Shabab": "الشباب",
@@ -62,44 +41,42 @@ TEAM_NAME_MAP = {
     "Chelsea": "تشيلسي", "Tottenham Hotspur": "توتنهام هوتسبير", "Newcastle United": "نيوكاسل يونايتد", "Aston Villa": "أستون فيلا",
     "West Ham United": "وست هام يونايتد", "Brighton & Hove Albion": "برايتون", "Fulham": "فولام", "Crystal Palace": "كريستال بالاس",
     "Brentford": "برينتفورد", "Wolverhampton Wanderers": "ولفرهامبتون", "Everton": "إيفرتون", "Nottingham Forest": "نوتنغهام فورست",
-    "Bournemouth": "بورنموث", "Ipswich Town": "إيبسويتش تاون", "Leicester City": "ليستر سيتي", "Southampton": "ساوثهامبتون",
+    "Bournemouth": "بورنموث", "Ipswich Town": "إيبسويتش تاون", "Leicester City": "ليستر سيتي", "Southampton": "ساوثهامبتون", "Burnley": "بيرنلي",
     # Spain
     "Real Madrid": "ريال مدريد", "Barcelona": "برشلونة", "Atlético Madrid": "أتلتيكو مدريد", "Girona": "جيرونا",
     "Athletic Bilbao": "أتلتيك بيلباو", "Real Sociedad": "ريال سوسيداد", "Real Betis": "ريال بيتيس", "Valencia": "فالنسيا",
     "Villarreal": "فياريال", "Getafe": "خيتافي", "Osasuna": "أوساسونا", "Sevilla": "إشبيلية", "Celta Vigo": "سيلتا فيغو",
-    "Rayo Vallecano": "رايو فاليكانو", "Las Palmas": "لاس بالماس", "Alavés": "ألافيس", "Mallorca": "ريال مايوركا",
+    "Rayo Vallecano": "رايو فاليكانو", "Las Palmas": "لاس بالماس", "Alavés": "ألافيس", "Mallorca": "ريال مايوركا", "Levante": "ليفانتي",
     # Italy
     "Inter": "إنتر ميلان", "AC Milan": "ميلان", "Juventus": "يوفنتوس", "Bologna": "بولونيا", "Roma": "روما",
     "Atalanta": "أتالانتا", "Napoli": "نابولي", "Fiorentina": "فيورنتينا", "Lazio": "لاتسيو", "Torino": "تورينو",
+    "Genoa": "جنوى", "Monza": "مونزا", "Lecce": "ليتشي", "Udinese": "أودينيزي", "Sassuolo": "ساسوولو", "Pisa": "بيزا",
     # Germany
     "Bayer Leverkusen": "باير ليفركوزن", "VfB Stuttgart": "شتوتغارت", "Bayern Munich": "بايرن ميونخ",
     "RB Leipzig": "لايبزيغ", "Borussia Dortmund": "بوروسيا دورتموند", "Eintracht Frankfurt": "آينتراخت فرانكفورت",
-    "Borussia Mönchengladbach": "بوروسيا مونشنغلادباخ",
+    "Werder Bremen": "فيردر بريمن", "St. Pauli": "سانت باولي", "Augsburg": "أوغسبورغ", "Borussia Mönchengladbach": "بوروسيا مونشنغلادباخ",
     # France
     "Paris Saint-Germain": "باريس سان جيرمان", "AS Monaco": "موناكو", "Marseille": "مارسيليا",
 }
 
-# --- ✨ قائمة القنوات الحرفية والكاملة ✨ ---
-CHANNEL_KEYWORDS = [
-    "beIN Sports 1 HD", "beIN Sports 2 HD", "beIN Sports 3 HD", "MATCH! Futbol 1", "MATCH! Futbol 2",
-    "MATCH! Futbol 3", "Football HD (tjk)", "Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
-    "ESPN 1 Brazil", "ESPN 2 Brazil", "ESPN 3 Brazil", "ESPN 4 Brazil", "ESPN 5 Brazil", "ESPN 6 Brazil", "ESPN 7 Brazil",
-    "DAZN 1 Portugal HD", "DAZN 2 Portugal HD", "DAZN 3 Portugal HD", "DAZN 4 Portugal HD", "DAZN 5 Portugal HD", "DAZN 6 Portugal HD",
-    "MATCH! Premier HD", "Sky Sports Main Event HD", "Sky Sport Premier League HD", "IRIB Varzesh HD",
-    "Persiana Sport HD", "MBC Action HD", "TNT Sports 1 HD", "TNT Sports 2 HD", "TNT Sports HD",
-    "MBC masrHD", "MBC masr2HD", "ssc1 hd", "ssc2 hd", "Shahid MBC",
-]
-
+CHANNEL_KEYWORDS = [ "beIN", "SSC", "Abu Dhabi Sport", "Alkass", "Dubai Sport", "MATCH!", "Sport TV", "ESPN", "DAZN", "Sky Sports", "TNT Sports", "Shahid" ]
 
 def normalize_name(name):
+    """'تنظيف' الاسم للمطابقة: إزالة المسافات، الـ التعريف، fc/sc، وجعله بأحرف صغيرة"""
     if not name: return ""
-    return name.lower().replace(" ", "").replace("ال-", "").replace("ال", "").strip()
+    # نزيل كل شيء بين القوسين أولاً
+    name = re.sub(r'\(.*?\)', '', name)
+    # نزيل الكلمات غير المرغوبة والمسافات الزائدة
+    name = name.lower().replace(" ", "").replace("ال-", "").replace("ال", "").replace("fc", "").replace("sc", "").strip()
+    return name
 
 def translate_text(text, translator, cache, manual_map):
     text_stripped = text.strip()
+    # البحث أولاً في القاموس اليدوي
     for key, value in manual_map.items():
         if key.lower() in text_stripped.lower():
             return value
+    # إذا لم يوجد، استخدم الترجمة الآلية
     if text_stripped not in cache:
         cache[text_stripped] = translator.translate(text_stripped, dest='ar').text
     return cache[text_stripped]
@@ -117,6 +94,7 @@ def parse_and_translate_title(title, translator, cache, team_map):
 def filter_matches_by_league():
     translator = Translator()
     translation_cache = {}
+
     yallashoot_map = {}
     try:
         response = requests.get(YALLASHOOT_URL, timeout=10)
@@ -171,12 +149,15 @@ def filter_matches_by_league():
                 }
                 
                 if home_team_ar and away_team_ar:
+                    # استخدام الأسماء 'النظيفة' للبحث في الخريطة
                     lookup_key = f"{normalize_name(home_team_ar)}-{normalize_name(away_team_ar)}"
                     found_match = yallashoot_map.get(lookup_key)
                     if found_match:
                         new_match_entry.update({
-                            "home_logo": found_match.get("home_logo"), "away_logo": found_match.get("away_logo"),
-                            "status_text": found_match.get("status_text"), "result_text": found_match.get("result_text")
+                            "home_logo": found_match.get("home_logo"),
+                            "away_logo": found_match.get("away_logo"),
+                            "status_text": found_match.get("status_text"),
+                            "result_text": found_match.get("result_text")
                         })
                 filtered_list.append(new_match_entry)
 
