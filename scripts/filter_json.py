@@ -57,7 +57,7 @@ TEAM_NAME_MAP = {
     "Werder Bremen": "فيردر بريمن", "St. Pauli": "سانت باولي", "Augsburg": "أوغسبورغ", "Borussia Mönchengladbach": "بوروسيا مونشنغلادباخ",
     # France
     "Paris Saint-Germain": "باريس سان جيرمان", "AS Monaco": "موناكو", "Marseille": "مارسيليا",
-     # Netherlands
+    # Netherlands
     "PSV Eindhoven": "آيندهوفن", "Feyenoord": "فاينورد", "Ajax": "أياكس",
     # Portugal
     "Sporting CP": "سبورتينغ لشبونة", "Benfica": "بنفيكا", "Porto": "بورتو", "Braga": "سبورتينغ براغا",
@@ -67,7 +67,6 @@ TEAM_NAME_MAP = {
     "Al Ahly": "الأهلي", "Zamalek": "الزمالك", "Pyramids FC": "بيراميدز",
     # Brazil & Argentina
     "Flamengo": "فلامنغو", "Palmeiras": "بالميراس", "Boca Juniors": "بوكا جونيورز", "River Plate": "ريفر بليت",
-}
 }
 
 CHANNEL_KEYWORDS = [
@@ -112,19 +111,15 @@ CHANNEL_KEYWORDS = [
 def normalize_name(name):
     """'تنظيف' الاسم للمطابقة: إزالة المسافات، الـ التعريف، fc/sc، وجعله بأحرف صغيرة"""
     if not name: return ""
-    # نزيل كل شيء بين القوسين أولاً
     name = re.sub(r'\(.*?\)', '', name)
-    # نزيل الكلمات غير المرغوبة والمسافات الزائدة
     name = name.lower().replace(" ", "").replace("ال-", "").replace("ال", "").replace("fc", "").replace("sc", "").strip()
     return name
 
 def translate_text(text, translator, cache, manual_map):
     text_stripped = text.strip()
-    # البحث أولاً في القاموس اليدوي
     for key, value in manual_map.items():
         if key.lower() in text_stripped.lower():
             return value
-    # إذا لم يوجد، استخدم الترجمة الآلية
     if text_stripped not in cache:
         cache[text_stripped] = translator.translate(text_stripped, dest='ar').text
     return cache[text_stripped]
@@ -142,7 +137,6 @@ def parse_and_translate_title(title, translator, cache, team_map):
 def filter_matches_by_league():
     translator = Translator()
     translation_cache = {}
-
     yallashoot_map = {}
     try:
         response = requests.get(YALLASHOOT_URL, timeout=10)
@@ -197,7 +191,6 @@ def filter_matches_by_league():
                 }
                 
                 if home_team_ar and away_team_ar:
-                    # استخدام الأسماء 'النظيفة' للبحث في الخريطة
                     lookup_key = f"{normalize_name(home_team_ar)}-{normalize_name(away_team_ar)}"
                     found_match = yallashoot_map.get(lookup_key)
                     if found_match:
