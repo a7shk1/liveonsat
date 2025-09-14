@@ -1,23 +1,52 @@
 # scripts/filter_json.py
 import json
+import re
 from pathlib import Path
 from googletrans import Translator
 
+# --- الإعدادات الأساسية ---
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MATCHES_DIR = REPO_ROOT / "matches"
 INPUT_PATH = MATCHES_DIR / "liveonsat_raw.json"
 OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 
-LEAGUE_KEYWORDS = [
-    "English Premier League", "Spanish La Liga (Primera)", "Italian Serie A",
-    "German 1. Bundesliga", "French Ligue 1", "English League Cup", "Carabao Cup",
-    "EFL Cup", "Community Shield", "Copa del Rey", "Supercopa", "Italian Cup (Coppa Italia)",
-    "Supercoppa Italiana", "DFB-Pokal", "DFL-Supercup", "Coupe de France",
-    "Trophée des Champions", "Champions League", "Europa League", "Conference League",
-    "Club World Cup", "World Cup", "WC Qualifier", "UEFA Euro", "Copa America",
-    "Africa Cup of Nations", "AFCON", "AFC Asian Cup", "Nations League", "Arab Cup",
-    "Saudi Professional League",
-]
+
+# --- ✨ القاموس اليدوي لترجمة نظيفة للدوريات ✨ ---
+TRANSLATION_MAP = {
+    "English Premier League": "الدوري الإنجليزي الممتاز",
+    "Spanish La Liga (Primera)": "الدوري الإسباني",
+    "Italian Serie A": "الدوري الإيطالي",
+    "German 1. Bundesliga": "الدوري الألماني",
+    "French Ligue 1": "الدوري الفرنسي",
+    "English League Cup": "كأس الرابطة الإنجليزية",
+    "Carabao Cup": "كأس كاراباو",
+    "EFL Cup": "كأس الرابطة الإنجليزية",
+    "Community Shield": "الدرع الخيرية الإنجليزية",
+    "Copa del Rey": "كأس ملك إسبانيا",
+    "Supercopa": "كأس السوبر الإسباني",
+    "Italian Cup (Coppa Italia)": "كأس إيطاليا",
+    "Supercoppa Italiana": "كأس السوبر الإيطالي",
+    "DFB-Pokal": "كأس ألمانيا",
+    "DFL-Supercup": "كأس السوبر الألماني",
+    "Coupe de France": "كأس فرنسا",
+    "Trophée des Champions": "كأس الأبطال الفرنسي",
+    "Champions League": "دوري أبطال أوروبا",
+    "Europa League": "الدوري الأوروبي",
+    "Conference League": "دوري المؤتمر الأوروبي",
+    "Club World Cup": "كأس العالم للأندية",
+    "World Cup": "كأس العالم",
+    "WC Qualifier": "تصفيات كأس العالم",
+    "UEFA Euro": "بطولة أمم أوروبا (اليورو)",
+    "Copa America": "كوبا أمريكا",
+    "Africa Cup of Nations": "كأس الأمم الأفريقية",
+    "AFCON": "كأس الأمم الأفريقية",
+    "AFC Asian Cup": "كأس آسيا",
+    "Nations League": "دوري الأمم",
+    "Arab Cup": "كأس العرب",
+    "Saudi Professional League": "دوري المحترفين السعودي",
+}
+LEAGUE_KEYWORDS = list(TRANSLATION_MAP.keys())
+
 CHANNEL_KEYWORDS = [
     "beIN Sports 1 HD", "beIN Sports 2 HD", "beIN Sports 3 HD", "MATCH! Futbol 1", "MATCH! Futbol 2",
     "MATCH! Futbol 3", "Football HD (tjk)", "Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
@@ -27,6 +56,33 @@ CHANNEL_KEYWORDS = [
     "Persiana Sport HD", "MBC Action HD", "TNT Sports 1 HD", "TNT Sports 2 HD", "TNT Sports HD",
     "MBC masrHD", "MBC masr2HD", "ssc1 hd", "ssc2 hd", "Shahid MBC",
 ]
+
+def translate_with_map_fallback(text, translator, cache, t_map):
+    # البحث أولاً في القاموس اليدوي عن تطابق جزئي
+    for key, value in t_map.items():
+        if key.lower() in text.lower():
+            return value
+    # إذا لم يوجد، استخدم الترجمة الآلية مع الكاش
+    if text not in cache:
+        cache[text] = translator.translate(text, dest='ar').text
+    return cache[text]
+
+def parse_and_translate_title(title, translator, cache):
+    # محاولة فصل الفريقين
+    teams = re.split(r'\s+v(?:s)?\s+', title, flags=re.IGNORECASE)
+    if len(teams) == 2:
+        home_team, away_team = teams
+        # ترجمة كل فريق على حدة
+        if home_team not in cache:
+            cache[home_team] = translator.translate(home_team.strip(), dest='ar').text
+        if away_team not in cache:
+            cache[away_team] = translator.translate(away_team.strip(), dest='ar').text
+        return cache[home_team], cache[away_team]
+    else:
+        # إذا فشل الفصل، نترجم العنوان كاملاً كخطة بديلة
+        if title not in cache:
+            cache[title] = translator.translate(title, dest='ar').text
+        return cache[title], None
 
 def filter_matches_by_league():
     translator = Translator()
@@ -40,31 +96,42 @@ def filter_matches_by_league():
     if not all_matches: return
     
     filtered_list = []
-    for match in all_matches:
-        competition = match.get("competition", "")
-        if not competition or "women" in competition.lower(): continue
+    for match_data in all_matches:
+        competition_en = match_data.get("competition", "")
+        if not competition_en or "women" in competition_en.lower(): continue
+        
         for keyword in LEAGUE_KEYWORDS:
-            if keyword.lower() in competition.lower():
-                original_channels = match.get("channels_raw", [])
-                filtered_channels = [channel for channel in original_channels for ch_keyword in CHANNEL_KEYWORDS if ch_keyword.lower() in channel.lower()]
+            if keyword.lower() in competition_en.lower():
+                original_channels = match_data.get("channels_raw", [])
+                filtered_channels = list(dict.fromkeys([ch for ch in original_channels for kw in CHANNEL_KEYWORDS if kw.lower() in ch.lower()]))
+                
                 if filtered_channels:
-                    match["channels_raw"] = list(dict.fromkeys(filtered_channels)) # Remove duplicates
                     try:
-                        if competition not in translation_cache:
-                            translation_cache[competition] = translator.translate(competition, dest='ar').text
-                        match['competition'] = translation_cache[competition]
-                        title = match.get("title", "")
-                        if title:
-                            match['title'] = translator.translate(title, dest='ar').text
+                        # 1. ترجمة البطولة باستخدام القاموس اليدوي أولاً
+                        competition_ar = translate_with_map_fallback(competition_en, translator, translation_cache, TRANSLATION_MAP)
+                        
+                        # 2. فصل وترجمة أسماء الفرق
+                        title_en = match_data.get("title", "")
+                        home_team_ar, away_team_ar = parse_and_translate_title(title_en, translator, translation_cache)
+
+                        # بناء عنصر المباراة الجديد بالهيكلية المطلوبة
+                        new_match_entry = {
+                            "competition": competition_ar,
+                            "kickoff_baghdad": match_data.get("kickoff_baghdad"),
+                            "home_team": home_team_ar,
+                            "away_team": away_team_ar,
+                            "channels_raw": filtered_channels
+                        }
+                        filtered_list.append(new_match_entry)
+
                     except Exception as e:
-                        print(f"Warning: Could not translate '{match.get('title')}'. Error: {e}")
-                    filtered_list.append(match)
+                        print(f"Warning: Could not process match '{match_data.get('title')}'. Error: {e}")
                 break
     
     output_data = { "date": data.get("date"), "source_url": data.get("source_url"), "matches": filtered_list }
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
-    print(f"Process complete. Kept and translated {len(filtered_list)} matches.")
+    print(f"Process complete. Kept and processed {len(filtered_list)} matches.")
 
 if __name__ == "__main__":
     filter_matches_by_league()
