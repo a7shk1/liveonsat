@@ -8,10 +8,17 @@
       "home_team": "روما",
       "away_team": "تورينو",
       "channels_raw": [
-        "Football HD (tjk)",
+        "DAZN 1 Italia HD",
+        "DAZN 2 Bar Deutsch HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
         "MATCH! Futbol 1 HD",
         "STARZPLAY Sports 1",
-        "Sport TV2 Portugal HD"
+        "Sport TV2 Portugal HD",
+        "beIN Sports Australia 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/235-137x150.png",
@@ -25,8 +32,20 @@
       "away_team": "جيرونا",
       "channels_raw": [
         "DAZN 2 Portugal HD",
+        "DAZN Belgium ($/geo/R) 📺",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Italia ($/geo/R)",
+        "DAZN Portugal ($/geo/R)",
+        "DAZN USA en Español ($/geo/R)",
+        "ESPN Deportes",
+        "ESPN+ USA ($/geo/R)",
         "MATCH! Futbol 2 HD",
-        "beIN Sports 1 HD (Astro)"
+        "beIN Connect FRANCE 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports Australia 1 HD",
+        "beIN Sports France 7 HD max",
+        "beIN Sports MENA 3 HD"
       ],
       "home_logo": null,
       "away_logo": null,
@@ -40,10 +59,20 @@
       "away_team": "ليفربول",
       "channels_raw": [
         "DAZN 1 Portugal HD",
+        "DAZN 2 Bar Espana",
+        "DAZN 2 Espana HD",
+        "DAZN España ($/geo/R)",
+        "DAZN Portugal ($/geo/R)",
         "ESPN 1 Brazil HD",
-        "Football HD (tjk)",
-        "Persiana Sport HD",
-        "Sky Sports Main Event HD"
+        "Sky Sports Main Event HD",
+        "Sky Sports Main Event UHD",
+        "Sky Sports Premier League HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA 4K UHD",
+        "beIN Sports MENA English 1 HD",
+        "beIN Sports Türkiye 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/12-1-143x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/108-90x150.png",
@@ -54,10 +83,18 @@
       "competition": "الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
       "home_team": "أتالانتا",
-      "away_team": "lecce",
+      "away_team": "ليتشي",
       "channels_raw": [
+        "DAZN 1 Italia HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
         "MATCH! Futbol 1 HD",
-        "STARZPLAY Sports 1"
+        "STARZPLAY Sports 1",
+        "Sport TV5 Portugal HD",
+        "beIN Sports Australia 2 HD"
       ],
       "home_logo": null,
       "away_logo": null,
@@ -68,8 +105,14 @@
       "competition": "الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
       "home_team": "بيزا",
-      "away_team": "udinese",
+      "away_team": "أودينيزي",
       "channels_raw": [
+        "DAZN 2 Italia HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
         "MATCH! Futbol 3 HD",
         "STARZPLAY Sports 1"
       ],
@@ -79,13 +122,36 @@
       "result_text": null
     },
     {
+      "competition": "الدوري الفرنسي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "ليل",
+      "away_team": "تولوز",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "Sport TV3 Portugal HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/478-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/482-1-150x150.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "الدوري الألماني",
       "kickoff_baghdad": "16:30",
       "home_team": "سانت باولي",
       "away_team": "أوغسبورغ",
       "channels_raw": [
+        "DAZN 2 Bar Deutsch HD",
         "DAZN 3 Portugal HD",
-        "beIN Sports 3 HD (Astro)"
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "Sport TV1 Slovenija",
+        "beIN Connect FRANCE 📺",
+        "beIN Sports 3 HD (Astro)",
+        "beIN Sports France 4 HD max"
       ],
       "home_logo": null,
       "away_logo": null,
@@ -99,13 +165,93 @@
       "away_team": "ريال بيتيس",
       "channels_raw": [
         "DAZN 2 Portugal HD",
+        "DAZN Belgium ($/geo/R) 📺",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Italia ($/geo/R)",
+        "DAZN Portugal ($/geo/R)",
+        "DAZN USA en Español ($/geo/R)",
+        "ESPN+ USA ($/geo/R)",
         "MATCH! Futbol 2 HD",
-        "beIN Sports 1 HD (Astro)"
+        "beIN Connect FRANCE 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports Australia 1 HD",
+        "beIN Sports France 7 HD max",
+        "beIN Sports MENA 5 HD",
+        "beIN Sports MENA English 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/146.png",
       "status_text": "بعد قليل",
       "result_text": "0-0"
+    },
+    {
+      "competition": "الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "باريس سانت جيرمان",
+      "away_team": "عدسة",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "Sport TV3 Portugal HD",
+        "beIN Connect FRANCE 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports France 1 HD",
+        "beIN Sports MENA 2 HD",
+        "beIN Sports MENA French 1 HD"
+      ],
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
+    },
+    {
+      "competition": "الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "بريست",
+      "away_team": "باريس FC",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 4 HD"
+      ],
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
+    },
+    {
+      "competition": "الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "ميتز",
+      "away_team": "أناقة",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 7 HD"
+      ],
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
+    },
+    {
+      "competition": "الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "ستراسبورغ",
+      "away_team": "لو هافر",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 6 HD"
+      ],
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
     },
     {
       "competition": "الدوري الإنجليزي الممتاز",
@@ -114,10 +260,20 @@
       "away_team": "مانشستر يونايتد",
       "channels_raw": [
         "DAZN 1 Portugal HD",
+        "DAZN 2 Bar Espana",
+        "DAZN 2 Espana HD",
+        "DAZN España ($/geo/R)",
+        "DAZN Portugal ($/geo/R)",
         "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "Sky Sports Main Event HD"
+        "Sky Sports Main Event HD",
+        "Sky Sports Main Event UHD",
+        "Sky Sports Premier League HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA 4K UHD",
+        "beIN Sports MENA English 1 HD",
+        "beIN Sports Türkiye 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/105-1-150x150.png",
@@ -130,9 +286,14 @@
       "home_team": "Mönchengladbach",
       "away_team": "فيردر بريمن",
       "channels_raw": [
+        "DAZN 1 Bar Deutsch HD",
         "DAZN 3 Portugal HD",
-        "MBC Action HD",
-        "beIN Sports 3 HD (Astro)"
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "Sport TV3 Slovenija",
+        "beIN Connect FRANCE 📺",
+        "beIN Sports 3 HD (Astro)",
+        "beIN Sports France 5 HD max"
       ],
       "home_logo": null,
       "away_logo": null,
@@ -173,9 +334,15 @@
       "home_team": "ساسوولو",
       "away_team": "لاتسيو",
       "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
         "ESPN 4 Brazil HD",
         "MATCH! Futbol 1 HD",
-        "STARZPLAY Sports 1"
+        "STARZPLAY Sports 1",
+        "beIN Sports Australia 2 HD"
       ],
       "home_logo": null,
       "away_logo": null,
@@ -189,8 +356,20 @@
       "away_team": "رايو فاليكانو",
       "channels_raw": [
         "DAZN 2 Portugal HD",
+        "DAZN Belgium ($/geo/R) 📺",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Italia ($/geo/R)",
+        "DAZN Portugal ($/geo/R)",
+        "DAZN USA en Español ($/geo/R)",
+        "ESPN Deportes",
+        "ESPN+ USA ($/geo/R)",
         "MATCH! Futbol 2 HD",
-        "beIN Sports 1 HD (Astro)"
+        "beIN Connect FRANCE 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports Australia 1 HD",
+        "beIN Sports France 7 HD max",
+        "beIN Sports MENA 3 HD"
       ],
       "home_logo": null,
       "away_logo": null,
@@ -204,6 +383,8 @@
       "away_team": "الخلود",
       "channels_raw": [
         "Shahid MBC ($/geo/R) 📺",
+        "Sport TV4 Portugal HD",
+        "SuperSport ESPN 2 HD",
         "Thmanyah 1 HD"
       ],
       "home_logo": null,
@@ -217,11 +398,17 @@
       "home_team": "ميلان",
       "away_team": "بولونيا",
       "channels_raw": [
-        "Football HD (tjk)",
+        "DAZN 1 Italia HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
         "MATCH! Futbol 1 HD",
         "STARZPLAY Sports 1",
         "Sport TV2 Portugal HD",
-        "TNT Sports 1 HD"
+        "TNT Sports 1 HD",
+        "beIN Sports Australia 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/227-1-102x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/245-107x150.png",
@@ -229,16 +416,47 @@
       "result_text": "0-0"
     },
     {
+      "competition": "الدوري الفرنسي",
+      "kickoff_baghdad": "21:45",
+      "home_team": "رين",
+      "away_team": "ليون",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "Sport TV3 Portugal HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 4 HD"
+      ],
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
+    },
+    {
       "competition": "الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "برشلونة",
       "away_team": "فالنسيا",
       "channels_raw": [
+        "DAZN 1 Bar Deutsch HD",
         "DAZN 1 Portugal HD",
+        "DAZN Belgium ($/geo/R) 📺",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Italia ($/geo/R)",
+        "DAZN Portugal ($/geo/R)",
+        "DAZN USA en Español ($/geo/R)",
         "ESPN 1 Brazil HD",
+        "ESPN+ USA ($/geo/R)",
         "MATCH! Futbol 2 HD",
-        "Persiana Sport HD",
-        "beIN Sports 1 HD (Astro)"
+        "MATCH! Russia HD",
+        "beIN Connect FRANCE 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports Australia 1 HD",
+        "beIN Sports France 1 HD",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA English 1 HD",
+        "beIN Sports MENA French 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/132-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/139-130x150.png",
