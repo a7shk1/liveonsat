@@ -2,10 +2,11 @@ name: 2. Filter and Translate Matches
 
 on:
   workflow_run:
-    workflows: ["1. Scrape Raw Match Data"] # <- يجب أن يطابق اسم الورك فلو الأول
+    workflows: ["1. Scrape Raw Match Data"] # يعمل بعد نجاح الورك فلو الأول
     types:
       - completed
-  workflow_dispatch:
+  
+  workflow_dispatch: # يسمح بالتشغيل اليدوي
 
 permissions:
   contents: write
@@ -13,20 +14,28 @@ permissions:
 jobs:
   filter-and-translate:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    
+    # ✨ السطر الذي تم تصحيحه ✨
+    # الآن المهمة ستعمل في حالة التشغيل اليدوي أو بعد نجاح الورك فلو الأول
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install Dependencies
         run: pip install -r requirements.txt
+
       - name: Run Filter and Translator
         run: python scripts/filter_json.py
+
       - name: Commit & push filtered data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: " Chomper: Update filtered and translated matches"
+          commit_message: "✨ Chore: Update filtered and translated matches"
           file_pattern: "matches/filtered_matches.json"
