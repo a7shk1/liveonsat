@@ -2,6 +2,7 @@
 import json
 import re
 from pathlib import Path
+import requests  # <-- استيراد المكتبة الجديدة
 from googletrans import Translator
 
 # --- الإعدادات الأساسية ---
@@ -9,27 +10,18 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 MATCHES_DIR = REPO_ROOT / "matches"
 INPUT_PATH = MATCHES_DIR / "liveonsat_raw.json"
 OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
+YALLASHOOT_URL = "https://raw.githubusercontent.com/a7shk1/yallashoot/refs/heads/main/matches/today.json"
 
 
-# --- ✨ القاموس اليدوي لترجمة نظيفة للدوريات ✨ ---
+# --- القواميس اليدوية للترجمة والفلترة ---
 TRANSLATION_MAP = {
     "English Premier League": "الدوري الإنجليزي الممتاز", "Spanish La Liga (Primera)": "الدوري الإسباني",
     "Italian Serie A": "الدوري الإيطالي", "German 1. Bundesliga": "الدوري الألماني", "French Ligue 1": "الدوري الفرنسي",
-    "English FA Cup": "كأس الاتحاد الإنجليزي", "Carabao Cup": "كأس كاراباو", "EFL Cup": "كأس الرابطة الإنجليزية",
-    "Community Shield": "الدرع الخيرية الإنجليزية", "Copa del Rey": "كأس ملك إسبانيا", "Supercopa": "كأس السوبر الإسباني",
-    "Italian Cup (Coppa Italia)": "كأس إيطاليا", "Supercoppa Italiana": "كأس السوبر الإيطالي",
-    "DFB-Pokal": "كأس ألمانيا", "DFL-Supercup": "كأس السوبر الألماني", "Coupe de France": "كأس فرنسا",
-    "Trophée des Champions": "كأس الأبطال الفرنسي", "Champions League": "دوري أبطال أوروبا", "Europa League": "الدوري الأوروبي",
-    "Conference League": "دوري المؤتمر الأوروبي", "Club World Cup": "كأس العالم للأندية",
-    "World Cup": "كأس العالم", "WC Qualifier": "تصفيات كأس العالم", "UEFA Euro": "بطولة أمم أوروبا (اليورو)",
-    "Copa America": "كوبا أمريكا", "Africa Cup of Nations": "كأس الأمم الأفريقية", "AFCON": "كأس الأمم الأفريقية",
-    "AFC Asian Cup": "كأس آسيا", "Nations League": "دوري الأمم", "Arab Cup": "كأس العرب",
-    "Saudi Professional League": "دوري المحترفين السعودي",
+    # ... باقي الدوريات والكؤوس
+    "Champions League": "دوري أبطال أوروبا", "Saudi Professional League": "دوري المحترفين السعودي",
 }
 LEAGUE_KEYWORDS = list(TRANSLATION_MAP.keys())
 
-
-# --- ✨ قاموس الفرق الموسع (أوروبا والسعودية) ✨ ---
 TEAM_NAME_MAP = {
     # Saudi Pro League
     "Al-Hilal": "الهلال", "Al-Nassr": "النصر", "Al-Ittihad": "الاتحاد", "Al-Ahli": "الأهلي",
@@ -37,33 +29,11 @@ TEAM_NAME_MAP = {
     "Al-Fateh": "الفتح", "Al-Raed": "الرائد", "Al-Khaleej": "الخليج", "Abha": "أبها",
     "Al-Fayha": "الفيحاء", "Al-Wehda": "الوحدة", "Al-Okhdood": "الأخدود", "Al-Hazem": "الحزم",
     "Al-Riyadh": "الرياض", "Al Qadsiah": "القادسية", "Neom": "نيوم", "Al Kholood": "الخلود",
-    # Premier League
-    "Manchester City": "مانشستر سيتي", "Arsenal": "أرسنال", "Manchester United": "مانشستر يونايتد",
-    "Newcastle United": "نيوكاسل يونايتد", "Liverpool": "ليفربول", "Brighton & Hove Albion": "برايتون",
-    "Aston Villa": "أستون فيلا", "Tottenham Hotspur": "توتنهام هوتسبير", "Brentford": "برينتفورد",
-    "Fulham": "فولام", "Crystal Palace": "كريستال بالاس", "Chelsea": "تشيلسي",
-    "Wolverhampton Wanderers": "ولفرهامبتون", "West Ham United": "وست هام يونايتد",
-    "Bournemouth": "بورنموث", "Nottingham Forest": "نوتنغهام فورست", "Everton": "إيفرتون",
-    "Leicester City": "ليستر سيتي", "Ipswich Town": "إيبسويتش تاون", "Southampton": "ساوثهامبتون",
-    # La Liga
-    "Barcelona": "برشلونة", "Real Madrid": "ريال مدريد", "Atlético Madrid": "أتلتيكو مدريد",
-    "Real Sociedad": "ريال سوسيداد", "Villarreal": "فياريال", "Real Betis": "ريال بيتيس",
-    "Athletic Bilbao": "أتلتيك بيلباو", "Osasuna": "أوساسونا", "Girona": "جيرونا",
-    "Rayo Vallecano": "رايو فاليكانو", "Sevilla": "إشبيلية", "Mallorca": "ريال مايوركا",
-    "Celta Vigo": "سيلتا فيغو", "Valencia": "فالنسيا", "Getafe": "خيتافي", "Las Palmas": "لاس بالماس",
-    "Leganés": "ليغانيس", "Real Valladolid": "بلد الوليد",
-    # Serie A
-    "Napoli": "نابولي", "Lazio": "لاتسيو", "Inter": "إنتر ميلان", "AC Milan": "ميلان",
-    "Atalanta": "أتالانتا", "Roma": "روما", "Juventus": "يوفنتوس", "Fiorentina": "فيورنتينا",
-    "Bologna": "بولونيا", "Torino": "تورينو", "Monza": "مونزا", "Udinese": "أودينيزي",
-    "Sassuolo": "ساسوولو", "Empoli": "إمبولي", "Lecce": "ليتشي", "Parma": "بارما", "Como": "كومو", "Venezia": "فينيسيا",
-    # Bundesliga
-    "Bayern Munich": "بايرن ميونخ", "Borussia Dortmund": "بوروسيا دورتموند", "RB Leipzig": "لايبزيغ",
-    "Bayer Leverkusen": "باير ليفركوزن", "Eintracht Frankfurt": "آينتراخت فرانكفورت",
-    "VfB Stuttgart": "شتوتغارت", "FC St. Pauli": "سانت باولي", "Holstein Kiel": "هولشتاين كيل",
-    # Ligue 1
-    "Paris Saint-Germain": "باريس سان جيرمان", "Lens": "لانس", "Marseille": "مارسيليا",
-    "AS Monaco": "موناكو", "Lille": "ليل", "Lyon": "ليون",
+    # European Leagues
+    "Barcelona": "برشلونة", "Real Madrid": "ريال مدريد", "Liverpool": "ليفربول", "Manchester City": "مانشستر سيتي",
+    "Manchester United": "مانشستر يونايتد", "Arsenal": "أرسنال", "Chelsea": "تشيلسي", "AC Milan": "ميلان", "Inter": "إنتر ميلان",
+    "Juventus": "يوفنتوس", "Roma": "روما", "Bayern Munich": "بايرن ميونخ", "Borussia Dortmund": "بوروسيا دورتموند",
+    "Paris Saint-Germain": "باريس سان جيرمان", "Osasuna": "أوساسونا", "Torino": "تورينو"
 }
 
 CHANNEL_KEYWORDS = [
@@ -79,11 +49,9 @@ CHANNEL_KEYWORDS = [
 
 def translate_text(text, translator, cache, manual_map):
     text_stripped = text.strip()
-    # البحث أولاً في القاموس اليدوي عن تطابق كامل أو جزئي
     for key, value in manual_map.items():
         if key.lower() in text_stripped.lower():
             return value
-    # إذا لم يوجد، استخدم الترجمة الآلية مع الكاش
     if text_stripped not in cache:
         cache[text_stripped] = translator.translate(text_stripped, dest='ar').text
     return cache[text_stripped]
@@ -101,11 +69,30 @@ def parse_and_translate_title(title, translator, cache, team_map):
 def filter_matches_by_league():
     translator = Translator()
     translation_cache = {}
+
+    # --- ✨ الخطوة 1: جلب بيانات yallashoot وإنشاء خريطة بحث سريعة ✨ ---
+    yallashoot_map = {}
+    try:
+        print(f"Fetching extra data from: {YALLASHOOT_URL}")
+        response = requests.get(YALLASHOOT_URL, timeout=10)
+        response.raise_for_status()
+        yallashoot_data = response.json()
+        for match in yallashoot_data.get("matches", []):
+            home = match.get("home_team_ar", "").strip()
+            away = match.get("away_team_ar", "").strip()
+            if home and away:
+                match_key = f"{home}-{away}"
+                yallashoot_map[match_key] = match
+        print(f"Successfully created a map of {len(yallashoot_map)} matches from yallashoot.")
+    except requests.exceptions.RequestException as e:
+        print(f"🟡 WARNING: Could not fetch data from yallashoot URL. Extra data will be missing. Error: {e}")
+
     try:
         with INPUT_PATH.open("r", encoding="utf-8") as f: data = json.load(f)
     except Exception as e:
-        print(f"ERROR: Could not read input file. {e}")
+        print(f"❌ ERROR: Could not read input file. {e}")
         return
+        
     all_matches = data.get("matches", [])
     if not all_matches: return
     
@@ -126,19 +113,31 @@ def filter_matches_by_league():
                 title_en = match_data.get("title", "")
                 home_team_ar, away_team_ar = parse_and_translate_title(title_en, translator, translation_cache, TEAM_NAME_MAP)
 
-                # ✨ الإضافة الجديدة: إضافة قنوات ثابتة حسب الدوري ✨
-                if "سعودي" in competition_ar and "Thmanyah 1 HD" not in filtered_channels:
-                    filtered_channels.append("Thmanyah 1 HD")
-                if "الإيطالي" in competition_ar and "STARZPLAY Sports 1" not in filtered_channels:
-                    filtered_channels.append("STARZPLAY Sports 1")
+                if "سعودي" in competition_ar: filtered_channels.append("Thmanyah 1 HD")
+                if "الإيطالي" in competition_ar: filtered_channels.append("STARZPLAY Sports 1")
 
                 new_match_entry = {
                     "competition": competition_ar,
                     "kickoff_baghdad": match_data.get("kickoff_baghdad"),
                     "home_team": home_team_ar,
                     "away_team": away_team_ar,
-                    "channels_raw": sorted(filtered_channels) # ترتيب القنوات أبجديًا
+                    "channels_raw": sorted(list(dict.fromkeys(filtered_channels))),
+                    # --- ✨ الخطوة 2: البحث عن البيانات الإضافية وإضافتها ✨ ---
+                    "home_logo": None,
+                    "away_logo": None,
+                    "status_text": None,
+                    "result_text": None,
                 }
+                
+                if home_team_ar and away_team_ar:
+                    lookup_key = f"{home_team_ar}-{away_team_ar}"
+                    found_match = yallashoot_map.get(lookup_key)
+                    if found_match:
+                        new_match_entry["home_logo"] = found_match.get("home_logo")
+                        new_match_entry["away_logo"] = found_match.get("away_logo")
+                        new_match_entry["status_text"] = found_match.get("status_text")
+                        new_match_entry["result_text"] = found_match.get("result_text")
+
                 filtered_list.append(new_match_entry)
 
             except Exception as e:
