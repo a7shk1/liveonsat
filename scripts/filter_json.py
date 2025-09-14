@@ -19,7 +19,7 @@ LEAGUE_KEYWORDS = [
     "French Ligue 1",              # الدوري الفرنسي
 
     # كؤوس إنجلترا
-    "English FA Cup",              # كأس الاتحاد الإنجليزي
+    "English League Cup",              # كأس الاتحاد الإنجليزي
     "Carabao Cup",                 # كأس الرابطة (كاراباو)
     "EFL Cup",                     # اسم آخر لكأس الرابطة
     "Community Shield",            # الدرع الخيرية
@@ -29,7 +29,7 @@ LEAGUE_KEYWORDS = [
     "Supercopa",                   # كأس السوبر الإسباني
 
     # كؤوس إيطاليا
-    "Coppa Italia",                # كأس إيطاليا
+    "Italian Cup (Coppa Italia)",                # كأس إيطاليا
     "Supercoppa Italiana",         # كأس السوبر الإيطالي
 
     # كؤوس ألمانيا
@@ -60,11 +60,27 @@ LEAGUE_KEYWORDS = [
 ]
 
 
+
+# هذه هي قائمة القنوات الجديدة بناءً على طلبك
+CHANNEL_KEYWORDS = [
+    "beIN",              # لكل قنوات beIN Sports
+    "MATCH! Futbol",     # لكل قنوات ماتش فوتبول
+    "Football HD (tjk)",
+    "Sport TV",          # لكل قنوات Sport TV Portugal
+    "ESPN",              # لكل قنوات ESPN Brazil
+    "DAZN",              # لكل قنوات DAZN
+    "MATCH! Premier",
+    "Sky Sports",        # لكل قنوات سكاي سبورتس
+    "IRIB Varzesh",
+    "Persiana Sport",
+    "MBC",               # لكل قنوات MBC (Action, Masr)
+    "TNT Sports",
+    "ssc",               # لكل قنوات SSC
+    "Shahid",
+]
+
+
 def filter_matches_by_league():
-    """
-    تقرأ ملف الجيسون الخام، تفلتر المباريات حسب الكلمات المفتاحية للدوريات،
-    وتحفظ النتائج في ملف جيسون جديد.
-    """
     print("--- Starting Match Filtering Process ---")
     
     try:
@@ -72,10 +88,10 @@ def filter_matches_by_league():
         with INPUT_PATH.open("r", encoding="utf-8") as f:
             data = json.load(f)
     except FileNotFoundError:
-        print(f"❌ ERROR: Input file not found! Please run the scraping script first.")
+        print(f"❌ ERROR: Input file not found!")
         return
     except json.JSONDecodeError:
-        print(f"❌ ERROR: Could not read the JSON file. It might be empty or corrupted.")
+        print(f"❌ ERROR: Could not read the JSON file.")
         return
 
     all_matches = data.get("matches", [])
@@ -86,32 +102,43 @@ def filter_matches_by_league():
     print(f"Found {len(all_matches)} total matches to check.")
 
     filtered_list = []
-    print("\nFiltering for leagues containing:")
-    for keyword in LEAGUE_KEYWORDS:
-        print(f"- {keyword}")
+    print("\nFiltering for leagues and channels...")
 
     for match in all_matches:
         competition = match.get("competition", "")
         if not competition:
             continue
-
-        # ✨ الإضافة الجديدة: استبعاد البطولات النسائية ✨
-        # إذا كانت كلمة "women" موجودة في اسم البطولة، تجاهل هذه المباراة
         if "women" in competition.lower():
             continue
 
-        # عملية الفلترة العادية
+        # فلترة الدوريات
         for keyword in LEAGUE_KEYWORDS:
             if keyword.lower() in competition.lower():
-                filtered_list.append(match)
-                break
+                
+                # فلترة القنوات
+                original_channels = match.get("channels_raw", [])
+                filtered_channels = []
+                for channel in original_channels:
+                    for ch_keyword in CHANNEL_KEYWORDS:
+                        if ch_keyword.lower() in channel.lower():
+                            filtered_channels.append(channel)
+                            break
+                
+                if filtered_channels:
+                    match["channels_raw"] = filtered_channels
+                    filtered_list.append(match)
+
+                break 
     
     print(f"\n✅ Filtering complete. Kept {len(filtered_list)} matches.")
 
     output_data = {
         "date": data.get("date"),
         "source_url": data.get("source_url"),
-        "filtered_by_keywords": LEAGUE_KEYWORDS,
+        "filtered_by_keywords": {
+            "leagues": LEAGUE_KEYWORDS,
+            "channels": CHANNEL_KEYWORDS
+        },
         "matches": filtered_list,
     }
 
