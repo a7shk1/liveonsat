@@ -3,35 +3,35 @@
   "source_url": "https://liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
+      "competition": "الدوري الإيطالي - الأسبوع 3",
       "kickoff_baghdad": "13:30",
       "home_team": "روما",
       "away_team": "تورينو",
       "channels_raw": [
-        "Football HD (tjk)",
+        "Football HD",
         "MATCH! Futbol 1 HD",
         "STARZPLAY Sports 1",
         "Sport TV2 Portugal HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/235-137x150.png",
-      "status_text": "انتهت",
-      "result_text": "0-1"
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
     },
     {
-      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
+      "competition": "الدوري الإسباني - الأسبوع 4",
       "kickoff_baghdad": "15:00",
       "home_team": "سيلتا فيغو",
       "away_team": "جيرونا",
       "channels_raw": [
         "DAZN 2 Portugal HD",
         "MATCH! Futbol 2 HD",
-        "beIN Sports 1 HD (Astro)"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": null,
-      "away_logo": null,
-      "status_text": null,
-      "result_text": null
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/158-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/175-1-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "1-1"
     },
     {
       "competition": "الدوري الإنجليزي الممتاز - الأسبوع 4",
@@ -41,7 +41,7 @@
       "channels_raw": [
         "DAZN 1 Portugal HD",
         "ESPN 1 Brazil HD",
-        "Football HD (tjk)",
+        "Football HD",
         "Persiana Sport HD",
         "Sky Sports Main Event HD"
       ],
@@ -51,7 +51,7 @@
       "result_text": "0-0"
     },
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
+      "competition": "الدوري الإيطالي - الأسبوع 3",
       "kickoff_baghdad": "16:00",
       "home_team": "أتالانتا",
       "away_team": "ليتشي",
@@ -65,7 +65,7 @@
       "result_text": null
     },
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
+      "competition": "الدوري الإيطالي - الأسبوع 3",
       "kickoff_baghdad": "16:00",
       "home_team": "بيزا",
       "away_team": "أودينيزي",
@@ -79,13 +79,24 @@
       "result_text": null
     },
     {
-      "competition": "الألمانية 1. البوندسليجا - الأسبوع 3",
+      "competition": "الدوري الفرنسي - الأسبوع 4",
+      "kickoff_baghdad": "16:00",
+      "home_team": "ليل",
+      "away_team": "تولوز",
+      "channels_raw": [],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/478-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/482-1-150x150.png",
+      "status_text": "جارية الان",
+      "result_text": "0-1"
+    },
+    {
+      "competition": "الدوري الألماني - الأسبوع 3",
       "kickoff_baghdad": "16:30",
       "home_team": "سانت باولي",
       "away_team": "أوغسبورغ",
       "channels_raw": [
         "DAZN 3 Portugal HD",
-        "beIN Sports 3 HD (Astro)"
+        "beIN Sports 3 HD"
       ],
       "home_logo": null,
       "away_logo": null,
@@ -93,19 +104,63 @@
       "result_text": null
     },
     {
-      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
+      "competition": "الدوري الإسباني - الأسبوع 4",
       "kickoff_baghdad": "17:15",
       "home_team": "ليفانتي",
       "away_team": "ريال بيتيس",
       "channels_raw": [
         "DAZN 2 Portugal HD",
         "MATCH! Futbol 2 HD",
-        "beIN Sports 1 HD (Astro)"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/146.png",
       "status_text": "جارية الان",
+      "result_text": "2-0"
+    },
+    {
+      "competition": "الدوري الفرنسي - الأسبوع 4",
+      "kickoff_baghdad": "18:15",
+      "home_team": "باريس سانت جيرمان",
+      "away_team": "عدسة",
+      "channels_raw": [],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/480-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/481.png",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
+    },
+    {
+      "competition": "الدوري الفرنسي - الأسبوع 4",
+      "kickoff_baghdad": "18:15",
+      "home_team": "بريست",
+      "away_team": "باريس FC",
+      "channels_raw": [],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/534-135x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/6075.png",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "الدوري الفرنسي - الأسبوع 4",
+      "kickoff_baghdad": "18:15",
+      "home_team": "ميتز",
+      "away_team": "أناقة",
+      "channels_raw": [],
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
+    },
+    {
+      "competition": "الدوري الفرنسي - الأسبوع 4",
+      "kickoff_baghdad": "18:15",
+      "home_team": "ستراسبورغ",
+      "away_team": "لو هافر",
+      "channels_raw": [],
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
     },
     {
       "competition": "الدوري الإنجليزي الممتاز - الأسبوع 4",
@@ -121,18 +176,18 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/105-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
-      "competition": "الألمانية 1. البوندسليجا - الأسبوع 3",
+      "competition": "الدوري الألماني - الأسبوع 3",
       "kickoff_baghdad": "18:30",
-      "home_team": "Mönchengladbach",
+      "home_team": "بوروسيا مونشنغلادباخ",
       "away_team": "فيردر بريمن",
       "channels_raw": [
         "DAZN 3 Portugal HD",
         "MBC Action HD",
-        "beIN Sports 3 HD (Astro)"
+        "beIN Sports 3 HD"
       ],
       "home_logo": null,
       "away_logo": null,
@@ -140,12 +195,12 @@
       "result_text": null
     },
     {
-      "competition": "الدوري المهني السعودي - الأسبوع 2",
+      "competition": "الدوري السعودي للمحترفين - الأسبوع 2",
       "kickoff_baghdad": "18:35",
       "home_team": "الرياض",
       "away_team": "آل الإيجار",
       "channels_raw": [
-        "Shahid MBC ($/geo/R) 📺",
+        "Shahid MBC",
         "Thmanyah 1 HD"
       ],
       "home_logo": null,
@@ -154,12 +209,12 @@
       "result_text": null
     },
     {
-      "competition": "الدوري المهني السعودي - الأسبوع 2",
+      "competition": "الدوري السعودي للمحترفين - الأسبوع 2",
       "kickoff_baghdad": "18:50",
       "home_team": "ضمك",
       "away_team": "نيوم",
       "channels_raw": [
-        "Shahid MBC ($/geo/R) 📺",
+        "Shahid MBC",
         "Thmanyah 1 HD"
       ],
       "home_logo": null,
@@ -168,42 +223,42 @@
       "result_text": null
     },
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
+      "competition": "الدوري الإيطالي - الأسبوع 3",
       "kickoff_baghdad": "19:00",
-      "home_team": "ساسوولو",
+      "home_team": "ساسولو",
       "away_team": "لاتسيو",
       "channels_raw": [
         "ESPN 4 Brazil HD",
         "MATCH! Futbol 1 HD",
         "STARZPLAY Sports 1"
       ],
-      "home_logo": null,
-      "away_logo": null,
-      "status_text": null,
-      "result_text": null
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/266.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/236.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
     },
     {
-      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
+      "competition": "الدوري الإسباني - الأسبوع 4",
       "kickoff_baghdad": "19:30",
       "home_team": "أوساسونا",
       "away_team": "رايو فاليكانو",
       "channels_raw": [
         "DAZN 2 Portugal HD",
         "MATCH! Futbol 2 HD",
-        "beIN Sports 1 HD (Astro)"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": null,
-      "away_logo": null,
-      "status_text": null,
-      "result_text": null
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/143-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/174.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
     },
     {
-      "competition": "الدوري المهني السعودي - الأسبوع 2",
+      "competition": "الدوري السعودي للمحترفين - الأسبوع 2",
       "kickoff_baghdad": "21:00",
       "home_team": "النصر",
       "away_team": "الخلود",
       "channels_raw": [
-        "Shahid MBC ($/geo/R) 📺",
+        "Shahid MBC",
         "Thmanyah 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7549-1-150x150.png",
@@ -212,12 +267,12 @@
       "result_text": "0-0"
     },
     {
-      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
+      "competition": "الدوري الإيطالي - الأسبوع 3",
       "kickoff_baghdad": "21:45",
       "home_team": "ميلان",
       "away_team": "بولونيا",
       "channels_raw": [
-        "Football HD (tjk)",
+        "Football HD",
         "MATCH! Futbol 1 HD",
         "STARZPLAY Sports 1",
         "Sport TV2 Portugal HD",
@@ -229,7 +284,18 @@
       "result_text": "0-0"
     },
     {
-      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
+      "competition": "الدوري الفرنسي - الأسبوع 4",
+      "kickoff_baghdad": "21:45",
+      "home_team": "رين",
+      "away_team": "ليون",
+      "channels_raw": [],
+      "home_logo": null,
+      "away_logo": null,
+      "status_text": null,
+      "result_text": null
+    },
+    {
+      "competition": "الدوري الإسباني - الأسبوع 4",
       "kickoff_baghdad": "22:00",
       "home_team": "برشلونة",
       "away_team": "فالنسيا",
@@ -238,7 +304,7 @@
         "ESPN 1 Brazil HD",
         "MATCH! Futbol 2 HD",
         "Persiana Sport HD",
-        "beIN Sports 1 HD (Astro)"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/132-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/139-130x150.png",
