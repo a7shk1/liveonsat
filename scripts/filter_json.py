@@ -1,17 +1,13 @@
-# scripts/filter_json.py
 import json
 import re
 from pathlib import Path
 from googletrans import Translator
 
-# --- الإعدادات الأساسية ---
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MATCHES_DIR = REPO_ROOT / "matches"
 INPUT_PATH = MATCHES_DIR / "liveonsat_raw.json"
 OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 
-
-# --- ✨ القاموس اليدوي لترجمة نظيفة للدوريات ✨ ---
 TRANSLATION_MAP = {
     "English Premier League": "الدوري الإنجليزي الممتاز",
     "Spanish La Liga (Primera)": "الدوري الإسباني",
@@ -58,28 +54,23 @@ CHANNEL_KEYWORDS = [
 ]
 
 def translate_with_map_fallback(text, translator, cache, t_map):
-    # البحث أولاً في القاموس اليدوي عن تطابق جزئي
     for key, value in t_map.items():
         if key.lower() in text.lower():
             return value
-    # إذا لم يوجد، استخدم الترجمة الآلية مع الكاش
     if text not in cache:
         cache[text] = translator.translate(text, dest='ar').text
     return cache[text]
 
 def parse_and_translate_title(title, translator, cache):
-    # محاولة فصل الفريقين
     teams = re.split(r'\s+v(?:s)?\s+', title, flags=re.IGNORECASE)
     if len(teams) == 2:
         home_team, away_team = teams
-        # ترجمة كل فريق على حدة
         if home_team not in cache:
             cache[home_team] = translator.translate(home_team.strip(), dest='ar').text
         if away_team not in cache:
             cache[away_team] = translator.translate(away_team.strip(), dest='ar').text
         return cache[home_team], cache[away_team]
     else:
-        # إذا فشل الفصل، نترجم العنوان كاملاً كخطة بديلة
         if title not in cache:
             cache[title] = translator.translate(title, dest='ar').text
         return cache[title], None
@@ -107,14 +98,10 @@ def filter_matches_by_league():
                 
                 if filtered_channels:
                     try:
-                        # 1. ترجمة البطولة باستخدام القاموس اليدوي أولاً
                         competition_ar = translate_with_map_fallback(competition_en, translator, translation_cache, TRANSLATION_MAP)
-                        
-                        # 2. فصل وترجمة أسماء الفرق
                         title_en = match_data.get("title", "")
                         home_team_ar, away_team_ar = parse_and_translate_title(title_en, translator, translation_cache)
 
-                        # بناء عنصر المباراة الجديد بالهيكلية المطلوبة
                         new_match_entry = {
                             "competition": competition_ar,
                             "kickoff_baghdad": match_data.get("kickoff_baghdad"),
