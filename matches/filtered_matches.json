@@ -3,7 +3,7 @@
   "source_url": "https://liveonsat.com/2day.php",
   "filtered_by_keywords": [
     "English Premier League",
-    "Spanish La Liga",
+    "Spanish La Liga (Primera)",
     "Italian Serie A",
     "German 1. Bundesliga",
     "French Ligue 1",
@@ -154,16 +154,6 @@
         "Z Sports LaLiga Angola",
         "ZBC Channel 2",
         "Ziggo Sport 3"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga 2 - Week 5",
-      "title": "Andorra v Córdoba",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "LaLiga TV Bar 2"
       ]
     },
     {
@@ -345,6 +335,7 @@
         "Ligue 1+ ($/geo/R) 📺",
         "Megogo Futbol 5 ($/geo/R)",
         "Nova Sport 5 Czech HD",
+        "Nova Sport Bulgaria HD",
         "Sport TV3 Portugal HD",
         "V Sport 1 Sverige HD",
         "ViaPlay Danmark HD",
@@ -456,16 +447,6 @@
         "TV4 Sport Live 1 HD",
         "ViaPlay Norge HD",
         "Ziggo Sport HD"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga 2 - Week 5",
-      "title": "Racing Santander v Cultural Leonesa",
-      "kickoff_baghdad": "17:15",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "LaLiga TV Bar 2"
       ]
     },
     {
@@ -818,27 +799,6 @@
       ]
     },
     {
-      "competition": "Spanish La Liga 2 - Week 5",
-      "title": "Sporting Gijón v Burgos",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "LaLiga TV Bar 2",
-        "Orange Fútbol 2 HD"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga 2 - Week 5",
-      "title": "Castellón v Ceuta",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion 2",
-        "LaLiga TV Bar 3"
-      ]
-    },
-    {
       "competition": "Saudi Professional League - Week 2",
       "title": "Al Nassr v Al Kholood",
       "kickoff_baghdad": "21:00",
@@ -1035,27 +995,6 @@
         "ViaPlay Norge HD",
         "Z Sports LaLiga Angola",
         "Ziggo Sport HD"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga 2 - Week 5",
-      "title": "Granada v Leganés",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "Arena Sport 2 Srbija HD",
-        "beIN Sports 3 HD (Astro)",
-        "DAZN 2 Portugal HD",
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "LaLiga TV Bar 2",
-        "Megogo Futbol 5 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV Urheilu 2 Suomi HD",
-        "ONE2 Sport Israel HD",
-        "Prima Sport RO PPV 1",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Play Sverige [online] 📺",
-        "TV4 Sportkanalen HD"
       ]
     }
   ]
