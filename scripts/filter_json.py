@@ -5,7 +5,6 @@ import unicodedata
 from pathlib import Path
 import requests
 from difflib import SequenceMatcher
-from googletrans import Translator
 
 # --- الإعدادات الأساسية ---
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -32,7 +31,7 @@ def normalize_text(text):
     text = text.replace("&", "and")
     text = re.sub(r'\bfc\b|\bsc\b|\bcf\b', '', text)   # شيل لاحقات شائعة
     text = text.replace(" ", "").replace("-", "").replace("_", "")
-    text = text.replace("ال", "")                      # مساعد للمطابقة العربية
+    text = text.replace("ال", "")                      # يساعد مطابقة العربية
     text = re.sub(r'[^a-z0-9\u0600-\u06FF]', '', text) # حروف وأرقام فقط
     return text.strip()
 
@@ -56,9 +55,9 @@ TRANSLATION_MAP = {
 }
 LEAGUE_KEYWORDS = list(TRANSLATION_MAP.keys())
 
-# --- ✨ قاموس الفرق النهائي (مثبت + توسعة) ✨ ---
+# --- ✨ قاموس الفرق (موسع) ✨ ---
 TEAM_NAME_MAP = {
-    # Saudi Arabia (مع بدائل كتابة)
+    # Saudi Arabia (+ variants)
     "Al-Hilal": "الهلال", "Al Hilal": "الهلال",
     "Al-Nassr": "النصر", "Al Nassr": "النصر",
     "Al-Ittihad": "الاتحاد", "Al Ittihad": "الاتحاد",
@@ -115,11 +114,18 @@ TEAM_NAME_MAP = {
     "Eintracht Frankfurt": "آينتراخت فرانكفورت", "Werder Bremen": "فيردر بريمن",
     "St. Pauli": "سانت باولي", "Augsburg": "أوغسبورغ",
     "Borussia Mönchengladbach": "بوروسيا مونشنغلادباخ",
-    "Monchengladbach": "بوروسيا مونشنغلادباخ", "Mönchengladbach": "بوروسيا مونشنغلادباخ",
+    "Monchengladbach": "بوروسيا مونشنغلادباخ", "Mönchengladbach": "بوروسيا مونشنغلادباخ", "Gladbach": "بوروسيا مونشنغلادباخ",
 
-    # France
+    # France (مضافة لمعالجة الأخطاء: عدسة/أناقة…)
     "Paris Saint-Germain": "باريس سان جيرمان", "PSG": "باريس سان جيرمان",
     "AS Monaco": "موناكو", "Monaco": "موناكو", "Marseille": "مارسيليا",
+    "Lille": "ليل", "Toulouse": "تولوز", "Lens": "لانس",
+    "Brest": "بريست", "Paris FC": "باريس إف سي",
+    "Metz": "ميتز", "Nice": "نيس", "Strasbourg": "ستراسبورغ",
+    "Le Havre": "لوهافر", "Rennes": "رين", "Lyon": "ليون",
+    "Montpellier": "مونبلييه", "Nantes": "نانت", "Reims": "ريمس",
+    "Saint-Étienne": "سانت إتيان", "Saint-Etienne": "سانت إتيان",
+    "Clermont": "كليرمون", "Lorient": "لوريان",
 
     # Netherlands
     "PSV Eindhoven": "آيندهوفن", "Feyenoord": "فاينورد", "Ajax": "أياكس",
@@ -138,15 +144,17 @@ TEAM_NAME_MAP = {
     "Flamengo": "فلامنغو", "Palmeiras": "بالميراس", "Boca Juniors": "بوكا جونيورز", "River Plate": "ريفر بليت",
 }
 
-# بدائل قصيرة إضافية للمطابقة
 TEAM_ALIASES = {
+    # مختصرات شائعة
     "Gladbach": "بوروسيا مونشنغلادباخ",
 }
 
 # --- ✨ قائمة القنوات (الكلمات المفتاحية) + تنظيف العرض ✨ ---
 CHANNEL_KEYWORDS = [
-    "beIN Sports 1 HD", "beIN Sports 2 HD", "beIN Sports 3 HD", "MATCH! Futbol 1", "MATCH! Futbol 2",
-    "MATCH! Futbol 3", "Football HD (tjk)", "Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
+    "beIN Sports 1 HD", "beIN Sports 2 HD", "beIN Sports 3 HD",
+    "MATCH! Futbol 1", "MATCH! Futbol 2", "MATCH! Futbol 3",
+    "Football HD",  # ← أضفناها بدون (tjk)
+    "Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
     "ESPN 1 Brazil", "ESPN 2 Brazil", "ESPN 3 Brazil", "ESPN 4 Brazil", "ESPN 5 Brazil", "ESPN 6 Brazil", "ESPN 7 Brazil",
     "DAZN 1 Portugal HD", "DAZN 2 Portugal HD", "DAZN 3 Portugal HD", "DAZN 4 Portugal HD", "DAZN 5 Portugal HD", "DAZN 6 Portugal HD",
     "MATCH! Premier HD", "Sky Sports Main Event HD", "Sky Sport Premier League HD", "IRIB Varzesh HD",
@@ -157,44 +165,33 @@ CHANNEL_KEYWORDS = [
 def clean_channel_name(name: str) -> str:
     if not name: return ""
     name = EMOJI_MISC_RE.sub('', name)
+    # شيل الأقواس والتذييلات مثل (Astro)
     name = re.sub(r'\s*\((?:Astro|UAE|KSA|QA|OM|BH|KW|.*)?\)\s*', '', name, flags=re.IGNORECASE)
     name = name.replace("$/geo/R", "").replace("$/geo", "")
     name = re.sub(r'\s+', ' ', name).strip()
     return name
 
-# --- ترجمة آمنة (مع سقوط آمن) ---
-def translate_text_safe(text_en, translator, cache, manual_map):
-    text_en = (text_en or "").strip()
-    if not text_en:
+# --- ترجمة أسماء الفرق: قاموس فقط، بلا ترجمة آلية ---
+def translate_team_or_fallback(name_en: str) -> str:
+    name_en = (name_en or "").strip()
+    if not name_en:
         return ""
-    # محاولة مطابقة القاموس (مع aliases)
-    for k, v in {**manual_map, **TEAM_ALIASES}.items():
-        if normalize_text(k) == normalize_text(text_en):
+    # مطابقة مباشرة
+    if name_en in TEAM_NAME_MAP:
+        return TEAM_NAME_MAP[name_en]
+    # مطابقة بعد التطبيع مع aliases
+    norm = normalize_text(name_en)
+    for k, v in {**TEAM_NAME_MAP, **TEAM_ALIASES}.items():
+        if normalize_text(k) == norm:
             return v
+    # إذا ما لقينا، رجّع الإنجليزية كما هي (أفضل من ترجمة غريبة)
+    return name_en
 
-    if text_en not in cache:
-        try:
-            res = translator.translate(text_en, dest='ar')
-            cache[text_en] = res.text
-        except Exception:
-            cache[text_en] = text_en  # سقوط آمن
-    out = cache[text_en]
-    # لو الترجمة ليست عربية (أو ترجمة غير منطقية)، رجّع الأصل
-    if not is_arabic(out):
-        return text_en
-    return out
-
-def parse_and_translate_title(title, translator, cache):
+def parse_title_to_teams(title: str):
     parts = re.split(r'\s+v(?:s)?\.?\s+', title or "", flags=re.IGNORECASE)
     if len(parts) == 2:
-        home_en, away_en = parts[0].strip(), parts[1].strip()
-        # أولوية القواميس اليدوية
-        home_ar = translate_text_safe(home_en, translator, cache, TEAM_NAME_MAP)
-        away_ar = translate_text_safe(away_en, translator, cache, TEAM_NAME_MAP)
-        return home_ar, away_ar
-    # لو ما قدر يفصل بفاصلة vs
-    single = translate_text_safe(title or "", translator, cache, TEAM_NAME_MAP)
-    return single, None
+        return parts[0].strip(), parts[1].strip()
+    return (title or "").strip(), None
 
 # --- بناء اسم بطولة عربي نظيف من competition_en ---
 WEEK_PATTERNS = [
@@ -240,9 +237,6 @@ def best_lookup(yalla_map, key1: str, key2: str):
     return None
 
 def filter_matches_by_league():
-    translator = Translator()
-    translation_cache = {}
-
     # --- تحميل yallashoot ---
     yallashoot_map = {}
     yalla_keys_debug = []
@@ -288,25 +282,23 @@ def filter_matches_by_league():
         original_channels = match_data.get("channels_raw", []) or []
         filtered_channels = []
         for ch in original_channels:
+            ch_l = (ch or "").lower()
             for kw in CHANNEL_KEYWORDS:
-                if kw.lower() in (ch or "").lower():
+                if kw.lower() in ch_l:
                     clean = clean_channel_name(ch)
                     filtered_channels.append(clean)
                     break
         filtered_channels = list(dict.fromkeys(filtered_channels))  # unique مع الحفاظ على الترتيب
 
-        if not filtered_channels:
-            # إذا ما لقى ولا قناة من قائمتك، تجاهل؟
-            # أو خليه يكمل؟ نخليه يكمل لأنك ترغب بالمباريات المهمة ولو بقناة قليلة
-            pass
-
         try:
             # بطولة عربية نظيفة
             competition_ar = arabic_competition_name(competition_en)
 
-            # ترجمة/تحويل عناوين الفرق
+            # فرق: قاموس فقط (بدون ترجمة آلية)
             title_en = match_data.get("title", "") or ""
-            home_team_ar, away_team_ar = parse_and_translate_title(title_en, translator, translation_cache)
+            home_en, away_en = parse_title_to_teams(title_en)
+            home_team = translate_team_or_fallback(home_en)
+            away_team = translate_team_or_fallback(away_en) if away_en else None
 
             # إضافات قنوات بحسب الدوري
             if "السعودي" in competition_ar and "Thmanyah 1 HD" not in filtered_channels:
@@ -318,8 +310,8 @@ def filter_matches_by_league():
             new_match_entry = {
                 "competition": competition_ar,
                 "kickoff_baghdad": match_data.get("kickoff_baghdad"),
-                "home_team": home_team_ar,
-                "away_team": away_team_ar,
+                "home_team": home_team,
+                "away_team": away_team,
                 "channels_raw": sorted(list(dict.fromkeys(filtered_channels))),
                 "home_logo": None,
                 "away_logo": None,
@@ -328,9 +320,9 @@ def filter_matches_by_league():
             }
 
             # محاولة إكمال الشعارات/الحالة من yallashoot
-            if home_team_ar and away_team_ar:
-                key1 = f"{normalize_text(home_team_ar)}-{normalize_text(away_team_ar)}"
-                key2 = f"{normalize_text(away_team_ar)}-{normalize_text(home_team_ar)}"
+            if home_team and away_team:
+                key1 = f"{normalize_text(home_team)}-{normalize_text(away_team)}"
+                key2 = f"{normalize_text(away_team)}-{normalize_text(home_team)}"
                 found = best_lookup(yallashoot_map, key1, key2)
                 if found:
                     new_match_entry.update({
@@ -341,10 +333,10 @@ def filter_matches_by_league():
                     })
                 else:
                     print("\n" + "="*20)
-                    print(f"[DEBUG] Match not found for: {home_team_ar} vs {away_team_ar}")
+                    print(f"[DEBUG] Match not found for: {home_team} vs {away_team}")
                     print(f"  - Generated Keys: '{key1}' OR '{key2}'")
                     similar_keys = [key for key in yalla_keys_debug
-                                    if normalize_text(home_team_ar) in key or normalize_text(away_team_ar) in key]
+                                    if normalize_text(home_team) in key or normalize_text(away_team) in key]
                     if similar_keys:
                         print(f"  - Did you mean one of: {similar_keys[:5]}")
                     print("="*20 + "\n")
