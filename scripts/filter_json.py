@@ -12,50 +12,51 @@ OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 # --- ✨ القائمة الكاملة والمحدثة بناءً على طلبك ✨ ---
 LEAGUE_KEYWORDS = [
     # الدوريات الخمسة الكبرى
-    "Premier League",      # الدوري الإنجليزي
-    "La Liga",             # الدوري الإسباني
-    "Serie A",             # الدوري الإيطالي
-    "Bundesliga",          # الدوري الألماني
-    "Ligue 1",             # الدوري الفرنسي
+    "English Premier League",      # الدوري الإنجليزي
+    "Spanish La Liga",             # الدوري الإسباني
+    "Italian Serie A",             # الدوري الإيطالي
+    "German 1. Bundesliga",        # الدوري الألماني
+    "French Ligue 1",              # الدوري الفرنسي
 
     # كؤوس إنجلترا
-    "FA Cup",              # كأس الاتحاد الإنجليزي
-    "Carabao Cup",         # كأس الرابطة (كاراباو)
-    "EFL Cup",             # اسم آخر لكأس الرابطة
-    "Community Shield",    # الدرع الخيرية
+    "English FA Cup",              # كأس الاتحاد الإنجليزي
+    "Carabao Cup",                 # كأس الرابطة (كاراباو)
+    "EFL Cup",                     # اسم آخر لكأس الرابطة
+    "Community Shield",            # الدرع الخيرية
 
     # كؤوس إسبانيا
-    "Copa del Rey",        # كأس ملك إسبانيا
-    "Supercopa",           # كأس السوبر الإسباني
+    "Copa del Rey",                # كأس ملك إسبانيا
+    "Supercopa",                   # كأس السوبر الإسباني
 
     # كؤوس إيطاليا
-    "Coppa Italia",        # كأس إيطاليا
-    "Supercoppa Italiana", # كأس السوبر الإيطالي
+    "Coppa Italia",                # كأس إيطاليا
+    "Supercoppa Italiana",         # كأس السوبر الإيطالي
 
     # كؤوس ألمانيا
-    "DFB-Pokal",           # كأس ألمانيا
-    "DFL-Supercup",        # كأس السوبر الألماني
+    "DFB-Pokal",                   # كأس ألمانيا
+    "DFL-Supercup",                # كأس السوبر الألماني
 
     # كؤوس فرنسا
-    "Coupe de France",     # كأس فرنسا
-    "Trophée des Champions",# كأس الأبطال الفرنسي (السوبر)
+    "Coupe de France",             # كأس فرنسا
+    "Trophée des Champions",       # كأس الأبطال الفرنسي (السوبر)
 
     # البطولات القارية للأندية
-    "Champions League",    # دوري أبطال أوروبا
-    "Europa League",       # الدوري الأوروبي
-    "Conference League",   # دوري المؤتمر الأوروبي
-    "Club World Cup",      # كأس العالم للأندية
+    "Champions League",            # دوري أبطال أوروبا
+    "Europa League",               # الدوري الأوروبي
+    "Conference League",           # دوري المؤتمر الأوروبي
+    "Club World Cup",              # كأس العالم للأندية
 
     # بطولات المنتخبات الدولية
-    "World Cup",           # كأس العالم (يشمل التصفيات والملحق)
-    "WC Qualifier",        # طريقة أخرى لكتابة تصفيات المونديال
-    "UEFA Euro",           # بطولة أمم أوروبا (اليورو)
-    "Copa America",        # كوبا أمريكا
-    "Africa Cup of Nations",# كأس الأمم الأفريقية
-    "AFCON",               # اختصار كأس الأمم الأفريقية
-    "AFC Asian Cup",       # كأس آسيا
-    "Nations League",      # دوري الأمم الأوروبية
-    "Arab Cup",            # كأس العرب
+    "World Cup",                   # كأس العالم (يشمل التصفيات والملحق)
+    "WC Qualifier",                # طريقة أخرى لكتابة تصفيات المونديال
+    "UEFA Euro",                   # بطولة أمم أوروبا (اليورو)
+    "Copa America",                # كوبا أمريكا
+    "Africa Cup of Nations",       # كأس الأمم الأفريقية
+    "AFCON",                       # اختصار كأس الأمم الأفريقية
+    "AFC Asian Cup",               # كأس آسيا
+    "Nations League",              # دوري الأمم الأوروبية
+    "Arab Cup",                    # كأس العرب
+    "Saudi Professional League",   # دوري المحترفين السعودي
 ]
 
 
@@ -90,13 +91,17 @@ def filter_matches_by_league():
         print(f"- {keyword}")
 
     for match in all_matches:
-        # ✨ التصحيح 1: نقرأ اسم البطولة من حقل "competition"
         competition = match.get("competition", "")
         if not competition:
             continue
 
+        # ✨ الإضافة الجديدة: استبعاد البطولات النسائية ✨
+        # إذا كانت كلمة "women" موجودة في اسم البطولة، تجاهل هذه المباراة
+        if "women" in competition.lower():
+            continue
+
+        # عملية الفلترة العادية
         for keyword in LEAGUE_KEYWORDS:
-            # ✨ التصحيح 2: نقارن الكلمة المفتاحية مع حقل البطولة وليس عنوان المباراة
             if keyword.lower() in competition.lower():
                 filtered_list.append(match)
                 break
