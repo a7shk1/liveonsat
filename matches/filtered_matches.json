@@ -1,362 +1,144 @@
 {
   "date": "2025-09-14",
   "source_url": "https://liveonsat.com/2day.php",
-  "filtered_by_keywords": {
-    "leagues": [
-      "English Premier League",
-      "Spanish La Liga (Primera)",
-      "Italian Serie A",
-      "German 1. Bundesliga",
-      "French Ligue 1",
-      "English League Cup",
-      "Carabao Cup",
-      "EFL Cup",
-      "Community Shield",
-      "Copa del Rey",
-      "Supercopa",
-      "Italian Cup (Coppa Italia)",
-      "Supercoppa Italiana",
-      "DFB-Pokal",
-      "DFL-Supercup",
-      "Coupe de France",
-      "Trophée des Champions",
-      "Champions League",
-      "Europa League",
-      "Conference League",
-      "Club World Cup",
-      "World Cup",
-      "WC Qualifier",
-      "UEFA Euro",
-      "Copa America",
-      "Africa Cup of Nations",
-      "AFCON",
-      "AFC Asian Cup",
-      "Nations League",
-      "Arab Cup",
-      "Saudi Professional League"
-    ],
-    "channels": [
-      "beIN",
-      "MATCH! Futbol",
-      "Football HD (tjk)",
-      "Sport TV",
-      "ESPN",
-      "DAZN",
-      "MATCH! Premier",
-      "Sky Sports",
-      "IRIB Varzesh",
-      "Persiana Sport",
-      "MBC",
-      "TNT Sports",
-      "ssc",
-      "Shahid"
-    ]
-  },
   "matches": [
     {
-      "competition": "Italian Serie A - Week 3",
-      "title": "Roma v Torino",
+      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
+      "title": "روما ضد تورينو",
       "kickoff_baghdad": "13:30",
       "channels_raw": [
-        "beIN Sports Australia 2 HD",
-        "DAZN 1 Italia HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
         "Football HD (tjk)",
         "MATCH! Futbol 1 HD",
         "Sport TV2 Portugal HD"
       ]
     },
     {
-      "competition": "Spanish La Liga (Primera) - Week 4",
-      "title": "Celta Vigo v Girona",
+      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
+      "title": "سيلتا فيجو في جيرونا",
       "kickoff_baghdad": "15:00",
       "channels_raw": [
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
         "beIN Sports 1 HD (Astro)",
-        "beIN Sports Australia 1 HD",
-        "beIN Sports France 7 HD max",
-        "beIN Sports MENA 3 HD",
         "DAZN 2 Portugal HD",
-        "DAZN Belgium ($/geo/R) 📺",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "DAZN Portugal ($/geo/R)",
-        "DAZN USA en Español ($/geo/R)",
-        "ESPN Deportes",
-        "ESPN+ USA ($/geo/R)",
         "MATCH! Futbol 2 HD"
       ]
     },
     {
-      "competition": "English Premier League - Week 4",
-      "title": "Burnley v Liverpool",
+      "competition": "الدوري الإنجليزي الممتاز - الأسبوع 4",
+      "title": "بيرنلي ضد ليفربول",
       "kickoff_baghdad": "16:00",
       "channels_raw": [
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA 4K UHD",
-        "beIN Sports MENA English 1 HD",
-        "beIN Sports Türkiye 3 HD",
         "DAZN 1 Portugal HD",
-        "DAZN 2 Bar Espana",
-        "DAZN 2 Espana HD",
-        "DAZN España ($/geo/R)",
-        "DAZN Portugal ($/geo/R)",
         "ESPN 1 Brazil HD",
         "Football HD (tjk)",
         "Persiana Sport HD",
-        "Sky Sports Main Event HD",
-        "Sky Sports Main Event UHD",
-        "Sky Sports Premier League HD"
+        "Sky Sports Main Event HD"
       ]
     },
     {
-      "competition": "Italian Serie A - Week 3",
-      "title": "Atalanta v Lecce",
+      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
+      "title": "Atalanta في Lecce",
       "kickoff_baghdad": "16:00",
       "channels_raw": [
-        "beIN Sports Australia 2 HD",
-        "DAZN 1 Italia HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "MATCH! Futbol 1 HD",
-        "Sport TV5 Portugal HD"
+        "MATCH! Futbol 1 HD"
       ]
     },
     {
-      "competition": "Italian Serie A - Week 3",
-      "title": "Pisa v Udinese",
+      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
+      "title": "كتب في دهشة",
       "kickoff_baghdad": "16:00",
       "channels_raw": [
-        "DAZN 2 Italia HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
         "MATCH! Futbol 3 HD"
       ]
     },
     {
-      "competition": "French Ligue 1 - Week 4",
-      "title": "Lille v Toulouse",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 4 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Sport TV3 Portugal HD"
-      ]
-    },
-    {
-      "competition": "German 1. Bundesliga - Week 3",
-      "title": "St Pauli v Augsburg",
+      "competition": "الألمانية 1. البوندسليجا - الأسبوع 3",
+      "title": "سانت باولي في أوغسبورغ",
       "kickoff_baghdad": "16:30",
       "channels_raw": [
         "beIN Sports 3 HD (Astro)",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN 3 Portugal HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "Sport TV1 Slovenija"
+        "DAZN 3 Portugal HD"
       ]
     },
     {
-      "competition": "Spanish La Liga (Primera) - Week 4",
-      "title": "Levante v Real Betis",
+      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
+      "title": "Levante v real betis",
       "kickoff_baghdad": "17:15",
       "channels_raw": [
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
         "beIN Sports 1 HD (Astro)",
-        "beIN Sports Australia 1 HD",
-        "beIN Sports France 7 HD max",
-        "beIN Sports MENA 5 HD",
-        "beIN Sports MENA English 2 HD",
         "DAZN 2 Portugal HD",
-        "DAZN Belgium ($/geo/R) 📺",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "DAZN Portugal ($/geo/R)",
-        "DAZN USA en Español ($/geo/R)",
-        "ESPN+ USA ($/geo/R)",
         "MATCH! Futbol 2 HD"
       ]
     },
     {
-      "competition": "French Ligue 1 - Week 4",
-      "title": "Paris St Germain v Lens",
-      "kickoff_baghdad": "18:15",
-      "channels_raw": [
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports France 1 HD",
-        "beIN Sports MENA 2 HD",
-        "beIN Sports MENA French 1 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Sport TV3 Portugal HD"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 4",
-      "title": "Brest v Paris FC",
-      "kickoff_baghdad": "18:15",
-      "channels_raw": [
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 4 HD",
-        "DAZN Deutsch ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 4",
-      "title": "Metz v Angers",
-      "kickoff_baghdad": "18:15",
-      "channels_raw": [
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 7 HD",
-        "DAZN Deutsch ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 4",
-      "title": "Strasbourg v Le Havre",
-      "kickoff_baghdad": "18:15",
-      "channels_raw": [
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 6 HD",
-        "DAZN Deutsch ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "English Premier League - Week 4",
-      "title": "Manchester City v Manchester United",
+      "competition": "الدوري الإنجليزي الممتاز - الأسبوع 4",
+      "title": "مانشستر سيتي ضد مانشستر يونايتد",
       "kickoff_baghdad": "18:30",
       "channels_raw": [
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA 4K UHD",
-        "beIN Sports MENA English 1 HD",
-        "beIN Sports Türkiye 3 HD",
         "DAZN 1 Portugal HD",
-        "DAZN 2 Bar Espana",
-        "DAZN 2 Espana HD",
-        "DAZN España ($/geo/R)",
-        "DAZN Portugal ($/geo/R)",
         "ESPN 1 Brazil HD",
         "IRIB Varzesh HD",
         "Persiana Sport HD",
-        "Sky Sports Main Event HD",
-        "Sky Sports Main Event UHD",
-        "Sky Sports Premier League HD"
+        "Sky Sports Main Event HD"
       ]
     },
     {
-      "competition": "German 1. Bundesliga - Week 3",
+      "competition": "الألمانية 1. البوندسليجا - الأسبوع 3",
       "title": "Mönchengladbach v Werder Bremen",
       "kickoff_baghdad": "18:30",
       "channels_raw": [
-        "beIN Connect FRANCE 📺",
         "beIN Sports 3 HD (Astro)",
-        "beIN Sports France 5 HD max",
-        "DAZN 1 Bar Deutsch HD",
         "DAZN 3 Portugal HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "MBC Action HD",
-        "Sport TV3 Slovenija"
+        "MBC Action HD"
       ]
     },
     {
-      "competition": "Saudi Professional League - Week 2",
-      "title": "Al Riyadh v Al Najma",
+      "competition": "الدوري المهني السعودي - الأسبوع 2",
+      "title": "الراياد ضد النجما",
       "kickoff_baghdad": "18:35",
       "channels_raw": [
         "Shahid MBC ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Saudi Professional League - Week 2",
-      "title": "Damac FC v NEOM SC",
+      "competition": "الدوري المهني السعودي - الأسبوع 2",
+      "title": "DAMAC FC في Nemo SC",
       "kickoff_baghdad": "18:50",
       "channels_raw": [
         "Shahid MBC ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Italian Serie A - Week 3",
+      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
       "title": "Sassuolo v Lazio",
       "kickoff_baghdad": "19:00",
       "channels_raw": [
-        "beIN Sports Australia 2 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
         "ESPN 4 Brazil HD",
         "MATCH! Futbol 1 HD"
       ]
     },
     {
-      "competition": "Spanish La Liga (Primera) - Week 4",
-      "title": "Osasuna v Rayo Vallecano",
+      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
+      "title": "Osasuna v Ray Vallecano",
       "kickoff_baghdad": "19:30",
       "channels_raw": [
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
         "beIN Sports 1 HD (Astro)",
-        "beIN Sports Australia 1 HD",
-        "beIN Sports France 7 HD max",
-        "beIN Sports MENA 3 HD",
         "DAZN 2 Portugal HD",
-        "DAZN Belgium ($/geo/R) 📺",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "DAZN Portugal ($/geo/R)",
-        "DAZN USA en Español ($/geo/R)",
-        "ESPN Deportes",
-        "ESPN+ USA ($/geo/R)",
         "MATCH! Futbol 2 HD"
       ]
     },
     {
-      "competition": "Saudi Professional League - Week 2",
-      "title": "Al Nassr v Al Kholood",
+      "competition": "الدوري المهني السعودي - الأسبوع 2",
+      "title": "آل نصر ضد خول",
       "kickoff_baghdad": "21:00",
       "channels_raw": [
-        "Shahid MBC ($/geo/R) 📺",
-        "Sport TV4 Portugal HD",
-        "SuperSport ESPN 2 HD"
+        "Shahid MBC ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Italian Serie A - Week 3",
+      "competition": "الإيطالي الدوري الأريدي - الأسبوع 3",
       "title": "AC Milan v Bologna",
       "kickoff_baghdad": "21:45",
       "channels_raw": [
-        "beIN Sports Australia 3 HD",
-        "DAZN 1 Italia HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
         "Football HD (tjk)",
         "MATCH! Futbol 1 HD",
         "Sport TV2 Portugal HD",
@@ -364,37 +146,13 @@
       ]
     },
     {
-      "competition": "French Ligue 1 - Week 4",
-      "title": "Rennes v Lyon",
-      "kickoff_baghdad": "21:45",
-      "channels_raw": [
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 4 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Sport TV3 Portugal HD"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga (Primera) - Week 4",
-      "title": "Barcelona v Valencia",
+      "competition": "الإسبانية الدوري (الأول) - الأسبوع 4",
+      "title": "برشلونة في فالنسيا",
       "kickoff_baghdad": "22:00",
       "channels_raw": [
-        "beIN Connect MENA HD 📺",
         "beIN Sports 1 HD (Astro)",
-        "beIN Sports Australia 1 HD",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA English 1 HD",
-        "beIN Sports MENA French 1 HD",
-        "DAZN 1 Bar Deutsch HD",
         "DAZN 1 Portugal HD",
-        "DAZN Belgium ($/geo/R) 📺",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "DAZN Portugal ($/geo/R)",
-        "DAZN USA en Español ($/geo/R)",
         "ESPN 1 Brazil HD",
-        "ESPN+ USA ($/geo/R)",
         "MATCH! Futbol 2 HD",
         "Persiana Sport HD"
       ]
