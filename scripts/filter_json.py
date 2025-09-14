@@ -24,22 +24,21 @@ def normalize_text(text: str) -> str:
     if not text:
         return ""
     text = str(text)
-    text = EMOJI_MISC_RE.sub('', text)                 # شيل الإيموجي والرموز
-    text = re.sub(r'\(.*?\)', '', text)                # شيل ما بين الأقواس
-    text = strip_accents(text)                         # شيل الأكسنتس (ö->o)
+    text = EMOJI_MISC_RE.sub('', text)
+    text = re.sub(r'\(.*?\)', '', text)
+    text = strip_accents(text)
     text = text.lower()
     text = text.replace("&", "and")
-    text = re.sub(r'\bfc\b|\bsc\b|\bcf\b', '', text)   # شيل لاحقات شائعة
+    text = re.sub(r'\bfc\b|\bsc\b|\bcf\b', '', text)
     text = text.replace(" ", "").replace("-", "").replace("_", "")
-    text = text.replace("ال", "")                      # يساعد مطابقة العربية
-    text = re.sub(r'[^a-z0-9\u0600-\u06FF]', '', text) # حروف وأرقام فقط
+    text = text.replace("ال", "")
+    text = re.sub(r'[^a-z0-9\u0600-\u06FF]', '', text)
     return text.strip()
 
 def is_empty(v):
     return v is None or v == "" or v == [] or v == {}
 
 def safe_update(target: dict, source: dict, fields: list[str], overwrite: bool = False):
-    """يملأ الحقول من المصدر. إذا overwrite=False يحدّث فقط الفارغ."""
     for f in fields:
         src_val = source.get(f)
         if is_empty(src_val):
@@ -86,7 +85,7 @@ LEAGUE_KEYWORDS = list(TRANSLATION_MAP.keys())
 
 # --- ✨ قاموس الفرق (موسع + بدائل) ✨ ---
 TEAM_NAME_MAP = {
-    # Saudi Arabia (+ variants)
+    # Saudi Arabia
     "Al-Hilal": "الهلال", "Al Hilal": "الهلال",
     "Al-Nassr": "النصر", "Al Nassr": "النصر",
     "Al-Ittihad": "الاتحاد", "Al Ittihad": "الاتحاد",
@@ -180,11 +179,10 @@ TEAM_ALIASES = {
 
 # --- ✨ قنوات + تنظيف ✨ ---
 CHANNEL_KEYWORDS = [
-    # beIN يُدار بمنطق منفصل، لذا وجودها هنا لا يعني أخذها من الملف الأول
+    # ملاحظة: قنوات beIN نضيفها فقط من yallashoot
     "beIN Sports 1 HD", "beIN Sports 2 HD", "beIN Sports 3 HD",
     "MATCH! Futbol 1", "MATCH! Futbol 2", "MATCH! Futbol 3",
-    "Football HD", "Astro Football HD", "SuperSport Football HD", "ST World Football HD",
-    "Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
+    "Football HD","Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
     "ESPN 1 Brazil", "ESPN 2 Brazil", "ESPN 3 Brazil", "ESPN 4 Brazil", "ESPN 5 Brazil", "ESPN 6 Brazil", "ESPN 7 Brazil",
     "DAZN 1 Portugal HD", "DAZN 2 Portugal HD", "DAZN 3 Portugal HD", "DAZN 4 Portugal HD", "DAZN 5 Portugal HD", "DAZN 6 Portugal HD",
     "MATCH! Premier HD", "Sky Sports Main Event HD", "Sky Sport Premier League HD", "IRIB Varzesh HD",
@@ -195,7 +193,6 @@ CHANNEL_KEYWORDS = [
 def clean_channel_name(name: str) -> str:
     if not name: return ""
     name = EMOJI_MISC_RE.sub('', name)
-    # شيل أي أقواس مثل (Astro) أو بلد
     name = re.sub(r'\s*\((?:Astro|UAE|KSA|QA|OM|BH|KW|.*)?\)\s*', '', name, flags=re.IGNORECASE)
     name = name.replace("$/geo/R", "").replace("$/geo", "")
     name = re.sub(r'\s+', ' ', name).strip()
@@ -210,7 +207,7 @@ def translate_team_or_fallback(name_en: str) -> str:
     for k, v in {**TEAM_NAME_MAP, **TEAM_ALIASES}.items():
         if normalize_text(k) == norm:
             return v
-    return name_en  # fallback إنجليزي لو ما لقيْنا
+    return name_en
 
 def parse_title_to_teams(title: str):
     parts = re.split(r'\s+v(?:s)?\.?\s+', title or "", flags=re.IGNORECASE)
@@ -242,7 +239,7 @@ def arabic_competition_name(competition_en: str) -> str:
             break
     return f"{base_ar}{suffix}"
 
-# --- مطابقة yallashoot: صارمة (Exact after normalize) ---
+# --- مطابقة yallashoot: صارمة ---
 def in_yalla(yalla_map: dict, home_ar: str, away_ar: str):
     k1 = f"{normalize_text(home_ar)}-{normalize_text(away_ar)}"
     k2 = f"{normalize_text(away_ar)}-{normalize_text(home_ar)}"
@@ -252,17 +249,34 @@ def in_yalla(yalla_map: dict, home_ar: str, away_ar: str):
         return yalla_map[k2]
     return None
 
-def collect_yalla_channels(yalla_match: dict) -> list:
-    # نحاول مفاتيح شائعة
-    for key in ["channels_raw", "channels", "tv_channels"]:
-        v = yalla_match.get(key)
-        if isinstance(v, list):
-            return [str(x).strip() for x in v if str(x).strip()]
-        if isinstance(v, str) and v.strip():
-            # بعض المصادر قد تعطيها كنص مفصول بفواصل
-            parts = [p.strip() for p in v.split(",")]
-            return [p for p in parts if p]
+# ---- NEW: اجمع قنوات yalla (تشمل حقل "channel" المفرد) ----
+SPLIT_RE = re.compile(r'\s*(?:,|،|/|\||&| و | and )\s*', re.IGNORECASE)
+
+def to_list_channels(val):
+    if isinstance(val, list):
+        return [str(x).strip() for x in val if str(x).strip()]
+    if isinstance(val, str):
+        if not val.strip():
+            return []
+        # فك أي فواصل شائعة
+        parts = [p.strip() for p in SPLIT_RE.split(val) if p.strip()]
+        return parts if parts else [val.strip()]
     return []
+
+def collect_yalla_channels(yalla_match: dict) -> list:
+    # نجرب مفاتيح مختلفة شائعة في yalla
+    keys_try = [
+        "channels_raw", "channels", "tv_channels",
+        "channel", "channel_ar", "channel_en",
+        "broadcasters", "broadcaster"
+    ]
+    out = []
+    for k in keys_try:
+        if k in yalla_match:
+            out.extend(to_list_channels(yalla_match.get(k)))
+    # إزالة فراغات زائدة وحفظ الترتيب
+    out = [c.strip() for c in out if c and c.strip()]
+    return unique_preserving(out)
 
 def filter_matches_by_league():
     # --- حمل yallashoot ---
@@ -315,35 +329,33 @@ def filter_matches_by_league():
         home_team = translate_team_or_fallback(home_en)
         away_team = translate_team_or_fallback(away_en)
 
-        # --- الشرط: لازم تكون نفس المباراة موجودة في yallashoot (Exact match) ---
+        # --- الشرط: لازم تكون نفس المباراة موجودة في yallashoot ---
         found = in_yalla(yallashoot_map, home_team, away_team)
         if not found:
             print(f"[SKIP] Not in yallashoot: {home_team} vs {away_team}")
             continue
 
-        # قنوات: نأخذ القنوات من الملف الأول باستثناء beIN، ونضيف قنوات beIN فقط من yalla
+        # قنوات (غير beIN) من الملف الأول
         original_channels = match_data.get("channels_raw", []) or []
         non_bein_channels = []
         for ch in original_channels:
             ch_str = str(ch or "")
             if is_bein_channel(ch_str):
-                # نتجاهل قنوات beIN القادمة من الملف الأول
-                continue
-            # نفلتر على الكلمات المعتمدة لبقية القنوات
+                continue  # تجاهل beIN من الملف الأول
             ch_l = ch_str.lower()
             for kw in CHANNEL_KEYWORDS:
                 if kw.lower() in ch_l:
                     non_bein_channels.append(clean_channel_name(ch_str))
                     break
 
-        # beIN من yalla فقط (مثل ما هي، بدون تنظيف خاص)
+        # beIN من yallashoot فقط (كما هي)
         bein_from_yalla = []
         yalla_channels = collect_yalla_channels(found)
         for ch in yalla_channels:
             if is_bein_channel(ch):
                 bein_from_yalla.append(ch.strip())
 
-        # دمج نهائي مع الحفاظ على الترتيب وبدون تكرار
+        # دمج نهائي
         channels = unique_preserving(non_bein_channels + bein_from_yalla)
 
         # إضافات قنوات حسب الدوري
@@ -355,7 +367,6 @@ def filter_matches_by_league():
         if "الدوري الفرنسي" in competition_ar and not contains_ignore_case(channels, "beIN SPORTS 4 HD"):
             channels.append("beIN SPORTS 4 HD")
 
-        # نبني الإدخال (ونكمّل من yallashoot بدون ما نكسر الموجود)
         new_match_entry = {
             "competition": competition_ar,
             "kickoff_baghdad": match_data.get("kickoff_baghdad"),
@@ -386,7 +397,7 @@ def filter_matches_by_league():
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print(f"Process complete. Kept and processed {len(filtered_list)} matches. (Strict intersection with yallashoot; beIN from yalla only; Ligue 1 adds beIN SPORTS 4 HD)")
+    print("Process complete. (Strict intersection with yallashoot; beIN from yalla only; Ligue 1 adds beIN SPORTS 4 HD)")
 
 if __name__ == "__main__":
     filter_matches_by_league()
