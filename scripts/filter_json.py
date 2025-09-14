@@ -13,7 +13,7 @@ OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 LEAGUE_KEYWORDS = [
     # الدوريات الخمسة الكبرى
     "English Premier League",      # الدوري الإنجليزي
-    "Spanish La Liga",             # الدوري الإسباني
+    "Spanish La Liga (Primera)",             # الدوري الإسباني
     "Italian Serie A",             # الدوري الإيطالي
     "German 1. Bundesliga",        # الدوري الألماني
     "French Ligue 1",              # الدوري الفرنسي
