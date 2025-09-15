@@ -21,30 +21,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # ✅ كتابة مفتاح الخدمة من Secrets إلى ملف مؤقت
-      # 1) روح Settings > Secrets and variables > Actions
-      # 2) سو Secret باسم FIREBASE_SERVICE_ACCOUNT_B64 (Base64) أو FCM_SERVICE_ACCOUNT (JSON نصي)
+      # ✅ اكتب JSON من السرّ مباشرةً بدون heredoc
       - name: Write Firebase service key
         env:
-          FIREBASE_SERVICE_ACCOUNT_B64: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_B64 }}
-          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
+          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}  # الصِق هنا محتوى JSON كامل
         shell: bash
         run: |
           set -euo pipefail
-          if [ -n "${FIREBASE_SERVICE_ACCOUNT_B64:-}" ]; then
-            echo "Using FIREBASE_SERVICE_ACCOUNT_B64"
-            echo "$FIREBASE_SERVICE_ACCOUNT_B64" | base64 -d > "$RUNNER_TEMP/firebase.json"
-          elif [ -n "${FCM_SERVICE_ACCOUNT:-}" ]; then
-            echo "Using FCM_SERVICE_ACCOUNT"
-            cat > "$RUNNER_TEMP/firebase.json" <<'JSON'
-${{ secrets.FCM_SERVICE_ACCOUNT }}
-JSON
-          else
-            echo "❌ No Firebase service key secret provided." >&2
+          if [ -z "${FCM_SERVICE_ACCOUNT:-}" ]; then
+            echo "❌ Secret FCM_SERVICE_ACCOUNT غير مضبوط" >&2
             exit 1
           fi
+          # اكتب JSON كما هو
+          printf "%s" "$FCM_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase.json"
 
-          # تأكيد إن الملف مو فاضي وصالح JSON
+          # فحص سريع: الملف موجود وصالح JSON
           ls -l "$RUNNER_TEMP/firebase.json"
           python - << 'PY'
 import json
