@@ -19,6 +19,10 @@ jobs:
   filter-and-translate:
     runs-on: ubuntu-latest
 
+    # (اختياري) اضبط عتبة المطابقة الضبابية إذا تحب توسّع/تشد المطابقة
+    # env:
+    #   LIVO_FUZZY_THRESHOLD: "84"
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
