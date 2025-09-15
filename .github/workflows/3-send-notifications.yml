@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # يكتب ملف firebase.json من السرّ (الصِق JSON كامل للملف في السر FCM_SERVICE_ACCOUNT)
+      # يكتب ملف firebase.json من السرّ (الصِق JSON الكامل في FCM_SERVICE_ACCOUNT)
       - name: Write Firebase service key
         shell: bash
         env:
@@ -32,15 +32,10 @@ jobs:
             echo "❌ Secret FCM_SERVICE_ACCOUNT غير مضبوط" >&2
             exit 1
           fi
-
           printf "%s" "$FCM_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase.json"
-
-          # تحقق سريع: الملف موجود وغير فارغ
           test -s "$RUNNER_TEMP/firebase.json"
-          ls -l "$RUNNER_TEMP/firebase.json"
-
-          # تحقق من صحة JSON (jq موجود افتراضياً على ubuntu-latest)
           jq type "$RUNNER_TEMP/firebase.json" >/dev/null
+          ls -l "$RUNNER_TEMP/firebase.json"
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -51,12 +46,21 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          python -V
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
+            echo "Using requirements.txt"
+            cat requirements.txt
             pip install -r requirements.txt
           else
+            echo "No requirements.txt; installing firebase-admin directly"
             pip install firebase-admin
           fi
+          python - << 'PY'
+import pkgutil, sys
+print("firebase_admin installed?", pkgutil.find_loader("firebase_admin") is not None)
+PY
+          pip show firebase-admin || true
 
       - name: Send notifications for LIVE matches
         env:
@@ -64,7 +68,6 @@ jobs:
           # DRY_RUN: '1'   # جرّبه أول مرة بدون إرسال حقيقي إذا حاب
         run: python scripts/send_notifications.py
 
-      # نحفظ matches/notified.json حتى لا نعيد إرسال نفس المباراة
       - name: Commit & push notified state
         if: always()
         uses: stefanzweifel/git-auto-commit-action@v5
