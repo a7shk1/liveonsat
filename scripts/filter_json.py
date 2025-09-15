@@ -14,7 +14,6 @@ OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 YALLASHOOT_URL = "https://raw.githubusercontent.com/a7shk1/yallashoot/refs/heads/main/matches/today.json"
 
 # ==== أدوات مساعدة ====
-AR_LETTERS_RE = re.compile(r'[\u0600-\u06FF]')
 EMOJI_MISC_RE = re.compile(r'[\u2600-\u27BF\U0001F300-\U0001FAFF]+')
 BEIN_RE = re.compile(r'bein\s*sports?', re.I)
 
@@ -63,8 +62,11 @@ def clean_channel_display(name: str) -> str:
     if not name: return ""
     s = str(name)
     s = EMOJI_MISC_RE.sub("", s)
-    s = re.sub(r"\s*\((?:\$?\/?geo\/?R|geo\/?R|\$\/?geo)\)\s*", "", s, flags=re.I)
+    # شيل وسوم/ملاحق
+    s = re.sub(r"\s*\((?:\$?\/?geo\/?R|geo\/?R|\$\/?geo|tjk)\)\s*", "", s, flags=re.I)
     s = re.sub(r"📺|\[online\]|\[app\]", "", s, flags=re.I)
+    # وحد "hd" والمسافات
+    s = re.sub(r"\s*hd\s*$", " HD", s, flags=re.I)
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
@@ -72,7 +74,6 @@ def is_bein_channel(name: str) -> bool:
     return bool(BEIN_RE.search(name or ""))
 
 # ==== القنوات المسموحة فقط ====
-# قائمة صريحة + substrings مرنة لبعض المزودين (Alkass/SSC/Shahid)
 SUPPORTED_CHANNELS = [
     "MATCH! Futbol 1", "MATCH! Futbol 2", "MATCH! Futbol 3",
     "Football HD",
@@ -83,17 +84,16 @@ SUPPORTED_CHANNELS = [
     "Persiana Sport HD", "MBC Action HD", "TNT Sports 1 HD", "TNT Sports 2 HD", "TNT Sports HD",
     "MBC masrHD", "MBC masr2HD", "ssc1 hd", "ssc2 hd", "Shahid MBC",
 ]
-# substrings مسموحة (lowercase) لتغطية اختلافات التهجئة والتنسيق
+# substrings مسموحة لتغطية اختلافات الأسماء للعربية/الإنجليزية
 ALLOWED_SUBSTRINGS = {
-    # SSC (كل الفروع: SSC 1/2/3/Extra…)
+    # SSC
     "ssc ", " ssc", "ssc1", "ssc2", "ssc3", "ssc4", "ssc5", "ssc6", "ssc7", "ssc extra", "ssc sport",
-    # Alkass / Al Kass (الكأس)
-    "alkass", "al kass", "al-kass", "al kass one", "al kass two", "al kass 1", "al kass 2", "al kass 3", "al kass 4", "al kass 5", "al kass 6", "al kass seven",
-    "alkass 1", "alkass 2", "alkass 3", "alkass 4", "alkass 5", "alkass 6", "alkass 7",
+    # Alkass
+    "alkass", "al kass", "al-kass", "al kass 1", "al kass 2", "al kass 3", "al kass 4", "al kass 5", "al kass 6", "al kass 7",
     # Shahid
     "shahid", "shahid vip", "shahid mbc",
-    # قنوات عربستانيّة معتادة بدوري آسيا
-    "mbc action", "persiana sport", "irib varzesh",
+    # أخرى
+    "mbc action", "persiana sport", "irib varzesh", "football hd"
 }
 
 _supported_tokens = set()
@@ -105,22 +105,95 @@ for c in SUPPORTED_CHANNELS:
 def is_supported_channel(name: str) -> bool:
     if not name: return False
     n = name.lower()
-    # تطابق مباشر من القائمة
     if any(tok in n for tok in _supported_tokens):
         return True
-    # substrings المرنة (SSC/Alkass/Shahid …)
     if any(sub in n for sub in ALLOWED_SUBSTRINGS):
         return True
     return False
 
-# ==== قاموس EN→AR موسّع (مختصر هنا؛ يعتمد المطابقة بالأسماء) ====
+# ==== توحيد أسماء القنوات (Canonicalization) لإزالة التكرار ====
+# نولّد "مفتاح موحّد" (channel key) ونرجع اسم عرض قياسي (canonical display)
+CHANNEL_CANON_RULES = [
+    # Alkass / Al Kass / الكأس
+    (re.compile(r"(al[\s-]?kass|الكاس|الكأس)\s*(?:channel\s*)?(\d+)", re.I), lambda m: (f"alkass-{m.group(2)}", f"Alkass {m.group(2)} HD")),
+    (re.compile(r"^(?:الكاس|الكأس)\s*(\d+)", re.I),                                 lambda m: (f"alkass-{m.group(1)}", f"Alkass {m.group(1)} HD")),
+    (re.compile(r"^al\s*kass\s*(\d+)", re.I),                                        lambda m: (f"alkass-{m.group(1)}", f"Alkass {m.group(1)} HD")),
+    (re.compile(r"^alkass\s*(\d+)", re.I),                                           lambda m: (f"alkass-{m.group(1)}", f"Alkass {m.group(1)} HD")),
+    # SSC
+    (re.compile(r"ssc\s*extra", re.I),                                               lambda m: ("ssc-extra", "SSC Extra HD")),
+    (re.compile(r"ssc\s*(\d+)", re.I),                                               lambda m: (f"ssc-{m.group(1)}", f"SSC {m.group(1)} HD")),
+    # Shahid
+    (re.compile(r"shahid\s*(vip)?", re.I),                                           lambda m: ("shahid", "Shahid MBC")),
+    # Football HD (tjk) → Football HD
+    (re.compile(r"football\s*hd", re.I),                                             lambda m: ("football-hd", "Football HD")),
+    # Sky PL / Main Event (للتوحيد فقط)
+    (re.compile(r"sky\s*sport[s]?\s*premier\s*league", re.I),                        lambda m: ("sky-premier-league", "Sky Sport Premier League HD")),
+    (re.compile(r"sky\s*sport[s]?\s*main\s*event", re.I),                            lambda m: ("sky-main-event", "Sky Sports Main Event HD")),
+    # DAZN PT
+    (re.compile(r"dazn\s*1\s*portugal", re.I),                                       lambda m: ("dazn-pt-1", "DAZN 1 Portugal HD")),
+    (re.compile(r"dazn\s*2\s*portugal", re.I),                                       lambda m: ("dazn-pt-2", "DAZN 2 Portugal HD")),
+    (re.compile(r"dazn\s*3\s*portugal", re.I),                                       lambda m: ("dazn-pt-3", "DAZN 3 Portugal HD")),
+    # MBC Action
+    (re.compile(r"mbc\s*action", re.I),                                              lambda m: ("mbc-action", "MBC Action HD")),
+    # Persiana / IRIB
+    (re.compile(r"persiana\s*sport", re.I),                                          lambda m: ("persiana-sport", "Persiana Sport HD")),
+    (re.compile(r"irib\s*varzesh", re.I),                                            lambda m: ("irib-varzesh", "IRIB Varzesh HD")),
+    # TNT Sports
+    (re.compile(r"tnt\s*sports?\s*1", re.I),                                         lambda m: ("tnt-1", "TNT Sports 1 HD")),
+    (re.compile(r"tnt\s*sports?\s*2", re.I),                                         lambda m: ("tnt-2", "TNT Sports 2 HD")),
+]
+
+def channel_key_and_display(raw_name: str) -> tuple[str, str]:
+    """
+    يرجع:
+      - مفتاح موحّد ثابت (key) لإزالة التكرار
+      - اسم عرض قياسي (display) للمخرجات
+    """
+    disp = clean_channel_display(raw_name)
+    low = disp.lower()
+
+    # beIN: لا نغيّر اسمها (بس نطبع مفتاح موحد)
+    if is_bein_channel(disp):
+        # وحّد شكل الاسم الشائع
+        norm_num = re.search(r'\b(\d+)\b', disp)
+        if norm_num:
+            return (f"bein-{norm_num.group(1)}", f"beIN Sports {norm_num.group(1)} HD")
+        return ("bein", "beIN Sports HD")
+
+    # مرّر قواعد التوحيد
+    for pat, conv in CHANNEL_CANON_RULES:
+        m = pat.search(disp)
+        if m:
+            key, fixed = conv(m)
+            return (key.lower(), fixed)
+
+    # fallback: اسم مصفّى فقط
+    # وحد لاحقة HD
+    if not re.search(r"\bhd\b", disp, flags=re.I):
+        # لا تفرض HD إذا مو موجودة؛ نخليه كما هو
+        pass
+    return (low, disp)
+
+def dedupe_channels_preserve_order(ch_list: list[str]) -> list[str]:
+    """يطبّق التوحيد ويزيل التكرار حسب المفتاح الموحد."""
+    seen_keys = set()
+    out_disp = []
+    for ch in ch_list:
+        if not ch:
+            continue
+        key, disp = channel_key_and_display(ch)
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        out_disp.append(disp)
+    return out_disp
+
+# ==== قاموس EN→AR مختصر للفرق (تكفي للاسماء الشائعة والمستخدمة حالياً) ====
 EN2AR = {
-    # عرب + آسيوي مختصر
     "Al Ahli":"الأهلي السعودي","Al-Ittihad":"الاتحاد","Al Ittihad":"الاتحاد","Al Hilal":"الهلال","Al Nassr":"النصر",
     "Al Sadd":"السد","Al Duhail":"الدحيل","Al Gharafa":"الغرافة","Al Rayyan":"الريان","Sharjah":"الشارقة","Al Wahda":"الوحدة",
     "Al Shorta":"الشرطة","Al Zawraa":"الزوراء","Al Quwa Al Jawiya":"القوة الجوية","Nasaf Qarshi":"ناساف كارشي",
     "Ittihad Tanger":"اتحاد طنجة","Olympic Safi":"أولمبيك آسفي","OC Safi":"أولمبيك آسفي",
-    # أمثلة أوروبية مستخدمة اليوم
     "Como":"كومو","Genoa":"جنوى","Espanyol":"إسبانيول","Real Mallorca":"ريال مايوركا","Mallorca":"ريال مايوركا",
 }
 AR2EN = {v: k for k, v in EN2AR.items()}
@@ -165,7 +238,6 @@ def build_live_entries(live_data: dict):
         if not h_en or not a_en:
             continue
 
-        # قنوات من عدة حقول
         raw_channels = []
         for ck in ("channels_raw","channels","tv_channels","broadcasters","broadcaster"):
             if ck in m and m[ck]:
@@ -175,7 +247,6 @@ def build_live_entries(live_data: dict):
                 elif isinstance(raw, str):
                     raw_channels.extend(to_list_channels(raw))
 
-        # فلترة القنوات
         filtered = []
         for ch in raw_channels:
             ch = clean_channel_display(ch)
@@ -184,7 +255,9 @@ def build_live_entries(live_data: dict):
                 continue
             if is_supported_channel(ch):
                 filtered.append(ch)
-        filtered = unique_preserving(filtered)
+
+        # إزالة التكرار/توحيد الأسماء داخل liveonsat نفسه
+        filtered = dedupe_channels_preserve_order(filtered)
         if not filtered:
             continue
 
@@ -213,8 +286,8 @@ def pick_primary_yalla_channel(chs: list[str]) -> str|None:
     if not chs: return None
     for c in chs:
         if is_bein_channel(c):
-            return c.strip()
-    return chs[0].strip()
+            return clean_channel_display(c)
+    return clean_channel_display(chs[0])
 
 def build_yalla_index(yalla_data: dict):
     idx = {}
@@ -235,12 +308,13 @@ def build_yalla_index(yalla_data: dict):
 
         y_chs = collect_yalla_channels(m)
         primary = pick_primary_yalla_channel(y_chs)
-        record = {"match": m, "primary_yalla_channel": primary}
+        # نوحد/نزيل التكرار في قناة يلا أيضاً (لو فيها تباين)
+        primary_key, primary_disp = channel_key_and_display(primary) if primary else (None, None)
 
-        idx[k1] = record
-        idx[k2] = record
-        idx[k3] = record
-        idx[k4] = record
+        idx[k1] = {"match": m, "primary_key": primary_key, "primary_disp": primary_disp}
+        idx[k2] = {"match": m, "primary_key": primary_key, "primary_disp": primary_disp}
+        idx[k3] = {"match": m, "primary_key": primary_key, "primary_disp": primary_disp}
+        idx[k4] = {"match": m, "primary_key": primary_key, "primary_disp": primary_disp}
     return idx
 
 # ==== المطابقة الصارمة (بعد التحويل) ====
@@ -278,7 +352,7 @@ def filter_matches():
             json.dump({"date": live_data.get("date"), "source_url": live_data.get("source_url"), "matches": []}, f, ensure_ascii=False, indent=2)
         return
 
-    # 1) حمّل يلا شوت (للمطابقة + beIN)
+    # 1) حمّل يلا شوت (للمطابقة + beIN الأساسي)
     try:
         yresp = requests.get(YALLASHOOT_URL, timeout=25)
         yresp.raise_for_status()
@@ -299,20 +373,24 @@ def filter_matches():
         matched_cnt += 1
 
         y_match = m_y["match"]
-        primary_yalla = m_y.get("primary_yalla_channel")
+        primary_key = m_y.get("primary_key")
+        primary_disp = m_y.get("primary_disp")
 
-        channels = []
-        if primary_yalla:
-            channels.append(primary_yalla)  # beIN من يلا (إن وجدت)
-        channels.extend(le["channels"])     # + قنوات liveonsat المسموحة (تشمل Alkass/SSC/Shahid الآن)
-        channels = unique_preserving(channels)
+        # قنوات: beIN من يلا (إن وُجدت) + قنوات liveonsat المسموحة
+        merged = []
+        if primary_disp:
+            merged.append(primary_disp)
+        merged.extend(le["channels"])
+
+        # إزالة التكرار عبر المفاتيح الموحّدة (تشمل "الكأس 5" ~ "Alkass 5 HD")
+        merged = dedupe_channels_preserve_order(merged)
 
         out = {
             "competition": y_match.get("competition") or le["competition"],
             "kickoff_baghdad": y_match.get("kickoff_baghdad") or le["kickoff_baghdad"],
             "home_team": en_to_ar(le["home_en"]) if en_to_ar(le["home_en"]) else le["home_en"],
             "away_team": en_to_ar(le["away_en"]) if en_to_ar(le["away_en"]) else le["away_en"],
-            "channels_raw": channels,
+            "channels_raw": merged,
             "home_logo": y_match.get("home_logo"),
             "away_logo": y_match.get("away_logo"),
             "status_text": y_match.get("status_text"),
