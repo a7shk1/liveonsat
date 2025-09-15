@@ -47,16 +47,18 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install --upgrade pip
+
+          # إذا عندك requirements.txt نصّب منه، بس تجاهل أي importlib/importlib2 (تتعارض مع القياسي)
           if [ -f requirements.txt ]; then
-            # ⚠️ فلتر أي باكيجات تغطي مكتبات قياسية مثل importlib
-            grep -viE '^(importlib|importlib2)\s*($|==|>=|<=|~=|>|<)' requirements.txt > /tmp/req.txt || true
+            grep -viE '^(importlib|importlib2)\s*($|[=<>~])' requirements.txt > /tmp/req.txt || true
             cat /tmp/req.txt
             pip install -r /tmp/req.txt
-          else
-            pip install firebase-admin
           fi
-          # تحقّق بدون importlib.util (لتفادي التعارض)
-          python -c "import pkgutil,sys; sys.exit(0 if pkgutil.find_loader('firebase_admin') else 1)"
+
+          # إن لم تكن firebase-admin مثبتة، ثبّتها الآن
+          python -c "import pkgutil,sys; sys.exit(0 if pkgutil.find_loader('firebase_admin') else 1)" || pip install firebase-admin
+
+          # طباعة معلومات للتأكد
           pip show firebase-admin || true
 
       - name: Send notifications for LIVE matches
