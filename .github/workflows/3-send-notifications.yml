@@ -16,19 +16,43 @@ concurrency:
 jobs:
   send:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # ✅ اكتب مفتاح الخدمة من Secrets إلى ملف serviceAccountKey.json
-      # 1) روح Settings > Secrets and variables > Actions
-      # 2) سو Secret باسم: FCM_SERVICE_ACCOUNT
-      # 3) الصق محتوى JSON الكامل للمفتاح هناك
-      - name: Write service account key
+      # ✅ كتابة مفتاح الخدمة (اختَر واحدة من طريقتين بالسرّ):
+      # - FIREBASE_SERVICE_ACCOUNT_B64: JSON مشفّر Base64 (مُستحسن)
+      # - FCM_SERVICE_ACCOUNT: JSON نصّي كامل كما هو
+      - name: Write Firebase service key
+        env:
+          FIREBASE_SERVICE_ACCOUNT_B64: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_B64 }}
+          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
+        shell: bash
         run: |
-          cat > serviceAccountKey.json <<'JSON'
-          ${{ secrets.FCM_SERVICE_ACCOUNT }}
-          JSON
+          set -euo pipefail
+          if [ -n "${FIREBASE_SERVICE_ACCOUNT_B64:-}" ]; then
+            echo "Using FIREBASE_SERVICE_ACCOUNT_B64"
+            echo "$FIREBASE_SERVICE_ACCOUNT_B64" | base64 -d > "$RUNNER_TEMP/firebase.json"
+          elif [ -n "${FCM_SERVICE_ACCOUNT:-}" ]; then
+            echo "Using FCM_SERVICE_ACCOUNT"
+            cat > "$RUNNER_TEMP/firebase.json" <<'JSON'
+${{ secrets.FCM_SERVICE_ACCOUNT }}
+JSON
+          else
+            echo "❌ No Firebase service key secret provided." >&2
+            echo "Provide FIREBASE_SERVICE_ACCOUNT_B64 (preferred) or FCM_SERVICE_ACCOUNT." >&2
+            exit 1
+          fi
+
+          # فحص سريع: الملف موجود وحجمه > 0
+          ls -l "$RUNNER_TEMP/firebase.json"
+          python - << 'PY'
+from pathlib import Path
+p = Path("${{ runner.temp }}/firebase.json")
+assert p.exists() and p.stat().st_size > 0, "firebase.json is missing or empty"
+print("✅ firebase.json OK, size:", p.stat().st_size)
+PY
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -36,11 +60,20 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
+        shell: bash
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
-          pip install firebase-admin
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install firebase-admin
+          fi
 
       - name: Send notifications for LIVE matches
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
+          # DRY_RUN: '1'   # شغّل أول مرة كتجربة بدون إرسال حقيقي إذا حاب
         run: python scripts/send_notifications.py
 
       # نحفظ matches/notified.json حتى ما نعيد إرسال نفس المباراة
