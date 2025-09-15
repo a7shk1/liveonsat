@@ -21,9 +21,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # ✅ كتابة مفتاح الخدمة (اختَر واحدة من طريقتين بالسرّ):
-      # - FIREBASE_SERVICE_ACCOUNT_B64: JSON مشفّر Base64 (مُستحسن)
-      # - FCM_SERVICE_ACCOUNT: JSON نصّي كامل كما هو
+      # ✅ كتابة مفتاح الخدمة من Secrets إلى ملف مؤقت
+      # 1) روح Settings > Secrets and variables > Actions
+      # 2) سو Secret باسم FIREBASE_SERVICE_ACCOUNT_B64 (Base64) أو FCM_SERVICE_ACCOUNT (JSON نصي)
       - name: Write Firebase service key
         env:
           FIREBASE_SERVICE_ACCOUNT_B64: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_B64 }}
@@ -41,17 +41,18 @@ ${{ secrets.FCM_SERVICE_ACCOUNT }}
 JSON
           else
             echo "❌ No Firebase service key secret provided." >&2
-            echo "Provide FIREBASE_SERVICE_ACCOUNT_B64 (preferred) or FCM_SERVICE_ACCOUNT." >&2
             exit 1
           fi
 
-          # فحص سريع: الملف موجود وحجمه > 0
+          # تأكيد إن الملف مو فاضي وصالح JSON
           ls -l "$RUNNER_TEMP/firebase.json"
           python - << 'PY'
+import json
 from pathlib import Path
 p = Path("${{ runner.temp }}/firebase.json")
-assert p.exists() and p.stat().st_size > 0, "firebase.json is missing or empty"
-print("✅ firebase.json OK, size:", p.stat().st_size)
+print("exists:", p.exists(), "size:", p.stat().st_size)
+json.load(open(p, "r", encoding="utf-8"))
+print("✅ JSON is valid")
 PY
 
       - name: Setup Python
@@ -62,7 +63,6 @@ PY
       - name: Install deps
         shell: bash
         run: |
-          set -euo pipefail
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
@@ -73,7 +73,6 @@ PY
       - name: Send notifications for LIVE matches
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
-          # DRY_RUN: '1'   # شغّل أول مرة كتجربة بدون إرسال حقيقي إذا حاب
         run: python scripts/send_notifications.py
 
       # نحفظ matches/notified.json حتى ما نعيد إرسال نفس المباراة
