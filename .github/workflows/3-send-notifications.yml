@@ -2,9 +2,14 @@ name: 3. Send Live Match Notifications
 
 on:
   workflow_dispatch:
+    inputs:
+      send_now:
+        description: "Send a test LIVE notification now"
+        required: false
+        default: "false"
   schedule:
-    - cron: "*/5 * * * *"      # كل 5 دقائق
-    - cron: "2-59/5 * * * *"   # انحراف دقيقتين
+    - cron: "*/5 * * * *"
+    - cron: "2-59/5 * * * *"
 
 permissions:
   contents: write
@@ -21,7 +26,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # يكتب ملف firebase.json من السرّ (الصِق JSON الكامل داخل السر FCM_SERVICE_ACCOUNT)
       - name: Write Firebase service key
         shell: bash
         env:
@@ -47,29 +51,25 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install --upgrade pip
-
-          # إذا عندك requirements.txt نصّب منه، بس تجاهل أي importlib/importlib2 (تتعارض مع القياسي)
           if [ -f requirements.txt ]; then
             grep -viE '^(importlib|importlib2)\s*($|[=<>~])' requirements.txt > /tmp/req.txt || true
-            cat /tmp/req.txt
             pip install -r /tmp/req.txt
           fi
-
-          # إن لم تكن firebase-admin مثبتة، ثبّتها الآن
           python -c "import pkgutil,sys; sys.exit(0 if pkgutil.find_loader('firebase_admin') else 1)" || pip install firebase-admin
-
-          # طباعة معلومات للتأكد
           pip show firebase-admin || true
 
-      - name: Send notifications for LIVE matches
-        env:
-          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
-          # DRY_RUN: '1'   # فعّلها للتجربة بدون إرسال
-        run: python scripts/send_notifications.py
-
-      - name: Commit & push notified state
-        if: always()
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "🔔 chore: update notified live matches state"
-          file_pattern: "matches/notified.json"
+      # يضيف مباراة LIVE تجريبية إذا اخترت send_now=true عند تشغيل اليدوي
+      - name: Seed a LIVE match (only when send_now=true)
+        if: ${{ github.event.inputs.send_now == 'true' }}
+        shell: bash
+        run: |
+          mkdir -p matches
+          cat > matches/filtered_matches.json <<'JSON'
+          {
+            "date": "$(date -u +%F)",
+            "matches": [
+              {
+                "home_team": "Real Madrid",
+                "away_team": "Barcelona",
+                "status_text": "LIVE",
+                "competition": "La Liga",
