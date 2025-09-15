@@ -71,17 +71,19 @@ def send_topic_notification(title: str, body: str, topic: str = "matches", dry: 
         notification=messaging.Notification(title=title, body=body),
         topic=topic,
     )
-    last_err = None
-    for attempt in range(2):
-        try:
-            resp = messaging.send(msg)
-            print(f"✅ sent: {resp} | {title} — {body}")
-            return
-        except Exception as e:
-            last_err = e
-            print(f"⚠️  إرسال فشل (محاولة {attempt+1}): {e}")
-            time.sleep(1.0)
-    raise RuntimeError(f"❌ فشل إرسال الإشعار نهائيًا: {last_err}")
+    resp = messaging.send(msg)
+    print(f"✅ sent to topic: {resp} | {title} — {body}")
+
+def send_token_notification(title: str, body: str, token: str, dry: bool = False):
+    if dry:
+        print(f"🧪 DRY_RUN — كان راح يُرسل (token): {title} — {body}")
+        return
+    msg = messaging.Message(
+        notification=messaging.Notification(title=title, body=body),
+        token=token,
+    )
+    resp = messaging.send(msg)
+    print(f"✅ sent to token: {resp} | {title} — {body}")
 
 # ===== الرئيسي =====
 def main():
@@ -89,6 +91,15 @@ def main():
 
     init_firebase()
 
+    # --- إرسال مباشر إذا تم تمرير TEST_DEVICE_TOKEN ---
+    test_token = os.environ.get("TEST_DEVICE_TOKEN")
+    if test_token:
+        try:
+            send_token_notification("🔔 Test", "Hello from CI", test_token, dry=dry_run)
+        except Exception as e:
+            print(f"⚠️ فشل إرسال للتوكن: {e}")
+
+    # --- منطق المباريات (topic matches) ---
     data = load_json(MATCHES_JSON, {"date": "", "matches": []})
     date_str = data.get("date") or datetime.utcnow().date().isoformat()
     matches = data.get("matches") or []
@@ -116,7 +127,7 @@ def main():
             body = " ".join(body_parts)
 
             try:
-                send_topic_notification(title, body, dry=dry_run)
+                send_topic_notification(title, body, topic="matches", dry=dry_run)
                 notified[key] = True
                 changed = True
                 sent_count += 1
