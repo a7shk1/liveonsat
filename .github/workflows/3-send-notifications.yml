@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # يكتب ملف firebase.json من السر FCM_SERVICE_ACCOUNT (JSON كامل)
+      # يكتب ملف firebase.json من السرّ (الصِق JSON كامل للملف في السر FCM_SERVICE_ACCOUNT)
       - name: Write Firebase service key
         shell: bash
         env:
@@ -32,18 +32,15 @@ jobs:
             echo "❌ Secret FCM_SERVICE_ACCOUNT غير مضبوط" >&2
             exit 1
           fi
+
           printf "%s" "$FCM_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase.json"
 
-          # تحقق سريع من صحة JSON
+          # تحقق سريع: الملف موجود وغير فارغ
+          test -s "$RUNNER_TEMP/firebase.json"
           ls -l "$RUNNER_TEMP/firebase.json"
-          python - << 'PY'
-import json
-from pathlib import Path
-p = Path("${{ runner.temp }}/firebase.json")
-print("exists:", p.exists(), "size:", p.stat().st_size)
-json.load(open(p, "r", encoding="utf-8"))
-print("✅ JSON is valid")
-PY
+
+          # تحقق من صحة JSON (jq موجود افتراضياً على ubuntu-latest)
+          jq type "$RUNNER_TEMP/firebase.json" >/dev/null
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -63,7 +60,8 @@ PY
 
       - name: Send notifications for LIVE matches
         env:
-          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json }
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
+          # DRY_RUN: '1'   # جرّبه أول مرة بدون إرسال حقيقي إذا حاب
         run: python scripts/send_notifications.py
 
       # نحفظ matches/notified.json حتى لا نعيد إرسال نفس المباراة
