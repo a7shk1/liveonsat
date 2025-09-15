@@ -1,4 +1,5 @@
 # scripts/filter_json.py
+# -*- coding: utf-8 -*-
 import json
 import re
 import unicodedata
@@ -6,7 +7,7 @@ from pathlib import Path
 import requests
 import os
 
-# ===== ترجمة/مطابقة متقدمة (اختيارية) =====
+# ===== ترجمة/مطابقة متقدمة =====
 try:
     from deep_translator import GoogleTranslator
 except Exception:
@@ -20,11 +21,14 @@ except Exception:
 # ===== إعدادات =====
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MATCHES_DIR = REPO_ROOT / "matches"
-INPUT_PATH = MATCHES_DIR / "liveonsat_raw.json"   # نكمّل منه القنوات
+INPUT_PATH = MATCHES_DIR / "liveonsat_raw.json"        # نكمّل منه القنوات
 OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 YALLASHOOT_URL = "https://raw.githubusercontent.com/a7shk1/yallashoot/refs/heads/main/matches/today.json"
 
-# thresholds التجريبية بالترتيب
+# كاش تلقائي للترجمات (ينحفظ بالريبو)
+CACHE_PATH = MATCHES_DIR / "auto_team_map.json"
+
+# عتبات المطابقة تُجرب بالترتيب:
 THRESHOLDS = [90, 84, 78, 72]
 
 # ===== أدوات عامة =====
@@ -105,78 +109,58 @@ def is_supported_channel(name: str) -> bool:
     n = name.lower()
     return any(tok in n for tok in SUPPORTED_TOKENS)
 
-# ===== قاموس فرق موسّع (المذكورة + مشهورة) =====
-TEAM_MAP_EN2AR = {
-    # Sample you gave
-    "Hellas Verona": "هيلاس فيرونا", "Cremonese": "كريمونيزي",
+# ===== الكاش التلقائي للترجمات =====
+def load_cache():
+    if CACHE_PATH.exists():
+        try:
+            with CACHE_PATH.open("r", encoding="utf-8") as f:
+                obj = json.load(f)
+                return obj if isinstance(obj, dict) else {}
+        except Exception:
+            return {}
+    return {}
 
-    # Italy
-    "Como": "كومو", "Genoa": "جنوى", "Monza": "مونزا", "Fiorentina": "فيورنتينا", "Lazio": "لاتسيو", "Atalanta": "أتالانتا",
-    "Inter": "إنتر ميلان", "Inter Milan": "إنتر ميلان", "AC Milan": "ميلان", "Milan": "ميلان", "Juventus": "يوفنتوس", "Napoli": "نابولي", "Roma": "روما",
-    # Spain
-    "Espanyol": "إسبانيول", "Mallorca": "ريال مايوركا", "Real Mallorca": "ريال مايوركا",
-    "Real Madrid": "ريال مدريد", "Barcelona": "برشلونة", "Atletico Madrid": "أتلتيكو مدريد",
-    # France
-    "Guingamp": "جانجون", "Montpellier": "مونبلييه",
-    # KSA / Qatar / UAE / Iraq / UZB / MOR
-    "Al Ahli": "الأهلي السعودي", "Al-Ahli": "الأهلي السعودي",
-    "Al Ittihad": "الاتحاد", "Al-Ittihad": "الاتحاد",
-    "Al Sadd": "السد",
-    "Al Gharafa": "الغرافة", "Al-Gharafa": "الغرافة",
-    "Sharjah": "الشارقة", "Al Wahda": "الوحدة", "Al-Wahda": "الوحدة",
-    "Al Shorta": "الشرطة", "Al-Shorta": "الشرطة",
-    "Nasaf Qarshi": "ناساف كارشي", "Nasaf": "ناساف كارشي",
-    "Ittihad Tanger": "اتحاد طنجة", "IR Tanger": "اتحاد طنجة", "Olympic Safi": "أولمبيك آسفي", "OC Safi": "أولمبيك آسفي",
-}
-# عكس القاموس + إضافات عربية مباشرة
-TEAM_MAP_AR2EN = {v: k for k, v in TEAM_MAP_EN2AR.items()}
-TEAM_MAP_AR2EN.update({
-    "الأهلي السعودي": "Al Ahli",
-    "الاتحاد": "Al Ittihad",
-    "السد": "Al Sadd",
-    "الغرافة": "Al Gharafa",
-    "الشارقة": "Sharjah",
-    "الوحدة": "Al Wahda",
-    "الشرطة": "Al Shorta",
-    "ناساف كارشي": "Nasaf Qarshi",
-    "اتحاد طنجة": "Ittihad Tanger",
-    "أولمبيك آسفي": "Olympic Safi",
-    "جانجون": "Guingamp",
-    "مونبلييه": "Montpellier",
-    "إسبانيول": "Espanyol",
-    "ريال مايوركا": "Mallorca",
-    "كومو": "Como",
-    "جنوى": "Genoa",
-    "هيلاس فيرونا": "Hellas Verona",
-    "كريمونيسي": "Cremonese",
-})
+def save_cache(cache: dict):
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with CACHE_PATH.open("w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
 
-def translate_en_to_ar(name: str) -> str:
+def translate_cached(name: str, src: str, dst: str, cache: dict) -> str:
+    """
+    ترجمة مع كاش تلقائي:
+      - cache["en_to_ar"] و cache["ar_to_en"] يخزّنون المفردات
+      - لو ماكو deep_translator، نرجّع الاسم نفسه
+    """
     if not name:
         return ""
-    if name in TEAM_MAP_EN2AR:
-        return TEAM_MAP_EN2AR[name]
+    key = f"{src}_to_{dst}"
+    cache.setdefault(key, {})
+    bucket = cache[key]
+
+    if name in bucket:
+        return bucket[name]
+
+    # deep_translator
     if GoogleTranslator:
         try:
-            t = GoogleTranslator(source="en", target="ar").translate(name)
-            return (t or name).strip()
+            t = GoogleTranslator(source=src, target=dst).translate(name)
+            t = (t or name).strip()
+            bucket[name] = t
+            return t
         except Exception:
-            return name
+            pass
+
+    # fallback: بدون ترجمة حقيقية
+    bucket[name] = name
     return name
 
-def translate_ar_to_en(name: str) -> str:
-    if not name:
-        return ""
-    if name in TEAM_MAP_AR2EN:
-        return TEAM_MAP_AR2EN[name]
-    if GoogleTranslator:
-        try:
-            t = GoogleTranslator(source="ar", target="en").translate(name)
-            return (t or name).strip()
-        except Exception:
-            return name
-    return name
+def translate_en_to_ar_cached(name: str, cache: dict) -> str:
+    return translate_cached(name, "en", "ar", cache)
 
+def translate_ar_to_en_cached(name: str, cache: dict) -> str:
+    return translate_cached(name, "ar", "en", cache)
+
+# ===== parsing =====
 def parse_title_to_teams_generic(title: str) -> tuple[str | None, str | None]:
     if not title:
         return None, None
@@ -200,10 +184,9 @@ def extract_liveonsat_match_teams(m: dict) -> tuple[str | None, str | None]:
     if home and away:
         return str(home).strip(), str(away).strip()
     title = (m.get("title") or "").strip()
-    h, a = parse_title_to_teams_generic(title)
-    return h, a
+    return parse_title_to_teams_generic(title)
 
-# يلا شوت: قنوات
+# ===== يلا شوت: قنوات =====
 SPLIT_RE = re.compile(r"\s*(?:,|،|/|\||&| و | and )\s*", re.I)
 def to_list_channels(val):
     if isinstance(val, list):
@@ -230,7 +213,7 @@ def pick_primary_yalla_channel(chs: list[str]) -> str | None:
             return c.strip()
     return chs[0].strip()
 
-# فهرس liveonsat: (home_en, away_en, [channels])
+# ===== بناء مدخلات liveonsat بالقنوات المسموحة =====
 def build_liveonsat_entries(live_data: dict) -> list[tuple[str,str,list[str]]]:
     entries = []
     matches = (live_data or {}).get("matches", []) or []
@@ -263,6 +246,7 @@ def build_liveonsat_entries(live_data: dict) -> list[tuple[str,str,list[str]]]:
             entries.append((str(h_en).strip(), str(a_en).strip(), filtered))
     return entries
 
+# ===== التطابق الذكي مع ترجمة آنيّة وكاش =====
 def ok_ratio(a: str, b: str) -> int:
     if not a or not b:
         return 0
@@ -270,25 +254,28 @@ def ok_ratio(a: str, b: str) -> int:
         return fuzz.token_set_ratio(a, b)
     return 100 if a == b else 0
 
-def best_match_channels(home_ar: str, away_ar: str, lons_entries: list[tuple[str,str,list[str]]]) -> list[str]:
+def best_match_channels(home_ar: str, away_ar: str, lons_entries: list[tuple[str,str,list[str]]], cache: dict) -> list[str]:
     """
-    نختار أفضل تطابق عبر عدة عتبات. ندمج قنوات كل السجلات التي تتجاوز العتبة الأعلى التي أمكن تحقيقها.
+    نختار أفضل تطابق عبر عدة عتبات. نستخدم ترجمة EN->AR و AR->EN بكاش تلقائي.
+    نجمع قنوات كل السجلات التي تتجاوز العتبة الأعلى المختارة.
     """
     hy_ar = normalize_text(home_ar); ay_ar = normalize_text(away_ar)
-    # AR->EN
-    home_en_from_ar = translate_ar_to_en(home_ar); away_en_from_ar = translate_ar_to_en(away_ar)
+    # AR->EN مرة واحدة (مع كاش)
+    home_en_from_ar = translate_ar_to_en_cached(home_ar, cache)
+    away_en_from_ar = translate_ar_to_en_cached(away_ar, cache)
     hy_en = normalize_text(home_en_from_ar); ay_en = normalize_text(away_en_from_ar)
 
     scored = []
     for (h_en, a_en, chans) in lons_entries:
-        # EN->AR
-        h_ar_guess = translate_en_to_ar(h_en); a_ar_guess = translate_en_to_ar(a_en)
+        # EN->AR مع كاش
+        h_ar_guess = translate_en_to_ar_cached(h_en, cache)
+        a_ar_guess = translate_en_to_ar_cached(a_en, cache)
         h_ar_norm = normalize_text(h_ar_guess); a_ar_norm = normalize_text(a_ar_guess)
         r1 = min(ok_ratio(h_ar_norm, hy_ar), ok_ratio(a_ar_norm, ay_ar))
         r2 = min(ok_ratio(h_ar_norm, ay_ar), ok_ratio(a_ar_norm, hy_ar))
         match_ar = max(r1, r2)
 
-        # EN مباشرة مع EN (AR->EN)
+        # EN مع EN (من ترجمة AR->EN)
         h_en_norm = normalize_text(h_en); a_en_norm = normalize_text(a_en)
         r3 = min(ok_ratio(h_en_norm, hy_en), ok_ratio(a_en_norm, ay_en))
         r4 = min(ok_ratio(h_en_norm, ay_en), ok_ratio(a_en_norm, hy_en))
@@ -300,18 +287,11 @@ def best_match_channels(home_ar: str, away_ar: str, lons_entries: list[tuple[str
     if not scored:
         return []
 
-    # أعلى نتيجة حققتها أي مباراة
     top_score = max(s for s, _ in scored)
-    # اختَر أعلى عتبة <= top_score
-    used_thr = None
-    for t in THRESHOLDS:
-        if top_score >= t:
-            used_thr = t
-            break
+    used_thr = next((t for t in THRESHOLDS if top_score >= t), None)
     if used_thr is None:
         return []
 
-    # اجمع كل القنوات التي درجة تطابقها >= العتبة المختارة
     out = []
     for s, ch in scored:
         if s >= used_thr:
@@ -320,6 +300,9 @@ def best_match_channels(home_ar: str, away_ar: str, lons_entries: list[tuple[str
 
 # ===== الرئيسي =====
 def filter_matches():
+    # 0) حمّل/هيّئ كاش الترجمات
+    cache = load_cache()
+
     # 1) يلا شوت
     try:
         yresp = requests.get(YALLASHOOT_URL, timeout=25)
@@ -360,8 +343,8 @@ def filter_matches():
         primary = pick_primary_yalla_channel(y_chs)
         yalla_only = [primary] if primary else []
 
-        # قنوات إضافية من liveonsat (أفضل تطابق)
-        extra = best_match_channels(home_ar, away_ar, lons_entries)
+        # قنوات إضافية من liveonsat (أفضل تطابق + ترجمة آنيّة)
+        extra = best_match_channels(home_ar, away_ar, lons_entries, cache)
         if extra:
             used_extra += 1
 
@@ -380,9 +363,12 @@ def filter_matches():
         }
         out_matches.append(new_entry)
 
-    output = {"date": yalla.get("date"), "source_url": YALLASHOOT_URL, "matches": out_matches}
+    # 4) اكتب المخرجات + الكاش لو تحدّث
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+        json.dump({"date": yalla.get("date"), "source_url": YALLASHOOT_URL, "matches": out_matches}, f, ensure_ascii=False, indent=2)
+
+    # خزّن الكاش (حتى لو ما تغيّر، بسيط)
+    save_cache(cache)
 
     print(f"[✓] Done. Matches: {len(out_matches)} | Added-extra-from-liveonsat: {used_extra} | thresholds={THRESHOLDS}")
     if GoogleTranslator is None:
