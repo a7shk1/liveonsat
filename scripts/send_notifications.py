@@ -14,10 +14,11 @@ from firebase_admin import credentials, messaging
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MATCHES_JSON = REPO_ROOT / "matches" / "filtered_matches.json"
 NOTIFIED_JSON = REPO_ROOT / "matches" / "notified.json"
-SERVICE_KEY_PATH = REPO_ROOT / "serviceAccountKey.json"  # fallback
+SERVICE_KEY_PATH = REPO_ROOT / "serviceAccountKey.json"  # fallback لو موجود داخل الريبو
 
 # ===== تهيئة Firebase Admin =====
 def init_firebase():
+    """يهيئ Firebase باستخدام GOOGLE_APPLICATION_CREDENTIALS أو ملف fallback."""
     if firebase_admin._apps:
         return
 
@@ -35,7 +36,14 @@ def init_firebase():
     print("🔥 Firebase initialized.")
 
 # ===== أدوات مساعدة =====
-LIVE_RE = re.compile(r"(?:\bمباشر\b|جاري(?:ة)?\s*ال?آن|\bال?آن\b|\bLIVE\b)", re.IGNORECASE)
+# يلتقط: مباشر / لايف / جاري(ة) الان/الآن / الشوط الأول/الثاني / دقائق مثل 12' أو 45'+2
+LIVE_RE = re.compile(
+    r"(?:\bLIVE\b|\bمباشر\b|لايف|جاري(?:ة)?\s*ال(?:آن|ان)|\bال(?:آن|ان)\b|"
+    r"الشوط\s*(?:الأول|الاول|الثاني)|"
+    r"\d{1,2}'(?:\+\d{1,2})?"
+    r")",
+    re.IGNORECASE
+)
 
 def is_live(status: str) -> bool:
     return bool(LIVE_RE.search((status or "").strip()))
@@ -60,6 +68,7 @@ def save_json(path: Path, data):
         print(f"⚠️  فشل حفظ {path}: {e}")
 
 def match_key(date_str: str, home: str, away: str, comp: str, kickoff: str) -> str:
+    """مفتاح فريد لعدم تكرار الإرسال لنفس المباراة في نفس اليوم/الحدث."""
     return "|".join([date_str, norm(home), norm(away), norm(comp), norm(kickoff)])
 
 # ===== إرسال إشعار =====
@@ -85,26 +94,39 @@ def send_token_notification(title: str, body: str, token: str, dry: bool = False
     resp = messaging.send(msg)
     print(f"✅ sent to token: {resp} | {title} — {body}")
 
+def subscribe_token_to_topic(token: str, topic: str = "matches"):
+    """يسجّل التوكن في Topic عبر Firebase Admin (مفيد لفحص الاشتراك)."""
+    resp = messaging.subscribe_to_topic([token], topic)
+    print(f"✅ subscribe_to_topic('{topic}'): success={resp.success_count} failure={resp.failure_count}")
+    if resp.failure_count:
+        for e in resp.errors:
+            print(f"  - idx {e.index} error: {e.reason}")
+
 # ===== الرئيسي =====
 def main():
     dry_run = os.environ.get("DRY_RUN") in ("1", "true", "True")
 
+    # 1) تهيئة Firebase
     init_firebase()
 
-    # --- إرسال مباشر إذا تم تمرير TEST_DEVICE_TOKEN ---
+    # 2) (اختياري للاختبار) إرسال مباشر للتوكن وتمكين اشتراكه بالـ topic
     test_token = os.environ.get("TEST_DEVICE_TOKEN")
     if test_token:
         try:
+            subscribe_token_to_topic(test_token, "matches")
             send_token_notification("🔔 Test", "Hello from CI", test_token, dry=dry_run)
+            # إرسال عبر الـ topic أيضًا للتأكد من المسار
+            send_topic_notification("📢 Topic Test", "Hello matches!", topic="matches", dry=dry_run)
         except Exception as e:
-            print(f"⚠️ فشل إرسال للتوكن: {e}")
+            print(f"⚠️ فشل إرسال/اشتراك التوكن: {e}")
 
-    # --- منطق المباريات (topic matches) ---
+    # 3) قراءة المباريات
     data = load_json(MATCHES_JSON, {"date": "", "matches": []})
     date_str = data.get("date") or datetime.utcnow().date().isoformat()
     matches = data.get("matches") or []
 
-    notified = load_json(NOTIFIED_JSON, {})
+    # 4) قراءة سجل الإشعارات السابقة
+    notified = load_json(NOTIFIED_JSON, {})  # dict: key -> True
     changed = False
     sent_count = 0
 
@@ -133,7 +155,10 @@ def main():
                 sent_count += 1
             except Exception as e:
                 print(e)
+        else:
+            print(f"skip: {home} vs {away} | status='{status}' | already_notified={bool(notified.get(key))}")
 
+    # 5) حفظ السجل
     if changed and not dry_run:
         save_json(NOTIFIED_JSON, notified)
         print(f"📝 updated notified.json ({len(notified)} entries)")
