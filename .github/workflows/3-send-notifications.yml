@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # اكتب ملف firebase.json من السرّ (الصِق JSON كامل داخل السر FCM_SERVICE_ACCOUNT)
+      # يكتب ملف firebase.json من السرّ (الصِق JSON الكامل داخل السر FCM_SERVICE_ACCOUNT)
       - name: Write Firebase service key
         shell: bash
         env:
@@ -48,11 +48,15 @@ jobs:
           set -euo pipefail
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
+            # ⚠️ فلتر أي باكيجات تغطي مكتبات قياسية مثل importlib
+            grep -viE '^(importlib|importlib2)\s*($|==|>=|<=|~=|>|<)' requirements.txt > /tmp/req.txt || true
+            cat /tmp/req.txt
+            pip install -r /tmp/req.txt
           else
             pip install firebase-admin
           fi
-          python -c "import sys; import importlib; sys.exit(0 if importlib.util.find_spec('firebase_admin') else 1)"
+          # تحقّق بدون importlib.util (لتفادي التعارض)
+          python -c "import pkgutil,sys; sys.exit(0 if pkgutil.find_loader('firebase_admin') else 1)"
           pip show firebase-admin || true
 
       - name: Send notifications for LIVE matches
