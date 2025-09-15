@@ -80,6 +80,9 @@ TRANSLATION_MAP = {
     "Copa America": "كوبا أمريكا", "Africa Cup of Nations": "كأس الأمم الأفريقية", "AFCON": "كأس الأمم الأفريقية",
     "AFC Asian Cup": "كأس آسيا", "Nations League": "دوري الأمم", "Arab Cup": "كأس العرب",
     "Saudi Professional League": "الدوري السعودي للمحترفين",
+
+    # ⭐️ مضافة حديثًا:
+    "AFC Champions League Elite": "دوري أبطال آسيا النخبة",
 }
 LEAGUE_KEYWORDS = list(TRANSLATION_MAP.keys())
 
@@ -104,7 +107,7 @@ TEAM_NAME_MAP = {
     "Al-Hazem": "الحزم", "Al Hazem": "الحزم",
     "Al-Riyadh": "الرياض", "Al Riyadh": "الرياض",
     "Al Qadsiah": "القادسية", "Al-Qadsiah": "القادسية",
-    "Neom": "نيوم", "Al Najma": "النجمة", "Al Kholood": "الخلود", "Al-Kholood": "الخلود",
+    "Neom": "نيوم", "Al Najma": "النجمة", "Al Kholood": "الخلود", "Al-Kholود": "الخلود",
 
     # England
     "Manchester City": "مانشستر سيتي", "Arsenal": "أرسنال",
@@ -204,7 +207,7 @@ def clean_channel_name(name: str) -> str:
     if not name: return ""
     name = EMOJI_MISC_RE.sub('', name)
     name = re.sub(r'\s*\((?:Astro|UAE|KSA|QA|OM|BH|KW|.*)?\)\s*', '', name, flags=re.IGNORECASE)
-    name = name.replace("$/geo/R", "").replace("$/geo", "")
+    name = name.replace("$\/geo/R", "").replace("$/geo", "")
     name = re.sub(r'\s+', ' ', name).strip()
     return name
 
