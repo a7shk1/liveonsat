@@ -3,7 +3,7 @@ name: 3. Send Live Match Notifications
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"      # كل 5 دقايق
+    - cron: "*/5 * * * *"      # كل 5 دقائق
     - cron: "2-59/5 * * * *"   # انحراف دقيقتين
 
 permissions:
@@ -21,21 +21,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # ✅ اكتب JSON من السرّ مباشرةً بدون heredoc
+      # يكتب ملف firebase.json من السر FCM_SERVICE_ACCOUNT (JSON كامل)
       - name: Write Firebase service key
-        env:
-          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}  # الصِق هنا محتوى JSON كامل
         shell: bash
+        env:
+          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
         run: |
           set -euo pipefail
           if [ -z "${FCM_SERVICE_ACCOUNT:-}" ]; then
             echo "❌ Secret FCM_SERVICE_ACCOUNT غير مضبوط" >&2
             exit 1
           fi
-          # اكتب JSON كما هو
           printf "%s" "$FCM_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase.json"
 
-          # فحص سريع: الملف موجود وصالح JSON
+          # تحقق سريع من صحة JSON
           ls -l "$RUNNER_TEMP/firebase.json"
           python - << 'PY'
 import json
@@ -54,6 +53,7 @@ PY
       - name: Install deps
         shell: bash
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
@@ -63,10 +63,10 @@ PY
 
       - name: Send notifications for LIVE matches
         env:
-          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json }
         run: python scripts/send_notifications.py
 
-      # نحفظ matches/notified.json حتى ما نعيد إرسال نفس المباراة
+      # نحفظ matches/notified.json حتى لا نعيد إرسال نفس المباراة
       - name: Commit & push notified state
         if: always()
         uses: stefanzweifel/git-auto-commit-action@v5
