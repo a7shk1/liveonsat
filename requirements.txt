@@ -3,3 +3,5 @@ playwright
 googletrans==4.0.0-rc1
 requests
 thefuzz[speedup]
+deep-translator==1.11.4
+rapidfuzz==3.9.6
