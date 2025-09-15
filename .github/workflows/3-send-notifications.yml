@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # يكتب ملف firebase.json من السرّ (الصِق JSON الكامل في FCM_SERVICE_ACCOUNT)
+      # اكتب ملف firebase.json من السرّ (الصِق JSON كامل داخل السر FCM_SERVICE_ACCOUNT)
       - name: Write Firebase service key
         shell: bash
         env:
@@ -29,7 +29,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "${FCM_SERVICE_ACCOUNT:-}" ]; then
-            echo "❌ Secret FCM_SERVICE_ACCOUNT غير مضبوط" >&2
+            echo "Secret FCM_SERVICE_ACCOUNT is missing" >&2
             exit 1
           fi
           printf "%s" "$FCM_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase.json"
@@ -42,30 +42,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install dependencies
         shell: bash
         run: |
           set -euo pipefail
-          python -V
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
-            echo "Using requirements.txt"
-            cat requirements.txt
             pip install -r requirements.txt
           else
-            echo "No requirements.txt; installing firebase-admin directly"
             pip install firebase-admin
           fi
-          python - << 'PY'
-import pkgutil, sys
-print("firebase_admin installed?", pkgutil.find_loader("firebase_admin") is not None)
-PY
+          python -c "import sys; import importlib; sys.exit(0 if importlib.util.find_spec('firebase_admin') else 1)"
           pip show firebase-admin || true
 
       - name: Send notifications for LIVE matches
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
-          # DRY_RUN: '1'   # جرّبه أول مرة بدون إرسال حقيقي إذا حاب
+          # DRY_RUN: '1'   # فعّلها للتجربة بدون إرسال
         run: python scripts/send_notifications.py
 
       - name: Commit & push notified state
