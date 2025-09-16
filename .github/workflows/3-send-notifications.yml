@@ -68,6 +68,7 @@ jobs:
               }
             done
           fi
+          # ثبّت firebase_admin إذا مو موجود (هنا نستخدم here-doc بشكل صحيح)
           python - <<'PY'
 import pkgutil, sys, subprocess
 pkg = 'firebase_admin'
