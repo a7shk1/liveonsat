@@ -6,19 +6,23 @@ import unicodedata
 from pathlib import Path
 import requests
 
-# ============ Paths / Sources ============
+# ========= إعدادات =========
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MATCHES_DIR = REPO_ROOT / "matches"
 OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
+LIVEONSAT_PATH = MATCHES_DIR / "liveonsat_raw.json"
 
 YALLASHOOT_URL = "https://raw.githubusercontent.com/a7shk1/yallashoot/refs/heads/main/matches/today.json"
-LIVEONSAT_PATH = MATCHES_DIR / "liveonsat_raw.json"  # محلي EN
 
-# ============ Regex / Helpers ============
+# نافذة التطابق بالوقت (دقائق)
+TIME_TOL_MIN = 25
+
+# ========= أدوات مساعدة =========
 EMOJI_MISC_RE = re.compile(r'[\u2600-\u27BF\U0001F300-\U0001FAFF]+')
-BEIN_EN_RE = re.compile(r'bein\s*sports?', re.I)
-# العربية: بي/بى + (أن|ان) + سبورت (مع مسافات/علامات مرنة)
-BEIN_AR_RE = re.compile(r'(?:بي|بى)\s*[^A-Za-z0-9]{0,2}\s*ا?ن\s*[^A-Za-z0-9]{0,4}\s*سبورت', re.I)
+BEIN_RE = re.compile(r'bein\s*sports?', re.I)
+ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
+TIME_RE_12 = re.compile(r'^\s*(\d{1,2}):(\d{2})\s*([AP]M)\s*$', re.I)
+TIME_RE_24 = re.compile(r'^\s*(\d{1,2}):(\d{2})\s*$')
 
 def strip_accents(s: str) -> str:
     return ''.join(c for c in unicodedata.normalize('NFKD', s) if not unicodedata.combining(c))
@@ -41,12 +45,8 @@ def normalize_text(text: str) -> str:
     text = re.sub(r'[^a-z0-9\u0600-\u06FF]', '', text)
     return text.strip()
 
-ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 def to_western_digits(s: str) -> str:
     return (s or "").translate(ARABIC_DIGITS)
-
-TIME_RE_12 = re.compile(r'^\s*(\d{1,2}):(\d{2})\s*([AP]M)\s*$', re.I)
-TIME_RE_24 = re.compile(r'^\s*(\d{1,2}):(\d{2})\s*$')
 
 def kickoff_to_minutes(hhmm: str) -> int | None:
     if not hhmm:
@@ -62,24 +62,22 @@ def kickoff_to_minutes(hhmm: str) -> int | None:
         return h*60 + mi
     m = TIME_RE_24.match(s)
     if m:
-        return int(m.group(1)) * 60 + int(m.group(2))
+        return int(m.group(1))*60 + int(m.group(2))
     return None
 
-def minutes_close(m1: int | None, m2: int | None, tol: int = 45) -> bool:
+def minutes_close(m1: int | None, m2: int | None, tol: int = TIME_TOL_MIN) -> bool:
     if m1 is None or m2 is None:
-        return True
+        return False
     return abs(m1 - m2) <= tol
 
-def clean_channel_display(name: str) -> str:
-    if not name:
-        return ""
-    s = str(name)
-    s = EMOJI_MISC_RE.sub("", s)
-    s = re.sub(r"\s*\((?:\$?\/?geo\/?R|geo\/?R|\$\/?geo|tjk)\)\s*", "", s, flags=re.I)
-    s = re.sub(r"📺|\[online\]|\[app\]", "", s, flags=re.I)
-    s = re.sub(r"\s*hd\s*$", " HD", s, flags=re.I)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
+def unique_preserving(seq):
+    seen, out = set(), []
+    for x in seq:
+        k = str(x).lower().strip()
+        if k not in seen:
+            seen.add(k)
+            out.append(x)
+    return out
 
 def to_list_channels(val):
     if isinstance(val, list):
@@ -92,33 +90,21 @@ def to_list_channels(val):
         return [p for p in parts if p]
     return []
 
-def is_bein(ch_name: str) -> bool:
-    s = ch_name or ""
-    return bool(BEIN_EN_RE.search(s) or BEIN_AR_RE.search(s))
+def clean_channel_display(name: str) -> str:
+    if not name:
+        return ""
+    s = str(name)
+    s = EMOJI_MISC_RE.sub("", s)
+    s = re.sub(r"\s*\((?:\$?\/?geo\/?R|geo\/?R|\$\/?geo|tjk)\)\s*", "", s, flags=re.I)
+    s = re.sub(r"📺|\[online\]|\[app\]", "", s, flags=re.I)
+    s = re.sub(r"\s*hd\s*$", " HD", s, flags=re.I)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
 
-def extract_bein_signal(ch_name: str):
-    disp = clean_channel_display(ch_name)
-    s = to_western_digits(disp)
-    is_b = is_bein(s)
-    mena = None
-    if re.search(r'\bmena\b|\bmiddle\s*east\b', s, re.I):
-        mena = True
-    if re.search(r'الشرقالاوسط|الشرقالاوسط', normalize_text(s)):
-        mena = True
-    mnum = re.search(r'\b(\d{1,2})\b', s)
-    num = int(mnum.group(1)) if mnum else None
-    return {"is_bein": bool(is_b), "mena": mena, "num": num}
+def is_bein_channel(name: str) -> bool:
+    return bool(BEIN_RE.search(name or ""))
 
-def unique_preserving(seq):
-    seen, out = set(), []
-    for x in seq:
-        k = str(x).lower().strip()
-        if k not in seen:
-            seen.add(k)
-            out.append(x)
-    return out
-
-# ============ Whitelist ============
+# ========= القنوات المسموحة (كما هي) =========
 SUPPORTED_CHANNELS = [
     "MATCH! Futbol 1", "MATCH! Futbol 2", "MATCH! Futbol 3",
     "Football HD",
@@ -157,40 +143,38 @@ def is_supported_channel(name: str) -> bool:
         return True
     return False
 
-# ============ Canonicalization ============
+# ========= توحيد أسماء القنوات =========
 CHANNEL_CANON_RULES = [
     (re.compile(r"thmanyah\s*(\d+)", re.I), lambda m: (f"thmanyah-{m.group(1)}", f"Thmanyah {m.group(1)}")),
     (re.compile(r"starzplay\s*(\d+)", re.I), lambda m: (f"starzplay-{m.group(1)}", f"Starzplay {m.group(1)}")),
-    (re.compile(r"starzplay\b", re.I), lambda m: ("starzplay-1", "Starzplay 1")),
+    (re.compile(r"starzplay\b", re.I),     lambda m: ("starzplay-1", "Starzplay 1")),
     (re.compile(r"abu\s*dhabi\s*sport\s*(\d+)", re.I), lambda m: (f"abudhabi-{m.group(1)}", f"Abu Dhabi Sport {m.group(1)}")),
     (re.compile(r"(al[\s-]?kass|الكاس|الكأس)\s*(?:channel\s*)?(\d+)", re.I),
-     lambda m: (f"alkass-{m.group(2)}", f"Alkass {m.group(2)} HD")),
-    (re.compile(r"^(?:الكاس|الكأس)\s*(\d+)", re.I), lambda m: (f"alkass-{m.group(1)}", f"Alkass {m.group(1)} HD")),
-    (re.compile(r"^al\s*kass\s*(\d+)", re.I), lambda m: (f"alkass-{m.group(1)}", f"Alkass {m.group(1)} HD")),
-    (re.compile(r"^alkass\s*(\d+)", re.I), lambda m: (f"alkass-{m.group(1)}", f"Alkass {m.group(1)} HD")),
-    (re.compile(r"ssc\s*extra", re.I), lambda m: ("ssc-extra", "SSC Extra HD")),
-    (re.compile(r"ssc\s*(\d+)", re.I), lambda m: (f"ssc-{m.group(1)}", f"SSC {m.group(1)} HD")),
-    (re.compile(r"shahid\s*(vip)?", re.I), lambda m: ("shahid", "Shahid MBC")),
-    (re.compile(r"football\s*hd", re.I), lambda m: ("football-hd", "Football HD")),
+     lambda m: (f"alkass-{m.group(2)}", "Alkass %s HD" % m.group(2))),
+    (re.compile(r"ssc\s*extra", re.I),    lambda m: ("ssc-extra", "SSC Extra HD")),
+    (re.compile(r"ssc\s*(\d+)", re.I),    lambda m: (f"ssc-{m.group(1)}", f"SSC {m.group(1)} HD")),
+    (re.compile(r"shahid\s*(vip)?", re.I),lambda m: ("shahid", "Shahid MBC")),
+    (re.compile(r"football\s*hd", re.I),  lambda m: ("football-hd", "Football HD")),
     (re.compile(r"sky\s*sport[s]?\s*premier\s*league", re.I),
-     lambda m: ("sky-premier-league", "Sky Sport Premier League HD")),
+                                          lambda m: ("sky-premier-league", "Sky Sport Premier League HD")),
     (re.compile(r"sky\s*sport[s]?\s*main\s*event", re.I),
-     lambda m: ("sky-main-event", "Sky Sports Main Event HD")),
+                                          lambda m: ("sky-main-event", "Sky Sports Main Event HD")),
     (re.compile(r"dazn\s*1\s*portugal", re.I), lambda m: ("dazn-pt-1", "DAZN 1 Portugal HD")),
     (re.compile(r"dazn\s*2\s*portugal", re.I), lambda m: ("dazn-pt-2", "DAZN 2 Portugal HD")),
     (re.compile(r"dazn\s*3\s*portugal", re.I), lambda m: ("dazn-pt-3", "DAZN 3 Portugal HD")),
-    (re.compile(r"mbc\s*action", re.I), lambda m: ("mbc-action", "MBC Action HD")),
-    (re.compile(r"persiana\s*sport", re.I), lambda m: ("persiana-sport", "Persiana Sport HD")),
-    (re.compile(r"irib\s*varzesh", re.I), lambda m: ("irib-varzesh", "IRIB Varzesh HD")),
-    (re.compile(r"tnt\s*sports?\s*1", re.I), lambda m: ("tnt-1", "TNT Sports 1 HD")),
-    (re.compile(r"tnt\s*sports?\s*2", re.I), lambda m: ("tnt-2", "TNT Sports 2 HD")),
+    (re.compile(r"mbc\s*action", re.I),       lambda m: ("mbc-action", "MBC Action HD")),
+    (re.compile(r"persiana\s*sport", re.I),    lambda m: ("persiana-sport", "Persiana Sport HD")),
+    (re.compile(r"irib\s*varzesh", re.I),      lambda m: ("irib-varzesh", "IRIB Varzesh HD")),
+    (re.compile(r"tnt\s*sports?\s*1", re.I),   lambda m: ("tnt-1", "TNT Sports 1 HD")),
+    (re.compile(r"tnt\s*sports?\s*2", re.I),   lambda m: ("tnt-2", "TNT Sports 2 HD")),
 ]
 
 def channel_key_and_display(raw_name: str) -> tuple[str, str]:
     disp = clean_channel_display(raw_name)
     low = disp.lower()
-    if is_bein(disp):
-        has_mena = bool(re.search(r'\bmena\b|\bmiddle\s*east\b', low)) or ("الشرقالاوسط" in normalize_text(disp))
+    # beIN نخلّيها تمر للعرض لو جاي من يلا، لكن ما نضيفها من live
+    if is_bein_channel(disp):
+        has_mena = bool(re.search(r'\bmena\b|\bmiddle\s*east\b', low))
         mnum = re.search(r'\b(\d{1,2})\b', to_western_digits(disp))
         if has_mena and mnum:
             return (f"bein-mena-{mnum.group(1)}", f"beIN Sports MENA {mnum.group(1)} HD")
@@ -218,49 +202,18 @@ def dedupe_channels_preserve_order(ch_list: list[str]) -> list[str]:
         out_disp.append(disp)
     return out_disp
 
-# ============ Competition buckets ============
-def comp_bucket(name: str) -> str:
-    n = normalize_text(name)
-    if "uefachampions" in n or "دوريابطالاوروبا" in n or "championsleague" in n:
-        return "UEFA-CL"
-    if "afcchampions" in n or "اسيا" in n or "دوريابطالاسيا" in n:
-        return "AFC-CL"
-    if "carabao" in n or "efl" in n or "leaguecup" in n or "الانجليزي" in n and "كاس" in n:
-        return "ENG-EFL"
-    if "botola" in n or "الدوريمغربي" in n or "المغربي" in n:
-        return "MAR-BOT"
-    return "OTHER"
-
-# ============ Live index (EN) ============
-def parse_title_to_teams(title: str):
-    if not title: return None, None
-    t = title.strip()
-    for d in [r"\s+v(?:s)?\.?\s+", r"\s+-\s+", r"\s+–\s+", r"\s+—\s+", r"\s*:\s*", r"\s*\|\s*", r"\s*·\s*", r"\s*;\s*"]:
-        parts = re.split(d, t, maxsplit=1)
-        if len(parts) == 2 and parts[0].strip() and parts[1].strip():
-            return parts[0].strip(), parts[1].strip()
-    return None, None
-
-def extract_live_match(m: dict):
-    home = (m.get("home") or m.get("home_team"))
-    away = (m.get("away") or m.get("away_team"))
-    if not (home and away):
-        tl, tr = parse_title_to_teams(m.get("title") or "")
-        home, away = tl, tr
-    return (str(home).strip() if home else None,
-            str(away).strip() if away else None)
-
-def build_live_index(live_data: dict):
+# ========= قراءة liveonsat إلى فهرس بالوقت =========
+def build_live_time_index(live_data: dict):
     idx = []
-    for m in (live_data or {}).get("matches", []) or []:
-        h, a = extract_live_match(m)
-        if not (h and a):
-            continue
-        comp = m.get("competition") or ""
-        bucket = comp_bucket(comp)
-        t = m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or ""
+    matches = (live_data or {}).get("matches", []) or []
+    for m in matches:
+        # وقت بغداد من live
+        t = (m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or "").strip()
         tmin = kickoff_to_minutes(t)
+        if tmin is None:
+            continue
 
+        # اجمع قنوات live "المسموحة فقط" وتجاهل beIN
         raw_channels = []
         for ck in ("channels_raw", "channels", "tv_channels", "broadcasters", "broadcaster"):
             if ck in m and m[ck]:
@@ -270,34 +223,25 @@ def build_live_index(live_data: dict):
                 elif isinstance(raw, str):
                     raw_channels.extend(to_list_channels(raw))
 
-        live_bein = None
         allowed = []
         for ch in raw_channels:
             disp = clean_channel_display(ch)
-            if not disp:
-                continue
-            sig = extract_bein_signal(disp)
-            if sig["is_bein"] and sig["num"]:
-                if (not live_bein) or (sig["mena"] and not live_bein.get("mena")):
-                    live_bein = {"num": sig["num"], "mena": bool(sig["mena"])}
+            if not disp or is_bein_channel(disp):
                 continue
             if is_supported_channel(disp):
                 allowed.append(disp)
 
+        allowed = dedupe_channels_preserve_order(allowed)
+        if not allowed:
+            continue  # ما يفيدني إذا ماكو قناة مسموحة أصلاً
+
         idx.append({
-            "home_en": h,
-            "away_en": a,
-            "home_norm": normalize_text(h),
-            "away_norm": normalize_text(a),
-            "competition": comp,
-            "bucket": bucket,
             "tmin": tmin,
-            "bein": live_bein,
-            "allowed_channels": dedupe_channels_preserve_order(allowed),
+            "allowed": allowed,
         })
     return idx
 
-# ============ Yalla extraction ============
+# ========= قنوات يلا =========
 def collect_yalla_channels(y: dict) -> list[str]:
     keys = ["channels_raw","channels","tv_channels","channel","channel_ar","channel_en","broadcasters","broadcaster"]
     out = []
@@ -308,91 +252,11 @@ def collect_yalla_channels(y: dict) -> list[str]:
 
 def yalla_primary_channel(y: dict) -> str | None:
     chs = [clean_channel_display(c) for c in collect_yalla_channels(y)]
-    return chs[0] if chs else None
+    return chs[0] if chs else None  # نعرض قناة يلا كما هي
 
-def yalla_bein_signal(y: dict):
-    for c in collect_yalla_channels(y):
-        disp = clean_channel_display(c)
-        sig = extract_bein_signal(disp)
-        if sig["is_bein"] and sig["num"]:
-            return {"num": sig["num"], "mena": sig["mena"] if sig["mena"] is not None else None}
-    return None
-
-def yalla_item(m: dict):
-    comp = m.get("competition") or ""
-    home_ar = (m.get("home") or m.get("home_team") or "").strip()
-    away_ar = (m.get("away") or m.get("away_team") or "").strip()
-    return {
-        "home_ar": home_ar,
-        "away_ar": away_ar,
-        "home_norm": normalize_text(home_ar),
-        "away_norm": normalize_text(away_ar),
-        "competition": comp,
-        "bucket": comp_bucket(comp),
-        "tmin": kickoff_to_minutes(m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or ""),
-        "primary": yalla_primary_channel(m),
-        "bein": yalla_bein_signal(m),
-        "raw": m,
-    }
-
-# ============ Matching (REWRITTEN LOGIC) ============
-def calculate_match_score(y_it: dict, li: dict) -> float:
-    """Calculates a score based on team name similarity and beIN signal."""
-    score = 0.0
-    
-    # Major score for team name match
-    y_h, y_a = y_it["home_norm"], y_it["away_norm"]
-    l_h, l_a = li["home_norm"], li["away_norm"]
-    
-    if y_h and y_a and l_h and l_a:
-        # Check both permutations (home-vs-away, away-vs-home)
-        cond1 = (y_h in l_h or l_h in y_h) and (y_a in l_a or l_a in y_a)
-        cond2 = (y_h in l_a or l_a in y_h) and (y_a in l_h or l_h in y_a)
-        if cond1 or cond2:
-            score += 1.0
-            
-    # Bonus score for matching beIN channel
-    y_bein = y_it.get("bein")
-    l_bein = li.get("bein")
-    if y_bein and l_bein and y_bein.get("num") == l_bein.get("num"):
-        score += 0.5  # Add a bonus, not a requirement
-        
-    return score
-
-def pick_best_live_for_yalla(y_it: dict, live_idx: list[dict]) -> dict | None:
-    """Finds the best match from live_idx for a yalla item using a scoring system."""
-    best_candidate = None
-    highest_score = 0.0
-    
-    # 1. Find all potential candidates based on time and bucket
-    candidates = []
-    for li in live_idx:
-        time_is_close = minutes_close(y_it.get("tmin"), li.get("tmin"))
-        buckets_match = (y_it["bucket"] == li["bucket"]) or (y_it["bucket"] == "OTHER" or li["bucket"] == "OTHER")
-
-        if time_is_close and buckets_match:
-            candidates.append(li)
-    
-    if not candidates:
-        return None
-        
-    # 2. Score each candidate and find the best one
-    for li in candidates:
-        score = calculate_match_score(y_it, li)
-        if score > highest_score:
-            highest_score = score
-            best_candidate = li
-            
-    # 3. Return the best candidate only if the score is high enough (avoids false positives)
-    if highest_score >= 1.0: # Requires at least a solid team name match
-        return best_candidate
-        
-    return None
-
-
-# ============ Main ============
+# ========= الرئيسي =========
 def filter_matches():
-    # يلا شوت
+    # 1) يلا شوت
     try:
         yresp = requests.get(YALLASHOOT_URL, timeout=25)
         yresp.raise_for_status()
@@ -400,69 +264,66 @@ def filter_matches():
     except Exception as e:
         print(f"[x] ERROR fetching yallashoot: {e}")
         return
-    ylist = [yalla_item(m) for m in (yalla or {}).get("matches", []) or []]
-    print(f"[i] Yalla matches: {len(ylist)}")
+    y_matches = (yalla or {}).get("matches", []) or []
+    print(f"[i] Yalla matches: {len(y_matches)}")
 
-    # liveonsat
+    # 2) liveonsat (محلي)
     try:
         with LIVEONSAT_PATH.open("r", encoding="utf-8") as f:
             live_data = json.load(f)
     except Exception as e:
         print(f"[!] WARN reading liveonsat: {e}")
         live_data = {"matches": []}
-    live_idx = build_live_index(live_data)
-    print(f"[i] Live index built: {len(live_idx)}")
+    live_idx = build_live_time_index(live_data)
+    print(f"[i] Live time-index (allowed-only): {len(live_idx)}")
 
+    # 3) دمج حسب الوقت فقط
     out_matches = []
-    matched_extra = 0
-    
-    # Create a set of used live index items to avoid matching one live match to multiple yalla matches
-    used_live_indices = set()
+    added_from_live_count = 0
 
-    for i, y in enumerate(ylist):
-        primary = clean_channel_display(y.get("primary") or "")
-        merged = [primary] if primary else []
+    for m in y_matches:
+        y_time = (m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or "").strip()
+        y_tmin = kickoff_to_minutes(y_time)
+        merged = []
 
-        # Pass a filtered list of available live matches
-        available_live_idx = [li for j, li in enumerate(live_idx) if j not in used_live_indices]
-        li = pick_best_live_for_yalla(y, available_live_idx)
-        
-        if li and li["allowed_channels"]:
-            merged.extend(li["allowed_channels"])
-            matched_extra += 1
-            # Mark the matched live index as used
-            try:
-                # Find the original index of the matched item
-                original_idx = live_idx.index(li)
-                used_live_indices.add(original_idx)
-            except ValueError:
-                # Should not happen, but as a safeguard
-                pass
+        # قناة يلا (إن وجدت)
+        primary = yalla_primary_channel(m)
+        if primary:
+            merged.append(primary)
+
+        # جميع live entries ضمن نافذة الوقت
+        if y_tmin is not None:
+            extras = []
+            for li in live_idx:
+                if minutes_close(y_tmin, li["tmin"], tol=TIME_TOL_MIN):
+                    extras.extend(li["allowed"])
+            if extras:
+                added_from_live_count += 1
+                merged.extend(extras)
 
         merged = dedupe_channels_preserve_order(merged)
 
-        mraw = y["raw"]
         out_matches.append({
-            "competition": mraw.get("competition") or "",
-            "kickoff_baghdad": mraw.get("kickoff_baghdad") or mraw.get("time_baghdad") or mraw.get("kickoff") or "",
-            "home_team": (mraw.get("home") or mraw.get("home_team") or "").strip(),
-            "away_team": (mraw.get("away") or mraw.get("away_team") or "").strip(),
+            "competition": m.get("competition") or "",
+            "kickoff_baghdad": y_time,
+            "home_team": (m.get("home") or m.get("home_team") or "").strip(),
+            "away_team": (m.get("away") or m.get("away_team") or "").strip(),
             "channels_raw": merged,
-            "home_logo": mraw.get("home_logo"),
-            "away_logo": mraw.get("away_logo"),
-            "status_text": mraw.get("status_text"),
-            "result_text": mraw.get("result_text"),
+            "home_logo": m.get("home_logo"),
+            "away_logo": m.get("away_logo"),
+            "status_text": m.get("status_text"),
+            "result_text": m.get("result_text"),
         })
 
     output = {
         "date": (yalla or {}).get("date"),
-        "source_url": "yallashoot (primary) + liveonsat (extra whitelisted channels)",
+        "source_url": "yallashoot (primary) + liveonsat (extra-by-time, whitelisted)",
         "matches": out_matches
     }
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"[✓] Done. yalla: {len(ylist)} | matched-with-live: {matched_extra} | written: {len(out_matches)}")
+    print(f"[✓] Done. yalla: {len(y_matches)} | with-live-added: {added_from_live_count} | written: {len(out_matches)}")
 
 if __name__ == "__main__":
     filter_matches()
