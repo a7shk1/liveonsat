@@ -1,6 +1,6 @@
 {
   "date": "2025-09-16",
-  "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, whitelisted, beIN & bucket filters)",
+  "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
@@ -9,7 +9,7 @@
       "away_team": "تراکتورسازي",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "Alkass 6 HD",
+        "IRIB TV3 HD",
         "Persiana Sport HD",
         "Football HD"
       ],
@@ -25,11 +25,8 @@
       "away_team": "أرسنال",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "Sky Sport 253 Italia HD",
-        "Sky Sport 3 Austria HD",
-        "Sky Sport Uno Italia HD",
-        "TNT Sports 1 HD"
+        "TNT Sports 1 HD",
+        "Varzish TV Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/144-1-145x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
@@ -43,13 +40,8 @@
       "away_team": "أونيون سان جيلواز",
       "channels_raw": [
         "beIN Sports 4 HD",
-        "DAZN 2 Portugal HD",
         "Football HD",
-        "Sky Sport 254 Italia HD",
-        "Sky Sport 4 Austria HD",
-        "Sky Sport Calcio HD",
-        "TNT Sports 2 HD",
-        "TNT Sports 7 HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/725-150x114.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1204-150x150.png",
@@ -63,7 +55,6 @@
       "away_team": "الدحيل",
       "channels_raw": [
         "beIN Sports HD",
-        "Alkass 5 HD",
         "ESPN 4 Brazil HD",
         "Football HD"
       ],
@@ -78,9 +69,7 @@
       "home_team": "كريستال بالاس",
       "away_team": "ميلوال",
       "channels_raw": [
-        "beIN Sports 8 HD",
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
+        "beIN Sports 8 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/10-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/45-150x150.png",
@@ -95,9 +84,7 @@
       "channels_raw": [
         "beIN Sports 7 HD",
         "ESPN 1 Brazil HD",
-        "Football HD",
-        "Sky Sports Main Event HD",
-        "Sport TV1 Portugal HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/109-1-121x150.png",
@@ -110,10 +97,7 @@
       "home_team": "بنفيكا",
       "away_team": "كارباغ اغدام",
       "channels_raw": [
-        "beIN Sports 5 HD",
-        "Sky Sport 255 Italia HD",
-        "Sky Sport 5 Austria HD",
-        "TNT Sports 3 HD"
+        "beIN Sports 5 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/888.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7521.png",
@@ -127,13 +111,10 @@
       "away_team": "أولمبيك مارسيليا",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
         "Persiana Sport HD",
-        "Sky Sport 253 Italia HD",
-        "Sky Sport 3 Austria HD",
-        "Sky Sport Calcio HD",
         "TNT Sports 1 HD",
-        "TNT Sports 6 HD"
+        "Varzish TV Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/131-1-115x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/469-1.png",
@@ -147,13 +128,10 @@
       "away_team": "نهضة بركان",
       "channels_raw": [
         "الرياضية المغربية",
-        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
         "Persiana Sport HD",
-        "Sky Sport 253 Italia HD",
-        "Sky Sport 3 Austria HD",
-        "Sky Sport Calcio HD",
         "TNT Sports 1 HD",
-        "TNT Sports 6 HD"
+        "Varzish TV Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8209-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/9974-131x150.png",
@@ -167,12 +145,7 @@
       "away_team": "بوروسيا دورتموند",
       "channels_raw": [
         "beIN Sports 4 HD",
-        "DAZN 2 Portugal HD",
         "Football HD",
-        "Sky Sport 2 Austria HD",
-        "Sky Sport 252 Italia HD",
-        "Sky Sport Italia 4K U HD",
-        "Sky Sport Uno Italia HD",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/226-150x150.png",
@@ -187,11 +160,8 @@
       "away_team": "فياريال",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "DAZN 3 Portugal HD",
-        "Sky Sport 254 Italia HD",
-        "Sky Sport 4 Austria HD",
-        "Sky Sport Max Italia HD",
-        "Football HD"
+        "ESPN 1 Brazil HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/133-1.png",
