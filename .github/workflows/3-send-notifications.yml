@@ -18,13 +18,15 @@ on:
 permissions:
   contents: write
 
+# صفّ الرنز بدل الإلغاء (منع خسارة إشعارات بسبب overlap)
 concurrency:
-  group: send-notifications
-  cancel-in-progress: true
+  group: send-notifications-${{ github.event_name }}
+  cancel-in-progress: false
 
 jobs:
   send:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repo
@@ -50,16 +52,28 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install dependencies (with retries)
         shell: bash
+        env:
+          PIP_DEFAULT_TIMEOUT: "60"
         run: |
           set -euo pipefail
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
+            # شيل importlib من الريكوايرمنتس لو موجود حتى ما يتعارض مع بايثون
             grep -viE '^(importlib|importlib2)\s*($|[=<>~])' requirements.txt > /tmp/req.txt || true
-            pip install -r /tmp/req.txt
+            for i in 1 2 3; do
+              pip install --retries 5 --timeout 60 -r /tmp/req.txt && break || {
+                echo "pip failed (attempt $i), retrying..."; sleep 5;
+              }
+            done
           fi
-          python -c "import pkgutil,sys; sys.exit(0 if pkgutil.find_loader('firebase_admin') else 1)" || pip install firebase-admin
+          python - <<'PY'
+import pkgutil, sys, subprocess
+pkg = 'firebase_admin'
+if pkgutil.find_loader(pkg) is None:
+    sys.exit(subprocess.call([sys.executable, "-m", "pip", "install", "firebase-admin"]))
+PY
           pip show firebase-admin || true
 
       # يضيف مباراة LIVE تجريبية إذا اخترت send_now=true
@@ -67,8 +81,10 @@ jobs:
         if: ${{ github.event.inputs.send_now == 'true' }}
         shell: bash
         run: |
+          set -euo pipefail
           mkdir -p matches
-          cat > matches/filtered_matches.json <<'JSON'
+          # مهم: بدون quotes بال-here-doc حتى تتوسّع $(date ...)
+          cat > matches/filtered_matches.json <<JSON
           {
             "date": "$(date -u +%F)",
             "matches": [
@@ -84,11 +100,24 @@ jobs:
           JSON
           cat matches/filtered_matches.json
 
-      - name: Send notifications for LIVE matches
+      - name: Send notifications for LIVE matches (retry x3)
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
           TEST_DEVICE_TOKEN: ${{ github.event.inputs.device_token }}
-        run: python scripts/send_notifications.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          for i in 1 2 3; do
+            echo "Run send_notifications.py (attempt $i)..."
+            if python scripts/send_notifications.py; then
+              echo "send_notifications.py succeeded"
+              exit 0
+            fi
+            echo "send_notifications.py failed (attempt $i)"
+            sleep 5
+          done
+          echo "send_notifications.py failed after 3 attempts"
+          exit 1
 
       - name: Commit & push notified state
         if: always()
