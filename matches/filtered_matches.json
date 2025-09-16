@@ -1,14 +1,15 @@
 {
   "date": "2025-09-16",
-  "source_url": "yallashoot (primary) + liveonsat (extra whitelisted channels)",
+  "source_url": "yallashoot (primary) + liveonsat (extra-by-time, whitelisted)",
   "matches": [
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "07:00 PM",
+      "kickoff_baghdad": "19:00",
       "home_team": "شباب الاهلي",
       "away_team": "تراکتورسازي",
       "channels_raw": [
         "beIN Sports 3 HD",
+        "MATCH! Premier HD",
         "Alkass 6 HD",
         "Persiana Sport HD",
         "Football HD"
@@ -26,7 +27,12 @@
       "channels_raw": [
         "beIN Sports 1 HD",
         "DAZN 1 Portugal HD",
-        "TNT Sports 1 HD"
+        "TNT Sports 1 HD",
+        "DAZN 2 Portugal HD",
+        "Football HD",
+        "TNT Sports 2 HD",
+        "TNT Sports 7",
+        "OneFootball"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/144-1-145x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
@@ -40,10 +46,13 @@
       "away_team": "أونيون سان جيلواز",
       "channels_raw": [
         "beIN Sports 4 HD",
+        "DAZN 1 Portugal HD",
+        "TNT Sports 1 HD",
         "DAZN 2 Portugal HD",
         "Football HD",
         "TNT Sports 2 HD",
-        "TNT Sports 7"
+        "TNT Sports 7",
+        "OneFootball"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/725-150x114.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1204-150x150.png",
@@ -56,7 +65,11 @@
       "home_team": "الهلال",
       "away_team": "الدحيل",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "Alkass 5 HD",
+        "ESPN 4 Brazil HD",
+        "Football HD",
+        "IRIB Varzesh HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5457-127x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8329-133x150.png",
@@ -66,24 +79,23 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "10:00 PM",
-      "home_team": "بنفيكا",
-      "away_team": "كارباغ اغدام",
-      "channels_raw": [
-        "beIN Sports 5 HD",
-        "TNT Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/888.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7521.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "10:00 PM",
       "home_team": "ريال مدريد",
       "away_team": "أولمبيك مارسيليا",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "OneFootball",
+        "ESPN 1 Brazil HD",
+        "Football HD",
+        "Sky Sports Main Event HD",
+        "Sport TV1 Portugal HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 6",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 2 HD",
+        "TNT Sports 3 HD",
+        "DAZN 3 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/131-1-115x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/469-1.png",
@@ -96,7 +108,20 @@
       "home_team": "الكوكب المراكشي",
       "away_team": "نهضة بركان",
       "channels_raw": [
-        "الرياضية المغربية"
+        "الرياضية المغربية",
+        "OneFootball",
+        "ESPN 1 Brazil HD",
+        "Football HD",
+        "Sky Sports Main Event HD",
+        "Sport TV1 Portugal HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 6",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 2 HD",
+        "TNT Sports 3 HD",
+        "DAZN 3 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8209-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/9974-131x150.png",
@@ -110,9 +135,19 @@
       "away_team": "بوروسيا دورتموند",
       "channels_raw": [
         "beIN Sports 4 HD",
-        "DAZN 2 Portugal HD",
+        "OneFootball",
+        "ESPN 1 Brazil HD",
         "Football HD",
-        "TNT Sports 2 HD"
+        "Sky Sports Main Event HD",
+        "Sport TV1 Portugal HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 6",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 2 HD",
+        "TNT Sports 3 HD",
+        "DAZN 3 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/226-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/341-150x150.png",
@@ -126,8 +161,19 @@
       "away_team": "فياريال",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "DAZN 3 Portugal HD",
-        "Football HD"
+        "OneFootball",
+        "ESPN 1 Brazil HD",
+        "Football HD",
+        "Sky Sports Main Event HD",
+        "Sport TV1 Portugal HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 6",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 2 HD",
+        "TNT Sports 3 HD",
+        "DAZN 3 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/133-1.png",
@@ -140,7 +186,20 @@
       "home_team": "كريستال بالاس",
       "away_team": "ميلوال",
       "channels_raw": [
-        "beIN Sports 8 HD"
+        "بى أن سبورت 8 HD",
+        "OneFootball",
+        "ESPN 1 Brazil HD",
+        "Football HD",
+        "Sky Sports Main Event HD",
+        "Sport TV1 Portugal HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 6",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 2 HD",
+        "TNT Sports 3 HD",
+        "DAZN 3 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/10-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/45-150x150.png",
@@ -154,13 +213,48 @@
       "away_team": "أستون فيلا",
       "channels_raw": [
         "beIN Sports 7 HD",
+        "OneFootball",
         "ESPN 1 Brazil HD",
         "Football HD",
         "Sky Sports Main Event HD",
-        "Sport TV1 Portugal HD"
+        "Sport TV1 Portugal HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 6",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 2 HD",
+        "TNT Sports 3 HD",
+        "DAZN 3 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/109-1-121x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "10:00 PM",
+      "home_team": "بنفيكا",
+      "away_team": "كارباغ اغدام",
+      "channels_raw": [
+        "beIN Sports 5 HD",
+        "OneFootball",
+        "ESPN 1 Brazil HD",
+        "Football HD",
+        "Sky Sports Main Event HD",
+        "Sport TV1 Portugal HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 6",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 2 HD",
+        "TNT Sports 3 HD",
+        "DAZN 3 Portugal HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/888.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7521.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -170,7 +264,9 @@
       "home_team": "بوريرام يونايتد",
       "away_team": "جوهور",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "DAZN 1 Portugal HD",
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/7747.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/10080-150x150.png",
