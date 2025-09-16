@@ -125,72 +125,137 @@ def extract_bein_signal(ch_name: str):
     num = int(mnum.group(1)) if mnum else None
     return {"is_bein": bool(ok), "mena": mena, "num": num}
 
-# ========= القنوات المسموحة (whitelist) =========
-SUPPORTED_CHANNELS = [
-    "MATCH! Futbol 1", "MATCH! Futbol 2", "MATCH! Futbol 3",
-    "Football HD",
-    "Sport TV1 Portugal HD", "Sport TV2 Portugal HD",
-    "ESPN 1 Brazil", "ESPN 2 Brazil", "ESPN 3 Brazil", "ESPN 4 Brazil", "ESPN 5 Brazil", "ESPN 6 Brazil", "ESPN 7 Brazil",
-    "DAZN 1 Portugal HD", "DAZN 2 Portugal HD", "DAZN 3 Portugal HD", "DAZN 4 Portugal HD", "DAZN 5 Portugal HD", "DAZN 6 Portugal HD",
-    "MATCH! Premier HD", "Sky Sports Main Event HD", "Sky Sport Premier League HD",
-    "IRIB Varzesh HD", "Persiana Sport HD",
-    "MBC Action HD",
-    "TNT Sports 1 HD", "TNT Sports 2 HD", "TNT Sports HD",
-    "MBC masrHD", "MBC masr2HD", "ssc1 hd", "ssc2 hd", "Shahid MBC",
-    "Thmanyah 1", "Thmanyah 2", "Thmanyah 3",
-    "Starzplay 1", "Starzplay 2",
-    "Abu Dhabi Sport 1", "Abu Dhabi Sport 2",
+# ========= القنوات المسموحة من liveonsat (حسب طلبك) =========
+# - Sky: فقط Main Event + Premier League (بما فيها UK)
+# - TNT: فقط TNT Sports (بدون رقم) + 1 + 2
+# - Alkass: مرفوضة تمامًا
+# - IRIB: TV3 + Varzesh
+# - Varzish: كل صيغ Varzish TV/Sport
+# - نحتفظ بباقي القنوات اللي كنت تريدها سابقًا (DAZN PT, Sport TV PT, ESPN Brazil, Football HD, Persiana, MBC Action, SSC, Shahid, Thmanyah, Starzplay, Abu Dhabi Sport)
+
+DENY_PATTERNS = [
+    re.compile(r'\balkass\b', re.I),
+    re.compile(r'\bal\s*kass\b', re.I),
+    re.compile(r'الكاس|الكأس', re.I),
 ]
-ALLOWED_SUBSTRINGS = {
-    "ssc ", " ssc", "ssc1", "ssc2", "ssc3", "ssc4", "ssc5", "ssc6", "ssc7", "ssc extra", "ssc sport",
-    "alkass", "al kass", "al-kass", "الكاس", "الكأس",
-    "shahid", "shahid vip", "shahid mbc",
-    "mbc action", "persiana sport", "irib varzesh", "football hd",
-    "thmanyah", "starzplay", "abu dhabi sport",
-    # توسيع عوائل عامة
-    "tnt sports", "sky sport", "sky sports",
-    "dazn portugal", "sport tv portugal",
+
+SKY_ALLOWED_RE = re.compile(
+    r'\bsky\s*sport[s]?\s*(?:main\s*event|premier\s*league(?:\s*uk)?)\b', re.I
+)
+
+TNT_BASE_RE = re.compile(r'\btnt\s*sports?\b(?:\s*(\d+))?', re.I)
+
+IRIB_TV3_RE = re.compile(r'\birib\s*tv\s*3\b', re.I)
+IRIB_VARZESH_RE = re.compile(r'\birib\s*varzesh\b', re.I)
+
+VARZISH_RE = re.compile(r'\bvarzish\b', re.I)
+
+# باقي العوائل/القنوات المسموحة (عام)
+GENERAL_ALLOWED_SUBSTRINGS = {
+    "football hd",
+    "dazn portugal",
+    "sport tv portugal",
+    "espn 1 brazil", "espn 2 brazil", "espn 3 brazil", "espn 4 brazil", "espn 5 brazil", "espn 6 brazil", "espn 7 brazil",
+    "persiana sport", "mbc action", "ssc ", " ssc", "shahid", "thmanyah", "starzplay", "abu dhabi sport",
+    "irib varzesh", "irib tv3", "varzish",  # توكيد إضافي
 }
-_allowed_tokens = set()
-for c in SUPPORTED_CHANNELS:
-    cl = c.lower()
-    _allowed_tokens.add(cl)
-    _allowed_tokens.add(cl.replace(" hd", ""))
+
+def is_denied_channel(name: str) -> bool:
+    if not name:
+        return True
+    n = name.lower()
+    for pat in DENY_PATTERNS:
+        if pat.search(n):
+            return True
+    return False
+
+def sky_allowed(name: str) -> bool:
+    return bool(SKY_ALLOWED_RE.search(name or ""))
+
+def tnt_allowed(name: str) -> bool:
+    m = TNT_BASE_RE.search(name or "")
+    if not m:
+        return False
+    num = m.group(1)
+    if num is None:  # TNT Sports بدون رقم
+        return True
+    return num in {"1", "2"}
 
 def is_supported_channel(name: str) -> bool:
     if not name:
         return False
-    n = name.lower()
-    if any(tok in n for tok in _allowed_tokens):
+    disp = clean_channel_display(name)
+    n = disp.lower()
+
+    # 1) ممنوع Alkass بالكامل
+    if is_denied_channel(n):
+        return False
+
+    # 2) beIN من live ممنوعة (نستخدمها للمطابقة فقط) — سيتم استبعادها قبل النداء لهذه الدالة،
+    # لكن نخليها احتياطًا:
+    if is_bein(disp):
+        return False
+
+    # 3) Sky المسموح فقط
+    if "sky" in n:
+        return sky_allowed(disp)
+
+    # 4) TNT المسموح فقط
+    if "tnt" in n:
+        return tnt_allowed(disp)
+
+    # 5) IRIB TV3 / IRIB Varzesh
+    if IRIB_TV3_RE.search(disp) or IRIB_VARZESH_RE.search(disp):
         return True
-    if any(sub in n for sub in ALLOWED_SUBSTRINGS):
+
+    # 6) Varzish TV/Sport
+    if VARZISH_RE.search(disp):
         return True
+
+    # 7) باقي العوائل العامة اللي توافق رغبتك الأصلية
+    for sub in GENERAL_ALLOWED_SUBSTRINGS:
+        if sub in n:
+            return True
+
     return False
 
 # ========= توحيد أسماء القنوات =========
 CHANNEL_CANON_RULES = [
-    (re.compile(r"thmanyah\s*(\d+)", re.I), lambda m: (f"thmanyah-{m.group(1)}", f"Thmanyah {m.group(1)}")),
-    (re.compile(r"starzplay\s*(\d+)", re.I), lambda m: (f"starzplay-{m.group(1)}", f"Starzplay {m.group(1)}")),
-    (re.compile(r"starzplay\b", re.I),     lambda m: ("starzplay-1", "Starzplay 1")),
+    # Thmanyah / Starzplay / Abu Dhabi
+    (re.compile(r"thmanyah\s*(\d+)", re.I),            lambda m: (f"thmanyah-{m.group(1)}", f"Thmanyah {m.group(1)}")),
+    (re.compile(r"starzplay\s*(\d+)", re.I),           lambda m: (f"starzplay-{m.group(1)}", f"Starzplay {m.group(1)}")),
+    (re.compile(r"starzplay\b", re.I),                 lambda m: ("starzplay-1", "Starzplay 1")),
     (re.compile(r"abu\s*dhabi\s*sport\s*(\d+)", re.I), lambda m: (f"abudhabi-{m.group(1)}", f"Abu Dhabi Sport {m.group(1)}")),
-    (re.compile(r"(al[\s-]?kass|الكاس|الكأس)\s*(?:channel\s*)?(\d+)", re.I),
-     lambda m: (f"alkass-{m.group(2)}", f"Alkass {m.group(2)} HD")),
-    (re.compile(r"^alkass\s*(\d+)", re.I), lambda m: (f"alkass-{m.group(1)}", f"Alkass {m.group(1)} HD")),
-    (re.compile(r"ssc\s*extra", re.I),              lambda m: ("ssc-extra", "SSC Extra HD")),
-    (re.compile(r"ssc\s*(\d+)", re.I),              lambda m: (f"ssc-{m.group(1)}", f"SSC {m.group(1)} HD")),
-    (re.compile(r"shahid\s*(vip)?", re.I),          lambda m: ("shahid", "Shahid MBC")),
-    (re.compile(r"football\s*hd", re.I),            lambda m: ("football-hd", "Football HD")),
-    (re.compile(r"sky\s*sport[s]?\s*premier\s*league", re.I),
-                                                lambda m: ("sky-premier-league", "Sky Sport Premier League HD")),
+    # SSC / Shahid / Football
+    (re.compile(r"ssc\s*extra", re.I),                 lambda m: ("ssc-extra", "SSC Extra HD")),
+    (re.compile(r"ssc\s*(\d+)", re.I),                 lambda m: (f"ssc-{m.group(1)}", f"SSC {m.group(1)} HD")),
+    (re.compile(r"shahid\s*(vip)?", re.I),             lambda m: ("shahid", "Shahid MBC")),
+    (re.compile(r"football\s*hd", re.I),               lambda m: ("football-hd", "Football HD")),
+    (re.compile(r"persiana\s*sport", re.I),            lambda m: ("persiana-sport", "Persiana Sport HD")),
+    # Sky (Main Event / Premier League (UK or not))
     (re.compile(r"sky\s*sport[s]?\s*main\s*event", re.I),
-                                                lambda m: ("sky-main-event", "Sky Sports Main Event HD")),
-    (re.compile(r"dazn\s*1\s*portugal", re.I),     lambda m: ("dazn-pt-1", "DAZN 1 Portugal HD")),
-    (re.compile(r"dazn\s*2\s*portugal", re.I),     lambda m: ("dazn-pt-2", "DAZN 2 Portugal HD")),
-    (re.compile(r"dazn\s*3\s*portugal", re.I),     lambda m: ("dazn-pt-3", "DAZN 3 Portugal HD")),
-    (re.compile(r"mbc\s*action", re.I),            lambda m: ("mbc-action", "MBC Action HD")),
-    (re.compile(r"persiana\s*sport", re.I),        lambda m: ("persiana-sport", "Persiana Sport HD")),
-    (re.compile(r"irib\s*varzesh", re.I),          lambda m: ("irib-varzesh", "IRIB Varzesh HD")),
-    (re.compile(r"tnt\s*sports?\s*(\d+)", re.I),   lambda m: (f"tnt-{m.group(1)}", f"TNT Sports {m.group(1)} HD")),
+                                                     lambda m: ("sky-main-event", "Sky Sports Main Event HD")),
+    (re.compile(r"sky\s*sport[s]?\s*premier\s*league(?:\s*uk)?", re.I),
+                                                     lambda m: ("sky-premier-league", "Sky Sports Premier League UK" if "uk" in m.group(0).lower() else "Sky Sport Premier League HD")),
+    # DAZN PT
+    (re.compile(r"dazn\s*1\s*portugal", re.I),         lambda m: ("dazn-pt-1", "DAZN 1 Portugal HD")),
+    (re.compile(r"dazn\s*2\s*portugal", re.I),         lambda m: ("dazn-pt-2", "DAZN 2 Portugal HD")),
+    (re.compile(r"dazn\s*3\s*portugal", re.I),         lambda m: ("dazn-pt-3", "DAZN 3 Portugal HD")),
+    (re.compile(r"dazn\s*4\s*portugal", re.I),         lambda m: ("dazn-pt-4", "DAZN 4 Portugal HD")),
+    (re.compile(r"dazn\s*5\s*portugal", re.I),         lambda m: ("dazn-pt-5", "DAZN 5 Portugal HD")),
+    (re.compile(r"dazn\s*6\s*portugal", re.I),         lambda m: ("dazn-pt-6", "DAZN 6 Portugal HD")),
+    # Sport TV PT
+    (re.compile(r"sport\s*tv\s*1\s*portugal", re.I),   lambda m: ("sporttv-pt-1", "Sport TV1 Portugal HD")),
+    (re.compile(r"sport\s*tv\s*2\s*portugal", re.I),   lambda m: ("sporttv-pt-2", "Sport TV2 Portugal HD")),
+    # TNT Sports (فقط 1 و 2 أو بدون رقم)
+    (re.compile(r"tnt\s*sports?\s*1\b", re.I),         lambda m: ("tnt-1", "TNT Sports 1 HD")),
+    (re.compile(r"tnt\s*sports?\s*2\b", re.I),         lambda m: ("tnt-2", "TNT Sports 2 HD")),
+    (re.compile(r"tnt\s*sports?(?!\s*\d)", re.I),      lambda m: ("tnt", "TNT Sports HD")),
+    # IRIB
+    (re.compile(r"irib\s*tv\s*3", re.I),               lambda m: ("irib-tv3", "IRIB TV3 HD")),
+    (re.compile(r"irib\s*varzesh", re.I),              lambda m: ("irib-varzesh", "IRIB Varzesh HD")),
+    # Varzish
+    (re.compile(r"varzish", re.I),                     lambda m: ("varzish", "Varzish TV Sport HD")),
 ]
 
 def channel_key_and_display(raw_name: str) -> tuple[str, str]:
@@ -251,7 +316,7 @@ def build_live_time_index(live_data: dict):
         comp = m.get("competition") or ""
         bucket = comp_bucket(comp)
 
-        # قنوات live: نلتقط beIN كإشارة، ونكوّن allowed فقط من whitelist
+        # قنوات live: نلتقط beIN كإشارة، ونكوّن allowed فقط حسب فلترك
         raw_channels = []
         for ck in ("channels_raw", "channels", "tv_channels", "broadcasters", "broadcaster"):
             if ck in m and m[ck]:
@@ -267,12 +332,14 @@ def build_live_time_index(live_data: dict):
             disp = clean_channel_display(ch)
             if not disp:
                 continue
+            # beIN: اجمع رقمها كمؤشّر مطابقة فقط
             sig = extract_bein_signal(disp)
             if sig["is_bein"]:
                 if sig["num"]:
                     bein_nums.add(sig["num"])
-                # ما نضيف beIN إلى allowed
-                continue
+                continue  # لا نضيف beIN لإخراج القنوات
+
+            # فلترة القنوات حسب القواعد الجديدة
             if is_supported_channel(disp):
                 allowed.append(disp)
 
@@ -282,7 +349,7 @@ def build_live_time_index(live_data: dict):
             "tmin": tmin,
             "bucket": bucket,
             "bein_nums": bein_nums,     # مجموعة أرقام beIN الموجودة في live لهذه المباراة
-            "allowed": allowed,         # قد تكون فاضية، ما عندي مشكلة
+            "allowed": allowed,         # قد تكون فاضية
         })
     return idx
 
@@ -300,7 +367,6 @@ def yalla_primary_channel(y: dict) -> str | None:
     return chs[0] if chs else None
 
 def yalla_bein_num(y: dict):
-    # نحاول نجيب رقم beIN من قناة يلا الأساسية أو أي قناة بيها beIN
     for c in collect_yalla_channels(y):
         disp = clean_channel_display(c)
         sig = extract_bein_signal(disp)
@@ -319,7 +385,7 @@ def pick_best_live_candidate(cands: list[dict], y_bein: int | None, y_bucket: st
             return c_bein[0]
         elif len(c_bein) > 1:
             cands = c_bein
-    # 2) لو عندي bucket معروف (مو OTHER) → صفّي على نفس الـ bucket
+    # 2) لو عندي bucket معروف → صفّي عليه
     if y_bucket != "OTHER":
         c_bucket = [li for li in cands if li["bucket"] == y_bucket]
         if len(c_bucket) == 1:
@@ -353,7 +419,7 @@ def filter_matches():
     live_idx = build_live_time_index(live_data)
     print(f"[i] Live time-index: {len(live_idx)}")
 
-    # 3) دمج: “مرشّح واحد فقط” بدل الاتحاد
+    # 3) دمج: “مرشّح واحد فقط”
     out_matches = []
     matched_from_live = 0
 
@@ -370,7 +436,6 @@ def filter_matches():
 
         best = None
         if y_tmin is not None:
-            # كل المرشحين ضمن نافذة الوقت
             cands = [li for li in live_idx if minutes_close(y_tmin, li["tmin"], tol=TIME_TOL_MIN)]
             best = pick_best_live_candidate(cands, y_bein, y_bucket)
 
@@ -394,7 +459,7 @@ def filter_matches():
 
     output = {
         "date": (yalla or {}).get("date"),
-        "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, whitelisted, beIN & bucket filters)",
+        "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
         "matches": out_matches
     }
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
