@@ -319,10 +319,8 @@ def build_live_entries(live_data: dict):
 
         # إزالة تكرار/توحيد داخل قائمة live نفسها
         filtered = dedupe_channels_preserve_order(filtered)
-        if not filtered and not bein_mena_candidates:
-            # لا توجد قنوات مفيدة لهذه المباراة
-            continue
 
+        # ✨ لا نستبعد المباراة حتى لو ما فيها قنوات مسموحة من live
         entry = {
             "competition": m.get("competition") or "",
             "kickoff_baghdad": m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or "",
@@ -426,12 +424,6 @@ def filter_matches():
         return
 
     live_entries = build_live_entries(live_data)
-    if not live_entries:
-        print("[!] liveonsat has 0 usable matches (after channel filtering).")
-        with OUTPUT_PATH.open("w", encoding="utf-8") as f:
-            json.dump({"date": live_data.get("date"), "source_url": live_data.get("source_url"), "matches": []},
-                      f, ensure_ascii=False, indent=2)
-        return
 
     # 1) حمّل يلا شوت (للمطابقة + قناة أساسية أولى)
     try:
@@ -454,15 +446,23 @@ def filter_matches():
         matched_cnt += 1
 
         y_match = m_y["match"]
+
+        # اختر القناة الأساسية من يلا
         primary_disp = m_y.get("primary_disp")  # قد تكون Starzplay أو beIN أو قناة أخرى من يلا
+
+        # ✅ تحسين beIN:
+        # إذا يلا أعطى beIN عامة/غير مرقّمة/بدون MENA، وعندنا من live MENA مرقمة، نعتمد نسخة live المرقّمة.
+        if primary_disp and is_bein_channel(primary_disp):
+            if le.get("bein_mena"):
+                primary_disp = le["bein_mena"][0]
 
         merged = []
 
-        # ⭐ Starzplay من يلا شوت لها أولوية أولى إذا وُجدت
+        # Starzplay من يلا شوت لها أولوية أولى إذا وُجدت
         if primary_disp and "starzplay" in primary_disp.lower():
             merged.append(primary_disp)
         else:
-            # beIN من يلا إذا موجودة
+            # beIN (قد تكون الآن مرقّمة من live) إذا موجودة
             if primary_disp and is_bein_channel(primary_disp):
                 merged.append(primary_disp)
             else:
@@ -473,7 +473,7 @@ def filter_matches():
         # أضف باقي قنوات liveonsat المسموحة
         merged.extend(le["channels"])
 
-        # إزالة التكرار عبر المفاتيح الموحدة (يشمل "الكأس 5" ~ "Alkass 5 HD" ~ "Al Kass 5")
+        # إزالة التكرار عبر المفاتيح الموحدة
         merged = dedupe_channels_preserve_order(merged)
 
         out = {
