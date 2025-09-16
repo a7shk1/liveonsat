@@ -147,32 +147,31 @@ def is_supported_channel(name: str) -> bool:
 CHANNEL_CANON_RULES = [
     (re.compile(r"thmanyah\s*(\d+)", re.I), lambda m: (f"thmanyah-{m.group(1)}", f"Thmanyah {m.group(1)}")),
     (re.compile(r"starzplay\s*(\d+)", re.I), lambda m: (f"starzplay-{m.group(1)}", f"Starzplay {m.group(1)}")),
-    (re.compile(r"starzplay\b", re.I),     lambda m: ("starzplay-1", "Starzplay 1")),
+    (re.compile(r"starzplay\b", re.I),      lambda m: ("starzplay-1", "Starzplay 1")),
     (re.compile(r"abu\s*dhabi\s*sport\s*(\d+)", re.I), lambda m: (f"abudhabi-{m.group(1)}", f"Abu Dhabi Sport {m.group(1)}")),
     (re.compile(r"(al[\s-]?kass|الكاس|الكأس)\s*(?:channel\s*)?(\d+)", re.I),
      lambda m: (f"alkass-{m.group(2)}", "Alkass %s HD" % m.group(2))),
-    (re.compile(r"ssc\s*extra", re.I),    lambda m: ("ssc-extra", "SSC Extra HD")),
-    (re.compile(r"ssc\s*(\d+)", re.I),    lambda m: (f"ssc-{m.group(1)}", f"SSC {m.group(1)} HD")),
+    (re.compile(r"ssc\s*extra", re.I),     lambda m: ("ssc-extra", "SSC Extra HD")),
+    (re.compile(r"ssc\s*(\d+)", re.I),     lambda m: (f"ssc-{m.group(1)}", f"SSC {m.group(1)} HD")),
     (re.compile(r"shahid\s*(vip)?", re.I),lambda m: ("shahid", "Shahid MBC")),
     (re.compile(r"football\s*hd", re.I),  lambda m: ("football-hd", "Football HD")),
     (re.compile(r"sky\s*sport[s]?\s*premier\s*league", re.I),
-                                          lambda m: ("sky-premier-league", "Sky Sport Premier League HD")),
+                                         lambda m: ("sky-premier-league", "Sky Sport Premier League HD")),
     (re.compile(r"sky\s*sport[s]?\s*main\s*event", re.I),
-                                          lambda m: ("sky-main-event", "Sky Sports Main Event HD")),
+                                         lambda m: ("sky-main-event", "Sky Sports Main Event HD")),
     (re.compile(r"dazn\s*1\s*portugal", re.I), lambda m: ("dazn-pt-1", "DAZN 1 Portugal HD")),
     (re.compile(r"dazn\s*2\s*portugal", re.I), lambda m: ("dazn-pt-2", "DAZN 2 Portugal HD")),
     (re.compile(r"dazn\s*3\s*portugal", re.I), lambda m: ("dazn-pt-3", "DAZN 3 Portugal HD")),
     (re.compile(r"mbc\s*action", re.I),       lambda m: ("mbc-action", "MBC Action HD")),
-    (re.compile(r"persiana\s*sport", re.I),    lambda m: ("persiana-sport", "Persiana Sport HD")),
-    (re.compile(r"irib\s*varzesh", re.I),      lambda m: ("irib-varzesh", "IRIB Varzesh HD")),
-    (re.compile(r"tnt\s*sports?\s*1", re.I),   lambda m: ("tnt-1", "TNT Sports 1 HD")),
-    (re.compile(r"tnt\s*sports?\s*2", re.I),   lambda m: ("tnt-2", "TNT Sports 2 HD")),
+    (re.compile(r"persiana\s*sport", re.I),   lambda m: ("persiana-sport", "Persiana Sport HD")),
+    (re.compile(r"irib\s*varzesh", re.I),     lambda m: ("irib-varzesh", "IRIB Varzesh HD")),
+    (re.compile(r"tnt\s*sports?\s*1", re.I),  lambda m: ("tnt-1", "TNT Sports 1 HD")),
+    (re.compile(r"tnt\s*sports?\s*2", re.I),  lambda m: ("tnt-2", "TNT Sports 2 HD")),
 ]
 
 def channel_key_and_display(raw_name: str) -> tuple[str, str]:
     disp = clean_channel_display(raw_name)
     low = disp.lower()
-    # beIN نخلّيها تمر للعرض لو جاي من يلا، لكن ما نضيفها من live
     if is_bein_channel(disp):
         has_mena = bool(re.search(r'\bmena\b|\bmiddle\s*east\b', low))
         mnum = re.search(r'\b(\d{1,2})\b', to_western_digits(disp))
@@ -201,19 +200,22 @@ def dedupe_channels_preserve_order(ch_list: list[str]) -> list[str]:
         seen_keys.add(key)
         out_disp.append(disp)
     return out_disp
-
-# ========= قراءة liveonsat إلى فهرس بالوقت =========
-def build_live_time_index(live_data: dict):
+    
+# ========= بناء فهرس liveonsat (الجديد) =========
+def build_live_match_index(live_data: dict):
     idx = []
     matches = (live_data or {}).get("matches", []) or []
     for m in matches:
-        # وقت بغداد من live
         t = (m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or "").strip()
         tmin = kickoff_to_minutes(t)
         if tmin is None:
             continue
 
-        # اجمع قنوات live "المسموحة فقط" وتجاهل beIN
+        home_team = (m.get("home") or m.get("home_team") or "")
+        away_team = (m.get("away") or m.get("away_team") or "")
+        if not home_team or not away_team:
+            continue
+
         raw_channels = []
         for ck in ("channels_raw", "channels", "tv_channels", "broadcasters", "broadcaster"):
             if ck in m and m[ck]:
@@ -233,26 +235,24 @@ def build_live_time_index(live_data: dict):
 
         allowed = dedupe_channels_preserve_order(allowed)
         if not allowed:
-            continue  # ما يفيدني إذا ماكو قناة مسموحة أصلاً
+            continue
 
         idx.append({
             "tmin": tmin,
+            "home_norm": normalize_text(home_team),
+            "away_norm": normalize_text(away_team),
             "allowed": allowed,
         })
     return idx
 
-# ========= قنوات يلا =========
-def collect_yalla_channels(y: dict) -> list[str]:
+# ========= قنوات يلا (مبسط) =========
+def get_yalla_channels(y: dict) -> list[str]:
     keys = ["channels_raw","channels","tv_channels","channel","channel_ar","channel_en","broadcasters","broadcaster"]
     out = []
     for k in keys:
         if k in y and y[k]:
             out.extend(to_list_channels(y[k]))
-    return unique_preserving(out)
-
-def yalla_primary_channel(y: dict) -> str | None:
-    chs = [clean_channel_display(c) for c in collect_yalla_channels(y)]
-    return chs[0] if chs else None  # نعرض قناة يلا كما هي
+    return [clean_channel_display(c) for c in unique_preserving(out) if c]
 
 # ========= الرئيسي =========
 def filter_matches():
@@ -274,50 +274,59 @@ def filter_matches():
     except Exception as e:
         print(f"[!] WARN reading liveonsat: {e}")
         live_data = {"matches": []}
-    live_idx = build_live_time_index(live_data)
-    print(f"[i] Live time-index (allowed-only): {len(live_idx)}")
+    live_idx = build_live_match_index(live_data)
+    print(f"[i] Live match-index built: {len(live_idx)}")
 
-    # 3) دمج حسب الوقت فقط
+    # 3) دمج ذكي
     out_matches = []
     added_from_live_count = 0
+    used_live_indices = set()
 
-    for m in y_matches:
-        y_time = (m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or "").strip()
-        y_tmin = kickoff_to_minutes(y_time)
-        merged = []
-
-        # قناة يلا (إن وجدت)
-        primary = yalla_primary_channel(m)
-        if primary:
-            merged.append(primary)
-
-        # جميع live entries ضمن نافذة الوقت
-        if y_tmin is not None:
-            extras = []
-            for li in live_idx:
-                if minutes_close(y_tmin, li["tmin"], tol=TIME_TOL_MIN):
-                    extras.extend(li["allowed"])
-            if extras:
-                added_from_live_count += 1
-                merged.extend(extras)
-
-        merged = dedupe_channels_preserve_order(merged)
+    for y_match in y_matches:
+        y_time_str = (y_match.get("kickoff_baghdad") or y_match.get("time_baghdad") or y_match.get("kickoff") or "").strip()
+        y_tmin = kickoff_to_minutes(y_time_str)
+        
+        y_home_norm = normalize_text(y_match.get("home") or y_match.get("home_team"))
+        y_away_norm = normalize_text(y_match.get("away") or y_match.get("away_team"))
+        
+        merged_channels = get_yalla_channels(y_match)
+        
+        found_match = False
+        if y_tmin is not None and y_home_norm and y_away_norm:
+            # ابحث عن أفضل تطابق
+            for i, li in enumerate(live_idx):
+                if i in used_live_indices:
+                    continue
+                
+                if minutes_close(y_tmin, li["tmin"]):
+                    # تحقق من تطابق أسماء الفرق (بالاتجاهين)
+                    cond1 = (y_home_norm in li["home_norm"] or li["home_norm"] in y_home_norm) and \
+                            (y_away_norm in li["away_norm"] or li["away_norm"] in y_away_norm)
+                    cond2 = (y_home_norm in li["away_norm"] or li["away_norm"] in y_home_norm) and \
+                            (y_away_norm in li["home_norm"] or li["home_norm"] in y_away_norm)
+                    
+                    if cond1 or cond2:
+                        merged_channels.extend(li["allowed"])
+                        used_live_indices.add(i) # نستخدم المباراة مرة واحدة فقط
+                        added_from_live_count += 1
+                        found_match = True
+                        break # نكتفي بأول تطابق دقيق
 
         out_matches.append({
-            "competition": m.get("competition") or "",
-            "kickoff_baghdad": y_time,
-            "home_team": (m.get("home") or m.get("home_team") or "").strip(),
-            "away_team": (m.get("away") or m.get("away_team") or "").strip(),
-            "channels_raw": merged,
-            "home_logo": m.get("home_logo"),
-            "away_logo": m.get("away_logo"),
-            "status_text": m.get("status_text"),
-            "result_text": m.get("result_text"),
+            "competition": y_match.get("competition") or "",
+            "kickoff_baghdad": y_time_str,
+            "home_team": (y_match.get("home") or y_match.get("home_team") or "").strip(),
+            "away_team": (y_match.get("away") or y_match.get("away_team") or "").strip(),
+            "channels_raw": dedupe_channels_preserve_order(merged_channels),
+            "home_logo": y_match.get("home_logo"),
+            "away_logo": y_match.get("away_logo"),
+            "status_text": y_match.get("status_text"),
+            "result_text": y_match.get("result_text"),
         })
 
     output = {
         "date": (yalla or {}).get("date"),
-        "source_url": "yallashoot (primary) + liveonsat (extra-by-time, whitelisted)",
+        "source_url": "yallashoot (primary) + liveonsat (extra-by-match, whitelisted)",
         "matches": out_matches
     }
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
