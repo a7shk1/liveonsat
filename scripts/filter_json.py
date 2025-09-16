@@ -12,7 +12,7 @@ MATCHES_DIR = REPO_ROOT / "matches"
 OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
 LIVEONSAT_PATH = MATCHES_DIR / "liveonsat_raw.json"
 
-YALLASHOOT_URL = "https://a7shk1.github.io/yallashoot/matches/today.json"
+YALLASHOOT_URL = "https://raw.githubusercontent.com/a7shk1/yallashoot/refs/heads/main/matches/today.json"
 
 # نافذة التطابق بالوقت (دقائق)
 TIME_TOL_MIN = 25
