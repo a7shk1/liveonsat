@@ -20,7 +20,7 @@ permissions:
 
 concurrency:
   group: send-notifications
-  cancel-in-progress: false   # 🔧 خليه false حتى ما يوقف الـ job القديم
+  cancel-in-progress: false   # ✅ منع إلغاء الـ job السابق
 
 jobs:
   send:
@@ -29,11 +29,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-        retry:
-          max-attempts: 3
-          delay-seconds: 10
 
       - name: Write Firebase service key
         shell: bash
@@ -93,9 +88,6 @@ jobs:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
           TEST_DEVICE_TOKEN: ${{ github.event.inputs.device_token }}
         run: python scripts/send_notifications.py
-        retry:
-          max-attempts: 3
-          delay-seconds: 15
 
       - name: Commit & push notified state
         if: always()
