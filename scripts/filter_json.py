@@ -150,10 +150,14 @@ IRIB_VARZESH_RE = re.compile(r'\birib\s*varzesh\b', re.I)
 
 VARZISH_RE = re.compile(r'\bvarzish\b', re.I)
 
+# ✅ جديد: مطابقة DAZN Portugal (مع/بدون رقم) و Sport TV Portugal (مع/بدون رقم)
+DAZN_PT_RE = re.compile(r'\bdazn\b\s*(?:\d+\s*)?portugal\b', re.I)
+SPORTTV_PT_RE = re.compile(r'\bsport\s*tv\b\s*(?:\d+\s*)?portugal\b', re.I)
+
 # باقي العوائل/القنوات المسموحة (عام)
 GENERAL_ALLOWED_SUBSTRINGS = {
     "football hd",
-    "dazn portugal",
+    "dazn portugal",            # ستبقى، لكن أصبح عندنا ريجيكس أدق فوق
     "sport tv portugal",
     "espn 1 brazil", "espn 2 brazil", "espn 3 brazil", "espn 4 brazil", "espn 5 brazil", "espn 6 brazil", "espn 7 brazil",
     "persiana sport", "mbc action", "ssc ", " ssc", "shahid", "thmanyah", "starzplay", "abu dhabi sport",
@@ -191,8 +195,7 @@ def is_supported_channel(name: str) -> bool:
     if is_denied_channel(n):
         return False
 
-    # 2) beIN من live ممنوعة (نستخدمها للمطابقة فقط) — سيتم استبعادها قبل النداء لهذه الدالة،
-    # لكن نخليها احتياطًا:
+    # 2) beIN من live ممنوعة (نستخدمها للمطابقة فقط)
     if is_bein(disp):
         return False
 
@@ -204,15 +207,23 @@ def is_supported_channel(name: str) -> bool:
     if "tnt" in n:
         return tnt_allowed(disp)
 
-    # 5) IRIB TV3 / IRIB Varzesh
+    # ✅ 5) DAZN Portugal (بدون رقم أو 1-6)
+    if DAZN_PT_RE.search(disp):
+        return True
+
+    # ✅ 6) Sport TV Portugal (بدون رقم أو مع رقم)
+    if SPORTTV_PT_RE.search(disp):
+        return True
+
+    # 7) IRIB TV3 / IRIB Varzesh
     if IRIB_TV3_RE.search(disp) or IRIB_VARZESH_RE.search(disp):
         return True
 
-    # 6) Varzish TV/Sport
+    # 8) Varzish TV/Sport
     if VARZISH_RE.search(disp):
         return True
 
-    # 7) باقي العوائل العامة اللي توافق رغبتك الأصلية
+    # 9) باقي العوائل العامة اللي توافق رغبتك الأصلية
     for sub in GENERAL_ALLOWED_SUBSTRINGS:
         if sub in n:
             return True
@@ -244,9 +255,13 @@ CHANNEL_CANON_RULES = [
     (re.compile(r"dazn\s*4\s*portugal", re.I),         lambda m: ("dazn-pt-4", "DAZN 4 Portugal HD")),
     (re.compile(r"dazn\s*5\s*portugal", re.I),         lambda m: ("dazn-pt-5", "DAZN 5 Portugal HD")),
     (re.compile(r"dazn\s*6\s*portugal", re.I),         lambda m: ("dazn-pt-6", "DAZN 6 Portugal HD")),
+    # ✅ عام: DAZN Portugal بدون رقم
+    (re.compile(r"dazn\s*portugal", re.I),             lambda m: ("dazn-pt", "DAZN Portugal HD")),
     # Sport TV PT
     (re.compile(r"sport\s*tv\s*1\s*portugal", re.I),   lambda m: ("sporttv-pt-1", "Sport TV1 Portugal HD")),
     (re.compile(r"sport\s*tv\s*2\s*portugal", re.I),   lambda m: ("sporttv-pt-2", "Sport TV2 Portugal HD")),
+    # ✅ عام: Sport TV Portugal بدون رقم
+    (re.compile(r"sport\s*tv\s*portugal", re.I),       lambda m: ("sporttv-pt", "Sport TV Portugal HD")),
     # TNT Sports (فقط 1 و 2 أو بدون رقم)
     (re.compile(r"tnt\s*sports?\s*1\b", re.I),         lambda m: ("tnt-1", "TNT Sports 1 HD")),
     (re.compile(r"tnt\s*sports?\s*2\b", re.I),         lambda m: ("tnt-2", "TNT Sports 2 HD")),
