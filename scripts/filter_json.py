@@ -5,23 +5,25 @@ import re
 import unicodedata
 from pathlib import Path
 import requests
+from datetime import datetime
 
-# ==== المسارات/الإعدادات (نفسها) ====
+# ==== المسارات/الإعدادات ====
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MATCHES_DIR = REPO_ROOT / "matches"
-INPUT_PATH = MATCHES_DIR / "liveonsat_raw.json"        # المصدر الأساسي
-OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"
+INPUT_PATH_LIVE = MATCHES_DIR / "liveonsat_raw.json"     # مصدر القنوات الإضافية (EN)
+OUTPUT_PATH = MATCHES_DIR / "filtered_matches.json"      # الناتج
 YALLASHOOT_URL = "https://raw.githubusercontent.com/a7shk1/yallashoot/refs/heads/main/matches/today.json"
 
 # ==== أدوات مساعدة عامة ====
 EMOJI_MISC_RE = re.compile(r'[\u2600-\u27BF\U0001F300-\U0001FAFF]+')
 BEIN_RE = re.compile(r'bein\s*sports?', re.I)
+TIME_RE = re.compile(r'^(\d{1,2}):(\d{2})$')
 
 def strip_accents(s: str) -> str:
     return ''.join(c for c in unicodedata.normalize('NFKD', s) if not unicodedata.combining(c))
 
 def normalize_text(text: str) -> str:
-    """تطبيع قوي للاستخدام بالمفاتيح/المطابقة."""
+    """تطبيع قوي للاستخدام بالمفاتيح/المطابقة/الفلاتر الجزئية."""
     if not text:
         return ""
     text = str(text)
@@ -74,7 +76,7 @@ def clean_channel_display(name: str) -> str:
 def is_bein_channel(name: str) -> bool:
     return bool(BEIN_RE.search(name or ""))
 
-# ==== القنوات المسموحة (whitelist) ====
+# ==== القنوات المسموحة (whitelist) كما هي ====
 SUPPORTED_CHANNELS = [
     "MATCH! Futbol 1", "MATCH! Futbol 2", "MATCH! Futbol 3",
     "Football HD",
@@ -84,6 +86,7 @@ SUPPORTED_CHANNELS = [
     "MATCH! Premier HD", "Sky Sports Main Event HD", "Sky Sport Premier League HD", "IRIB Varzesh HD",
     "Persiana Sport HD", "MBC Action HD", "TNT Sports 1 HD", "TNT Sports 2 HD", "TNT Sports HD",
     "MBC masrHD", "MBC masr2HD", "ssc1 hd", "ssc2 hd", "Shahid MBC",
+    # تطبيقك (جديد)
     "Thmanyah 1", "Thmanyah 2", "Thmanyah 3",
     "Starzplay 1", "Starzplay 2",
     "Abu Dhabi Sport 1", "Abu Dhabi Sport 2",
@@ -112,7 +115,7 @@ def is_supported_channel(name: str) -> bool:
         return True
     return False
 
-# ==== توحيد أسماء القنوات ====
+# ==== توحيد أسماء القنوات لإزالة التكرار ====
 CHANNEL_CANON_RULES = [
     (re.compile(r"thmanyah\s*(\d+)", re.I),                lambda m: (f"thmanyah-{m.group(1)}", f"Thmanyah {m.group(1)}")),
     (re.compile(r"starzplay\s*(\d+)", re.I),               lambda m: (f"starzplay-{m.group(1)}", f"Starzplay {m.group(1)}")),
@@ -146,6 +149,7 @@ def channel_key_and_display(raw_name: str) -> tuple[str, str]:
     low = disp.lower()
 
     if is_bein_channel(disp):
+        # نسمح بعرض beIN لكن لن نأخذ beIN من live فيما بعد
         has_mena = bool(re.search(r'\bmena\b|\bmiddle\s*east\b', low))
         mnum = re.search(r'\b(\d+)\b', disp)
         if has_mena and mnum:
@@ -177,41 +181,36 @@ def dedupe_channels_preserve_order(ch_list: list[str]) -> list[str]:
         out_disp.append(disp)
     return out_disp
 
-def extract_bein_mena_display(name: str) -> str | None:
-    if not name:
-        return None
-    disp = clean_channel_display(name)
-    low = disp.lower()
-    if not is_bein_channel(disp):
-        return None
-    if not re.search(r'\bmena\b|\bmiddle\s*east\b', low):
-        return None
-    mnum = re.search(r'\b(\d+)\b', disp)
-    if not mnum:
-        return None
-    n = mnum.group(1)
-    return f"beIN Sports MENA {n} HD"
-
-# ==== قاموس EN→AR مختصر ====
-EN2AR = {
-    "Al Ahli": "الأهلي السعودي", "Al-Ittihad": "الاتحاد", "Al Ittihad": "الاتحاد",
-    "Al Hilal": "الهلال", "Al Nassr": "النصر", "Al Sadd": "السد", "Al Duhail": "الدحيل",
-    "Al Gharafa": "الغرافة", "Al Rayyan": "الريان", "Sharjah": "الشارقة", "Al Wahda": "الوحدة",
-    "Al Shorta": "الشرطة", "Al Zawraa": "الزوراء", "Al Quwa Al Jawiya": "القوة الجوية",
-    "Nasaf Qarshi": "ناساف كارشي",
-    "Ittihad Tanger": "اتحاد طنجة", "Olympic Safi": "أولمبيك آسفي", "OC Safi": "أولمبيك آسفي",
-    "Como": "كومو", "Genoa": "جنوى", "Espanyol": "إسبانيول",
-    "Real Mallorca": "ريال مايوركا", "Mallorca": "ريال مايوركا",
+# ==== قاموس AR -> EN صغير لزيادة فرص التطابق ====
+AR2EN = {
+    "ريال مدريد": "Real Madrid",
+    "مارسيليا": "Marseille",
+    "برشلونة": "Barcelona",
+    "اتلتيكو مدريد": "Atletico Madrid",
+    "بايرن ميونخ": "Bayern Munich",
+    "انتر": "Inter",
+    "ميلان": "AC Milan",
+    "يوفنتوس": "Juventus",
+    "روما": "Roma",
+    "ليفربول": "Liverpool",
+    "مانشستر سيتي": "Manchester City",
+    "مانشستر يونايتد": "Manchester United",
+    "ارسنال": "Arsenal",
+    "توتنهام": "Tottenham",
+    "باريس سان جيرمان": "Paris Saint-Germain",
+    "مارسيليا": "Marseille",
 }
-AR2EN = {v: k for k, v in EN2AR.items()}
 
-def en_to_ar(name: str) -> str:
-    return EN2AR.get(name, name or "")
+def ar_to_en_guess(name_ar: str) -> str:
+    name_ar = (name_ar or "").strip()
+    if not name_ar:
+        return ""
+    # قاموس مباشر
+    if name_ar in AR2EN:
+        return AR2EN[name_ar]
+    return name_ar  # fallback (قد يكون أصلاً إنكليزي في بعض مصادر يلا)
 
-def ar_to_en(name: str) -> str:
-    return AR2EN.get(name, name or "")
-
-# ==== parsing ====
+# ==== parsing لمباراة من title ====
 def parse_title_to_teams_generic(title: str) -> tuple[str | None, str | None]:
     if not title:
         return None, None
@@ -229,6 +228,7 @@ def parse_title_to_teams_generic(title: str) -> tuple[str | None, str | None]:
                 return l, r
     return None, None
 
+# ==== استخراج فرق liveonsat ====
 def extract_live_match(m: dict) -> tuple[str | None, str | None]:
     home = (m.get("home") or m.get("home_team"))
     away = (m.get("away") or m.get("away_team"))
@@ -237,15 +237,16 @@ def extract_live_match(m: dict) -> tuple[str | None, str | None]:
     title = (m.get("title") or "").strip()
     return parse_title_to_teams_generic(title)
 
-# ==== liveonsat entries ====
-def build_live_entries(live_data: dict):
-    out = []
+# ==== بناء فهرس liveonsat بالقنوات المسموحة فقط (بدون beIN) ====
+def build_live_index(live_data: dict):
+    idx = []
     matches = (live_data or {}).get("matches", []) or []
     for m in matches:
         h_en, a_en = extract_live_match(m)
         if not h_en or not a_en:
             continue
 
+        # قنوات مسموحة فقط، مع تجاهل beIN
         raw_channels = []
         for ck in ("channels_raw", "channels", "tv_channels", "broadcasters", "broadcaster"):
             if ck in m and m[ck]:
@@ -256,37 +257,89 @@ def build_live_entries(live_data: dict):
                     raw_channels.extend(to_list_channels(raw))
 
         filtered = []
-        bein_mena_candidates = []
-
         for ch in raw_channels:
-            ch_disp = clean_channel_display(ch)
-            if not ch_disp:
+            disp = clean_channel_display(ch)
+            if not disp:
                 continue
-            if is_bein_channel(ch_disp):
-                bein_m = extract_bein_mena_display(ch_disp)
-                if bein_m and bein_m not in bein_mena_candidates:
-                    bein_mena_candidates.append(bein_m)
-                continue
-            if is_supported_channel(ch_disp):
-                filtered.append(ch_disp)
+            if is_bein_channel(disp):
+                continue  # لا نأخذ beIN من live
+            if is_supported_channel(disp):
+                filtered.append(disp)
 
         filtered = dedupe_channels_preserve_order(filtered)
 
-        entry = {
-            "competition": m.get("competition") or "",
-            "kickoff_baghdad": m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or "",
-            "home_en": h_en.strip(),
-            "away_en": a_en.strip(),
-            "home_ar_guess": en_to_ar(h_en.strip()),
-            "away_ar_guess": en_to_ar(a_en.strip()),
-            "title_src": (m.get("title") or "").strip(),   # <<< نخزّن العنوان الأصلي
-            "channels": filtered,
-            "bein_mena": bein_mena_candidates,
-        }
-        out.append(entry)
-    return out
+        # خزّن عنصر فهرس (نستعمل قائمة بدل dict لنستطيع عمل مطابقة تقريبية)
+        idx.append({
+            "home_en": h_en,
+            "away_en": a_en,
+            "home_en_norm": normalize_text(h_en),
+            "away_en_norm": normalize_text(a_en),
+            "title": (m.get("title") or "").strip(),
+            "title_norm": normalize_text(m.get("title") or ""),
+            "competition": (m.get("competition") or "").strip(),
+            "kickoff_baghdad": (m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or "").strip(),
+            "channels_allowed": filtered,   # فقط المسموحة
+        })
+    return idx
 
-# ==== يلا شوت index ====
+def minutes_from_hhmm(hhmm: str) -> int | None:
+    m = TIME_RE.match((hhmm or "").strip())
+    if not m:
+        return None
+    h, mi = int(m.group(1)), int(m.group(2))
+    return h * 60 + mi
+
+def times_close(t1: str, t2: str, tol_min: int = 30) -> bool:
+    m1 = minutes_from_hhmm(t1)
+    m2 = minutes_from_hhmm(t2)
+    if m1 is None or m2 is None:
+        return True  # إذا ماكو وقتين معتبرين، لا نمنع المطابقة
+    return abs(m1 - m2) <= tol_min
+
+# ==== مطابقة تقريبية بين yalla (AR/EN) و live (EN) ====
+def likely_same_match(y_item: dict, live_item: dict) -> bool:
+    # مصادر أسماء من يلا: home/away بالعربي، ومحاولة تحويلها لإنكليزي، وكذلك العناوين
+    h_ar = (y_item.get("home") or y_item.get("home_team") or "").strip()
+    a_ar = (y_item.get("away") or y_item.get("away_team") or "").strip()
+    h_en_guess = (y_item.get("home_en") or ar_to_en_guess(h_ar)).strip()
+    a_en_guess = (y_item.get("away_en") or ar_to_en_guess(a_ar)).strip()
+
+    # عناوين
+    titles_try = [
+        (y_item.get("title_en") or "").strip(),
+        (y_item.get("title") or "").strip(),
+        (y_item.get("title_ar") or "").strip(),
+    ]
+    title_pairs = []
+    for t in titles_try:
+        l, r = parse_title_to_teams_generic(t)
+        if l and r:
+            title_pairs.append((l.strip(), r.strip()))
+
+    # نبني مرشّحات نصية مطبّعة (partial substring) لكلا الفريقين
+    cand_pairs = []
+    if h_en_guess and a_en_guess:
+        cand_pairs.append((h_en_guess, a_en_guess))
+    cand_pairs.extend(title_pairs)
+
+    if not cand_pairs:
+        # ماكو أسماء EN كافية: ما نقدر نضمن المطابقة
+        return False
+
+    lh, la = live_item["home_en_norm"], live_item["away_en_norm"]
+    for (ph, pa) in cand_pairs:
+        nh, na = normalize_text(ph), normalize_text(pa)
+        # تحمّل الترتيبين، وبمطابقة جزئية بالاتجاهين
+        cond1 = (nh in lh or lh in nh) and (na in la or la in na)
+        cond2 = (nh in la or la in nh) and (na in lh or lh in na)
+        if cond1 or cond2:
+            # تحقق وقت قريب (إن أمكن)
+            if times_close(y_item.get("kickoff_baghdad") or y_item.get("time_baghdad") or y_item.get("kickoff") or "",
+                           live_item.get("kickoff_baghdad") or ""):
+                return True
+    return False
+
+# ==== قنوات يلا شوت ====
 def collect_yalla_channels(y: dict) -> list:
     keys_try = ["channels_raw", "channels", "tv_channels", "channel", "channel_ar", "channel_en", "broadcasters", "broadcaster"]
     out = []
@@ -296,6 +349,7 @@ def collect_yalla_channels(y: dict) -> list:
     return unique_preserving(out)
 
 def pick_primary_yalla_channel(chs: list[str]) -> str | None:
+    """Starzplay أولاً، بعدها beIN، بعدها أول قناة."""
     if not chs:
         return None
     cleaned = [clean_channel_display(c) for c in chs if c]
@@ -307,161 +361,78 @@ def pick_primary_yalla_channel(chs: list[str]) -> str | None:
             return c
     return cleaned[0] if cleaned else None
 
-def _add_key_pair(idx: dict, key_left: str, key_right: str, record: dict):
-    """يسجل المفتاحين (ترتيبين) لو في بيانات كفاية."""
-    if key_left and key_right:
-        k1 = f"{normalize_text(key_left)}-{normalize_text(key_right)}"
-        k2 = f"{normalize_text(key_right)}-{normalize_text(key_left)}"
-        if k1 not in idx:
-            idx[k1] = record
-        if k2 not in idx:
-            idx[k2] = record
-
-def build_yalla_index(yalla_data: dict):
-    idx = {}
-    matches = (yalla_data or {}).get("matches", []) or []
-    for m in matches:
-        # نجمع كل مصادر الأسماء الممكنة من يلا شوت
-        contenders = []
-
-        # 1) حقول فرق صريحة (AR/EN) إن وجدت
-        home_ar = (m.get("home") or m.get("home_team") or "").strip()
-        away_ar = (m.get("away") or m.get("away_team") or "").strip()
-        if home_ar and away_ar:
-            contenders.append((home_ar, away_ar))
-
-        home_en = (m.get("home_en") or ar_to_en(home_ar) or "").strip()
-        away_en = (m.get("away_en") or ar_to_en(away_ar) or "").strip()
-        if home_en and away_en:
-            contenders.append((home_en, away_en))
-
-        # 2) العنوان (title / title_en / title_ar) إن وجد — نفكّه لِفريقين
-        for tk in ("title_en", "title_ar", "title"):
-            t = (m.get(tk) or "").strip()
-            if t:
-                l, r = parse_title_to_teams_generic(t)
-                if l and r:
-                    contenders.append((l, r))
-
-        # قناة أساسية
-        y_chs = collect_yalla_channels(m)
-        primary = pick_primary_yalla_channel(y_chs)
-        pk, pd = channel_key_and_display(primary) if primary else (None, None)
-
-        record = {"match": m, "primary_key": pk, "primary_disp": pd}
-
-        # سجل كل المفاتيح المحتملة (بكل الترتيبين)
-        for (l, r) in contenders:
-            _add_key_pair(idx, l, r, record)
-
-    return idx
-
-# ==== المطابقة ====
-def match_live_to_yalla(live_entry: dict, y_idx: dict) -> dict | None:
-    # 1) مطابقة بالعربي المتوقع من EN2AR (إن توفّر)
-    h_ar = live_entry["home_ar_guess"]
-    a_ar = live_entry["away_ar_guess"]
-    if h_ar and a_ar:
-        k1 = f"{normalize_text(h_ar)}-{normalize_text(a_ar)}"
-        k2 = f"{normalize_text(a_ar)}-{normalize_text(h_ar)}"
-        if k1 in y_idx: return y_idx[k1]
-        if k2 in y_idx: return y_idx[k2]
-
-    # 2) مطابقة بالإنجليزي من live
-    h_en = live_entry["home_en"]; a_en = live_entry["away_en"]
-    k3 = f"{normalize_text(h_en)}-{normalize_text(a_en)}"
-    k4 = f"{normalize_text(a_en)}-{normalize_text(h_en)}"
-    if k3 in y_idx: return y_idx[k3]
-    if k4 in y_idx: return y_idx[k4]
-
-    # 3) مطابقة عبر عنوان live نفسه (لو يلا عنده title مناظر)
-    title_src = (live_entry.get("title_src") or "").strip()
-    if title_src:
-        tl, tr = parse_title_to_teams_generic(title_src)
-        if tl and tr:
-            k5 = f"{normalize_text(tl)}-{normalize_text(tr)}"
-            k6 = f"{normalize_text(tr)}-{normalize_text(tl)}"
-            if k5 in y_idx: return y_idx[k5]
-            if k6 in y_idx: return y_idx[k6]
-
-    return None
-
 # ==== الرئيسي ====
 def filter_matches():
-    # 0) اقرأ liveonsat
-    try:
-        with INPUT_PATH.open("r", encoding="utf-8") as f:
-            live_data = json.load(f)
-    except Exception as e:
-        print(f"[x] ERROR reading liveonsat: {e}")
-        return
-
-    live_entries = build_live_entries(live_data)
-
-    # 1) حمّل يلا شوت
+    # 1) اقرأ يلا شوت (مصدر أساسي)
     try:
         yresp = requests.get(YALLASHOOT_URL, timeout=25)
         yresp.raise_for_status()
         yalla = yresp.json()
     except Exception as e:
         print(f"[x] ERROR fetching yallashoot: {e}")
-        yalla = {"matches": []}
+        return
 
-    y_idx = build_yalla_index(yalla)
+    y_matches = (yalla or {}).get("matches", []) or []
 
-    # 2) تقاطع + دمج
+    # 2) اقرأ liveonsat لالتقاط القنوات الإضافية (المسموحة فقط)
+    try:
+        with INPUT_PATH_LIVE.open("r", encoding="utf-8") as f:
+            live_data = json.load(f)
+    except Exception as e:
+        print(f"[!] WARN: cannot read liveonsat file: {e}")
+        live_data = {"matches": []}
+
+    live_idx = build_live_index(live_data)
+
+    # 3) دمج: لكل مباراة من يلا شوت، نبحث عن المطابقة بالـ live لنفس المباراة
     out_matches = []
-    matched_cnt = 0
-    for le in live_entries:
-        m_y = match_live_to_yalla(le, y_idx)
-        if not m_y:
-            continue
-        matched_cnt += 1
-
-        y_match = m_y["match"]
-        primary_disp = m_y.get("primary_disp")  # قد تكون Starzplay أو beIN أو غيرها
-
-        # ✅ تحسين beIN: لو primary من يلا هي beIN عامة، ولدينا من live نسخة MENA مرقّمة نفضلها
-        if primary_disp and is_bein_channel(primary_disp):
-            if le.get("bein_mena"):
-                primary_disp = le["bein_mena"][0]
-
+    matched_extra = 0
+    for m in y_matches:
+        # قناة يلا الأساسية
+        y_chs = collect_yalla_channels(m)
+        primary = pick_primary_yalla_channel(y_chs)
         merged = []
-        if primary_disp and "starzplay" in primary_disp.lower():
-            merged.append(primary_disp)
-        else:
-            if primary_disp and is_bein_channel(primary_disp):
-                merged.append(primary_disp)
-            else:
-                if le.get("bein_mena"):
-                    merged.append(le["bein_mena"][0])
+        if primary:
+            merged.append(clean_channel_display(primary))
 
-        merged.extend(le["channels"])
+        # ابحث عن live match مطابق
+        best_live = None
+        for li in live_idx:
+            if likely_same_match(m, li):
+                best_live = li
+                break
+
+        # لو لقينا live مطابق، أضف القنوات المسموحة فقط (موجودة داخل li["channels_allowed"])
+        if best_live and best_live["channels_allowed"]:
+            merged.extend(best_live["channels_allowed"])
+            matched_extra += 1
+
+        # dedupe + ترتيب نهائي
         merged = dedupe_channels_preserve_order(merged)
 
         out = {
-            "competition": y_match.get("competition") or le["competition"],
-            "kickoff_baghdad": y_match.get("kickoff_baghdad") or le["kickoff_baghdad"],
-            "home_team": en_to_ar(le["home_en"]) if en_to_ar(le["home_en"]) else le["home_en"],
-            "away_team": en_to_ar(le["away_en"]) if en_to_ar(le["away_en"]) else le["away_en"],
+            "competition": m.get("competition") or "",
+            "kickoff_baghdad": m.get("kickoff_baghdad") or m.get("time_baghdad") or m.get("kickoff") or "",
+            "home_team": (m.get("home") or m.get("home_team") or "").strip(),
+            "away_team": (m.get("away") or m.get("away_team") or "").strip(),
             "channels_raw": merged,
-            "home_logo": y_match.get("home_logo"),
-            "away_logo": y_match.get("away_logo"),
-            "status_text": y_match.get("status_text"),
-            "result_text": y_match.get("result_text"),
+            "home_logo": m.get("home_logo"),
+            "away_logo": m.get("away_logo"),
+            "status_text": m.get("status_text"),
+            "result_text": m.get("result_text"),
         }
         out_matches.append(out)
 
-    # 3) كتابة المخرجات
+    # 4) كتابة الناتج
     output = {
-        "date": live_data.get("date") or yalla.get("date"),
-        "source_url": live_data.get("source_url") or "liveonsat + yallashoot",
+        "date": yalla.get("date"),
+        "source_url": "yallashoot (primary) + liveonsat (extra whitelisted channels)",
         "matches": out_matches
     }
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"[✓] Done. live entries: {len(live_entries)} | matched with yalla: {matched_cnt} | written: {len(out_matches)}")
+    print(f"[✓] Done. yalla: {len(y_matches)} | matched extra channels from live: {matched_extra} | written: {len(out_matches)}")
 
 if __name__ == "__main__":
     filter_matches()
