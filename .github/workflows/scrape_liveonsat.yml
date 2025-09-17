@@ -13,7 +13,7 @@ permissions:
 # 🧊 منع التداخل بين التشغيلات المتقاربة
 concurrency:
   group: filter-and-translate
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   filter-and-translate:
