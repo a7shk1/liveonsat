@@ -46,6 +46,20 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "19:45",
+      "home_team": "سلافيا براغ",
+      "away_team": "???",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "DAZN 2 Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1789.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0--"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "19:45",
       "home_team": "أولمبياكوس",
       "away_team": "أيه.أي. بافوس",
       "channels_raw": [
@@ -57,20 +71,6 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2273.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "19:45",
-      "home_team": "سلافيا براغ",
-      "away_team": "???",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "DAZN 2 Portugal HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1789.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0--"
     },
     {
       "competition": "مصر, الدوري المصري",
@@ -125,6 +125,22 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16941.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8275.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "الرجاء البيضاوي",
+      "away_team": "الجيش الملكي",
+      "channels_raw": [
+        "الرياضية المغربية",
+        "DAZN 3 Portugal HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/451.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -186,22 +202,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/152.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "الرجاء البيضاوي",
-      "away_team": "الجيش الملكي",
-      "channels_raw": [
-        "الرياضية المغربية",
-        "DAZN 3 Portugal HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/451.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     }
