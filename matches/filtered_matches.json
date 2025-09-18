@@ -35,21 +35,6 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "19:45",
-      "home_team": "كوبنهاجن",
-      "away_team": "باير ليفركوزن",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 2 Portugal HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1824.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "19:45",
       "home_team": "كلوب بروج",
       "away_team": "موناكو",
       "channels_raw": [
@@ -59,6 +44,21 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1169.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "19:45",
+      "home_team": "كوبنهاجن",
+      "away_team": "باير ليفركوزن",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 2 Portugal HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1824.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -95,38 +95,6 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "برشلونة",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 2 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "سبورتنج لشبونة",
-      "away_team": "كايرات ألماتي",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/890.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10564.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
       "home_team": "آينتراخت فرانكفورت",
       "away_team": "غلطة سراي",
       "channels_raw": [
@@ -156,6 +124,38 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "برشلونة",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "DAZN 2 Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "سبورتنج لشبونة",
+      "away_team": "كايرات ألماتي",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/890.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10564.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     }
