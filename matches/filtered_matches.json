@@ -39,8 +39,7 @@
       "away_team": "باير ليفركوزن",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB Varzesh HD"
+        "DAZN 2 Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1824.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
@@ -54,8 +53,7 @@
       "away_team": "موناكو",
       "channels_raw": [
         "beIN Sports HD",
-        "DAZN 1 Portugal HD",
-        "IRIB Varzesh HD"
+        "DAZN 2 Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1169.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
@@ -69,8 +67,7 @@
       "away_team": "كهرباء الاسماعيلية",
       "channels_raw": [
         "أون سبورت 2",
-        "DAZN 1 Portugal HD",
-        "IRIB Varzesh HD"
+        "DAZN 2 Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
@@ -84,11 +81,26 @@
       "away_team": "زد",
       "channels_raw": [
         "أون سبورت 1",
-        "DAZN 1 Portugal HD",
-        "IRIB Varzesh HD"
+        "DAZN 2 Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1683.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "مانشستر سيتي",
+      "away_team": "نابولي",
+      "channels_raw": [
+        "beIN Sports HD",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -100,7 +112,8 @@
       "channels_raw": [
         "beIN Sports 1 HD",
         "DAZN 2 Portugal HD",
-        "Football HD"
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
@@ -113,11 +126,7 @@
       "home_team": "سبورتنج لشبونة",
       "away_team": "كايرات ألماتي",
       "channels_raw": [
-        "beIN Sports 4 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "TNT Sports 2 HD"
+        "beIN Sports 4 HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/890.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10564.png",
@@ -131,30 +140,11 @@
       "away_team": "غلطة سراي",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "DAZN 3 Portugal HD",
-        "IRIB TV3 HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "DAZN 1 Portugal HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/196.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "مانشستر سيتي",
-      "away_team": "نابولي",
-      "channels_raw": [
-        "beIN Sports HD",
-        "DAZN 3 Portugal HD",
-        "IRIB TV3 HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     }
