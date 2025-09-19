@@ -3,23 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الأهلي",
-      "away_team": "الهلال",
-      "channels_raw": [
-        "ثمانية 1",
-        "Persiana Sport HD",
-        "Shahid MBC",
-        "Thmanyah 1",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "21:30",
       "home_team": "شتوتجارت",
@@ -133,6 +116,23 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الأهلي",
+      "away_team": "الهلال",
+      "channels_raw": [
+        "ثمانية 1",
+        "Persiana Sport HD",
+        "Shahid MBC",
+        "Thmanyah 1",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
