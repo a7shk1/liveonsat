@@ -33,6 +33,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Echo start (sanity log)
+        run: |
+          echo "Workflow started. DRY_RUN=${DRY_RUN}"
+
       - name: Verify Firebase secret presence (no content shown)
         run: |
           if [ -z "${FCM_SERVICE_ACCOUNT}" ]; then
