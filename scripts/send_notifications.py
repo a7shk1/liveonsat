@@ -3,7 +3,6 @@
 import json
 import os
 import re
-import time
 from pathlib import Path
 from datetime import datetime, date, timezone
 
@@ -29,22 +28,45 @@ API_TIMEOUT = 20  # ثواني
 
 # ===== تهيئة Firebase Admin =====
 def init_firebase():
-    """يهيئ Firebase باستخدام GOOGLE_APPLICATION_CREDENTIALS أو ملف fallback."""
+    """
+    يهيئ Firebase باستخدام واحد من التالي (بالترتيب):
+    1) متغيّر البيئة FCM_SERVICE_ACCOUNT: النص الكامل لمفتاح الخدمة JSON.
+    2) GOOGLE_APPLICATION_CREDENTIALS: مسار ملف JSON على الدسك.
+    3) ملف fallback داخل الريبو: serviceAccountKey.json
+    """
     if firebase_admin._apps:
         return
 
+    # 1) من متغيّر البيئة (JSON مباشرةً)
+    env_json = os.environ.get("FCM_SERVICE_ACCOUNT")
+    if env_json:
+        try:
+            payload = json.loads(env_json)
+            cred = credentials.Certificate(payload)
+            firebase_admin.initialize_app(cred)
+            print("🔥 Firebase initialized from FCM_SERVICE_ACCOUNT env.")
+            return
+        except Exception as e:
+            print(f"⚠️ فشل تهيئة Firebase من FCM_SERVICE_ACCOUNT: {e}")
+
+    # 2) من مسار ملف (GOOGLE_APPLICATION_CREDENTIALS)
     gac = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
     if gac and Path(gac).exists() and Path(gac).stat().st_size > 0:
         print(f"✅ Using GOOGLE_APPLICATION_CREDENTIALS -> {gac}")
         cred = credentials.Certificate(gac)
-    elif SERVICE_KEY_PATH.exists() and SERVICE_KEY_PATH.stat().st_size > 0:
+        firebase_admin.initialize_app(cred)
+        print("🔥 Firebase initialized.")
+        return
+
+    # 3) من ملف داخل الريبو
+    if SERVICE_KEY_PATH.exists() and SERVICE_KEY_PATH.stat().st_size > 0:
         print(f"✅ Using repo key -> {SERVICE_KEY_PATH}")
         cred = credentials.Certificate(str(SERVICE_KEY_PATH))
-    else:
-        raise RuntimeError("❌ No Firebase service account found")
+        firebase_admin.initialize_app(cred)
+        print("🔥 Firebase initialized.")
+        return
 
-    firebase_admin.initialize_app(cred)
-    print("🔥 Firebase initialized.")
+    raise RuntimeError("❌ No Firebase service account found")
 
 # ===== أدوات مساعدة =====
 # يلتقط: مباشر / لايف / جاري(ة) الان/الآن / الشوط الأول/الثاني / دقائق مثل 12' أو 45'+2
@@ -74,7 +96,6 @@ def load_json(path: Path, default):
 def save_json(path: Path, data):
     try:
         path.parent.mkdir(parents=True, exist_ok=True)
-        # كتابة آمنة: tmp ثم rename
         tmp = path.with_suffix(path.suffix + ".tmp")
         tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         tmp.replace(path)
