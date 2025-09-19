@@ -1,97 +1,67 @@
-name: 3. Send Live Match Notifications
+name: Send Live Match Notifications
 
 on:
+  schedule:
+    # GitHub Actions ما يدعم أقل من 5 دقائق
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
-      send_now:
-        description: "Seed a LIVE match and send via topic"
+      dry_run:
+        description: "Run without sending (DRY_RUN=1)?"
         required: false
         default: "false"
-      device_token:
-        description: "FCM device token (اختياري) لإرسال اختبار مباشر"
-        required: false
-        default: ""
-  schedule:
-    - cron: "*/5 * * * *"
-    - cron: "2-59/5 * * * *"
+        type: choice
+        options: ["false", "true"]
 
 permissions:
-  contents: write
+  contents: write   # حتى نكدر نعمل commit لـ matches/notified.json
 
 concurrency:
   group: send-notifications
-  cancel-in-progress: false   # ✅ منع إلغاء الـ job السابق
+  cancel-in-progress: true
 
 jobs:
-  send:
+  notify:
     runs-on: ubuntu-latest
+    env:
+      # DRY_RUN بالجدولة يكون false افتراضياً، وبالتشغيل اليدوي يعتمد على الإدخال
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == 'true' && '1' || '0' }}
+      FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+      TEST_DEVICE_TOKEN: ${{ secrets.TEST_DEVICE_TOKEN }} # اختياري
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/serviceAccountKey.json
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Write Firebase service key
-        shell: bash
-        env:
-          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
-        run: |
-          set -euo pipefail
-          if [ -z "${FCM_SERVICE_ACCOUNT:-}" ]; then
-            echo "Secret FCM_SERVICE_ACCOUNT is missing" >&2
-            exit 1
-          fi
-          printf "%s" "$FCM_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase.json"
-          test -s "$RUNNER_TEMP/firebase.json"
-          jq type "$RUNNER_TEMP/firebase.json" >/dev/null
-          ls -l "$RUNNER_TEMP/firebase.json"
-
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-        shell: bash
         run: |
-          set -euo pipefail
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            grep -viE '^(importlib|importlib2)\s*($|[=<>~])' requirements.txt > /tmp/req.txt || true
-            pip install -r /tmp/req.txt
-          fi
-          python -c "import pkgutil,sys; sys.exit(0 if pkgutil.find_loader('firebase_admin') else 1)" || pip install firebase-admin
-          pip show firebase-admin || true
+          pip install firebase-admin
 
-      - name: Seed a LIVE match (only when send_now=true)
-        if: ${{ github.event.inputs.send_now == 'true' }}
-        shell: bash
+      - name: Write Firebase service account key
+        # خزّن JSON الكامل لمفتاح الخدمة في Secret باسم FIREBASE_SERVICE_ACCOUNT_JSON
         run: |
-          mkdir -p matches
-          cat > matches/filtered_matches.json <<'JSON'
-          {
-            "date": "$(date -u +%F)",
-            "matches": [
-              {
-                "home_team": "Real Madrid",
-                "away_team": "Barcelona",
-                "status_text": "LIVE",
-                "competition": "La Liga",
-                "kickoff_baghdad": "$(date -u +%H:%M) UTC"
-              }
-            ]
-          }
-          JSON
-          cat matches/filtered_matches.json
+          printf '%s' "${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}" > "${GOOGLE_APPLICATION_CREDENTIALS}"
 
-      - name: Send notifications for LIVE matches
-        env:
-          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase.json
-          TEST_DEVICE_TOKEN: ${{ github.event.inputs.device_token }}
-        run: python scripts/send_notifications.py
+      - name: Run notifier (direct API -> FCM)
+        run: |
+          python scripts/send_notifications.py
 
-      - name: Commit & push notified state
-        if: always()
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "🔔 chore: update notified live matches state"
-          file_pattern: "matches/notified.json"
+      - name: Commit & push notified.json if changed
+        if: env.DRY_RUN == '0'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add matches/notified.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update notified.json [skip ci]"
+            git push
+          else
+            echo "No changes to notified.json"
+          fi
