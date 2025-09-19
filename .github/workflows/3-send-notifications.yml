@@ -2,8 +2,7 @@ name: Send Live Match Notifications
 
 on:
   schedule:
-    # GitHub Actions ما يدعم أقل من 5 دقائق
-    - cron: "*/5 * * * *"
+    - cron: "*/5 * * * *"   # كل 5 دقائق
   workflow_dispatch:
     inputs:
       dry_run:
@@ -14,7 +13,7 @@ on:
         options: ["false", "true"]
 
 permissions:
-  contents: write   # حتى نكدر نعمل commit لـ matches/notified.json
+  contents: write   # حتى نعمل commit لـ matches/notified.json عند الحاجة
 
 concurrency:
   group: send-notifications
@@ -24,15 +23,25 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     env:
-      # DRY_RUN بالجدولة يكون false افتراضياً، وبالتشغيل اليدوي يعتمد على الإدخال
+      # DRY_RUN: بالـ dispatch يمشي حسب الإدخال، وبالجدولة يصير 0 افتراضيًا
       DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == 'true' && '1' || '0' }}
       FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-      TEST_DEVICE_TOKEN: ${{ secrets.TEST_DEVICE_TOKEN }} # اختياري
-      GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/serviceAccountKey.json
+      TEST_DEVICE_TOKEN: ${{ secrets.TEST_DEVICE_TOKEN }}
+      # سر مفتاح الخدمة — JSON كامل
+      FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+        # ما نحتاج نكتب ملف مفتاح؛ السكربت يقرأه من env: FCM_SERVICE_ACCOUNT
+      - name: Verify Firebase secret presence (no content shown)
+        run: |
+          if [ -z "${FCM_SERVICE_ACCOUNT}" ]; then
+            echo "❌ Secret FCM_SERVICE_ACCOUNT is missing."
+            exit 1
+          fi
+          echo "✅ Secret FCM_SERVICE_ACCOUNT is set."
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,11 +52,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install firebase-admin
-
-      - name: Write Firebase service account key
-        # خزّن JSON الكامل لمفتاح الخدمة في Secret باسم FIREBASE_SERVICE_ACCOUNT_JSON
-        run: |
-          printf '%s' "${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}" > "${GOOGLE_APPLICATION_CREDENTIALS}"
 
       - name: Run notifier (direct API -> FCM)
         run: |
