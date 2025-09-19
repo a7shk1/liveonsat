@@ -5,16 +5,27 @@ import os
 import re
 import time
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, date, timezone
 
 import firebase_admin
 from firebase_admin import credentials, messaging
 
+# ===== إعداد المنطقة الزمنية لبغداد =====
+try:
+    from zoneinfo import ZoneInfo  # Python 3.9+
+    TZ_BAGHDAD = ZoneInfo("Asia/Baghdad")
+except Exception:
+    TZ_BAGHDAD = timezone.utc  # fallback بسيط
+
 # ===== إعدادات الملفات =====
 REPO_ROOT = Path(__file__).resolve().parents[1]
-MATCHES_JSON = REPO_ROOT / "matches" / "filtered_matches.json"
 NOTIFIED_JSON = REPO_ROOT / "matches" / "notified.json"
 SERVICE_KEY_PATH = REPO_ROOT / "serviceAccountKey.json"  # fallback لو موجود داخل الريبو
+
+# ===== إعدادات Football API (بدون JSON وسيط) =====
+API_BASE = "https://api.football-data.org/v4"
+API_TOKEN = os.environ.get("FOOTBALL_DATA_TOKEN") or "d520ab265b61437697348dedc08a552a"  # fallback منّك
+API_TIMEOUT = 20  # ثواني
 
 # ===== تهيئة Firebase Admin =====
 def init_firebase():
@@ -63,13 +74,76 @@ def load_json(path: Path, default):
 def save_json(path: Path, data):
     try:
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        # كتابة آمنة: tmp ثم rename
+        tmp = path.with_suffix(path.suffix + ".tmp")
+        tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        tmp.replace(path)
     except Exception as e:
         print(f"⚠️  فشل حفظ {path}: {e}")
 
 def match_key(date_str: str, home: str, away: str, comp: str, kickoff: str) -> str:
     """مفتاح فريد لعدم تكرار الإرسال لنفس المباراة في نفس اليوم/الحدث."""
     return "|".join([date_str, norm(home), norm(away), norm(comp), norm(kickoff)])
+
+# ===== جلب المباريات مباشرة من الـ API =====
+def http_get(url: str) -> dict:
+    import urllib.request, urllib.error
+    if not API_TOKEN:
+        raise RuntimeError("❌ FOOTBALL_DATA_TOKEN غير موجود")
+    req = urllib.request.Request(url, headers={"X-Auth-Token": API_TOKEN})
+    try:
+        with urllib.request.urlopen(req, timeout=API_TIMEOUT) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "ignore")
+        raise RuntimeError(f"HTTPError {e.code}: {body}") from None
+
+def to_hm_pairs(utc_iso: str) -> tuple[str, str]:
+    """يرجع ('HH:MM UTC', 'HH:MM' بتوقيت بغداد)."""
+    if not utc_iso:
+        return "", ""
+    dt_utc = datetime.fromisoformat(utc_iso.replace("Z", "+00:00")).astimezone(timezone.utc)
+    try:
+        dt_bg = dt_utc.astimezone(TZ_BAGHDAD)
+    except Exception:
+        dt_bg = dt_utc
+    return dt_utc.strftime("%H:%M UTC"), dt_bg.strftime("%H:%M")
+
+def map_status_for_regex(s: str) -> str:
+    """تحويل حالات مزود البيانات إلى نص يلتقطه regex الحالي."""
+    s = (s or "").upper()
+    if s in ("IN_PLAY", "PAUSED", "LIVE"):
+        return "LIVE"
+    if s in ("FINISHED", "AWARDED", "POSTPONED", "SUSPENDED", "CANCELLED"):
+        return s.title()
+    return "Scheduled"
+
+def fetch_matches_live():
+    """
+    يرجّع نفس الـ schema اللي السكربت القديم يتوقعه:
+      { "date": "YYYY-MM-DD", "matches": [ {home_team, away_team, competition, status_text, kickoff, kickoff_baghdad} ] }
+    لكن مباشرة من API بدون JSON وسيط.
+    """
+    today = date.today().isoformat()
+    url = f"{API_BASE}/matches?dateFrom={today}&dateTo={today}"
+    payload = http_get(url)
+    out_matches = []
+    for m in (payload.get("matches") or []):
+        home = (m.get("homeTeam") or {}).get("name") or ""
+        away = (m.get("awayTeam") or {}).get("name") or ""
+        comp = (m.get("competition") or {}).get("name") or ""
+        status_text = map_status_for_regex(m.get("status"))
+        utc_iso = m.get("utcDate")
+        kickoff_utc, kickoff_bg = to_hm_pairs(utc_iso) if utc_iso else ("", "")
+        out_matches.append({
+            "home_team": home,
+            "away_team": away,
+            "competition": comp,
+            "status_text": status_text,
+            "kickoff": kickoff_utc,
+            "kickoff_baghdad": kickoff_bg
+        })
+    return {"date": today, "matches": out_matches}
 
 # ===== إرسال إشعار =====
 def send_topic_notification(title: str, body: str, topic: str = "matches", dry: bool = False):
@@ -120,8 +194,14 @@ def main():
         except Exception as e:
             print(f"⚠️ فشل إرسال/اشتراك التوكن: {e}")
 
-    # 3) قراءة المباريات
-    data = load_json(MATCHES_JSON, {"date": "", "matches": []})
+    # 3) جلب المباريات لايف مباشرة من الـ API (بدون JSON وسيط)
+    try:
+        data = fetch_matches_live()
+    except Exception as e:
+        print(f"❌ فشل جلب المباريات من الـ API: {e}")
+        print("ℹ️ لن يتم إرسال إشعارات في هذه الدورة.")
+        return
+
     date_str = data.get("date") or datetime.utcnow().date().isoformat()
     matches = data.get("matches") or []
 
