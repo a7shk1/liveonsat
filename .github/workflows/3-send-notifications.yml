@@ -23,18 +23,16 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     env:
-      # DRY_RUN: بالـ dispatch يمشي حسب الإدخال، وبالجدولة يصير 0 افتراضيًا
+      # بالـ dispatch يمشي حسب الإدخال، وبالجدولة يصير 0 افتراضيًا
       DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == 'true' && '1' || '0' }}
       FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-      TEST_DEVICE_TOKEN: ${{ secrets.TEST_DEVICE_TOKEN }}
-      # سر مفتاح الخدمة — JSON كامل
-      FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
+      TEST_DEVICE_TOKEN: ${{ secrets.TEST_DEVICE_TOKEN }}   # اختياري
+      FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}  # JSON كامل
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-        # ما نحتاج نكتب ملف مفتاح؛ السكربت يقرأه من env: FCM_SERVICE_ACCOUNT
       - name: Verify Firebase secret presence (no content shown)
         run: |
           if [ -z "${FCM_SERVICE_ACCOUNT}" ]; then
