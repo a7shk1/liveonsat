@@ -13,7 +13,7 @@ on:
         options: ["false", "true"]
 
 permissions:
-  contents: write   # حتى نعمل commit لـ matches/notified.json عند الحاجة
+  contents: write   # للسماح بتحديث matches/notified.json
 
 concurrency:
   group: send-notifications
@@ -27,7 +27,7 @@ jobs:
       DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == 'true' && '1' || '0' }}
       FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
       TEST_DEVICE_TOKEN: ${{ secrets.TEST_DEVICE_TOKEN }}   # اختياري
-      FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}  # JSON كامل
+      FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}  # JSON كامل لمفتاح الخدمة
 
     steps:
       - name: Checkout
