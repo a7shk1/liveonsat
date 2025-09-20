@@ -3,20 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "بريست",
-      "away_team": "نيس",
-      "channels_raw": [
-        "beIN Sports 8 HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/534.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "21:00",
       "home_team": "النصر",
@@ -28,7 +14,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/181.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "4-1"
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -61,7 +47,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -78,7 +64,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1920.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -91,8 +77,8 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0"
+      "status_text": "جارية الان",
+      "result_text": "1-0"
     },
     {
       "competition": "إنجلترا, تشامبيونشيب",
@@ -304,7 +290,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/24240.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "0-1"
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -373,6 +359,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/168.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "20:00",
+      "home_team": "بريست",
+      "away_team": "نيس",
+      "channels_raw": [
+        "beIN Sports 8 HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/534.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
