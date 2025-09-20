@@ -465,7 +465,9 @@
         "Arena Sport 4 Hrvatska HD",
         "Astro Football HD",
         "beIN Connect FRANCE 📺",
+        "beIN Connect MENA HD 📺",
         "beIN Sports France 10 HD max",
+        "beIN Sports MENA 4 HD",
         "CBS Sports Golazo N/W (geo/R) 📺",
         "Cosmote Sport 1 HD",
         "DAZN Japan ($/geo/R)",
@@ -513,6 +515,7 @@
         "beIN Sports MENA 4K UHD",
         "beIN Sports MENA English 1 HD",
         "beIN Sports Türkiye 3 HD",
+        "Canal+ Extra 1 Polska HD",
         "Canal+ Foot HD",
         "Canal+ France HD",
         "Canal+ Live 7 France HD",
@@ -536,6 +539,7 @@
         "Hub Premier 1 HD ($/geo/R) 📺",
         "Hub Premier 2 HD ($/geo/R) 📺",
         "IRIB Varzesh HD",
+        "Meraj TV",
         "Monomax Streaming ($/geo/R) 📺",
         "NBC Universo USA",
         "Nova Sports Premier League HD",
@@ -551,6 +555,7 @@
         "Sky Sport 8 NZ HD",
         "Sky Sport Calcio HD",
         "Sky Sport Premier League DE HD",
+        "Solh TV",
         "Sport 1 Israel HD",
         "Spíler 1 TV Hungary HD",
         "Stan Sport Australia ($/geo/R) 📺",
@@ -736,6 +741,8 @@
         "Arena Sport 3 Hrvatska HD",
         "ART Motion Sport 3 HD 📺",
         "Azam Sports 4 HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 3 HD",
         "Blue Sport 1 Live HD",
         "DAZN 2 Portugal HD",
         "DAZN Belgium ($/geo/R) 📺",
@@ -1150,6 +1157,14 @@
       ]
     },
     {
+      "competition": "CAF African Confederation Cup - Qualifier",
+      "title": "Flambeau du Centre v Al Akhdar",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Wasat TV HD"
+      ]
+    },
+    {
       "competition": "Czech First League - Week 9",
       "title": "Sigma Olomouc v Teplice",
       "kickoff_baghdad": "16:00",
@@ -1163,7 +1178,8 @@
       "kickoff_baghdad": "16:00",
       "channels_raw": [
         "Sky Go Italy [online]",
-        "Sky Sport 251 Italia HD"
+        "Sky Sport 251 Italia HD",
+        "Sky Sport Arena Italia HD"
       ]
     },
     {
@@ -1217,6 +1233,14 @@
       "kickoff_baghdad": "16:00",
       "channels_raw": [
         "SABC 1 HD"
+      ]
+    },
+    {
+      "competition": "Kosovo Liga e Parë",
+      "title": "Feronikeli v Tefik Canga",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "ART Motion Sport 1 HD 📺"
       ]
     },
     {
@@ -1375,7 +1399,16 @@
       "title": "Al Ain v Khor Fakkan",
       "kickoff_baghdad": "16:30",
       "channels_raw": [
+        "Abu Dhabi Sports 1 HD 📺",
         "Thriller TV+ [online] ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "UAE Pro League - Week 4",
+      "title": "Dibba Al Fujairah v Kalba",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "Abu Dhabi Sports 2 HD 📺"
       ]
     },
     {
@@ -1429,6 +1462,7 @@
         "beIN Connect Türkiye 📺",
         "beIN Sports MENA 6 HD",
         "beIN Sports Türkiye 5 HD",
+        "Canal+ Extra 3 Polska HD",
         "Canal+ Live 9 France HD",
         "Canal+ Sport 7 Czech HD 📺",
         "Cytavision Sports 5 HD",
@@ -1481,6 +1515,7 @@
         "beIN Connect MENA HD 📺",
         "beIN Connect Türkiye 📺",
         "beIN Sports MENA 8 HD",
+        "Canal+ Extra 5 Polska HD",
         "Canal+ Live 10 France HD",
         "Canal+ Sport 8 Czech HD 📺",
         "Cytavision Sports 4 HD",
@@ -1495,6 +1530,7 @@
         "Peacock Premium USA ($/geo/R)",
         "Play Sports 3 Belgium",
         "Premier Sports 4 Mongolia HD",
+        "Sky Sport 257 Italia HD",
         "Sky Sport 7 NZ HD",
         "Stan Sport Australia ($/geo/R) 📺",
         "SuperSport 3 Albania HD",
@@ -1529,13 +1565,13 @@
         "beIN Sports MENA 5 HD",
         "beIN Sports MENA English 1 HD",
         "beIN Sports Türkiye 3 HD",
+        "Canal+ Extra 1 Polska HD",
         "Canal+ Live 8 France HD",
         "Canal+ Sport 1 Czech HD 📺",
         "Canal+ Sport 4 Afrique HD",
         "CRTV Sports Cameroon",
         "Cytavision Sports 3 HD",
         "Cytavision Sports PPV 3 HD",
-        "DAZN 1 Bar Deutsch HD",
         "DAZN 1 Espana HD",
         "DAZN 1 Portugal HD",
         "DAZN España ($/geo/R)",
@@ -1597,7 +1633,10 @@
         "Arena Sport 5 Srbija HD",
         "Astro Premier League 2 HD",
         "beIN Connect MENA 📺",
+        "beIN Connect MENA HD 📺",
         "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 2 HD",
+        "Canal+ Extra 6 Polska HD",
         "Canal+ Live 11 France HD",
         "Canal+ Sport 6 Czech HD 📺",
         "Cytavision Sports 6 HD",
@@ -1612,6 +1651,7 @@
         "Nova Sport Bulgaria HD",
         "Nova Sports 5 Hellas HD",
         "Peacock Premium USA ($/geo/R)",
+        "Sky Sport 258 Italia HD",
         "Sky Sport Select NZ HD",
         "Sport 1 Israel HD",
         "Stan Sport Australia ($/geo/R) 📺",
@@ -1892,6 +1932,7 @@
         "Cosmote Sport 6 HD",
         "DAZN Japan ($/geo/R)",
         "Paramount+ USA ($/geo/R)",
+        "SuperSport ESPN HD",
         "TSN Malta 8 HD",
         "V Sport 2 Norge HD",
         "ViaPlay Danmark HD",
@@ -2009,6 +2050,14 @@
       ]
     },
     {
+      "competition": "Scottish Championship - Week 7",
+      "title": "Arbroath v Greenock Morton",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Arbroath FC TV [$] 📺"
+      ]
+    },
+    {
       "competition": "Spanish La Liga (Primera) - Week 5",
       "title": "Real Madrid v Espanyol",
       "kickoff_baghdad": "17:15",
@@ -2035,6 +2084,7 @@
         "DAZN Japan ($/geo/R)",
         "DAZN Portugal ($/geo/R)",
         "DAZN USA en Español ($/geo/R)",
+        "Digi 4K UHD",
         "Digi Sport 2 Romania HD",
         "ESPN 1 Brazil HD",
         "ESPN Deportes",
@@ -2054,6 +2104,7 @@
         "MATCH! Russia HD",
         "MAX Sport 4 Bulgaria HD",
         "Megogo Futbol 1 ($/geo/R) 📺",
+        "Meraj TV",
         "MTV Katsomon+ ($/geo/R) 📺",
         "MTV Urheilu 1 Suomi HD",
         "New World Sport 3 Togo",
@@ -2066,6 +2117,7 @@
         "PrimaPlay [app] 📺",
         "S Sport 1 Türkiye HD",
         "S Sport+ Streaming",
+        "Silk Sport 1 HD",
         "Spíler 2 TV Hungary HD",
         "ST Sports Premium HD",
         "SuperSport 1 Albania HD",
@@ -2083,7 +2135,8 @@
         "TV4 Sport Live 1 HD",
         "ViaPlay Norge HD",
         "Z Sports LaLiga Angola",
-        "Ziggo Sport HD"
+        "Ziggo Sport HD",
+        "Zor TV Uzbekistan"
       ]
     },
     {
@@ -2138,7 +2191,8 @@
       "title": "AS Gabès v CS Sfaxien",
       "kickoff_baghdad": "17:30",
       "channels_raw": [
-        "Diwan Sport ($/geo/R) 📺"
+        "Diwan Sport ($/geo/R) 📺",
+        "Watania 1 HD"
       ]
     },
     {
@@ -2146,7 +2200,8 @@
       "title": "JS Kairouan v ES Zarzis",
       "kickoff_baghdad": "17:30",
       "channels_raw": [
-        "Diwan Sport ($/geo/R) 📺"
+        "Diwan Sport ($/geo/R) 📺",
+        "Watania 2 HD"
       ]
     },
     {
@@ -2178,6 +2233,7 @@
         "beIN Connect MENA HD 📺",
         "beIN Connect Türkiye 📺",
         "beIN Sports France 1 HD",
+        "beIN Sports MENA 4 HD",
         "beIN Sports MENA French 1 HD",
         "beIN Sports Türkiye 4 HD",
         "Cablenet Sports 2 HD",
@@ -2287,7 +2343,7 @@
       "title": "Espérance ST v Olympique Béjà",
       "kickoff_baghdad": "18:00",
       "channels_raw": [
-        "Diwan Sport ($/geo/R) 📺"
+        "** POSTPONED **"
       ]
     },
     {
@@ -2305,6 +2361,23 @@
       "kickoff_baghdad": "18:00",
       "channels_raw": [
         "SABC 2 HD"
+      ]
+    },
+    {
+      "competition": "Algerian Ligue 1 - Week 5",
+      "title": "USM Khenchela v ES Ben Aknoun",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "Algérie 4 HD",
+        "ENTV Algérie HD"
+      ]
+    },
+    {
+      "competition": "Moroccan Botola 1 - Week 2",
+      "title": "Hassania Agadir v Maghreb Fès",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "Arryadia HD (RTM 3) 📺"
       ]
     },
     {
@@ -2723,6 +2796,7 @@
       "title": "Al Nasr v Shabab Al Ahli",
       "kickoff_baghdad": "19:15",
       "channels_raw": [
+        "Abu Dhabi Sports 1 HD 📺",
         "Dubai Sports 1 HD 📺",
         "Dubai Sports 3 📺",
         "Thriller TV+ [online] ($/geo/R) 📺"
@@ -2743,9 +2817,11 @@
         "beIN Connect MENA 📺",
         "beIN Connect MENA HD 📺",
         "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 1 HD",
         "beIN Sports MENA 4K UHD",
         "beIN Sports MENA English 1 HD",
         "beIN Sports Türkiye 3 HD",
+        "Canal+ Extra 1 Polska HD",
         "Canal+ Foot HD",
         "Canal+ Live 7 France HD",
         "Canal+ Sport 1 Czech HD 📺",
@@ -2769,6 +2845,7 @@
         "Idman TV HD",
         "IRIB Varzesh HD",
         "Match 4 Hungary HD",
+        "Meraj TV",
         "Monomax Streaming ($/geo/R) 📺",
         "NBC Universo USA",
         "Net4+ Sport ($/geo/R) 📺",
@@ -2788,6 +2865,7 @@
         "Sky Sports Main Event UHD",
         "Sky Sports Premier League HD",
         "Sky UK Ultra HD 1",
+        "Solh TV",
         "Sport 1 Israel HD",
         "Stan Sport Australia ($/geo/R) 📺",
         "SuperSport 2 Albania HD",
@@ -2818,7 +2896,7 @@
       "channels_raw": [
         "Arena 4 Hungary HD",
         "Arena Sport 5 Srbija HD",
-        "Azam Sports 2 HD",
+        "Azam Sports 4 HD",
         "beIN Sports 3 HD (Astro)",
         "Canal+ Sport 1 Afrique HD",
         "CRTV Sports Cameroon",
@@ -2889,6 +2967,7 @@
         "Arena Sport 9 Hrvatska HD",
         "ART Motion Sport 4 HD 📺",
         "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 3 HD",
         "beIN Sports MENA English 2 HD",
         "Blue Sport 3 Live HD",
         "DAZN 3 Portugal HD",
@@ -2969,6 +3048,7 @@
         "DAZN LaLiga HD",
         "DAZN Portugal ($/geo/R)",
         "DAZN USA en Español ($/geo/R)",
+        "Digi 4K UHD",
         "Digi Sport 4 Romania",
         "Eleven Sports 4 Polska HD",
         "ESPN+ USA ($/geo/R)",
@@ -3169,6 +3249,7 @@
       "kickoff_baghdad": "20:00",
       "channels_raw": [
         "FIFA+ [app] (geo/R) 📺",
+        "RTSH Sport Albania 📺",
         "RTSH Tani [app]"
       ]
     },
@@ -3178,6 +3259,7 @@
       "kickoff_baghdad": "20:00",
       "channels_raw": [
         "FIFA+ [app] (geo/R) 📺",
+        "RTSH 2 Albania",
         "RTSH Tani [app]"
       ]
     },
@@ -3199,6 +3281,7 @@
         "Megogo Sport Kazakhstan [$]",
         "Ring Bulgaria HD",
         "S Sport+ Streaming",
+        "Sport 1 Hungary HD",
         "Sport 1 Lithuania HD [$]",
         "Sport TV1 Portugal HD",
         "Sportdigital FUSSBALL 2",
@@ -3261,6 +3344,14 @@
       "channels_raw": [
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA 9 HD"
+      ]
+    },
+    {
+      "competition": "Moroccan Botola 1 - Week 2",
+      "title": "CODM Meknès v FUS Rabat",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "Arryadia HD (RTM 3) 📺"
       ]
     },
     {
@@ -3341,19 +3432,24 @@
         "M+ Vamos España HD",
         "MAX Sport 2 Bulgaria HD",
         "Movistar+ Lite ($/geo/R)",
+        "New World Sport 4 Togo",
         "Polsat Sport 2 HD",
+        "Prima Sport RO PPV 2",
         "S Sport+ Streaming",
         "Setanta Sports Premium HD 📺",
         "Shahid MBC ($/geo/R) 📺",
         "Sport TV4 Portugal HD",
         "Sportdigital FUSSBALL HD",
+        "Sportitalia SoloCalcio HD 📺",
         "SportKlub 2 Hrvatska",
         "SportKlub 3 Slovenija",
         "SporTV Brazil HD",
         "SPOTV Malaysia HD",
         "ST Sports Arena",
         "Strike TV",
-        "SuperSport 5 Albania HD"
+        "SuperSport 5 Albania HD",
+        "SuperSport ESPN HD",
+        "Thamanya 1 KSA HD"
       ]
     },
     {
@@ -3437,7 +3533,7 @@
       "title": "Stade Tunisien v ASC SNIM",
       "kickoff_baghdad": "21:00",
       "channels_raw": [
-        "Télévision Tunisienne 2 HD"
+        "Watania 2 HD"
       ]
     },
     {
@@ -3663,8 +3759,10 @@
         "beIN Connect MENA 📺",
         "beIN Connect MENA HD 📺",
         "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 2 HD",
         "beIN Sports MENA English 1 HD",
         "beIN Sports Türkiye 3 HD",
+        "Canal+ Extra 1 Polska HD",
         "Canal+ Foot HD",
         "Canal+ Sport 1 Czech HD 📺",
         "Canal+ Sport 3 Afrique HD",
@@ -3738,10 +3836,12 @@
         "beIN Connect MENA HD 📺",
         "beIN Sports 1 HD (Astro)",
         "beIN Sports France 2 HD",
+        "beIN Sports MENA 3 HD",
         "beIN Sports MENA French 2 HD",
         "Belarus 5 HD",
         "Blue Sport 1 Live HD",
         "CRTV Sports Cameroon",
+        "DAZN 1 Italia HD",
         "DAZN 2 Portugal HD",
         "DAZN Belgium ($/geo/R) 📺",
         "DAZN Deutsch ($/geo/R)",
@@ -3749,6 +3849,7 @@
         "DAZN Japan ($/geo/R)",
         "DAZN Portugal ($/geo/R)",
         "DAZN USA en Español ($/geo/R)",
+        "Digi 4K UHD",
         "Digi Sport 2 Romania HD",
         "Disney+ UK ($/geo/R)",
         "ESPN Deportes",
@@ -3779,6 +3880,7 @@
         "S Sport+ Streaming",
         "Setanta Sports 2 Baltic",
         "Setanta Sports 2 Eurasia HD",
+        "Silk Sport 1 HD",
         "Sporty TV Africa",
         "Spíler 2 TV Hungary HD",
         "SuperSport 2 Albania HD",
@@ -3859,7 +3961,9 @@
         "Arena Sport 3 Hrvatska HD",
         "Arena Sport 4 BiH HD",
         "ART Motion Sport 2 HD 📺",
+        "beIN Connect MENA HD 📺",
         "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 4 HD",
         "beIN Sports Türkiye 4 HD",
         "Cablenet Sports 2 HD",
         "Canal+ Sport 2 Afrique HD",
@@ -3871,6 +3975,7 @@
         "Nova Sport Bulgaria HD",
         "Okko Prime Sport HD ($/geo/R)",
         "Prime Video UK PPV [$] 📺",
+        "Setanta Sports 3 Georgia HD",
         "Sky Sport Max Italia HD",
         "Sport TV3 Portugal HD",
         "SuperSport 4 Albania HD",
