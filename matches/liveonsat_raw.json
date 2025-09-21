@@ -460,6 +460,7 @@
       "kickoff_baghdad": "14:00",
       "channels_raw": [
         "Sky Sports MIX UK HD",
+        "Sky Sports+ TV HD",
         "YouTube: W/Super League 📺"
       ]
     },
@@ -468,10 +469,7 @@
       "title": "Aston Villa v Liverpool",
       "kickoff_baghdad": "14:00",
       "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sport 2 Israel HD",
-        "SportKlub 3 Hrvatska",
-        "SportKlub 6 Slovenija"
+        "** POSTPONED **"
       ]
     },
     {
@@ -773,14 +771,6 @@
       "kickoff_baghdad": "15:00",
       "channels_raw": [
         "Telekanal Futbol HD"
-      ]
-    },
-    {
-      "competition": "Scottish SWPL 1 - Week 6",
-      "title": "Montrose v Hamilton Academical",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Montrose FC LIVE [$] 📺"
       ]
     },
     {
@@ -1304,6 +1294,14 @@
       "kickoff_baghdad": "16:00",
       "channels_raw": [
         "Belarus 5 HD"
+      ]
+    },
+    {
+      "competition": "Scottish SWPL 1 - Week 6",
+      "title": "Montrose v Hamilton Academical",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Montrose FC LIVE [$] 📺"
       ]
     },
     {
@@ -2072,43 +2070,6 @@
     },
     {
       "competition": "French Ligue 1 - Week 5",
-      "title": "Monaco v Metz",
-      "kickoff_baghdad": "18:15",
-      "channels_raw": [
-        "Arena Sport 1 Srbija HD",
-        "Arena Sport 4 BiH HD",
-        "Arena Sport 4 Slovenija HD",
-        "Arena Sport 7 Hrvatska HD",
-        "ART Motion Sport 3 HD 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 4 HD",
-        "beIN Sports Türkiye 5 HD",
-        "Cablenet Sports 2 HD",
-        "Canal+ Sport 2 Afrique HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Japan ($/geo/R)",
-        "Fast Sports 2 Armenia ($/geo/R) 📺",
-        "Ligue 1+ 6 ($/geo/R) 📺",
-        "Megogo Futbol 3 ($/geo/R)",
-        "Nova Sport 2 Czech HD",
-        "Nova Sport Bulgaria HD",
-        "Okko Futbol HD ($/geo/R)",
-        "Prime Video UK PPV [$] 📺",
-        "Setanta Sports 2 Georgia HD",
-        "Sport TV3 Portugal HD",
-        "SuperSport 3 Albania HD",
-        "V Sport 1 Sverige HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 5",
       "title": "Auxerre v Toulouse",
       "kickoff_baghdad": "18:15",
       "channels_raw": [
@@ -2154,6 +2115,42 @@
         "ViaPlay Norge HD",
         "ViaPlay Suomi HD",
         "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "French Ligue 1 - Week 5",
+      "title": "Monaco v Metz",
+      "kickoff_baghdad": "18:15",
+      "channels_raw": [
+        "Arena Sport 1 Srbija HD",
+        "Arena Sport 4 BiH HD",
+        "Arena Sport 4 Slovenija HD",
+        "Arena Sport 7 Hrvatska HD",
+        "ART Motion Sport 3 HD 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 4 HD",
+        "beIN Sports Türkiye 5 HD",
+        "Cablenet Sports 2 HD",
+        "Canal+ Sport 2 Afrique HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Japan ($/geo/R)",
+        "Fast Sports 2 Armenia ($/geo/R) 📺",
+        "Ligue 1+ 6 ($/geo/R) 📺",
+        "Megogo Futbol 3 ($/geo/R)",
+        "Nova Sport 2 Czech HD",
+        "Nova Sport Bulgaria HD",
+        "Okko Futbol HD ($/geo/R)",
+        "Setanta Sports 2 Georgia HD",
+        "Sport TV3 Portugal HD",
+        "SuperSport 3 Albania HD",
+        "V Sport 1 Sverige HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "Voyo Player Slovakia [$] 📺"
       ]
     },
     {
