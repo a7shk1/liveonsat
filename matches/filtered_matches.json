@@ -1,43 +1,7 @@
 {
-  "date": "2025-09-22",
+  "date": "2025-09-23",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
-    {
-      "competition": "السعودية, كأس الملك - دور الـ 32",
-      "kickoff_baghdad": "21:30",
-      "home_team": "العدالة",
-      "away_team": "الهلال",
-      "channels_raw": [
-        "ثمانية 1",
-        "Football HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/30662.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "21:45",
-      "home_team": "نابولي",
-      "away_team": "بيسا",
-      "channels_raw": [
-        "Starzplay 1",
-        "Football HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
     {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "17:00",
@@ -48,6 +12,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1880.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/8.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "20:00",
+      "home_team": "زد",
+      "away_team": "الاتحاد السكندري",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1683.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -65,17 +42,18 @@
       "result_text": "0-0"
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "20:00",
-      "home_team": "زد",
-      "away_team": "الاتحاد السكندري",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "أولمبيك مارسيليا",
+      "away_team": "باريس سان جيرمان",
       "channels_raw": [
-        "أون سبورت 1"
+        "beIN Sports 1 HD",
+        "IRIB Varzesh HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1683.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "1-0"
     },
     {
       "competition": "السعودية, كأس الملك - دور الـ 32",
@@ -106,18 +84,40 @@
       "result_text": "0-0"
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "باريس سان جيرمان",
+      "competition": "السعودية, كأس الملك - دور الـ 32",
+      "kickoff_baghdad": "21:30",
+      "home_team": "العدالة",
+      "away_team": "الهلال",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "IRIB Varzesh HD"
+        "ثمانية 1",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "Varzish TV Sport HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/30662.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
       "status_text": "انتهت",
-      "result_text": "1-0"
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "21:45",
+      "home_team": "نابولي",
+      "away_team": "بيسا",
+      "channels_raw": [
+        "Starzplay 1",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
