@@ -3,48 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "غير معروف",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الكرة الذهبية",
-      "away_team": "الكرة الذهبية",
-      "channels_raw": [
-        "غير معروف",
-        "IRIB Varzesh HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/الكرة-الذهبية.jpg",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/الكرة-الذهبية.jpg",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "السعودية, كأس الملك - دور الـ 32",
-      "kickoff_baghdad": "21:00",
-      "home_team": "أبها",
-      "away_team": "الشباب",
-      "channels_raw": [
-        "تطبيق ثمانية",
-        "IRIB Varzesh HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/14898.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/180.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "باريس سان جيرمان",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "IRIB Varzesh HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
-    },
-    {
       "competition": "السعودية, كأس الملك - دور الـ 32",
       "kickoff_baghdad": "21:30",
       "home_team": "العدالة",
@@ -96,6 +54,19 @@
     {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "20:00",
+      "home_team": "بتروجت",
+      "away_team": "غزل المحلة",
+      "channels_raw": [
+        "أون سبورت 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/653.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "20:00",
       "home_team": "زد",
       "away_team": "الاتحاد السكندري",
       "channels_raw": [
@@ -107,17 +78,46 @@
       "result_text": "0-0"
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "20:00",
-      "home_team": "بتروجت",
-      "away_team": "غزل المحلة",
+      "competition": "السعودية, كأس الملك - دور الـ 32",
+      "kickoff_baghdad": "21:00",
+      "home_team": "أبها",
+      "away_team": "الشباب",
       "channels_raw": [
-        "أون سبورت 2"
+        "تطبيق ثمانية",
+        "IRIB Varzesh HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/653.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/14898.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/180.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الكرة الذهبية",
+      "away_team": "الكرة الذهبية",
+      "channels_raw": [
+        "غير معروف",
+        "IRIB Varzesh HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/الكرة-الذهبية.jpg",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/الكرة-الذهبية.jpg",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "أولمبيك مارسيليا",
+      "away_team": "باريس سان جيرمان",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "IRIB Varzesh HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
+      "status_text": "انتهت",
+      "result_text": "1-0"
     }
   ]
 }
