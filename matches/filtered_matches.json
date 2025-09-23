@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس إنتركونتيننتال - المرحلة الثانية",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الأهلي",
-      "away_team": "بيراميدز",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
-      "status_text": "جارية الان",
-      "result_text": "1-3"
-    },
-    {
       "competition": "السعودية, كأس الملك - دور الـ 32",
       "kickoff_baghdad": "21:30",
       "home_team": "جدة",
@@ -27,7 +14,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/49228.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "0-3"
     },
     {
       "competition": "السعودية, كأس الملك - دور الـ 32",
@@ -41,7 +28,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/876.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "0-1"
     },
     {
       "competition": "إنجلترا, كأس الكاراباو - الدور 3",
@@ -100,7 +87,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/21.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "1-0"
     },
     {
       "competition": "إيطاليا, كأس إيطاليا - دور الـ 32",
@@ -118,25 +105,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:30",
-      "home_team": "إشبيلية",
-      "away_team": "فياريال",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "1-0"
     },
     {
       "competition": "إسبانيا, الدوري الإسباني",
@@ -154,7 +123,25 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/150.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/110.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "0-1"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:30",
+      "home_team": "إشبيلية",
+      "away_team": "فياريال",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
+      "status_text": "جارية الان",
+      "result_text": "0-1"
     },
     {
       "competition": "مصر, الدوري المصري",
@@ -180,7 +167,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/254.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "4-1"
     },
     {
       "competition": "إيطاليا, كأس إيطاليا - دور الـ 32",
@@ -193,7 +180,24 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/233.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "2-1"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "20:00",
+      "home_team": "إسبانيول",
+      "away_team": "فالنسيا",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "ESPN 4 Brazil HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
+      "status_text": "انتهت",
+      "result_text": "2-2"
     },
     {
       "competition": "مصر, الدوري المصري",
@@ -227,7 +231,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/617.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "1-1"
     },
     {
       "competition": "إسبانيا, الدوري الإسباني",
@@ -244,24 +248,20 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/2014.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "1-1"
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "20:00",
-      "home_team": "إسبانيول",
-      "away_team": "فالنسيا",
+      "competition": "دولي, كأس إنتركونتيننتال - المرحلة الثانية",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الأهلي",
+      "away_team": "بيراميدز",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 4 Brazil HD",
-        "Varzish TV Sport HD"
+        "MBC Action"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "1-3"
     }
   ]
 }
