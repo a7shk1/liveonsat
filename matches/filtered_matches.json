@@ -18,19 +18,6 @@
     {
       "competition": "تونس, الرابطة التونسية المحترفة الأولى",
       "kickoff_baghdad": "17:30",
-      "home_team": "نادي سليمان الرياضي",
-      "away_team": "النجم الساحلي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50316.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/231.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
-      "kickoff_baghdad": "17:30",
       "home_team": "الترجي",
       "away_team": "الأولمبي الباجي",
       "channels_raw": [
@@ -42,12 +29,26 @@
       "result_text": "0-0"
     },
     {
+      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
+      "kickoff_baghdad": "17:30",
+      "home_team": "نادي سليمان الرياضي",
+      "away_team": "النجم الساحلي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50316.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/231.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إيطاليا, كأس إيطاليا - دور الـ 32",
       "kickoff_baghdad": "18:00",
       "home_team": "بارما",
       "away_team": "سبيزيا",
       "channels_raw": [
-        "Shahid MBC"
+        "Shahid MBC",
+        "MBC Action HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/263.png",
@@ -60,7 +61,8 @@
       "home_team": "هيلاس فيرونا",
       "away_team": "فينيزيا",
       "channels_raw": [
-        "Shahid MBC"
+        "Shahid MBC",
+        "DAZN 3 Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1395.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/308.png",
@@ -74,10 +76,8 @@
       "away_team": "مودرن سبورت",
       "channels_raw": [
         "أون سبورت 2",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 4 Brazil HD",
-        "Varzish TV Sport HD"
+        "DAZN 4 Portugal HD",
+        "DAZN Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
@@ -91,10 +91,8 @@
       "away_team": "وادي دجلة",
       "channels_raw": [
         "أون سبورت 1",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 4 Brazil HD",
-        "Varzish TV Sport HD"
+        "DAZN 4 Portugal HD",
+        "DAZN Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
@@ -108,13 +106,27 @@
       "away_team": "ألافيس",
       "channels_raw": [
         "beIN Sports 4 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 4 Brazil HD",
-        "Varzish TV Sport HD"
+        "DAZN 4 Portugal HD",
+        "DAZN Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/168.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, كأس الكاراباو - الدور 3",
+      "kickoff_baghdad": "21:45",
+      "home_team": "توتنهام هوتسبر",
+      "away_team": "دونكاستر",
+      "channels_raw": [
+        "غير معروف",
+        "DAZN 2 Portugal HD",
+        "Football HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/30.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -125,11 +137,9 @@
       "away_team": "برادفورد سيتي",
       "channels_raw": [
         "غير معروف",
+        "DAZN 2 Portugal HD",
         "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/64.png",
@@ -143,11 +153,9 @@
       "away_team": "مانشستر سيتي",
       "channels_raw": [
         "غير معروف",
+        "DAZN 2 Portugal HD",
         "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/41.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
@@ -155,20 +163,18 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, كأس الكاراباو - الدور 3",
-      "kickoff_baghdad": "21:45",
-      "home_team": "توتنهام هوتسبر",
-      "away_team": "دونكاستر",
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "فرايبورج",
+      "away_team": "بازل",
       "channels_raw": [
         "غير معروف",
+        "DAZN 2 Portugal HD",
         "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/30.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/195.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1138.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -179,11 +185,9 @@
       "away_team": "روما",
       "channels_raw": [
         "غير معروف",
+        "DAZN 2 Portugal HD",
         "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
@@ -197,11 +201,9 @@
       "away_team": "أرسنال",
       "channels_raw": [
         "غير معروف",
+        "DAZN 2 Portugal HD",
         "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/51.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
@@ -215,50 +217,12 @@
       "away_team": "ساسولو",
       "channels_raw": [
         "Shahid MBC",
+        "DAZN 2 Portugal HD",
         "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/132.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "فرايبورج",
-      "away_team": "بازل",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/195.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1138.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:30",
-      "home_team": "ريال سوسيداد",
-      "away_team": "ريال مايوركا",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/121.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -269,14 +233,25 @@
       "away_team": "رايو فاييكانو",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "DAZN 4 Portugal HD",
+        "DAZN Portugal HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/174.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:30",
+      "home_team": "ريال سوسيداد",
+      "away_team": "ريال مايوركا",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "DAZN Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/121.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
