@@ -5,6 +5,19 @@
     {
       "competition": "إنجلترا, كأس الكاراباو - الدور 3",
       "kickoff_baghdad": "21:45",
+      "home_team": "توتنهام هوتسبر",
+      "away_team": "دونكاستر",
+      "channels_raw": [
+        "beIN Sports 7 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/30.png",
+      "status_text": "جارية الان",
+      "result_text": "1-0"
+    },
+    {
+      "competition": "إنجلترا, كأس الكاراباو - الدور 3",
+      "kickoff_baghdad": "21:45",
       "home_team": "هدرسفيلد تاون",
       "away_team": "مانشستر سيتي",
       "channels_raw": [
@@ -15,19 +28,6 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, كأس الكاراباو - الدور 3",
-      "kickoff_baghdad": "21:45",
-      "home_team": "توتنهام هوتسبر",
-      "away_team": "دونكاستر",
-      "channels_raw": [
-        "beIN Sports 7 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/30.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
     },
     {
       "competition": "إنجلترا, كأس الكاراباو - الدور 3",
@@ -157,7 +157,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/174.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -171,7 +171,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/121.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -258,6 +258,22 @@
     {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "20:00",
+      "home_team": "البنك الاهلي",
+      "away_team": "وادي دجلة",
+      "channels_raw": [
+        "أون سبورت 2",
+        "DAZN 4 Portugal HD",
+        "DAZN Portugal HD",
+        "IRIB Varzesh HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "20:00",
       "home_team": "سيراميكا كليوباترا",
       "away_team": "مودرن سبورت",
       "channels_raw": [
@@ -286,22 +302,6 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/168.png",
       "status_text": "انتهت",
       "result_text": "1-1"
-    },
-    {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "20:00",
-      "home_team": "البنك الاهلي",
-      "away_team": "وادي دجلة",
-      "channels_raw": [
-        "أون سبورت 2",
-        "DAZN 4 Portugal HD",
-        "DAZN Portugal HD",
-        "IRIB Varzesh HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
     }
   ]
 }
