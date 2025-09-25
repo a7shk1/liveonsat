@@ -3,36 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الهلال",
-      "away_team": "الأخدود",
-      "channels_raw": [
-        "ثمانية 1",
-        "Shahid MBC",
-        "Football HD",
-        "Thmanyah 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/12747.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "شتوتجارت",
-      "away_team": "سيلتا فيجو",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 2 Portugal HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أوروبا, الدوري الأوروبي",
       "kickoff_baghdad": "22:00",
       "home_team": "أوتريخت",
@@ -74,6 +44,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "شتوتجارت",
+      "away_team": "سيلتا فيجو",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 2 Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -191,6 +175,22 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/118.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/156.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الهلال",
+      "away_team": "الأخدود",
+      "channels_raw": [
+        "ثمانية 1",
+        "Shahid MBC",
+        "Football HD",
+        "Thmanyah 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/12747.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
