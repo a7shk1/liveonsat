@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "غير معروف",
-      "kickoff_baghdad": "03:00",
-      "home_team": "نيويورك سيتي",
-      "away_team": "انتر ميامي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/نيويورك-سيتي.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/54729.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
       "kickoff_baghdad": "16:25",
       "home_team": "شباب الاهلي",
@@ -169,6 +156,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/193.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "03:00",
+      "home_team": "نيويورك سيتي",
+      "away_team": "انتر ميامي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/نيويورك-سيتي.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/54729.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
