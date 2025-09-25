@@ -3,34 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "19:45",
-      "home_team": "ليل",
-      "away_team": "بران بيرغن",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1982.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "قطر, الدوري القطري",
-      "kickoff_baghdad": "20:00",
-      "home_team": "السد",
-      "away_team": "الدحيل",
-      "channels_raw": [
-        "الكأس HD1",
-        "DAZN 1 Portugal HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "20:30",
       "home_team": "أوساسونا",
@@ -64,6 +36,20 @@
     {
       "competition": "أوروبا, الدوري الأوروبي",
       "kickoff_baghdad": "22:00",
+      "home_team": "شتوتجارت",
+      "away_team": "سيلتا فيجو",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 2 Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "22:00",
       "home_team": "أوتريخت",
       "away_team": "أولمبيك ليون",
       "channels_raw": [
@@ -72,7 +58,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/698.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -86,7 +72,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/1739.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/224.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -102,21 +88,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "شتوتجارت",
-      "away_team": "سيلتا فيجو",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 2 Portugal HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -134,7 +106,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/193.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -188,6 +160,34 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/869.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "19:45",
+      "home_team": "ليل",
+      "away_team": "بران بيرغن",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1982.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "قطر, الدوري القطري",
+      "kickoff_baghdad": "20:00",
+      "home_team": "السد",
+      "away_team": "الدحيل",
+      "channels_raw": [
+        "الكأس HD1",
+        "DAZN 1 Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
