@@ -3,36 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "21:30",
-      "home_team": "بايرن ميونخ",
-      "away_team": "فيردر بريمن",
-      "channels_raw": [
-        "MBC Action",
-        "DAZN 1 Portugal HD",
-        "MBC Action HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/168.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "21:45",
-      "home_team": "ستراسبورج",
-      "away_team": "أولمبيك مارسيليا",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/300.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "جيرونا",
@@ -61,7 +31,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/14895.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "0-2"
     },
     {
       "competition": "السعودية, الدوري السعودي",
@@ -78,7 +48,37 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "0-2"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "21:30",
+      "home_team": "بايرن ميونخ",
+      "away_team": "فيردر بريمن",
+      "channels_raw": [
+        "MBC Action",
+        "DAZN 1 Portugal HD",
+        "MBC Action HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/168.png",
+      "status_text": "انتهت",
+      "result_text": "4-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "21:45",
+      "home_team": "ستراسبورج",
+      "away_team": "أولمبيك مارسيليا",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/300.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
+      "status_text": "انتهت",
+      "result_text": "1-2"
     }
   ]
 }
