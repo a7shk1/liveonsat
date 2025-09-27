@@ -2717,11 +2717,17 @@
       "channels_raw": [
         "Azam Sports 3 HD",
         "Cosmote Sport 9 HD",
+        "ESPN 2 Africa",
+        "Fox Deportes USA",
+        "Fox Soccer Plus USA",
         "Setanta Sports Premium HD 📺",
         "Shahid MBC ($/geo/R) 📺",
         "Sport TV5 Portugal HD",
+        "Sportitalia SoloCalcio HD 📺",
         "SportKlub 4 Slovenija",
         "SportKlub 6 Hrvatska",
+        "SPOTV Malaysia 2 HD",
+        "ST Sports Life",
         "Thmanyah 1 HD"
       ]
     },
@@ -3064,6 +3070,7 @@
         "Diema Sport 3 HD",
         "Eleven Sports 3 Polska HD",
         "Fast Sports 2 Armenia ($/geo/R) 📺",
+        "GEM Sport HD",
         "IRIB Varzesh HD",
         "Ligue 1+ ($/geo/R) 📺",
         "Megogo Futbol 2 ($/geo/R)",
@@ -3118,6 +3125,22 @@
       ]
     },
     {
+      "competition": "FIFA U-20 World Cup - Group A, Round 1",
+      "title": "Japan U-20 v Egypt U-20",
+      "kickoff_baghdad": "23:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "FIFA U-20 World Cup - Group B, Round 1",
+      "title": "South Korea U-20 v Ukraine U-20",
+      "kickoff_baghdad": "23:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺"
+      ]
+    },
+    {
       "competition": "Major League Soccer (MLS) - Week 47",
       "title": "Toronto FC v Inter Miami",
       "kickoff_baghdad": "23:30",
@@ -3153,9 +3176,18 @@
       "title": "Chile U-20 v New Zealand U-20",
       "kickoff_baghdad": "02:00",
       "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺",
         "MATCH! Futbol 1 HD",
         "MATCH! Russia HD",
         "TVP Sport Polska HD"
+      ]
+    },
+    {
+      "competition": "FIFA U-20 World Cup - Group B, Round 1",
+      "title": "Paraguay U-20 v Panama U-20",
+      "kickoff_baghdad": "02:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺"
       ]
     },
     {
