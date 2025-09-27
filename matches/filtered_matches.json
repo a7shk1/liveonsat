@@ -3,6 +3,19 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
+      "kickoff_baghdad": "00:00",
+      "home_team": "نهضة بركان",
+      "away_team": "كارا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1529.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/57634.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "دولي, كأس العالم تحت 20 - المجموعات",
       "kickoff_baghdad": "00:00",
       "home_team": "اليابان تحت 20",
@@ -25,19 +38,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/تورونتو.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/54729.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
-      "kickoff_baghdad": "00:00",
-      "home_team": "نهضة بركان",
-      "away_team": "كارا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1529.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/57634.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -83,32 +83,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "بيسا",
-      "away_team": "فيورنتينا",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "أستون فيلا",
-      "away_team": "فولهام",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "16:00",
       "home_team": "نيس",
@@ -131,6 +105,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1395.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "بيسا",
+      "away_team": "فيورنتينا",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "أستون فيلا",
+      "away_team": "فولهام",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -235,21 +235,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الهلال السوداني",
-      "away_team": "جاموس",
-      "channels_raw": [
-        "غير معروف",
-        "Shahid MBC",
-        "Thmanyah 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/81550.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "19:00",
       "home_team": "ليتشي",
@@ -261,6 +246,21 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الهلال السوداني",
+      "away_team": "جاموس",
+      "channels_raw": [
+        "غير معروف",
+        "Shahid MBC",
+        "Thmanyah 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/81550.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
