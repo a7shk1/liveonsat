@@ -3,6 +3,19 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
+      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
+      "kickoff_baghdad": "00:00",
+      "home_team": "اليابان تحت 20",
+      "away_team": "مصر | تحت 20",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5486.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/1736.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "غير معروف",
       "kickoff_baghdad": "00:00",
       "home_team": "تورونتو",
@@ -40,19 +53,6 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/24942.png",
       "status_text": "جارية الان",
       "result_text": "0-2"
-    },
-    {
-      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
-      "kickoff_baghdad": "00:00",
-      "home_team": "اليابان تحت 20",
-      "away_team": "مصر | تحت 20",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5486.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/1736.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -321,6 +321,20 @@
       "result_text": "0-0"
     },
     {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "21:45",
+      "home_team": "ستاد رين",
+      "away_team": "لانس",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "IRIB Varzesh HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/312.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "21:45",
       "home_team": "ميلان",
@@ -335,20 +349,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "21:45",
-      "home_team": "ستاد رين",
-      "away_team": "لانس",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "IRIB Varzesh HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/312.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
