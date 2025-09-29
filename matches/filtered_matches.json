@@ -3,20 +3,20 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "21:45",
-      "home_team": "جنوى",
-      "away_team": "لاتسيو",
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "فالنسيا",
+      "away_team": "ريال أوفييدو",
       "channels_raw": [
-        "Starzplay 1",
+        "beIN Sports 3 HD",
         "DAZN 1 Portugal HD",
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Sky Sport Premier League HD",
         "Sky Sports Main Event HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/136.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/193.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -35,24 +35,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/103.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:00",
-      "home_team": "فالنسيا",
-      "away_team": "ريال أوفييدو",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 1 Brazil HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/193.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -111,19 +93,6 @@
     {
       "competition": "دولي, كأس العالم تحت 20 - المجموعات",
       "kickoff_baghdad": "02:00",
-      "home_team": "كوبا تحت 20",
-      "away_team": "الأرجنتين تحت 20",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12554.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10055.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
-      "kickoff_baghdad": "02:00",
       "home_team": "البرازيل تحت 20",
       "away_team": "المكسيك تحت 20",
       "channels_raw": [
@@ -131,6 +100,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10057.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12556.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
+      "kickoff_baghdad": "02:00",
+      "home_team": "كوبا تحت 20",
+      "away_team": "الأرجنتين تحت 20",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12554.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10055.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -258,6 +240,24 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "21:45",
+      "home_team": "جنوى",
+      "away_team": "لاتسيو",
+      "channels_raw": [
+        "Starzplay 1",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/136.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
