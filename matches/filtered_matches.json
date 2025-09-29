@@ -59,6 +59,20 @@
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "19:00",
+      "home_team": "الغرافة",
+      "away_team": "الشرطة",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "IRIB Varzesh HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/970.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1218.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "19:00",
       "home_team": "تراکتورسازي",
       "away_team": "الوحدة",
       "channels_raw": [
@@ -69,20 +83,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/9353.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/876.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الغرافة",
-      "away_team": "الشرطة",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "IRIB Varzesh HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/970.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1218.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -183,19 +183,6 @@
     {
       "competition": "دولي, كأس العالم تحت 20 - المجموعات",
       "kickoff_baghdad": "23:00",
-      "home_team": "النرويج تحت 20",
-      "away_team": "???",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/56291.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0--"
-    },
-    {
-      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
-      "kickoff_baghdad": "23:00",
       "home_team": "فرنسا تحت 20",
       "away_team": "جنوب إفريقيا تحت 20",
       "channels_raw": [
@@ -205,6 +192,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/6043.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
+      "kickoff_baghdad": "23:00",
+      "home_team": "النرويج تحت 20",
+      "away_team": "???",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/56291.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0--"
     },
     {
       "competition": "دولي, كأس العالم تحت 20 - المجموعات",
