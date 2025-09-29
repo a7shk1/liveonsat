@@ -43,7 +43,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/144.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -56,7 +56,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -225,24 +225,6 @@
     {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "17:00",
-      "home_team": "الجونة",
-      "away_team": "سيراميكا كليوباترا",
-      "channels_raw": [
-        "أون سبورت 2",
-        "Football HD",
-        "ESPN 4 Brazil HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/617.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "17:00",
       "home_team": "الإسماعيلي",
       "away_team": "البنك الاهلي",
       "channels_raw": [
@@ -255,6 +237,24 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/5.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "17:00",
+      "home_team": "الجونة",
+      "away_team": "سيراميكا كليوباترا",
+      "channels_raw": [
+        "أون سبورت 2",
+        "Football HD",
+        "ESPN 4 Brazil HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/617.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
