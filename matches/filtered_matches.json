@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال الخليج للأندية",
-      "kickoff_baghdad": "18:30",
-      "home_team": "العين",
-      "away_team": "سترة",
-      "channels_raw": [
-        "الكأس HD1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/871.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16940.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "19:00",
       "home_team": "السد",
@@ -76,7 +63,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/11273.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/179.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -90,7 +77,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8347.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -106,6 +93,22 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/152.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "???",
+      "away_team": "توتنهام هوتسبر",
+      "channels_raw": [
+        "beIN Sports 9 HD",
+        "DAZN 4 Portugal HD",
+        "DAZN Portugal HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "--0"
     },
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
@@ -192,22 +195,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "???",
-      "away_team": "توتنهام هوتسبر",
-      "channels_raw": [
-        "beIN Sports 9 HD",
-        "DAZN 4 Portugal HD",
-        "DAZN Portugal HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "--0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 20 - المجموعات",
       "kickoff_baghdad": "23:00",
       "home_team": "بنما تحت 20",
@@ -256,6 +243,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12550.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/88911.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال الخليج للأندية",
+      "kickoff_baghdad": "18:30",
+      "home_team": "العين",
+      "away_team": "سترة",
+      "channels_raw": [
+        "الكأس HD1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/871.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16940.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
