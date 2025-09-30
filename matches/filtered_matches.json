@@ -1,37 +1,24 @@
 {
-  "date": "2025-09-30",
+  "date": "2025-10-01",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "سلافيا براغ",
+      "home_team": "أتلتيكو مدريد",
+      "away_team": "آينتراخت فرانكفورت",
       "channels_raw": [
-        "beIN Sports 4 HD",
-        "Football HD",
-        "Sky Sports Main Event HD"
+        "beIN Sports 3 HD",
+        "DAZN Portugal HD",
+        "IRIB Varzesh HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD",
+        "Football HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1789.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/196.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "???",
-      "away_team": "توتنهام هوتسبر",
-      "channels_raw": [
-        "beIN Sports 9 HD",
-        "DAZN 4 Portugal HD",
-        "DAZN Portugal HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
-      "status_text": "جارية الان",
-      "result_text": "--0"
     },
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
@@ -48,24 +35,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/888.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أتلتيكو مدريد",
-      "away_team": "آينتراخت فرانكفورت",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN Portugal HD",
-        "IRIB Varzesh HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/196.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -113,6 +82,37 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "???",
+      "away_team": "توتنهام هوتسبر",
+      "channels_raw": [
+        "beIN Sports 9 HD",
+        "DAZN 4 Portugal HD",
+        "DAZN Portugal HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
+      "status_text": "جارية الان",
+      "result_text": "--0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "إنتر ميلان",
+      "away_team": "سلافيا براغ",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "Football HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1789.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
