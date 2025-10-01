@@ -3,16 +3,18 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
-      "kickoff_baghdad": "21:15",
-      "home_team": "الزوراء",
-      "away_team": "النصر",
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "موناكو",
+      "away_team": "مانشستر سيتي",
       "channels_raw": [
-        "beIN Sports HD",
-        "ESPN 4 Brazil HD"
+        "beIN Sports 3 HD",
+        "DAZN 3 Portugal HD",
+        "DAZN Portugal HD",
+        "TNT Sports 2 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8248.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -131,22 +133,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "موناكو",
-      "away_team": "مانشستر سيتي",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 3 Portugal HD",
-        "DAZN Portugal HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 20 - المجموعات",
       "kickoff_baghdad": "23:00",
       "home_team": "إيطاليا تحت 20",
@@ -156,7 +142,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5467.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12554.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -169,7 +155,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12551.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12556.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -348,6 +334,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/14596.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
+      "kickoff_baghdad": "21:15",
+      "home_team": "الزوراء",
+      "away_team": "النصر",
+      "channels_raw": [
+        "beIN Sports HD",
+        "ESPN 4 Brazil HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8248.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
