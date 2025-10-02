@@ -9,7 +9,9 @@
       "away_team": "ريال بيتيس",
       "channels_raw": [
         "غير معروف",
+        "DAZN 2 Portugal HD",
         "Persiana Sport HD",
+        "Football HD",
         "Varzish TV Sport HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8528.png",
@@ -24,7 +26,9 @@
       "away_team": "نيس",
       "channels_raw": [
         "beIN Sports HD",
+        "DAZN 2 Portugal HD",
         "Persiana Sport HD",
+        "Football HD",
         "Varzish TV Sport HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/350.png",
@@ -39,7 +43,9 @@
       "away_team": "ليل",
       "channels_raw": [
         "beIN Sports 1 HD",
+        "DAZN 2 Portugal HD",
         "Persiana Sport HD",
+        "Football HD",
         "Varzish TV Sport HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
@@ -54,6 +60,7 @@
       "away_team": "شتوتجارت",
       "channels_raw": [
         "غير معروف",
+        "DAZN 1 Portugal HD",
         "IRIB Varzesh HD",
         "Persiana Sport HD",
         "Varzish TV Sport HD"
@@ -70,6 +77,7 @@
       "away_team": "أستون فيلا",
       "channels_raw": [
         "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD",
         "IRIB Varzesh HD",
         "Persiana Sport HD",
         "Varzish TV Sport HD"
@@ -86,6 +94,7 @@
       "away_team": "سيغما أولوموتس",
       "channels_raw": [
         "beIN Sports 7 HD",
+        "DAZN 1 Portugal HD",
         "IRIB Varzesh HD",
         "Persiana Sport HD",
         "Varzish TV Sport HD"
@@ -150,19 +159,6 @@
     {
       "competition": "دولي, كأس العالم تحت 20 - المجموعات",
       "kickoff_baghdad": "02:00",
-      "home_team": "البرازيل تحت 20",
-      "away_team": "???",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10057.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "status_text": "انتهت",
-      "result_text": "0--"
-    },
-    {
-      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
-      "kickoff_baghdad": "02:00",
       "home_team": "الأرجنتين تحت 20",
       "away_team": "أستراليا تحت 20",
       "channels_raw": [
@@ -172,6 +168,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12560.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
+      "kickoff_baghdad": "02:00",
+      "home_team": "البرازيل تحت 20",
+      "away_team": "???",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10057.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "status_text": "انتهت",
+      "result_text": "0--"
     }
   ]
 }
