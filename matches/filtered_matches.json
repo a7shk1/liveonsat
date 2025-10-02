@@ -3,6 +3,23 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "نوتنجهام فورست",
+      "away_team": "ميتييلاند",
+      "channels_raw": [
+        "beIN Sports HD",
+        "DAZN 1 Portugal HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/29.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/1823.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "أوروبا, دوري المؤتمر الأوروبي",
       "kickoff_baghdad": "22:00",
       "home_team": "فيورنتينا",
@@ -79,23 +96,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/1741.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/753.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "نوتنجهام فورست",
-      "away_team": "ميتييلاند",
-      "channels_raw": [
-        "beIN Sports HD",
-        "DAZN 1 Portugal HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/29.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/1823.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
