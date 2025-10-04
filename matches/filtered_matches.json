@@ -41,7 +41,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/136.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/144.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -230,6 +230,19 @@
     {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "20:00",
+      "home_team": "حرس الحدود",
+      "away_team": "سيراميكا كليوباترا",
+      "channels_raw": [
+        "أون سبورت 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/149.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "20:00",
       "home_team": "كهرباء الاسماعيلية",
       "away_team": "الأهلي",
       "channels_raw": [
@@ -250,19 +263,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/534.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/244.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "20:00",
-      "home_team": "حرس الحدود",
-      "away_team": "سيراميكا كليوباترا",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/149.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -334,19 +334,6 @@
     {
       "competition": "دولي, كأس العالم تحت 20 - المجموعات",
       "kickoff_baghdad": "02:00",
-      "home_team": "مصر | تحت 20",
-      "away_team": "تشيلي تحت 20",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/1736.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5476.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
-      "kickoff_baghdad": "02:00",
       "home_team": "نيوزيلندا تحت 20",
       "away_team": "اليابان تحت 20",
       "channels_raw": [
@@ -354,6 +341,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12564.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5486.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 20 - المجموعات",
+      "kickoff_baghdad": "02:00",
+      "home_team": "مصر | تحت 20",
+      "away_team": "تشيلي تحت 20",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/1736.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5476.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
