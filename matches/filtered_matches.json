@@ -3,18 +3,17 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, تصفيات كأس العالم آسيا",
-      "kickoff_baghdad": "18:00",
-      "home_team": "عمان",
-      "away_team": "قطر",
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "19:00",
+      "home_team": "جيبوتي",
+      "away_team": "مصر",
       "channels_raw": [
-        "الكأس 5",
-        "Football HD"
+        "أون سبورت 1"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/558.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5596.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "0-2"
     },
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
@@ -28,19 +27,6 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "جيبوتي",
-      "away_team": "مصر",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5596.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
-      "status_text": "جارية الان",
-      "result_text": "0-2"
     },
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
@@ -92,7 +78,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/281.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -198,6 +184,20 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/388.png",
       "status_text": "انتهت",
       "result_text": "2-2"
+    },
+    {
+      "competition": "آسيا, تصفيات كأس العالم آسيا",
+      "kickoff_baghdad": "18:00",
+      "home_team": "عمان",
+      "away_team": "قطر",
+      "channels_raw": [
+        "الكأس 5",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/558.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
