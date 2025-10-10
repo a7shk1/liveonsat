@@ -3,6 +3,19 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الأردن",
+      "away_team": "بوليفيا",
+      "channels_raw": [
+        "الأردن الرياضية"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/بوليفيا.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "19:00",
       "home_team": "رواندا",
@@ -18,13 +31,26 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "19:00",
-      "home_team": "زيمبابوي",
-      "away_team": "جنوب أفريقيا",
+      "home_team": "ساو تومي",
+      "away_team": "تونس",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/234.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5103.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/9007.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "19:00",
+      "home_team": "ليسوتو",
+      "away_team": "نيجيريا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5412.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2386.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -44,39 +70,13 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "19:00",
-      "home_team": "ساو تومي",
-      "away_team": "تونس",
+      "home_team": "زيمبابوي",
+      "away_team": "جنوب أفريقيا",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/9007.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الأردن",
-      "away_team": "بوليفيا",
-      "channels_raw": [
-        "الأردن الرياضية"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/بوليفيا.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "ليسوتو",
-      "away_team": "نيجيريا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5412.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2386.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/234.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5103.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -234,6 +234,32 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "16:00",
+      "home_team": "سيشيل",
+      "away_team": "كوت ديفوار",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/682.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2385.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "16:00",
+      "home_team": "جامبيا",
+      "away_team": "الجابون",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/684.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/386.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "16:00",
       "home_team": "جنوب السودان",
       "away_team": "السنغال",
       "channels_raw": [
@@ -267,32 +293,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5599.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "16:00",
-      "home_team": "سيشيل",
-      "away_team": "كوت ديفوار",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/682.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2385.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "16:00",
-      "home_team": "جامبيا",
-      "away_team": "الجابون",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/684.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/386.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
