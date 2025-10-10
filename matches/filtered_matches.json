@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 20 - دور الـ 16",
-      "kickoff_baghdad": "02:00",
-      "home_team": "المغرب | تحت 20",
-      "away_team": "كوريا الجنوبية تحت 20",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/1730.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12555.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "13:20",
       "home_team": "اليابان",
@@ -51,6 +38,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/5073.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/11530.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "16:00",
+      "home_team": "سيشيل",
+      "away_team": "كوت ديفوار",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/682.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2385.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -107,32 +107,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "16:00",
-      "home_team": "سيشيل",
-      "away_team": "كوت ديفوار",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/682.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2385.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, المباريات الوديّة الدوليّة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "أتلتيكو مدريد",
-      "away_team": "إنتر ميلان",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "19:00",
       "home_team": "الأردن",
@@ -161,6 +135,19 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "19:00",
+      "home_team": "رواندا",
+      "away_team": "بنين",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5408.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/233.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "19:00",
       "home_team": "ساو تومي",
       "away_team": "تونس",
       "channels_raw": [
@@ -168,6 +155,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/9007.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, المباريات الوديّة الدوليّة",
+      "kickoff_baghdad": "19:00",
+      "home_team": "أتلتيكو مدريد",
+      "away_team": "إنتر ميلان",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -185,19 +185,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "رواندا",
-      "away_team": "بنين",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5408.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/233.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "20:00",
       "home_team": "روسيا",
@@ -209,6 +196,21 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5044.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/294.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "ألمانيا",
+      "away_team": "لوكسمبورج",
+      "channels_raw": [
+        "غير معروف",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/59.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5033.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -245,21 +247,6 @@
     {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
       "kickoff_baghdad": "21:45",
-      "home_team": "السويد",
-      "away_team": "سويسرا",
-      "channels_raw": [
-        "غير معروف",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2371.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5032.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
       "home_team": "بلجيكا",
       "away_team": "مقدونيا الشمالية",
       "channels_raw": [
@@ -275,16 +262,29 @@
     {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
       "kickoff_baghdad": "21:45",
-      "home_team": "ألمانيا",
-      "away_team": "لوكسمبورج",
+      "home_team": "السويد",
+      "away_team": "سويسرا",
       "channels_raw": [
         "غير معروف",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/59.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5033.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2371.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5032.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 20 - دور الـ 16",
+      "kickoff_baghdad": "02:00",
+      "home_team": "المغرب | تحت 20",
+      "away_team": "كوريا الجنوبية تحت 20",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/1730.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12555.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
