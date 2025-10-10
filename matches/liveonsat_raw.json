@@ -10,6 +10,8 @@
         "Arena Premium 3 Srbija HD",
         "FIFA+ [app] (geo/R) 📺",
         "L´Équipe Live Foot (geo/R) 📺",
+        "RTS 1 Senegal HD 📺",
+        "RTS 2 Senegal HD 📺",
         "Sportdigital FUSSBALL HD",
         "SportKlub 2 Hrvatska"
       ]
@@ -21,6 +23,7 @@
       "channels_raw": [
         "Arena Sport 1 Srbija HD",
         "FIFA+ [app] (geo/R) 📺",
+        "Gabon 1ère 📺",
         "L´Équipe Live Foot (geo/R) 📺",
         "SportKlub 1 Slovenija HD",
         "SportKlub 5 Hrvatska"
@@ -31,7 +34,9 @@
       "title": "Seychelles v Ivory Coast",
       "kickoff_baghdad": "16:00",
       "channels_raw": [
+        "ESPN 1 Nederland HD",
         "FIFA+ [app] (geo/R) 📺",
+        "La Nouvelle Chaîne Ivorienne 📺",
         "L´Équipe Live Foot (geo/R) 📺",
         "SportKlub 6 Hrvatska"
       ]
@@ -53,7 +58,9 @@
       "channels_raw": [
         "FIFA+ [app] (geo/R) 📺",
         "L´Équipe Live Foot (geo/R) 📺",
-        "SportKlub HD"
+        "RTNC Congo DR",
+        "SportKlub HD",
+        "TVT Togo"
       ]
     },
     {
@@ -61,6 +68,10 @@
       "title": "Kazakhstan v Liechtenstein",
       "kickoff_baghdad": "17:00",
       "channels_raw": [
+        "ART Motion Sport 1 HD 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA English 1 HD",
         "Cytavision Sports 4 HD",
         "Cytavision Sports PPV 3 HD",
         "DAZN 1 Bar Deutsch HD",
@@ -70,6 +81,7 @@
         "EXXEN Digital Türkiye [$] 📺",
         "Fast Sports [online] ($/geo/R) 📺",
         "Fast Sports TV Armenia 📺",
+        "Fox Sports 2 USA HD",
         "Go3 Extra Sports Baltics ($/geo/R) 📺",
         "Megogo Futbol 1 ($/geo/R) 📺",
         "MTV Katsomon+ ($/geo/R) 📺",
@@ -85,6 +97,7 @@
         "QazSport HD",
         "Sky Sport 2 NZ HD",
         "Sky Sport Calcio HD",
+        "Sony Sports TEN 5 India HD",
         "Sport 2 Czechia HD",
         "Sport 2 Israel HD",
         "Sport 24 At Sea HD",
@@ -101,6 +114,7 @@
         "TV2 Sport 1 Norge HD",
         "TV2 Sport X Dansk HD",
         "UEFA.TV [online] (geo/R) 📺",
+        "ViaPlay Norge HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
         "YouTube: Viaplay Int'l (geo/R) 📺",
@@ -146,9 +160,11 @@
       "channels_raw": [
         "Arena Premium 4 Srbija HD",
         "FIFA+ [app] (geo/R) 📺",
+        "NTA Sports 24",
         "Sportdigital FUSSBALL HD",
         "SportKlub 2 Hrvatska",
         "SportKlub 4 Slovenija",
+        "Sporty TV Africa",
         "SuperSport LaLiga HD",
         "SuperSport MáXimo 3A HD"
       ]
@@ -159,6 +175,8 @@
       "kickoff_baghdad": "19:00",
       "channels_raw": [
         "FIFA+ [app] (geo/R) 📺",
+        "ORTB Benin",
+        "Rwanda TV HD",
         "SportKlub 4 Hrvatska",
         "SportKlub 5 Slovenija"
       ]
@@ -169,6 +187,8 @@
       "kickoff_baghdad": "19:00",
       "channels_raw": [
         "FIFA+ [app] (geo/R) 📺",
+        "MBC 5",
+        "Sport TV2 Portugal HD",
         "SportKlub HD"
       ]
     },
@@ -177,14 +197,17 @@
       "title": "Zimbabwe v South Africa",
       "kickoff_baghdad": "19:00",
       "channels_raw": [
+        "ESPN 3 Nederland HD",
         "FIFA+ [app] (geo/R) 📺",
         "Okko Prime Sport HD ($/geo/R)",
+        "SABC 2 HD",
         "SportKlub 1 Hrvatska HD",
         "SportKlub 3 Slovenija",
         "SuperSport Grandstand HD",
         "SuperSport MáXimo 1 HD",
         "SuperSport MáXimo 360",
-        "SuperSport PSL HD"
+        "SuperSport PSL HD",
+        "ZBC Zimbabwe HD"
       ]
     },
     {
@@ -202,7 +225,8 @@
       "title": "Germany U-21 v Greece U-21",
       "kickoff_baghdad": "19:00",
       "channels_raw": [
-        "DFB Play TV (geo/R) 📺"
+        "DFB Play TV (geo/R) 📺",
+        "YouTube: German Football (geo/R) 📺"
       ]
     },
     {
@@ -210,6 +234,7 @@
       "title": "Portugal U-20 v Germany U-20",
       "kickoff_baghdad": "19:00",
       "channels_raw": [
+        "DFB Play TV (geo/R) 📺",
         "YouTube: German Football (geo/R) 📺"
       ]
     },
@@ -223,11 +248,30 @@
     },
     {
       "competition": "UEFA U-21 Championship 2027 Qualifiers",
+      "title": "Bosnia U-21 v Netherlands U-21",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "ESPN 1 Nederland HD"
+      ]
+    },
+    {
+      "competition": "Friendly Club Match",
+      "title": "Inter Milan v Atlético Madrid",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA Global HD",
+        "DAZN Italia ($/geo/R)"
+      ]
+    },
+    {
+      "competition": "UEFA U-21 Championship 2027 Qualifiers",
       "title": "Italy U-21 v Sweden U-21",
       "kickoff_baghdad": "19:15",
       "channels_raw": [
         "RAI 2 Italia HD 📺",
-        "ViaPlay Sport Sverige HD"
+        "ViaPlay Sport Sverige HD",
+        "ViaPlay Sverige HD"
       ]
     },
     {
@@ -240,7 +284,8 @@
         "DAZN Great Britain (geo/R) 📺",
         "DAZN Ireland ($/geo/R) 📺",
         "Magenta Sport ($/geo/R) 📺",
-        "SÝN Sport ViaPlay HD"
+        "SÝN Sport ViaPlay HD",
+        "ViaPlay Danmark HD"
       ]
     },
     {
@@ -256,6 +301,7 @@
       "title": "Russia v Iran",
       "kickoff_baghdad": "20:00",
       "channels_raw": [
+        "GEM Sport HD",
         "IRIB TV3 HD",
         "MATCH! Russia HD",
         "Persiana Sport HD"
@@ -286,6 +332,8 @@
       "title": "Portugal U-21 v Bulgaria U-21",
       "kickoff_baghdad": "21:30",
       "channels_raw": [
+        "Canal 11 [online] (geo/R) 📺",
+        "Canal 11 Portugal HD",
         "Diema Sport HD",
         "Play Diema XTRA ($/geo/R) 📺"
       ]
@@ -310,7 +358,8 @@
         "TEN TV España HD",
         "TV Canaria",
         "TV2 Sport Premium 2 HD",
-        "TV4 Fotboll HD"
+        "TV4 Fotboll HD",
+        "ViaPlay Norge HD"
       ]
     },
     {
@@ -319,6 +368,9 @@
       "kickoff_baghdad": "21:45",
       "channels_raw": [
         "Arena Sport 3 Srbija HD",
+        "ART Motion Sport 1 HD 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 4 HD",
         "DAZN Deutsch ($/geo/R)",
         "Digi Sport 4 Romania",
         "EXXEN Digital Türkiye [$] 📺",
@@ -357,6 +409,7 @@
         "TV2 Sport 1 Norge HD",
         "TV2 Sport X Dansk HD",
         "UEFA.TV [online] (geo/R) 📺",
+        "ViaPlay Norge HD",
         "ViaPlay Sport Sverige HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
@@ -374,6 +427,8 @@
         "BBC One Northern Ireland HD",
         "BBC Sport NI Online 📺",
         "BBC Two HD (exc NI)",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 6 HD",
         "DAZN Deutsch ($/geo/R)",
         "EXXEN Digital Türkiye [$] 📺",
         "Fast Sports [online] ($/geo/R) 📺",
@@ -384,10 +439,13 @@
         "Play Diema XTRA ($/geo/R) 📺",
         "Prima Sport RO 5 HD",
         "Sky Sport 6 NZ HD",
+        "Sony Sports TEN 3 India HD",
         "SportKlub 10 Hrvatska",
         "STVR Šport Slovakia HD 📺",
+        "TV2 Play Danmark ($/geo/R) 📺",
         "TV2 Play Norge ($/geo/R) 📺",
         "UEFA.TV [online] (geo/R) 📺",
+        "ViaPlay Norge HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
         "Virgin Media PLAY (geo/R)",
@@ -401,6 +459,8 @@
       "title": "Kosovo v Slovenia",
       "kickoff_baghdad": "21:45",
       "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 7 HD",
         "DAZN Deutsch ($/geo/R)",
         "EXXEN Digital Türkiye [$] 📺",
         "Fast Sports [online] ($/geo/R) 📺",
@@ -412,12 +472,15 @@
         "Optus Sport ($/geo/R) 📺",
         "Play Diema XTRA ($/geo/R) 📺",
         "Prima Sport RO PPV 2",
+        "RTK 1 Kosovo HD 📺",
         "Sport TV1 Slovenija",
         "SportKlub 2 Hrvatska",
         "SuperSport 2 Albania HD",
         "SuperSport OTT 8",
+        "TV2 Play Danmark ($/geo/R) 📺",
         "TV2 Play Norge ($/geo/R) 📺",
         "UEFA.TV [online] (geo/R) 📺",
+        "ViaPlay Norge HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
         "YouTube: Viaplay Int'l (geo/R) 📺"
@@ -429,6 +492,8 @@
       "kickoff_baghdad": "21:45",
       "channels_raw": [
         "Arena Sport 5 Srbija HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 5 HD",
         "DAZN Deutsch ($/geo/R)",
         "ESPN 4 Brazil HD",
         "EXXEN Digital Türkiye [$] 📺",
@@ -446,10 +511,13 @@
         "Prima Sport RO PPV 1",
         "Silk Sport 3 HD",
         "Sky Sport Select NZ HD",
+        "Sport TV5 Portugal HD",
         "SportKlub 6 Hrvatska",
         "SÝN Sport 1 Ísland HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
         "TV2 Play Norge ($/geo/R) 📺",
         "UEFA.TV [online] (geo/R) 📺",
+        "ViaPlay Norge HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
         "YouTube: Viaplay Int'l (geo/R) 📺"
@@ -463,6 +531,10 @@
         "ARD Das Erste HD 📺",
         "Arena Premium 3 BiH HD",
         "Arena Premium 5 Srbija HD",
+        "ART Motion Sport 2 HD 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 2 HD",
+        "beIN Sports MENA English 2 HD",
         "Cytavision Sports 3 HD",
         "Diema Sport 3 HD",
         "Digi Sport 2 Romania HD",
@@ -470,6 +542,7 @@
         "EXXEN Digital Türkiye [$] 📺",
         "Fast Sports 1 Armenia ($/geo/R) 📺",
         "Fast Sports [online] ($/geo/R) 📺",
+        "Fox Soccer Plus USA",
         "Go3 Extra Sports Baltics ($/geo/R) 📺",
         "L´Équipe Live Foot (geo/R) 📺",
         "Megogo Futbol 3 ($/geo/R)",
@@ -483,10 +556,12 @@
         "PrimaPlay [app] 📺",
         "Prime Video UK PPV [$] 📺",
         "Q Sport League HD",
+        "RTL Zwee Luxembourg 📺",
         "S Sport+ Streaming",
         "Silk Universal HD",
         "Sky Sport 4 NZ HD",
         "Sky Sport Uno Italia HD",
+        "Sony Sports TEN 2 India HD",
         "Sport 1 Czechia HD",
         "Sport 2 Israel HD",
         "Sport 24 At Sea HD",
@@ -498,10 +573,12 @@
         "SuperSport 4 Albania HD",
         "SuperSport LaLiga HD",
         "SuperSport MáXimo 3A HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
         "TV2 Play Norge ($/geo/R) 📺",
         "TV2 Play Premium (geo/R) 📺",
         "UEFA.TV [online] (geo/R) 📺",
         "V Sport Premium HD",
+        "ViaPlay Norge HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
         "YouTube: Viaplay Int'l (geo/R) 📺",
@@ -516,6 +593,9 @@
         "4 Sports HD 📺",
         "Arena Premium 2 BiH HD",
         "Arena Premium 4 Srbija HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA English 1 HD",
         "CBC Sport HD",
         "Cytavision Sports 4 HD",
         "Cytavision Sports PPV 3 HD",
@@ -525,6 +605,7 @@
         "Digi Sport 1 Romania HD",
         "EXXEN Digital Türkiye [$] 📺",
         "Fast Sports [online] ($/geo/R) 📺",
+        "Fox Sports 2 USA HD",
         "Go3 Extra Sports Baltics ($/geo/R) 📺",
         "IRIB Varzesh HD",
         "Megogo Futbol 2 ($/geo/R)",
@@ -540,6 +621,7 @@
         "QazSport HD",
         "Silk Sport 1 HD",
         "Sky Sport 7 NZ HD",
+        "Sony Sports TEN 1 India HD",
         "Sport 2 Czechia HD",
         "Sport 4 Israel HD",
         "Sport TV1 Portugal HD",
@@ -551,10 +633,12 @@
         "SuperSport Premier League HD",
         "TF1 France HD 📺",
         "TF1 Suisse HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
         "TV2 Play Norge ($/geo/R) 📺",
         "TV2 Play Premium (geo/R) 📺",
         "TV2 Sport Premium HD",
         "UEFA.TV [online] (geo/R) 📺",
+        "ViaPlay Norge HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
         "YouTube: Viaplay Int'l (geo/R) 📺"
@@ -568,6 +652,9 @@
         "Arena 4 Hungary HD",
         "Arena Premium 1 BiH HD",
         "Arena Sport 2 Srbija HD",
+        "ART Motion Sport 4 HD 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 3 HD",
         "Cytavision Sports 6 HD",
         "DAZN Deutsch ($/geo/R)",
         "Digi Sport 3 Romania",
@@ -589,13 +676,17 @@
         "PrimaPlay [app] 📺",
         "Prime Video UK PPV [$] 📺",
         "RTBF La Une HD",
+        "Sony Sports TEN 5 India HD",
         "Sport 1 Israel HD",
+        "Sport TV4 Portugal HD",
         "SportKlub 1 Slovenija HD",
         "SuperSport 5 Albania HD",
         "SuperSport Football HD",
         "SuperSport MáXimo 360",
+        "TV2 Play Danmark ($/geo/R) 📺",
         "TV2 Play Norge ($/geo/R) 📺",
         "UEFA.TV [online] (geo/R) 📺",
+        "ViaPlay Norge HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
         "VTM Belgium HD",
@@ -648,6 +739,7 @@
       "title": "East Fife v Celtic B",
       "kickoff_baghdad": "21:45",
       "channels_raw": [
+        "Celtic TV ($/geo/R) 📺",
         "East Fife TV [$] 📺"
       ]
     },
