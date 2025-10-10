@@ -3,13 +3,24 @@
   "source_url": "https://liveonsat.com/2day.php",
   "matches": [
     {
+      "competition": "Friendly International",
+      "title": "South Korea v Brazil",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "GEM Sport HD",
+        "IRIB Varzesh HD",
+        "SporTV Brazil HD"
+      ]
+    },
+    {
       "competition": "FIFA/CAF WC 2026 Qualifiers - Group B, Round 9",
       "title": "South Sudan v Senegal",
-      "kickoff_baghdad": "15:00",
+      "kickoff_baghdad": "16:00",
       "channels_raw": [
         "Arena Premium 3 Srbija HD",
         "FIFA+ [app] (geo/R) 📺",
         "L´Équipe Live Foot (geo/R) 📺",
+        "New World Sport 2 Mauritius",
         "RTS 1 Senegal HD 📺",
         "RTS 2 Senegal HD 📺",
         "Sportdigital FUSSBALL HD",
@@ -25,6 +36,7 @@
         "FIFA+ [app] (geo/R) 📺",
         "Gabon 1ère 📺",
         "L´Équipe Live Foot (geo/R) 📺",
+        "New World Sport 4 Togo",
         "SportKlub 1 Slovenija HD",
         "SportKlub 5 Hrvatska"
       ]
@@ -38,6 +50,7 @@
         "FIFA+ [app] (geo/R) 📺",
         "La Nouvelle Chaîne Ivorienne 📺",
         "L´Équipe Live Foot (geo/R) 📺",
+        "New World Sport 3 Togo",
         "SportKlub 6 Hrvatska"
       ]
     },
@@ -58,6 +71,7 @@
       "channels_raw": [
         "FIFA+ [app] (geo/R) 📺",
         "L´Équipe Live Foot (geo/R) 📺",
+        "New World Sport 1 Mauritius",
         "RTNC Congo DR",
         "SportKlub HD",
         "TVT Togo"
@@ -189,7 +203,8 @@
         "FIFA+ [app] (geo/R) 📺",
         "MBC 5",
         "Sport TV2 Portugal HD",
-        "SportKlub HD"
+        "SportKlub HD",
+        "Watania 1 HD"
       ]
     },
     {
@@ -261,7 +276,8 @@
       "channels_raw": [
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA Global HD",
-        "DAZN Italia ($/geo/R)"
+        "DAZN Italia ($/geo/R)",
+        "Libya Sport TV1 HD"
       ]
     },
     {
@@ -360,6 +376,22 @@
         "TV2 Sport Premium 2 HD",
         "TV4 Fotboll HD",
         "ViaPlay Norge HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone B - Girone B - 9",
+      "title": "Arezzo v Gubbio",
+      "kickoff_baghdad": "21:30",
+      "channels_raw": [
+        "Sky Go Italy [online]"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone B - Girone B - 9",
+      "title": "AC Bra v AC Carpi",
+      "kickoff_baghdad": "21:30",
+      "channels_raw": [
+        "Sky Go Italy [online]"
       ]
     },
     {
@@ -531,7 +563,7 @@
         "ARD Das Erste HD 📺",
         "Arena Premium 3 BiH HD",
         "Arena Premium 5 Srbija HD",
-        "ART Motion Sport 2 HD 📺",
+        "ART Motion Sport 3 HD 📺",
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA 2 HD",
         "beIN Sports MENA English 2 HD",
@@ -593,6 +625,7 @@
         "4 Sports HD 📺",
         "Arena Premium 2 BiH HD",
         "Arena Premium 4 Srbija HD",
+        "ART Motion Sport 2 HD 📺",
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA 1 HD",
         "beIN Sports MENA English 1 HD",
@@ -621,6 +654,7 @@
         "QazSport HD",
         "Silk Sport 1 HD",
         "Sky Sport 7 NZ HD",
+        "Solh TV",
         "Sony Sports TEN 1 India HD",
         "Sport 2 Czechia HD",
         "Sport 4 Israel HD",
