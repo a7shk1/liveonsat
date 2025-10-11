@@ -3,16 +3,15 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, تصفيات كأس العالم آسيا",
-      "kickoff_baghdad": "20:15",
-      "home_team": "الإمارات",
-      "away_team": "عمان",
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "إستونيا",
+      "away_team": "إيطاليا",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "Football HD"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5051.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/64.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -27,19 +26,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/48.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5066.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
-      "home_team": "إستونيا",
-      "away_team": "إيطاليا",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5051.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/64.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -84,7 +70,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/281.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -177,6 +163,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5026.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5049.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, تصفيات كأس العالم آسيا",
+      "kickoff_baghdad": "20:15",
+      "home_team": "الإمارات",
+      "away_team": "عمان",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
