@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 20 - ربع النهائي",
-      "kickoff_baghdad": "00:12",
-      "home_team": "إسبانيا تحت 20",
-      "away_team": "كولومبيا تحت 20",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12551.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10056.png",
-      "status_text": "انتهت",
-      "result_text": "0-1"
-    },
-    {
       "competition": "آسيا, تصفيات كأس العالم آسيا",
       "kickoff_baghdad": "00:12",
       "home_team": "العراق",
@@ -27,6 +14,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/281.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 20 - ربع النهائي",
+      "kickoff_baghdad": "00:12",
+      "home_team": "إسبانيا تحت 20",
+      "away_team": "كولومبيا تحت 20",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12551.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10056.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     },
     {
       "competition": "دولي, كأس العالم تحت 20 - ربع النهائي",
