@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "04:00",
-      "home_team": "المكسيك",
-      "away_team": "كولومبيا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5106.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/tXHn.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "آسيا, تصفيات كأس العالم آسيا",
       "kickoff_baghdad": "00:12",
       "home_team": "العراق",
@@ -64,6 +51,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/اتلانتا-يونايتد.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/اتلانتا-يونايتد.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "04:00",
+      "home_team": "المكسيك",
+      "away_team": "كولومبيا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5106.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/tXHn.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
