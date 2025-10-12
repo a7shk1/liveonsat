@@ -3,6 +3,19 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "16:00",
+      "home_team": "سان مارينو",
+      "away_team": "قبرص",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5036.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5065.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "16:00",
       "home_team": "زامبيا",
@@ -13,19 +26,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5101.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8443.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "16:00",
-      "home_team": "سان مارينو",
-      "away_team": "قبرص",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5036.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5065.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -158,6 +158,36 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "22:00",
+      "home_team": "غانا",
+      "away_team": "جزر القمر",
+      "channels_raw": [
+        "غير معروف",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5094.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "مالي",
+      "away_team": "مدغشقر",
+      "channels_raw": [
+        "غير معروف",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/2200.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "22:00",
       "home_team": "بوركينا فاسو",
       "away_team": "أثيوبيا",
       "channels_raw": [
@@ -197,36 +227,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1067.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "غانا",
-      "away_team": "جزر القمر",
-      "channels_raw": [
-        "غير معروف",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5094.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "مالي",
-      "away_team": "مدغشقر",
-      "channels_raw": [
-        "غير معروف",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/2200.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
