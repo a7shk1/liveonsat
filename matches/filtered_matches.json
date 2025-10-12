@@ -13,7 +13,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5101.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8443.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -26,7 +26,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5036.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5065.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -158,6 +158,36 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "22:00",
+      "home_team": "غانا",
+      "away_team": "جزر القمر",
+      "channels_raw": [
+        "غير معروف",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5094.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "مالي",
+      "away_team": "مدغشقر",
+      "channels_raw": [
+        "غير معروف",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/2200.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "22:00",
       "home_team": "بوركينا فاسو",
       "away_team": "أثيوبيا",
       "channels_raw": [
@@ -201,36 +231,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "غانا",
-      "away_team": "جزر القمر",
-      "channels_raw": [
-        "غير معروف",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5094.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "مالي",
-      "away_team": "مدغشقر",
-      "channels_raw": [
-        "غير معروف",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/2200.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 20 - ربع النهائي",
       "kickoff_baghdad": "23:00",
       "home_team": "الولايات المتحدة تحت 20",
@@ -244,19 +244,6 @@
       "result_text": "0--"
     },
     {
-      "competition": "دولي, كأس العالم تحت 20 - ربع النهائي",
-      "kickoff_baghdad": "00:12",
-      "home_team": "إسبانيا تحت 20",
-      "away_team": "كولومبيا تحت 20",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12551.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10056.png",
-      "status_text": "انتهت",
-      "result_text": "0-1"
-    },
-    {
       "competition": "آسيا, تصفيات كأس العالم آسيا",
       "kickoff_baghdad": "00:12",
       "home_team": "العراق",
@@ -268,6 +255,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/281.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 20 - ربع النهائي",
+      "kickoff_baghdad": "00:12",
+      "home_team": "إسبانيا تحت 20",
+      "away_team": "كولومبيا تحت 20",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12551.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10056.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     },
     {
       "competition": "دولي, كأس العالم تحت 20 - ربع النهائي",
