@@ -3,17 +3,62 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "20:00",
-      "home_team": "الجزائر",
-      "away_team": "فلسطين",
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "أيسلندا",
+      "away_team": "فرنسا",
       "channels_raw": [
-        "الجزائرية السادسة"
+        "beIN Sports HD",
+        "ESPN 1 Brazil HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5067.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/437.png",
       "status_text": "جارية الان",
-      "result_text": "0-1"
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "سلوفاكيا",
+      "away_team": "لوكسمبورج",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5039.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5033.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "ويلز",
+      "away_team": "بلجيكا",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5043.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2373.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "إيرلندا الشمالية",
+      "away_team": "ألمانيا",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "ESPN 1 Brazil HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5037.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/59.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
     },
     {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
@@ -52,64 +97,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5041.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5032.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
-      "home_team": "سلوفاكيا",
-      "away_team": "لوكسمبورج",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5039.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5033.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
-      "home_team": "أيسلندا",
-      "away_team": "فرنسا",
-      "channels_raw": [
-        "beIN Sports HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5067.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/437.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
-      "home_team": "ويلز",
-      "away_team": "بلجيكا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5043.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2373.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
-      "home_team": "إيرلندا الشمالية",
-      "away_team": "ألمانيا",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5037.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/59.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -155,19 +142,6 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "16:00",
-      "home_team": "تونس",
-      "away_team": "ناميبيا",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/673.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "16:00",
       "home_team": "غينيا الاستوائية",
       "away_team": "ليبيريا",
       "channels_raw": [
@@ -188,6 +162,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/19417.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5405.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "16:00",
+      "home_team": "تونس",
+      "away_team": "ناميبيا",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/673.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -235,6 +222,20 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "19:00",
+      "home_team": "الرأس الأخضر",
+      "away_team": "إسواتيني",
+      "channels_raw": [
+        "Shahid MBC",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5411.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/683.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "19:00",
       "home_team": "الكاميرون",
       "away_team": "أنجولا",
       "channels_raw": [
@@ -247,18 +248,17 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الرأس الأخضر",
-      "away_team": "إسواتيني",
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "20:00",
+      "home_team": "الجزائر",
+      "away_team": "فلسطين",
       "channels_raw": [
-        "Shahid MBC",
-        "Football HD"
+        "الجزائرية السادسة"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5411.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/683.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "0-1"
     }
   ]
 }
