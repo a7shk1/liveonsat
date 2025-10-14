@@ -3,6 +3,19 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
+      "competition": "آسيا, تصفيات كأس آسيا",
+      "kickoff_baghdad": "13:30",
+      "home_team": "الصين تايبيه",
+      "away_team": "تايلاند",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8509.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5082.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "13:30",
       "home_team": "اليابان",
@@ -25,19 +38,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12991.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5090.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "آسيا, تصفيات كأس آسيا",
-      "kickoff_baghdad": "13:30",
-      "home_team": "الصين تايبيه",
-      "away_team": "تايلاند",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8509.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5082.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -133,19 +133,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "آسيا, تصفيات كأس آسيا",
-      "kickoff_baghdad": "18:00",
-      "home_team": "أفغانستان",
-      "away_team": "باكستان",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/12989.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/12992.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "18:00",
       "home_team": "إيران",
@@ -159,44 +146,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الصومال",
-      "away_team": "موزمبيق",
+      "competition": "آسيا, تصفيات كأس آسيا",
+      "kickoff_baghdad": "18:00",
+      "home_team": "أفغانستان",
+      "away_team": "باكستان",
       "channels_raw": [
-        "Shahid MBC",
-        "Football HD"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/27810.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/674.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "19:00",
-      "home_team": "النرويج",
-      "away_team": "نيوزلندا",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2376.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2391.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "نيجيريا",
-      "away_team": "بنين",
-      "channels_raw": [
-        "Shahid MBC",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2386.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/233.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/12989.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/12992.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -217,6 +175,20 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "19:00",
+      "home_team": "الصومال",
+      "away_team": "موزمبيق",
+      "channels_raw": [
+        "Shahid MBC",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/27810.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/674.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "19:00",
       "home_team": "الجزائر",
       "away_team": "أوغندا",
       "channels_raw": [
@@ -225,6 +197,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/391.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "19:00",
+      "home_team": "النرويج",
+      "away_team": "نيوزلندا",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2376.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2391.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -239,6 +225,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5103.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5408.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "19:00",
+      "home_team": "نيجيريا",
+      "away_team": "بنين",
+      "channels_raw": [
+        "Shahid MBC",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2386.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/233.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -373,45 +373,15 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "22:00",
-      "home_team": "المغرب",
-      "away_team": "جمهورية الكونغو",
-      "channels_raw": [
-        "الرياضية المغربية (3)",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5110.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "الجابون",
-      "away_team": "بورندي",
+      "home_team": "الكونغو الديمقراطية",
+      "away_team": "السودان",
       "channels_raw": [
         "Shahid MBC",
         "Persiana Sport HD",
         "Football HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/386.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5600.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "السنغال",
-      "away_team": "موريتانيا",
-      "channels_raw": [
-        "Shahid MBC",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5102.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5599.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/14650.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -433,15 +403,45 @@
     {
       "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
       "kickoff_baghdad": "22:00",
-      "home_team": "الكونغو الديمقراطية",
-      "away_team": "السودان",
+      "home_team": "المغرب",
+      "away_team": "جمهورية الكونغو",
+      "channels_raw": [
+        "الرياضية المغربية (3)",
+        "Persiana Sport HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5110.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "السنغال",
+      "away_team": "موريتانيا",
       "channels_raw": [
         "Shahid MBC",
         "Persiana Sport HD",
         "Football HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/14650.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5102.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5599.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "الجابون",
+      "away_team": "بورندي",
+      "channels_raw": [
+        "Shahid MBC",
+        "Persiana Sport HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/386.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5600.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
