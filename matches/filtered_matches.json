@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "05:30",
-      "home_team": "المكسيك",
-      "away_team": "الإكوادور",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5106.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/5075.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 20 - نصف النهائي",
       "kickoff_baghdad": "23:00",
       "home_team": "المغرب | تحت 20",
@@ -66,6 +53,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/326.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "05:30",
+      "home_team": "المكسيك",
+      "away_team": "الإكوادور",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5106.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/5075.png",
+      "status_text": "انتهت",
+      "result_text": "1-0"
     }
   ]
 }
