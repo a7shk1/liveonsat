@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
-      "kickoff_baghdad": "17:00",
-      "home_team": "الاتحاد المنستيري",
-      "away_team": "شبيبة القبائل",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/784.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8223.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "17:00",
-      "home_team": "وادي دجلة",
-      "away_team": "مودرن سبورت",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "18:05",
       "home_team": "الفيحاء",
@@ -39,6 +13,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1445.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
       "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "20:00",
+      "home_team": "غزل المحلة",
+      "away_team": "كهرباء الاسماعيلية",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
     {
@@ -64,19 +51,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8310.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8300.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "20:00",
-      "home_team": "غزل المحلة",
-      "away_team": "كهرباء الاسماعيلية",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -129,6 +103,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/52470.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
+      "kickoff_baghdad": "17:00",
+      "home_team": "الاتحاد المنستيري",
+      "away_team": "شبيبة القبائل",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/784.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8223.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "17:00",
+      "home_team": "وادي دجلة",
+      "away_team": "مودرن سبورت",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
