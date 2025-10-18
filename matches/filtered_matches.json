@@ -5,19 +5,6 @@
     {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
-      "home_team": "ليتشي",
-      "away_team": "ساسولو",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
       "home_team": "بيسا",
       "away_team": "هيلاس فيرونا",
       "channels_raw": [
@@ -38,6 +25,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "ليتشي",
+      "away_team": "ساسولو",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -155,7 +155,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/182.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -168,7 +168,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -181,20 +181,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
-      "kickoff_baghdad": "19:00",
-      "home_team": "رحيمو",
-      "away_team": "الترجي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/254.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -211,15 +198,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "فولهام",
-      "away_team": "أرسنال",
+      "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
+      "kickoff_baghdad": "19:00",
+      "home_team": "رحيمو",
+      "away_team": "الترجي",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/254.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -250,15 +237,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أفريقيا, كأس السوبر الإفريقي - النهائي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "بيراميدز",
-      "away_team": "نهضة بركان",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "فولهام",
+      "away_team": "أرسنال",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1529.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -285,6 +272,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, كأس السوبر الإفريقي - النهائي",
+      "kickoff_baghdad": "20:00",
+      "home_team": "بيراميدز",
+      "away_team": "نهضة بركان",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1529.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
