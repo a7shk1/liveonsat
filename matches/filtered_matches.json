@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, المباريات الوديّة الدوليّة",
-      "kickoff_baghdad": "12:30",
-      "home_team": "الرجاء البيضاوي",
-      "away_team": "حسنية أكادير",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/451.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "14:30",
       "home_team": "نوتنجهام فورست",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/29.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/121.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -250,6 +237,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "فياريال",
+      "away_team": "ريال بيتيس",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "19:30",
       "home_team": "فولهام",
@@ -276,15 +276,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "فياريال",
-      "away_team": "ريال بيتيس",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "20:00",
+      "home_team": "أنجيه",
+      "away_team": "موناكو",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "beIN Sports 5 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -311,19 +311,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/5.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/149.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "أنجيه",
-      "away_team": "موناكو",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -390,6 +377,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/485.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, المباريات الوديّة الدوليّة",
+      "kickoff_baghdad": "12:30",
+      "home_team": "الرجاء البيضاوي",
+      "away_team": "حسنية أكادير",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/451.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
