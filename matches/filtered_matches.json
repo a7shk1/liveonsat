@@ -116,7 +116,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/995.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -129,7 +129,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/540.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/924.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -224,19 +224,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "ليتشي",
-      "away_team": "ساسولو",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
       "kickoff_baghdad": "16:00",
       "home_team": "أيجل نوار",
@@ -263,6 +250,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "ليتشي",
+      "away_team": "ساسولو",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "16:30",
       "home_team": "ماينز 05",
@@ -272,6 +272,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/297.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:00",
+      "home_team": "سندرلاند",
+      "away_team": "وولفرهامبتون",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/117.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/15.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:00",
+      "home_team": "بيرنلي",
+      "away_team": "ليدز يونايتد",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/12.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -324,32 +350,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1426.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "سندرلاند",
-      "away_team": "وولفرهامبتون",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/117.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/15.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "بيرنلي",
-      "away_team": "ليدز يونايتد",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/12.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
