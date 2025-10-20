@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 20 - النهائي",
-      "kickoff_baghdad": "02:00",
-      "home_team": "الأرجنتين تحت 20",
-      "away_team": "المغرب | تحت 20",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10055.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/1730.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "16:45",
       "home_team": "الوحدة",
@@ -104,6 +91,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/168.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 20 - النهائي",
+      "kickoff_baghdad": "02:00",
+      "home_team": "الأرجنتين تحت 20",
+      "away_team": "المغرب | تحت 20",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10055.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/1730.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
