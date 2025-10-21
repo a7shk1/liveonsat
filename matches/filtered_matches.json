@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
-      "kickoff_baghdad": "17:00",
-      "home_team": "النادي الأفريقي",
-      "away_team": "الاتحاد المنستيري",
-      "channels_raw": [
-        "الكاس 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8239.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/784.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "17:00",
       "home_team": "بيراميدز",
@@ -25,6 +12,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1880.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
+      "kickoff_baghdad": "17:00",
+      "home_team": "النادي الأفريقي",
+      "away_team": "الاتحاد المنستيري",
+      "channels_raw": [
+        "الكاس 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8239.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/784.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
