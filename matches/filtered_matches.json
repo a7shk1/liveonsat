@@ -3,30 +3,16 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "21:15",
-      "home_team": "الهلال",
-      "away_team": "السد",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "بنفيكا",
+      "home_team": "يونيون سانت جيلواز",
+      "away_team": "إنتر ميلان",
       "channels_raw": [
-        "beIN Sports 6 HD",
-        "TNT Sports 2 HD",
-        "TNT Sports HD"
+        "beIN Sports 5 HD",
+        "Football HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/888.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1204-1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -40,20 +26,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/725.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "يونيون سانت جيلواز",
-      "away_team": "إنتر ميلان",
-      "channels_raw": [
-        "beIN Sports 5 HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1204-1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -122,6 +94,21 @@
       "result_text": "0-0"
     },
     {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "بنفيكا",
+      "channels_raw": [
+        "beIN Sports 6 HD",
+        "TNT Sports 2 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/888.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "تونس, الرابطة التونسية المحترفة الأولى",
       "kickoff_baghdad": "17:00",
       "home_team": "النادي الأفريقي",
@@ -179,6 +166,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/225.png",
       "status_text": "انتهت",
       "result_text": "2-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "21:15",
+      "home_team": "الهلال",
+      "away_team": "السد",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
