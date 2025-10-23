@@ -1,5 +1,831 @@
 {
   "date": "2025-10-23",
   "source_url": "https://liveonsat.com/2day.php",
-  "matches": []
+  "matches": [
+    {
+      "competition": "CONMEBOL Copa Libertadores - Semi Final (1st Leg)",
+      "title": "Flamengo v Racing Club",
+      "kickoff_baghdad": "03:30",
+      "channels_raw": [
+        "Arena Sport 1 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports Australia 3 HD",
+        "beIN Sports MENA 3 HD",
+        "beIN Sports MENA English 1 HD",
+        "Sportdigital 1+ Deutsch HD"
+      ]
+    },
+    {
+      "competition": "AFC Champions League 2 - Round 3",
+      "title": "Tampines Rovers v Pohang Steelers",
+      "kickoff_baghdad": "13:00",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 5 HD",
+        "Spor Smart Türkiye HD",
+        "Sport 1 Baltic",
+        "Sport 1 Ukraine",
+        "SportKlub 1 Slovenija HD",
+        "YouTube: The AFC Hub 📺"
+      ]
+    },
+    {
+      "competition": "AFC Champions League 2 - Round 3",
+      "title": "Kaya FC v Pathum United",
+      "kickoff_baghdad": "13:00",
+      "channels_raw": [
+        "Spor Smart 2 Türkiye HD",
+        "SportKlub 5 Slovenija",
+        "YouTube: The AFC Hub 📺"
+      ]
+    },
+    {
+      "competition": "AFC Champions League 2 - Round 3",
+      "title": "Tai Po v Beijing Guoan",
+      "kickoff_baghdad": "13:00",
+      "channels_raw": [
+        "Sport 2 Ukraine",
+        "SportKlub 3 Slovenija",
+        "YouTube: The AFC Hub 📺"
+      ]
+    },
+    {
+      "competition": "AFC Champions League 2 - Round 3",
+      "title": "Persib Bandung v Selangor",
+      "kickoff_baghdad": "15:15",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 4 HD",
+        "SportKlub 3 Slovenija",
+        "YouTube: The AFC Hub 📺"
+      ]
+    },
+    {
+      "competition": "AFC Champions League 2 - Round 3",
+      "title": "Bangkok United v Lion City Sailors",
+      "kickoff_baghdad": "15:15",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 3 HD",
+        "Spor Smart 2 Türkiye HD",
+        "Sport 2 Ukraine",
+        "Sportdigital FUSSBALL 2",
+        "SportKlub 1 Slovenija HD",
+        "YouTube: The AFC Hub 📺"
+      ]
+    },
+    {
+      "competition": "AFC Champions League 2 - Round 3",
+      "title": "Công An Hà Nôi v Macarthur FC",
+      "kickoff_baghdad": "15:15",
+      "channels_raw": [
+        "Spor Smart Türkiye HD",
+        "Sport 1 Baltic",
+        "Sport 1 Ukraine",
+        "SportKlub 5 Slovenija",
+        "YouTube: The AFC Hub 📺"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Go Ahead Eagles v Aston Villa",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA English 1 HD",
+        "Blue Sport 11 Live HD",
+        "Cytavision Sports 7 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 7",
+        "MAX Sport 2 Bulgaria HD",
+        "Paramount+ USA ($/geo/R)",
+        "Play Sports 5 Belgium",
+        "Polsat Sport Extra 4 HD",
+        "Premier Sports 2 Ireland HD",
+        "Premier Sports 2 Mongolia HD",
+        "RTL+ Deutschland (geo/R) 📺",
+        "RTL+ Hungary [online] 📺",
+        "Setanta Sports 2 Georgia HD",
+        "Sky Sport 254 Italia HD",
+        "Sky Sport 7 Austria HD",
+        "Sport 2 Israel HD",
+        "SuperSport 3 Albania HD",
+        "TNT Sports 1 HD",
+        "TSN Malta 3 HD",
+        "Ziggo Sport 3"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "BK Häcken v Rayo Vallecano",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 9 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 2 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "FCSB v Bologna",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Premium 4 Srbija HD",
+        "Arena Sport 6 BiH HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 6 HD",
+        "Blue Sport 12 Live HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 10",
+        "Paramount+ USA ($/geo/R)",
+        "Premier Sports 4 Mongolia HD",
+        "Sky Sport 252 Italia HD",
+        "Sky Sport Uno Italia HD",
+        "TNT Sports 9",
+        "TSN Malta 2 HD",
+        "We Sport Moldova ($/geo/R)"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Brann v Rangers",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 7 HD",
+        "Blue Sport 13 Live HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 11",
+        "Paramount+ USA ($/geo/R)",
+        "Rangers TV ($/geo/R) 📺",
+        "TNT Sports 2 HD",
+        "TSN Malta 5 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "AEK Athens v Aberdeen",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Sport 7 Srbija HD",
+        "Arena Sport 8 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA English 2 HD",
+        "Blue Sport 14 Live HD",
+        "Cosmote Sport 4 HD",
+        "Cytavision Sports 4 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 13",
+        "Ring Bulgaria HD",
+        "TNT Sports 3 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Fenerbahçe v Stuttgart",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Premium 2 BiH HD",
+        "Arena Premium 2 Srbija HD",
+        "Arena Sport 4 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 4 HD",
+        "Blue Sport 6 Live HD",
+        "bTV Action HD",
+        "Cosmote Sport 7 HD",
+        "DAZN 3 Portugal HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 4",
+        "Paramount+ USA ($/geo/R)",
+        "Polsat Sport Extra 2 HD",
+        "Premier Sports 1 Mongolia HD",
+        "QazSport HD",
+        "RTL+ Deutschland (geo/R) 📺",
+        "RTL+ Hungary [online] 📺",
+        "Setanta Sports 1 Georgia HD",
+        "Silk Universal HD",
+        "Sky Sport 255 Italia HD",
+        "Sky Sport 6 Austria HD",
+        "Sport 2 Czechia HD",
+        "Sport 3 Israel HD",
+        "SportKlub 3 Slovenija",
+        "SuperSport 4 Albania HD",
+        "TNT Sports 7",
+        "TRT 1 Türkiye HD 📺",
+        "TSN Malta 1 HD",
+        "Ziggo Sport 5"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Lyon v Basel",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Premium 5 Srbija HD",
+        "Arena Sport 4 BiH HD",
+        "Arena Sport 9 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 3 HD",
+        "Blue Sport 1 Live HD",
+        "Blue Sport 2 Live HDR",
+        "Blue Sport D 2 HD",
+        "Canal+ Foot HD",
+        "DAZN 2 Portugal HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 6",
+        "Paramount+ USA ($/geo/R)",
+        "RTL+ Deutschland (geo/R) 📺",
+        "Sky Sport 256 Italia HD",
+        "SuperSport 5 Albania HD",
+        "TNT Sports 8"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Feyenoord v Panathinaikos",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "ANT 1 Hellas HD",
+        "Arena Premium 3 Srbija HD",
+        "Arena Sport 3 BiH HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 5 HD",
+        "Blue Sport 8 Live HD",
+        "Cosmote Sport 3 HD",
+        "Cytavision Sports 4K UHD",
+        "Cytavision Sports 5 HD",
+        "Cytavision Sports PPV 3 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 5",
+        "MAX Sport 4 Bulgaria HD",
+        "Paramount+ USA ($/geo/R)",
+        "Play Sports 3 Belgium",
+        "Polsat Sport Extra 1 HD",
+        "RTL+ Deutschland (geo/R) 📺",
+        "RTL+ Hungary [online] 📺",
+        "Sky Sport 8 Austria HD",
+        "Ziggo Sport HD"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Racing Genk v Real Betis",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Sport 7 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 2 HD",
+        "Blue Sport 7 Live HD",
+        "Cosmote Sport 9 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones HD",
+        "Movistar Plus+ HD",
+        "Paramount+ USA ($/geo/R)",
+        "Play Sports 4 Belgium",
+        "Premier Sports 3 Mongolia HD",
+        "RTBF Tipik Belgique",
+        "Sky Sport 5 Austria HD",
+        "TNT Sports 6",
+        "TSN Malta 4 HD",
+        "TVNet Sport Azerbaijan (geo/R)",
+        "VRT Canvas Belgium HD",
+        "Ziggo Sport 6"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Salzburg v Ferencváros",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Sport 10 Hrvatska HD",
+        "Arena Sport 5 BiH HD",
+        "Arena Sport 9 Srbija HD",
+        "beIN Sports MENA Xtra 1 HD",
+        "Blue Sport 9 Live HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 9",
+        "M4 Sport Hungary HD 📺",
+        "Paramount+ USA ($/geo/R)",
+        "Sky Sport 3 Austria HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Rapid Vienna v Fiorentina",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Premium 3 BiH HD",
+        "Arena Sport 5 Hrvatska HD",
+        "Arena Sport 8 Srbija HD",
+        "beIN Sports MENA Xtra 2 HD",
+        "Blue Sport 15 Live HD",
+        "Cosmote Sport 8 HD",
+        "Cytavision Sports 8 HD",
+        "DAZN 4 Portugal HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 12",
+        "Polsat Sport Extra 3 HD",
+        "Premier Sports 5 Mongolia HD",
+        "RTL+ Hungary [online] 📺",
+        "Silk Sport 3 HD",
+        "Sky Sport 2 Austria HD",
+        "Sky Sport 253 Italia HD",
+        "Sky Sport Calcio HD",
+        "TNT Sports 10",
+        "TSN Malta 8 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Sporting Braga v Red Star Belgrade",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Premium 1 BiH HD",
+        "Arena Premium 1 Srbija HD",
+        "Arena Sport 3 Hrvatska HD",
+        "Blue Sport 10 Live HD",
+        "DAZN 1 Portugal HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "Fast Sports 2 Armenia ($/geo/R) 📺",
+        "M+ Liga de Campeones 8",
+        "Paramount+ USA ($/geo/R)",
+        "RTS 1 Srbija HD",
+        "Sky Sport 4 Austria HD",
+        "SportKlub 1 Slovenija HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Shkëndija v Shelbourne",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 18",
+        "Premier Sports 1 Ireland HD",
+        "SuperSport 1 Albania HD",
+        "TNT Sports 5 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Breidablik v KuPS Kuopio",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 19"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Drita v Omonia Nicosia",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Cytavision Sports 3 HD",
+        "Cytavision Sports PPV 1 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 17",
+        "SuperSport 2 Albania HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Rijeka v Sparta Prague",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Arena Sport 1 BiH HD",
+        "Arena Sport 2 Hrvatska HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 15",
+        "Sport 1 Czechia HD",
+        "SportKlub 2 Slovenija"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Shakhtar Donetsk v Legia Warsaw",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Discovery+ UK ($/geo/R) 📺",
+        "Fast Sports 1 Armenia ($/geo/R) 📺",
+        "M+ Liga de Campeones 14",
+        "Polsat Sport 1 HD",
+        "Polsat Sport Premium 1 HD",
+        "Setanta Sports 3 Georgia HD",
+        "Sport TV Azerbaijan (geo/R)"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Strasbourg v Jagiellonia",
+      "kickoff_baghdad": "19:45",
+      "channels_raw": [
+        "Canal+ Sport France HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 16",
+        "Polsat Sport 2 HD",
+        "Polsat Sport Premium 2 HD"
+      ]
+    },
+    {
+      "competition": "Saudi Professional League - Week 6",
+      "title": "Al Najma v Al Ahli",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Band Sports Brazil HD",
+        "Movistar Plus+ 2 HD",
+        "Sport TV1 Portugal HD",
+        "Sportdigital FUSSBALL 2",
+        "Sportitalia HD 📺",
+        "Spíler 1 TV Hungary HD",
+        "TV2 Play Premium (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "English League One - Week 14",
+      "title": "Exeter City v Plymouth Argyle",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Match 4 Hungary HD",
+        "Sky Go UK [online]",
+        "Sky Sport Top Event HD",
+        "Sky Sports Football HD",
+        "Sky Sports Main Event HD",
+        "Sky Sports Main Event UHD",
+        "Sky UK Ultra HD 1"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Nottingham Forest v FC Porto",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Premium 2 BiH HD",
+        "Arena Premium 3 Srbija HD",
+        "Arena Sport 4 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 1 HD",
+        "Blue Sport 4 Live HD",
+        "bTV Action HD",
+        "Cosmote Sport 4 HD",
+        "Cytavision Sports 4 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "Fast Sports 2 Armenia ($/geo/R) 📺",
+        "Jurnal TV Moldova",
+        "M+ Liga de Campeones 2 HD",
+        "Paramount+ USA ($/geo/R)",
+        "Play Sports 4 Belgium",
+        "Polsat Sport Extra 1 HD",
+        "Premier Sports 2 Mongolia HD",
+        "QazSport HD",
+        "RTL+ Deutschland (geo/R) 📺",
+        "RTL+ Hungary [online] 📺",
+        "Setanta Sports 1 Georgia HD",
+        "Silk Sport 3 HD",
+        "Sky Sport 253 Italia HD",
+        "Sky Sport 3 Austria HD",
+        "Sky Sport Arena Italia HD",
+        "Sport 2 Czechia HD",
+        "Sport 2 Israel HD",
+        "Sport TV5 Portugal HD",
+        "SuperSport 3 Albania HD",
+        "TNT Sports 1 HD",
+        "TNT Sports Ultimate UHD",
+        "TSN Malta 3 HD",
+        "TV8 Italia HD 📺",
+        "Ziggo Sport 6"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Freiburg v Utrecht",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 9 HD",
+        "Blue Sport 19 Live HD",
+        "Cosmote Sport 7 HD",
+        "Cytavision Sports 7 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 7",
+        "Paramount+ USA ($/geo/R)",
+        "Premier Sports 4 Mongolia HD",
+        "RTL 4K UHD",
+        "RTL Deutschland HD 📺",
+        "RTL Schweiz HD",
+        "RTL Österreich HD",
+        "RTL+ Deutschland (geo/R) 📺",
+        "Sky Sport 4 Austria HD",
+        "Sport 1 Hungary HD",
+        "TNT Sports 9",
+        "TSN Malta 5 HD",
+        "Ziggo Sport 3"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Young Boys v Ludogorets",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 6 HD",
+        "Blue Sport 1 Live UHD",
+        "Blue Sport 2 Live HD",
+        "Blue Sport 3 Live HDR",
+        "Blue Sport D 2 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 10",
+        "MAX Sport 3 Bulgaria HD",
+        "Paramount+ USA ($/geo/R)",
+        "Play RTS Sport (geo/R) 📺",
+        "RSI La 2 Svizzera HD 📺",
+        "RTS 2 Suisse HD 📺",
+        "SRF Zwei Schweiz HD 📺"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Malmö v Dinamo Zagreb",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Premium 1 BiH HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 9 Srbija HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 8 HD",
+        "Blue Sport 20 Live HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 9",
+        "Paramount+ USA ($/geo/R)",
+        "SportKlub 1 Slovenija HD",
+        "SuperSport 4 Albania HD"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Celtic v Sturm Graz",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Premium 5 Srbija HD",
+        "Arena Sport 10 Hrvatska HD",
+        "Arena Sport 6 BiH HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 5 HD",
+        "Blue Sport 17 Live HD",
+        "Celtic TV ($/geo/R) 📺",
+        "Cytavision Sports 8 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 5",
+        "Paramount+ USA ($/geo/R)",
+        "Polsat Sport Extra 3 HD",
+        "Premier Sports 2 Ireland HD",
+        "RTL+ Deutschland (geo/R) 📺",
+        "Setanta Sports 2 Georgia HD",
+        "Silk Universal HD",
+        "Sky Sport 255 Italia HD",
+        "TNT Sports 2 HD",
+        "TSN Malta 2 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Crystal Palace v AEK Larnaca",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Premium 3 BiH HD",
+        "Arena Sport 7 Srbija HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 2 HD",
+        "beIN Sports MENA English 1 HD",
+        "Blue Sport 21 Live HD",
+        "Cosmote Sport 8 HD",
+        "DAZN 4 Portugal HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 11",
+        "Polsat Sport Extra 4 HD",
+        "Premier Sports 5 Mongolia HD",
+        "Sky Sport 6 Austria HD",
+        "Sport 3 Israel HD",
+        "TNT Sports 3 HD",
+        "TSN Malta 6 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Celta Vigo v Nice",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Premium 4 Srbija HD",
+        "Arena Sport 3 BiH HD",
+        "Arena Sport 9 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 4 HD",
+        "Canal+ Foot HD",
+        "Cosmote Sport 9 HD",
+        "Cytavision Sports 6 HD",
+        "DAZN 2 Portugal HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones HD",
+        "Paramount+ USA ($/geo/R)",
+        "Play Sports 5 Belgium",
+        "Premier Sports 3 Mongolia HD",
+        "Qazaqstan TV HD",
+        "Sky Sport 254 Italia HD",
+        "Sky Sport 7 Austria HD",
+        "TNT Sports 7",
+        "TSN Malta 4 HD",
+        "TVNet Sport Azerbaijan (geo/R)"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Mainz 05 v Zrinjski",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Sport 1 BiH HD",
+        "Arena Sport 3 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA English 2 HD",
+        "Blue Sport 22 Live HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 13",
+        "RTL+ Deutschland (geo/R) 📺",
+        "SportKlub 3 Slovenija",
+        "We Sport Moldova ($/geo/R)"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Samsunspor v Dynamo Kyiv",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "beIN Sports MENA Xtra 1 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 14",
+        "Sport TV 2 Azerbaijan (geo/R)",
+        "TRT 1 Türkiye HD 📺"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Universitatea Craiova v Noah",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "beIN Sports MENA Xtra 2 HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "Fast Sports TV Armenia 📺",
+        "M+ Liga de Campeones 17"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Lille v PAOK Thessaloniki",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Premium 2 Srbija HD",
+        "Arena Sport 4 BiH HD",
+        "Arena Sport 5 Hrvatska HD",
+        "Blue Sport 16 Live HD",
+        "Canal+ France HD",
+        "Canal+ France UHD",
+        "Cosmote Sport 5 HD",
+        "Cytavision Sports 3 HD",
+        "Cytavision Sports 4K UHD",
+        "Cytavision Sports PPV 1 HD",
+        "DAZN 3 Portugal HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 6",
+        "Paramount+ USA ($/geo/R)",
+        "Ring Bulgaria HD",
+        "RTBF Tipik Belgique",
+        "RTL+ Deutschland (geo/R) 📺",
+        "Sky Sport 8 Austria HD",
+        "Sky Sport MIX Deutsch HD",
+        "Sky Sport Top Event HD",
+        "TNT Sports 8"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Maccabi Tel Aviv v Midtjylland",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Sport 8 Srbija HD",
+        "Blue Sport 18 Live HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 8",
+        "Paramount+ USA ($/geo/R)",
+        "Sport 1 Israel HD"
+      ]
+    },
+    {
+      "competition": "UEFA Europa League - Matchday 3",
+      "title": "Roma v Viktoria Plzen",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Sport 5 BiH HD",
+        "Arena Sport 6 Srbija HD",
+        "Arena Sport 7 Hrvatska HD",
+        "Blue Sport 5 Live HD",
+        "Cosmote Sport 3 HD",
+        "Cytavision Sports 5 HD",
+        "Cytavision Sports PPV 3 HD",
+        "DAZN 1 Portugal HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 4",
+        "MAX Sport 4 Bulgaria HD",
+        "Nova Sport 5 Czech HD",
+        "Paramount+ USA ($/geo/R)",
+        "Polsat Sport Extra 2 HD",
+        "Premier Sports 1 Mongolia HD",
+        "RTL+ Hungary [online] 📺",
+        "Sky Sport 252 Italia HD",
+        "Sky Sport 5 Austria HD",
+        "Sky Sport Italia 4K UHD",
+        "Sky Sport Uno Italia HD",
+        "Sport TV Azerbaijan (geo/R)",
+        "SuperSport 2 Albania HD",
+        "TNT Sports 6",
+        "TSN Malta 1 HD",
+        "Voyo Player Slovakia [$] 📺",
+        "Ziggo Sport 5"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Shamrock Rovers v Celje",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Sport 8 Hrvatska HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 16",
+        "Premier Sports 1 Ireland HD",
+        "Sport TV1 Slovenija",
+        "TNT Sports 5 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "AZ Alkmaar v Slovan Bratislava",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Discovery+ UK ($/geo/R) 📺",
+        "Fast Sports 1 Armenia ($/geo/R) 📺",
+        "JOJ Šport SVK HD",
+        "M+ Liga de Campeones 12",
+        "Setanta Sports 3 Georgia HD",
+        "Ziggo Sport 2",
+        "Ziggo Sport HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Hamrun Spartans v Lausanne Sport",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Blue Sport 3 Live HD",
+        "Blue Sport 4 Live HDR",
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 18",
+        "TSN Malta 7 HD",
+        "TVM Sport+ HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Lincoln Red Imps v Lech Poznan",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 19",
+        "Polsat Sport 1 HD",
+        "Polsat Sport Premium 1 HD"
+      ]
+    },
+    {
+      "competition": "UEFA Conference League - Matchday 2",
+      "title": "Sigma Olomouc v Raków Czestochowa",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Discovery+ UK ($/geo/R) 📺",
+        "M+ Liga de Campeones 15",
+        "Polsat Sport 2 HD",
+        "Polsat Sport Premium 2 HD",
+        "Sport 1 Czechia HD"
+      ]
+    },
+    {
+      "competition": "CONMEBOL Copa Sudamericana - Semi Final (1st Leg)",
+      "title": "Universidad Chile v Lanús",
+      "kickoff_baghdad": "01:00",
+      "channels_raw": [
+        "Arena Sport 2 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 3 HD",
+        "beIN Sports MENA English 1 HD",
+        "Sportdigital FUSSBALL HD"
+      ]
+    }
+  ]
 }
