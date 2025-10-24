@@ -64,6 +64,7 @@
       "title": "Al Fateh v Al Ettifaq",
       "kickoff_baghdad": "17:45",
       "channels_raw": [
+        "Band Sports Brazil HD",
         "Thamanya 1 KSA HD"
       ]
     },
@@ -124,9 +125,19 @@
       "title": "Schalke 04 v Darmstadt 98",
       "kickoff_baghdad": "19:30",
       "channels_raw": [
+        "Arena 4 Hungary HD",
+        "Eleven Sports 2 Polska HD",
+        "Nova Sports 2 Hellas HD",
+        "Okko Prime Sport HD ($/geo/R)",
         "OneFootball [app] ($/geo/R) 📺",
+        "Prima Sport RO 2 HD",
+        "PrimaPlay [app] 📺",
+        "Sky Sport Arena Italia HD",
         "Sky Sport Bundesliga 3 HD",
+        "Sky Sport Uno Italia HD",
         "Sport 1 Israel HD",
+        "SportKlub 1 Hrvatska HD",
+        "Tivibu Spor 2 HD",
         "YouTube: German Football (geo/R) 📺"
       ]
     },
@@ -135,8 +146,13 @@
       "title": "Greuther Fürth v Karlsruhe",
       "kickoff_baghdad": "19:30",
       "channels_raw": [
+        "Eleven Sports 3 Polska HD",
+        "Okko Futbol HD ($/geo/R)",
         "OneFootball [app] ($/geo/R) 📺",
+        "Prima Sport RO PPV 1",
         "Sky Sport Bundesliga 4 HD",
+        "SportKlub 8 Hrvatska",
+        "Tivibu Spor 3 HD",
         "YouTube: German Football (geo/R) 📺"
       ]
     },
@@ -175,7 +191,8 @@
       "channels_raw": [
         "DFB Play TV (geo/R) 📺",
         "Magenta Sport ($/geo/R) 📺",
-        "OneFootball [app] ($/geo/R) 📺"
+        "OneFootball [app] ($/geo/R) 📺",
+        "SportKlub 9 Hrvatska"
       ]
     },
     {
@@ -265,9 +282,31 @@
       "title": "Al Ittihad v Al Hilal",
       "kickoff_baghdad": "21:00",
       "channels_raw": [
+        "4 Sports HD 📺",
+        "Cosmote Sport 8 HD",
+        "DAZN France ($/geo/R)",
+        "ESPN Africa",
+        "M+ Liga de Campeones HD",
+        "Meraj TV",
+        "Movistar Plus+ HD",
+        "Prima Sport RO 3 HD",
+        "PrimaPlay [app] 📺",
+        "Setanta Sports Premium HD 📺",
+        "Sport TV4 Portugal HD",
         "Sportdigital FUSSBALL HD",
+        "Sportitalia SoloCalcio HD 📺",
+        "SportKlub 5 Hrvatska",
+        "SportKlub 5 Slovenija",
+        "SporTV Brazil HD",
+        "Sporty TV Africa",
+        "Spíler 1 TV Hungary HD",
+        "ST World Football HD",
+        "Strike TV",
         "SuperSport 4 Albania HD",
-        "Thamanya 1 KSA HD"
+        "SuperSport ESPN HD",
+        "Thamanya 1 KSA HD",
+        "TV2 Play Premium (geo/R) 📺",
+        "Varzish TV Sport HD (tjk)"
       ]
     },
     {
@@ -284,18 +323,28 @@
       "title": "Werder Bremen v Union Berlin",
       "kickoff_baghdad": "21:30",
       "channels_raw": [
+        "Arena 4 Hungary HD",
         "BBC iPlayer (geo/R) 📺",
         "BBC iPlayer 4K (geo/R) 📺",
         "BBC Sport Website (geo/R) 📺",
         "beIN Connect FRANCE 📺",
         "beIN Sports France 9 HD max",
+        "Eleven Sports 4 Polska HD",
         "MBC Action HD",
+        "Nova Sports 3 Hellas HD",
+        "Okko Prime Sport HD ($/geo/R)",
         "OneFootball [app] ($/geo/R) 📺",
+        "Prima Sport RO PPV 2",
+        "Sky Sport 254 Italia HD",
         "Sky Sport Bundesliga 1 HD",
         "Sky Sport Bundesliga HD",
         "Sky Sport Bundesliga UHD",
         "Sky Sport Top Event HD",
         "Sport 1 Israel HD",
+        "SportKlub 1 Hrvatska HD",
+        "SporTV 2 Brazil HD",
+        "ST Sports Life",
+        "Tivibu Spor 1 HD",
         "YouTube: German Football (geo/R) 📺"
       ]
     },
@@ -324,9 +373,46 @@
         "Aragón TV HD",
         "Arena Sport 9 Hrvatska HD",
         "GOL España HD 📺",
+        "Nova Sports 6 Hellas HD",
         "Premier Sports GB Player HD 📺",
+        "Prima Sport RO PPV 3",
         "TEN TV España HD",
         "TV Canaria"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 8",
+      "title": "AC Milan v Pisa",
+      "kickoff_baghdad": "21:45",
+      "channels_raw": [
+        "Arena Sport 4 Hrvatska HD",
+        "beIN Sports Australia 3 HD",
+        "Cosmote Sport 2 HD",
+        "DAZN 1 Bar Deutsch HD",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
+        "Eleven Sports 2 Polska HD",
+        "ESPN 1 Brazil HD",
+        "MAX Sport 3 Bulgaria HD",
+        "Persiana Sport HD",
+        "Prima Sport RO 2 HD",
+        "PrimaPlay [app] 📺",
+        "S Sport+ Streaming",
+        "Setanta Sports 1 Baltic",
+        "Setanta Sports Qazaqstan HD",
+        "Sky Sport 251 Italia HD",
+        "Sky Sport Calcio HD",
+        "Sky Sport Italia 4K UHD",
+        "Sky Sport Uno Italia HD",
+        "Sport TV Uzbekistan",
+        "Sport TV3 Portugal HD",
+        "SuperSport Football HD",
+        "SuperSport MáXimo 360",
+        "Tivibu Spor 2 HD",
+        "VG+ Sport Norge ($/geo/R) 📺",
+        "Ziggo Sport 2",
+        "Zor TV Uzbekistan"
       ]
     },
     {
@@ -340,7 +426,10 @@
         "beIN Sports MENA 4 HD",
         "beIN Sports Türkiye 5 HD",
         "Ligue 1+ ($/geo/R) 📺",
-        "SuperSport 3 Albania HD"
+        "Okko Futbol HD ($/geo/R)",
+        "Sport TV7 Portugal HD",
+        "SuperSport 3 Albania HD",
+        "SuperSport Variety 4 HD"
       ]
     },
     {
@@ -357,20 +446,6 @@
       "kickoff_baghdad": "21:45",
       "channels_raw": [
         "LOI TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie A - Week 8",
-      "title": "AC Milan v Pisa",
-      "kickoff_baghdad": "21:45",
-      "channels_raw": [
-        "Arena Sport 4 Hrvatska HD",
-        "beIN Sports Australia 3 HD",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "S Sport+ Streaming",
-        "VG+ Sport Norge ($/geo/R) 📺"
       ]
     },
     {
@@ -394,15 +469,23 @@
         "beIN Sports MENA English 1 HD",
         "beIN Sports Türkiye 3 HD",
         "Canal+ Foot HD",
+        "DAZN 1 Bar Espana",
+        "DAZN 1 Espana HD",
         "DAZN España ($/geo/R)",
+        "Futbol TV Tajikistan",
         "Go3 Extra Sports Baltics ($/geo/R) 📺",
+        "Idman TV HD",
+        "Match 4 Hungary HD",
+        "Nova Sports Premier League HD",
         "Sky Go UK [online]",
+        "Sky Sport 255 Italia HD",
         "Sky Sports Main Event HD",
         "Sky Sports Main Event UHD",
         "Sky Sports Premier League HD",
         "Sky UK Ultra HD 1",
         "Stan Sport Australia ($/geo/R) 📺",
         "SuperSport 1 Albania HD",
+        "SuperSport MáXimo 2A HD",
         "SuperSport Premier League HD",
         "V Sport Premier League HD",
         "ViaPlay Nederland HD",
@@ -420,10 +503,12 @@
         "beIN Connect MENA HD 📺",
         "beIN Sports Australia 2 HD",
         "beIN Sports MENA 3 HD",
+        "Cosmote Sport 5 HD",
         "Paramount+ USA ($/geo/R)",
         "Sky Go UK [online]",
         "Sky Sports Football HD",
-        "Sky UK Ultra HD 1"
+        "Sky UK Ultra HD 1",
+        "SuperSport Action HD"
       ]
     },
     {
@@ -437,13 +522,25 @@
         "beIN Sports France 10 HD max",
         "beIN Sports MENA 1 HD",
         "Blue Sport 3 Live HD",
+        "DAZN 1 Italia HD",
         "DAZN España HD FTA (geo)",
         "DAZN LaLiga HD",
+        "Eleven Sports 3 Polska HD",
+        "ESPN 3 Brazil HD",
         "LaLiga TV Bar HD",
+        "MAX Sport 4 Bulgaria HD",
         "Premier Sports 2 Ireland HD",
         "Premier Sports 2 UK HD",
         "Premier Sports GB Player HD 📺",
-        "SuperSport 2 Albania HD"
+        "Prima Sport RO 5 HD",
+        "Spíler 2 TV Hungary HD",
+        "ST Sports Premium HD",
+        "SuperSport 2 Albania HD",
+        "SuperSport LaLiga HD",
+        "SuperSport MáXimo 3A HD",
+        "Tivibu Spor 3 HD",
+        "TV2 Play Premium (geo/R) 📺",
+        "Ziggo Sport 3"
       ]
     },
     {
@@ -454,6 +551,23 @@
         "Arena Sport 1 BiH HD",
         "Spor Smart Türkiye HD",
         "Sport TV3 Portugal HD"
+      ]
+    },
+    {
+      "competition": "Portuguese Liga Portugal - Week 9",
+      "title": "Alverca v Gil Vicente",
+      "kickoff_baghdad": "22:15",
+      "channels_raw": [
+        "Cosmote Sport 7 HD",
+        "Sport TV1 Portugal HD"
+      ]
+    },
+    {
+      "competition": "Portuguese Liga Portugal 2 - Week 8",
+      "title": "Vizela v Felgueiras",
+      "kickoff_baghdad": "22:45",
+      "channels_raw": [
+        "Sport TV2 Portugal HD"
       ]
     }
   ]
