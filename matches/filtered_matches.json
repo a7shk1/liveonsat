@@ -4,19 +4,6 @@
   "matches": [
     {
       "competition": "أفريقيا, الكونفدرالية الافريقية - تصفيات",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الزمالك",
-      "away_team": "ديكيداها",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/56897.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
-    },
-    {
-      "competition": "أفريقيا, الكونفدرالية الافريقية - تصفيات",
       "kickoff_baghdad": "20:00",
       "home_team": "شباب بلوزداد",
       "away_team": "هافيا كوناكري",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/941.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/51233.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -90,6 +77,22 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ريال سوسيداد",
+      "away_team": "إشبيلية",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD",
+        "Sky Sports Main Event HD",
+        "Sky Sport Premier League HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "أفريقيا, الكونفدرالية الافريقية - تصفيات",
       "kickoff_baghdad": "22:00",
       "home_team": "الوداد الرياضي",
@@ -122,20 +125,17 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ريال سوسيداد",
-      "away_team": "إشبيلية",
+      "competition": "أفريقيا, الكونفدرالية الافريقية - تصفيات",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الزمالك",
+      "away_team": "ديكيداها",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "أون سبورت 1"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/56897.png",
+      "status_text": "انتهت",
+      "result_text": "1-0"
     }
   ]
 }
