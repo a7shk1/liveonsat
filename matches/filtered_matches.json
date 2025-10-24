@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, الكونفدرالية الافريقية - تصفيات",
-      "kickoff_baghdad": "20:00",
-      "home_team": "شباب بلوزداد",
-      "away_team": "هافيا كوناكري",
-      "channels_raw": [
-        "الجزائرية السادسة"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/941.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/51233.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "21:00",
       "home_team": "الاتحاد",
@@ -77,6 +64,22 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ليدز يونايتد",
+      "away_team": "وست هام يونايتد",
+      "channels_raw": [
+        "beIN Sports HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/103.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "ريال سوسيداد",
@@ -89,7 +92,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -105,23 +108,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/04/434.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8968.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ليدز يونايتد",
-      "away_team": "وست هام يونايتد",
-      "channels_raw": [
-        "beIN Sports HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/103.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -136,6 +123,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/56897.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "أفريقيا, الكونفدرالية الافريقية - تصفيات",
+      "kickoff_baghdad": "20:00",
+      "home_team": "شباب بلوزداد",
+      "away_team": "هافيا كوناكري",
+      "channels_raw": [
+        "الجزائرية السادسة"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/941.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/51233.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
