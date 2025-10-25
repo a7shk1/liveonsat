@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "غير معروف",
-      "kickoff_baghdad": "04:00",
-      "home_team": "انتر ميامي",
-      "away_team": "ناشفيل",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/54729.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "15:00",
       "home_team": "جيرونا",
@@ -325,6 +312,23 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "فالنسيا",
+      "away_team": "فياريال",
+      "channels_raw": [
+        "غير معروف",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "22:00",
       "home_team": "برينتفورد",
@@ -359,23 +363,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:00",
-      "home_team": "فالنسيا",
-      "away_team": "فياريال",
-      "channels_raw": [
-        "غير معروف",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "22:05",
       "home_team": "لانس",
@@ -390,6 +377,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "04:00",
+      "home_team": "انتر ميامي",
+      "away_team": "ناشفيل",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/54729.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
