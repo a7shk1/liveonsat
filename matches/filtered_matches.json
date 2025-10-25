@@ -5,20 +5,6 @@
     {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
-      "home_team": "بارما",
-      "away_team": "كومو",
-      "channels_raw": [
-        "Starzplay 1",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/132.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
       "home_team": "أودينيزي",
       "away_team": "ليتشي",
       "channels_raw": [
@@ -27,6 +13,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "بارما",
+      "away_team": "كومو",
+      "channels_raw": [
+        "Starzplay 1",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/132.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -103,19 +103,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "اتحاد طنجة",
-      "away_team": "المغرب الفاسي",
-      "channels_raw": [
-        "الرياضية المغربية (3)"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/14596.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8321.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "18:00",
       "home_team": "بريست",
@@ -125,7 +112,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/534.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -138,7 +125,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/20112.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "اتحاد طنجة",
+      "away_team": "المغرب الفاسي",
+      "channels_raw": [
+        "الرياضية المغربية (3)"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/14596.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8321.png",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
