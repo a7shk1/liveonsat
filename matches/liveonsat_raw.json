@@ -66,6 +66,7 @@
         "Sport 1 Hungary HD",
         "Sport 2 Israel HD",
         "Sport TV1 Portugal HD",
+        "Sport+ Qazaqstan",
         "SportKlub 1 Hrvatska HD",
         "SportKlub 3 Slovenija",
         "SuperSport ESPN HD",
@@ -95,6 +96,7 @@
       "kickoff_baghdad": "21:00",
       "channels_raw": [
         "Discovery+ SE ($/geo/R) 📺",
+        "HBO Max Extra 2 HD",
         "TV4 Play Sverige [online] 📺"
       ]
     },
@@ -117,11 +119,20 @@
       ]
     },
     {
+      "competition": "Danish Superliga - Week 13",
+      "title": "OB Odense v Brøndby",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "TV2 Play Danmark ($/geo/R) 📺"
+      ]
+    },
+    {
       "competition": "Swedish Allsvenskan - Week 28",
       "title": "Malmö v Hammarby",
       "kickoff_baghdad": "21:10",
       "channels_raw": [
         "Discovery+ SE ($/geo/R) 📺",
+        "HBO Max Extra 1 HD",
         "TV4 Play Sverige [online] 📺"
       ]
     },
@@ -157,12 +168,19 @@
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA 2 HD",
         "beIN Sports MENA English 1 HD",
+        "Cosmote Sport 3 HD",
         "Paramount+ USA ($/geo/R)",
         "Sky Go UK [online]",
         "Sky Sports Football HD",
         "Sky Sports Main Event HD",
         "Sky Sports Main Event UHD",
-        "Sky UK Ultra HD 1"
+        "Sky UK Ultra HD 1",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD"
       ]
     },
     {
@@ -181,15 +199,20 @@
         "beIN Sports MENA 3 HD",
         "beIN Sports MENA English 2 HD",
         "DAZN Deutsch ($/geo/R)",
+        "GEM Sport HD",
         "LaLiga TV Bar HD",
         "M+ LaLiga HD",
         "M+ LaLiga HDR",
         "MAX Sport 4 Bulgaria HD",
         "New World Sport 3 Togo",
+        "Nova Sports 1 Hellas HD",
         "Premier Sports 1 Ireland HD",
         "Premier Sports 1 UK HD",
         "Premier Sports GB Player HD 📺",
-        "TSN Malta 4 HD"
+        "Setanta Sports 2 Eurasia HD",
+        "TSN Malta 4 HD",
+        "TV4 Fotboll HD",
+        "ViaPlay Norge HD"
       ]
     },
     {
