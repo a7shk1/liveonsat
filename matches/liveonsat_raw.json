@@ -108,6 +108,16 @@
       ]
     },
     {
+      "competition": "Romanian Cup - 1st Round",
+      "title": "Csikszereda v Sepsi OSK",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Digi Sport 1 Romania HD",
+        "Prima Sport RO 1 HD",
+        "PrimaPlay [app] 📺"
+      ]
+    },
+    {
       "competition": "Portuguese Liga Revelação U-23 - Regular Season Serie A - 8",
       "title": "Leixões U-23 v Vizela U-23",
       "kickoff_baghdad": "18:00",
@@ -168,6 +178,16 @@
       ]
     },
     {
+      "competition": "Romanian Cup - 1st Round",
+      "title": "Slatina v CFR Cluj",
+      "kickoff_baghdad": "19:30",
+      "channels_raw": [
+        "Digi Sport 1 Romania HD",
+        "Prima Sport RO 1 HD",
+        "PrimaPlay [app] 📺"
+      ]
+    },
+    {
       "competition": "Bulgarian Cup",
       "title": "Dunav Ruse v Lokomotiv Plovdiv",
       "kickoff_baghdad": "19:45",
@@ -183,7 +203,8 @@
       "title": "Austria v Czechia",
       "kickoff_baghdad": "20:00",
       "channels_raw": [
-        "CT Sport Czech HD"
+        "CT Sport Czech HD",
+        "ORF 1 Austria HD 📺"
       ]
     },
     {
@@ -212,10 +233,14 @@
         "Discovery+ UK ($/geo/R) 📺",
         "Eleven Sports 1 Polska HD",
         "Fast Sports [online] ($/geo/R) 📺",
+        "Futbol TV Tajikistan",
+        "Futbol TV Uzbekistan",
         "MAX Sport 3 Bulgaria HD",
         "Megogo Futbol 1 ($/geo/R) 📺",
         "MTV Katsomon+ ($/geo/R) 📺",
         "Paramount+ USA ($/geo/R)",
+        "Prima Sport RO 2 HD",
+        "PrimaPlay [app] 📺",
         "S Sport 2 Türkiye HD",
         "S Sport+ Streaming",
         "Setanta Sports 1 Eurasia HD",
@@ -241,6 +266,7 @@
         "Diema Sport 3 HD",
         "Eleven Sports 2 Polska HD",
         "GOL España HD 📺",
+        "IRIB Varzesh HD",
         "Megogo Futbol 2 ($/geo/R)",
         "OneFootball [app] ($/geo/R) 📺",
         "Play Diema XTRA ($/geo/R) 📺",
@@ -250,6 +276,7 @@
         "Sky Sport 2 Deutsch HD",
         "Sky Sport News Deutsch HD",
         "SuperSport 2 Albania HD",
+        "SuperSport ESPN 2 HD",
         "ZDF Deutschland HD 📺"
       ]
     },
@@ -320,78 +347,6 @@
       ]
     },
     {
-      "competition": "English League Trophy - Group Stage",
-      "title": "Barrow v Notts Forest U-21",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
-      "competition": "English League Trophy - Group Stage",
-      "title": "Cheltenham v Tottenham U-21",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
-      "competition": "English League Trophy - Group Stage",
-      "title": "Exeter City v Arsenal U-21",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
-      "competition": "English League Trophy - Group Stage",
-      "title": "Leyton Orient v Aston Villa U-21",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
-      "competition": "English League Trophy - Group Stage",
-      "title": "Luton Town v Brighton U-21",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
-      "competition": "English League Trophy - Group Stage",
-      "title": "Rotherham United v Manchester City U-21",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
-      "competition": "English League Trophy - Group Stage",
-      "title": "Swindon Town v West Ham United U-21",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
-      "competition": "English League Trophy - Group Stage",
-      "title": "Walsall v Chelsea U-21",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
       "competition": "UEFA Womens Nations League - Semi Final (2nd Leg)",
       "title": "Sweden v Spain",
       "kickoff_baghdad": "21:00",
@@ -403,6 +358,70 @@
         "SVT 24 Sverige HD",
         "SVT Play HD 📺",
         "TVE La 1 HD España 📺"
+      ]
+    },
+    {
+      "competition": "English League Trophy - Group Stage",
+      "title": "Barrow v Notts Forest U-21",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English League Trophy - Group Stage",
+      "title": "Cheltenham v Tottenham U-21",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English League Trophy - Group Stage",
+      "title": "Exeter City v Arsenal U-21",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English League Trophy - Group Stage",
+      "title": "Leyton Orient v Aston Villa U-21",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English League Trophy - Group Stage",
+      "title": "Luton Town v Brighton U-21",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English League Trophy - Group Stage",
+      "title": "Rotherham United v Manchester City U-21",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English League Trophy - Group Stage",
+      "title": "Swindon Town v West Ham United U-21",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English League Trophy - Group Stage",
+      "title": "Walsall v Chelsea U-21",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
       ]
     },
     {
@@ -487,6 +506,16 @@
       "channels_raw": [
         "MUTV HD",
         "National League TV ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Romanian Cup - 1st Round",
+      "title": "CS Dinamo v Dinamo Bucharest",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Digi Sport 1 Romania HD",
+        "Prima Sport RO 1 HD",
+        "PrimaPlay [app] 📺"
       ]
     },
     {
@@ -708,6 +737,30 @@
       ]
     },
     {
+      "competition": "Austrian Cup (ÖFB Cup) - Round of 16",
+      "title": "Stripfing v LASK Linz",
+      "kickoff_baghdad": "22:30",
+      "channels_raw": [
+        "ORF Sport+ HD [s/cast]"
+      ]
+    },
+    {
+      "competition": "Austrian Cup (ÖFB Cup) - Round of 16",
+      "title": "Blau-Weiß Linz v Hartberg",
+      "kickoff_baghdad": "22:30",
+      "channels_raw": [
+        "ORF Sport+ HD [s/cast]"
+      ]
+    },
+    {
+      "competition": "Austrian Cup (ÖFB Cup) - Round of 16",
+      "title": "Kapfenberg v Rheindorf Altach",
+      "kickoff_baghdad": "22:30",
+      "channels_raw": [
+        "ORF Sport+ HD [s/cast]"
+      ]
+    },
+    {
       "competition": "English League Cup - Round of 16",
       "title": "Wycombe Wanderers v Fulham",
       "kickoff_baghdad": "22:45",
@@ -732,7 +785,8 @@
         "ViaPlay Suomi HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺"
+        "Voyo Player Slovakia [$] 📺",
+        "ZBC Channel 2"
       ]
     },
     {
@@ -751,10 +805,13 @@
         "Discovery+ UK ($/geo/R) 📺",
         "Eleven Sports 1 Polska HD",
         "Fast Sports [online] ($/geo/R) 📺",
+        "Futbol TV Uzbekistan",
         "MAX Sport 3 Bulgaria HD",
         "Megogo Futbol 1 ($/geo/R) 📺",
         "MTV Katsomon+ ($/geo/R) 📺",
         "Paramount+ USA ($/geo/R)",
+        "Prima Sport RO 2 HD",
+        "PrimaPlay [app] 📺",
         "S Sport+ Streaming",
         "Setanta Sports 1 Eurasia HD",
         "Sport 4 Israel HD",
@@ -765,6 +822,7 @@
         "TV2 Play Danmark ($/geo/R) 📺",
         "TV4 Fotboll HD",
         "TV4 Play Sverige [online] 📺",
+        "Varzish TV Sport HD (tjk)",
         "VG+ Sport Norge ($/geo/R) 📺"
       ]
     },
@@ -775,6 +833,7 @@
       "channels_raw": [
         "Arena Sport 4 Hrvatska HD",
         "Arena Sport 6 Srbija HD",
+        "Azam Sports 1 HD",
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA 2 HD",
         "beIN Sports MENA English 2 HD",
@@ -790,24 +849,6 @@
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
         "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "English League One - Week 12",
-      "title": "Bradford City v Lincoln City",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
-      ]
-    },
-    {
-      "competition": "English League One - Week 12",
-      "title": "Mansfield Town v Plymouth Argyle",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
       ]
     },
     {
@@ -859,7 +900,8 @@
         "OneFootball [app] ($/geo/R) 📺",
         "Play Diema XTRA ($/geo/R) 📺",
         "Sky Sport 4 Deutsch HD",
-        "Sky Sport 8 Deutsch HD"
+        "Sky Sport 8 Deutsch HD",
+        "SuperSport ESPN 2 HD"
       ]
     },
     {
@@ -875,10 +917,27 @@
       ]
     },
     {
+      "competition": "English League One - Week 12",
+      "title": "Bradford City v Lincoln City",
+      "kickoff_baghdad": "22:45",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English League One - Week 12",
+      "title": "Mansfield Town v Plymouth Argyle",
+      "kickoff_baghdad": "22:45",
+      "channels_raw": [
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
       "competition": "English League Cup - Round of 16",
       "title": "Wrexham v Cardiff City",
       "kickoff_baghdad": "23:00",
       "channels_raw": [
+        "Azam Sports 4 HD",
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA 3 HD",
         "DAZN Canada ($/geo/R)",
