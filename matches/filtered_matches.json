@@ -3,16 +3,20 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "السعودية, كأس الملك - دور الـ 16",
-      "kickoff_baghdad": "18:10",
-      "home_team": "الأخدود",
-      "away_team": "الهلال",
+      "competition": "ألمانيا, كأس المانيا - دور الـ 32",
+      "kickoff_baghdad": "20:30",
+      "home_team": "آينتراخت فرانكفورت",
+      "away_team": "بوروسيا دورتموند",
       "channels_raw": [
-        "ثمانية 3",
-        "Thmanyah 3"
+        "غير معروف",
+        "Abu Dhabi Sports 1 HD",
+        "DAZN 1 Portugal HD",
+        "ESPN 3 Brazil HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/12747.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/196.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/154.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -31,25 +35,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "ألمانيا, كأس المانيا - دور الـ 32",
-      "kickoff_baghdad": "20:30",
-      "home_team": "آينتراخت فرانكفورت",
-      "away_team": "بوروسيا دورتموند",
-      "channels_raw": [
-        "غير معروف",
-        "Abu Dhabi Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "ESPN 3 Brazil HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/196.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/154.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -63,7 +49,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -100,6 +86,20 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/9914.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/7171.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "السعودية, كأس الملك - دور الـ 16",
+      "kickoff_baghdad": "18:10",
+      "home_team": "الأخدود",
+      "away_team": "الهلال",
+      "channels_raw": [
+        "ثمانية 3",
+        "Thmanyah 3"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/12747.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
