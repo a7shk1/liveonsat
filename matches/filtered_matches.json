@@ -3,21 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "الجيش الملكي",
-      "away_team": "حسنية أكادير",
-      "channels_raw": [
-        "الرياضية المغربية (3)",
-        "Abu Dhabi Sports 1 HD",
-        "DAZN 2 Portugal HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "ألمانيا, كأس المانيا - الدور 2",
       "kickoff_baghdad": "20:00",
       "home_team": "بادربورن",
@@ -29,7 +14,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/366.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -44,7 +29,22 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/653.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "20:00",
+      "home_team": "الجيش الملكي",
+      "away_team": "حسنية أكادير",
+      "channels_raw": [
+        "الرياضية المغربية (3)",
+        "Abu Dhabi Sports 1 HD",
+        "DAZN 2 Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -229,21 +229,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, كأس الكاراباو - الدور 4",
-      "kickoff_baghdad": "23:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "توتنهام هوتسبر",
-      "channels_raw": [
-        "beIN Sports 9 HD",
-        "Sky Sports Main Event HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, كأس ملك إسبانيا - الدور 1",
       "kickoff_baghdad": "23:00",
       "home_team": "سيوداد دي لوثينا",
@@ -262,20 +247,17 @@
       "result_text": "0-0"
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "23:05",
-      "home_team": "باريس أف.سي.",
-      "away_team": "أولمبيك ليون",
+      "competition": "إنجلترا, كأس الكاراباو - الدور 4",
+      "kickoff_baghdad": "23:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "توتنهام هوتسبر",
       "channels_raw": [
-        "beIN Sports 4 HD",
-        "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD"
+        "beIN Sports 9 HD",
+        "Sky Sports Main Event HD",
+        "Football HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/6075.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -311,6 +293,24 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/244.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "23:05",
+      "home_team": "باريس أف.سي.",
+      "away_team": "أولمبيك ليون",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/6075.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
