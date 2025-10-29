@@ -3,6 +3,21 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "20:00",
+      "home_team": "الجيش الملكي",
+      "away_team": "حسنية أكادير",
+      "channels_raw": [
+        "الرياضية المغربية (3)",
+        "Abu Dhabi Sports 1 HD",
+        "DAZN 2 Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "ألمانيا, كأس المانيا - الدور 2",
       "kickoff_baghdad": "20:00",
       "home_team": "بادربورن",
@@ -14,7 +29,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/366.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -29,22 +44,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/653.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "الجيش الملكي",
-      "away_team": "حسنية أكادير",
-      "channels_raw": [
-        "الرياضية المغربية (3)",
-        "Abu Dhabi Sports 1 HD",
-        "DAZN 2 Portugal HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -60,7 +60,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -76,7 +76,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/135.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -264,24 +264,6 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "23:05",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "أنجيه",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "Football HD",
-        "ESPN 1 Brazil HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "23:05",
       "home_team": "نانت",
       "away_team": "موناكو",
       "channels_raw": [
@@ -311,6 +293,24 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/6075.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "23:05",
+      "home_team": "أولمبيك مارسيليا",
+      "away_team": "أنجيه",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
