@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
-      "kickoff_baghdad": "16:30",
-      "home_team": "مستقبل المرسى",
-      "away_team": "النجم الساحلي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8230.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/231.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
-      "kickoff_baghdad": "16:30",
-      "home_team": "الملعب التونسي",
-      "away_team": "الصفاقسي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/924.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/428.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "المغرب, الدوري المغربي",
       "kickoff_baghdad": "20:00",
       "home_team": "الجيش الملكي",
@@ -40,6 +14,21 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "ألمانيا, كأس المانيا - الدور 2",
+      "kickoff_baghdad": "20:00",
+      "home_team": "بادربورن",
+      "away_team": "باير ليفركوزن",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1",
+        "Abu Dhabi Sports 1 HD",
+        "DAZN 2 Portugal HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/366.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -93,13 +82,13 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "21:00",
-      "home_team": "لوريان",
-      "away_team": "باريس سان جيرمان",
+      "home_team": "نيس",
+      "away_team": "ليل",
       "channels_raw": [
         "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/472-1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -119,13 +108,13 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "21:00",
-      "home_team": "نيس",
-      "away_team": "ليل",
+      "home_team": "لوريان",
+      "away_team": "باريس سان جيرمان",
       "channels_raw": [
         "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/472-1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -185,7 +174,7 @@
         "Persiana Sport HD",
         "Sky Sport Premier League HD"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
@@ -203,7 +192,7 @@
         "Persiana Sport HD",
         "Sky Sport Premier League HD"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
@@ -217,7 +206,25 @@
         "beIN Sports 7 HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/15.png",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "ألمانيا, كأس المانيا - الدور 2",
+      "kickoff_baghdad": "22:45",
+      "home_team": "كولن",
+      "away_team": "بايرن ميونخ",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/194.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -231,8 +238,8 @@
         "Sky Sports Main Event HD",
         "Football HD"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -267,7 +274,7 @@
         "Persiana Sport HD",
         "Sky Sport Premier League HD"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/6075.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
@@ -285,7 +292,7 @@
         "Persiana Sport HD",
         "Sky Sport Premier League HD"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
@@ -302,9 +309,35 @@
         "Persiana Sport HD",
         "Football HD"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/244.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
+      "kickoff_baghdad": "16:30",
+      "home_team": "الملعب التونسي",
+      "away_team": "الصفاقسي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/924.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/428.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
+      "kickoff_baghdad": "16:30",
+      "home_team": "مستقبل المرسى",
+      "away_team": "النجم الساحلي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8230.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/231.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
