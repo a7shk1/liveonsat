@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "الإمارات, دوري أدنوك للمحترفين",
-      "kickoff_baghdad": "16:00",
-      "home_team": "الوحدة",
-      "away_team": "النصر",
-      "channels_raw": [
-        "دبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/876.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "تونس, الرابطة التونسية المحترفة الأولى",
       "kickoff_baghdad": "16:30",
       "home_team": "الترجي",
@@ -161,6 +148,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/136.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "16:00",
+      "home_team": "الوحدة",
+      "away_team": "النصر",
+      "channels_raw": [
+        "دبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/876.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
