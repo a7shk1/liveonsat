@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "قطر, الدوري القطري",
-      "kickoff_baghdad": "17:30",
-      "home_team": "الغرافة",
-      "away_team": "الدحيل",
-      "channels_raw": [
-        "الكأس HD1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/970.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
       "kickoff_baghdad": "18:45",
       "home_team": "عجمان",
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1138.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -77,6 +64,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "20:30",
+      "home_team": "الأهلي",
+      "away_team": "الرياض",
+      "channels_raw": [
+        "تطبيق ثمانية",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/181.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -91,20 +92,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "الأهلي",
-      "away_team": "الرياض",
-      "channels_raw": [
-        "تطبيق ثمانية",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/181.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -192,6 +179,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/46069.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8218.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "قطر, الدوري القطري",
+      "kickoff_baghdad": "17:30",
+      "home_team": "الغرافة",
+      "away_team": "الدحيل",
+      "channels_raw": [
+        "الكأس HD1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/970.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
