@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "قطر, الدوري القطري",
-      "kickoff_baghdad": "19:30",
-      "home_team": "السد",
-      "away_team": "الريان",
-      "channels_raw": [
-        "الكاس 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1138.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "20:00",
       "home_team": "البنك الاهلي",
@@ -75,22 +62,6 @@
     {
       "competition": "إسبانيا, كأس ملك إسبانيا - الدور 1",
       "kickoff_baghdad": "23:00",
-      "home_team": "بالما ديل ريو",
-      "away_team": "ريال بيتيس",
-      "channels_raw": [
-        "غير معروف",
-        "Persiana Sport HD",
-        "Football HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/91688.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 1",
-      "kickoff_baghdad": "23:00",
       "home_team": "أتلتيك يدا",
       "away_team": "إسبانيول",
       "channels_raw": [
@@ -101,6 +72,22 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/91671.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 1",
+      "kickoff_baghdad": "23:00",
+      "home_team": "بالما ديل ريو",
+      "away_team": "ريال بيتيس",
+      "channels_raw": [
+        "غير معروف",
+        "Persiana Sport HD",
+        "Football HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/91688.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -192,6 +179,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/20112.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "قطر, الدوري القطري",
+      "kickoff_baghdad": "19:30",
+      "home_team": "السد",
+      "away_team": "الريان",
+      "channels_raw": [
+        "الكاس 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1138.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
