@@ -1,119 +1,75 @@
 {
-  "date": "2025-10-29",
+  "date": "2025-10-30",
   "source_url": "https://liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": "CONMEBOL Copa Sudamericana - Semi Final (2nd Leg)",
-      "title": "Atlético Mineiro v Independiente del Valle",
+      "competition": "CONMEBOL Copa Libertadores - Semi Final (2nd Leg)",
+      "title": "Racing Club v Flamengo",
       "kickoff_baghdad": "03:30",
       "channels_raw": [
         "Arena Premium 2 BiH HD",
         "Arena Premium 2 Srbija HD",
         "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 1 Slovenija HD",
         "beIN Connect MENA HD 📺",
         "beIN Sports Australia 3 HD",
         "beIN Sports MENA 3 HD",
         "beIN Sports MENA English 1 HD",
         "Cosmote Sport 3 HD",
+        "ESPN 2 Nederland HD",
         "MAX Sport 4 Bulgaria HD",
         "Polsat Sport 1 HD",
+        "S Sport 1 Türkiye HD",
         "S Sport+ Streaming",
-        "Sport 3 Israel HD",
         "Sport TV1 Portugal HD"
       ]
     },
     {
-      "competition": "Bulgarian Cup",
-      "title": "Minyor Pernik v Cherno More Varna",
-      "kickoff_baghdad": "13:00",
+      "competition": "Major League Soccer (MLS) - Round of 16",
+      "title": "Los Angeles FC v Austin",
+      "kickoff_baghdad": "05:30",
       "channels_raw": [
-        "Diema Sport 2 HD",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "SportKlub 1 Slovenija HD",
-        "SportKlub 3 Hrvatska"
+        "MLS Season Pass [$]"
       ]
     },
     {
       "competition": "Türkiye Cup",
-      "title": "Kahta 02 v Kasimpasa",
+      "title": "Karaköprü Belediyespor v Caykur Rizespor",
       "kickoff_baghdad": "13:00",
       "channels_raw": [
         "A Spor Türkiye HD"
       ]
     },
     {
-      "competition": "Portuguese Liga Revelação U-23 - Regular Season Serie B - 10",
-      "title": "Estoril U-23 v Santa Clara U-23",
+      "competition": "Polish Cup (Puchar Polski) - 3rd Round",
+      "title": "Gryf Slupsk v Lech Poznan",
       "kickoff_baghdad": "14:00",
       "channels_raw": [
-        "Canal 11 [online] (geo/R) 📺",
-        "Canal 11 Portugal HD"
-      ]
-    },
-    {
-      "competition": "Portuguese Liga Revelação U-23 - Regular Season Serie B - 10",
-      "title": "Sporting Lisbon U-23 v Estrela U-23",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "Canal 11 [online] (geo/R) 📺",
-        "Canal 11 Portugal HD"
+        "TVP Sport Polska HD"
       ]
     },
     {
       "competition": "Bulgarian Cup",
-      "title": "Sevlievo v CSKA Sofia",
+      "title": "Chernomorets Burgas v Ludogorets",
       "kickoff_baghdad": "14:30",
       "channels_raw": [
         "Diema Sport HD",
         "Play Diema XTRA ($/geo/R) 📺",
-        "SportKlub 3 Slovenija",
-        "SportKlub 4 Hrvatska"
-      ]
-    },
-    {
-      "competition": "Kosovo Superliga - Week 11",
-      "title": "Drenica v Drita",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "ART Motion Sport 2 HD 📺"
-      ]
-    },
-    {
-      "competition": "Kosovo Superliga - Week 11",
-      "title": "Ferizaj v Prishtina e Re",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "ART Motion Sport 3 HD 📺"
-      ]
-    },
-    {
-      "competition": "Kosovo Superliga - Week 11",
-      "title": "Llapi v Prishtina",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "ART Motion Sport 1 HD 📺"
+        "SportKlub 3 Hrvatska",
+        "SportKlub 3 Slovenija"
       ]
     },
     {
       "competition": "Türkiye Cup",
-      "title": "Bursa Yildirimspor v Alanyaspor",
-      "kickoff_baghdad": "15:00",
+      "title": "Zonguldakspor v Bodrumspor",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "A Spor Türkiye HD"
       ]
     },
     {
       "competition": "Serbian Cup (Kup Srbije) - Round of 32",
-      "title": "Zemun v Radnicki 1923",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Arena Premium 1 Srbija HD",
-        "Arena Premium 3 BiH HD"
-      ]
-    },
-    {
-      "competition": "Serbian Cup (Kup Srbije) - Round of 32",
-      "title": "Graficar v TSC Backa",
+      "title": "Dubocica v Mladost Lucani",
       "kickoff_baghdad": "15:00",
       "channels_raw": [
         "Arena Premium 2 Srbija HD",
@@ -122,77 +78,71 @@
     },
     {
       "competition": "Serbian Cup (Kup Srbije) - Round of 32",
-      "title": "Borac Cacak v Cukaricki",
+      "title": "OFK Vršac v Tekstilac Odžaci",
       "kickoff_baghdad": "15:00",
       "channels_raw": [
-        "Arena Premium 3 Srbija HD",
-        "Arena Sport 4 BiH HD"
-      ]
-    },
-    {
-      "competition": "Serbian Cup (Kup Srbije) - Round of 32",
-      "title": "Buducnost Dobanovci v OFK Belgrade",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Arena Premium 2 BiH HD",
-        "Arena Premium 4 Srbija HD"
-      ]
-    },
-    {
-      "competition": "Serbian Cup (Kup Srbije) - Round of 32",
-      "title": "Naftagas Elemir v Novi Pazar",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Arena Premium 5 Srbija HD",
+        "Arena Premium 4 Srbija HD",
         "Arena Sport 3 BiH HD"
       ]
     },
     {
+      "competition": "UAE Pro League - Week 7",
+      "title": "Al Wahda v Al Nasr",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Thriller TV+ [online] ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Russian Cup (Kubok Rossii) - Regions Path",
+      "title": "Ufa v Neftekhimik",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "MATCH! Premier HD 📺",
+        "MATCH! Russia HD"
+      ]
+    },
+    {
+      "competition": "Polish Cup (Puchar Polski) - 3rd Round",
+      "title": "Miedz Legnica v Jagiellonia",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "TVP Sport Polska HD"
+      ]
+    },
+    {
+      "competition": "Qatar Stars League - Week 9",
+      "title": "Al Gharafa v Al Duhail",
+      "kickoff_baghdad": "17:30",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 6 HD"
+      ]
+    },
+    {
+      "competition": "Bulgarian Cup",
+      "title": "Yantra Gabrovo v CSKA 1948 Sofia",
+      "kickoff_baghdad": "17:30",
+      "channels_raw": [
+        "Diema Sport HD",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "SportKlub 3 Hrvatska",
+        "SportKlub 3 Slovenija"
+      ]
+    },
+    {
       "competition": "Serbian Cup (Kup Srbije) - Round of 32",
-      "title": "Mokra Gora v Spartak Subotica",
-      "kickoff_baghdad": "15:00",
+      "title": "Sloboda Uzice v Radnicki Nis",
+      "kickoff_baghdad": "17:30",
       "channels_raw": [
-        "Arena Sport 1 Srbija HD",
-        "Arena Sport 2 BiH HD"
+        "Arena Premium 4 Srbija HD",
+        "Arena Sport 1 BiH HD"
       ]
     },
     {
-      "competition": "Bosnia-Herzegovina Cup",
-      "title": "Romanija v Zrinjski",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Arena Premium 1 BiH HD",
-        "Arena Sport 9 Srbija HD"
-      ]
-    },
-    {
-      "competition": "Croatian Cup (HR Nogometni) - Round of 16",
-      "title": "Rudeš v Gorica",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "MAX Sport 1 Hrvatska HD"
-      ]
-    },
-    {
-      "competition": "Czech Cup (Pohar CMFS) - Round of 16",
-      "title": "Nové Sady v Viktoria Plzen",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "OnePlay Sport 1 HD 📺"
-      ]
-    },
-    {
-      "competition": "Greek Cup - Round 3",
-      "title": "Egaleo Athens v Aris Thessaloniki",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "Cosmote Sport 3 HD"
-      ]
-    },
-    {
-      "competition": "Romanian Cup - 1st Round",
-      "title": "Metalul Buzau v Universitatea Cluj",
-      "kickoff_baghdad": "16:00",
+      "competition": "Romanian Cup - Group Stage: Round 1",
+      "title": "UTA Arad v Petrolul",
+      "kickoff_baghdad": "18:00",
       "channels_raw": [
         "Digi Sport 1 Romania HD",
         "Prima Sport RO 1 HD",
@@ -200,140 +150,57 @@
       ]
     },
     {
-      "competition": "Croatian Cup (HR Nogometni) - Round of 16",
-      "title": "Bijelo Brdo v Slaven Belupo",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "MAX Sport 2 Hrvatska HD"
-      ]
-    },
-    {
-      "competition": "Greek Cup - Round 3",
-      "title": "Ilioupoli v AEK Athens",
-      "kickoff_baghdad": "16:30",
-      "channels_raw": [
-        "Cosmote Sport 2 HD"
-      ]
-    },
-    {
-      "competition": "Bulgarian Cup",
-      "title": "Hebar 1918 v Levski Sofia",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "Diema Sport HD",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "SportKlub 3 Hrvatska",
-        "SportKlub 6 Slovenija"
-      ]
-    },
-    {
-      "competition": "Serbian Cup (Kup Srbije) - Round of 32",
-      "title": "Trajal Krusevac v Napredak",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "Arena Premium 1 Srbija HD",
-        "Arena Premium 3 BiH HD"
-      ]
-    },
-    {
-      "competition": "Croatian Cup (HR Nogometni) - Round of 16",
-      "title": "Cibalia v Hajduk Split",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "MAX Sport 1 Hrvatska HD"
-      ]
-    },
-    {
       "competition": "Türkiye Cup",
-      "title": "Manisaspor v Muglaspor",
+      "title": "Gaziantep v Karabük Idmanyurdu",
       "kickoff_baghdad": "18:00",
       "channels_raw": [
         "A Spor Türkiye HD"
       ]
     },
     {
-      "competition": "Serbian Cup (Kup Srbije) - Round of 32",
-      "title": "Radnik v IMT Novi Belgrade",
-      "kickoff_baghdad": "18:00",
+      "competition": "UAE Pro League - Week 7",
+      "title": "Ajman v Al Ain",
+      "kickoff_baghdad": "18:45",
       "channels_raw": [
-        "Arena Premium 1 BiH HD",
-        "Arena Premium 2 Srbija HD"
+        "Thriller TV+ [online] ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Czech Cup (Pohar CMFS) - Round of 16",
-      "title": "Zlín v Slavia Prague",
-      "kickoff_baghdad": "18:30",
+      "competition": "UAE Pro League - Week 7",
+      "title": "Shabab Al Ahli v Sharjah",
+      "kickoff_baghdad": "18:45",
       "channels_raw": [
-        "OnePlay Sport 1 HD 📺"
+        "Thriller TV+ [online] ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Greek Cup - Round 3",
-      "title": "Olympiacos v Volos NFC",
-      "kickoff_baghdad": "18:30",
-      "channels_raw": [
-        "Cosmote Sport 1 HD"
-      ]
-    },
-    {
-      "competition": "AFC Champions League 2 - Round 4",
-      "title": "Al Khalidiya v Al Ahli",
+      "competition": "Finnish Veikkausliiga - Championship Round - 8",
+      "title": "Inter Turku v SJK Seinäjoki",
       "kickoff_baghdad": "19:00",
       "channels_raw": [
-        "Spor Smart Türkiye HD",
-        "SportKlub 5 Slovenija",
-        "SportKlub 8 Hrvatska",
-        "YouTube: The AFC Hub 📺"
+        "OneFootball [app] ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Albanian Superliga - Week 9",
-      "title": "Flamurtari v Vllaznia Shkodër",
+      "competition": "Finnish Veikkausliiga - Championship Round - 8",
+      "title": "KuPS Kuopio v Gnistan",
       "kickoff_baghdad": "19:00",
       "channels_raw": [
-        "RTSH Sport Albania 📺",
-        "RTSH Tani [app]"
+        "OneFootball [app] ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Slovenian Cup (Pokal Hervis) - Round of 32",
-      "title": "Tabor Sezana v Primorje",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "SportKlub 1 Slovenija HD",
-        "SportKlub 6 Hrvatska"
-      ]
-    },
-    {
-      "competition": "Croatian Cup (HR Nogometni) - Round of 16",
-      "title": "Lokomotiva Zagreb v Varteks",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "MAX Sport 2 Hrvatska HD"
-      ]
-    },
-    {
-      "competition": "Greek Cup - Round 3",
-      "title": "Levadiakos v Asteras Tripolis",
+      "competition": "Qatar Stars League - Week 9",
+      "title": "Al Sadd v Al Rayyan",
       "kickoff_baghdad": "19:30",
       "channels_raw": [
-        "Cosmote Sport 3 HD"
-      ]
-    },
-    {
-      "competition": "Romanian Cup - 1st Round",
-      "title": "Sanatatea Cluj v Universitatea Craiova",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "Digi Sport 1 Romania HD",
-        "Prima Sport RO 1 HD",
-        "PrimaPlay [app] 📺"
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA Global HD"
       ]
     },
     {
       "competition": "Russian Cup (Kubok Rossii) - Regions Path",
-      "title": "Torpedo Moscow v Kuban Holding",
+      "title": "Fakel Voronezh v Arsenal Tula",
       "kickoff_baghdad": "19:30",
       "channels_raw": [
         "MATCH! Premier HD 📺",
@@ -342,7 +209,7 @@
     },
     {
       "competition": "Danish Cup (DBU Pokalen)",
-      "title": "Hobro v FC Copenhagen",
+      "title": "Midtjylland v Silkeborg",
       "kickoff_baghdad": "19:45",
       "channels_raw": [
         "ViaPlay Danmark HD",
@@ -352,233 +219,70 @@
       ]
     },
     {
-      "competition": "German Cup (DFB-Pokal) - Round 2",
-      "title": "Mainz 05 v Stuttgart",
+      "competition": "Romanian Cup - Group Stage: Round 1",
+      "title": "Botosani v Farul Constanta",
       "kickoff_baghdad": "20:00",
       "channels_raw": [
-        "Abu Dhabi Sports 2 HD 📺",
-        "Arena Sport 1 BiH HD",
-        "Arena Sport 1x2 Srbija",
-        "Arena Sport 2 Hrvatska HD",
-        "Arena Sport 2 Slovenija HD",
-        "GolStadium ($/geo/R) 📺",
-        "Megogo Futbol 7 ($/geo/R)",
-        "Nova Sport 2 Czech HD",
-        "Nova Sport Bulgaria HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "QazSport HD",
-        "Sifir Tv",
-        "Sky Sport 3 Deutsch HD",
-        "Sport+ Qazaqstan",
-        "SuperSport ESPN 2 HD",
-        "TVNet Sport Azerbaijan (geo/R)",
-        "Voyo Player Slovakia [$] 📺"
+        "Digi Sport 1 Romania HD",
+        "Prima Sport RO 1 HD",
+        "PrimaPlay [app] 📺"
       ]
     },
     {
-      "competition": "Slovak Super Liga - Week 4",
-      "title": "Spartak Trnava v Košice",
+      "competition": "Finnish Veikkausliiga - Championship Round - 8",
+      "title": "Ilves Tampere v HJK Helsinki",
       "kickoff_baghdad": "20:00",
       "channels_raw": [
-        "DajTo Slovakia HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Voyo Player Slovakia [$] 📺"
+        "OneFootball [app] ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "German Cup (DFB-Pokal) - Round 2",
-      "title": "Paderborn v Bayer Leverkusen",
+      "competition": "Serbian Super League - Week 3",
+      "title": "Vojvodina v Red Star Belgrade",
       "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Abu Dhabi Sports 1 HD 📺",
-        "Arena Premium 3 Srbija HD",
-        "Arena Sport 1 Slovenija HD",
-        "Arena Sport 3 BiH HD",
-        "Arena Sport 3 Hrvatska HD",
-        "ART Motion Sport 6 HD 📺",
-        "Astro Grandstand HD",
-        "Azam Sports 2 HD",
-        "DAZN 2 Portugal HD",
-        "Diema Sport 3 HD",
-        "Eleven Sports 3 Polska HD",
-        "GOL España HD 📺",
-        "Megogo Futbol 4 ($/geo/R)",
-        "New World Sport 1 Mauritius",
-        "Nova Sport 1 Czech HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Sky Sport 2 Deutsch HD",
-        "Sky Sport 6 Deutsch HD",
-        "Sport 1 Hungary HD",
-        "Sport 3 Israel HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "German Cup (DFB-Pokal) - Round 2",
-      "title": "Greuther Fürth v Kaiserslautern",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "AD Sports 1 Asia HD [app]",
-        "Arena Sport 3 Slovenija HD",
-        "Arena Sport 6 BiH HD",
-        "Arena Sport 7 Hrvatska HD",
-        "Megogo Futbol 10 ($/geo/R)",
-        "Sky Sport 4 Deutsch HD"
-      ]
-    },
-    {
-      "competition": "German Cup (DFB-Pokal) - Round 2",
-      "title": "FV Illertissen v Magdeburg",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "AD Sports 2 Asia HD [app]",
-        "Arena Sport 10 Hrvatska HD",
-        "Megogo Futbol 11 ($/geo/R)",
-        "Nova Sport 4 Czech HD",
-        "Sky Sport 5 Deutsch HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Slovak Super Liga - Week 3",
-      "title": "Komárno v Slovan Bratislava",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Danish Cup (DBU Pokalen)",
-      "title": "Fredericia v Viborg",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "Danish Cup (DBU Pokalen)",
-      "title": "IF Lyseng v Vejle BK",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "UEFA Womens Nations League - Relegation Play-Off (2nd Leg)",
-      "title": "Iceland v Northern Ireland",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "BBC iPlayer (geo/R) 📺",
-        "BBC iPlayer 4K (geo/R) 📺",
-        "BBC Sport NI Online 📺"
-      ]
-    },
-    {
-      "competition": "Montenegrin First League - Week 13",
-      "title": "Decic Tuzi v Buducnost",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Arena Sport 10 Srbija HD"
-      ]
-    },
-    {
-      "competition": "Bosnia-Herzegovina Cup",
-      "title": "Celik Zenica v Posusje",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Arena Premium 1 BiH HD"
-      ]
-    },
-    {
-      "competition": "Austrian Cup (ÖFB Cup) - Round of 16",
-      "title": "Admira Wacker v Sturm Graz",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "ORF 1 Austria HD 📺"
-      ]
-    },
-    {
-      "competition": "South African Knockout Cup - Quarter Final",
-      "title": "Marumo Gallants v Stellenbosch",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "SuperSport OTT 3",
-        "SuperSport PSL HD",
-        "SuperSport Variety 4 HD"
-      ]
-    },
-    {
-      "competition": "Belarus Premier League - Week 18",
-      "title": "Neman Grodno v Dynamo Minsk",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Belarus 5 HD"
-      ]
-    },
-    {
-      "competition": "Portuguese Liga Portugal 2 - Week 9",
-      "title": "Lusitânia Lourosa v Vizela",
-      "kickoff_baghdad": "20:15",
-      "channels_raw": [
-        "Sport TV3 Portugal HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie A - Week 9",
-      "title": "Como v Hellas Verona",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Arena Sport 2 Srbija HD",
-        "Arena Sport 5 BiH HD",
-        "Arena Sport 9 Hrvatska HD",
-        "ART Motion Sport 2 HD 📺",
-        "Astro Arena Bola HD",
-        "Cosmote Sport 9 HD",
-        "DAZN 2 Italia HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "Fast Sports [online] ($/geo/R) 📺",
-        "MATCH! Futbol 3 HD",
-        "Megogo Futbol 5 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "Paramount+ USA ($/geo/R)",
-        "Prima Sport RO 5 HD",
-        "S Sport+ Streaming",
-        "SuperSport MáXimo 3A HD",
-        "SuperSport Variety 1 HD",
-        "Tring Sport 3 HD",
-        "TSN Malta 1 HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Play Sverige [online] 📺",
-        "VG+ Sport Norge ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie A - Week 9",
-      "title": "Juventus v Udinese",
-      "kickoff_baghdad": "20:30",
       "channels_raw": [
         "Arena Premium 1 Slovenija",
+        "Arena Premium 1 Srbija HD",
+        "Arena Sport 1 BiH HD"
+      ]
+    },
+    {
+      "competition": "Serbian Cup (Kup Srbije) - Round of 32",
+      "title": "Voždovac v Jedinstvo Ub",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "Arena Premium 4 Srbija HD",
+        "Arena Sport 3 BiH HD"
+      ]
+    },
+    {
+      "competition": "Bosnia-Herzegovina Premier Liga - Week 13",
+      "title": "Radnik Bijeljina v Rudar Prijedor",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "Arena Premium 1 BiH HD",
+        "Arena Sport 2 Srbija HD"
+      ]
+    },
+    {
+      "competition": "Polish Cup (Puchar Polski) - 3rd Round",
+      "title": "ARKA Gdynia v Górnik Zabrze",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "TVP Sport Polska HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 9",
+      "title": "Cagliari v Sassuolo",
+      "kickoff_baghdad": "20:30",
+      "channels_raw": [
         "Arena Premium 2 BiH HD",
-        "Arena Premium 2 Srbija HD",
+        "Arena Premium 3 Srbija HD",
         "Arena Sport 1 Hrvatska HD",
-        "ART Motion Sport 1 HD 📺",
-        "Astro Football HD",
+        "Arena Sport 2 Slovenija HD",
         "beIN Sports Australia 3 HD",
-        "Cosmote Sport 5 HD",
-        "Cytavision Sports 3 HD",
-        "Cytavision Sports PPV 2 HD",
-        "DAZN 1 Bar Deutsch HD",
+        "Cosmote Sport 2 HD",
         "DAZN 1 Italia HD",
         "DAZN Deutsch ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
@@ -586,103 +290,48 @@
         "DAZN Italia ($/geo/R)",
         "Digi Sport 2 Romania HD",
         "Eleven Sports 1 Polska HD",
-        "Fast Sports 1 Armenia ($/geo/R) 📺",
+        "Eleven Sports 4 Polska HD",
         "Fast Sports [online] ($/geo/R) 📺",
-        "Futbol TV Tajikistan",
-        "IRIB Varzesh HD",
-        "Match 4 Hungary HD",
         "MATCH! Futbol 1 HD",
         "MAX Sport 3 Bulgaria HD",
-        "Megogo Futbol 3 ($/geo/R)",
+        "Megogo Futbol 1 ($/geo/R) 📺",
         "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV Urheilu 2 Suomi HD",
-        "New World Sport 2 Mauritius",
-        "ONE2 Sport Israel HD",
         "Paramount+ USA ($/geo/R)",
-        "Persiana Sports 2 HD 📺",
         "Prima Sport RO 2 HD",
         "PrimaPlay [app] 📺",
-        "S Sport 2 Türkiye HD",
         "S Sport+ Streaming",
-        "Setanta Sports 2 Georgia HD",
-        "Setanta Sports Qazaqstan HD",
-        "Sport 1 Czechia HD",
-        "Sport TV Uzbekistan",
-        "Sport TV1 Portugal HD",
+        "Setanta Sports 2 Eurasia HD",
+        "Sport TV3 Portugal HD",
         "SuperSport Football HD",
-        "SuperSport MáXimo 360",
+        "SuperSport MáXimo 1 HD",
         "Tivibu Spor 1 HD",
         "Tring Sport 1 HD",
-        "TSN Malta 2 HD",
+        "TSN Malta 7 HD",
         "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Fotboll HD",
         "TV4 Play Sverige [online] 📺",
+        "TV4 Sportkanalen HD",
         "VG+ Sport Norge ($/geo/R) 📺",
         "Ziggo Sport HD"
       ]
     },
     {
-      "competition": "Italian Serie A - Week 9",
-      "title": "Roma v Parma",
+      "competition": "Saudi Professional League - Week 7",
+      "title": "Al Ahli v Al Riyadh",
       "kickoff_baghdad": "20:30",
       "channels_raw": [
-        "Arena 4 Hungary HD",
-        "Arena Premium 3 BiH HD",
-        "Arena Premium 4 Srbija HD",
-        "Arena Sport 4 Hrvatska HD",
-        "ART Motion Sport 2 HD 📺",
-        "Astro Arena 2 HD",
-        "Cosmote Sport 8 HD",
-        "Cytavision Sports 4 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "Digi Sport 3 Romania",
-        "Eleven Sports 2 Polska HD",
-        "ESPN 4 Brazil HD",
-        "Fast Sports [online] ($/geo/R) 📺",
-        "Fast Sports TV Armenia 📺",
-        "MATCH! Futbol 3 HD",
-        "Megogo Futbol 1 ($/geo/R) 📺",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "Paramount+ USA ($/geo/R)",
-        "Polsat Sport Extra 1 HD",
+        "Cosmote Sport 3 HD",
         "Prima Sport RO 4 HD",
         "PrimaPlay [app] 📺",
-        "S Sport+ Streaming",
-        "Setanta Sports 1 Baltic",
-        "Setanta Sports 1 Eurasia HD",
-        "Setanta Sports 3 Georgia HD",
-        "Sky Sport Calcio HD",
-        "Sky Sport Italia 4K UHD",
-        "Sky Sport Uno Italia HD",
-        "Sport 2 Czechia HD",
-        "Sport 2 Israel HD",
-        "Sport TV5 Portugal HD",
-        "SuperSport MáXimo 1 HD",
-        "SuperSport Variety 3 HD",
-        "Tivibu Spor 2 HD",
-        "Tring Sport 2 HD",
-        "TSN Malta 3 HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Play Sverige [online] 📺",
-        "Varzish TV Sport HD (tjk)",
-        "VG+ Sport Norge ($/geo/R) 📺",
-        "Ziggo Sport 2"
-      ]
-    },
-    {
-      "competition": "Greek Cup - Round 3",
-      "title": "Atromitos v Panathinaikos",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Cosmote Sport 2 HD"
+        "Sport TV4 Portugal HD",
+        "SportKlub 3 Hrvatska",
+        "SportKlub 3 Slovenija",
+        "Sporty TV Africa",
+        "TRT Spor Türkiye HD 📺"
       ]
     },
     {
       "competition": "Türkiye Cup",
-      "title": "Antalyaspor v Bursaspor",
+      "title": "Konyaspor v 12 Bingölspor",
       "kickoff_baghdad": "20:30",
       "channels_raw": [
         "A Spor Türkiye HD"
@@ -690,7 +339,7 @@
     },
     {
       "competition": "Dutch Cup (KNVB Beker)",
-      "title": "Quick Boys v Volendam",
+      "title": "Rijnsburgse Boys v NEC Nijmegen",
       "kickoff_baghdad": "20:45",
       "channels_raw": [
         "ESPN 2 Nederland HD",
@@ -698,147 +347,8 @@
       ]
     },
     {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Metz v Lens",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Arena Sport 5 Srbija HD",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 4 HD",
-        "beIN Sports Türkiye 4 HD",
-        "Cablenet Sports 1 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Ligue 1+ 4 ($/geo/R) 📺",
-        "Megogo Futbol 9 ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Nice v Lille",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Arena Sport 1 Srbija HD",
-        "Arena Sport 6 Hrvatska HD",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA Xtra 1 HD",
-        "beIN Sports Türkiye 3 HD",
-        "Cablenet Sports 3 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Ligue 1+ 3 ($/geo/R) 📺",
-        "Megogo Futbol 6 ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Le Havre v Brest",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA Xtra 2 HD",
-        "beIN Sports Türkiye 5 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Ligue 1+ ($/geo/R) 📺",
-        "Megogo Futbol 8 ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "Norwegian 1. Divisjon - Week 24",
-      "title": "Mjøndalen v Stabæk",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "TV2 Play Norge ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Lorient v Paris St Germain",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "5 GOLD Israel",
-        "Arena Premium 5 Srbija HD",
-        "Arena Sport 4 BiH HD",
-        "Arena Sport 4 Slovenija HD",
-        "Arena Sport 5 Hrvatska HD",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports Türkiye 2 HD",
-        "Cablenet Sports 2 HD",
-        "Canal+ Sport 3 Afrique HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Diema Sport 2 HD",
-        "Eleven Sports 4 Polska HD",
-        "Futbol TV Uzbekistan",
-        "Ligue 1+ 2 ($/geo/R) 📺",
-        "Megogo Futbol 2 ($/geo/R)",
-        "Nova Sport 5 Czech HD",
-        "Okko Futbol HD ($/geo/R)",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Prime Video UK [$] 📺",
-        "Setanta Sports 1 Georgia HD",
-        "Setanta Sports 2 Baltic",
-        "Setanta Sports 2 Eurasia HD",
-        "Sky Sport Max Italia HD",
-        "Sport TV 2 Azerbaijan (geo/R)",
-        "Sport TV4 Portugal HD",
-        "SuperSport 1 Albania HD",
-        "SuperSport Football Plus HD",
-        "TV3 Sport Dansk HD",
-        "ViaPlay 2 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Norwegian Eliteserien - Week 23",
-      "title": "Brann v Bodø/Glimt",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Arena Sport 8 Srbija HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "TV2 Play Norge ($/geo/R) 📺"
-      ]
-    },
-    {
       "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "Ebro v Tarazona",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Aragon Deporte Stream 📺"
-      ]
-    },
-    {
-      "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "Mutilvera v Real Zaragoza",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Aragón TV HD"
-      ]
-    },
-    {
-      "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "Los Garres v Elche",
+      "title": "Orihuela v Levante",
       "kickoff_baghdad": "21:00",
       "channels_raw": [
         "M+ LaLiga 2 HD"
@@ -846,88 +356,35 @@
     },
     {
       "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "Sant Jordi v Osasuna",
+      "title": "Puerto de Vega v Celta Vigo",
       "kickoff_baghdad": "21:00",
       "channels_raw": [
+        "Arena Premium 1 BiH HD",
+        "Arena Sport 3 Hrvatska HD",
+        "Arena Sport 4 Srbija HD",
         "M+ LaLiga HD",
         "MATCH! Futbol 2 HD"
       ]
     },
     {
-      "competition": "Danish Cup (DBU Pokalen)",
-      "title": "Esbjerg v Randers",
+      "competition": "Portuguese Liga Portugal 2 - Week 9",
+      "title": "Benfica II v Paços Ferreira",
       "kickoff_baghdad": "21:00",
       "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
+        "Benfica TV HD"
       ]
     },
     {
-      "competition": "AFC Champions League 2 - Round 4",
-      "title": "Al Wehdat v Muharraq",
-      "kickoff_baghdad": "21:15",
+      "competition": "Portuguese Liga Portugal 2 - Week 9",
+      "title": "Portimonense v Torreense",
+      "kickoff_baghdad": "21:00",
       "channels_raw": [
-        "Spor Smart Türkiye HD",
-        "SportKlub 10 Hrvatska",
-        "SportKlub 5 Slovenija",
-        "YouTube: The AFC Hub 📺"
+        "Sport TV+ Portugal"
       ]
     },
     {
-      "competition": "Albanian Superliga - Week 9",
-      "title": "Dinamo City v Partizan Tirana",
-      "kickoff_baghdad": "21:30",
-      "channels_raw": [
-        "RTSH Tani [app]"
-      ]
-    },
-    {
-      "competition": "Albanian Superliga - Week 9",
-      "title": "KF Tirana v Elbasani",
-      "kickoff_baghdad": "21:30",
-      "channels_raw": [
-        "RTSH Tani [app]"
-      ]
-    },
-    {
-      "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "Sant Andreu v Teruel",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "Aragon Deporte Stream 📺"
-      ]
-    },
-    {
-      "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "Sant Just v Mallorca",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "M+ LaLiga 3 HD"
-      ]
-    },
-    {
-      "competition": "Slovenian Cup (Pokal Hervis) - Round of 32",
-      "title": "Brinje Grosuplje v Maribor",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "SportKlub 1 Slovenija HD",
-        "SportKlub 8 Hrvatska"
-      ]
-    },
-    {
-      "competition": "Dutch Cup (KNVB Beker)",
-      "title": "Heracles Almelo v Volendam",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "ESPN 3 Nederland HD",
-        "ESPN Extra Nederland"
-      ]
-    },
-    {
-      "competition": "Romanian Cup - 1st Round",
-      "title": "Gloria Bistrita v FCSB",
+      "competition": "Romanian Cup - Group Stage: Round 1",
+      "title": "Dumbravita v Rapid Bucharest",
       "kickoff_baghdad": "22:00",
       "channels_raw": [
         "Digi Sport 1 Romania HD",
@@ -936,105 +393,44 @@
       ]
     },
     {
-      "competition": "Portuguese League Cup (Taça da Liga) - Quarter Final",
-      "title": "Sporting Braga v Santa Clara",
-      "kickoff_baghdad": "22:15",
+      "competition": "Spanish Cup (Copa del Rey) - 1st Round",
+      "title": "Atlético Baleares v Nástic",
+      "kickoff_baghdad": "22:00",
       "channels_raw": [
-        "ON Sport 1 HD",
-        "Sport TV2 Portugal HD",
-        "Telekanal Futbol HD"
-      ]
-    },
-    {
-      "competition": "Portuguese Liga Portugal 2 - Week 9",
-      "title": "Oliveirense v FC Porto II",
-      "kickoff_baghdad": "22:15",
-      "channels_raw": [
-        "Sport TV3 Portugal HD"
-      ]
-    },
-    {
-      "competition": "Bosnia-Herzegovina Cup",
-      "title": "Sloboda Tuzla v Zeljeznicar",
-      "kickoff_baghdad": "22:15",
-      "channels_raw": [
-        "Arena Premium 1 BiH HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie BKT - Week 10",
-      "title": "Juve Stabia v Bari",
-      "kickoff_baghdad": "22:30",
-      "channels_raw": [
-        "DAZN Italia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie BKT - Week 10",
-      "title": "Mantova v Catanzaro",
-      "kickoff_baghdad": "22:30",
-      "channels_raw": [
-        "DAZN Italia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie BKT - Week 10",
-      "title": "Spezia v Padova",
-      "kickoff_baghdad": "22:30",
-      "channels_raw": [
-        "DAZN Italia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie BKT - Week 10",
-      "title": "Venezia v SüdTirol",
-      "kickoff_baghdad": "22:30",
-      "channels_raw": [
-        "Blue Sport 2 Live HD",
-        "DAZN Italia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Telekanal Futbol HD"
+        "Esport 3 Catalunya 📺"
       ]
     },
     {
       "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "UD Ourense v Pontevedra",
-      "kickoff_baghdad": "22:30",
+      "title": "Getxo v Alavés",
+      "kickoff_baghdad": "22:00",
       "channels_raw": [
-        "TVG 2 Galicia"
+        "M+ LaLiga 3 HD"
       ]
     },
     {
-      "competition": "Greek Cup - Round 3",
-      "title": "PAOK Thessaloniki v AEL Larissa",
-      "kickoff_baghdad": "22:30",
+      "competition": "Dutch Cup (KNVB Beker)",
+      "title": "Sparta Rotterdam v Groningen",
+      "kickoff_baghdad": "22:00",
       "channels_raw": [
-        "Cosmote Sport 1 HD"
+        "ESPN 3 Nederland HD",
+        "ESPN Extra Nederland"
       ]
     },
     {
       "competition": "Swiss Super League - Week 11",
-      "title": "Basel v Zürich",
+      "title": "Grasshoppers v Young Boys",
       "kickoff_baghdad": "22:30",
       "channels_raw": [
+        "Arena Sport 1x2 Srbija",
         "Blue Sport 1 Live UHD",
         "Blue Sport 4 Live HDR",
-        "Blue Sport D 1 HD",
-        "Play RTS Sport (geo/R) 📺",
-        "RSI La 2 Svizzera HD 📺",
-        "RTS 2 Suisse HD 📺",
-        "SportKlub 3 Hrvatska",
-        "SportKlub 4 Slovenija",
-        "SRF Zwei Schweiz HD 📺",
-        "SuperSport 6 Albania HD"
+        "Blue Sport D 1 HD"
       ]
     },
     {
       "competition": "Swiss Super League - Week 11",
-      "title": "Lausanne Sport v Servette",
+      "title": "Lugano v Luzern",
       "kickoff_baghdad": "22:30",
       "channels_raw": [
         "Blue Sport 1 Live HD",
@@ -1042,431 +438,54 @@
       ]
     },
     {
-      "competition": "Austrian Cup (ÖFB Cup) - Round of 16",
-      "title": "St Pölten v Rapid Vienna",
-      "kickoff_baghdad": "22:30",
-      "channels_raw": [
-        "ORF 1 Austria HD 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Premiership - Week 10",
-      "title": "Hibernian v Rangers",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Cosmote Sport 8 HD",
-        "Hibs TV ($/geo/R) 📺",
-        "Polsat Sport 3 HD",
-        "Rangers TV ($/geo/R) 📺",
-        "Ring Bulgaria HD",
-        "Sharjah Sports 2 HD",
-        "Sky Go UK [online]",
-        "Sky Sports Football HD",
-        "Sky UK Ultra HD 1"
-      ]
-    },
-    {
-      "competition": "English League Cup - Round of 16",
-      "title": "Liverpool v Crystal Palace",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Arena Premium 2 Srbija HD",
-        "Arena Sport 1 Hrvatska HD",
-        "Arena Sport 1 Slovenija HD",
-        "Arena Sport 6 BiH HD",
-        "Astro Football HD",
-        "Azam Sports 4 HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports France 4 HD max",
-        "beIN Sports MENA English 1 HD",
-        "DAZN Canada ($/geo/R)",
-        "DAZN Japan ($/geo/R)",
-        "Diema Sport 3 HD",
-        "Digi Sport 3 Romania",
-        "ESPN 1 Brazil HD",
-        "Fast Sports TV Armenia 📺",
-        "IRIB TV3 HD",
-        "Match 4 Hungary HD",
-        "Nova Sport 6 Czech HD",
-        "Persiana Sport HD",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Setanta Sports 2 Baltic",
-        "Setanta Sports 3 Georgia HD",
-        "Setanta Sports Ukraine HD",
-        "Sky Go UK [online]",
-        "Sky Sports Premier League HD",
-        "Sport 1 Israel HD",
-        "Sport TV7 Portugal HD",
-        "ST Sports Premium HD",
-        "SuperSport 3 Albania HD",
-        "SuperSport MáXimo 2A HD",
-        "SuperSport Premier League HD",
-        "TSN Malta 5 HD",
-        "TV3+ Dansk HD",
-        "V Sport 1 Norge HD",
-        "ViaPlay 3 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Sport Sverige HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "English League Cup - Round of 16",
-      "title": "Swansea City v Manchester City",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Arena Sport 10 Hrvatska HD",
-        "Arena Sport 2 Slovenija HD",
-        "Arena Sport 7 Srbija HD",
-        "Astro Premier League HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports France 6 HD max",
-        "beIN Sports MENA 6 HD",
-        "DAZN Canada ($/geo/R)",
-        "DAZN Japan ($/geo/R)",
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD",
-        "Sport 2 Israel HD",
-        "Sport TV6 Portugal HD",
-        "ST Sports Arena",
-        "SuperSport Action HD",
-        "SuperSport MáXimo 3A HD",
-        "SuperSport Variety 1 HD",
-        "TSN Malta 7 HD",
-        "V Sport 3 Norge HD",
-        "V Sport Extra Sverige HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "English League Cup - Round of 16",
-      "title": "Wolves v Chelsea",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Arena Sport 4 Srbija HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports France 7 HD max",
-        "beIN Sports MENA 2 HD",
-        "beIN Sports MENA 8 HD",
-        "DAZN Canada ($/geo/R)",
-        "DAZN Japan ($/geo/R)",
-        "Nova Sport 2 Czech HD",
-        "Setanta Sports 2 Georgia HD",
-        "Setanta Sports Qazaqstan HD",
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD",
-        "Sporty TV Africa",
-        "ST Sports Life",
-        "SuperSport 5 Albania HD",
-        "SuperSport GOtv Africa",
-        "SuperSport LaLiga HD",
-        "TSN Malta 8 HD",
-        "V Sport 1 Sverige HD",
-        "V Sport+ Norge HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺",
-        "ZBC Channel 2"
-      ]
-    },
-    {
-      "competition": "English League Cup - Round of 16",
-      "title": "Arsenal v Brighton H.A.",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Arena Premium 4 Srbija HD",
-        "Arena Sport 1 BiH HD",
-        "Arena Sport 3 Slovenija HD",
-        "Arena Sport 7 Hrvatska HD",
-        "Astro Grandstand HD",
-        "Azam Sports 1 HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports France 5 HD max",
-        "beIN Sports MENA 3 HD",
-        "beIN Sports MENA English 2 HD",
-        "DAZN Canada ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Japan ($/geo/R)",
-        "Diema Sport HD",
-        "ESPN 4 Brazil HD",
-        "Fast Sports 1 Armenia ($/geo/R) 📺",
-        "IRIB Varzesh HD",
-        "Meraj TV",
-        "Nova Sport 4 Czech HD",
-        "Persiana Sports 2 HD 📺",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD",
-        "Sport 4 Israel HD",
-        "Sport TV5 Portugal HD",
-        "ST World Football HD",
-        "SuperSport 2 Albania HD",
-        "SuperSport MáXimo 1 HD",
-        "SuperSport Variety 3 HD",
-        "TSN Malta 4 HD",
-        "TV3 MAX Dansk HD",
-        "V Sport 2 Norge HD",
-        "V Sport Premium HD",
-        "ViaPlay 1 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Premiership - Week 10",
-      "title": "Celtic v Falkirk",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Celtic TV ($/geo/R) 📺",
-        "Falkirk TV [$] 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Premiership - Week 10",
-      "title": "Kilmarnock v Aberdeen",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Kilmarnock TV ($/geo/R) 📺",
-        "Red TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Premiership - Week 10",
-      "title": "Motherwell v Dundee United",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Dundee United TV [$] 📺",
-        "Motherwell TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Premiership - Week 10",
-      "title": "St Mirren v Hearts",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Hearts TV ($/geo/R) 📺",
-        "St Mirren TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "German Cup (DFB-Pokal) - Round 2",
-      "title": "FC Cologne v Bayern Munich",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Abu Dhabi Sports 1 HD 📺",
-        "ARD Das Erste HD 📺",
-        "Arena Sport 1x2 Srbija",
-        "Arena Sport 3 BiH HD",
-        "Arena Sport 3 Hrvatska HD",
-        "ART Motion Sport 6 HD 📺",
-        "Astro Sports UHD",
-        "Azam Sports 2 HD",
-        "Cytavision Sports 3 HD",
-        "Cytavision Sports PPV 2 HD",
-        "DAZN 1 Portugal HD",
-        "Eleven Sports 1 Polska HD",
-        "ERT 2 Sport Hellas HD",
-        "GolStadium ($/geo/R) 📺",
-        "La Chaine L´Équipe HD 📺",
-        "Megogo Futbol 3 ($/geo/R)",
-        "New World Sport 1 Mauritius",
-        "Nova Sport 1 Czech HD",
-        "Nova Sport Bulgaria HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Premier Sports GB Player HD 📺",
-        "Sky Sport 2 Deutsch HD",
-        "Sky Sport Arena Italia HD",
-        "Sky Sport Deutsch UHD",
-        "Sky Sport News Deutsch HD",
-        "Sport 1 Hungary HD",
-        "Sport 3 Israel HD",
-        "SuperSport 4 Albania HD",
-        "SuperSport ESPN 2 HD",
-        "TVNet Sport Azerbaijan (geo/R)",
-        "Voyo Player Slovakia [$] 📺",
-        "Ziggo Sport HD"
-      ]
-    },
-    {
       "competition": "Italian Serie A - Week 9",
-      "title": "Bologna v Torino",
+      "title": "Pisa v Lazio",
       "kickoff_baghdad": "22:45",
       "channels_raw": [
-        "Arena Sport 9 Hrvatska HD",
-        "Astro Arena 2 HD",
-        "Cosmote Sport 5 HD",
-        "DAZN 1 Italia HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "Eleven Sports 3 Polska HD",
-        "Fast Sports [online] ($/geo/R) 📺",
-        "Go3 Sport 2 Baltic HD 📺",
-        "Megogo Futbol 5 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "Paramount+ USA ($/geo/R)",
-        "Prima Sport RO 5 HD",
-        "S Sport+ Streaming",
-        "Sport 1 Czechia HD",
-        "Tring Sport 2 HD",
-        "TSN Malta 2 HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Play Sverige [online] 📺",
-        "VG+ Sport Norge ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie A - Week 9",
-      "title": "Genoa v Cremonese",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Astro Arena Bola 2 HD",
-        "Cosmote Sport 7 HD",
-        "DAZN 2 Italia HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "Fast Sports [online] ($/geo/R) 📺",
-        "Megogo Futbol 4 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "Paramount+ USA ($/geo/R)",
-        "Prima Sport RO 4 HD",
-        "PrimaPlay [app] 📺",
-        "S Sport+ Streaming",
-        "SuperSport Variety 1 HD",
-        "Tivibu Spor 3 HD",
-        "Tring Sport 3 HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Play Sverige [online] 📺",
-        "VG+ Sport Norge ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie A - Week 9",
-      "title": "Inter Milan v Fiorentina",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Arena 4 Hungary HD",
-        "Arena Premium 1 Slovenija",
         "Arena Premium 2 BiH HD",
-        "Arena Sport 2 Srbija HD",
-        "Arena Sport 4 Hrvatska HD",
-        "ART Motion Sport 1 HD 📺",
-        "Astro Arena Bola HD",
-        "Cosmote Sport 3 HD",
-        "Cytavision Sports 4 HD",
-        "DAZN 1 Bar Deutsch HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 1 Srbija HD",
+        "Arena Sport 2 Slovenija HD",
+        "beIN Sports Australia 3 HD",
+        "Cosmote Sport 1 HD",
         "DAZN Deutsch ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
         "DAZN Ireland ($/geo/R) 📺",
         "DAZN Italia ($/geo/R)",
         "Digi Sport 2 Romania HD",
-        "Eleven Sports 2 Polska HD",
-        "ESPN 3 Brazil HD",
-        "Fast Sports 2 Armenia ($/geo/R) 📺",
+        "Eleven Sports 1 Polska HD",
+        "Eleven Sports 4 Polska HD",
         "Fast Sports [online] ($/geo/R) 📺",
-        "Go3 Sport 3 Baltic 📺",
         "MATCH! Futbol 1 HD",
         "MATCH! Russia HD",
         "MAX Sport 3 Bulgaria HD",
         "Megogo Futbol 1 ($/geo/R) 📺",
         "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV Urheilu 2 Suomi HD",
         "New World Sport 2 Mauritius",
-        "ONE2 Sport Israel HD",
         "Paramount+ USA ($/geo/R)",
-        "Polsat Sport Extra 1 HD",
         "Prima Sport RO 2 HD",
         "PrimaPlay [app] 📺",
-        "S Sport 2 Türkiye HD",
         "S Sport+ Streaming",
-        "Setanta Sports 1 Baltic",
-        "Setanta Sports 1 Eurasia HD",
+        "Setanta Sports 2 Eurasia HD",
         "Sky Sport 251 Italia HD",
         "Sky Sport Calcio HD",
-        "Sky Sport Italia 4K UHD",
-        "Sky Sport Uno Italia HD",
-        "Sport 2 Czechia HD",
-        "Sport TV Azerbaijan (geo/R)",
-        "Sport TV Uzbekistan",
+        "Sport TV3 Portugal HD",
         "SuperSport Football HD",
+        "SuperSport MáXimo 1 HD",
         "SuperSport MáXimo 360",
         "Tivibu Spor 1 HD",
         "Tring Sport 1 HD",
         "TSN Malta 3 HD",
         "TV2 Play Danmark ($/geo/R) 📺",
-        "TV2 Sport X Dansk HD",
         "TV4 Fotboll HD",
         "TV4 Play Sverige [online] 📺",
-        "Varzish TV Sport HD (tjk)",
         "VG+ Sport Norge ($/geo/R) 📺",
-        "Ziggo Sport 2",
-        "Zor TV Uzbekistan"
-      ]
-    },
-    {
-      "competition": "German Cup (DFB-Pokal) - Round 2",
-      "title": "Union Berlin v Arminia Bielefeld",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "AD Sports 2 Asia HD [app]",
-        "Megogo Futbol 13 ($/geo/R)",
-        "Sky Sport 3 Deutsch HD",
-        "Sky Sport 7 Deutsch HD"
-      ]
-    },
-    {
-      "competition": "German Cup (DFB-Pokal) - Round 2",
-      "title": "Darmstadt 98 v Schalke 04",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "AD Sports 1 Asia HD [app]",
-        "Megogo Futbol 14 ($/geo/R)",
-        "Sky Sport 4 Deutsch HD",
-        "Sky Sport 8 Deutsch HD"
-      ]
-    },
-    {
-      "competition": "German Cup (DFB-Pokal) - Round 2",
-      "title": "Fortuna Düsseldorf v Freiburg",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Abu Dhabi Sports 2 HD 📺",
-        "Megogo Futbol 12 ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Sifir Tv",
-        "Sky Sport 5 Deutsch HD",
-        "Sky Sport 9 Deutsch HD"
+        "Ziggo Sport 2"
       ]
     },
     {
       "competition": "Danish Cup (DBU Pokalen)",
-      "title": "AGF Århus v SønderjyskE",
+      "title": "Nordsjælland v Brøndby",
       "kickoff_baghdad": "22:45",
       "channels_raw": [
         "ViaPlay Danmark HD",
@@ -1476,91 +495,39 @@
       ]
     },
     {
-      "competition": "English League Cup - Round of 16",
-      "title": "Newcastle United v Tottenham Hotspur",
+      "competition": "Spanish Cup (Copa del Rey) - 1st Round",
+      "title": "Palma del Río v Real Betis",
       "kickoff_baghdad": "23:00",
       "channels_raw": [
-        "Arena Premium 3 BiH HD",
-        "Arena Premium 5 Srbija HD",
-        "Arena Sport 4 Slovenija HD",
-        "Arena Sport 6 Hrvatska HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports France 8 HD max",
-        "beIN Sports MENA 9 HD",
-        "DAZN Canada ($/geo/R)",
-        "DAZN Japan ($/geo/R)",
-        "Diema Sport 2 HD",
-        "Digi Sport 4 Romania",
-        "Futbol TV Tajikistan",
-        "ITV 1 England HD 📺",
-        "ITV X (geo/R) 📺",
-        "Nova Sport 3 Czech HD",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Setanta Sports 2 Eurasia HD",
-        "Setanta Sports+ Ukraine HD",
-        "Sky Go UK [online]",
-        "Sky Sports Main Event HD",
-        "Sky Sports Main Event UHD",
-        "Sky UK Ultra HD 1",
-        "ST Sports Focus",
-        "STV Player (geo/R) 📺",
-        "STV Scotland HD",
-        "TSN Malta 1 HD",
-        "TV3 Sport Dansk HD",
-        "TV3+ Norge HD",
-        "UTV Northern Ireland HD",
-        "V Sport Football HD",
-        "ViaPlay 2 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Norwegian Eliteserien - Week 19",
-      "title": "Rosenborg v Sandefjord",
-      "kickoff_baghdad": "23:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "SportKlub HD",
-        "TV2 Play Norge ($/geo/R) 📺",
-        "TV2 Sport 1 Norge HD"
-      ]
-    },
-    {
-      "competition": "Irish Premier Division - Week 33",
-      "title": "Shamrock Rovers v Galway United",
-      "kickoff_baghdad": "23:00",
-      "channels_raw": [
-        "LOI TV ($/geo/R) 📺"
+        "Arena Premium 1 BiH HD",
+        "Arena Sport 3 Hrvatska HD",
+        "Arena Sport 4 Srbija HD",
+        "ESPN 4 Brazil HD",
+        "M+ LaLiga 4",
+        "MATCH! Futbol 2 HD",
+        "Movistar Plus+ HD"
       ]
     },
     {
       "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "Lucena v Villarreal",
+      "title": "Atlètic Lleida v Espanyol",
       "kickoff_baghdad": "23:00",
       "channels_raw": [
         "M+ LaLiga HD",
-        "M+ Liga de Campeones HD",
-        "MATCH! Futbol 2 HD"
+        "M+ Liga de Campeones HD"
       ]
     },
     {
       "competition": "Spanish Cup (Copa del Rey) - 1st Round",
-      "title": "Yuncos v Rayo Vallecano",
+      "title": "Sámano v Deportivo La Coruña",
       "kickoff_baghdad": "23:00",
       "channels_raw": [
-        "M+ LaLiga 2 HD"
+        "TVG Galicia 📺"
       ]
     },
     {
       "competition": "Dutch Cup (KNVB Beker)",
-      "title": "Excelsior Maassluis v Excelsior",
+      "title": "Rohda Raalte v Twente",
       "kickoff_baghdad": "23:00",
       "channels_raw": [
         "ESPN 4 Nederland HD",
@@ -1568,136 +535,44 @@
       ]
     },
     {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Nantes v Monaco",
-      "kickoff_baghdad": "23:05",
+      "competition": "Polish Cup (Puchar Polski) - 3rd Round",
+      "title": "Legia Warsaw v Pogon Szczecin",
+      "kickoff_baghdad": "23:00",
       "channels_raw": [
-        "Arena Sport 5 BiH HD",
-        "Arena Sport 8 Srbija HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports France 1 HD",
-        "beIN Sports MENA Xtra 2 HD",
-        "beIN Sports Türkiye 3 HD",
-        "Cablenet Sports 1 HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Futbol TV Uzbekistan",
-        "Ligue 1+ ($/geo/R) 📺",
-        "Megogo Futbol 6 ($/geo/R)",
-        "Okko Futbol HD ($/geo/R)",
-        "Sport TV 2 Azerbaijan (geo/R)",
-        "SuperSport Football Plus HD",
-        "SuperSport Variety 4 HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
+        "TVP Sport Polska HD"
       ]
     },
     {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Strasbourg v Auxerre",
-      "kickoff_baghdad": "23:05",
+      "competition": "Portuguese Liga Portugal 2 - Week 9",
+      "title": "Marítimo v União Leiria",
+      "kickoff_baghdad": "23:15",
       "channels_raw": [
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA Xtra 3 HD",
-        "beIN Sports Türkiye 5 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Ligue 1+ 8 ($/geo/R) 📺",
-        "Megogo Futbol 7 ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
+        "Sport TV1 Portugal HD"
       ]
     },
     {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Marseille v Angers",
-      "kickoff_baghdad": "23:05",
+      "competition": "Portuguese Liga Portugal 2 - Week 9",
+      "title": "Leixões v Academico Viseu",
+      "kickoff_baghdad": "23:15",
       "channels_raw": [
-        "Arena Sport 1 Srbija HD",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA Xtra 1 HD",
-        "beIN Sports Türkiye 2 HD",
-        "Cablenet Sports 3 HD",
-        "Canal+ Sport 3 Afrique HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Eleven Sports 4 Polska HD",
-        "Ligue 1+ 6 ($/geo/R) 📺",
-        "Megogo Futbol 2 ($/geo/R)",
-        "Prime Video UK [$] 📺",
-        "Sky Sport Max Italia HD",
-        "SuperSport 1 Albania HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
+        "Sport TV2 Portugal HD"
       ]
     },
     {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Toulouse v Rennes",
-      "kickoff_baghdad": "23:05",
+      "competition": "CONMEBOL Copa Sudamericana - Semi Final (2nd Leg)",
+      "title": "Lanús v Universidad Chile",
+      "kickoff_baghdad": "01:00",
       "channels_raw": [
-        "beIN Connect Türkiye 📺",
-        "beIN Sports Türkiye Max 1 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Ligue 1+ 9 ($/geo/R) 📺",
-        "Megogo Futbol 9 ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 10",
-      "title": "Paris FC v Lyon",
-      "kickoff_baghdad": "23:05",
-      "channels_raw": [
-        "Arena Sport 4 BiH HD",
-        "Arena Sport 5 Hrvatska HD",
-        "Arena Sport 5 Srbija HD",
-        "ART Motion Sport 4 HD 📺",
+        "Arena Premium 3 Srbija HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 1 Slovenija HD",
         "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 4 HD",
-        "beIN Sports Türkiye 4 HD",
-        "Cablenet Sports 2 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Ligue 1+ 7 ($/geo/R) 📺",
-        "Megogo Futbol 8 ($/geo/R)",
-        "Nova Sport 5 Czech HD",
-        "Prime Video UK [$] 📺",
-        "Sport TV4 Portugal HD",
-        "TV5 Monde Afrique HD",
-        "TV5 Monde Amérique Latine",
-        "TV5 Monde Asie",
-        "TV5 Monde Europe HD",
-        "TV5 Monde Maghreb-Orient HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Portuguese League Cup (Taça da Liga) - Quarter Final",
-      "title": "Benfica v Tondela",
-      "kickoff_baghdad": "23:45",
-      "channels_raw": [
-        "ON Sport 2 HD",
-        "Sharjah Sports HD 📺",
-        "Sport TV1 Portugal HD",
-        "Telekanal Futbol HD"
+        "beIN Sports MENA 3 HD",
+        "beIN Sports MENA English 1 HD",
+        "Cosmote Sport 2 HD",
+        "MAX Sport 4 Bulgaria HD",
+        "Polsat Sport 1 HD",
+        "Sport TV3 Portugal HD"
       ]
     }
   ]
