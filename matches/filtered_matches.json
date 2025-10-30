@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "الإمارات, دوري أدنوك للمحترفين",
-      "kickoff_baghdad": "18:45",
-      "home_team": "عجمان",
-      "away_team": "العين",
-      "channels_raw": [
-        "ابوظبي الرياضية 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/868.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/871.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "الإمارات, دوري أدنوك للمحترفين",
-      "kickoff_baghdad": "18:45",
-      "home_team": "شباب الاهلي",
-      "away_team": "الشارقة",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8347.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أفريقيا, دوري أبطال أفريقيا - تصفيات",
       "kickoff_baghdad": "19:00",
       "home_team": "بيراميدز",
@@ -78,7 +52,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -92,7 +66,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/181.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -192,6 +166,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/970.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "18:45",
+      "home_team": "عجمان",
+      "away_team": "العين",
+      "channels_raw": [
+        "ابوظبي الرياضية 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/868.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/871.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "18:45",
+      "home_team": "شباب الاهلي",
+      "away_team": "الشارقة",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8347.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
