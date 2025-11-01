@@ -123,19 +123,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ليفربول",
-      "away_team": "أستون فيلا",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "ريال مدريد",
@@ -145,6 +132,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/110.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ليفربول",
+      "away_team": "أستون فيلا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -237,20 +237,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "17:00",
-      "home_team": "غزل المحلة",
-      "away_team": "مودرن سبورت",
-      "channels_raw": [
-        "أون سبورت 1",
-        "ESPN 4 Brazil HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "17:00",
       "home_team": "برايتون",
@@ -317,6 +303,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/29.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/95.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "17:00",
+      "home_team": "غزل المحلة",
+      "away_team": "مودرن سبورت",
+      "channels_raw": [
+        "أون سبورت 1",
+        "ESPN 4 Brazil HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
