@@ -3,21 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "أودينيزي",
-      "away_team": "أتالانتا",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 3 Portugal HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "16:30",
       "home_team": "لايبزيج",
@@ -33,28 +18,14 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "17:00",
-      "home_team": "كريستال بالاس",
-      "away_team": "برينتفورد",
+      "home_team": "برايتون",
+      "away_team": "ليدز يونايتد",
       "channels_raw": [
-        "beIN Sports 6 HD",
+        "beIN Sports 1 HD",
         "ESPN 4 Brazil HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1920.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "فولهام",
-      "away_team": "وولفرهامبتون",
-      "channels_raw": [
-        "beIN Sports 5 HD",
-        "ESPN 4 Brazil HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/15.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1426.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -69,20 +40,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/12.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "برايتون",
-      "away_team": "ليدز يونايتد",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "ESPN 4 Brazil HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1426.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -115,13 +72,42 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:00",
+      "home_team": "فولهام",
+      "away_team": "وولفرهامبتون",
+      "channels_raw": [
+        "beIN Sports 5 HD",
+        "ESPN 4 Brazil HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/15.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:00",
+      "home_team": "كريستال بالاس",
+      "away_team": "برينتفورد",
+      "channels_raw": [
+        "beIN Sports 6 HD",
+        "ESPN 4 Brazil HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1920.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "17:15",
       "home_team": "أتلتيكو مدريد",
       "away_team": "إشبيلية",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "ESPN 4 Brazil HD"
+        "DAZN 4 Portugal HD",
+        "Football HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
@@ -144,7 +130,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -174,6 +160,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "بايرن ميونخ",
+      "away_team": "باير ليفركوزن",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "19:30",
       "home_team": "ريال سوسيداد",
@@ -196,19 +195,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "بايرن ميونخ",
-      "away_team": "باير ليفركوزن",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -268,19 +254,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ليفربول",
-      "away_team": "أستون فيلا",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "ريال مدريد",
@@ -290,6 +263,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/110.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ليفربول",
+      "away_team": "أستون فيلا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -324,6 +310,22 @@
     {
       "competition": "تونس, الرابطة التونسية المحترفة الأولى",
       "kickoff_baghdad": "15:30",
+      "home_team": "النادي الأفريقي",
+      "away_team": "نادي سليمان الرياضي",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8239.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50316.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
+      "kickoff_baghdad": "15:30",
       "home_team": "النجم الساحلي",
       "away_team": "النجم الرياضي بالمتلوي",
       "channels_raw": [
@@ -338,18 +340,17 @@
       "result_text": "0-0"
     },
     {
-      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
-      "kickoff_baghdad": "15:30",
-      "home_team": "النادي الأفريقي",
-      "away_team": "نادي سليمان الرياضي",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "أودينيزي",
+      "away_team": "أتالانتا",
       "channels_raw": [
         "غير معروف",
-        "Football HD",
-        "ESPN 1 Brazil HD",
-        "Sky Sports Main Event HD"
+        "DAZN 3 Portugal HD",
+        "Persiana Sport HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8239.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50316.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
