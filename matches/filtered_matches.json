@@ -30,6 +30,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "فيورنتينا",
+      "away_team": "ليتشي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "16:00",
       "home_team": "وست هام يونايتد",
@@ -56,19 +69,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "فيورنتينا",
-      "away_team": "ليتشي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "16:30",
       "home_team": "كولن",
@@ -89,6 +89,8 @@
       "channels_raw": [
         "أون سبورت 2",
         "DAZN 1 Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
         "Sky Sport Premier League HD",
         "Sky Sports Main Event HD"
       ],
@@ -105,6 +107,8 @@
       "channels_raw": [
         "أون سبورت 1",
         "DAZN 1 Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
         "Sky Sport Premier League HD",
         "Sky Sports Main Event HD"
       ],
@@ -121,25 +125,13 @@
       "channels_raw": [
         "beIN Sports 3 HD",
         "DAZN 1 Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
         "Sky Sport Premier League HD",
         "Sky Sports Main Event HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/168.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "18:15",
-      "home_team": "لانس",
-      "away_team": "لوريان",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/472-1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -158,15 +150,16 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:30",
-      "home_team": "مانشستر سيتي",
-      "away_team": "بورنموث",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "لانس",
+      "away_team": "لوريان",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "غير معروف",
+        "TNT Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/472-1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -176,10 +169,25 @@
       "home_team": "فولفسبورج",
       "away_team": "هوفنهايم",
       "channels_raw": [
-        "Shahid MBC"
+        "Shahid MBC",
+        "Persiana Sport HD"
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/163.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/848.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:30",
+      "home_team": "مانشستر سيتي",
+      "away_team": "بورنموث",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -191,6 +199,7 @@
       "channels_raw": [
         "beIN Sports HD",
         "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
         "Sky Sport Premier League HD",
         "Sky Sports Main Event HD"
       ],
