@@ -1,39 +1,26 @@
 {
-  "date": "2025-11-01",
+  "date": "2025-11-02",
   "source_url": "https://liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": "Argentinean Primera División - 2nd Phase, Week 14",
-      "title": "Instituto Córdoba v Rosario Central",
-      "kickoff_baghdad": "03:15",
+      "competition": "Major League Soccer (MLS) - Round of 16",
+      "title": "Dallas v Vancouver Whitecaps",
+      "kickoff_baghdad": "04:30",
       "channels_raw": [
-        "Spor Smart Türkiye HD",
-        "Sport TV1 Portugal HD"
+        "MLS Season Pass [$]"
       ]
     },
     {
-      "competition": "Australian A League - Week 3",
-      "title": "Auckland FC v Adelaide United",
-      "kickoff_baghdad": "07:00",
+      "competition": "Major League Soccer (MLS) - Round of 16",
+      "title": "Portland Timbers v San Diego FC",
+      "kickoff_baghdad": "04:30",
       "channels_raw": [
-        "Discovery+ UK ($/geo/R) 📺",
-        "ESPN+ USA ($/geo/R)",
-        "Sky Sport 1 NZ HD",
-        "SPOTV Malaysia HD",
-        "TNT Sports 3 HD"
+        "MLS Season Pass [$]"
       ]
     },
     {
-      "competition": "South Korean K-League - Championship Group - 35",
-      "title": "Daejeon Citizen v FC Seoul",
-      "kickoff_baghdad": "08:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "South Korean K-League - Championship Group - 35",
-      "title": "Gangwon v Jeonbuk Motors",
+      "competition": "South Korean K-League - Relegation Group - 35",
+      "title": "Gwangju v Jeju United",
       "kickoff_baghdad": "08:00",
       "channels_raw": [
         "OneFootball [app] ($/geo/R) 📺"
@@ -41,58 +28,45 @@
     },
     {
       "competition": "Australian A League - Week 3",
-      "title": "Newcastle Jets v Sydney FC",
+      "title": "Central Coast Mariners v Wellington Phoenix",
       "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Discovery+ UK ($/geo/R) 📺",
         "ESPN+ USA ($/geo/R)",
         "Sky Sport 3 NZ HD",
-        "TNT Sports 2 HD"
+        "TNT Sports 4 HD"
       ]
     },
     {
       "competition": "South Korean K-League - Relegation Group - 35",
-      "title": "Anyang v Ulsan Horang-i",
+      "title": "Suwon FC v Daegu",
       "kickoff_baghdad": "10:30",
       "channels_raw": [
         "OneFootball [app] ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "South Korean K-League - Championship Group - 35",
-      "title": "Gimcheon Sangmu v Pohang Steelers",
-      "kickoff_baghdad": "10:30",
+      "competition": "Russian Premier League - Week 14",
+      "title": "Orenburg v Sochi",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺"
+        "Arena Premium 1 Srbija HD",
+        "Arena Premium 2 BiH HD",
+        "Arena Sport 1 Hrvatska HD",
+        "MATCH! Premier HD 📺"
       ]
     },
     {
-      "competition": "Australian A League - Week 3",
-      "title": "Macarthur FC v Western Sydney",
-      "kickoff_baghdad": "11:35",
+      "competition": "Austrian 2. Liga - Week 12",
+      "title": "Austria Lustenau v Austria Klagenfurt",
+      "kickoff_baghdad": "12:30",
       "channels_raw": [
-        "Discovery+ UK ($/geo/R) 📺",
-        "ESPN+ USA ($/geo/R)",
-        "Sky Sport 3 NZ HD",
-        "Sportdigital FUSSBALL HD",
-        "SPOTV Malaysia HD",
-        "TNT Sports 2 HD"
-      ]
-    },
-    {
-      "competition": "Bulgarian First League - Week 14",
-      "title": "Dobrudzha v Spartak Varna",
-      "kickoff_baghdad": "13:00",
-      "channels_raw": [
-        "Diema Sport HD",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "SportKlub 3 Hrvatska",
-        "SportKlub 3 Slovenija"
+        "ORF Sport+ Austria HD 📺"
       ]
     },
     {
       "competition": "Türkiye 1. Lig - Week 12",
-      "title": "Keçiörengücü v Sariyer",
+      "title": "Manisa FK v Amedspor",
       "kickoff_baghdad": "13:30",
       "channels_raw": [
         "beIN Connect Türkiye 📺",
@@ -101,9 +75,674 @@
       ]
     },
     {
-      "competition": "Romanian Liga 2 - Week 12",
-      "title": "Afumati v Targu Mures",
+      "competition": "Türkiye 1. Lig - Week 12",
+      "title": "Istanbulspor v Pendikspor",
       "kickoff_baghdad": "13:30",
+      "channels_raw": [
+        "beIN Connect Türkiye 📺",
+        "beIN Sports Türkiye Max 2 HD",
+        "Tabii Spor 6 ($/geo/R)"
+      ]
+    },
+    {
+      "competition": "Bulgarian First League - Week 14",
+      "title": "CSKA Sofia v Montana",
+      "kickoff_baghdad": "13:45",
+      "channels_raw": [
+        "Diema Sport HD",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "SportKlub 7 Hrvatska"
+      ]
+    },
+    {
+      "competition": "Polish Womens Ekstraliga - Week 10",
+      "title": "Pogon Szczecin v Górnik Leczna",
+      "kickoff_baghdad": "13:45",
+      "channels_raw": [
+        "TVP Sport Polska HD"
+      ]
+    },
+    {
+      "competition": "Portuguese Liga Portugal 2 - Week 10",
+      "title": "Vizela v Penafiel",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "Sport TV1 Portugal HD"
+      ]
+    },
+    {
+      "competition": "Spanish Liga F Femenino - Week 9",
+      "title": "Athletic Bilbao v DUX Logroño",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "DAZN España ($/geo/R)"
+      ]
+    },
+    {
+      "competition": "Russian Womens Supreme Division - Week 25",
+      "title": "Spartak Moscow v CSKA Moscow",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "MATCH! Premier HD 📺",
+        "MATCH! Russia HD"
+      ]
+    },
+    {
+      "competition": "Danish A-Liga Women - Week 11",
+      "title": "OB Odense v Brøndby",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "TV2 Play Danmark ($/geo/R) 📺",
+        "TV2 Sport X Dansk HD"
+      ]
+    },
+    {
+      "competition": "Polish Ekstraklasa - Week 14",
+      "title": "Górnik Zabrze v ARKA Gdynia",
+      "kickoff_baghdad": "14:15",
+      "channels_raw": [
+        "Arena Premium 1 BiH HD",
+        "Arena Sport 2 Hrvatska HD",
+        "Canal+ 360 Polska HD",
+        "Canal+ Sport 3 Polska HD",
+        "Ekstraklasa TV ($/PPV) 📺"
+      ]
+    },
+    {
+      "competition": "Dutch Eredivisie - Week 11",
+      "title": "Heracles Almelo v PEC Zwolle",
+      "kickoff_baghdad": "14:15",
+      "channels_raw": [
+        "ESPN 2 Nederland HD",
+        "ESPN Extra Nederland",
+        "SuperSport ESPN HD"
+      ]
+    },
+    {
+      "competition": "Dutch Vrouwen Eredivisie - Week 6",
+      "title": "HERA United v Ajax",
+      "kickoff_baghdad": "14:15",
+      "channels_raw": [
+        "ESPN 1 Nederland HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 10",
+      "title": "Hellas Verona v Inter Milan",
+      "kickoff_baghdad": "14:30",
+      "channels_raw": [
+        "Arena Premium 1 Srbija HD",
+        "Arena Premium 2 BiH HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 1 Slovenija HD",
+        "Astro Football HD",
+        "Cosmote Sport 1 HD",
+        "Cytavision Sports 4 HD",
+        "Cytavision Sports PPV 4 HD",
+        "DAZN 1 Italia HD",
+        "DAZN 2 Bar Deutsch HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
+        "Digi Sport 1 Romania HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "Eleven Sports 1 Polska HD",
+        "Fast Sports 1 Armenia ($/geo/R) 📺",
+        "Fast Sports [online] ($/geo/R) 📺",
+        "Go3 Sport 1 Baltic HD 📺",
+        "IRIB Varzesh HD",
+        "Match 4 Hungary HD",
+        "MATCH! Futbol 1 HD",
+        "MAX Sport 3 Bulgaria HD",
+        "Megogo Futbol 1 ($/geo/R) 📺",
+        "MTV Katsomon+ ($/geo/R) 📺",
+        "MTV Urheilu 1 Suomi HD",
+        "New World Sport 2 Mauritius",
+        "Paramount+ USA ($/geo/R)",
+        "Polsat Sport 2 HD",
+        "Prima Sport RO 1 HD",
+        "PrimaPlay [app] 📺",
+        "S Sport 2 Türkiye HD",
+        "S Sport+ Streaming",
+        "Setanta Sports 1 Eurasia HD",
+        "Setanta Sports 1 Georgia HD",
+        "Setanta Sports 2 Baltic",
+        "Sport TV2 Portugal HD",
+        "Sporty TV Africa",
+        "SuperSport Football HD",
+        "SuperSport MáXimo 360",
+        "Tivibu Spor 1 HD",
+        "TNT Sports 2 HD",
+        "Tring Sport 1 HD",
+        "TSN Malta 3 HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
+        "TV2 Sport Dansk HD",
+        "TV4 Fotboll HD",
+        "TV4 Play Sverige [online] 📺",
+        "VG+ Sport Norge ($/geo/R) 📺",
+        "Ziggo Sport HD"
+      ]
+    },
+    {
+      "competition": "Türkiye Süper Lig - Week 11",
+      "title": "Konyaspor v Samsunspor",
+      "kickoff_baghdad": "14:30",
+      "channels_raw": [
+        "beIN Connect Türkiye 📺",
+        "beIN Sports Türkiye 2 HD"
+      ]
+    },
+    {
+      "competition": "Italian W/Serie A - Week 4",
+      "title": "Roma v Inter Milan",
+      "kickoff_baghdad": "14:30",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone A - Girone A - 12",
+      "title": "Triestina v Union Brescia",
+      "kickoff_baghdad": "14:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 259 Italia HD",
+        "Sky Sport Calcio HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone B - Girone B - 12",
+      "title": "Livorno v Forli",
+      "kickoff_baghdad": "14:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 257 Italia HD",
+        "Sky Sport Uno Italia HD"
+      ]
+    },
+    {
+      "competition": "Norwegian Toppserien (W) - Week 25",
+      "title": "Hønefoss v Bodø/Glimt",
+      "kickoff_baghdad": "14:30",
+      "channels_raw": [
+        "TV2 Play Norge ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Norwegian Toppserien (W) - Week 25",
+      "title": "Vålerenga v Lillestrøm",
+      "kickoff_baghdad": "14:30",
+      "channels_raw": [
+        "TV2 Play Norge ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Chinese Super League - Week 29",
+      "title": "Yunnan Yukun v Qingdao West Coast",
+      "kickoff_baghdad": "14:35",
+      "channels_raw": [
+        "Telekanal Futbol HD"
+      ]
+    },
+    {
+      "competition": "Austrian Frauenliga - Week 11",
+      "title": "Austria Vienna v LASK Linz",
+      "kickoff_baghdad": "14:45",
+      "channels_raw": [
+        "ORF Sport+ Austria HD 📺"
+      ]
+    },
+    {
+      "competition": "English FA Cup - 1st Round Proper",
+      "title": "South Shields v Shrewsbury Town",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "Arena Sport 6 Srbija HD",
+        "beIN Connect FRANCE 📺",
+        "beIN Sports France 7 HD max",
+        "Discovery+ UK ($/geo/R) 📺",
+        "ESPN+ USA ($/geo/R)",
+        "Nova Sport 1 Czech HD",
+        "Nova Sport Bulgaria HD",
+        "TNT Sports 1 HD",
+        "TSN Malta 7 HD",
+        "Voyo Player Slovakia [$] 📺"
+      ]
+    },
+    {
+      "competition": "English Womens Super League - Week 7",
+      "title": "Brighton H.A. v Manchester United",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "Sky Go UK [online]",
+        "Sky Showcase UK HD",
+        "Sky Sport 6 NZ HD",
+        "Sky Sports Football HD",
+        "SuperSport Action HD",
+        "SuperSport GOtv Africa"
+      ]
+    },
+    {
+      "competition": "English Womens Super League - Week 7",
+      "title": "Aston Villa v Everton",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "BBC *RED Button HD",
+        "BBC iPlayer (geo/R) 📺",
+        "BBC iPlayer 4K (geo/R) 📺",
+        "BBC Sport Website (geo/R) 📺",
+        "Sky Sport 7 NZ HD",
+        "Sky Sports+ [via APP]"
+      ]
+    },
+    {
+      "competition": "English Womens Super League - Week 7",
+      "title": "Tottenham Hotspur v Liverpool",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "Sky Sport 5 NZ HD",
+        "Sky Sports+ [via APP]",
+        "Sport 4 Israel HD",
+        "Sportdigital 1+ Deutsch HD",
+        "SportKlub 8 Hrvatska"
+      ]
+    },
+    {
+      "competition": "English Womens Super League - Week 7",
+      "title": "Leicester City v Arsenal",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "Sky Go UK [online]",
+        "Sky Sport 4 NZ HD",
+        "Sky Sports MIX UK HD",
+        "SportKlub 9 Hrvatska"
+      ]
+    },
+    {
+      "competition": "Czech First League - Week 14",
+      "title": "Mladá Boleslav v Sigma Olomouc",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "OnePlay Sport 3 HD"
+      ]
+    },
+    {
+      "competition": "Swedish Damallsvenskan - Week 24",
+      "title": "Malmö v Piteå",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "Fanseat LIVE ($/geo/R) 📺",
+        "SVT 1 Sverige HD",
+        "SVT Play HD 📺",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Ísland HD"
+      ]
+    },
+    {
+      "competition": "German Frauen Bundesliga - Week 8",
+      "title": "Carl Zeiss Jena v Bayer Leverkusen",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "DAZN 1 Bar Deutsch HD",
+        "DAZN Deutsch ($/geo/R)"
+      ]
+    },
+    {
+      "competition": "Slovenian 2. SNL - Week 13",
+      "title": "Beltinci v Nafta 1903",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "SportKlub 1 Slovenija HD"
+      ]
+    },
+    {
+      "competition": "Hungarian Noi NB 1 (w) - Week 9",
+      "title": "MTK Budapest v Ferencváros",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "M4 Sport Hungary HD 📺"
+      ]
+    },
+    {
+      "competition": "Kosovo Superliga - Week 12",
+      "title": "Drita v Llapi",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "ART Motion Sport 1 HD 📺"
+      ]
+    },
+    {
+      "competition": "Kosovo Superliga - Week 12",
+      "title": "Dukagjini v Malisheva",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "ART Motion Sport 3 HD 📺"
+      ]
+    },
+    {
+      "competition": "Kosovo Superliga - Week 12",
+      "title": "Prishtina e Re v Drenica",
+      "kickoff_baghdad": "15:00",
+      "channels_raw": [
+        "ART Motion Sport 4 HD 📺"
+      ]
+    },
+    {
+      "competition": "German 2. Bundesliga - Week 11",
+      "title": "Fortuna Düsseldorf v Kaiserslautern",
+      "kickoff_baghdad": "15:30",
+      "channels_raw": [
+        "Arena 4 Hungary HD",
+        "Arena Premium 4 Srbija HD",
+        "beIN Connect FRANCE 📺",
+        "beIN Sports France 4 HD max",
+        "DAZN Japan ($/geo/R)",
+        "Diema Sport 3 HD",
+        "ESPN+ USA ($/geo/R)",
+        "Nova Sport 3 Czech HD",
+        "Nova Sports 3 Cyprus HD",
+        "Nova Sports 3 Hellas HD",
+        "OneFootball [app] ($/geo/R) 📺",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "Sky Sport Bundesliga 2 HD",
+        "Sport 3 Israel HD",
+        "Sport TV2 Slovenija",
+        "SportKlub 1 Hrvatska HD",
+        "Tivibu Spor 2 HD",
+        "TSN Malta 5 HD",
+        "V Sport 2 Norge HD",
+        "ViaPlay 1 Urheilu HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD",
+        "Voyo Player Slovakia [$] 📺",
+        "YouTube: German Football (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Belgian Pro League - Week 13",
+      "title": "Westerlo v Racing Genk",
+      "kickoff_baghdad": "15:30",
+      "channels_raw": [
+        "DAZN Belgium ($/geo/R) 📺",
+        "DAZN Pro League 1 HD"
+      ]
+    },
+    {
+      "competition": "German 2. Bundesliga - Week 11",
+      "title": "Paderborn v Greuther Fürth",
+      "kickoff_baghdad": "15:30",
+      "channels_raw": [
+        "Arena Sport 4 Srbija HD",
+        "DAZN Japan ($/geo/R)",
+        "ESPN+ USA ($/geo/R)",
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sky Sport Bundesliga 4 HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD",
+        "YouTube: German Football (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "German 2. Bundesliga - Week 11",
+      "title": "Bochum v Magdeburg",
+      "kickoff_baghdad": "15:30",
+      "channels_raw": [
+        "DAZN Japan ($/geo/R)",
+        "ESPN+ USA ($/geo/R)",
+        "Nova Sport 5 Czech HD",
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sky Sport Bundesliga 3 HD",
+        "SportKlub 3 Hrvatska",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD",
+        "Voyo Player Slovakia [$] 📺",
+        "YouTube: German Football (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "German 3. Liga - Week 13",
+      "title": "Hoffenheim II v Waldhof Mannheim",
+      "kickoff_baghdad": "15:30",
+      "channels_raw": [
+        "Magenta Sport ($/geo/R) 📺",
+        "OneFootball [app] ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Croatian Prva NL - Week 13",
+      "title": "Rudeš v Cibalia",
+      "kickoff_baghdad": "15:45",
+      "channels_raw": [
+        "MAX Sport 1 Hrvatska HD"
+      ]
+    },
+    {
+      "competition": "Spanish La Liga (Primera) - Week 11",
+      "title": "Levante v Celta Vigo",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Arena Premium 1 Slovenija",
+        "Arena Premium 3 BiH HD",
+        "Arena Premium 3 Srbija HD",
+        "Arena Sport 3 Hrvatska HD",
+        "beIN Connect FRANCE 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports France 9 HD max",
+        "beIN Sports MENA 3 HD",
+        "Blue Sport 2 Live HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN LaLiga HD",
+        "ESPN Deportes",
+        "LaLiga TV Bar HD",
+        "MATCH! Futbol 2 HD",
+        "MAX Sport 4 Bulgaria HD",
+        "Megogo Futbol 3 ($/geo/R)",
+        "MTV Katsomon+ ($/geo/R) 📺",
+        "MTV Urheilu 3 Suomi HD",
+        "Nova Sport 4 Czech HD",
+        "Nova Sports 1 Hellas HD",
+        "Premier Sports 2 Ireland HD",
+        "Premier Sports 2 UK HD",
+        "Premier Sports GB Player HD 📺",
+        "Prima Sport RO 4 HD",
+        "PrimaPlay [app] 📺",
+        "S Sport 1 Türkiye HD",
+        "Silk Sport 1 HD",
+        "Spíler 2 TV Hungary HD",
+        "SuperSport LaLiga HD",
+        "SuperSport MáXimo 3A HD",
+        "TSN Malta 4 HD",
+        "TV2 Play Norge ($/geo/R) 📺",
+        "TV2 Play Premium (geo/R) 📺",
+        "TV2 Sport Premium HD",
+        "TV4 Play Sverige [online] 📺",
+        "TV4 Sport Live 1 HD",
+        "ViaPlay Norge HD",
+        "Voyo Player Slovakia [$] 📺",
+        "Ziggo Sport HD"
+      ]
+    },
+    {
+      "competition": "Türkiye 1. Lig - Week 12",
+      "title": "Boluspor v Bodrumspor",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "beIN Connect Türkiye 📺",
+        "beIN Sports Türkiye Max 1 HD",
+        "TRT Spor Türkiye HD 📺"
+      ]
+    },
+    {
+      "competition": "Albanian Superliga - Week 10",
+      "title": "KF Tirana v Bylis",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺",
+        "RTSH Tani [app]"
+      ]
+    },
+    {
+      "competition": "Danish Superliga - Week 14",
+      "title": "Viborg v Randers",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Arena Sport 7 Srbija HD",
+        "TV3 Sport Dansk HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "Swedish Allsvenskan - Week 29",
+      "title": "Elfsborg v AIK Stockholm",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Discovery+ SE ($/geo/R) 📺",
+        "HBO Max Extra 1 HD",
+        "Kanal 5 Sverige HD",
+        "SportKlub HD",
+        "TV4 Play Sverige [online] 📺"
+      ]
+    },
+    {
+      "competition": "Swedish Allsvenskan - Week 29",
+      "title": "Halmstad v Brommapojkarna",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Discovery+ SE ($/geo/R) 📺",
+        "HBO Max Extra 2 HD",
+        "TV4 Play Sverige [online] 📺"
+      ]
+    },
+    {
+      "competition": "English WSL 2 - Week 7",
+      "title": "Sheffield United v Durham",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "YouTube: W/Super League 2 📺"
+      ]
+    },
+    {
+      "competition": "Spanish La Liga 2 - Week 12",
+      "title": "Andorra v Cádiz",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 4 HD",
+        "DAZN España ($/geo/R)",
+        "LaLiga Hypermotion HD",
+        "LaLiga TV Bar 2"
+      ]
+    },
+    {
+      "competition": "Swiss Super League - Week 12",
+      "title": "Lugano v St Gallen",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Blue Sport 1 Live HD"
+      ]
+    },
+    {
+      "competition": "Swiss Challenge League - Week 12",
+      "title": "Wil 1900 v Neuchâtel Xamax",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Blue Sport 3 Live HD"
+      ]
+    },
+    {
+      "competition": "Belarus Premier League - Week 27",
+      "title": "Dynamo Minsk v Slutsk",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Belarus 5 HD"
+      ]
+    },
+    {
+      "competition": "Scottish SWPL 1 - Week 10",
+      "title": "Hibernian v Partick Thistle",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "YouTube: Hibernian FC 📺"
+      ]
+    },
+    {
+      "competition": "Croatian Prva HNLŽ",
+      "title": "Hajduk Split v Agram",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "Hajduk TV ($/geo/R) 📺",
+        "MAX Sport 2 Hrvatska HD"
+      ]
+    },
+    {
+      "competition": "Albanian First Division - Week 10",
+      "title": "Luftëtari v Besa Kavajë",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Albanian First Division - Week 10",
+      "title": "Laçi v Lushnja",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Albanian First Division - Week 10",
+      "title": "Kukesi v Kastrioti",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Albanian First Division - Week 10",
+      "title": "Iliria Fushë Krujë v Burreli",
+      "kickoff_baghdad": "16:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Bulgarian First League - Week 14",
+      "title": "Arda v Levski Sofia",
+      "kickoff_baghdad": "16:15",
+      "channels_raw": [
+        "Diema Sport HD",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "SportKlub 6 Hrvatska"
+      ]
+    },
+    {
+      "competition": "Romanian Superliga - Week 15",
+      "title": "UTA Arad v Metaloglobus",
+      "kickoff_baghdad": "16:30",
       "channels_raw": [
         "Digi Sport 1 Romania HD",
         "Prima Sport RO 1 HD",
@@ -112,101 +751,612 @@
     },
     {
       "competition": "Ukrainian Premier League - Week 11",
-      "title": "Kryvbas KR v Poltava",
-      "kickoff_baghdad": "14:00",
+      "title": "Zorya Luhansk v Rukh Vynnyky",
+      "kickoff_baghdad": "16:30",
       "channels_raw": [
         "OneFootball [app] ($/geo/R) 📺",
         "UPL TV Ukraine ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Portuguese Liga Portugal 2 - Week 10",
-      "title": "Sporting Lisbon II v Feirense",
-      "kickoff_baghdad": "14:00",
+      "competition": "Dutch Eredivisie - Week 11",
+      "title": "Groningen v Twente",
+      "kickoff_baghdad": "16:30",
       "channels_raw": [
-        "Sporting TV"
+        "ESPN 1 Nederland HD",
+        "ESPN Extra Nederland"
       ]
     },
     {
-      "competition": "Spanish Liga F Femenino - Week 9",
-      "title": "Atlético Madrid v Alhama",
-      "kickoff_baghdad": "14:00",
+      "competition": "Dutch Eredivisie - Week 11",
+      "title": "Sparta Rotterdam v AZ Alkmaar",
+      "kickoff_baghdad": "16:30",
       "channels_raw": [
+        "Arena Sport 1 Slovakia HD",
+        "Arena Sport 8 Srbija HD",
+        "ESPN 3 Nederland HD",
+        "ESPN Extra Nederland",
+        "Polsat Sport Extra 1 HD",
+        "Sport TV3 Slovenija",
+        "Sportdigital FUSSBALL 2",
+        "Thriller TV+ [online] ($/geo/R) 📺",
+        "Tivibu Spor 3 HD"
+      ]
+    },
+    {
+      "competition": "Norwegian Eliteserien - Week 27",
+      "title": "Strømsgodset v Viking",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "TV2 Play Norge ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Dutch Eerste Divisie (2nd) - Week 14",
+      "title": "Emmen v RKC Waalwijk",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "ESPN 4 Nederland HD"
+      ]
+    },
+    {
+      "competition": "Austrian Bundesliga - Week 12",
+      "title": "Wolfsberger AC v WSG Tirol",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sky Go Germany [online]",
+        "Sky Sport 1 Austria HD [s/cast]",
+        "Sky Sport 3 Austria HD"
+      ]
+    },
+    {
+      "competition": "Austrian Bundesliga - Week 12",
+      "title": "Salzburg v Ried",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sky Go Germany [online]",
+        "Sky Sport 1 Austria HD [s/cast]",
+        "Sky Sport 2 Austria HD",
+        "SportKlub 3 Slovenija",
+        "SportKlub 4 Hrvatska",
+        "TV Start Triumph HD"
+      ]
+    },
+    {
+      "competition": "Polish 1. Liga - Week 15",
+      "title": "Chrobry Glogów v Wisla Kraków",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "TVP Polonia HD",
+        "TVP Sport Polska HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone A - Girone A - 12",
+      "title": "Vicenza v Giana Erminio",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 252 Italia HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone A - Girone A - 12",
+      "title": "Cittadella v Pro Vercelli",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 255 Italia HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone B - Girone B - 12",
+      "title": "Gubbio v Ternana",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 251 Italia HD",
+        "Sky Sport Arena Italia HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone B - Girone B - 12",
+      "title": "Torres v AC Carpi",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 256 Italia HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone C - Girone C - 12",
+      "title": "Crotone v Trapani 1905",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sky Go Italy [online]",
+        "Sky Sport 253 Italia HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone C - Girone C - 12",
+      "title": "Potenza v Foggia",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 254 Italia HD"
+      ]
+    },
+    {
+      "competition": "South African Premiership - Week 11",
+      "title": "TS Galaxy v Stellenbosch",
+      "kickoff_baghdad": "16:30",
+      "channels_raw": [
+        "SuperSport PSL HD"
+      ]
+    },
+    {
+      "competition": "Polish Ekstraklasa - Week 14",
+      "title": "Lech Poznan v Motor Lublin",
+      "kickoff_baghdad": "16:45",
+      "channels_raw": [
+        "Arena Sport 2 Hrvatska HD",
+        "Canal+ Sport 3 Polska HD",
+        "Ekstraklasa TV ($/PPV) 📺"
+      ]
+    },
+    {
+      "competition": "English Premier League - Week 10",
+      "title": "West Ham United v Newcastle United",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Arena Premium 1 Srbija HD",
+        "Arena Sport 1 BiH HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 1 Slovenija HD",
+        "Astro Premier League 2 HD",
+        "beIN Connect MENA 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA English 1 HD",
+        "beIN Sports Türkiye 3 HD",
+        "Canal+ Extra 1 Polska HD",
+        "Canal+ Foot HD",
+        "Canal+ Live 1 France HD",
+        "Canal+ Sport 1 Czech HD 📺",
+        "Cytavision Sports 3 HD",
+        "Cytavision Sports PPV 3 HD",
+        "DAZN 1 Bar Espana",
+        "DAZN 1 Espana HD",
+        "DAZN 1 Portugal HD",
+        "DAZN España ($/geo/R)",
+        "Diema Sport 2 HD",
+        "FuboTV Canada ($/geo/R)",
+        "Go3 Extra Sports Baltics ($/geo/R) 📺",
+        "Nova Sports Premier League HD",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "Play Sports 1 Belgium",
+        "See Dansk HD",
+        "Setanta Sports 1 Eurasia HD",
+        "Setanta Sports 1 Georgia HD",
+        "Setanta Sports Ukraine HD",
+        "Sky Go UK [online]",
+        "Sky Sport 8 NZ HD",
+        "Sky Sport Calcio HD",
+        "Sky Sport Italia 4K UHD",
+        "Sky Sport Premier League DE HD",
+        "Sky Sports Main Event HD",
+        "Sky Sports Main Event UHD",
+        "Sky Sports Premier League HD",
+        "Sky UK Ultra HD 1",
+        "Sport 1 Israel HD",
+        "Spíler 1 TV Hungary HD",
+        "Stan Sport Australia ($/geo/R) 📺",
+        "SuperSport GOtv Africa",
+        "SuperSport MáXimo 2A HD",
+        "SuperSport MáXimo 360",
+        "SuperSport Premier League HD",
+        "TSN Malta 2 HD",
+        "TV2 Play Premium (geo/R) 📺",
+        "USA Network HD",
+        "V Sport Premier League HD",
+        "V Sport Premium HD",
+        "ViaPlay 2 Urheilu HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "VOYO Pro TV Romania [$] 📺"
+      ]
+    },
+    {
+      "competition": "Türkiye Süper Lig - Week 11",
+      "title": "Kayserispor v Kasimpasa",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "beIN Connect Türkiye 📺",
+        "beIN Sports Türkiye 2 HD"
+      ]
+    },
+    {
+      "competition": "Scottish League Cup - Semi Final",
+      "title": "Celtic v Rangers",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "5 SPORT Israel HD",
+        "Arena Sport 3 Srbija HD",
+        "Arena Sport 6 BiH HD",
+        "CBS Sports Network USA",
+        "Celtic TV ($/geo/R) 📺",
+        "Cosmote Sport 3 HD",
+        "Digi Sport 3 Romania",
+        "IRIB Varzesh HD",
+        "Polsat Sport 3 HD",
+        "Premier Sports 1 Ireland HD",
+        "Premier Sports 1 UK HD",
+        "Premier Sports GB Player HD 📺",
+        "Rangers TV ($/geo/R) 📺",
+        "Ring Bulgaria HD",
+        "Setanta Sports 2 Baltic",
+        "Setanta Sports 3 Georgia HD",
+        "Setanta Sports Qazaqstan HD",
+        "Setanta Sports+ Ukraine HD",
+        "Sport TV3 Portugal HD",
+        "Sportdigital FUSSBALL HD",
+        "SuperSport ESPN HD"
+      ]
+    },
+    {
+      "competition": "French Ligue 1 - Week 11",
+      "title": "Rennes v Strasbourg",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "5 PLUS Israel HD",
+        "Arena Sport 1x2 Srbija",
+        "Arena Sport 5 BiH HD",
+        "Arena Sport 6 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 2 HD",
+        "beIN Sports Türkiye 4 HD",
+        "Cablenet Sports 2 HD",
+        "Canal+ Sport 2 Afrique HD",
         "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
+        "Eleven Sports 4 Polska HD",
+        "Ligue 1+ ($/geo/R) 📺",
+        "Megogo Futbol 2 ($/geo/R)",
+        "Nova Sport 6 Czech HD",
+        "Nova Sport Bulgaria HD",
+        "Sport TV7 Portugal HD",
+        "V Sport Football HD",
+        "ViaPlay 3 Urheilu HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "Voyo Player Slovakia [$] 📺"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 10",
+      "title": "Fiorentina v Lecce",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Arena Premium 2 BiH HD",
+        "Arena Premium 2 Srbija HD",
+        "Arena Sport 3 Slovenija HD",
+        "Arena Sport 7 Hrvatska HD",
+        "Astro Arena Bola 2 HD",
+        "Cosmote Sport 2 HD",
+        "Cytavision Sports 4 HD",
+        "DAZN 1 Italia HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
         "DAZN Ireland ($/geo/R) 📺",
-        "GOL España HD 📺",
-        "GolStadium ($/geo/R) 📺",
-        "TEN TV España HD"
+        "DAZN Italia ($/geo/R)",
+        "Eleven Sports 3 Polska HD",
+        "Fast Sports [online] ($/geo/R) 📺",
+        "MATCH! Futbol 1 HD",
+        "MAX Sport 3 Bulgaria HD",
+        "Megogo Futbol 1 ($/geo/R) 📺",
+        "MTV Katsomon+ ($/geo/R) 📺",
+        "MTV Urheilu 2 Suomi HD",
+        "Paramount+ USA ($/geo/R)",
+        "Prima Sport RO PPV 2",
+        "S Sport 2 Türkiye HD",
+        "S Sport+ Streaming",
+        "Sport 2 Czechia HD",
+        "Sport TV2 Portugal HD",
+        "SuperSport Football HD",
+        "Tivibu Spor 1 HD",
+        "Tring Sport 1 HD",
+        "TSN Malta 3 HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
+        "TV4 Fotboll HD",
+        "TV4 Play Sverige [online] 📺",
+        "VG+ Sport Norge ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Spanish Liga F Femenino - Week 9",
-      "title": "Levante v Costa Adeje Tenerife",
-      "kickoff_baghdad": "14:00",
+      "competition": "Italian Serie A - Week 10",
+      "title": "Torino v Pisa",
+      "kickoff_baghdad": "17:00",
       "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "M+ Ellas Vamos HD"
-      ]
-    },
-    {
-      "competition": "Spanish Liga F Femenino - Week 9",
-      "title": "Levante Las Planas v Sevilla",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "DAZN España ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "German Frauen Bundesliga - Week 8",
-      "title": "Werder Bremen v Union Berlin",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN Deutsch ($/geo/R)"
+        "Arena Premium 5 Srbija HD",
+        "Arena Sport 4 Hrvatska HD",
+        "Arena Sport 4 Slovenija HD",
+        "beIN Sports Australia 3 HD",
+        "Cosmote Sport 5 HD",
+        "DAZN 2 Italia HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
+        "Eleven Sports 2 Polska HD",
+        "Fast Sports [online] ($/geo/R) 📺",
+        "MATCH! Futbol 3 HD",
+        "Megogo Futbol 4 ($/geo/R)",
+        "Megogo Sport Ukraine HD 📺",
+        "MTV Katsomon+ ($/geo/R) 📺",
+        "MTV MAX Suomi HD",
+        "Paramount+ USA ($/geo/R)",
+        "Prima Sport RO PPV 1",
+        "S Sport+ Streaming",
+        "SuperSport Action HD",
+        "Tivibu Spor 4 HD",
+        "Tring Sport 2 HD",
+        "TSN Malta 8 HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
+        "TV4 Play Sverige [online] 📺",
+        "TV4 Sport Live 2 HD",
+        "VG+ Sport Norge ($/geo/R) 📺"
       ]
     },
     {
       "competition": "Italian Serie BKT - Week 11",
-      "title": "Avellino v Reggiana",
-      "kickoff_baghdad": "14:30",
+      "title": "Bari v Cesena",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Blue Sport 7 Live HD",
+        "DAZN Italia ($/geo/R)",
+        "OneFootball [app] ($/geo/R) 📺",
+        "Telekanal Futbol HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie BKT - Week 11",
+      "title": "Catanzaro v Venezia",
+      "kickoff_baghdad": "17:00",
       "channels_raw": [
         "DAZN Italia ($/geo/R)",
         "OneFootball [app] ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Norwegian Toppserien (W) - Week 25",
-      "title": "Lyn Oslo v Røa IL",
-      "kickoff_baghdad": "14:30",
+      "competition": "Italian Serie BKT - Week 11",
+      "title": "Modena v Juve Stabia",
+      "kickoff_baghdad": "17:00",
       "channels_raw": [
-        "TV2 Play Norge ($/geo/R) 📺"
+        "DAZN Italia ($/geo/R)",
+        "OneFootball [app] ($/geo/R) 📺"
       ]
     },
     {
-      "competition": "Chinese Super League - Week 29",
-      "title": "Meizhou Hakka v Dalian Yingbo",
-      "kickoff_baghdad": "14:35",
+      "competition": "German Frauen Bundesliga - Week 8",
+      "title": "Hamburg v Eintracht Frankfurt",
+      "kickoff_baghdad": "17:00",
       "channels_raw": [
-        "Telekanal Futbol HD"
+        "DAZN 1 Bar Deutsch HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD"
+      ]
+    },
+    {
+      "competition": "Swedish Damallsvenskan - Week 24",
+      "title": "Hammarby v IFK Norrköping",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Fanseat LIVE ($/geo/R) 📺",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD"
+      ]
+    },
+    {
+      "competition": "Danish 1. Division - Week 15",
+      "title": "Lyngby v Hobro",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "ViaPlay Danmark HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "Swedish Superettan - Week 29",
+      "title": "Orebro v Utsikten",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Discovery+ SE ($/geo/R) 📺",
+        "HBO Max Extra 5 HD",
+        "TV4 Play Sverige [online] 📺"
+      ]
+    },
+    {
+      "competition": "Italian W/Serie A - Week 4",
+      "title": "Juventus v Ternana",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "English WSL 2 - Week 7",
+      "title": "Birmingham City v Charlton Athletic",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "YouTube: W/Super League 2 📺"
+      ]
+    },
+    {
+      "competition": "English WSL 2 - Week 7",
+      "title": "Ipswich Town v Newcastle United",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "YouTube: W/Super League 2 📺"
+      ]
+    },
+    {
+      "competition": "English WSL 2 - Week 7",
+      "title": "Portsmouth v Crystal Palace",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "YouTube: W/Super League 2 📺"
+      ]
+    },
+    {
+      "competition": "English WSL 2 - Week 7",
+      "title": "Southampton v Nottingham Forest",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "YouTube: W/Super League 2 📺"
+      ]
+    },
+    {
+      "competition": "English WSL 2 - Week 7",
+      "title": "Sunderland v Bristol City",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "YouTube: W/Super League 2 📺"
+      ]
+    },
+    {
+      "competition": "Finnish Veikkausliiga - Championship Round - 9",
+      "title": "KuPS Kuopio v Inter Turku",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "Ruutu+ Suomi ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Montenegrin First League - Week 14",
+      "title": "Buducnost v Mladost DG",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Arena Sport 10 Srbija HD"
+      ]
+    },
+    {
+      "competition": "Slovenian 1. SNL - Week 14",
+      "title": "Koper v Olimpija",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "Sport TV1 Slovenija",
+        "SportKlub 8 Hrvatska"
+      ]
+    },
+    {
+      "competition": "Russian Premier League - Week 14",
+      "title": "Baltika v Akhmat Grozny",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "MATCH! Premier HD 📺"
+      ]
+    },
+    {
+      "competition": "Georgian Erovnuli Liga - Week 31",
+      "title": "Dinamo Tbilisi v Telavi",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "SportKlub 9 Hrvatska"
       ]
     },
     {
       "competition": "English FA Cup - 1st Round Proper",
-      "title": "Chelmsford City v Braintree Town",
-      "kickoff_baghdad": "15:00",
+      "title": "Eastleigh v Walsall",
+      "kickoff_baghdad": "17:15",
       "channels_raw": [
+        "BBC iPlayer (geo/R) 📺",
+        "BBC iPlayer 4K (geo/R) 📺",
+        "BBC Sport Website (geo/R) 📺",
+        "BBC Two HD",
+        "beIN Connect FRANCE 📺",
+        "beIN Sports France 7 HD max",
+        "DAZN Deutsch ($/geo/R)",
         "Discovery+ UK ($/geo/R) 📺",
         "ESPN+ USA ($/geo/R)",
-        "Nova Sport 1 Czech HD",
-        "Nova Sport Bulgaria HD",
-        "Sport+ Qazaqstan",
-        "SportsNet World HD",
-        "TNT Sports 1 HD",
-        "TNT Sports 3 HD",
-        "TNT Sports Ultimate UHD",
-        "TSN Malta 8 HD",
-        "V Sport 3 Norge HD",
+        "Nova Sport 2 Czech HD",
+        "TNT Sports 2 HD",
+        "TSN Malta 1 HD",
+        "Voyo Player Slovakia [$] 📺"
+      ]
+    },
+    {
+      "competition": "Bosnia-Herzegovina Premier Liga - Week 13",
+      "title": "Posusje v FK Sarajevo",
+      "kickoff_baghdad": "17:15",
+      "channels_raw": [
+        "Arena Premium 1 BiH HD",
+        "Arena Sport 8 Hrvatska HD",
+        "Arena Sport 9 Srbija HD"
+      ]
+    },
+    {
+      "competition": "German 1. Bundesliga - Week 9",
+      "title": "FC Cologne v Hamburg",
+      "kickoff_baghdad": "17:30",
+      "channels_raw": [
+        "Arena 4 Hungary HD",
+        "Arena Premium 4 Srbija HD",
+        "beIN Sports 3 HD (Astro)",
+        "Canal+ Sport 1 Afrique HD",
+        "DAZN 2 Bar Deutsch HD",
+        "DAZN 3 Portugal HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Japan ($/geo/R)",
+        "Diema Sport 3 HD",
+        "Eleven Sports 1 Polska HD",
+        "ESPN+ USA ($/geo/R)",
+        "MBC Action HD",
+        "Nova Sport 3 Czech HD",
+        "Nova Sports Prime Cyprus HD",
+        "Nova Sports Prime Hellas HD",
+        "OneFootball [app] ($/geo/R) 📺",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "Play Sports 2 Belgium",
+        "Polsat Sport Premium 1 HD",
+        "Prima Sport RO 5 HD",
+        "Prime Video UK [$] 📺",
+        "Setanta Sports 2 Georgia HD",
+        "Sky Sport Max Italia HD",
+        "Sport 3 Israel HD",
+        "Sport TV2 Slovenija",
+        "SportKlub 3 Hrvatska",
+        "Tivibu Spor 2 HD",
+        "Tring Sport 3 HD",
+        "TSN Malta 5 HD",
+        "V Sport 1 Norge HD",
+        "V Sport 1 Sverige HD",
         "ViaPlay 1 Urheilu HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
@@ -218,176 +1368,266 @@
       ]
     },
     {
-      "competition": "English Womens Super League - Week 7",
-      "title": "Chelsea v London City",
-      "kickoff_baghdad": "15:00",
+      "competition": "Czech First League - Week 14",
+      "title": "Karviná v Sparta Prague",
+      "kickoff_baghdad": "17:30",
       "channels_raw": [
-        "Sky Go UK [online]",
-        "Sky Sport 7 NZ HD",
-        "Sky Sports Premier League HD",
-        "Sky UK Ultra HD 1",
-        "Sportdigital 1+ Deutsch HD"
+        "OnePlay Sport 1 HD 📺",
+        "OnePlay Sport 4 HD",
+        "OnePlay Sport MD1 HD",
+        "Polsat Sport Extra 3 HD"
       ]
     },
     {
-      "competition": "English Womens Super League - Week 7",
-      "title": "Manchester City v West Ham United",
-      "kickoff_baghdad": "15:00",
+      "competition": "Czech First League - Week 14",
+      "title": "Bohemians 1905 v Hradec Králové",
+      "kickoff_baghdad": "17:30",
       "channels_raw": [
-        "Canal+ Sport 3 Afrique HD",
-        "Polsat Sport 3 HD",
-        "Sky Go UK [online]",
-        "Sky Sport 6 NZ HD",
-        "Sky Sports MIX UK HD",
-        "SportKlub 6 Hrvatska",
-        "SportKlub 6 Slovenija"
+        "OnePlay Sport MD8 HD"
       ]
     },
     {
-      "competition": "German 2. Bundesliga - Week 11",
-      "title": "Karlsruhe v Schalke 04",
-      "kickoff_baghdad": "15:00",
+      "competition": "Slovak Super Liga - Week 13",
+      "title": "Komárno v Michalovce",
+      "kickoff_baghdad": "17:30",
       "channels_raw": [
-        "Arena Premium 3 Srbija HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Japan ($/geo/R)",
-        "Diema Sport 3 HD",
-        "Digi Sport 3 Romania",
-        "Eleven Sports 2 Polska HD",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sport 3 Czech HD",
-        "Okko Prime Sport HD ($/geo/R)",
         "OneFootball [app] ($/geo/R) 📺",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Prima Sport RO 2 HD",
-        "PrimaPlay [app] 📺",
-        "Sky Sport Bundesliga 3 HD",
-        "Sky Sport Calcio HD",
-        "Sport 1 Israel HD",
-        "Sport TV1 Slovenija",
-        "SportKlub 5 Hrvatska",
-        "Tivibu Spor 2 HD",
-        "TSN Malta 5 HD",
-        "V Sport 1 Norge HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺",
-        "YouTube: German Football (geo/R) 📺"
+        "Voyo Player Slovakia [$] 📺"
       ]
     },
     {
-      "competition": "German 2. Bundesliga - Week 11",
-      "title": "Hertha Berlin v Dynamo Dresden",
-      "kickoff_baghdad": "15:00",
+      "competition": "Hungarian NB 1 - Week 12",
+      "title": "Diósgyör v Ujpest",
+      "kickoff_baghdad": "17:30",
       "channels_raw": [
-        "Arena 4 Hungary HD",
-        "Arena Premium 4 Srbija HD",
-        "DAZN Japan ($/geo/R)",
-        "Eleven Sports 1 Polska HD",
+        "M4 Sport Hungary HD 📺"
+      ]
+    },
+    {
+      "competition": "English FA Cup - 1st Round Proper",
+      "title": "Port Vale v Maldon & Tiptree",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "beIN Connect FRANCE 📺",
+        "beIN Sports France 10 HD max",
+        "Discovery+ UK ($/geo/R) 📺",
         "ESPN+ USA ($/geo/R)",
-        "Nova Sport 5 Czech HD",
-        "Okko Sport HD Russia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Prima Sport RO PPV 1",
-        "Sky Sport Bundesliga 4 HD",
-        "Sport TV2 Slovenija",
-        "SportKlub 1 Hrvatska HD",
-        "Tivibu Spor 3 HD",
+        "Nova Sport 1 Czech HD",
+        "TNT Sports 1 HD",
         "TSN Malta 7 HD",
+        "V Sport 3 Norge HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
         "ViaPlay Suomi HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺",
-        "YouTube: German Football (geo/R) 📺"
+        "Voyo Player Slovakia [$] 📺"
       ]
     },
     {
-      "competition": "German 2. Bundesliga - Week 11",
-      "title": "Nuremberg v Braunschweig",
-      "kickoff_baghdad": "15:00",
+      "competition": "Belgian Pro League - Week 13",
+      "title": "Leuven v AA Gent",
+      "kickoff_baghdad": "18:00",
       "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "Eleven Sports 3 Polska HD",
+        "DAZN Belgium ($/geo/R) 📺",
+        "DAZN Pro League 2 HD"
+      ]
+    },
+    {
+      "competition": "Northern Ireland Premiership - Week 14",
+      "title": "Cliftonville v Linfield",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "BBC iPlayer (geo/R) 📺",
+        "BBC iPlayer 4K (geo/R) 📺",
+        "BBC Sport NI Online 📺",
+        "OneFootball [app] ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Swedish Damallsvenskan - Week 24",
+      "title": "BK Häcken v Linköping",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "Fanseat LIVE ($/geo/R) 📺",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Sport Sverige HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD"
+      ]
+    },
+    {
+      "competition": "Swedish Damallsvenskan - Week 24",
+      "title": "Rosengård v Alingsås",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "Fanseat LIVE ($/geo/R) 📺",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD"
+      ]
+    },
+    {
+      "competition": "Danish Superliga - Week 14",
+      "title": "SønderjyskE v Vejle BK",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "TV2 Play Danmark ($/geo/R) 📺",
+        "TV2 Sport X Dansk HD"
+      ]
+    },
+    {
+      "competition": "Croatian HNL - Week 12",
+      "title": "Slaven Belupo v Hajduk Split",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "Arena Sport 2 Slovenija HD",
+        "Arena Sport 4 BiH HD",
+        "Arena Sport 7 Srbija HD",
+        "Hajduk TV ($/geo/R) 📺",
+        "HRT 2 Hrvatska HD",
+        "MAX Sport 1 Hrvatska HD"
+      ]
+    },
+    {
+      "competition": "Serbian Super League - Week 14",
+      "title": "TSC Backa v Napredak",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "Arena Sport 4 Srbija HD"
+      ]
+    },
+    {
+      "competition": "Serbian Super League - Week 14",
+      "title": "Novi Pazar v Zeleznicar",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "Arena Sport 5 Srbija HD"
+      ]
+    },
+    {
+      "competition": "Spanish Liga F Femenino - Week 9",
+      "title": "Real Sociedad v Barcelona",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN Ireland ($/geo/R) 📺",
+        "M+ Ellas Vamos HD"
+      ]
+    },
+    {
+      "competition": "Irish First Division - FINAL",
+      "title": "Bray Wanderers v Treaty United",
+      "kickoff_baghdad": "18:00",
+      "channels_raw": [
+        "LOI TV ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Spanish La Liga (Primera) - Week 11",
+      "title": "Alavés v Espanyol",
+      "kickoff_baghdad": "18:15",
+      "channels_raw": [
+        "Arena Premium 1 Slovenija",
+        "Arena Premium 3 BiH HD",
+        "Arena Premium 3 Srbija HD",
+        "Arena Sport 3 Hrvatska HD",
+        "ART Motion Sport 3 HD 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports MENA 3 HD",
+        "Blue Sport 5 Live HD",
+        "Canal+ Sport 1 Polska HD",
+        "Cytavision Sports 8 HD",
+        "DAZN Deutsch ($/geo/R)",
+        "ESPN Deportes",
+        "LaLiga TV Bar HD",
+        "M+ LaLiga HD",
+        "M+ LaLiga HDR",
+        "MATCH! Futbol 2 HD",
+        "MAX Sport 4 Bulgaria HD",
+        "Megogo Futbol 3 ($/geo/R)",
+        "MTV Katsomon+ ($/geo/R) 📺",
+        "MTV Urheilu 3 Suomi HD",
+        "New World Sport 3 Togo",
+        "Nova Sport 4 Czech HD",
+        "Nova Sports 1 Hellas HD",
+        "Premier Sports 2 Ireland HD",
+        "Premier Sports 2 UK HD",
+        "Premier Sports GB Player HD 📺",
+        "Prima Sport RO 4 HD",
+        "PrimaPlay [app] 📺",
+        "S Sport 1 Türkiye HD",
+        "Silk Sport 1 HD",
+        "Spíler 2 TV Hungary HD",
+        "SuperSport LaLiga HD",
+        "SuperSport MáXimo 360",
+        "TSN Malta 4 HD",
+        "TV2 Play Norge ($/geo/R) 📺",
+        "TV2 Play Premium (geo/R) 📺",
+        "TV2 Sport Premium HD",
+        "TV4 Play Sverige [online] 📺",
+        "TV4 Sportkanalen HD",
+        "ViaPlay Norge HD",
+        "Voyo Player Slovakia [$] 📺"
+      ]
+    },
+    {
+      "competition": "Spanish La Liga 2 - Week 12",
+      "title": "Sporting Gijón v Las Palmas",
+      "kickoff_baghdad": "18:15",
+      "channels_raw": [
+        "DAZN España ($/geo/R)",
         "ESPN+ USA ($/geo/R)",
+        "GOL España HD 📺",
+        "GolStadium ($/geo/R) 📺",
+        "LaLiga Hypermotion HD",
+        "LaLiga TV Bar 2",
+        "TEN TV España HD",
+        "TV Canaria"
+      ]
+    },
+    {
+      "competition": "Spanish La Liga 2 - Week 12",
+      "title": "Córdoba v Ceuta",
+      "kickoff_baghdad": "18:15",
+      "channels_raw": [
+        "DAZN España ($/geo/R)",
+        "LaLiga Hypermotion 2",
+        "LaLiga Hypermotion HD",
+        "LaLiga TV Bar 3"
+      ]
+    },
+    {
+      "competition": "German 3. Liga - Week 13",
+      "title": "Rot-Weiss Essen v Schweinfurt",
+      "kickoff_baghdad": "18:30",
+      "channels_raw": [
+        "Magenta Sport ($/geo/R) 📺",
         "OneFootball [app] ($/geo/R) 📺",
-        "Prima Sport RO PPV 2",
-        "Sky Sport Bundesliga 5 HD",
-        "Sport TV3 Slovenija",
-        "SportKlub 7 Hrvatska",
-        "Tivibu Spor 4 HD",
-        "ViaPlay 2 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "YouTube: German Football (geo/R) 📺"
+        "SportKlub 5 Hrvatska"
       ]
     },
     {
-      "competition": "Swedish Damallsvenskan - Week 24",
-      "title": "AIK Stockholm v Vittsjö",
-      "kickoff_baghdad": "15:00",
+      "competition": "Greek Super League 1 - Week 9",
+      "title": "AEL Larissa v Levadiakos",
+      "kickoff_baghdad": "18:30",
       "channels_raw": [
-        "Fanseat LIVE ($/geo/R) 📺",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
+        "Cosmote Sport 1 HD"
       ]
     },
     {
-      "competition": "Swedish Damallsvenskan - Week 24",
-      "title": "Kristianstad v Djurgården",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Fanseat LIVE ($/geo/R) 📺",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "Swedish Damallsvenskan - Week 24",
-      "title": "Växjö v Brommapojkarna",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Fanseat LIVE ($/geo/R) 📺",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "Swedish Superettan - Week 29",
-      "title": "Falkenberg v Västerås SK",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Discovery+ SE ($/geo/R) 📺",
-        "HBO Max Extra 4 HD",
-        "TV4 Play Sverige [online] 📺"
-      ]
-    },
-    {
-      "competition": "Swedish Superettan - Week 29",
-      "title": "Orgryte v Kalmar",
-      "kickoff_baghdad": "15:00",
+      "competition": "Swedish Allsvenskan - Week 29",
+      "title": "Djurgården v IFK Gotenberg",
+      "kickoff_baghdad": "18:30",
       "channels_raw": [
         "Discovery+ SE ($/geo/R) 📺",
         "HBO Max Extra 3 HD",
@@ -395,92 +1635,489 @@
       ]
     },
     {
-      "competition": "Bosnia-Herzegovina RS 1st League",
-      "title": "Zvijezda 09 v Slavija Sarajevo",
-      "kickoff_baghdad": "15:00",
+      "competition": "Swedish Allsvenskan - Week 29",
+      "title": "GAIS v Oster",
+      "kickoff_baghdad": "18:30",
       "channels_raw": [
-        "Arena Premium 1 BiH HD"
+        "Discovery+ SE ($/geo/R) 📺",
+        "HBO Max Extra 4 HD",
+        "TV4 Play Sverige [online] 📺"
       ]
     },
     {
-      "competition": "Croatian Prva NL - Week 13",
-      "title": "Hrvace v Orijent",
-      "kickoff_baghdad": "15:00",
+      "competition": "Portuguese Liga Portugal - Week 10",
+      "title": "AVS Futebol v Tondela",
+      "kickoff_baghdad": "18:30",
       "channels_raw": [
-        "MAX Sport 1 Hrvatska HD",
-        "MAX Sport 2 Hrvatska HD"
+        "Megogo Futbol 8 ($/geo/R)",
+        "Megogo Sport Kazakhstan [$]",
+        "Sport TV1 Portugal HD"
       ]
     },
     {
-      "competition": "Danish A-Liga Women - Week 11",
-      "title": "AGF Århus v Nordsjælland",
-      "kickoff_baghdad": "15:00",
+      "competition": "Portuguese Liga Portugal 2 - Week 10",
+      "title": "Farense v Benfica II",
+      "kickoff_baghdad": "18:30",
       "channels_raw": [
-        "TV2 Play Danmark ($/geo/R) 📺"
+        "Sport TV+ Portugal",
+        "Sport TV4 Portugal HD"
       ]
     },
     {
-      "competition": "Kosovo Superliga - Week 12",
-      "title": "Ballkani v Ferizaj",
-      "kickoff_baghdad": "15:00",
+      "competition": "Swiss Super League - Week 12",
+      "title": "Young Boys v Basel",
+      "kickoff_baghdad": "18:30",
       "channels_raw": [
-        "ART Motion Sport 1 HD 📺"
+        "Arena Sport 2 Srbija HD",
+        "Blue Sport 1 Live UHD",
+        "Blue Sport 4 Live HDR",
+        "Blue Sport D 1 HD",
+        "SportKlub 6 Hrvatska"
       ]
     },
     {
-      "competition": "Hungarian NB 1 - Week 12",
-      "title": "Kazincbarcika v Puskás Akadémia",
-      "kickoff_baghdad": "15:15",
+      "competition": "Swiss Super League - Week 12",
+      "title": "Luzern v Grasshoppers",
+      "kickoff_baghdad": "18:30",
       "channels_raw": [
-        "M4 Sport Hungary HD 📺"
+        "Blue Sport 3 Live HDR",
+        "Blue Sport 4 Live HD"
       ]
     },
     {
-      "competition": "English Championship - Week 13",
-      "title": "Leicester City v Blackburn Rovers",
-      "kickoff_baghdad": "15:30",
+      "competition": "Romanian Superliga - Week 15",
+      "title": "Hermannstadt v Otelul Galati",
+      "kickoff_baghdad": "18:45",
       "channels_raw": [
-        "Arena Premium 1 Srbija HD",
-        "Arena Sport 1 BiH HD",
-        "Arena Sport 5 Hrvatska HD",
-        "Astro Football HD",
-        "beIN Connect FRANCE 📺",
+        "Arena Sport 2 Hrvatska HD",
+        "Digi Sport 1 Romania HD",
+        "Prima Sport RO 1 HD",
+        "PrimaPlay [app] 📺"
+      ]
+    },
+    {
+      "competition": "Dutch Eredivisie - Week 11",
+      "title": "Utrecht v NEC Nijmegen",
+      "kickoff_baghdad": "18:45",
+      "channels_raw": [
+        "ESPN 2 Nederland HD",
+        "ESPN Extra Nederland",
+        "Nova Sports 2 Hellas HD"
+      ]
+    },
+    {
+      "competition": "Bulgarian First League - Week 14",
+      "title": "Cherno More Varna v Ludogorets",
+      "kickoff_baghdad": "18:45",
+      "channels_raw": [
+        "Diema Sport HD",
+        "Play Diema XTRA ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Dutch Eerste Divisie (2nd) - Week 14",
+      "title": "MVV Maastricht v ADO Den Haag",
+      "kickoff_baghdad": "18:45",
+      "channels_raw": [
+        "ESPN 4 Nederland HD"
+      ]
+    },
+    {
+      "competition": "Dutch Vrouwen Eredivisie - Week 6",
+      "title": "ADO Den Haag v Twente",
+      "kickoff_baghdad": "18:45",
+      "channels_raw": [
+        "ESPN Extra Nederland"
+      ]
+    },
+    {
+      "competition": "Dutch Vrouwen Eredivisie - Week 6",
+      "title": "PSV Eindhoven v AZ Alkmaar",
+      "kickoff_baghdad": "18:45",
+      "channels_raw": [
+        "ESPN Extra Nederland"
+      ]
+    },
+    {
+      "competition": "Dutch Vrouwen Eredivisie - Week 6",
+      "title": "Feyenoord v Heerenveen",
+      "kickoff_baghdad": "18:45",
+      "channels_raw": [
+        "ESPN Extra Nederland"
+      ]
+    },
+    {
+      "competition": "Dutch Vrouwen Eredivisie - Week 6",
+      "title": "PEC Zwolle v NAC Breda",
+      "kickoff_baghdad": "18:45",
+      "channels_raw": [
+        "ESPN Extra Nederland"
+      ]
+    },
+    {
+      "competition": "Dutch Vrouwen Eredivisie - Week 6",
+      "title": "Excelsior v Utrecht",
+      "kickoff_baghdad": "18:45",
+      "channels_raw": [
+        "ESPN Extra Nederland"
+      ]
+    },
+    {
+      "competition": "Türkiye 1. Lig - Week 12",
+      "title": "Van BB v Sakaryaspor",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "beIN Connect Türkiye 📺",
+        "TRT Spor Türkiye HD 📺"
+      ]
+    },
+    {
+      "competition": "Albanian Superliga - Week 10",
+      "title": "Dinamo City v Teuta",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺",
+        "RTSH Tani [app]"
+      ]
+    },
+    {
+      "competition": "Albanian Superliga - Week 10",
+      "title": "Flamurtari v Elbasani",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺",
+        "RTSH Tani [app]"
+      ]
+    },
+    {
+      "competition": "Ukrainian Premier League - Week 11",
+      "title": "Shakhtar Donetsk v Dynamo Kyiv",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "UPL TV Ukraine ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Danish 1. Division - Week 15",
+      "title": "Esbjerg v B 93",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "ViaPlay Danmark HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "Norwegian Eliteserien - Week 27",
+      "title": "Bryne v Brann",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "TV2 Play Norge ($/geo/R) 📺",
+        "TV2 Sport 1 Norge HD"
+      ]
+    },
+    {
+      "competition": "Norwegian Eliteserien - Week 27",
+      "title": "Fredrikstad v Kristiansund",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "TV2 Play Norge ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Norwegian Eliteserien - Week 27",
+      "title": "HamKam v Sandefjord",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "TV2 Play Norge ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Norwegian Eliteserien - Week 27",
+      "title": "KFUM Oslo v Haugesund",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "TV2 Play Norge ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Austrian Bundesliga - Week 12",
+      "title": "Rapid Vienna v Sturm Graz",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "Arena Premium 5 Srbija HD",
+        "Arena Sport 1 Slovakia HD",
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sky Go Germany [online]",
+        "Sky Sport 1 Austria HD",
+        "SportKlub HD",
+        "TV Start Russia HD"
+      ]
+    },
+    {
+      "competition": "Serbian Super League - Week 14",
+      "title": "Red Star Belgrade v Radnik",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "Arena Premium 1 Srbija HD"
+      ]
+    },
+    {
+      "competition": "Serbian Super League - Week 14",
+      "title": "Vojvodina v IMT Novi Belgrade",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "Arena Sport 3 Srbija HD"
+      ]
+    },
+    {
+      "competition": "Albanian First Division - Week 10",
+      "title": "Skënderbeu v Korabi Peshkopi",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "FIFA+ [app] (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "South African Premiership - Week 11",
+      "title": "Golden Arrows v Marumo Gallants",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "SuperSport PSL HD"
+      ]
+    },
+    {
+      "competition": "Scottish SWPL 1 - Week 10",
+      "title": "Hearts v Rangers",
+      "kickoff_baghdad": "19:10",
+      "channels_raw": [
+        "BBC Alba HD",
+        "BBC iPlayer (geo/R) 📺",
+        "BBC iPlayer 4K (geo/R) 📺",
+        "BBC Sport Website (geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "French Ligue 1 - Week 11",
+      "title": "Nantes v Metz",
+      "kickoff_baghdad": "19:15",
+      "channels_raw": [
+        "Arena Sport 7 Hrvatska HD",
         "beIN Connect MENA HD 📺",
-        "beIN Sports France 8 HD max",
-        "beIN Sports MENA 2 HD",
-        "beIN Sports MENA English 2 HD",
-        "CBS Sports Network USA",
-        "Cosmote Sport 3 HD",
-        "Diema Sport 2 HD",
-        "ESPN 1 Brazil HD",
-        "Futbol TV Tajikistan",
-        "Nova Sport 6 Czech HD",
-        "Paramount+ USA ($/geo/R)",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Setanta Sports 1 Eurasia HD",
-        "Setanta Sports 1 Georgia HD",
-        "Setanta Sports 2 Baltic",
-        "Setanta Sports Ukraine HD",
-        "Sky Go UK [online]",
-        "Sky Sports Football HD",
-        "Sky Sports Main Event HD",
-        "Sky Sports Main Event UHD",
-        "Sky UK Ultra HD 1",
-        "Sport 2 Israel HD",
-        "Sport TV3 Portugal HD",
-        "Sporty TV Africa",
-        "SuperSport 2 Albania HD",
-        "SuperSport ESPN HD",
-        "SuperSport MáXimo 1 HD",
-        "SuperSport Variety 3 HD",
-        "TSN Malta 1 HD",
-        "TV3 Sport Dansk HD",
-        "V Sport 2 Norge HD",
+        "beIN Sports MENA 6 HD",
+        "DAZN Deutsch ($/geo/R)",
+        "Ligue 1+ 6 ($/geo/R) 📺",
+        "Megogo Futbol 7 ($/geo/R)",
+        "Setanta Sports 3 Georgia HD",
+        "Sport TV7 Portugal HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "French Ligue 1 - Week 11",
+      "title": "Lens v Lorient",
+      "kickoff_baghdad": "19:15",
+      "channels_raw": [
+        "Arena Sport 9 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 5 HD",
+        "beIN Sports Türkiye Max 2 HD",
+        "Cablenet Sports 2 HD",
+        "DAZN Deutsch ($/geo/R)",
+        "Ligue 1+ 5 ($/geo/R) 📺",
+        "Megogo Futbol 5 ($/geo/R)",
+        "V Sport Football HD",
         "ViaPlay 3 Urheilu HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
-        "ViaPlay Sport Sverige HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "French Ligue 1 - Week 11",
+      "title": "Lille v Angers",
+      "kickoff_baghdad": "19:15",
+      "channels_raw": [
+        "Arena Sport 1x2 Srbija",
+        "Arena Sport 5 BiH HD",
+        "Arena Sport 6 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 4 HD",
+        "beIN Sports Türkiye 4 HD",
+        "Canal+ Sport 2 Afrique HD",
+        "DAZN Deutsch ($/geo/R)",
+        "Ligue 1+ 4 ($/geo/R) 📺",
+        "Megogo Futbol 4 ($/geo/R)",
+        "Megogo Sport Ukraine HD 📺",
+        "Nova Sport 6 Czech HD",
+        "Sport TV5 Portugal HD",
+        "V Sport Extra Sverige HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "Voyo Player Slovakia [$] 📺"
+      ]
+    },
+    {
+      "competition": "French Ligue 1 - Week 11",
+      "title": "Toulouse v Le Havre",
+      "kickoff_baghdad": "19:15",
+      "channels_raw": [
+        "Arena Sport 10 Hrvatska HD",
+        "beIN Connect MENA HD 📺",
+        "beIN Sports MENA 7 HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "Ligue 1+ 7 ($/geo/R) 📺",
+        "Megogo Futbol 6 ($/geo/R)",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie BKT - Week 11",
+      "title": "Monza v Spezia",
+      "kickoff_baghdad": "19:15",
+      "channels_raw": [
+        "Blue Sport 8 Live HD",
+        "DAZN Italia ($/geo/R)",
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sporty TV Africa"
+      ]
+    },
+    {
+      "competition": "English Premier League - Week 10",
+      "title": "Manchester City v Bournemouth",
+      "kickoff_baghdad": "19:30",
+      "channels_raw": [
+        "Arena Premium 2 Srbija HD",
+        "Arena Sport 1 BiH HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 1 Slovenija HD",
+        "Astro Grandstand HD",
+        "Astro Premier League HD",
+        "Astro Sports UHD",
+        "beIN Connect MENA 📺",
+        "beIN Connect MENA HD 📺",
+        "beIN Connect Türkiye 📺",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA 4K UHD",
+        "beIN Sports MENA English 1 HD",
+        "beIN Sports Türkiye 3 HD",
+        "Canal+ Extra 1 Polska HD",
+        "Canal+ Foot HD",
+        "Canal+ Live 1 France HD",
+        "Canal+ Sport 1 Czech HD 📺",
+        "Canal+ Sport 3 Afrique HD",
+        "Cytavision Sports 3 HD",
+        "Cytavision Sports 4K UHD",
+        "Cytavision Sports PPV 3 HD",
+        "DAZN 1 Bar Espana",
+        "DAZN 1 Espana HD",
+        "DAZN 1 Portugal HD",
+        "DAZN España ($/geo/R)",
+        "Diema Sport 2 HD",
+        "Fast Sports 1 Armenia ($/geo/R) 📺",
+        "FuboTV Canada ($/geo/R)",
+        "Go3 Extra Sports Baltics ($/geo/R) 📺",
+        "M+ #Vamos Bar 2",
+        "M+ Liga de Campeones HD",
+        "Movistar Plus+ HD",
+        "Nova Sports Premier League HD",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "Play Sports 1 Belgium",
+        "See Dansk HD",
+        "Setanta Sports 1 Eurasia HD",
+        "Setanta Sports 1 Georgia HD",
+        "Setanta Sports Ukraine HD",
+        "Sky Go UK [online]",
+        "Sky Sport 8 NZ HD",
+        "Sky Sport Deutsch UHD",
+        "Sky Sport Premier League DE HD",
+        "Sky Sport Top Event HD",
+        "Sky Sports Main Event HD",
+        "Sky Sports Main Event UHD",
+        "Sky Sports Premier League HD",
+        "Sky UK Ultra HD 1",
+        "Sport 1 Israel HD",
+        "Sport TV Azerbaijan (geo/R)",
+        "Spíler 1 TV Hungary HD",
+        "Stan Sport Australia ($/geo/R) 📺",
+        "SuperSport MáXimo 1 HD",
+        "SuperSport MáXimo 2A HD",
+        "SuperSport Premier League HD",
+        "TSN Malta 2 HD",
+        "TV2 Play Premium (geo/R) 📺",
+        "USA Network HD",
+        "V Sport Premier League HD",
+        "V Sport Premium HD",
+        "V Sport Ultra 4K UHD (geo/R)",
+        "ViaPlay 2 Urheilu HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "VOYO Pro TV Romania [$] 📺"
+      ]
+    },
+    {
+      "competition": "German 1. Bundesliga - Week 9",
+      "title": "Wolfsburg v Hoffenheim",
+      "kickoff_baghdad": "19:30",
+      "channels_raw": [
+        "Arena Sport 1 Srbija HD",
+        "beIN Connect FRANCE 📺",
+        "beIN Sports 3 HD (Astro)",
+        "beIN Sports France 5 HD max",
+        "DAZN 1 Bar Deutsch HD",
+        "DAZN 3 Portugal HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Japan ($/geo/R)",
+        "Eleven Sports 3 Polska HD",
+        "Eleven Sports 4 Polska HD",
+        "ESPN+ USA ($/geo/R)",
+        "Nova Sport 3 Czech HD",
+        "Nova Sport Bulgaria HD",
+        "Nova Sports Start Cyprus HD",
+        "Nova Sports Start Hellas HD",
+        "OneFootball [app] ($/geo/R) 📺",
+        "Play Sports 2 Belgium",
+        "Prima Sport RO 5 HD",
+        "Prime Video UK [$] 📺",
+        "Setanta Sports 2 Georgia HD",
+        "Setanta Sports+ Ukraine HD",
+        "Sky Sport MIX Italia HD",
+        "Sony Sports TEN 2 India HD",
+        "Sport TV1 Slovenija",
+        "SportKlub 3 Hrvatska",
+        "Tivibu Spor 1 HD",
+        "Tring Sport 2 HD",
+        "V Sport 1 Norge HD",
+        "V Sport 1 Sverige HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
         "ViaPlay Suomi HD",
         "ViaPlay Sverige HD",
         "ViaPlay Ísland HD",
@@ -488,100 +2125,295 @@
       ]
     },
     {
-      "competition": "English Championship - Week 13",
-      "title": "West Bromwich Albion v Sheffield Wednesday",
-      "kickoff_baghdad": "15:30",
+      "competition": "Polish Ekstraklasa - Week 14",
+      "title": "Jagiellonia v Raków Czestochowa",
+      "kickoff_baghdad": "19:30",
       "channels_raw": [
-        "Paramount+ USA ($/geo/R)",
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD"
+        "Canal+ Premium Polska HD",
+        "Canal+ Sport 3 Polska HD",
+        "Ekstraklasa TV ($/PPV) 📺",
+        "TVP Sport Polska HD"
       ]
     },
     {
-      "competition": "English Championship - Week 13",
-      "title": "Norwich City v Hull City",
-      "kickoff_baghdad": "15:30",
+      "competition": "Russian Premier League - Week 14",
+      "title": "FK Krasnodar v Spartak Moscow",
+      "kickoff_baghdad": "19:30",
       "channels_raw": [
-        "Paramount+ USA ($/geo/R)",
-        "Sky Sports+ [via APP]"
+        "Arena Premium 4 Srbija HD",
+        "Belarus 5 HD",
+        "MATCH! Russia HD"
       ]
     },
     {
-      "competition": "Norwegian Toppserien (W) - Week 25",
-      "title": "Brann v Rosenborg",
-      "kickoff_baghdad": "15:30",
+      "competition": "Slovenian 1. SNL - Week 14",
+      "title": "Primorje v Radomlje",
+      "kickoff_baghdad": "19:30",
       "channels_raw": [
-        "TV2 Play Norge ($/geo/R) 📺"
+        "SportKlub 1 Slovenija HD",
+        "SportKlub 8 Hrvatska"
       ]
     },
     {
-      "competition": "Bulgarian First League - Week 14",
-      "title": "Lokomotiv Plovdiv v Botev Plovdiv",
-      "kickoff_baghdad": "15:45",
+      "competition": "Italian Serie C Girone B - Girone B - 12",
+      "title": "Sambenedettese v Monterosi Tuscia",
+      "kickoff_baghdad": "19:30",
       "channels_raw": [
-        "Diema Sport HD",
-        "Play Diema XTRA ($/geo/R) 📺"
+        "Sky Go Italy [online]",
+        "Sky Sport 254 Italia HD"
       ]
     },
     {
-      "competition": "French Ligue 2 - Week 13",
-      "title": "Reims v Dunkerque",
-      "kickoff_baghdad": "16:00",
+      "competition": "Italian Serie C Girone B - Girone B - 12",
+      "title": "Pontedera v Perugia",
+      "kickoff_baghdad": "19:30",
       "channels_raw": [
-        "5 PLUS Israel HD",
-        "Arena Sport 2 Srbija HD",
-        "Arena Sport 5 BiH HD",
-        "Arena Sport 6 Hrvatska HD",
+        "Sky Go Italy [online]",
+        "Sky Sport 255 Italia HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone B - Girone B - 12",
+      "title": "Ravenna v Ascoli",
+      "kickoff_baghdad": "19:30",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sky Go Italy [online]",
+        "Sky Sport 252 Italia HD",
+        "Sky Sport Max Italia HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone C - Girone C - 12",
+      "title": "Latina v Salernitana",
+      "kickoff_baghdad": "19:30",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
+        "Sky Go Italy [online]",
+        "Sky Sport 253 Italia HD",
+        "Sky Sport Uno Italia HD"
+      ]
+    },
+    {
+      "competition": "Italian Serie C Girone C - Girone C - 12",
+      "title": "Giugliano v Siracusa",
+      "kickoff_baghdad": "19:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 256 Italia HD"
+      ]
+    },
+    {
+      "competition": "Bosnia-Herzegovina Premier Liga - Week 13",
+      "title": "Zeljeznicar v Velez Mostar",
+      "kickoff_baghdad": "19:30",
+      "channels_raw": [
+        "MY TV BiH 📺"
+      ]
+    },
+    {
+      "competition": "Türkiye Süper Lig - Week 11",
+      "title": "Besiktas v Fenerbahçe",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "Arena Sport 4 Srbija HD",
+        "ART Motion Sport 4 HD 📺",
+        "beIN Connect Canada 📺",
         "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
         "beIN Connect Türkiye 📺",
-        "beIN Sports France 1 HD",
-        "beIN Sports MENA French 1 HD",
-        "beIN Sports Türkiye 4 HD",
-        "Cablenet Sports 2 HD",
-        "Megogo Futbol 3 ($/geo/R)",
-        "Nova Sport 2 Czech HD",
-        "Okko Futbol HD ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
+        "beIN Connect USA 📺",
+        "beIN Sports Canada HD",
+        "beIN Sports France 2 HD",
+        "beIN Sports Türkiye 1 HD",
+        "beIN Sports US Español",
+        "beIN Sports US HD",
+        "Claro Sports En Vivo 📺",
+        "DigiTurk 4K UHD",
+        "Disney+ Argentina ($/geo/R)",
+        "Disney+ Brazil ($/geo/R)",
+        "Disney+ Caribbean ($/geo/R)",
+        "Disney+ Chile ($/geo/R)",
+        "Disney+ Mexico ($/geo/R)",
+        "Disney+ Norte ($/geo/R)",
+        "Disney+ Sur ($/geo/R)",
+        "ESPN 2 Africa",
+        "ESPN 4 Brazil HD",
+        "ESPN Mexico",
+        "Fanatiz USA ($/geo/R) 📺",
+        "Fox Sports 2 Chile",
+        "Fox Sports 3 Argentina HD",
+        "Fox Sports HD Colombia",
+        "Fubo Sports USA ($/geo/R) 📺",
+        "FuboTV Canada ($/geo/R)",
+        "MATCH! Futbol 3 HD",
+        "Sport 1 Israel HD",
+        "Sport 2 Hungary HD",
+        "Sport 2 Israel HD",
+        "Sport TV6 Portugal HD",
+        "Sport+ Qazaqstan",
+        "SportKlub 1 Hrvatska HD",
+        "SportKlub 3 Slovenija",
+        "SuperSport 1 Albania HD",
+        "SuperSport ESPN HD",
+        "SuperSport GOtv Africa",
+        "ZhiBo8 TV (China)"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 10",
+      "title": "Parma v Bologna",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "Arena Premium 2 BiH HD",
+        "Arena Sport 4 Hrvatska HD",
+        "Arena Sport 5 Srbija HD",
+        "beIN Sports Australia 3 HD",
+        "Cosmote Sport 2 HD",
+        "Cytavision Sports 4 HD",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
+        "Digi Sport 3 Romania",
+        "Eleven Sports 2 Polska HD",
+        "Fast Sports [online] ($/geo/R) 📺",
+        "MATCH! Futbol 1 HD",
+        "MAX Sport 3 Bulgaria HD",
+        "Megogo Futbol 2 ($/geo/R)",
+        "MTV Katsomon+ ($/geo/R) 📺",
+        "MTV Urheilu 2 Suomi HD",
+        "New World Sport 2 Mauritius",
+        "Paramount+ USA ($/geo/R)",
+        "Prima Sport RO 3 HD",
+        "PrimaPlay [app] 📺",
+        "S Sport 2 Türkiye HD",
+        "S Sport+ Streaming",
+        "Sky Sport 251 Italia HD",
+        "Sky Sport Calcio HD",
+        "Sky Sport Italia 4K UHD",
+        "Sport 2 Czechia HD",
+        "SuperSport Football HD",
+        "SuperSport MáXimo 360",
+        "Tivibu Spor 2 HD",
+        "Tring Sport 1 HD",
+        "TSN Malta 3 HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
+        "TV4 Fotboll HD",
+        "TV4 Play Sverige [online] 📺",
+        "VG+ Sport Norge ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Slovak Super Liga - Week 13",
+      "title": "Spartak Trnava v Trencin",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R) 📺",
         "Voyo Player Slovakia [$] 📺"
       ]
     },
     {
-      "competition": "French Ligue 2 - Week 13",
-      "title": "Amiens v Grenoble Foot 38",
-      "kickoff_baghdad": "16:00",
+      "competition": "Cypriot 1. Division - Week 9",
+      "title": "Pafos FC v AEL Limassol",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "Cosmote Sport 3 HD"
+      ]
+    },
+    {
+      "competition": "Danish Superliga - Week 14",
+      "title": "Nordsjælland v OB Odense",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "TV3 Sport Dansk HD",
+        "V Sport 2 Norge HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "Italian W/Serie A - Week 4",
+      "title": "Sassuolo v Fiorentina",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R) 📺",
+        "DAZN Ireland ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "Spanish Liga F Femenino - Week 9",
+      "title": "Levante Las Planas v Sevilla",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "DAZN España ($/geo/R)"
+      ]
+    },
+    {
+      "competition": "Hungarian NB 1 - Week 12",
+      "title": "Debrecen v Zalaegerszeg",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "M4 Sport Hungary HD 📺"
+      ]
+    },
+    {
+      "competition": "English FA Cup - 1st Round Proper",
+      "title": "Gainsborough Trinity v Accrington Stanley",
+      "kickoff_baghdad": "20:15",
       "channels_raw": [
         "beIN Connect FRANCE 📺",
-        "beIN Sports France 3 HD"
+        "beIN Sports France 7 HD max",
+        "Discovery+ UK ($/geo/R) 📺",
+        "ESPN+ USA ($/geo/R)",
+        "Nova Sport 2 Czech HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 2 HD",
+        "TSN Malta 6 HD",
+        "Voyo Player Slovakia [$] 📺"
+      ]
+    },
+    {
+      "competition": "Croatian HNL - Week 12",
+      "title": "Osijek v Varaždin",
+      "kickoff_baghdad": "20:15",
+      "channels_raw": [
+        "Arena Sport 4 BiH HD",
+        "MAX Sport 1 Hrvatska HD"
       ]
     },
     {
       "competition": "Spanish La Liga (Primera) - Week 11",
-      "title": "Villarreal v Rayo Vallecano",
-      "kickoff_baghdad": "16:00",
+      "title": "Barcelona v Elche",
+      "kickoff_baghdad": "20:30",
       "channels_raw": [
-        "Arena Premium 2 Srbija HD",
+        "Arena Premium 1 Slovenija",
         "Arena Premium 3 BiH HD",
-        "Arena Sport 2 Slovenija HD",
+        "Arena Premium 3 Srbija HD",
         "Arena Sport 3 Hrvatska HD",
-        "ART Motion Sport 2 HD 📺",
+        "ART Motion Sport 3 HD 📺",
         "beIN Connect FRANCE 📺",
         "beIN Connect MENA HD 📺",
         "beIN Sports 1 HD (Astro)",
-        "beIN Sports France 7 HD max",
-        "beIN Sports MENA 3 HD",
-        "Blue Sport 1 Live HD",
-        "Canal+ Sport 1 Polska HD",
-        "DAZN 3 Portugal HD",
+        "beIN Sports Australia 2 HD",
+        "beIN Sports France 1 HD",
+        "beIN Sports MENA 2 HD",
+        "beIN Sports MENA French 1 HD",
+        "Blue Sport 6 Live HD",
+        "Canal+ Sport 4 Afrique HD",
+        "Cytavision Sports 8 HD",
         "DAZN Deutsch ($/geo/R)",
         "DAZN España ($/geo/R)",
-        "DAZN LaLiga 2 HD",
-        "Digi Sport 1 Romania HD",
+        "DAZN LaLiga HD",
+        "Digi Sport 2 Romania HD",
+        "Eleven Sports 1 Polska HD",
         "ESPN Deportes",
+        "Fast Sports TV Armenia 📺",
+        "Go3 Sport 1 Baltic HD 📺",
         "Idman TV HD",
+        "IRIB Varzesh HD",
         "LaLiga TV Bar HD",
         "MATCH! Futbol 2 HD",
         "MAX Sport 4 Bulgaria HD",
@@ -591,1164 +2423,404 @@
         "New World Sport 3 Togo",
         "Nova Sport 4 Czech HD",
         "Nova Sports 1 Hellas HD",
-        "ONE Sport Israel HD",
-        "Persiana Sports 2 HD 📺",
-        "Premier Sports 2 Ireland HD",
-        "Premier Sports 2 UK HD",
+        "Premier Sports 1 Ireland HD",
+        "Premier Sports 1 UK HD",
         "Premier Sports GB Player HD 📺",
-        "Prima Sport RO 4 HD",
+        "Prima Sport RO 2 HD",
         "PrimaPlay [app] 📺",
         "S Sport 1 Türkiye HD",
-        "Setanta Sports 1 Baltic",
-        "Setanta Sports Qazaqstan HD",
+        "Setanta Sports 2 Baltic",
+        "Setanta Sports 2 Eurasia HD",
         "Silk Sport 1 HD",
         "Spíler 2 TV Hungary HD",
-        "ST Sports Premium HD",
-        "SuperSport 1 Albania HD",
         "SuperSport GOtv Africa",
+        "SuperSport LaLiga HD",
         "SuperSport MáXimo 3A HD",
         "TSN Malta 4 HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
         "TV2 Play Norge ($/geo/R) 📺",
         "TV2 Play Premium (geo/R) 📺",
+        "TV2 Sport Premium HD",
+        "TV2 Sport X Dansk HD",
         "TV4 Fotboll HD",
         "TV4 Play Sverige [online] 📺",
         "ViaPlay Norge HD",
-        "Voyo Player Slovakia [$] 📺",
-        "Ziggo Sport 3"
+        "Voyo Player Slovakia [$] 📺"
       ]
     },
     {
-      "competition": "Türkiye 1. Lig - Week 12",
-      "title": "Umraniyespor v Sivasspor",
-      "kickoff_baghdad": "16:00",
+      "competition": "Belgian Pro League - Week 13",
+      "title": "Sint-Truiden v Antwerp",
+      "kickoff_baghdad": "20:30",
       "channels_raw": [
-        "beIN Connect Türkiye 📺",
-        "beIN Sports Türkiye Max 1 HD",
-        "TRT Spor Türkiye HD 📺"
+        "DAZN Belgium ($/geo/R) 📺",
+        "DAZN Pro League 1 HD"
       ]
     },
     {
-      "competition": "German 3. Liga - Week 13",
-      "title": "Erzgebirge Aue v Jahn Regensburg",
-      "kickoff_baghdad": "16:00",
+      "competition": "Czech First League - Week 14",
+      "title": "Teplice v Viktoria Plzen",
+      "kickoff_baghdad": "20:30",
       "channels_raw": [
-        "Magenta Sport ($/geo/R) 📺",
-        "OneFootball [app] ($/geo/R) 📺"
+        "OnePlay Sport 1 HD 📺",
+        "OnePlay Sport 4 HD",
+        "Sportdigital FUSSBALL HD"
       ]
     },
     {
-      "competition": "German 3. Liga - Week 13",
-      "title": "1860 Munich v Energie Cottbus",
-      "kickoff_baghdad": "16:00",
+      "competition": "Greek Super League 1 - Week 9",
+      "title": "Panserraikos v PAOK Thessaloniki",
+      "kickoff_baghdad": "20:30",
       "channels_raw": [
-        "BR Fernsehen HD",
-        "Magenta Sport ($/geo/R) 📺",
+        "Diema Sport 3 HD",
+        "Nova Sports Prime Cyprus HD",
+        "Nova Sports Prime Hellas HD",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "SportKlub 6 Hrvatska",
+        "SportKlub Polska HD"
+      ]
+    },
+    {
+      "competition": "Spanish La Liga 2 - Week 12",
+      "title": "Castellón v Málaga",
+      "kickoff_baghdad": "20:30",
+      "channels_raw": [
+        "DAZN España ($/geo/R)",
+        "LaLiga Hypermotion HD",
+        "LaLiga TV Bar 2"
+      ]
+    },
+    {
+      "competition": "Portuguese Liga Portugal - Week 10",
+      "title": "Arouca v Moreirense",
+      "kickoff_baghdad": "21:00",
+      "channels_raw": [
+        "Megogo Futbol 8 ($/geo/R)",
+        "Megogo Sport Kazakhstan [$]",
+        "Sport TV2 Portugal HD"
+      ]
+    },
+    {
+      "competition": "Belgian Pro League - Week 13",
+      "title": "RAAL La Louvière v Cercle Brugge",
+      "kickoff_baghdad": "21:15",
+      "channels_raw": [
+        "DAZN Belgium ($/geo/R) 📺",
+        "DAZN Pro League 2 HD"
+      ]
+    },
+    {
+      "competition": "Norwegian Eliteserien - Week 27",
+      "title": "Tromsø v Sarpsborg 08",
+      "kickoff_baghdad": "21:15",
+      "channels_raw": [
         "OneFootball [app] ($/geo/R) 📺",
-        "RBB Berlin HD",
-        "RBB Brandenburg HD",
-        "SportKlub 3 Slovenija",
-        "SportKlub 4 Hrvatska",
-        "YouTube: German Football (geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "German 3. Liga - Week 13",
-      "title": "TSV Havelse v Wehen Wiesbaden",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "Magenta Sport ($/geo/R) 📺",
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "German 3. Liga - Week 13",
-      "title": "SSV Ulm v Stuttgart II",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "Magenta Sport ($/geo/R) 📺",
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "German 3. Liga - Week 13",
-      "title": "Osnabrück v Duisburg",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "Magenta Sport ($/geo/R) 📺",
-        "NDR Fernsehen HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "SportKlub 9 Hrvatska"
-      ]
-    },
-    {
-      "competition": "UAE Pro League - Week 7",
-      "title": "Al Dhafra v Kalba",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "Thriller TV+ [online] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "German Frauen Bundesliga - Week 8",
-      "title": "Bayern Munich v SGS Essen",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN Deutsch ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "Danish 1. Division - Week 15",
-      "title": "Aarhus Fremad v Hvidovre",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "Danish 1. Division - Week 15",
-      "title": "Hillerød v Kolding",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "Danish 1. Division - Week 15",
-      "title": "Middelfart v AaB Aalborg",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
+        "SportKlub 2 Hrvatska",
+        "TV2 Play Norge ($/geo/R) 📺"
       ]
     },
     {
       "competition": "Israeli Ligat ha'Al (Premier) - Week 9",
-      "title": "Maccabi Haifa v Hapoel Jerusalem",
-      "kickoff_baghdad": "16:00",
+      "title": "Ironi Kiryat Shmona v Maccabi Netanya",
+      "kickoff_baghdad": "21:15",
       "channels_raw": [
         "Sport 4 Israel HD"
       ]
     },
     {
-      "competition": "Belarus Premier League - Week 27",
-      "title": "Slavia Mozyr v Naftan",
-      "kickoff_baghdad": "16:15",
+      "competition": "Romanian Superliga - Week 15",
+      "title": "Universitatea Craiova v Rapid Bucharest",
+      "kickoff_baghdad": "21:30",
       "channels_raw": [
-        "Belarus 5 HD"
+        "Arena Sport 1 BiH HD",
+        "Arena Sport 10 Hrvatska HD",
+        "Digi Sport 1 Romania HD",
+        "Prima Sport RO 1 HD",
+        "PrimaPlay [app] 📺"
       ]
     },
     {
-      "competition": "Ukrainian Premier League - Week 11",
-      "title": "Kolos Kovalivka v Oleksandria",
-      "kickoff_baghdad": "16:30",
+      "competition": "Italian Serie BKT - Week 11",
+      "title": "Sampdoria v Mantova",
+      "kickoff_baghdad": "21:30",
       "channels_raw": [
+        "DAZN Italia ($/geo/R)",
+        "OneFootball [app] ($/geo/R) 📺"
+      ]
+    },
+    {
+      "competition": "German 3. Liga - Week 13",
+      "title": "Alemannia Aachen v Saarbrücken",
+      "kickoff_baghdad": "21:30",
+      "channels_raw": [
+        "Magenta Sport ($/geo/R) 📺",
         "OneFootball [app] ($/geo/R) 📺",
-        "UPL TV Ukraine ($/geo/R) 📺"
+        "SportKlub 4 Hrvatska"
       ]
     },
     {
-      "competition": "South African Premiership - Week 11",
-      "title": "Mamelodi Sundowns v Orlando Pirates",
-      "kickoff_baghdad": "16:30",
+      "competition": "Greek Super League 1 - Week 9",
+      "title": "AEK Athens v Panetolikos",
+      "kickoff_baghdad": "22:00",
       "channels_raw": [
-        "SuperSport PSL HD"
+        "Arena Sport 1 Srbija HD",
+        "Cosmote Sport 1 HD",
+        "Diema Sport 2 HD",
+        "Play Diema XTRA ($/geo/R) 📺",
+        "SportKlub 7 Hrvatska"
       ]
     },
     {
-      "competition": "South African Premiership - Week 11",
-      "title": "Orbit College v Magesi",
-      "kickoff_baghdad": "16:30",
+      "competition": "Danish Superliga - Week 14",
+      "title": "Silkeborg v Brøndby",
+      "kickoff_baghdad": "22:00",
       "channels_raw": [
-        "SuperSport OTT 7"
+        "SportKlub 3 Hrvatska",
+        "TV3+ Dansk HD",
+        "V Sport 2 Norge HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD"
+      ]
+    },
+    {
+      "competition": "Argentinean Primera División - 2nd Phase, Week 14",
+      "title": "Estudiantes LP v Boca Juniors",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Sport 4 Srbija HD",
+        "Arena Sport 8 Hrvatska HD",
+        "Premier Sports GB Player HD 📺",
+        "Spor Smart 2 Türkiye HD",
+        "Sport 3 Israel HD",
+        "Sport TV5 Portugal HD"
+      ]
+    },
+    {
+      "competition": "Bosnia-Herzegovina Premier Liga - Week 13",
+      "title": "Borac Banja Luka v Sloga Doboj",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Arena Premium 1 BiH HD",
+        "Arena Sport 9 Srbija HD"
+      ]
+    },
+    {
+      "competition": "Brazilian Série A - Week 31",
+      "title": "Corinthians v Grêmio",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "MATCH! Futbol 3 HD"
+      ]
+    },
+    {
+      "competition": "Brazilian Série A - Week 31",
+      "title": "Ceará v Fluminense",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "Sportdigital FUSSBALL 2"
+      ]
+    },
+    {
+      "competition": "Polish Ekstraklasa - Week 14",
+      "title": "Widzew Lódz v Legia Warsaw",
+      "kickoff_baghdad": "22:15",
+      "channels_raw": [
+        "Arena Sport 4 BiH HD",
+        "Arena Sport 7 Hrvatska HD",
+        "Canal+ Polska 4K UHD",
+        "Canal+ Sport 3 Polska HD",
+        "Ekstraklasa TV ($/PPV) 📺"
+      ]
+    },
+    {
+      "competition": "Polish 1. Liga - Week 15",
+      "title": "Miedz Legnica v Wieczysta Kraków",
+      "kickoff_baghdad": "22:15",
+      "channels_raw": [
+        "TVP Sport Polska HD"
+      ]
+    },
+    {
+      "competition": "Uruguay Primera División - Clausura - 14",
+      "title": "Racing Club v Danubio",
+      "kickoff_baghdad": "22:30",
+      "channels_raw": [
+        "viju+ Sport HD"
       ]
     },
     {
       "competition": "Italian Serie C Girone A - Girone A - 12",
-      "title": "Pergolettese v Novara",
-      "kickoff_baghdad": "16:30",
+      "title": "Lecco v Arzignano",
+      "kickoff_baghdad": "22:30",
       "channels_raw": [
         "Sky Go Italy [online]",
-        "Sky Sport 255 Italia HD"
+        "Sky Sport 253 Italia HD",
+        "Sky Sport Max Italia HD"
       ]
     },
     {
-      "competition": "Italian Serie C Girone B - Girone B - 12",
-      "title": "Arezzo v Campobasso",
-      "kickoff_baghdad": "16:30",
+      "competition": "Italian Serie C Girone A - Girone A - 12",
+      "title": "Lumezzane v Renate",
+      "kickoff_baghdad": "22:30",
       "channels_raw": [
         "Sky Go Italy [online]",
-        "Sky Sport 251 Italia HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie C Girone B - Girone B - 12",
-      "title": "Pineto v Pianese",
-      "kickoff_baghdad": "16:30",
-      "channels_raw": [
-        "Sky Go Italy [online]",
-        "Sky Sport 256 Italia HD"
+        "Sky Sport 254 Italia HD",
+        "Sky Sport MIX Italia HD"
       ]
     },
     {
       "competition": "Italian Serie C Girone C - Girone C - 12",
-      "title": "Casarano v Monopoli",
-      "kickoff_baghdad": "16:30",
+      "title": "Benevento v Sorrento",
+      "kickoff_baghdad": "22:30",
       "channels_raw": [
         "Sky Go Italy [online]",
-        "Sky Sport 254 Italia HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie C Girone C - Girone C - 12",
-      "title": "Team Altamura v Cosenza",
-      "kickoff_baghdad": "16:30",
-      "channels_raw": [
-        "Sky Go Italy [online]",
-        "Sky Sport 253 Italia HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie C Girone C - Girone C - 12",
-      "title": "Audace Cerignola v Atalanta U-23",
-      "kickoff_baghdad": "16:30",
-      "channels_raw": [
-        "Sky Go Italy [online]",
-        "Sky Sport 252 Italia HD"
-      ]
-    },
-    {
-      "competition": "Saudi Professional League - Week 7",
-      "title": "Al Taawoun v Al Qadisiyah",
-      "kickoff_baghdad": "16:30",
-      "channels_raw": [
-        "Band Sports Brazil HD"
-      ]
-    },
-    {
-      "competition": "Türkiye Süper Lig - Week 11",
-      "title": "Göztepe v Gençlerbirligi",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "beIN Connect Türkiye 📺",
-        "beIN Sports Türkiye 2 HD",
-        "SportKlub HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie BKT - Week 11",
-      "title": "Padova v SüdTirol",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "DAZN Italia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie BKT - Week 11",
-      "title": "Carrarese v Frosinone",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "DAZN Italia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺"
+        "Sky Sport 252 Italia HD",
+        "Sky Sport Uno Italia HD"
       ]
     },
     {
       "competition": "Italian Serie A - Week 10",
-      "title": "Udinese v Atalanta",
-      "kickoff_baghdad": "17:00",
+      "title": "AC Milan v Roma",
+      "kickoff_baghdad": "22:45",
       "channels_raw": [
         "Arena Premium 2 BiH HD",
-        "Arena Premium 3 Srbija HD",
-        "Arena Sport 2 Hrvatska HD",
-        "Arena Sport 4 Slovenija HD",
-        "beIN Sports Australia 3 HD",
-        "Cosmote Sport 1 HD",
-        "DAZN 1 Italia HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "Digi Sport 3 Romania",
-        "Eleven Sports 4 Polska HD",
-        "ESPN 4 Brazil HD",
-        "Fast Sports [online] ($/geo/R) 📺",
-        "MATCH! Futbol 1 HD",
-        "MAX Sport 3 Bulgaria HD",
-        "Megogo Futbol 2 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV MAX Suomi HD",
-        "New World Sport 2 Mauritius",
-        "ONE2 Sport Israel HD",
-        "Paramount+ USA ($/geo/R)",
-        "Polsat Sport Extra 1 HD",
-        "Prima Sport RO PPV 3",
-        "S Sport 2 Türkiye HD",
-        "S Sport+ Streaming",
-        "Setanta Sports 2 Georgia HD",
-        "Sport TV Uzbekistan",
-        "Sport TV2 Portugal HD",
-        "SuperSport OTT 6",
-        "Tivibu Spor 1 HD",
-        "Tring Sport 1 HD",
-        "TSN Malta 3 HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Play Sverige [online] 📺",
-        "TV4 Sport Live 1 HD",
-        "VG+ Sport Norge ($/geo/R) 📺",
-        "Ziggo Sport 2"
-      ]
-    },
-    {
-      "competition": "Czech First League - Week 14",
-      "title": "Jablonec v Zlín",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "OnePlay Sport 1 HD 📺",
-        "OnePlay Sport MD1 HD"
-      ]
-    },
-    {
-      "competition": "Czech First League - Week 14",
-      "title": "Pardubice v Dukla Prague",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "OnePlay Sport MD2 HD"
-      ]
-    },
-    {
-      "competition": "Czech First League - Week 14",
-      "title": "Slovácko v Slovan Liberec",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "OnePlay Sport MD3 HD"
-      ]
-    },
-    {
-      "competition": "Swedish Allsvenskan - Week 29",
-      "title": "BK Häcken v Malmö",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "Discovery+ SE ($/geo/R) 📺",
-        "HBO Max Extra 1 HD",
-        "TV4 Play Sverige [online] 📺"
-      ]
-    },
-    {
-      "competition": "Swedish Superettan - Week 29",
-      "title": "Helsingborg v GIF Sundsvall",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "Discovery+ SE ($/geo/R) 📺",
-        "HBO Max Extra 5 HD",
-        "TV4 Play Sverige [online] 📺"
-      ]
-    },
-    {
-      "competition": "Swedish Superettan - Week 29",
-      "title": "Umeå v Sandviken",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "Discovery+ SE ($/geo/R) 📺",
-        "HBO Max Extra 6 HD",
-        "TV4 Play Sverige [online] 📺"
-      ]
-    },
-    {
-      "competition": "Swedish Superettan - Week 29",
-      "title": "Varberg v Brage",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "Discovery+ SE ($/geo/R) 📺",
-        "HBO Max Extra 7 HD",
-        "TV4 Play Sverige [online] 📺"
-      ]
-    },
-    {
-      "competition": "Swedish Superettan - Week 29",
-      "title": "Ostersund v Trelleborg",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "Discovery+ SE ($/geo/R) 📺",
-        "HBO Max Extra 8 HD",
-        "TV4 Play Sverige [online] 📺"
-      ]
-    },
-    {
-      "competition": "Italian W/Serie A - Week 4",
-      "title": "AC Milan v Lazio",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Ireland ($/geo/R) 📺",
-        "Fox Soccer Plus USA"
-      ]
-    },
-    {
-      "competition": "French National 1 - Week 12",
-      "title": "Rouen v Villefranche",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "BFM Lyon Stream 📺",
-        "FFFtv National 📺",
-        "FIFA+ [app] (geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Slovenian 1. SNL - Week 14",
-      "title": "Bravo v Maribor",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "SportKlub 1 Slovenija HD",
-        "SportKlub 6 Hrvatska"
-      ]
-    },
-    {
-      "competition": "Danish A-Liga Women - Week 11",
-      "title": "HB Køge v Kolding",
-      "kickoff_baghdad": "17:00",
-      "channels_raw": [
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV2 Sport X Dansk HD"
-      ]
-    },
-    {
-      "competition": "German 1. Bundesliga - Week 9",
-      "title": "Heidenheim v Eintracht Frankfurt",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "Arena Sport 1 Srbija HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Sports France 10 HD max",
-        "DAZN Japan ($/geo/R)",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sports Extra 3 Hellas HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Prima Sport RO PPV 1",
-        "Setanta Sports 3 Georgia HD",
-        "Sky Sport Bundesliga 3 HD",
-        "Sport TV3 Slovenija",
-        "SportKlub 5 Hrvatska",
-        "ST Sports Arena",
-        "Tivibu Spor 3 HD",
-        "Tring Sport 3 HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "German 1. Bundesliga - Week 9",
-      "title": "RB Leipzig v Stuttgart",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "Arena 4 Hungary HD",
-        "Arena Sport 5 Srbija HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Sports 3 HD (Astro)",
-        "beIN Sports France 6 HD max",
-        "Canal+ Sport 1 Afrique HD",
-        "DAZN 4 Portugal HD",
-        "DAZN Japan ($/geo/R)",
-        "Eleven Sports 1 Polska HD",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sport 3 Czech HD",
-        "Nova Sports 3 Cyprus HD",
-        "Nova Sports 3 Hellas HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Play Sports 1 Belgium",
-        "Play Sports 4 Belgium",
-        "Prima Sport RO PPV 2",
-        "Setanta Sports 2 Baltic",
-        "Sky Sport 258 Italia HD",
-        "Sky Sport Bundesliga 1 HD",
-        "Sky Sport Bundesliga HD",
-        "Sky Sport Bundesliga UHD",
-        "Sony Sports TEN 2 India HD",
-        "Sport TV Azerbaijan (geo/R)",
-        "Sport TV1 Slovenija",
-        "SportKlub 1 Hrvatska HD",
-        "ST World Football HD",
-        "Tivibu Spor 2 HD",
-        "Tring Sport 2 HD",
-        "V Sport 1 Norge HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "German 1. Bundesliga - Week 9",
-      "title": "St Pauli v Mönchengladbach",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "Arena Sport 4 Srbija HD",
-        "DAZN Japan ($/geo/R)",
-        "Eleven Sports 2 Polska HD",
-        "ESPN+ USA ($/geo/R)",
-        "Go3 Sport Open Baltic 📺",
-        "Nova Sports Extra 2 Hellas HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Polsat Sport 3 HD",
-        "Sky Sport Bundesliga 2 HD",
-        "Sky Sport Top Event HD",
-        "Sport TV2 Slovenija",
-        "ST Sports Focus",
-        "Tring Sport 6 HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "German 1. Bundesliga - Week 9",
-      "title": "Mainz 05 v Werder Bremen",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sports Extra 1 Hellas HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "See Dansk HD",
-        "Sky Sport Bundesliga 4 HD",
-        "ST Sports Arena",
-        "Tring Sport 4 HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "German 1. Bundesliga - Week 9",
-      "title": "Union Berlin v Freiburg",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sports 6 Cyprus HD",
-        "Nova Sports 6 Hellas HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Sky Sport Bundesliga 5 HD",
-        "ST Sports Focus",
-        "Tring Sport 5 HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "Slovak Super Liga - Week 13",
-      "title": "Podbrezová v Slovan Bratislava",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Slovak Super Liga - Week 13",
-      "title": "Tatran Presov v MSK Zilina",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Slovak Super Liga - Week 13",
-      "title": "Skalica v Ruzomberok",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Hungarian NB 1 - Week 12",
-      "title": "Györ v Paks",
-      "kickoff_baghdad": "17:30",
-      "channels_raw": [
-        "M4 Sport Hungary HD 📺"
-      ]
-    },
-    {
-      "competition": "Saudi Professional League - Week 7",
-      "title": "Al Khaleej v Al Ittihad",
-      "kickoff_baghdad": "17:35",
-      "channels_raw": [
-        "SporTV Brazil HD",
-        "Thmanyah 3 HD"
-      ]
-    },
-    {
-      "competition": "Russian Premier League - Week 14",
-      "title": "Rubin Kazan' v Dynamo Moscow",
-      "kickoff_baghdad": "17:45",
-      "channels_raw": [
-        "MATCH! Russia HD"
-      ]
-    },
-    {
-      "competition": "Russian Premier League - Week 14",
-      "title": "Dynamo Makhachkala v Kryliya Sovetov",
-      "kickoff_baghdad": "17:45",
-      "channels_raw": [
-        "MATCH! Premier HD 📺"
-      ]
-    },
-    {
-      "competition": "English Premier League - Week 10",
-      "title": "Crystal Palace v Brentford",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Arena Sport 2 Srbija HD",
-        "Arena Sport 6 Hrvatska HD",
-        "Astro Premier League 4 HD",
-        "beIN Connect MENA 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 6 HD",
-        "Canal+ Extra 5 Polska HD",
-        "Canal+ Live 8 France HD",
-        "Canal+ Sport 8 Czech HD 📺",
-        "Cytavision Sports 4 HD",
-        "DAZN 3 Espana HD",
-        "DAZN España ($/geo/R)",
-        "FuboTV Canada ($/geo/R)",
-        "Go3 Extra Sports Baltics ($/geo/R) 📺",
-        "Meraj TV",
-        "Nova Sports Start Hellas HD",
-        "Peacock Premium USA ($/geo/R)",
-        "Setanta Sports+ Ukraine HD",
-        "Sky Sport 5 NZ HD",
-        "Stan Sport Australia ($/geo/R) 📺",
-        "SuperSport MáXimo 1 HD",
-        "TV3 Sport Dansk HD",
-        "V Sport Extra Sverige HD",
-        "V Sport Premier League 4 HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "VOYO Pro TV Romania [$] 📺"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 13",
-      "title": "Queens Park Rangers v Ipswich Town",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
+        "Arena Premium 2 Srbija HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 1 Slovenija HD",
         "Astro Football HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports France 8 HD max",
-        "beIN Sports MENA English 2 HD",
-        "Cosmote Sport 5 HD",
-        "Paramount+ USA ($/geo/R)",
-        "V Sport 2 Norge HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Sport Sverige HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
-      ]
-    },
-    {
-      "competition": "English Premier League - Week 10",
-      "title": "Burnley v Arsenal",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Arena Premium 1 BiH HD",
-        "Arena Premium 1 Slovenija",
-        "Arena Premium 1 Srbija HD",
-        "Arena Sport 4 Hrvatska HD",
-        "Astro Premier League 2 HD",
-        "beIN Connect MENA 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA English 1 HD",
-        "beIN Sports Türkiye 3 HD",
-        "Canal+ Extra 3 Polska HD",
-        "Canal+ Live 6 France HD",
-        "Canal+ Sport 1 Czech HD 📺",
-        "Canal+ Sport 3 Afrique HD",
-        "Canal+ Sport 360 HD",
-        "CRTV Sports Cameroon",
-        "Cytavision Sports 6 HD",
-        "DAZN 1 Bar Espana",
-        "DAZN 1 Espana HD",
-        "DAZN 2 Portugal HD",
-        "DAZN España ($/geo/R)",
-        "Diema Sport 2 HD",
-        "Fast Sports 1 Armenia ($/geo/R) 📺",
-        "FuboTV Canada ($/geo/R)",
-        "Go3 Extra Sports Baltics ($/geo/R) 📺",
-        "Match 4 Hungary HD",
-        "NBC Universo USA",
-        "Nova Sports 2 Hellas HD",
-        "ORTB Benin",
-        "Peacock Premium USA ($/geo/R)",
-        "Persiana Sports 2 HD 📺",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Play Sports 1 Belgium",
-        "RTS 2 Senegal HD 📺",
-        "Setanta Sports 1 Eurasia HD",
-        "Setanta Sports 1 Georgia HD",
-        "Sky Sport 4 NZ HD",
-        "Sky Sport Calcio HD",
-        "Sky Sport MIX Deutsch HD",
-        "Sporty TV Africa",
-        "Stan Sport Australia ($/geo/R) 📺",
-        "SuperSport 2 Albania HD",
-        "SuperSport GOtv Africa",
-        "SuperSport MáXimo 360",
-        "SuperSport Variety 3 HD",
-        "TSN Malta 2 HD",
-        "TV3+ Norge HD",
-        "USA Network HD",
-        "V Sport Premier League 1 HD",
-        "V Sport Premium HD",
-        "Varzish TV Sport HD (tjk)",
-        "ViaPlay 3 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Sport News Dansk",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "VOYO Pro TV Romania [$] 📺",
-        "YTV Botswana"
-      ]
-    },
-    {
-      "competition": "Belgian Pro League - Week 13",
-      "title": "Zulte Waregem v Union St Gilloise",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "DAZN Belgium ($/geo/R) 📺",
+        "beIN Sports Australia 3 HD",
+        "Cosmote Sport 2 HD",
+        "Cytavision Sports 4 HD",
+        "Cytavision Sports PPV 4 HD",
+        "DAZN 1 Bar Deutsch HD",
+        "DAZN 1 Italia HD",
         "DAZN Deutsch ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
         "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Pro League 1 HD"
-      ]
-    },
-    {
-      "competition": "Scottish Premiership - Week 11",
-      "title": "Falkirk v Kilmarnock",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Falkirk TV [$] 📺",
-        "Kilmarnock TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Premiership - Week 11",
-      "title": "Hearts v Dundee",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Dundee TV ($/geo/R) 📺",
-        "Hearts TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Northern Ireland Premiership - Week 14",
-      "title": "Coleraine v Glenavon",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Northern Ireland Premiership - Week 14",
-      "title": "Dungannon Swifts v Crusaders",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "English Premier League - Week 10",
-      "title": "Brighton H.A. v Leeds United",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Arena Sport 3 Slovenija HD",
-        "Arena Sport 7 Hrvatska HD",
-        "Arena Sport 7 Srbija HD",
-        "Astro Premier League 3 HD",
-        "beIN Connect MENA 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA Xtra 1 HD",
-        "Canal+ Extra 6 Polska HD",
-        "Canal+ Live 9 France HD",
-        "Canal+ Sport 7 Czech HD 📺",
-        "DAZN España ($/geo/R)",
-        "FuboTV Canada ($/geo/R)",
-        "Go3 Extra Sports Baltics ($/geo/R) 📺",
-        "Nova Sport Bulgaria HD",
-        "Nova Sports 4 Hellas HD",
-        "Peacock Premium USA ($/geo/R)",
-        "Sky Sport 259 Italia HD",
-        "Sky Sport 7 NZ HD",
-        "Stan Sport Australia ($/geo/R) 📺",
-        "SuperSport 5 Albania HD",
-        "SuperSport Action HD",
-        "TSN Malta 1 HD",
-        "V Sport 1 Sverige HD",
-        "V Sport Premier League 3 HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "VOYO Pro TV Romania [$] 📺"
-      ]
-    },
-    {
-      "competition": "English Premier League - Week 10",
-      "title": "Fulham v Wolves",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Arena Sport 8 Srbija HD",
-        "Arena Sport 9 Hrvatska HD",
-        "Astro Premier League 5 HD",
-        "beIN Connect MENA 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 5 HD",
-        "Canal+ Extra 7 Polska HD",
-        "Canal+ Live 10 France HD",
-        "Canal+ Sport 5 Czech HD 📺",
-        "DAZN España ($/geo/R)",
-        "FuboTV Canada ($/geo/R)",
-        "Go3 Extra Sports Baltics ($/geo/R) 📺",
-        "Nova Sports News HD",
-        "NOW Premier League HK 1",
-        "Peacock Premium USA ($/geo/R)",
-        "Sky Sport 6 NZ HD",
-        "Stan Sport Australia ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
+        "Digi Sport 2 Romania HD",
+        "Discovery+ UK ($/geo/R) 📺",
+        "Eleven Sports 1 Polska HD",
+        "Fast Sports [online] ($/geo/R) 📺",
+        "Fast Sports TV Armenia 📺",
+        "Go3 Sport 1 Baltic HD 📺",
+        "MATCH! Futbol 1 HD",
+        "MATCH! Russia HD",
+        "MAX Sport 3 Bulgaria HD",
+        "Megogo Futbol 1 ($/geo/R) 📺",
+        "MTV Katsomon+ ($/geo/R) 📺",
+        "MTV Urheilu 2 Suomi HD",
+        "New World Sport 2 Mauritius",
+        "Paramount+ USA ($/geo/R)",
+        "Prima Sport RO 2 HD",
+        "PrimaPlay [app] 📺",
+        "S Sport 2 Türkiye HD",
+        "S Sport+ Streaming",
+        "Setanta Sports 1 Eurasia HD",
+        "Setanta Sports 1 Georgia HD",
+        "Setanta Sports 2 Baltic",
+        "Sport 1 Czechia HD",
+        "Sport 1 Slovakia HD",
+        "Sport TV Azerbaijan (geo/R)",
+        "Sport TV3 Portugal HD",
         "SuperSport Football HD",
-        "SuperSport OTT 3",
-        "TSN Malta 7 HD",
-        "V Sport Premier League 2 HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "VOYO Pro TV Romania [$] 📺"
+        "SuperSport MáXimo 1 HD",
+        "Tivibu Spor 1 HD",
+        "TNT Sports 1 HD",
+        "Tring Sport 1 HD",
+        "TSN Malta 3 HD",
+        "TV12 Sverige HD",
+        "TV2 Play Danmark ($/geo/R) 📺",
+        "TV2 Sport X Dansk HD",
+        "TV4 Play Sverige [online] 📺",
+        "VG+ Sport Norge ($/geo/R) 📺",
+        "Z Sports 2 Angola"
       ]
     },
     {
-      "competition": "English Premier League - Week 10",
-      "title": "Nottingham Forest v Manchester United",
-      "kickoff_baghdad": "18:00",
+      "competition": "French Ligue 1 - Week 11",
+      "title": "Brest v Lyon",
+      "kickoff_baghdad": "22:45",
       "channels_raw": [
-        "Arena Premium 5 Srbija HD",
-        "Arena Sport 1 BiH HD",
-        "Arena Sport 1 Hrvatska HD",
-        "Arena Sport 1 Slovenija HD",
-        "Astro Grandstand HD",
-        "Astro Premier League HD",
-        "beIN Connect MENA 📺",
+        "5 PLUS Israel HD",
+        "Arena Sport 4 Hrvatska HD",
+        "Arena Sport 4 Slovenija HD",
+        "Arena Sport 5 BiH HD",
         "beIN Connect MENA HD 📺",
         "beIN Connect Türkiye 📺",
         "beIN Sports MENA 4 HD",
-        "beIN Sports Türkiye Max 2 HD",
-        "Canal+ Extra 1 Polska HD",
-        "Canal+ Live 7 France HD",
-        "Canal+ Sport 6 Czech HD 📺",
-        "Cytavision Sports 3 HD",
-        "Cytavision Sports PPV 3 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN 2 Bar Espana",
-        "DAZN 2 Espana HD",
-        "DAZN España ($/geo/R)",
+        "beIN Sports Türkiye 4 HD",
+        "Cablenet Sports 2 HD",
+        "Canal+ Sport 2 Afrique HD",
+        "DAZN Deutsch ($/geo/R)",
         "Diema Sport 3 HD",
-        "ESPN 1 Brazil HD",
-        "Fast Sports 2 Armenia ($/geo/R) 📺",
-        "Fubo Sports USA ($/geo/R) 📺",
-        "FuboTV Canada ($/geo/R)",
-        "Futbol TV Tajikistan",
-        "Go3 Extra Sports Baltics ($/geo/R) 📺",
-        "Hub Premier 1 HD ($/geo/R) 📺",
-        "Hub Premier 6 HD ($/geo/R) 📺",
-        "IRIB Varzesh HD",
-        "Meraj TV",
-        "NBC Universo USA",
-        "Nova Sports Premier League HD",
-        "Persiana Sport HD",
+        "Eleven Sports 3 Polska HD",
+        "Eleven Sports 4 Polska HD",
+        "Ligue 1+ ($/geo/R) 📺",
+        "Megogo Futbol 4 ($/geo/R)",
+        "Megogo Sport Ukraine HD 📺",
+        "Nova Sport 3 Czech HD",
         "Play Diema XTRA ($/geo/R) 📺",
-        "Play Sports 2 Belgium",
-        "Premier Sports 1 Ireland HD",
-        "Setanta Sports Ukraine HD",
-        "Sky Sport Max Italia HD",
-        "Sky Sport Premier League DE HD",
-        "Sky Sport Select NZ HD",
-        "Sport 2 Israel HD",
+        "Prime Video UK PPV [$] 📺",
+        "Setanta Sports 2 Georgia HD",
+        "Sky Sport Calcio HD",
         "Sport TV 2 Azerbaijan (geo/R)",
-        "Spíler 1 TV Hungary HD",
-        "Stan Sport Australia ($/geo/R) 📺",
-        "SuperSport 3 Albania HD",
+        "Sport TV6 Portugal HD",
+        "SuperSport GOtv Africa",
         "SuperSport MáXimo 2A HD",
-        "SuperSport OTT 4",
-        "SuperSport Premier League HD",
-        "TSN Malta 8 HD",
-        "TV2 Play Premium (geo/R) 📺",
-        "TV3 MAX Dansk HD",
-        "USA Network HD",
-        "V Sport Football HD",
-        "V Sport Premier League HD",
-        "ViaPlay 2 Urheilu HD",
+        "SuperSport Variety 3 HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
         "ViaPlay Suomi HD",
         "ViaPlay Sverige HD",
-        "VOYO Pro TV Romania [$] 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Premiership - Week 15",
-      "title": "Livingston v Hibernian",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Hibs TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Scottish League 2 - Week 11",
-      "title": "Spartans v East Kilbride",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Spartans FC TV [$] 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Championship - Week 13",
-      "title": "Raith Rovers v Greenock Morton",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Raith TV Live [$] 📺"
-      ]
-    },
-    {
-      "competition": "Portuguese Liga 3 - Week 9",
-      "title": "Lusitano de Evora v 1º Dezembro",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Canal 11 [online] (geo/R) 📺",
-        "Canal 11 Portugal HD"
-      ]
-    },
-    {
-      "competition": "Norwegian Eliteserien - Week 27",
-      "title": "Vålerenga v Bodø/Glimt",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "SportKlub 4 Hrvatska",
-        "TV2 Play Norge ($/geo/R) 📺",
-        "TV2 Sport 1 Norge HD"
-      ]
-    },
-    {
-      "competition": "Croatian HNL - Week 12",
-      "title": "Dinamo Zagreb v Rijeka",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Arena Sport 4 BiH HD",
-        "MAX Sport 1 Hrvatska HD"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 14",
-      "title": "Javor Ivanjica v Spartak Subotica",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Arena Sport 10 Srbija HD",
-        "Arena Sport 3 BiH HD"
-      ]
-    },
-    {
-      "competition": "Scottish League 1 - Week 12",
-      "title": "Alloa Athletic v Kelty Hearts",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "WASP TV [$] 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Championship - Week 13",
-      "title": "Partick Thistle v Queen's Park",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "PTFC Pass [$] 📺"
-      ]
-    },
-    {
-      "competition": "Scottish League 2 - Week 11",
-      "title": "Clyde v Dumbarton",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Clyde FC Live Stream ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Spanish Liga F Femenino - Week 9",
-      "title": "Eibar v Deportivo La Coruña",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "DAZN España ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "Spanish Liga F Femenino - Week 9",
-      "title": "Madrid CFF v Granada",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "DAZN España ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "Scottish League 1 - Week 12",
-      "title": "East Fife v Hamilton Academical",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "East Fife TV [$] 📺"
-      ]
-    },
-    {
-      "competition": "Scottish Championship - Week 13",
-      "title": "St Johnstone v Airdrieonians",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Diamonds TV [$] 📺",
-        "Saints TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 13",
-      "title": "Birmingham City v Portsmouth",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Paramount+ USA ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 13",
-      "title": "Oxford United v Millwall",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Paramount+ USA ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 13",
-      "title": "Southampton v Preston N.E.",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Paramount+ USA ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 13",
-      "title": "Watford v Middlesbrough",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Paramount+ USA ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "German Frauen Bundesliga - Week 8",
-      "title": "Wolfsburg v Hoffenheim",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Sport 3 Israel HD"
+        "Voyo Player Slovakia [$] 📺"
       ]
     },
     {
       "competition": "Spanish La Liga (Primera) - Week 11",
-      "title": "Atlético Madrid v Sevilla",
-      "kickoff_baghdad": "18:15",
+      "title": "Real Betis v Mallorca",
+      "kickoff_baghdad": "23:00",
       "channels_raw": [
-        "Arena Premium 2 Srbija HD",
+        "Arena Premium 1 Slovenija",
         "Arena Premium 3 BiH HD",
-        "Arena Sport 2 Slovenija HD",
+        "Arena Premium 3 Srbija HD",
         "Arena Sport 3 Hrvatska HD",
-        "ART Motion Sport 3 HD 📺",
-        "Azam Sports 4 HD",
-        "beIN Connect FRANCE 📺",
+        "ART Motion Sport 2 HD 📺",
         "beIN Connect MENA HD 📺",
         "beIN Sports 1 HD (Astro)",
-        "beIN Sports France 2 HD",
+        "beIN Sports Australia 2 HD",
         "beIN Sports MENA 3 HD",
+        "beIN Sports MENA English 1 HD",
         "beIN Sports MENA French 2 HD",
-        "Blue Sport 2 Live HD",
+        "Belarus 5 HD",
+        "Blue Sport 7 Live HD",
         "Canal+ Sport 1 Polska HD",
-        "Canal+ Sport 4 Afrique HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN 3 Portugal HD",
+        "DAZN 1 Portugal HD",
         "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "DAZN LaLiga 2 HD",
-        "DAZN LaLiga HD",
-        "Digi Sport 2 Romania HD",
+        "Digi Sport 3 Romania",
         "ESPN Deportes",
-        "Go3 Sport 1 Baltic HD 📺",
         "Idman TV HD",
         "LaLiga TV Bar HD",
+        "M+ LaLiga HD",
+        "M+ LaLiga HDR",
         "MATCH! Futbol 2 HD",
         "MAX Sport 4 Bulgaria HD",
-        "Megogo Futbol 3 ($/geo/R)",
+        "Megogo Futbol 2 ($/geo/R)",
         "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV Urheilu 3 Suomi HD",
+        "MTV Urheilu 1 Suomi HD",
         "New World Sport 3 Togo",
         "Nova Sport 4 Czech HD",
         "Nova Sports 1 Hellas HD",
-        "ONE Sport Israel HD",
+        "Premier Sports 1 Ireland HD",
+        "Premier Sports 1 UK HD",
         "Premier Sports GB Player HD 📺",
-        "Prima Sport RO 2 HD",
+        "Prima Sport RO 3 HD",
         "PrimaPlay [app] 📺",
-        "S Sport 1 Türkiye HD",
-        "Setanta Sports 1 Baltic",
-        "Setanta Sports Qazaqstan HD",
         "Silk Sport 1 HD",
         "Spíler 2 TV Hungary HD",
-        "ST Sports Life",
-        "SuperSport 1 Albania HD",
         "SuperSport LaLiga HD",
         "SuperSport MáXimo 3A HD",
         "TSN Malta 4 HD",
@@ -1758,1559 +2830,159 @@
         "TV4 Fotboll HD",
         "TV4 Play Sverige [online] 📺",
         "ViaPlay Norge HD",
-        "Voyo Player Slovakia [$] 📺",
-        "Ziggo Sport HD"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga 2 - Week 12",
-      "title": "Cultural Leonesa v Mirandés",
-      "kickoff_baghdad": "18:15",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "LaLiga TV Bar 2"
-      ]
-    },
-    {
-      "competition": "Belarus Premier League - Week 27",
-      "title": "ML Vitebsk v Isloch Minsk",
-      "kickoff_baghdad": "18:15",
-      "channels_raw": [
-        "Belarus 5 HD"
-      ]
-    },
-    {
-      "competition": "Romanian Superliga - Week 15",
-      "title": "Unirea Slobozia v Arges",
-      "kickoff_baghdad": "18:30",
-      "channels_raw": [
-        "Digi Sport 1 Romania HD",
-        "Prima Sport RO 1 HD",
-        "PrimaPlay [app] 📺"
-      ]
-    },
-    {
-      "competition": "German 3. Liga - Week 13",
-      "title": "Hansa Rostock v SC Verl",
-      "kickoff_baghdad": "18:30",
-      "channels_raw": [
-        "Magenta Sport ($/geo/R) 📺",
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Bulgarian First League - Week 14",
-      "title": "Septemvri Sofia v Slavia Sofia",
-      "kickoff_baghdad": "18:30",
-      "channels_raw": [
-        "Diema Sport HD",
-        "Play Diema XTRA ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Dutch Eredivisie - Week 11",
-      "title": "Ajax v Heerenveen",
-      "kickoff_baghdad": "18:30",
-      "channels_raw": [
-        "Arena Sport 1 Slovakia HD",
-        "Arena Sport 3 Srbija HD",
-        "Cablenet Sports 3 HD",
-        "ESPN 2 Nederland HD",
-        "ESPN Extra Nederland",
-        "Play Sports 3 Belgium",
-        "Polsat Sport Premium 2 HD",
-        "Prima Sport RO 4 HD",
-        "PrimaPlay [app] 📺",
-        "Ring Bulgaria HD",
-        "Silk Universal HD",
-        "Sportdigital FUSSBALL HD",
-        "SportKlub 9 Hrvatska",
-        "SportsNet World HD",
-        "SuperSport 6 Albania HD",
-        "SuperSport ESPN 2 HD",
-        "Thriller TV+ [online] ($/geo/R) 📺",
-        "Tivibu Spor 4 HD",
-        "TV Start Triumph HD"
-      ]
-    },
-    {
-      "competition": "Portuguese Liga Portugal - Week 10",
-      "title": "Nacional Madeira v Famalicão",
-      "kickoff_baghdad": "18:30",
-      "channels_raw": [
-        "Megogo Futbol 4 ($/geo/R)",
-        "Megogo Sport Kazakhstan [$]",
-        "Sport TV1 Portugal HD"
-      ]
-    },
-    {
-      "competition": "Dutch Eerste Divisie (2nd) - Week 14",
-      "title": "Roda JC v Utrecht Youths",
-      "kickoff_baghdad": "18:30",
-      "channels_raw": [
-        "ESPN 1 Nederland HD"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 9",
-      "title": "Hapoel Tel Aviv v Ironi Tiberias",
-      "kickoff_baghdad": "18:30",
-      "channels_raw": [
-        "Sport 4 Israel HD"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 11",
-      "title": "Paris St Germain v Nice",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "5 PLUS Israel HD",
-        "Arena Premium 3 Srbija HD",
-        "Arena Sport 5 BiH HD",
-        "Arena Sport 5 Hrvatska HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect France 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports France 1 HD",
-        "beIN Sports MENA 2 HD",
-        "beIN Sports MENA French 1 HD",
-        "beIN Sports Türkiye 4 HD",
-        "Cablenet Sports 2 HD",
-        "Canal+ Sport 2 Afrique HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Eleven Sports 4 Polska HD",
-        "Megogo Futbol 1 ($/geo/R) 📺",
-        "Nova Sport 6 Czech HD",
-        "Okko Futbol HD ($/geo/R)",
-        "Setanta Sports 2 Georgia HD",
-        "Sky Sport 253 Italia HD",
-        "Sport TV3 Portugal HD",
-        "SuperSport 4 Albania HD",
-        "SuperSport Variety 4 HD",
-        "TV3 MAX Dansk HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
         "Voyo Player Slovakia [$] 📺"
       ]
     },
     {
-      "competition": "Türkiye 1. Lig - Week 12",
-      "title": "Serik Belediyespor v Adana Demirspor",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "beIN Connect Türkiye 📺",
-        "beIN Sports Türkiye Max 1 HD",
-        "TRT Spor Türkiye HD 📺"
-      ]
-    },
-    {
-      "competition": "Ukrainian Premier League - Week 11",
-      "title": "Epitsentr v Veres Rivne",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "UPL TV Ukraine ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Greek Super League 1 - Week 9",
-      "title": "Volos NFC v Panathinaikos",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "Cosmote Sport 2 HD",
-        "SportKlub 6 Hrvatska",
-        "SportKlub 6 Slovenija",
-        "Telekanal Futbol HD"
-      ]
-    },
-    {
-      "competition": "Austrian Bundesliga - Week 12",
-      "title": "Blau-Weiß Linz v LASK Linz",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "Sky Go Germany [online]",
-        "Sky Sport 1 Austria HD [s/cast]",
-        "Sky Sport 2 Austria HD"
-      ]
-    },
-    {
-      "competition": "Austrian Bundesliga - Week 12",
-      "title": "Grazer AK v Rheindorf Altach",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "Sky Go Germany [online]",
-        "Sky Sport 1 Austria HD [s/cast]",
-        "Sky Sport 4 Austria HD"
-      ]
-    },
-    {
-      "competition": "Austrian Bundesliga - Week 12",
-      "title": "Hartberg v Austria Vienna",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "Sky Go Germany [online]",
-        "Sky Sport 1 Austria HD [s/cast]",
-        "Sky Sport 3 Austria HD"
-      ]
-    },
-    {
-      "competition": "French Féminine Première Ligue - Week 6",
-      "title": "St Etienne v Montpellier",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "YouTube: Première Ligue 📺"
-      ]
-    },
-    {
-      "competition": "French Féminine Première Ligue - Week 6",
-      "title": "Nantes v Dijon",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "YouTube: Première Ligue 📺"
-      ]
-    },
-    {
-      "competition": "French Féminine Première Ligue - Week 6",
-      "title": "Fleury 91 v Lens",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "YouTube: Première Ligue 📺"
-      ]
-    },
-    {
-      "competition": "French Féminine Première Ligue - Week 6",
-      "title": "Paris St Germain v Le Havre",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "YouTube: Première Ligue 📺"
-      ]
-    },
-    {
-      "competition": "South African Premiership - Week 11",
-      "title": "Polokwane City v Richards Bay",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "SuperSport OTT 7"
-      ]
-    },
-    {
-      "competition": "Italian Serie BKT - Week 11",
-      "title": "Virtus Entella v Empoli",
-      "kickoff_baghdad": "19:15",
-      "channels_raw": [
-        "Blue Sport 9 Live HD",
-        "DAZN Italia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Telekanal Futbol HD"
-      ]
-    },
-    {
-      "competition": "Irish Premier Division - Week 36",
-      "title": "Shelbourne v St Patrick's Athletic",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "LOI TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Irish Premier Division - Week 36",
-      "title": "Shamrock Rovers v Sligo Rovers",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "LOI TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Irish Premier Division - Week 36",
-      "title": "Cork City v Derry City",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "LOI TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Irish Premier Division - Week 36",
-      "title": "Drogheda United v Bohemians",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "LOI TV ($/geo/R) 📺",
-        "Virgin Media One HD",
-        "Virgin Media PLAY (geo/R)",
-        "Virgin Media TV [app] (geo/R)"
-      ]
-    },
-    {
-      "competition": "Irish Premier Division - Week 36",
-      "title": "Waterford v Galway United",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "LOI TV ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 9",
-      "title": "Hapoel Petah Tikva v Bnei Sakhnin",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "5 LIVE Israel HD"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 9",
-      "title": "Ashdod v Hapoel Haifa",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "5 STARS Israel HD"
-      ]
-    },
-    {
-      "competition": "Swedish Allsvenskan - Week 29",
-      "title": "IFK Norrköping v Sirius",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "Discovery+ SE ($/geo/R) 📺",
-        "HBO Max Extra 2 HD",
-        "TV4 Play Sverige [online] 📺"
-      ]
-    },
-    {
-      "competition": "Slovenian 1. SNL - Week 14",
-      "title": "Celje v Aluminij",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "SportKlub 1 Slovenija HD",
-        "SportKlub 10 Hrvatska"
-      ]
-    },
-    {
-      "competition": "Italian Serie C Girone A - Girone A - 12",
-      "title": "Virtus Verona v Trento",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "Sky Go Italy [online]",
-        "Sky Sport 251 Italia HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie C Girone B - Girone B - 12",
-      "title": "Rimini v AC Bra",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "Sky Go Italy [online]",
-        "Sky Sport 252 Italia HD"
-      ]
-    },
-    {
-      "competition": "Qatar Stars League - Week 9",
-      "title": "Umm Salal v Al Shamal",
-      "kickoff_baghdad": "19:30",
-      "channels_raw": [
-        "beIN Connect MENA HD 📺",
-        "beIN Sports MENA Global HD"
-      ]
-    },
-    {
-      "competition": "Türkiye Süper Lig - Week 11",
-      "title": "Galatasaray v Trabzonspor",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Arena Sport 2 Srbija HD",
-        "ART Motion Sport 6 HD 📺",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports France 10 HD max",
-        "beIN Sports Türkiye 1 HD",
-        "DigiTurk 4K UHD",
-        "MATCH! Futbol 3 HD",
-        "Sport 2 Hungary HD",
-        "Sport+ Qazaqstan",
-        "SportKlub 3 Hrvatska",
-        "SportKlub 4 Slovenija",
-        "SuperSport 3 Albania HD",
-        "SuperSport ESPN 2 HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie A - Week 10",
-      "title": "Napoli v Como",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Arena Premium 1 Slovenija",
-        "Arena Premium 2 BiH HD",
-        "Arena Premium 4 Srbija HD",
-        "Arena Sport 7 Hrvatska HD",
-        "Astro Football HD",
-        "Azam Sports 3 HD",
-        "Cosmote Sport 3 HD",
-        "Cytavision Sports 4 HD",
-        "DAZN 1 Italia HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "Eleven Sports 2 Polska HD",
-        "Fast Sports 2 Armenia ($/geo/R) 📺",
-        "Fast Sports [online] ($/geo/R) 📺",
-        "Go3 Sport Open Baltic 📺",
-        "MATCH! Futbol 1 HD",
-        "MAX Sport 3 Bulgaria HD",
-        "Megogo Futbol 2 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV MAX Suomi HD",
-        "New World Sport 2 Mauritius",
-        "Paramount+ USA ($/geo/R)",
-        "Prima Sport RO PPV 1",
-        "S Sport 2 Türkiye HD",
-        "S Sport+ Streaming",
-        "Sport 1 Czechia HD",
-        "Sport 1 Slovakia HD",
-        "Sport 3 Israel HD",
-        "Sport TV Azerbaijan (geo/R)",
-        "Sport TV Uzbekistan",
-        "Sport TV6 Portugal HD",
-        "SuperSport Football HD",
-        "SuperSport MáXimo 360",
-        "Tivibu Spor 1 HD",
-        "Tring Sport 1 HD",
-        "TSN Malta 3 HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Play Sverige [online] 📺",
-        "TV4 Sportkanalen HD",
-        "VG+ Sport Norge ($/geo/R) 📺",
-        "Ziggo Sport 2"
-      ]
-    },
-    {
-      "competition": "Czech First League - Week 14",
-      "title": "Slavia Prague v Baník Ostrava",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "OnePlay Sport 1 HD 📺",
-        "OnePlay Sport 4 HD",
-        "Polsat Sport Extra 1 HD"
-      ]
-    },
-    {
-      "competition": "Slovak Super Liga - Week 13",
-      "title": "Dunajská Streda v Košice",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Danish Superliga - Week 14",
-      "title": "FC Copenhagen v Fredericia",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "ONE2 Sport Israel HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV2 Sport X Dansk HD"
-      ]
-    },
-    {
-      "competition": "Norwegian Eliteserien - Week 27",
-      "title": "Molde v Rosenborg",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺",
-        "TV2 Play Norge ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Swiss Super League - Week 12",
-      "title": "Thun v Sion",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Blue Sport 2 Live HDR",
-        "Blue Sport D 1 HD"
-      ]
-    },
-    {
-      "competition": "Swiss Super League - Week 12",
-      "title": "Winterthur v Servette",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Blue Sport 3 Live HD",
-        "Blue Sport 3 Live HDR"
-      ]
-    },
-    {
-      "competition": "Swiss Challenge League - Week 12",
-      "title": "Aarau v Rapperswil-Jona",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Blue Sport 4 Live HD"
-      ]
-    },
-    {
-      "competition": "Swiss Challenge League - Week 12",
-      "title": "Lausanne Ouchy v Stade Nyonnais",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Blue Sport 5 Live HD"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 14",
-      "title": "Cukaricki v Partizan Belgrade",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "Arena Premium 1 Srbija HD",
-        "Arena Sport 3 BiH HD"
-      ]
-    },
-    {
-      "competition": "Italian W/Serie A - Week 4",
-      "title": "Como v Genoa",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Ireland ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "French National 2 - Week 9",
-      "title": "Chauray v Bordeaux",
-      "kickoff_baghdad": "20:00",
-      "channels_raw": [
-        "La Chaîne TV7 📺"
-      ]
-    },
-    {
-      "competition": "Belgian Pro League - Week 13",
-      "title": "Club Brugge v Dender",
-      "kickoff_baghdad": "20:15",
-      "channels_raw": [
-        "DAZN Belgium ($/geo/R) 📺",
-        "DAZN Pro League 2 HD"
-      ]
-    },
-    {
-      "competition": "Cymru Premier - Week 15",
-      "title": "Colwyn Bay v Barry Town",
-      "kickoff_baghdad": "20:15",
-      "channels_raw": [
-        "BBC iPlayer (geo/R) 📺",
-        "BBC iPlayer 4K (geo/R) 📺",
-        "S4C Clic ($/geo/R) 📺",
-        "S4C Sgorio Cymru [online] 📺",
-        "YouTube: Sgorio 📺"
-      ]
-    },
-    {
-      "competition": "Russian Premier League - Week 14",
-      "title": "Zenit St Petersburg v Lokomotiv Moscow",
-      "kickoff_baghdad": "20:15",
-      "channels_raw": [
-        "Arena Sport 1x2 Srbija",
-        "Arena Sport 9 Hrvatska HD",
-        "Belarus 5 HD",
-        "MATCH! Russia HD"
-      ]
-    },
-    {
-      "competition": "Russian Premier League - Week 14",
-      "title": "Rostov v Akron",
-      "kickoff_baghdad": "20:15",
-      "channels_raw": [
-        "MATCH! Premier HD 📺"
-      ]
-    },
-    {
-      "competition": "English Premier League - Week 10",
-      "title": "Tottenham Hotspur v Chelsea",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Arena Premium 2 Srbija HD",
-        "Arena Sport 1 BiH HD",
-        "Arena Sport 1 Hrvatska HD",
-        "Arena Sport 1 Slovenija HD",
-        "Astro Grandstand HD",
-        "Astro Premier League HD",
-        "Astro Sports UHD",
-        "beIN Connect MENA 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA 4K UHD",
-        "beIN Sports MENA English 1 HD",
-        "beIN Sports Türkiye 3 HD",
-        "Canal+ Extra 1 Polska HD",
-        "Canal+ Foot HD",
-        "Canal+ Live 5 France HD",
-        "Canal+ Sport 1 Czech HD 📺",
-        "Canal+ Sport 3 Afrique HD",
-        "Cytavision Sports 3 HD",
-        "Cytavision Sports 4K UHD",
-        "Cytavision Sports PPV 3 HD",
-        "DAZN 1 Bar Espana",
-        "DAZN 1 Espana HD",
-        "DAZN 1 Portugal HD",
-        "DAZN España ($/geo/R)",
-        "Diema Sport 2 HD",
-        "ESPN 1 Brazil HD",
-        "Fast Sports 1 Armenia ($/geo/R) 📺",
-        "FuboTV Canada ($/geo/R)",
-        "GEM Sport HD",
-        "Go3 Extra Sports Baltics ($/geo/R) 📺",
-        "Hub Premier 1 HD ($/geo/R) 📺",
-        "Hub Premier 2 HD ($/geo/R) 📺",
-        "Hub Premier 8 HD ($/geo/R) 📺",
-        "Idman TV HD",
-        "IRIB TV3 HD",
-        "Match 4 Hungary HD",
-        "Meraj TV",
-        "Nova Sports Premier League HD",
-        "Peacock Premium USA ($/geo/R)",
-        "Persiana Sport HD",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Play Sports 1 Belgium",
-        "Setanta Sports 1 Eurasia HD",
-        "Setanta Sports 1 Georgia HD",
-        "Setanta Sports Ukraine HD",
-        "Sky Go UK [online]",
-        "Sky Sport 8 NZ HD",
-        "Sky Sport Calcio HD",
-        "Sky Sport Italia 4K UHD",
-        "Sky Sport Premier League DE HD",
-        "Sky Sports Main Event HD",
-        "Sky Sports Main Event UHD",
-        "Sky Sports Premier League HD",
-        "Sky UK Ultra HD 1",
-        "Sport 1 Israel HD",
-        "Stan Sport Australia ($/geo/R) 📺",
-        "SuperSport 2 Albania HD",
-        "SuperSport MáXimo 1 HD",
-        "SuperSport MáXimo 2A HD",
-        "SuperSport Premier League HD",
-        "TSN Malta 2 HD",
-        "TV3+ Dansk HD",
-        "V Sport Premier League HD",
-        "V Sport Premium HD",
-        "V Sport Ultra 4K UHD (geo/R)",
-        "Varzish TV Sport HD (tjk)",
-        "ViaPlay 2 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "VOYO Pro TV Romania [$] 📺"
-      ]
-    },
-    {
-      "competition": "German 1. Bundesliga - Week 9",
-      "title": "Bayern Munich v Bayer Leverkusen",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Arena 4 Hungary HD",
-        "Arena Premium 5 Srbija HD",
-        "Azam Sports 2 HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Sports 3 HD (Astro)",
-        "beIN Sports France 2 HD",
-        "Canal+ Sport 1 Afrique HD",
-        "DAZN 2 Portugal HD",
-        "DAZN Japan ($/geo/R)",
-        "Diema Sport 3 HD",
-        "Digi Sport 2 Romania HD",
-        "Eleven Sports 1 Polska HD",
-        "ESPN+ USA ($/geo/R)",
-        "Fast Sports TV Armenia 📺",
-        "Futbol TV Tajikistan",
-        "Go3 Sport 1 Baltic HD 📺",
-        "IRIB Varzesh HD",
-        "MBC Action HD",
-        "Nova Sport 3 Czech HD",
-        "Nova Sports 3 Cyprus HD",
-        "Nova Sports 3 Hellas HD",
-        "Okko Sport HD Russia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Persiana Sports 2 HD 📺",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Play Sports 2 Belgium",
-        "Prima Sport RO 2 HD",
-        "PrimaPlay [app] 📺",
-        "See Dansk HD",
-        "Setanta Sports 2 Baltic",
-        "Setanta Sports 3 Georgia HD",
-        "Setanta Sports Qazaqstan HD",
-        "Setanta Sports+ Ukraine HD",
-        "Sky Go UK [online]",
-        "Sky Sport Bundesliga 1 HD",
-        "Sky Sport Bundesliga HD",
-        "Sky Sport Bundesliga UHD",
-        "Sky Sport Max Italia HD",
-        "Sky Sport Top Event HD",
-        "Sky Sports Football HD",
-        "Sony Sports TEN 2 India HD",
-        "Sport 4 Israel HD",
-        "Sport TV 2 Azerbaijan (geo/R)",
-        "Sport TV1 Slovenija",
-        "SportKlub 1 Hrvatska HD",
-        "SporTV Brazil HD",
-        "Sporty TV Africa",
-        "ST World Football HD",
-        "Tivibu Spor 2 HD",
-        "Tring Sport 2 HD",
-        "TSN Malta 5 HD",
-        "V Sport Football HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺",
-        "Z Sports 2 Angola"
-      ]
-    },
-    {
-      "competition": "English FA Cup - 1st Round Proper",
-      "title": "Brackley Town v Notts County",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "BBC iPlayer (geo/R) 📺",
-        "BBC iPlayer 4K (geo/R) 📺",
-        "BBC Sport Website (geo/R) 📺",
-        "BBC Two HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Sports France 10 HD max",
-        "DAZN Deutsch ($/geo/R)",
-        "Discovery+ UK ($/geo/R) 📺",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sport 2 Czech HD",
-        "Nova Sport Bulgaria HD",
-        "SportsNet World HD",
-        "TNT Sports 3 HD",
-        "TSN Malta 8 HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga (Primera) - Week 11",
-      "title": "Real Sociedad v Athletic Bilbao",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Arena Premium 3 BiH HD",
-        "Arena Sport 3 Hrvatska HD",
-        "Arena Sport 3 Srbija HD",
-        "ART Motion Sport 4 HD 📺",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports 1 HD (Astro)",
-        "beIN Sports France 9 HD max",
-        "beIN Sports MENA 3 HD",
-        "beIN Sports MENA English 2 HD",
-        "Blue Sport 6 Live HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Digi Sport 3 Romania",
-        "Eleven Sports 3 Polska HD",
-        "ESPN 3 Brazil HD",
-        "ESPN Deportes",
-        "Go3 Sport 2 Baltic HD 📺",
-        "LaLiga TV Bar HD",
-        "M+ LaLiga HD",
-        "M+ LaLiga HDR",
-        "MATCH! Futbol 2 HD",
-        "MAX Sport 4 Bulgaria HD",
-        "Megogo Futbol 3 ($/geo/R)",
-        "Movistar Plus+ HD",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV Urheilu 3 Suomi HD",
-        "New World Sport 3 Togo",
-        "Nova Sport 4 Czech HD",
-        "Nova Sports 1 Hellas HD",
-        "ONE Sport Israel HD",
-        "Orange Fútbol 1 HD",
-        "Premier Sports GB Player HD 📺",
-        "Prima Sport RO 5 HD",
-        "S Sport 1 Türkiye HD",
-        "Silk Sport 1 HD",
-        "Spíler 2 TV Hungary HD",
-        "ST Sports Premium HD",
-        "SuperSport 1 Albania HD",
-        "SuperSport LaLiga HD",
-        "SuperSport MáXimo 3A HD",
-        "TSN Malta 4 HD",
-        "TV2 Play Norge ($/geo/R) 📺",
-        "TV2 Play Premium (geo/R) 📺",
-        "TV2 Sport 1 Norge HD",
-        "TV4 Fotboll HD",
-        "TV4 Play Sverige [online] 📺",
-        "ViaPlay Norge HD",
-        "Voyo Player Slovakia [$] 📺",
-        "Ziggo Sport HD"
-      ]
-    },
-    {
-      "competition": "Scottish League Cup - Semi Final",
-      "title": "Motherwell v St Mirren",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Cosmote Sport 7 HD",
-        "Motherwell TV ($/geo/R) 📺",
-        "Premier Sports 1 Ireland HD",
-        "Premier Sports 1 UK HD",
-        "Premier Sports GB Player HD 📺",
-        "St Mirren TV ($/geo/R) 📺",
-        "SuperSport ESPN 2 HD"
-      ]
-    },
-    {
-      "competition": "Northern Ireland Premiership - Week 14",
-      "title": "Ballymena United v Larne",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Bosnia-Herzegovina Premier Liga - Week 13",
-      "title": "Siroki Brijeg v Zrinjski",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Arena Premium 1 BiH HD",
-        "Arena Sport 6 Hrvatska HD"
-      ]
-    },
-    {
-      "competition": "Greek Super League 1 - Week 9",
-      "title": "Atromitos v Kifisia",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Nova Sports Prime Cyprus HD",
-        "Nova Sports Prime Hellas HD",
-        "SportKlub 9 Hrvatska"
-      ]
-    },
-    {
-      "competition": "Saudi Professional League - Week 7",
-      "title": "Al Nassr v Al Fayha",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Azam Sports 1 HD",
-        "Band Sports Brazil HD",
-        "Cosmote Sport 9 HD",
-        "DAZN France ($/geo/R)",
-        "Fox Deportes USA",
-        "Fox Soccer Plus USA",
-        "Movistar Plus+ 2 HD",
-        "Polsat Sport Premium 2 HD",
-        "Prima Sport RO 4 HD",
-        "PrimaPlay [app] 📺",
-        "Setanta Sports 1 Baltic",
-        "Solh TV",
-        "Sport TV4 Portugal HD",
-        "Sportdigital FUSSBALL HD",
-        "Sportitalia SoloCalcio HD 📺",
-        "SportKlub 4 Hrvatska",
-        "SportKlub 6 Slovenija",
-        "SPOTV Malaysia 2 HD",
-        "Spíler 1 TV Hungary HD",
-        "ST Sports Life",
-        "Strike TV",
-        "SuperSport 5 Albania HD",
-        "SuperSport ESPN HD",
-        "Thmanyah 1 HD",
-        "TV2 Play Premium (geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga 2 - Week 12",
-      "title": "Albacete v Huesca",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "LaLiga TV Bar 2"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga 2 - Week 12",
-      "title": "Leganés v Burgos",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion 2",
-        "LaLiga TV Bar 3"
-      ]
-    },
-    {
-      "competition": "Spanish Liga F Femenino - Week 9",
-      "title": "Espanyol v Real Madrid",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "M+ Ellas Vamos HD"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 9",
-      "title": "Maccabi Bnei Raina v Maccabi Tel Aviv",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "Sport 2 Israel HD"
-      ]
-    },
-    {
-      "competition": "Kosovo Superliga - Week 12",
-      "title": "Prishtina v Gjilani",
-      "kickoff_baghdad": "20:30",
-      "channels_raw": [
-        "ART Motion Sport 3 HD 📺"
-      ]
-    },
-    {
-      "competition": "Dutch Eredivisie - Week 11",
-      "title": "NAC Breda v Go Ahead Eagles",
-      "kickoff_baghdad": "20:45",
-      "channels_raw": [
-        "ESPN 3 Nederland HD",
-        "ESPN Extra Nederland"
-      ]
-    },
-    {
-      "competition": "Croatian HNL - Week 12",
-      "title": "Istra 1961 v Vukovar",
-      "kickoff_baghdad": "20:45",
-      "channels_raw": [
-        "Arena Sport 4 BiH HD",
-        "MAX Sport 1 Hrvatska HD"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 11",
-      "title": "Monaco v Paris FC",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "5 PLUS Israel HD",
-        "Arena Premium 3 Srbija HD",
-        "Arena Sport 5 BiH HD",
-        "Arena Sport 5 Hrvatska HD",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 4 HD",
-        "beIN Sports Türkiye 4 HD",
-        "Canal+ Sport 2 Afrique HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Diema Sport HD",
-        "Eleven Sports 4 Polska HD",
-        "Ligue 1+ ($/geo/R) 📺",
-        "Megogo Futbol 5 ($/geo/R)",
-        "Nova Sport 6 Czech HD",
-        "Okko Futbol HD ($/geo/R)",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Prime Video UK PPV [$] 📺",
-        "Sport TV3 Portugal HD",
-        "V Sport 1 Sverige HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "Voyo Player Slovakia [$] 📺"
-      ]
-    },
-    {
-      "competition": "Greek Super League 1 - Week 9",
-      "title": "Olympiacos v Aris Thessaloniki",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Cosmote Sport 1 HD"
-      ]
-    },
-    {
-      "competition": "Portuguese Liga Portugal - Week 10",
-      "title": "Rio Ave v Estoril",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Cosmote Sport 4 HD",
-        "Megogo Futbol 5 ($/geo/R)",
-        "Megogo Sport Kazakhstan [$]",
-        "Sport TV1 Portugal HD"
-      ]
-    },
-    {
-      "competition": "Portuguese Liga Portugal - Week 10",
-      "title": "Casa Pia v Estrela Amadora",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Sport TV2 Portugal HD"
-      ]
-    },
-    {
-      "competition": "South African Premiership - Week 11",
-      "title": "Chippa United v AmaZulu",
-      "kickoff_baghdad": "21:15",
-      "channels_raw": [
-        "SuperSport OTT 7",
-        "SuperSport PSL HD"
-      ]
-    },
-    {
-      "competition": "Romanian Superliga - Week 15",
-      "title": "Universitatea Cluj v FCSB",
-      "kickoff_baghdad": "21:30",
-      "channels_raw": [
-        "Arena Sport 10 Hrvatska HD",
-        "Digi Sport 1 Romania HD",
-        "Prima Sport RO 1 HD",
-        "PrimaPlay [app] 📺"
-      ]
-    },
-    {
-      "competition": "Italian Serie BKT - Week 11",
-      "title": "Palermo v Pescara",
-      "kickoff_baghdad": "21:30",
-      "channels_raw": [
-        "DAZN Italia ($/geo/R)",
-        "OneFootball [app] ($/geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Brazilian Série A - Week 31",
-      "title": "Santos v Fortaleza",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "Premier Sports 2 Ireland HD",
-        "Premier Sports 2 UK HD",
-        "Premier Sports GB Player HD 📺"
-      ]
-    },
-    {
-      "competition": "French Ligue 2 - Week 13",
-      "title": "Red Star FC v St Etienne",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "5 STARS Israel HD",
-        "Arena Sport 7 Srbija HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports France 1 HD",
-        "beIN Sports MENA 5 HD",
-        "beIN Sports MENA French 1 HD",
-        "beIN Sports Türkiye 2 HD",
-        "Megogo Futbol 6 ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD"
-      ]
-    },
-    {
-      "competition": "Dutch Eredivisie - Week 11",
-      "title": "Feyenoord v Volendam",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "Arena Premium 4 Srbija HD",
-        "Cablenet Sports 3 HD",
-        "ESPN 1 Nederland HD",
-        "ESPN Extra Nederland",
-        "Nova Sports 2 Hellas HD",
-        "Play Sports 3 Belgium",
-        "Polsat Sport Premium 1 HD",
-        "Premier Sports GB Player HD 📺",
-        "Ring Bulgaria HD",
-        "Silk Sport 2 HD",
-        "Sportdigital FUSSBALL 2",
-        "SportKlub 8 Hrvatska",
-        "SportsNet World HD",
-        "SuperSport 4 Albania HD",
-        "Thriller TV+ [online] ($/geo/R) 📺",
-        "Tivibu Spor 3 HD",
-        "TV Start Russia HD"
-      ]
-    },
-    {
-      "competition": "Brazilian Série A - Week 31",
-      "title": "Cruzeiro v Vitória Bahia",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "Arena Sport 8 Hrvatska HD",
-        "MATCH! Futbol 3 HD",
-        "Spor Smart Türkiye HD"
-      ]
-    },
-    {
-      "competition": "Dutch Eerste Divisie (2nd) - Week 14",
-      "title": "Cambuur-Leeuwarden v Ajax Youths",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "ESPN 4 Nederland HD"
-      ]
-    },
-    {
-      "competition": "Hungarian NB 1 - Week 12",
-      "title": "Ferencváros v MTK Budapest",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "M4 Sport Hungary HD 📺"
-      ]
-    },
-    {
-      "competition": "German 2. Bundesliga - Week 11",
-      "title": "Darmstadt 98 v Arminia Bielefeld",
-      "kickoff_baghdad": "22:30",
-      "channels_raw": [
-        "Arena Premium 5 Srbija HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Sports France 10 HD max",
-        "DAZN Japan ($/geo/R)",
-        "Eleven Sports 3 Polska HD",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sport 5 Czech HD",
-        "Nova Sport Bulgaria HD",
-        "Nova Sports Start Cyprus HD",
-        "Nova Sports Start Hellas HD",
-        "OneFootball [app] ($/geo/R) 📺",
-        "Prima Sport RO PPV 1",
-        "RTL Deutschland HD 📺",
-        "RTL Schweiz HD",
-        "RTL Österreich HD",
-        "RTL+ Deutschland (geo/R) 📺",
-        "Setanta Sports+ Ukraine HD",
-        "Sky Sport Bundesliga 2 HD",
-        "Sky Sport Bundesliga UHD",
-        "Sky Sport Top Event HD",
-        "Sport TV1 Slovenija",
-        "SportKlub 3 Hrvatska",
-        "Tivibu Spor 4 HD",
-        "TSN Malta 1 HD",
-        "V Sport 1 Norge HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Voyo Player Slovakia [$] 📺",
-        "YouTube: German Football (geo/R) 📺"
-      ]
-    },
-    {
-      "competition": "Major League Soccer (MLS) - Round of 16",
-      "title": "New York City v Charlotte",
-      "kickoff_baghdad": "22:30",
-      "channels_raw": [
-        "MLS Season Pass [$]"
-      ]
-    },
-    {
-      "competition": "Swiss Super League - Week 12",
-      "title": "Zürich v Lausanne Sport",
-      "kickoff_baghdad": "22:30",
-      "channels_raw": [
-        "Arena Sport 1 BiH HD",
-        "Arena Sport 1x2 Srbija",
-        "Blue Sport 1 Live UHD",
-        "Blue Sport 4 Live HDR",
-        "Blue Sport 7 Live HD",
-        "Blue Sport D 1 HD",
-        "Play RTS Sport (geo/R) 📺",
-        "RSI La 2 Svizzera HD 📺",
-        "RTS 2 Suisse HD 📺",
-        "SportKlub 3 Slovenija",
-        "SportKlub 5 Hrvatska",
-        "SRF Zwei Schweiz HD 📺"
-      ]
-    },
-    {
-      "competition": "Belgian Pro League - Week 13",
-      "title": "Anderlecht v Mechelen",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "DAZN Belgium ($/geo/R) 📺",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Pro League 1 HD"
-      ]
-    },
-    {
-      "competition": "Italian Serie A - Week 10",
-      "title": "Cremonese v Juventus",
-      "kickoff_baghdad": "22:45",
-      "channels_raw": [
-        "Arena Premium 2 BiH HD",
-        "Arena Premium 2 Srbija HD",
-        "Arena Sport 2 Slovenija HD",
-        "Arena Sport 4 Hrvatska HD",
-        "Astro Football HD",
-        "Azam Sports 3 HD",
-        "beIN Sports Australia 3 HD",
-        "Cosmote Sport 3 HD",
-        "Cytavision Sports 4 HD",
-        "Cytavision Sports PPV 4 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "DAZN Italia ($/geo/R)",
-        "Digi Sport 3 Romania",
-        "Eleven Sports 1 Polska HD",
-        "Fast Sports 2 Armenia ($/geo/R) 📺",
-        "Fast Sports [online] ($/geo/R) 📺",
-        "Futbol TV Uzbekistan",
-        "Match 4 Hungary HD",
-        "MATCH! Futbol 1 HD",
-        "MAX Sport 3 Bulgaria HD",
-        "Megogo Futbol 2 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV MAX Suomi HD",
-        "New World Sport 2 Mauritius",
-        "Paramount+ USA ($/geo/R)",
-        "Prima Sport RO 3 HD",
-        "PrimaPlay [app] 📺",
-        "S Sport 2 Türkiye HD",
-        "S Sport+ Streaming",
-        "Setanta Sports 1 Eurasia HD",
-        "Setanta Sports 2 Baltic",
-        "Setanta Sports 2 Georgia HD",
-        "Sky Sport 251 Italia HD",
-        "Sky Sport Calcio HD",
-        "Sky Sport Italia 4K UHD",
-        "Sky Sport Uno Italia HD",
-        "Sport 1 Czechia HD",
-        "Sport 1 Slovakia HD",
-        "Sport 4 Israel HD",
-        "Sport TV4 Portugal HD",
-        "SuperSport Football HD",
-        "SuperSport MáXimo 360",
-        "Tivibu Spor 1 HD",
-        "TLN Canada",
-        "Tring Sport 1 HD",
-        "TSN Malta 3 HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV4 Play Sverige [online] 📺",
-        "TV4 Sport Live 1 HD",
-        "VG+ Sport Norge ($/geo/R) 📺",
-        "Z Sports 2 Angola",
-        "Ziggo Sport 2"
-      ]
-    },
-    {
-      "competition": "English Premier League - Week 10",
-      "title": "Liverpool v Aston Villa",
+      "competition": "National Womens Soccer League (NWSL) - Week 18",
+      "title": "Kansas City v San Diego Wave",
       "kickoff_baghdad": "23:00",
       "channels_raw": [
-        "Arena Premium 1 BiH HD",
-        "Arena Premium 1 Slovenija",
-        "Arena Premium 1 Srbija HD",
-        "Arena Sport 1 Hrvatska HD",
-        "Astro Grandstand HD",
-        "Astro Premier League HD",
-        "Astro Sports UHD",
-        "beIN Connect MENA 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA 4K UHD",
-        "beIN Sports MENA English 1 HD",
-        "beIN Sports Türkiye 3 HD",
-        "Canal+ Extra 1 Polska HD",
-        "Canal+ Foot HD",
-        "Canal+ Live 5 France HD",
-        "Canal+ Sport 1 Czech HD 📺",
-        "Canal+ Sport 3 Afrique HD",
-        "Cytavision Sports 3 HD",
-        "Cytavision Sports 4K UHD",
-        "Cytavision Sports PPV 3 HD",
-        "DAZN 1 Bar Espana",
-        "DAZN 1 Espana HD",
-        "DAZN 1 Portugal HD",
-        "DAZN España ($/geo/R)",
-        "Diema Sport 2 HD",
-        "Discovery+ UK ($/geo/R) 📺",
-        "Disney+ Danmark ($/geo/R)",
-        "Disney+ Sverige ($/geo/R)",
-        "ESPN 1 Brazil HD",
-        "Fast Sports 1 Armenia ($/geo/R) 📺",
-        "FuboTV Canada ($/geo/R)",
-        "Futbol TV Tajikistan",
-        "Go3 Extra Sports Baltics ($/geo/R) 📺",
-        "Idman TV HD",
-        "IRIB Varzesh HD",
-        "NBC Universo USA",
-        "Nova Sports Premier League HD",
-        "Persiana Sports 2 HD 📺",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Play Sports 1 Belgium",
-        "Setanta Sports 1 Georgia HD",
-        "Setanta Sports Ukraine HD",
-        "Sky Sport 8 NZ HD",
-        "Sky Sport Premier League DE HD",
-        "Sport 1 Israel HD",
-        "Spíler 1 TV Hungary HD",
-        "Stan Sport Australia ($/geo/R) 📺",
-        "SuperSport 2 Albania HD",
-        "SuperSport MáXimo 2A HD",
-        "SuperSport Premier League HD",
-        "TNT Sports 1 HD",
-        "TNT Sports Digital Exclusive",
-        "TNT Sports Ultimate UHD",
-        "TSN Malta 2 HD",
-        "TV2 Play Premium (geo/R) 📺",
-        "USA Network HD",
-        "V Sport Premier League HD",
-        "ViaPlay 2 Urheilu HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "VOYO Pro TV Romania [$] 📺"
+        "NWSL+ [app] (geo/R)"
       ]
     },
     {
       "competition": "Spanish La Liga 2 - Week 12",
-      "title": "Almería v Eibar",
+      "title": "Real Zaragoza v Deportivo La Coruña",
       "kickoff_baghdad": "23:00",
       "channels_raw": [
-        "Arena Sport 3 BiH HD",
+        "Arena Premium 2 Srbija HD",
         "Arena Sport 3 Srbija HD",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports MENA 6 HD",
-        "beIN Sports MENA English 2 HD",
+        "DAZN 3 Portugal HD",
         "DAZN España ($/geo/R)",
         "LaLiga Hypermotion HD",
         "LaLiga TV Bar 2",
-        "Megogo Futbol 7 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV Urheilu 1 Suomi HD",
-        "ONE2 Sport Israel HD",
-        "Prima Sport RO PPV 2"
-      ]
-    },
-    {
-      "competition": "Spanish La Liga (Primera) - Week 11",
-      "title": "Real Madrid v Valencia",
-      "kickoff_baghdad": "23:00",
-      "channels_raw": [
-        "Arena Premium 3 BiH HD",
-        "Arena Premium 3 Srbija HD",
-        "Arena Sport 1 Slovenija HD",
-        "Arena Sport 3 Hrvatska HD",
-        "ART Motion Sport 2 HD 📺",
-        "Azam Sports 4 HD",
-        "beIN Connect FRANCE 📺",
-        "beIN Connect MENA HD 📺",
-        "beIN Sports 1 HD (Astro)",
-        "beIN Sports Australia 2 HD",
-        "beIN Sports France 2 HD",
-        "beIN Sports MENA 2 HD",
-        "Belarus 5 HD",
-        "Blue Sport 8 Live HD",
-        "Canal+ Sport 1 Polska HD",
-        "Canal+ Sport 4 Afrique HD",
-        "Cytavision Sports 8 HD",
-        "DAZN 1 Italia HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN 2 Portugal HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Digi Sport 2 Romania HD",
-        "Disney+ UK ($/geo/R)",
-        "ESPN Deportes",
-        "Fast Sports TV Armenia 📺",
-        "Go3 Sport 1 Baltic HD 📺",
-        "IRIB TV3 HD",
-        "LaLiga TV Bar HD",
-        "M+ LaLiga 2 HDR",
-        "M+ LaLiga HD",
-        "M+ LaLiga HDR",
-        "MATCH! Futbol 2 HD",
-        "MATCH! Russia HD",
-        "MAX Sport 4 Bulgaria HD",
-        "Megogo Futbol 1 ($/geo/R) 📺",
-        "Meraj TV",
-        "MTV Katsomon+ ($/geo/R) 📺",
-        "MTV Urheilu 3 Suomi HD",
-        "New World Sport 3 Togo",
-        "Nova Sport 4 Czech HD",
-        "Nova Sports 1 Hellas HD",
-        "ONE Sport Israel HD",
-        "Persiana Sport HD",
-        "Premier Sports GB Player HD 📺",
-        "Prima Sport RO 2 HD",
-        "PrimaPlay [app] 📺",
-        "S Sport 1 Türkiye HD",
-        "Setanta Sports 1 Baltic",
-        "Setanta Sports 2 Eurasia HD",
-        "Silk Sport 1 HD",
-        "Sporty TV Africa",
-        "Spíler 2 TV Hungary HD",
-        "ST Sports Premium HD",
-        "SuperSport 1 Albania HD",
-        "SuperSport LaLiga HD",
-        "SuperSport MáXimo 3A HD",
-        "TSN Malta 4 HD",
-        "TV2 Play Danmark ($/geo/R) 📺",
-        "TV2 Play Norge ($/geo/R) 📺",
-        "TV2 Play Premium (geo/R) 📺",
-        "TV2 Sport 1 Norge HD",
-        "TV2 Sport X Dansk HD",
-        "TV4 Fotboll HD",
-        "TV4 Play Sverige [online] 📺",
-        "Varzish TV Sport HD (tjk)",
-        "ViaPlay Norge HD",
-        "ViaPlay Sverige HD",
-        "Voyo Player Slovakia [$] 📺",
-        "Ziggo Sport HD",
-        "Zor TV Uzbekistan"
-      ]
-    },
-    {
-      "competition": "French Féminine Première Ligue - Week 6",
-      "title": "Lyon v Paris FC",
-      "kickoff_baghdad": "23:00",
-      "channels_raw": [
-        "Canal+ Sport 360 HD",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺",
-        "SuperSport Variety 3 HD"
-      ]
-    },
-    {
-      "competition": "Dutch Eredivisie - Week 11",
-      "title": "Telstar v Excelsior",
-      "kickoff_baghdad": "23:00",
-      "channels_raw": [
-        "ESPN 2 Nederland HD",
-        "ESPN Extra Nederland"
-      ]
-    },
-    {
-      "competition": "French Ligue 1 - Week 11",
-      "title": "Auxerre v Marseille",
-      "kickoff_baghdad": "23:05",
-      "channels_raw": [
-        "5 LIVE Israel HD",
-        "Arena Sport 2 Srbija HD",
-        "Arena Sport 5 BiH HD",
-        "Arena Sport 5 Hrvatska HD",
-        "beIN Connect MENA HD 📺",
-        "beIN Connect Türkiye 📺",
-        "beIN Sports MENA 3 HD",
-        "beIN Sports MENA French 2 HD",
-        "beIN Sports Türkiye 4 HD",
-        "Cablenet Sports 2 HD",
-        "Canal+ Sport 2 Afrique HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Diema Sport HD",
-        "Eleven Sports 2 Polska HD",
-        "Ligue 1+ ($/geo/R) 📺",
-        "Megogo Futbol 3 ($/geo/R)",
-        "Megogo Sport Ukraine HD 📺",
-        "Nova Sport 3 Czech HD",
-        "Okko Sport HD Russia ($/geo/R)",
-        "Play Diema XTRA ($/geo/R) 📺",
-        "Prime Video UK PPV [$] 📺",
-        "Setanta Sports 3 Georgia HD",
-        "Setanta Sports Qazaqstan HD",
-        "Sky Sport MIX Italia HD",
-        "Sport TV3 Portugal HD",
-        "SuperSport 3 Albania HD",
-        "SuperSport GOtv Africa",
-        "SuperSport Variety 4 HD",
-        "TV5 Monde Afrique HD",
-        "TV5 Monde Amérique Latine",
-        "TV5 Monde Asie",
-        "TV5 Monde Europe HD",
-        "TV5 Monde Maghreb-Orient HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Sport Sverige HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "Voyo Player Slovakia [$] 📺"
+        "Megogo Futbol 5 ($/geo/R)",
+        "Orange Fútbol 2 HD",
+        "Prima Sport RO PPV 1",
+        "Sporty TV Africa"
       ]
     },
     {
       "competition": "Portuguese Liga Portugal - Week 10",
-      "title": "Vitória Guimarães v Benfica",
+      "title": "FC Porto v Sporting Braga",
       "kickoff_baghdad": "23:30",
       "channels_raw": [
+        "Arena Premium 4 Srbija HD",
         "Arena Sport 1 Slovakia HD",
-        "Arena Sport 1 Srbija HD",
         "beIN Connect FRANCE 📺",
-        "beIN Sports France 6 HD max",
+        "beIN Sports France 1 HD",
         "Bold+ Dansk ($/geo/R) 📺",
-        "Cosmote Sport 2 HD",
-        "Cytavision Sports 6 HD",
-        "Eleven Sports 4 Polska HD",
-        "ESPN 3 Brazil HD",
-        "Megogo Futbol 4 ($/geo/R)",
+        "Cosmote Sport 3 HD",
+        "Cytavision Sports 8 HD",
+        "Eleven Sports 2 Polska HD",
+        "Megogo Futbol 3 ($/geo/R)",
         "Megogo Sport Kazakhstan [$]",
         "Ring Bulgaria HD",
         "Silk Universal HD",
         "Sport 1 Lithuania HD [$]",
         "Sport 2 Hungary HD",
         "Sport 2 Israel HD",
+        "Sport TV África HD",
         "Sport TV1 Portugal HD",
         "Sport+ Qazaqstan",
         "Sportdigital FUSSBALL HD",
-        "SportKlub 2 Slovenija",
-        "SportKlub 4 Hrvatska",
+        "SportKlub 2 Hrvatska",
         "Thriller TV+ [online] ($/geo/R) 📺",
         "Tivibu Spor 2 HD",
-        "Tring Sport 2 HD",
-        "TV Start Triumph HD",
-        "Ziggo Sport 3"
+        "Tring Sport 3 HD",
+        "TV Start Russia HD",
+        "Ziggo Sport 5"
       ]
     },
     {
       "competition": "Brazilian Série A - Week 31",
-      "title": "Mirassol v Botafogo",
-      "kickoff_baghdad": "00:00",
+      "title": "Juventude v Palmeiras",
+      "kickoff_baghdad": "00:30",
       "channels_raw": [
-        "Arena Sport 2 Hrvatska HD",
-        "Arena Sport 4 Srbija HD",
-        "Canal 11 [online] (geo/R) 📺",
-        "Canal 11 Portugal HD",
+        "Arena Sport 1 Srbija HD",
+        "Arena Sport 7 Hrvatska HD",
         "M+ Liga de Campeones HD",
+        "MATCH! Futbol 3 HD"
+      ]
+    },
+    {
+      "competition": "Brazilian Série A - Week 31",
+      "title": "Internacional v Atlético Mineiro",
+      "kickoff_baghdad": "00:30",
+      "channels_raw": [
         "MATCH! Futbol 3 HD",
-        "Premier Sports 1 Ireland HD",
-        "Premier Sports 1 UK HD",
-        "Premier Sports GB Player HD 📺",
-        "Spor Smart 2 Türkiye HD",
-        "Sport 3 Israel HD",
         "Sportdigital FUSSBALL 2"
       ]
     },
     {
-      "competition": "Major League Soccer (MLS) - Round of 16",
-      "title": "Chicago Fire v Philadelphia Union",
-      "kickoff_baghdad": "00:30",
+      "competition": "National Womens Soccer League (NWSL) - Week 18",
+      "title": "Chicago Red Stars v Angel City",
+      "kickoff_baghdad": "01:15",
       "channels_raw": [
-        "MLS Season Pass [$]"
+        "NWSL+ [app] (geo/R)"
       ]
     },
     {
-      "competition": "Uruguay Primera División - Clausura - 14",
-      "title": "Cerro v Nacional Montevideo",
-      "kickoff_baghdad": "01:00",
+      "competition": "National Womens Soccer League (NWSL) - Week 18",
+      "title": "North Carolina Courage v NJ/NY Gotham",
+      "kickoff_baghdad": "01:15",
       "channels_raw": [
-        "viju+ Sport HD"
+        "NWSL+ [app] (geo/R)"
+      ]
+    },
+    {
+      "competition": "National Womens Soccer League (NWSL) - Week 18",
+      "title": "Orlando Pride v Seattle Reign",
+      "kickoff_baghdad": "01:15",
+      "channels_raw": [
+        "NWSL+ [app] (geo/R)"
+      ]
+    },
+    {
+      "competition": "National Womens Soccer League (NWSL) - Week 19",
+      "title": "Portland Thorns v Houston Dash",
+      "kickoff_baghdad": "01:15",
+      "channels_raw": [
+        "NWSL+ [app] (geo/R)"
+      ]
+    },
+    {
+      "competition": "National Womens Soccer League (NWSL) - Week 18",
+      "title": "Racing Louisville v Bay WFC",
+      "kickoff_baghdad": "01:15",
+      "channels_raw": [
+        "ESPN Extra Nederland",
+        "NWSL+ [app] (geo/R)"
+      ]
+    },
+    {
+      "competition": "National Womens Soccer League (NWSL) - Week 19",
+      "title": "Utah Royals v Washington Spirit",
+      "kickoff_baghdad": "01:15",
+      "channels_raw": [
+        "NWSL+ [app] (geo/R)"
       ]
     },
     {
       "competition": "Major League Soccer (MLS) - Round of 16",
-      "title": "Nashville SC v Inter Miami",
+      "title": "Columbus Crew v Cincinnati",
       "kickoff_baghdad": "02:30",
       "channels_raw": [
         "MLS Season Pass [$]"
+      ]
+    },
+    {
+      "competition": "Argentinean Primera División - 2nd Phase, Week 14",
+      "title": "River Plate v Gimnasia La Plata",
+      "kickoff_baghdad": "02:30",
+      "channels_raw": [
+        "Arena Sport 4 Hrvatska HD",
+        "Sport TV2 Portugal HD",
+        "Sportdigital FUSSBALL HD"
+      ]
+    },
+    {
+      "competition": "Brazilian Série A - Week 31",
+      "title": "Vasco da Gama v São Paulo",
+      "kickoff_baghdad": "02:30",
+      "channels_raw": [
+        "Arena Sport 3 Hrvatska HD"
       ]
     }
   ]
