@@ -3,34 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "بارما",
-      "away_team": "بولونيا",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الدفاع الحسني الجديدي",
-      "away_team": "الجيش الملكي",
-      "channels_raw": [
-        "الرياضية المغربية (3)",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/930.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "19:30",
       "home_team": "برشلونة",
@@ -87,7 +59,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/997.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -100,7 +72,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/04/434.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/14596.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -183,19 +155,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "وست هام يونايتد",
-      "away_team": "نيوكاسل يونايتد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/103.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
       "home_team": "فيورنتينا",
@@ -218,6 +177,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/312.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/300.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "وست هام يونايتد",
+      "away_team": "نيوكاسل يونايتد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/103.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -253,24 +225,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "17:00",
-      "home_team": "بيراميدز",
-      "away_team": "الاتحاد السكندري",
-      "channels_raw": [
-        "أون سبورت 2",
-        "DAZN 1 Portugal HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "المغرب, الدوري المغربي",
       "kickoff_baghdad": "17:00",
       "home_team": "المغرب الفاسي",
@@ -285,6 +239,24 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8321.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/540.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "17:00",
+      "home_team": "بيراميدز",
+      "away_team": "الاتحاد السكندري",
+      "channels_raw": [
+        "أون سبورت 2",
+        "DAZN 1 Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -359,6 +331,34 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "بارما",
+      "away_team": "بولونيا",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الدفاع الحسني الجديدي",
+      "away_team": "الجيش الملكي",
+      "channels_raw": [
+        "الرياضية المغربية (3)",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/930.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
