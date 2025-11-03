@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "ساسولو",
-      "away_team": "جنوى",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "20:15",
       "home_team": "الغرافة",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/136.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/117.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/193.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/118.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -104,6 +91,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8347.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "ساسولو",
+      "away_team": "جنوى",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
