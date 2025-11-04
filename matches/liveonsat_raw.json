@@ -90,6 +90,7 @@
       "title": "Buriram United v Shanghai Port",
       "kickoff_baghdad": "15:15",
       "channels_raw": [
+        "Astro Arena Bola 2 HD",
         "Azam Sports 4 HD",
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA 3 HD",
@@ -112,6 +113,7 @@
       "title": "Brazil U-17 v Honduras U-17",
       "kickoff_baghdad": "15:30",
       "channels_raw": [
+        "Al Kass 4 HD 📺",
         "beIN Sports MENA Xtra 2 HD",
         "FIFA+ [app] (geo/R) 📺",
         "Futbol TV Uzbekistan",
@@ -125,6 +127,7 @@
       "title": "Ivory Coast U-17 v Switzerland U-17",
       "kickoff_baghdad": "15:30",
       "channels_raw": [
+        "Al Kass 6 HD",
         "beIN Sports MENA Xtra 1 HD",
         "FIFA+ [app] (geo/R) 📺"
       ]
@@ -156,6 +159,7 @@
       "title": "Mexico U-17 v South Korea U-17",
       "kickoff_baghdad": "16:00",
       "channels_raw": [
+        "Al Kass 5 HD 📺",
         "beIN Sports MENA Xtra 3 HD",
         "FIFA+ [app] (geo/R) 📺",
         "Futbol TV Tajikistan"
@@ -166,6 +170,7 @@
       "title": "Haiti U-17 v Egypt U-17",
       "kickoff_baghdad": "16:30",
       "channels_raw": [
+        "Al Kass 3 HD",
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA Global HD",
         "FIFA+ [app] (geo/R) 📺",
@@ -187,6 +192,7 @@
       "title": "Germany U-17 v Colombia U-17",
       "kickoff_baghdad": "17:45",
       "channels_raw": [
+        "Al Kass 4 HD 📺",
         "beIN Sports MENA Xtra 2 HD",
         "FIFA+ [app] (geo/R) 📺",
         "Futbol TV Uzbekistan",
@@ -295,6 +301,7 @@
       "title": "England U-17 v Venezuela U-17",
       "kickoff_baghdad": "18:15",
       "channels_raw": [
+        "Al Kass 6 HD",
         "beIN Connect MENA HD 📺",
         "beIN Sports MENA English 2 HD",
         "beIN Sports MENA Xtra 3 HD",
@@ -310,6 +317,7 @@
       "title": "North Korea U-17 v El Salvador U-17",
       "kickoff_baghdad": "18:45",
       "channels_raw": [
+        "Al Kass 5 HD 📺",
         "beIN Sports MENA Xtra 1 HD",
         "FIFA+ [app] (geo/R) 📺"
       ]
@@ -319,6 +327,7 @@
       "title": "Indonesia U-17 v Zambia U-17",
       "kickoff_baghdad": "18:45",
       "channels_raw": [
+        "Al Kass 3 HD",
         "FIFA+ [app] (geo/R) 📺",
         "Futbol TV Uzbekistan"
       ]
@@ -354,6 +363,7 @@
         "beIN Sports MENA English 1 HD",
         "Diema Sport 3 HD",
         "ESPN 2 Nederland HD",
+        "ESPN 4 Brazil HD",
         "Play Diema XTRA ($/geo/R) 📺",
         "Q Sport Football HD",
         "Silk Sport 3 HD",
@@ -390,8 +400,12 @@
       "title": "Nuremberg v Bayern Munich",
       "kickoff_baghdad": "20:00",
       "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
         "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
+        "Magenta Sport ($/geo/R) 📺",
+        "Sport 1 Germany HD 📺",
         "ViaPlay 3 Urheilu HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
@@ -480,6 +494,7 @@
         "Sky Sport 254 Italia HD",
         "Sky Sport 4 Austria HD",
         "Sky Sport Arena Italia HD",
+        "Solh TV",
         "Sport 1 Hungary HD",
         "SportKlub 1 Slovenija HD",
         "SuperSport MáXimo 1 HD",
@@ -489,6 +504,7 @@
         "Tring Sport 3 HD",
         "TSN Malta 6 HD",
         "TV2 Play Norge ($/geo/R) 📺",
+        "TVNet Sport Azerbaijan (geo/R)",
         "V Sport Ultra 4K UHD (geo/R)",
         "Varzish TV Sport HD (tjk)",
         "ViaPlay Danmark HD",
@@ -518,6 +534,7 @@
         "Canal+ Extra 2 Polska HD",
         "Canal+ Live 2 France HD",
         "Canal+ Sport France HD",
+        "CBC Sport HD",
         "Cosmote Sport 3 HD",
         "Cytavision Sports 4 HD",
         "DAZN 1 Bar Deutsch HD",
@@ -573,14 +590,18 @@
       "title": "Union Berlin v Wolfsburg",
       "kickoff_baghdad": "21:00",
       "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
         "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)",
+        "Magenta Sport ($/geo/R) 📺",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
         "ViaPlay Suomi HD",
         "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD"
+        "ViaPlay Ísland HD",
+        "W-Sport HD"
       ]
     },
     {
@@ -612,6 +633,7 @@
         "beIN Sports MENA 3 HD",
         "Blue Sport 11 Live HD",
         "ESPN 1 Nederland HD",
+        "ESPN 4 Brazil HD",
         "Nova Sport Bulgaria HD",
         "Q Sport Football HD",
         "Spor Smart 2 Türkiye HD",
@@ -710,7 +732,8 @@
       "kickoff_baghdad": "22:45",
       "channels_raw": [
         "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺"
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)"
       ]
     },
     {
@@ -726,8 +749,10 @@
       "title": "Boreham Wood v Aldershot",
       "kickoff_baghdad": "22:45",
       "channels_raw": [
+        "DAZN España ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺"
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)"
       ]
     },
     {
@@ -735,8 +760,10 @@
       "title": "Carlisle United v Halifax Town",
       "kickoff_baghdad": "22:45",
       "channels_raw": [
+        "DAZN España ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺"
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)"
       ]
     },
     {
@@ -744,8 +771,10 @@
       "title": "Hartlepool United v Morecambe",
       "kickoff_baghdad": "22:45",
       "channels_raw": [
+        "DAZN España ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺"
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)"
       ]
     },
     {
@@ -753,8 +782,10 @@
       "title": "Rochdale v Scunthorpe United",
       "kickoff_baghdad": "22:45",
       "channels_raw": [
+        "DAZN España ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺"
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)"
       ]
     },
     {
@@ -762,8 +793,10 @@
       "title": "Yeovil Town v Wealdstone",
       "kickoff_baghdad": "22:45",
       "channels_raw": [
+        "DAZN España ($/geo/R)",
         "DAZN Great Britain (geo/R) 📺",
-        "DAZN Ireland ($/geo/R) 📺"
+        "DAZN Ireland ($/geo/R) 📺",
+        "DAZN Italia ($/geo/R)"
       ]
     },
     {
@@ -842,6 +875,7 @@
         "PrimaPlay [app] 📺",
         "Sky Sport 255 Italia HD",
         "Sky Sport 4 Austria HD",
+        "Sport TV Azerbaijan (geo/R)",
         "SuperSport PSL HD",
         "Tabii Spor 4 ($/geo/R)",
         "TNT Sports 1 HD",
@@ -886,7 +920,7 @@
         "MAX Sport 2 Bulgaria HD",
         "Megogo Futbol 4 ($/geo/R)",
         "MTV Katsomon+ ($/geo/R) 📺",
-        "New World Sport 5 Togo",
+        "New World Sport 3 Togo",
         "Nova Sport 4 Czech HD",
         "Pickx+ Sports 5 HD",
         "Premier Sports 4 Mongolia HD",
@@ -909,6 +943,7 @@
         "TSN Malta 4 HD",
         "TV2 Play Norge ($/geo/R) 📺",
         "TV3 MAX Dansk HD",
+        "TVNet Sport Azerbaijan (geo/R)",
         "V Sport 1 Sverige HD",
         "ViaPlay Danmark HD",
         "ViaPlay Sverige HD",
@@ -981,6 +1016,7 @@
         "Discovery+ UK ($/geo/R) 📺",
         "Fast Sports 1 Armenia ($/geo/R) 📺",
         "Futbol TV Tajikistan",
+        "Ictimai TV HD",
         "IRIB Varzesh HD",
         "M+ Liga de Campeones 3 HD",
         "MAX Sport 4 Bulgaria HD",
@@ -1069,6 +1105,7 @@
         "Arena Premium 1 BiH HD",
         "Arena Premium 1 Srbija HD",
         "Arena Sport 1 Hrvatska HD",
+        "Arezo TV HD",
         "ART Motion Sport 1 HD 📺",
         "beIN Connect MENA HD 📺",
         "beIN Sports 1 HD (Astro)",
@@ -1082,7 +1119,9 @@
         "Canal+ Live 2 France HD",
         "Canal+ Sport 5 Polska HD",
         "Canal+ Sport France HD",
+        "CBC Sport HD",
         "Cosmote Sport 3 HD",
+        "Cosmote Sport 4K UHD",
         "Cytavision Sports 3 HD",
         "Cytavision Sports 4K UHD",
         "Cytavision Sports PPV 1 HD",
@@ -1103,7 +1142,6 @@
         "MTV Katsomon+ ($/geo/R) 📺",
         "MTV Urheilu 1 Suomi HD",
         "New World Sport 2 Mauritius",
-        "New World Sport 3 Togo",
         "Nova Sport 6 Czech HD",
         "Orange Fútbol 1 HD",
         "Persiana Sport HD",
@@ -1121,6 +1159,7 @@
         "Sky Sport 253 Italia HD",
         "Sky Sport 3 Austria HD",
         "Sky Sport Arena Italia HD",
+        "Solh TV",
         "SuperSport MáXimo 1 HD",
         "SuperSport Premier League HD",
         "Tabii Spor Türkiye ($/geo/R) 📺",
@@ -1128,6 +1167,7 @@
         "TSN Malta 5 HD",
         "TV2 Play Norge ($/geo/R) 📺",
         "TV3 Sport Dansk HD",
+        "TVM Sport+ HD",
         "V Sport Premium HD",
         "Varzish TV Sport HD (tjk)",
         "ViaPlay Danmark HD",
@@ -1169,6 +1209,7 @@
         "RTL+ Hungary [online] 📺",
         "Sky Sport 256 Italia HD",
         "Sky Sport 7 Austria HD",
+        "Sport TV 2 Azerbaijan (geo/R)",
         "SuperSport MáXimo 3A HD",
         "SuperSport OTT 3",
         "SuperSport Variety 2 HD",
