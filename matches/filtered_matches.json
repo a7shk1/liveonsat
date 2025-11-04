@@ -3,20 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 17",
-      "kickoff_baghdad": "15:30",
-      "home_team": "هايتي تحت 17",
-      "away_team": "مصر تحت 17",
-      "channels_raw": [
-        "beIN Sports HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/11/48112.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/2330.png",
-      "status_text": "جارية الان",
-      "result_text": "1-3"
-    },
-    {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "17:00",
       "home_team": "وادي دجلة",
@@ -39,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -172,8 +158,8 @@
       "channels_raw": [
         "beIN Sports 7 HD"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/225.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/725.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -211,10 +197,24 @@
       "channels_raw": [
         "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
+      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17",
+      "kickoff_baghdad": "15:30",
+      "home_team": "هايتي تحت 17",
+      "away_team": "مصر تحت 17",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/11/48112.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/2330.png",
+      "status_text": "انتهت",
+      "result_text": "1-3"
     }
   ]
 }
