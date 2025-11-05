@@ -1,20 +1,7 @@
 {
-  "date": "2025-11-05",
+  "date": "2025-11-06",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أياكس",
-      "away_team": "غلطة سراي",
-      "channels_raw": [
-        "beIN Sports 7 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/152.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
@@ -25,6 +12,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "أياكس",
+      "away_team": "غلطة سراي",
+      "channels_raw": [
+        "beIN Sports 7 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/152.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -96,20 +96,6 @@
     {
       "competition": "تونس, الرابطة التونسية المحترفة الأولى",
       "kickoff_baghdad": "15:30",
-      "home_team": "الأولمبي الباجي",
-      "away_team": "الصفاقسي",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8237.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/428.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
-      "kickoff_baghdad": "15:30",
       "home_team": "النجم الساحلي",
       "away_team": "الترجي الجرجيسي",
       "channels_raw": [
@@ -118,6 +104,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/231.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/591.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
+      "kickoff_baghdad": "15:30",
+      "home_team": "الأولمبي الباجي",
+      "away_team": "الصفاقسي",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8237.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/428.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -138,20 +138,6 @@
     {
       "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
       "kickoff_baghdad": "15:45",
-      "home_team": "أركاداج",
-      "away_team": "الأهلي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/74158.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
-      "kickoff_baghdad": "15:45",
       "home_team": "الوصل",
       "away_team": "المحرق",
       "channels_raw": [
@@ -160,6 +146,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/869.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16941.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
+      "kickoff_baghdad": "15:45",
+      "home_team": "أركاداج",
+      "away_team": "الأهلي",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/74158.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -192,17 +192,17 @@
       "result_text": "2-1"
     },
     {
-      "competition": "آسيا, دوري أبطال الخليج للأندية",
+      "competition": "المغرب, الدوري المغربي",
       "kickoff_baghdad": "19:00",
-      "home_team": "الريان",
-      "away_team": "الشباب",
+      "home_team": "أولمبيك آسفي",
+      "away_team": "الدفاع الحسني الجديدي",
       "channels_raw": [
-        "غير معروف",
+        "الرياضية المغربية (3)",
         "Persiana Sport HD",
         "Varzish TV Sport HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1138.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/180.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/540.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/930.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -222,30 +222,17 @@
       "result_text": "0-0"
     },
     {
-      "competition": "المغرب, الدوري المغربي",
+      "competition": "آسيا, دوري أبطال الخليج للأندية",
       "kickoff_baghdad": "19:00",
-      "home_team": "أولمبيك آسفي",
-      "away_team": "الدفاع الحسني الجديدي",
+      "home_team": "الريان",
+      "away_team": "الشباب",
       "channels_raw": [
-        "الرياضية المغربية (3)",
+        "غير معروف",
         "Persiana Sport HD",
         "Varzish TV Sport HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/540.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/930.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "19:45",
-      "home_team": "كارباغ اغدام",
-      "away_team": "تشيلسي",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/7521.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1138.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/180.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -259,6 +246,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2273.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "19:45",
+      "home_team": "كارباغ اغدام",
+      "away_team": "تشيلسي",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/7521.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
