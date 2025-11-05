@@ -3,21 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الزوراء",
-      "away_team": "استقلال دوشنبه",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "Football HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8248.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/20237.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "آسيا, دوري أبطال الخليج للأندية",
       "kickoff_baghdad": "19:00",
       "home_team": "الريان",
@@ -98,7 +83,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8275.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/9358.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -111,7 +96,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/21985.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "أتلتيك بلباو",
+      "channels_raw": [
+        "beIN Sports 6 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
     {
@@ -182,19 +180,6 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "أتلتيك بلباو",
-      "channels_raw": [
-        "beIN Sports 6 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
       "home_team": "بنفيكا",
       "away_team": "باير ليفركوزن",
       "channels_raw": [
@@ -203,6 +188,20 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/888.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17",
+      "kickoff_baghdad": "15:30",
+      "home_team": "النمسا تحت 17",
+      "away_team": "السعودية تحت 17",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
+      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5293.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     },
     {
@@ -234,16 +233,16 @@
       "result_text": "0-0"
     },
     {
-      "competition": "دولي, كأس العالم تحت 17",
-      "kickoff_baghdad": "15:30",
-      "home_team": "النمسا تحت 17",
-      "away_team": "السعودية تحت 17",
+      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
+      "kickoff_baghdad": "15:45",
+      "home_team": "أركاداج",
+      "away_team": "الأهلي",
       "channels_raw": [
-        "beIN Sports HD",
-        "Football HD"
+        "beIN Sports 1 HD",
+        "Varzish TV Sport HD"
       ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
-      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5293.png",
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/74158.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -262,20 +261,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
-      "kickoff_baghdad": "15:45",
-      "home_team": "أركاداج",
-      "away_team": "الأهلي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/74158.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "المغرب, الدوري المغربي",
       "kickoff_baghdad": "17:00",
       "home_team": "حسنية أكادير",
@@ -285,6 +270,21 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/04/434.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الزوراء",
+      "away_team": "استقلال دوشنبه",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "Football HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8248.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/20237.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
