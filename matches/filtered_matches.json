@@ -3,6 +3,20 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
+      "competition": "دولي, كأس العالم تحت 17",
+      "kickoff_baghdad": "15:30",
+      "home_team": "النمسا تحت 17",
+      "away_team": "السعودية تحت 17",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
+      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5293.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "تونس, الرابطة التونسية المحترفة الأولى",
       "kickoff_baghdad": "15:30",
       "home_team": "النجم الساحلي",
@@ -31,16 +45,16 @@
       "result_text": "0-0"
     },
     {
-      "competition": "دولي, كأس العالم تحت 17",
-      "kickoff_baghdad": "15:30",
-      "home_team": "النمسا تحت 17",
-      "away_team": "السعودية تحت 17",
+      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
+      "kickoff_baghdad": "15:45",
+      "home_team": "أركاداج",
+      "away_team": "الأهلي",
       "channels_raw": [
-        "beIN Sports HD",
-        "Football HD"
+        "beIN Sports 1 HD",
+        "Varzish TV Sport HD"
       ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
-      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5293.png",
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/74158.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -59,20 +73,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
-      "kickoff_baghdad": "15:45",
-      "home_team": "أركاداج",
-      "away_team": "الأهلي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/74158.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "المغرب, الدوري المغربي",
       "kickoff_baghdad": "17:00",
       "home_team": "حسنية أكادير",
@@ -82,7 +82,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8323.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/04/434.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -103,21 +103,6 @@
     {
       "competition": "المغرب, الدوري المغربي",
       "kickoff_baghdad": "19:00",
-      "home_team": "أولمبيك آسفي",
-      "away_team": "الدفاع الحسني الجديدي",
-      "channels_raw": [
-        "الرياضية المغربية (3)",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/540.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/930.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "19:00",
       "home_team": "نهضة بركان",
       "away_team": "النادي المكناسي",
       "channels_raw": [
@@ -127,6 +112,21 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1529.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8677.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "أولمبيك آسفي",
+      "away_team": "الدفاع الحسني الجديدي",
+      "channels_raw": [
+        "الرياضية المغربية (3)",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/540.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/930.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -200,32 +200,6 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
-      "home_team": "مانشستر سيتي",
-      "away_team": "بوروسيا دورتموند",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/154.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "كايرات ألماتي",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10564.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
       "home_team": "نيوكاسل يونايتد",
       "away_team": "أتلتيك بلباو",
       "channels_raw": [
@@ -285,6 +259,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1169.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "مانشستر سيتي",
+      "away_team": "بوروسيا دورتموند",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/154.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "إنتر ميلان",
+      "away_team": "كايرات ألماتي",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10564.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     }
