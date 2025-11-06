@@ -1,22 +1,7 @@
 {
-  "date": "2025-11-06",
+  "date": "2025-11-07",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الجيش الملكي",
-      "away_team": "الفتح الرباطي",
-      "channels_raw": [
-        "الرياضية المغربية (3)",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/997.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
     {
       "competition": "أوروبا, الدوري الأوروبي",
       "kickoff_baghdad": "22:00",
@@ -27,6 +12,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/753.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "شتوتجارت",
+      "away_team": "فاينورد",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/691.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -57,19 +55,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "شتوتجارت",
-      "away_team": "فاينورد",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/691.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 17",
       "kickoff_baghdad": "14:30",
       "home_team": "البرتغال تحت 17",
@@ -83,20 +68,6 @@
       "result_text": "0--"
     },
     {
-      "competition": "دولي, كأس العالم تحت 17",
-      "kickoff_baghdad": "15:30",
-      "home_team": "الأرجنتين تحت 17",
-      "away_team": "تونس تحت 17",
-      "channels_raw": [
-        "beIN Sports HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5270.png",
-      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2334.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "تونس, الرابطة التونسية المحترفة الأولى",
       "kickoff_baghdad": "15:30",
       "home_team": "الملعب التونسي",
@@ -107,6 +78,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/924.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8239.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17",
+      "kickoff_baghdad": "15:30",
+      "home_team": "الأرجنتين تحت 17",
+      "away_team": "تونس تحت 17",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5270.png",
+      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2334.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -140,20 +125,6 @@
     {
       "competition": "دولي, كأس العالم تحت 17",
       "kickoff_baghdad": "17:45",
-      "home_team": "السنغال تحت 17",
-      "away_team": "كوستاريكا تحت 17",
-      "channels_raw": [
-        "غير معروف",
-        "Thmanyah 1"
-      ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2332.png",
-      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/6146.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, كأس العالم تحت 17",
-      "kickoff_baghdad": "17:45",
       "home_team": "قطر تحت 17",
       "away_team": "جنوب إفريقيا تحت 17",
       "channels_raw": [
@@ -162,6 +133,20 @@
       ],
       "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/23459.png",
       "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2333.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17",
+      "kickoff_baghdad": "17:45",
+      "home_team": "السنغال تحت 17",
+      "away_team": "كوستاريكا تحت 17",
+      "channels_raw": [
+        "غير معروف",
+        "Thmanyah 1"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2332.png",
+      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/6146.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -242,6 +227,21 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
       "status_text": "انتهت",
       "result_text": "2-1"
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الجيش الملكي",
+      "away_team": "الفتح الرباطي",
+      "channels_raw": [
+        "الرياضية المغربية (3)",
+        "Persiana Sport HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/05/997.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
