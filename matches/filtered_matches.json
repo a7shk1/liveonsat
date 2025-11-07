@@ -1,5 +1,59 @@
 {
   "date": "2025-11-07",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
-  "matches": []
+  "matches": [
+    {
+      "competition": "دولي, كأس العالم تحت 17",
+      "kickoff_baghdad": "15:30",
+      "home_team": "مصر تحت 17",
+      "away_team": "فنزويلا تحت 17",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/2330.png",
+      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5273.png",
+      "status_text": "جارية الان",
+      "result_text": "0-1"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17",
+      "kickoff_baghdad": "17:45",
+      "home_team": "البرازيل تحت 17",
+      "away_team": "إندونيسيا تحت 17",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Thmanyah 2"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5271.png",
+      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/77386.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "النجمة",
+      "away_team": "الهلال",
+      "channels_raw": [
+        "ثمانية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/24240.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "إلتشي",
+      "away_team": "ريال سوسيداد",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/156.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    }
+  ]
 }
