@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "النجمة",
-      "away_team": "الهلال",
-      "channels_raw": [
-        "ثمانية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/24240.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "إلتشي",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/156.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -52,6 +39,19 @@
       ],
       "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5271.png",
       "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/77386.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "النجمة",
+      "away_team": "الهلال",
+      "channels_raw": [
+        "ثمانية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/24240.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
