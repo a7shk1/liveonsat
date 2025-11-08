@@ -3,45 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "أتلتيكو مدريد",
-      "away_team": "ليفانتي",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/150.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "سندرلاند",
-      "away_team": "أرسنال",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/117.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "الاتحاد",
-      "away_team": "الأهلي",
-      "channels_raw": [
-        "ثمانية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "20:00",
       "home_team": "لو آفر",
@@ -64,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -77,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -90,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/15.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -103,7 +64,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -135,19 +96,6 @@
     {
       "competition": "تونس, الرابطة التونسية المحترفة الأولى",
       "kickoff_baghdad": "15:30",
-      "home_team": "البنزرتي",
-      "away_team": "النجم الساحلي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8231.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/231.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
-      "kickoff_baghdad": "15:30",
       "home_team": "الصفاقسي",
       "away_team": "مستقبل المرسى",
       "channels_raw": [
@@ -155,6 +103,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/428.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8230.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "تونس, الرابطة التونسية المحترفة الأولى",
+      "kickoff_baghdad": "15:30",
+      "home_team": "البنزرتي",
+      "away_team": "النجم الساحلي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8231.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/231.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -174,19 +135,6 @@
     {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "16:00",
-      "home_team": "كومو",
-      "away_team": "كالياري",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/132.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
       "home_team": "ليتشي",
       "away_team": "هيلاس فيرونا",
       "channels_raw": [
@@ -198,15 +146,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "16:30",
-      "home_team": "هامبورج",
-      "away_team": "بوروسيا دورتموند",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "كومو",
+      "away_team": "كالياري",
       "channels_raw": [
-        "Shahid MBC"
+        "Starzplay 1"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/334.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/154.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/132.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -220,6 +168,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2110.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "16:30",
+      "home_team": "هامبورج",
+      "away_team": "بوروسيا دورتموند",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/334.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/154.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -285,6 +246,45 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/135.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/144.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "سندرلاند",
+      "away_team": "أرسنال",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/117.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "الاتحاد",
+      "away_team": "الأهلي",
+      "channels_raw": [
+        "ثمانية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "أتلتيكو مدريد",
+      "away_team": "ليفانتي",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/150.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
