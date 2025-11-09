@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "13:30",
-      "home_team": "أتالانتا",
-      "away_team": "ساسولو",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, كأس السوبر المصري - المركز الثالث",
       "kickoff_baghdad": "14:45",
       "home_team": "سيراميكا كليوباترا",
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -142,6 +129,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/54729.png",
       "away_logo": "https://www.yalla-shot.info/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "13:30",
+      "home_team": "أتالانتا",
+      "away_team": "ساسولو",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
