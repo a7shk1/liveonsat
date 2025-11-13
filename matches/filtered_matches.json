@@ -3,45 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا - الملحق",
-      "kickoff_baghdad": "18:00",
-      "home_team": "نيجيريا",
-      "away_team": "الجابون",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2386.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/386.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "آسيا, تصفيات كأس العالم آسيا - الدور 5",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الإمارات",
-      "away_team": "العراق",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "18:30",
-      "home_team": "الجزائر",
-      "away_team": "زيمبابوي",
-      "channels_raw": [
-        "الجزائرية السادسة"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/234.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
       "kickoff_baghdad": "19:00",
       "home_team": "النرويج",
@@ -103,6 +64,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/27.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/14650.png",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "مولدوفا",
+      "away_team": "إيطاليا",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5031.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/64.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "إنجلترا",
+      "away_team": "صربيا",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5054.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2374.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -146,32 +133,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
-      "home_team": "مولدوفا",
-      "away_team": "إيطاليا",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5031.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/64.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
-      "home_team": "إنجلترا",
-      "away_team": "صربيا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5054.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2374.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "14:30",
       "home_team": "تايلاند",
@@ -196,6 +157,45 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8584.png",
       "status_text": "انتهت",
       "result_text": "0-1"
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس العالم إفريقيا - الملحق",
+      "kickoff_baghdad": "18:00",
+      "home_team": "نيجيريا",
+      "away_team": "الجابون",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2386.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/386.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, تصفيات كأس العالم آسيا - الدور 5",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الإمارات",
+      "away_team": "العراق",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "18:30",
+      "home_team": "الجزائر",
+      "away_team": "زيمبابوي",
+      "channels_raw": [
+        "الجزائرية السادسة"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/234.png",
+      "status_text": "انتهت",
+      "result_text": "3-1"
     }
   ]
 }
