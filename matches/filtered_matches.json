@@ -4,32 +4,6 @@
   "matches": [
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "18:45",
-      "home_team": "تونس",
-      "away_team": "الأردن",
-      "channels_raw": [
-        "الأردن الرياضية"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "فنلندا",
-      "away_team": "مالطا",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5045.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5035.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "21:00",
       "home_team": "المغرب",
       "away_team": "موزمبيق",
@@ -38,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/674.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -195,7 +169,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "3-2"
     },
     {
       "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
@@ -265,19 +239,6 @@
     {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "18:00",
-      "home_team": "مصر",
-      "away_team": "أوزبكستان",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/291.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "18:00",
       "home_team": "أنجولا",
       "away_team": "الأرجنتين",
       "channels_raw": [
@@ -285,6 +246,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/388.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/2378.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "18:00",
+      "home_team": "مصر",
+      "away_team": "أوزبكستان",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/291.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -300,6 +274,32 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2385.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "18:45",
+      "home_team": "تونس",
+      "away_team": "الأردن",
+      "channels_raw": [
+        "الأردن الرياضية"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "19:00",
+      "home_team": "فنلندا",
+      "away_team": "مالطا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5045.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5035.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
