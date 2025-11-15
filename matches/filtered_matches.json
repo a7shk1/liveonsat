@@ -25,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/46.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5053.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -38,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5041.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/19414.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -51,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5030.png",
       "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5069.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -64,7 +64,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5048.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5060.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -77,7 +77,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5032.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2371.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -172,19 +172,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "16:00",
-      "home_team": "ليسوتو",
-      "away_team": "مالاوي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5412.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/390.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
       "kickoff_baghdad": "16:00",
       "home_team": "كازاخستان",
@@ -196,6 +183,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2373.png",
       "status_text": "انتهت",
       "result_text": "1-1"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "16:00",
+      "home_team": "ليسوتو",
+      "away_team": "مالاوي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5412.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/390.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     },
     {
       "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
@@ -278,19 +278,6 @@
     {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
       "kickoff_baghdad": "19:00",
-      "home_team": "جورجيا",
-      "away_team": "إسبانيا",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5066.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/48.png",
-      "status_text": "انتهت",
-      "result_text": "0-4"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "19:00",
       "home_team": "ليختنشتاين",
       "away_team": "ويلز",
       "channels_raw": [
@@ -339,6 +326,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5062.png",
       "status_text": "انتهت",
       "result_text": "2-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "19:00",
+      "home_team": "جورجيا",
+      "away_team": "إسبانيا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5066.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/48.png",
+      "status_text": "انتهت",
+      "result_text": "0-4"
     }
   ]
 }
