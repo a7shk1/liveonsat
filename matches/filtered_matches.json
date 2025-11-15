@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
-      "kickoff_baghdad": "16:45",
-      "home_team": "ألمانيا تحت 17",
-      "away_team": "بوركينا فاسو تحت 17",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5235.png",
-      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/11235.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "روسيا",
-      "away_team": "تشيلي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5044.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/cI5r.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "الإمارات, كأس مصرف ابوظبي الإسلامي - ربع النهائي",
       "kickoff_baghdad": "17:30",
       "home_team": "الشارقة",
@@ -83,19 +57,6 @@
     {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
       "kickoff_baghdad": "19:00",
-      "home_team": "جورجيا",
-      "away_team": "إسبانيا",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5066.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/48.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "19:00",
       "home_team": "ليختنشتاين",
       "away_team": "ويلز",
       "channels_raw": [
@@ -103,7 +64,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5046.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5043.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -116,7 +77,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/280.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5599.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -129,7 +90,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5065.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5059.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -142,7 +103,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5047.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5062.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "19:00",
+      "home_team": "جورجيا",
+      "away_team": "إسبانيا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5066.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/48.png",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -276,19 +250,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
-      "kickoff_baghdad": "15:00",
-      "home_team": "إيطاليا تحت 17",
-      "away_team": "جمهورية التشيك تحت 17",
-      "channels_raw": [
-        "beIN Sports 2 HD"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5259.png",
-      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5232.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "15:00",
       "home_team": "جنوب أفريقيا",
@@ -300,6 +261,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5101.png",
       "status_text": "انتهت",
       "result_text": "3-1"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
+      "kickoff_baghdad": "15:00",
+      "home_team": "إيطاليا تحت 17",
+      "away_team": "جمهورية التشيك تحت 17",
+      "channels_raw": [
+        "beIN Sports 2 HD"
+      ],
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5259.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5232.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     },
     {
       "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
@@ -337,6 +311,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5056.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2373.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
+      "kickoff_baghdad": "16:45",
+      "home_team": "ألمانيا تحت 17",
+      "away_team": "بوركينا فاسو تحت 17",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5235.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/11235.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "روسيا",
+      "away_team": "تشيلي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5044.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/cI5r.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
