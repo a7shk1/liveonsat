@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
-      "kickoff_baghdad": "14:30",
-      "home_team": "كوريا الجنوبية تحت 17",
-      "away_team": "إنجلترا تحت 17",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5287.png",
-      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5248.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
-      "kickoff_baghdad": "14:30",
-      "home_team": "السنغال تحت 17",
-      "away_team": "أوغندا تحت 17",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2332.png",
-      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/2337.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "الإمارات, كأس مصرف ابوظبي الإسلامي - ربع النهائي",
       "kickoff_baghdad": "14:50",
       "home_team": "الوحدة",
@@ -116,7 +90,7 @@
       ],
       "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5235.png",
       "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/11235.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -129,7 +103,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5044.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/cI5r.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -161,6 +135,19 @@
     {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "18:00",
+      "home_team": "الكويت",
+      "away_team": "تنزانيا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/670.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "18:00",
       "home_team": "البرازيل",
       "away_team": "السنغال",
       "channels_raw": [
@@ -172,15 +159,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الكويت",
-      "away_team": "تنزانيا",
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "19:00",
+      "home_team": "قبرص",
+      "away_team": "النمسا",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/670.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5065.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5059.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -237,19 +224,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "قبرص",
-      "away_team": "النمسا",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5065.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5059.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "21:30",
       "home_team": "إقليم الباسك",
@@ -259,6 +233,19 @@
       ],
       "home_logo": "https://www.yallashootkora.com/wp-content/themes/AlbaYallaShoot/public/img/default.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "سويسرا",
+      "away_team": "السويد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5032.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2371.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -315,19 +302,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "21:45",
-      "home_team": "سويسرا",
-      "away_team": "السويد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5032.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2371.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "04:30",
       "home_team": "فنزويلا",
@@ -337,6 +311,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/ohjuA.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/326.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
+      "kickoff_baghdad": "14:30",
+      "home_team": "كوريا الجنوبية تحت 17",
+      "away_team": "إنجلترا تحت 17",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5287.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5248.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
+      "kickoff_baghdad": "14:30",
+      "home_team": "السنغال تحت 17",
+      "away_team": "أوغندا تحت 17",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2332.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/2337.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
