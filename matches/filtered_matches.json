@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "16:00",
-      "home_team": "ليسوتو",
-      "away_team": "مالاوي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5412.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/390.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "16:00",
-      "home_team": "كازاخستان",
-      "away_team": "بلجيكا",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5056.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2373.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 17 - دور الـ 32",
       "kickoff_baghdad": "16:45",
       "home_team": "ألمانيا تحت 17",
@@ -77,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
       "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2334.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -90,7 +64,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/670.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -103,7 +77,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/zKLz.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5102.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -337,6 +311,32 @@
       ],
       "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5284.png",
       "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/2333.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "16:00",
+      "home_team": "ليسوتو",
+      "away_team": "مالاوي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5412.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/390.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "16:00",
+      "home_team": "كازاخستان",
+      "away_team": "بلجيكا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5056.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2373.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
