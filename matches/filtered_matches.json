@@ -4,19 +4,6 @@
   "matches": [
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "02:00",
-      "home_team": "كولومبيا",
-      "away_team": "نيوزلندا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/tXHn.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2391.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "03:00",
       "home_team": "المكسيك",
       "away_team": "أوروغواي",
@@ -83,6 +70,19 @@
     {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
       "kickoff_baghdad": "19:00",
+      "home_team": "أوكرانيا",
+      "away_team": "أيسلندا",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5057.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5067.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "19:00",
       "home_team": "ألبانيا",
       "away_team": "إنجلترا",
       "channels_raw": [
@@ -116,19 +116,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5042.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/437.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "أوكرانيا",
-      "away_team": "أيسلندا",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5057.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5067.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -168,6 +155,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/2389.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/5070.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "02:00",
+      "home_team": "كولومبيا",
+      "away_team": "نيوزلندا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/tXHn.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2391.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
