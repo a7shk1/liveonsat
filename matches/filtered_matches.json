@@ -3,15 +3,15 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "الإمارات, كأس مصرف ابوظبي الإسلامي - ربع النهائي",
-      "kickoff_baghdad": "17:30",
-      "home_team": "الجزيرة",
-      "away_team": "الوصل",
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
+      "kickoff_baghdad": "19:00",
+      "home_team": "صربيا",
+      "away_team": "لاتفيا",
       "channels_raw": [
-        "أبو ظبي الرياضية 1"
+        "beIN Sports 3 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/875.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/869.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2374.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2300.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -51,19 +51,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5029.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5054.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا",
-      "kickoff_baghdad": "19:00",
-      "home_team": "صربيا",
-      "away_team": "لاتفيا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2374.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2300.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -170,6 +157,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5049.png",
       "status_text": "انتهت",
       "result_text": "6-1"
+    },
+    {
+      "competition": "الإمارات, كأس مصرف ابوظبي الإسلامي - ربع النهائي",
+      "kickoff_baghdad": "17:30",
+      "home_team": "الجزيرة",
+      "away_team": "الوصل",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/875.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/869.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
