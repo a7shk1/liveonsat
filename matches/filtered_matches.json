@@ -1,33 +1,7 @@
 {
-  "date": "2025-11-18",
+  "date": "2025-11-19",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "21:00",
-      "home_team": "المغرب",
-      "away_team": "أوغندا",
-      "channels_raw": [
-        "الرياضية المغربية (3)"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/391.png",
-      "status_text": "جارية الان",
-      "result_text": "2-0"
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "21:30",
-      "home_team": "البرازيل",
-      "away_team": "تونس",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/zKLz.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
     {
       "competition": "أوروبا, تصفيات كأس العالم أوروبا",
       "kickoff_baghdad": "21:45",
@@ -172,19 +146,6 @@
       "result_text": "0-3"
     },
     {
-      "competition": "آسيا, تصفيات كأس آسيا",
-      "kickoff_baghdad": "12:15",
-      "home_team": "سيريلانكا",
-      "away_team": "تايلاند",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5501.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5082.png",
-      "status_text": "انتهت",
-      "result_text": "0-1"
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "12:15",
       "home_team": "اليابان",
@@ -196,6 +157,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/بوليفيا.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "آسيا, تصفيات كأس آسيا",
+      "kickoff_baghdad": "12:15",
+      "home_team": "سيريلانكا",
+      "away_team": "تايلاند",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5501.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5082.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     },
     {
       "competition": "آسيا, تصفيات كأس آسيا",
@@ -421,19 +395,6 @@
     {
       "competition": "دولي, كأس العالم تحت 17 - دور الـ 16",
       "kickoff_baghdad": "17:45",
-      "home_team": "???",
-      "away_team": "مالي تحت 17",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/2325.png",
-      "status_text": "انتهت",
-      "result_text": "--0"
-    },
-    {
-      "competition": "دولي, كأس العالم تحت 17 - دور الـ 16",
-      "kickoff_baghdad": "17:45",
       "home_team": "النمسا تحت 17",
       "away_team": "إنجلترا تحت 17",
       "channels_raw": [
@@ -443,6 +404,19 @@
       "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5248.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17 - دور الـ 16",
+      "kickoff_baghdad": "17:45",
+      "home_team": "???",
+      "away_team": "مالي تحت 17",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yallashootkora.com/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/2325.png",
+      "status_text": "انتهت",
+      "result_text": "--0"
     },
     {
       "competition": "آسيا, تصفيات كأس العالم آسيا - الدور 5",
@@ -545,6 +519,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "21:00",
+      "home_team": "المغرب",
+      "away_team": "أوغندا",
+      "channels_raw": [
+        "الرياضية المغربية (3)"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/391.png",
+      "status_text": "انتهت",
+      "result_text": "2-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "21:30",
+      "home_team": "البرازيل",
+      "away_team": "تونس",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/zKLz.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
