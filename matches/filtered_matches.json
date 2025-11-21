@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
-      "kickoff_baghdad": "15:00",
-      "home_team": "الهلال السوداني",
-      "away_team": "مولودية الجزائر",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8218.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 17 - ربع النهائي",
       "kickoff_baghdad": "15:30",
       "home_team": "إيطاليا تحت 17",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5218.png",
       "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5223.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/181.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -129,6 +116,19 @@
       ],
       "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
       "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5284.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "kickoff_baghdad": "15:00",
+      "home_team": "الهلال السوداني",
+      "away_team": "مولودية الجزائر",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8218.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
