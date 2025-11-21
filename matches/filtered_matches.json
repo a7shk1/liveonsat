@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 17 - ربع النهائي",
-      "kickoff_baghdad": "17:45",
-      "home_team": "???",
-      "away_team": "البرازيل تحت 17",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5271.png",
-      "status_text": "جارية الان",
-      "result_text": "--0"
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "19:30",
       "home_team": "الأهلي",
@@ -75,8 +62,8 @@
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5284.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -88,8 +75,8 @@
       "channels_raw": [
         "beIN Sports 1 HD"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8218.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -101,8 +88,8 @@
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5259.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/11235.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -114,8 +101,8 @@
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5218.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5223.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -127,10 +114,23 @@
       "channels_raw": [
         "تطبيق ثمانية"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/181.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17 - ربع النهائي",
+      "kickoff_baghdad": "17:45",
+      "home_team": "???",
+      "away_team": "البرازيل تحت 17",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yallashootkora.com/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "away_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5271.png",
+      "status_text": "انتهت",
+      "result_text": "--0"
     }
   ]
 }
