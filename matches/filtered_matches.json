@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 17 - ربع النهائي",
-      "kickoff_baghdad": "14:30",
-      "home_team": "النمسا تحت 17",
-      "away_team": "اليابان تحت 17",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
-      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5284.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "15:00",
       "home_team": "الهلال السوداني",
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5218.png",
       "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5223.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -130,6 +117,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/150.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17 - ربع النهائي",
+      "kickoff_baghdad": "14:30",
+      "home_team": "النمسا تحت 17",
+      "away_team": "اليابان تحت 17",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5253.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5284.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
