@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "21:45",
-      "home_team": "ساسولو",
-      "away_team": "بيسا",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
-      "status_text": "جارية الان",
-      "result_text": "1-1"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "22:00",
       "home_team": "مانشستر يونايتد",
@@ -81,19 +68,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الدحيل",
-      "away_team": "الاتحاد",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
-      "status_text": "انتهت",
-      "result_text": "3-0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 17 - نصف النهائي",
       "kickoff_baghdad": "18:00",
       "home_team": "البرتغال تحت 17",
@@ -120,6 +94,19 @@
       "result_text": "2-0"
     },
     {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الدحيل",
+      "away_team": "الاتحاد",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
+      "status_text": "انتهت",
+      "result_text": "3-0"
+    },
+    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "19:30",
       "home_team": "تورينو",
@@ -144,6 +131,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "21:45",
+      "home_team": "ساسولو",
+      "away_team": "بيسا",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/266.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
+      "status_text": "انتهت",
+      "result_text": "1-1"
     }
   ]
 }
