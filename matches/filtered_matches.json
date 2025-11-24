@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "20:15",
-      "home_team": "الأهلي",
-      "away_team": "الشارقة",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "21:45",
       "home_team": "ساسولو",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/95.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -94,19 +81,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الدحيل",
-      "away_team": "الاتحاد",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
-      "status_text": "انتهت",
-      "result_text": "3-0"
-    },
-    {
       "competition": "دولي, كأس العالم تحت 17 - نصف النهائي",
       "kickoff_baghdad": "18:00",
       "home_team": "البرتغال تحت 17",
@@ -133,6 +107,19 @@
       "result_text": "2-0"
     },
     {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الدحيل",
+      "away_team": "الاتحاد",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2034.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/175.png",
+      "status_text": "انتهت",
+      "result_text": "3-0"
+    },
+    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "19:30",
       "home_team": "تورينو",
@@ -142,6 +129,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/144.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/132.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "20:15",
+      "home_team": "الأهلي",
+      "away_team": "الشارقة",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
