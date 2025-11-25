@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "20:15",
-      "home_team": "الهلال",
-      "away_team": "الشرطة",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1218.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
-    },
-    {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
       "home_team": "تشيلسي",
@@ -120,6 +107,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الوحدة",
+      "away_team": "السد",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/876.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
       "competition": "دولي, كأس العرب - تصفيات",
       "kickoff_baghdad": "18:00",
       "home_team": "سوريا",
@@ -142,19 +142,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/280.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الوحدة",
-      "away_team": "السد",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/876.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -196,6 +183,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/5.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "20:15",
+      "home_team": "الهلال",
+      "away_team": "الشرطة",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1218.png",
+      "status_text": "انتهت",
+      "result_text": "1-0"
     }
   ]
 }
