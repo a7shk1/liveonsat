@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب - تصفيات",
-      "kickoff_baghdad": "15:00",
-      "home_team": "موريتانيا",
-      "away_team": "الكويت",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5599.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
-      "status_text": "جارية الان",
-      "result_text": "0-2"
-    },
-    {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "17:00",
       "home_team": "بيراميدز",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8310.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -183,6 +170,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب - تصفيات",
+      "kickoff_baghdad": "15:00",
+      "home_team": "موريتانيا",
+      "away_team": "الكويت",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5599.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
+      "status_text": "انتهت",
+      "result_text": "0-2"
     },
     {
       "competition": "مصر, الدوري المصري",
