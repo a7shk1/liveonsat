@@ -1,33 +1,7 @@
 {
-  "date": "2025-11-26",
+  "date": "2025-11-27",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أرسنال",
-      "away_team": "بايرن ميونخ",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أتلتيكو مدريد",
-      "away_team": "إنتر ميلان",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
@@ -94,16 +68,29 @@
       "result_text": "0-0"
     },
     {
-      "competition": "دولي, كأس العرب - تصفيات",
-      "kickoff_baghdad": "15:00",
-      "home_team": "عمان",
-      "away_team": "الصومال",
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "أرسنال",
+      "away_team": "بايرن ميونخ",
       "channels_raw": [
-        "ابوظبي الرياضية 2"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/27810.png",
-      "status_text": "انتهت",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "أتلتيكو مدريد",
+      "away_team": "إنتر ميلان",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -116,6 +103,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/282.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5596.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب - تصفيات",
+      "kickoff_baghdad": "15:00",
+      "home_team": "عمان",
+      "away_team": "الصومال",
+      "channels_raw": [
+        "ابوظبي الرياضية 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/27810.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
