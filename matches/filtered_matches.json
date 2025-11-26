@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
-      "kickoff_baghdad": "15:45",
-      "home_team": "استقلال دوشنبه",
-      "away_team": "النصر",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/20237.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
-      "status_text": "جارية الان",
-      "result_text": "0-2"
-    },
-    {
       "competition": "دولي, كأس العرب - تصفيات",
       "kickoff_baghdad": "18:00",
       "home_team": "السودان",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5088.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/7497.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/9358.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/869.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8248.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/21985.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -209,6 +196,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/27810.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
+      "kickoff_baghdad": "15:45",
+      "home_team": "استقلال دوشنبه",
+      "away_team": "النصر",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/20237.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
+      "status_text": "انتهت",
+      "result_text": "0-2"
     },
     {
       "competition": "مصر, الدوري المصري",
