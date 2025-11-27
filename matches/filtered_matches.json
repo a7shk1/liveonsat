@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العالم تحت 17 - المركز الثالث",
-      "kickoff_baghdad": "14:30",
-      "home_team": "البرازيل تحت 17",
-      "away_team": "إيطاليا تحت 17",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5271.png",
-      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5259.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, كأس مصر - دور الـ 32",
       "kickoff_baghdad": "14:30",
       "home_team": "سموحة",
@@ -27,6 +14,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
       "status_text": "جارية الان",
       "result_text": "1-0"
+    },
+    {
+      "competition": "دولي, كأس العالم تحت 17 - المركز الثالث",
+      "kickoff_baghdad": "14:30",
+      "home_team": "البرازيل تحت 17",
+      "away_team": "إيطاليا تحت 17",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shot.info/wp-content/uploads/2025/11/5271.png",
+      "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/5259.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
     },
     {
       "competition": "مصر, كأس مصر - دور الـ 32",
@@ -70,6 +70,32 @@
     {
       "competition": "أوروبا, الدوري الأوروبي",
       "kickoff_baghdad": "19:45",
+      "home_team": "لودوجوريتس",
+      "away_team": "سيلتا فيجو",
+      "channels_raw": [
+        "beIN Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8528.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "19:45",
+      "home_team": "روما",
+      "away_team": "ميتييلاند",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/1823.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "19:45",
       "home_team": "بورتو",
       "away_team": "نيس",
       "channels_raw": [
@@ -107,28 +133,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "19:45",
-      "home_team": "لودوجوريتس",
-      "away_team": "سيلتا فيجو",
+      "competition": "أوروبا, دوري المؤتمر الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "فيورنتينا",
+      "away_team": "أيك أثينا",
       "channels_raw": [
-        "beIN Sports 2 HD"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8528.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "19:45",
-      "home_team": "روما",
-      "away_team": "ميتييلاند",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/1823.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
+      "away_logo": "https://www.newyalla-shoot.com/wp-content/uploads/2025/11/1024.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -168,19 +181,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/698.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "فيورنتينا",
-      "away_team": "أيك أثينا",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
-      "away_logo": "https://www.newyalla-shoot.com/wp-content/uploads/2025/11/1024.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     }
