@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, الكونفدرالية الافريقية",
-      "kickoff_baghdad": "15:00",
-      "home_team": "زيسكو",
-      "away_team": "المصري",
-      "channels_raw": [
-        "beIN Sports 7 HD"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/19391.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/8.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
-      "kickoff_baghdad": "18:00",
-      "home_team": "ريفرز يونايتد",
-      "away_team": "نهضة بركان",
-      "channels_raw": [
-        "beIN Sports 7 HD"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/6994.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1529.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "18:00",
       "home_team": "شبيبة القبائل",
@@ -56,14 +30,14 @@
     },
     {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الجيش الملكي",
-      "away_team": "الأهلي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "ريفرز يونايتد",
+      "away_team": "نهضة بركان",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 7 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/6994.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1529.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -90,6 +64,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/8218.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/7277.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الجيش الملكي",
+      "away_team": "الأهلي",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/440.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -130,6 +117,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/156.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, الكونفدرالية الافريقية",
+      "kickoff_baghdad": "15:00",
+      "home_team": "زيسكو",
+      "away_team": "المصري",
+      "channels_raw": [
+        "beIN Sports 7 HD"
+      ],
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/19391.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/8.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
