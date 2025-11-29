@@ -3,15 +3,15 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "يوفنتوس",
-      "away_team": "كالياري",
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "ليفانتي",
+      "away_team": "أتلتيك بلباو",
       "channels_raw": [
-        "Starzplay 1"
+        "beIN Sports 3 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/135.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/150.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -25,19 +25,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "ليفانتي",
-      "away_team": "أتلتيك بلباو",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/150.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -68,19 +55,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أتلتيكو مدريد",
-      "away_team": "ريال أوفييدو",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/193.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "22:00",
       "home_team": "توتنهام هوتسبر",
@@ -90,6 +64,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "أتلتيكو مدريد",
+      "away_team": "ريال أوفييدو",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/193.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -198,32 +185,6 @@
       "result_text": "4-1"
     },
     {
-      "competition": "مصر, كأس مصر - دور الـ 32",
-      "kickoff_baghdad": "17:00",
-      "home_team": "الاتحاد السكندري",
-      "away_team": "كهرباء الاسماعيلية",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
-      "status_text": "انتهت",
-      "result_text": "0-1"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "مانشستر سيتي",
-      "away_team": "ليدز يونايتد",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
-      "status_text": "انتهت",
-      "result_text": "3-2"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "17:00",
       "home_team": "برينتفورد",
@@ -246,6 +207,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/117.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
+      "status_text": "انتهت",
+      "result_text": "3-2"
+    },
+    {
+      "competition": "مصر, كأس مصر - دور الـ 32",
+      "kickoff_baghdad": "17:00",
+      "home_team": "الاتحاد السكندري",
+      "away_team": "كهرباء الاسماعيلية",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:00",
+      "home_team": "مانشستر سيتي",
+      "away_team": "ليدز يونايتد",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
       "status_text": "انتهت",
       "result_text": "3-2"
     },
@@ -313,6 +300,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/254.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "يوفنتوس",
+      "away_team": "كالياري",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/135.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
