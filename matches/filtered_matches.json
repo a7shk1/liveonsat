@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "غير معروف",
-      "kickoff_baghdad": "02:00",
-      "home_team": "إنتر ميامي",
-      "away_team": "نيورك سيتي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/12790.png",
-      "away_logo": "https://www.newyalla-shoot.com/wp-content/uploads/2025/11/UIpR4.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "13:30",
       "home_team": "ليتشي",
@@ -55,19 +42,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "15:00",
-      "home_team": "ريال سوسيداد",
-      "away_team": "فياريال",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "15:00",
       "home_team": "سانت إيلوي لوبوبو",
@@ -77,6 +51,19 @@
       ],
       "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/29705.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "15:00",
+      "home_team": "ريال سوسيداد",
+      "away_team": "فياريال",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -174,19 +161,6 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "18:15",
-      "home_team": "أنجيه",
-      "away_team": "لانس",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "18:15",
       "home_team": "لو آفر",
       "away_team": "ليل",
       "channels_raw": [
@@ -207,6 +181,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/472-1.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "أنجيه",
+      "away_team": "لانس",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -286,6 +273,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/2014.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/110.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "02:00",
+      "home_team": "إنتر ميامي",
+      "away_team": "نيورك سيتي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/12790.png",
+      "away_logo": "https://www.newyalla-shoot.com/wp-content/uploads/2025/11/UIpR4.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
