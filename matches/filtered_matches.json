@@ -3,58 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
-      "kickoff_baghdad": "18:00",
-      "home_team": "ستاد مالي",
-      "away_team": "سيمبا",
-      "channels_raw": [
-        "beIN Sports 7 HD"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/12172.png",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "18:15",
-      "home_team": "لو آفر",
-      "away_team": "ليل",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/485.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "18:15",
-      "home_team": "لوريان",
-      "away_team": "نيس",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/472-1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
-      "status_text": "جارية الان",
-      "result_text": "2-1"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "18:15",
-      "home_team": "أنجيه",
-      "away_team": "لانس",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
-      "status_text": "جارية الان",
-      "result_text": "0-1"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "18:30",
       "home_team": "تشيلسي",
@@ -300,6 +248,58 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
       "status_text": "انتهت",
       "result_text": "0-2"
+    },
+    {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "kickoff_baghdad": "18:00",
+      "home_team": "ستاد مالي",
+      "away_team": "سيمبا",
+      "channels_raw": [
+        "beIN Sports 7 HD"
+      ],
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/12172.png",
+      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "لو آفر",
+      "away_team": "ليل",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/485.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "لوريان",
+      "away_team": "نيس",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/472-1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
+      "status_text": "انتهت",
+      "result_text": "2-1"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "أنجيه",
+      "away_team": "لانس",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     }
   ]
 }
