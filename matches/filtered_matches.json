@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:30",
-      "home_team": "تشيلسي",
-      "away_team": "أرسنال",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "19:00",
       "home_team": "أتالانتا",
@@ -133,19 +120,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
-      "kickoff_baghdad": "15:00",
-      "home_team": "سانت إيلوي لوبوبو",
-      "away_team": "الهلال السوداني",
-      "channels_raw": [
-        "beIN Sports 6 HD"
-      ],
-      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/29705.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "15:00",
       "home_team": "ريال سوسيداد",
@@ -159,15 +133,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "بيسا",
-      "away_team": "إنتر ميلان",
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "kickoff_baghdad": "15:00",
+      "home_team": "سانت إيلوي لوبوبو",
+      "away_team": "الهلال السوداني",
       "channels_raw": [
-        "Starzplay 1"
+        "beIN Sports 6 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
+      "home_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/29705.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/12778.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -183,6 +157,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/534.png",
       "status_text": "انتهت",
       "result_text": "1-1"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "بيسا",
+      "away_team": "إنتر ميلان",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     },
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
@@ -265,19 +252,6 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "18:15",
-      "home_team": "لو آفر",
-      "away_team": "ليل",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/485.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "18:15",
       "home_team": "لوريان",
       "away_team": "نيس",
       "channels_raw": [
@@ -300,6 +274,32 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
       "status_text": "انتهت",
       "result_text": "0-1"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "لو آفر",
+      "away_team": "ليل",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/485.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:30",
+      "home_team": "تشيلسي",
+      "away_team": "أرسنال",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
