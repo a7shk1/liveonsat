@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "سيلتا فيجو",
-      "away_team": "إسبانيول",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "21:45",
       "home_team": "أولمبيك ليون",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/244.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/2014.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/110.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -298,6 +285,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "سيلتا فيجو",
+      "away_team": "إسبانيول",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
