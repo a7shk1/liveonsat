@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس مصر - دور الـ 32",
-      "kickoff_baghdad": "19:30",
-      "home_team": "طلائع الجيش",
-      "away_team": "السكة الحديد",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/304.png",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "21:45",
       "home_team": "بولونيا",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/290.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/174.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
       "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -75,8 +62,8 @@
       "channels_raw": [
         "أبو ظبي الرياضية 1"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5090.png",
       "status_text": "انتهت",
       "result_text": "0-1"
     },
@@ -88,8 +75,8 @@
       "channels_raw": [
         "أون سبورت 1"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/149.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/5.png",
       "status_text": "انتهت",
       "result_text": "3-1"
     },
@@ -101,8 +88,8 @@
       "channels_raw": [
         "أبو ظبي الرياضية 1"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/558.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     },
@@ -114,7 +101,20 @@
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/350.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, كأس مصر - دور الـ 32",
+      "kickoff_baghdad": "19:30",
+      "home_team": "طلائع الجيش",
+      "away_team": "السكة الحديد",
+      "channels_raw": [
+        "أون سبورت 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/304.png",
       "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
       "status_text": "انتهت",
       "result_text": "0-0"
