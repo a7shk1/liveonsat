@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "19:00",
-      "home_team": "السعودية",
-      "away_team": "عمان",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
       "kickoff_baghdad": "20:00",
       "home_team": "إيبرو",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -51,33 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
-      "kickoff_baghdad": "22:00",
-      "home_team": "يوفنتوس",
-      "away_team": "أودينيزي",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/135.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:00",
-      "home_team": "برشلونة",
-      "away_team": "أتلتيكو مدريد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -120,6 +81,32 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
+      "kickoff_baghdad": "22:00",
+      "home_team": "يوفنتوس",
+      "away_team": "أودينيزي",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/135.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "برشلونة",
+      "away_team": "أتلتيكو مدريد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "22:15",
       "home_team": "نيوكاسل يونايتد",
@@ -157,6 +144,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
       "status_text": "انتهت",
       "result_text": "1-1"
+    },
+    {
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "19:00",
+      "home_team": "السعودية",
+      "away_team": "عمان",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
