@@ -4,19 +4,6 @@
   "matches": [
     {
       "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "16:30",
-      "home_team": "مصر",
-      "away_team": "الكويت",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, كأس العرب",
       "kickoff_baghdad": "19:00",
       "home_team": "السعودية",
       "away_team": "عمان",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -64,6 +51,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
+      "kickoff_baghdad": "22:00",
+      "home_team": "نافالكارنيرو",
+      "away_team": "خيتافي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/22186.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -120,19 +120,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
-      "kickoff_baghdad": "22:00",
-      "home_team": "نافالكارنيرو",
-      "away_team": "خيتافي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/22186.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "22:15",
       "home_team": "نيوكاسل يونايتد",
@@ -155,6 +142,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "16:30",
+      "home_team": "مصر",
+      "away_team": "الكويت",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
