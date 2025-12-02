@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "21:30",
-      "home_team": "فولهام",
-      "away_team": "مانشستر سيتي",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
-      "status_text": "جارية الان",
-      "result_text": "1-4"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "21:30",
-      "home_team": "بورنموث",
-      "away_team": "إيفرتون",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
       "kickoff_baghdad": "22:00",
       "home_team": "نافالكارنيرو",
@@ -39,7 +13,7 @@
       "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/22186.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
       "status_text": "جارية الان",
-      "result_text": "1-0"
+      "result_text": "2-0"
     },
     {
       "competition": "ألمانيا, كأس المانيا - دور الـ 16",
@@ -65,7 +39,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/7171.png",
       "away_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/400.png",
       "status_text": "جارية الان",
-      "result_text": "0-1"
+      "result_text": "3-1"
     },
     {
       "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
@@ -143,7 +117,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
       "status_text": "انتهت",
-      "result_text": "0-0"
+      "result_text": "2-1"
     },
     {
       "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
@@ -157,6 +131,32 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/118.png",
       "status_text": "انتهت",
       "result_text": "3-5"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "21:30",
+      "home_team": "فولهام",
+      "away_team": "مانشستر سيتي",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/94.png",
+      "status_text": "انتهت",
+      "result_text": "4-5"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "21:30",
+      "home_team": "بورنموث",
+      "away_team": "إيفرتون",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     }
   ]
 }
