@@ -5,32 +5,6 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "21:30",
-      "home_team": "برايتون",
-      "away_team": "أستون فيلا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1426.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "21:30",
-      "home_team": "أرسنال",
-      "away_team": "برينتفورد",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1920.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "21:30",
       "home_team": "بيرنلي",
       "away_team": "كريستال بالاس",
       "channels_raw": [
@@ -55,6 +29,32 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "21:30",
+      "home_team": "برايتون",
+      "away_team": "أستون فيلا",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1426.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
+      "status_text": "جارية الان",
+      "result_text": "1-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "21:30",
+      "home_team": "أرسنال",
+      "away_team": "برينتفورد",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/83.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1920.png",
+      "status_text": "جارية الان",
+      "result_text": "1-0"
+    },
+    {
       "competition": "ألمانيا, كأس المانيا - دور الـ 16",
       "kickoff_baghdad": "21:45",
       "home_team": "يونيون برلين",
@@ -64,32 +64,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2110.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
-      "kickoff_baghdad": "22:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "فينيزيا",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/308.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أنتونيانو",
-      "away_team": "فياريال",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/44536.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -120,16 +94,29 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:15",
-      "home_team": "ليفربول",
-      "away_team": "سندرلاند",
+      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
+      "kickoff_baghdad": "22:00",
+      "home_team": "إنتر ميلان",
+      "away_team": "فينيزيا",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "MBC Action"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/117.png",
-      "status_text": "بعد قليل",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/308.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
+      "kickoff_baghdad": "22:00",
+      "home_team": "أنتونيانو",
+      "away_team": "فياريال",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/44536.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -142,7 +129,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/36.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/89.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "22:15",
+      "home_team": "ليفربول",
+      "away_team": "سندرلاند",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/117.png",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -185,19 +185,6 @@
       "result_text": "2-1"
     },
     {
-      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
-      "kickoff_baghdad": "19:00",
-      "home_team": "نابولي",
-      "away_team": "كالياري",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب",
       "kickoff_baghdad": "19:00",
       "home_team": "الأردن",
@@ -235,6 +222,19 @@
       "away_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/454.png",
       "status_text": "انتهت",
       "result_text": "2-0"
+    },
+    {
+      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
+      "kickoff_baghdad": "19:00",
+      "home_team": "نابولي",
+      "away_team": "كالياري",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     },
     {
       "competition": "مصر, الدوري المصري",
