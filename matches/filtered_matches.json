@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, كأس الخليج تحت 23",
-      "kickoff_baghdad": "14:00",
-      "home_team": "الإمارات تحت 23",
-      "away_team": "عمان تحت 23",
-      "channels_raw": [
-        "الكأس 4"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28922.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48227.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب",
       "kickoff_baghdad": "16:30",
       "home_team": "فلسطين",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -70,19 +57,6 @@
     {
       "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
       "kickoff_baghdad": "22:00",
-      "home_team": "إكستريمادورا",
-      "away_team": "إشبيلية",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/14287.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
-      "kickoff_baghdad": "22:00",
       "home_team": "سانت أندرو",
       "away_team": "سيلتا فيجو",
       "channels_raw": [
@@ -120,6 +94,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
+      "kickoff_baghdad": "22:00",
+      "home_team": "إكستريمادورا",
+      "away_team": "إشبيلية",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/14287.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "آسيا, كأس الخليج تحت 23",
       "kickoff_baghdad": "13:45",
       "home_team": "العراق تحت 23",
@@ -131,6 +118,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28915.png",
       "status_text": "انتهت",
       "result_text": "0-2"
+    },
+    {
+      "competition": "آسيا, كأس الخليج تحت 23",
+      "kickoff_baghdad": "14:00",
+      "home_team": "الإمارات تحت 23",
+      "away_team": "عمان تحت 23",
+      "channels_raw": [
+        "الكأس 4"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28922.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48227.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
