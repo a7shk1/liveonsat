@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "16:30",
-      "home_team": "فلسطين",
-      "away_team": "تونس",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
-      "status_text": "جارية الان",
-      "result_text": "0-1"
-    },
-    {
       "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
       "kickoff_baghdad": "19:00",
       "home_team": "بولونيا",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5090.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/558.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -51,6 +38,19 @@
       ],
       "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/9237.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
+      "kickoff_baghdad": "22:00",
+      "home_team": "كارتاخينا",
+      "away_team": "فالنسيا",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/5999.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -107,19 +107,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
-      "kickoff_baghdad": "22:00",
-      "home_team": "كارتاخينا",
-      "away_team": "فالنسيا",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/5999.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "آسيا, كأس الخليج تحت 23",
       "kickoff_baghdad": "13:45",
       "home_team": "العراق تحت 23",
@@ -144,6 +131,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48227.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "16:30",
+      "home_team": "فلسطين",
+      "away_team": "تونس",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     }
   ]
 }
