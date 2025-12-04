@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
-      "kickoff_baghdad": "19:00",
-      "home_team": "بولونيا",
-      "away_team": "بارما",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "19:00",
-      "home_team": "سوريا",
-      "away_team": "قطر",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5090.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/558.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, كأس ملك إسبانيا - الدور 2",
       "kickoff_baghdad": "20:00",
       "home_team": "أتليتكو بالياريس",
@@ -39,6 +13,19 @@
       "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/9237.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/119.png",
       "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
+      "kickoff_baghdad": "22:00",
+      "home_team": "لاتسيو",
+      "away_team": "ميلان",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/136.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
     {
@@ -94,19 +81,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
-      "kickoff_baghdad": "22:00",
-      "home_team": "لاتسيو",
-      "away_team": "ميلان",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/136.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "آسيا, كأس الخليج تحت 23",
       "kickoff_baghdad": "13:45",
       "home_team": "العراق تحت 23",
@@ -144,6 +118,32 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
       "status_text": "انتهت",
       "result_text": "0-1"
+    },
+    {
+      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
+      "kickoff_baghdad": "19:00",
+      "home_team": "بولونيا",
+      "away_team": "بارما",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "19:00",
+      "home_team": "سوريا",
+      "away_team": "قطر",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5090.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/558.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
