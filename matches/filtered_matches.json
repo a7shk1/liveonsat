@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "تركيا, الدوري التركي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "غلطة سراي",
-      "away_team": "سامسون سبور",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
-      "away_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/997.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "غير معروف",
-      "kickoff_baghdad": "19:03",
-      "home_team": "قرعة كاس العالم",
-      "away_team": "قرعة كاس العالم",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/images-1.jpeg",
-      "away_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/images-1.jpeg",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "20:00",
       "home_team": "بريست",
@@ -64,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/297.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/164.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -142,6 +116,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/875.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/876.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "تركيا, الدوري التركي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "غلطة سراي",
+      "away_team": "سامسون سبور",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
+      "away_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/997.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "19:03",
+      "home_team": "قرعة كاس العالم",
+      "away_team": "قرعة كاس العالم",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/images-1.jpeg",
+      "away_logo": "https://www.newyalla-shoot.live/wp-content/uploads/2025/12/images-1.jpeg",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
