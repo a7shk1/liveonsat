@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "الإمارات, كأس مصرف ابوظبي الإسلامي - نصف النهائي",
-      "kickoff_baghdad": "14:50",
-      "home_team": "النصر",
-      "away_team": "العين",
-      "channels_raw": [
-        "ابوظبي الرياضية 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/871.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب",
       "kickoff_baghdad": "16:30",
       "home_team": "عمان",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -130,6 +117,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/888.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/890.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "الإمارات, كأس مصرف ابوظبي الإسلامي - نصف النهائي",
+      "kickoff_baghdad": "14:50",
+      "home_team": "النصر",
+      "away_team": "العين",
+      "channels_raw": [
+        "ابوظبي الرياضية 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/871.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
