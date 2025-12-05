@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "20:30",
-      "home_team": "جزر القمر",
-      "away_team": "السعودية",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
-      "status_text": "جارية الان",
-      "result_text": "0-1"
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "21:30",
       "home_team": "ماينز 05",
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/888.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/890.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -144,6 +131,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "20:30",
+      "home_team": "جزر القمر",
+      "away_team": "السعودية",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     }
   ]
 }
