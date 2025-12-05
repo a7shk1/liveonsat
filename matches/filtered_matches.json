@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "21:30",
-      "home_team": "ماينز 05",
-      "away_team": "بوروسيا مونشنجلادباخ",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/297.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/164.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "22:00",
       "home_team": "ليل",
@@ -144,6 +131,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
       "status_text": "انتهت",
       "result_text": "0-1"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "21:30",
+      "home_team": "ماينز 05",
+      "away_team": "بوروسيا مونشنجلادباخ",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/297.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/164.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
