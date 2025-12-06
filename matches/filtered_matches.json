@@ -3,41 +3,15 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "16:30",
-      "home_team": "شتوتجارت",
-      "away_team": "بايرن ميونخ",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "بيرنلي",
       "channels_raw": [
-        "MBC Action"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
-      "status_text": "جارية الان",
-      "result_text": "0-5"
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "16:30",
-      "home_team": "فولفسبورج",
-      "away_team": "يونيون برلين",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/163.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2110.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "16:30",
-      "home_team": "أوغسبورغ",
-      "away_team": "باير ليفركوزن",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/358.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/12.png",
       "status_text": "جارية الان",
       "result_text": "2-0"
     },
@@ -52,7 +26,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/90.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/29.png",
       "status_text": "جارية الان",
-      "result_text": "2-0"
+      "result_text": "3-0"
     },
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
@@ -94,19 +68,6 @@
       "result_text": "3-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "بيرنلي",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/12.png",
-      "status_text": "جارية الان",
-      "result_text": "2-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "17:15",
       "home_team": "ألافيس",
@@ -143,7 +104,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/244.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/309.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "1-1"
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -155,7 +116,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/132.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -339,6 +300,45 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
       "status_text": "انتهت",
       "result_text": "3-1"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "16:30",
+      "home_team": "شتوتجارت",
+      "away_team": "بايرن ميونخ",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
+      "status_text": "انتهت",
+      "result_text": "0-5"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "16:30",
+      "home_team": "فولفسبورج",
+      "away_team": "يونيون برلين",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/163.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2110.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "16:30",
+      "home_team": "أوغسبورغ",
+      "away_team": "باير ليفركوزن",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/358.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/156.png",
+      "status_text": "انتهت",
+      "result_text": "2-0"
     }
   ]
 }
