@@ -19,13 +19,12 @@ jobs:
   filter-and-translate:
     runs-on: ubuntu-latest
 
-    # (اختياري) اضبط عتبة المطابقة الضبابية إذا تحب توسّع/تشد المطابقة
-    # env:
-    #   LIVO_FUZZY_THRESHOLD: "84"
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          # مهم حتى يكون عندنا تاريخ كامل للفرع ويشتغل force-with-lease صح
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -46,3 +45,6 @@ jobs:
         with:
           commit_message: "✨ Chore: Update filtered and translated matches"
           file_pattern: "matches/filtered_matches.json"
+          branch: main
+          # حل مشكلة non-fast-forward
+          push_options: "--force-with-lease"
