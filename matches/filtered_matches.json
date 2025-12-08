@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "بيسا",
-      "away_team": "بارما",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "الجزائر, الدوري الجزائري",
       "kickoff_baghdad": "18:45",
       "home_team": "شبيبة القبائل",
@@ -25,19 +12,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/8223.png",
       "away_logo": "https://www.yallashootkora.com/wp-content/uploads/2025/11/8220.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "أودينيزي",
-      "away_team": "جنوى",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -64,6 +38,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/296.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "أودينيزي",
+      "away_team": "جنوى",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -142,6 +129,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48240.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/13399.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "بيسا",
+      "away_team": "بارما",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/139.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
