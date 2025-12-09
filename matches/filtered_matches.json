@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "19:00",
-      "home_team": "البحرين",
-      "away_team": "السودان",
-      "channels_raw": [
-        "ابوظبي الرياضية 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/282.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الجزائر",
-      "away_team": "العراق",
-      "channels_raw": [
-        "ابوظبي الرياضية 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "19:45",
       "home_team": "بايرن ميونخ",
@@ -38,6 +12,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/890.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "20:00",
+      "home_team": "كهرباء الاسماعيلية",
+      "away_team": "الزمالك",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -55,16 +42,16 @@
       "result_text": "0-0"
     },
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "20:00",
-      "home_team": "كهرباء الاسماعيلية",
-      "away_team": "الزمالك",
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "برشلونة",
+      "away_team": "آينتراخت فرانكفورت",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
-      "status_text": "جارية الان",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/196.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
     {
@@ -146,19 +133,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "برشلونة",
-      "away_team": "آينتراخت فرانكفورت",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/196.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب",
       "kickoff_baghdad": "16:30",
       "home_team": "الإمارات",
@@ -207,6 +181,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10564.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/225.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "19:00",
+      "home_team": "البحرين",
+      "away_team": "السودان",
+      "channels_raw": [
+        "ابوظبي الرياضية 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/282.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الجزائر",
+      "away_team": "العراق",
+      "channels_raw": [
+        "ابوظبي الرياضية 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
