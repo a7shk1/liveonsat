@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "16:30",
-      "home_team": "الإمارات",
-      "away_team": "الكويت",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
-      "status_text": "جارية الان",
-      "result_text": "3-1"
-    },
-    {
-      "competition": "دولي, كأس العرب",
-      "kickoff_baghdad": "16:30",
-      "home_team": "مصر",
-      "away_team": "الأردن",
-      "channels_raw": [
-        "ابوظبي الرياضية 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
-      "status_text": "جارية الان",
-      "result_text": "0-3"
-    },
-    {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "17:00",
       "home_team": "فاركو",
@@ -64,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/282.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -77,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -116,6 +90,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "توتنهام هوتسبر",
+      "away_team": "سلافيا براغ",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1789.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "آيندهوفن",
+      "away_team": "أتلتيكو مدريد",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/725.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -185,30 +185,30 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "توتنهام هوتسبر",
-      "away_team": "سلافيا براغ",
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "16:30",
+      "home_team": "الإمارات",
+      "away_team": "الكويت",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "أبو ظبي الرياضية 1"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1789.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/435.png",
+      "status_text": "انتهت",
+      "result_text": "3-1"
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "آيندهوفن",
-      "away_team": "أتلتيكو مدريد",
+      "competition": "دولي, كأس العرب",
+      "kickoff_baghdad": "16:30",
+      "home_team": "مصر",
+      "away_team": "الأردن",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "ابوظبي الرياضية 2"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/725.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5100.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
+      "status_text": "انتهت",
+      "result_text": "0-3"
     }
   ]
 }
