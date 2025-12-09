@@ -1,33 +1,7 @@
 {
-  "date": "2025-12-09",
+  "date": "2025-12-10",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "توتنهام هوتسبر",
-      "away_team": "سلافيا براغ",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1789.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "آيندهوفن",
-      "away_team": "أتلتيكو مدريد",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/725.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
-    },
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "22:00",
@@ -92,6 +66,32 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "توتنهام هوتسبر",
+      "away_team": "سلافيا براغ",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/114.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1789.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "آيندهوفن",
+      "away_team": "أتلتيكو مدريد",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/725.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
+      "status_text": "جارية الان",
+      "result_text": "1-0"
     },
     {
       "competition": "دولي, كأس العرب",
@@ -187,19 +187,6 @@
     {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "20:00",
-      "home_team": "بيراميدز",
-      "away_team": "البنك الاهلي",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
-      "status_text": "انتهت",
-      "result_text": "1-6"
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "20:00",
       "home_team": "كهرباء الاسماعيلية",
       "away_team": "الزمالك",
       "channels_raw": [
@@ -209,6 +196,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
       "status_text": "انتهت",
       "result_text": "3-3"
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "20:00",
+      "home_team": "بيراميدز",
+      "away_team": "البنك الاهلي",
+      "channels_raw": [
+        "أون سبورت 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
+      "status_text": "انتهت",
+      "result_text": "1-6"
     }
   ]
 }
