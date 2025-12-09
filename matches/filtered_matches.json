@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "17:30",
-      "home_team": "كايرات ألماتي",
-      "away_team": "أولمبياكوس",
-      "channels_raw": [
-        "beIN Sports 7 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10564.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/225.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب",
       "kickoff_baghdad": "19:00",
       "home_team": "البحرين",
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/890.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -77,7 +64,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -209,6 +196,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8310.png",
       "status_text": "انتهت",
       "result_text": "1-2"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "17:30",
+      "home_team": "كايرات ألماتي",
+      "away_team": "أولمبياكوس",
+      "channels_raw": [
+        "beIN Sports 7 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/10564.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/225.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
