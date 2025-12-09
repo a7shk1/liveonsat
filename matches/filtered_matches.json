@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "فاركو",
-      "away_team": "المقاولون العرب",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1880.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8310.png",
-      "status_text": "جارية الان",
-      "result_text": "1-2"
-    },
-    {
       "competition": "أوروبا, دوري أبطال اوروبا",
       "kickoff_baghdad": "17:30",
       "home_team": "كايرات ألماتي",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/282.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/890.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -90,6 +77,45 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/19506.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "موناكو",
+      "away_team": "غلطة سراي",
+      "channels_raw": [
+        "beIN Sports 6 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "يونيون سانت جيلواز",
+      "away_team": "أولمبيك مارسيليا",
+      "channels_raw": [
+        "beIN Sports 8 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1204-1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "إنتر ميلان",
+      "away_team": "ليفربول",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -146,45 +172,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "موناكو",
-      "away_team": "غلطة سراي",
-      "channels_raw": [
-        "beIN Sports 6 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/210.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "يونيون سانت جيلواز",
-      "away_team": "أولمبيك مارسيليا",
-      "channels_raw": [
-        "beIN Sports 8 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1204-1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/222.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "ليفربول",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/93.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب",
       "kickoff_baghdad": "16:30",
       "home_team": "الإمارات",
@@ -209,6 +196,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
       "status_text": "انتهت",
       "result_text": "0-3"
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "فاركو",
+      "away_team": "المقاولون العرب",
+      "channels_raw": [
+        "أون سبورت 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1880.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8310.png",
+      "status_text": "انتهت",
+      "result_text": "1-2"
     }
   ]
 }
