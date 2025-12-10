@@ -3,29 +3,16 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, كأس الخليج تحت 23",
-      "kickoff_baghdad": "14:00",
-      "home_team": "عمان تحت 23",
-      "away_team": "اليمن تحت 23",
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "طلائع الجيش",
+      "away_team": "سيراميكا كليوباترا",
       "channels_raw": [
-        "غير معروف"
+        "أون سبورت 2"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48227.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28915.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "آسيا, كأس الخليج تحت 23",
-      "kickoff_baghdad": "14:00",
-      "home_team": "العراق تحت 23",
-      "away_team": "الإمارات تحت 23",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28913.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28922.png",
-      "status_text": "جارية الان",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/304.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
     {
@@ -38,19 +25,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/873.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/876.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "طلائع الجيش",
-      "away_team": "سيراميكا كليوباترا",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/304.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -182,6 +156,32 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/237.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, كأس الخليج تحت 23",
+      "kickoff_baghdad": "14:00",
+      "home_team": "عمان تحت 23",
+      "away_team": "اليمن تحت 23",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48227.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28915.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, كأس الخليج تحت 23",
+      "kickoff_baghdad": "14:00",
+      "home_team": "العراق تحت 23",
+      "away_team": "الإمارات تحت 23",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28913.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28922.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
