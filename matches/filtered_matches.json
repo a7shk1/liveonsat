@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "طلائع الجيش",
-      "away_team": "سيراميكا كليوباترا",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/304.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "غير معروف",
       "kickoff_baghdad": "17:49",
       "home_team": "النصر",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/7521.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/152.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1824.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -77,6 +64,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1683.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/860.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "22:00",
+      "home_team": "بنفيكا",
+      "away_team": "نابولي",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/888.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -146,16 +146,16 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "22:00",
-      "home_team": "بنفيكا",
-      "away_team": "نابولي",
+      "competition": "آسيا, كأس الخليج تحت 23",
+      "kickoff_baghdad": "14:00",
+      "home_team": "عمان تحت 23",
+      "away_team": "اليمن تحت 23",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/888.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48227.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28915.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     },
     {
@@ -172,15 +172,15 @@
       "result_text": "0-0"
     },
     {
-      "competition": "آسيا, كأس الخليج تحت 23",
-      "kickoff_baghdad": "14:00",
-      "home_team": "عمان تحت 23",
-      "away_team": "اليمن تحت 23",
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "طلائع الجيش",
+      "away_team": "سيراميكا كليوباترا",
       "channels_raw": [
-        "غير معروف"
+        "أون سبورت 2"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48227.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28915.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/304.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
