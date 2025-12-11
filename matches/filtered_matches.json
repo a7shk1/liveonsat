@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "الاتحاد السكندري",
-      "away_team": "المصري",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/8.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "الأردن, درع الإتحاد الأردني",
       "kickoff_baghdad": "19:00",
       "home_team": "الوحدات",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8275.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -38,33 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1351.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "19:45",
-      "home_team": "نيس",
-      "away_team": "سبورتينج براغا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
-      "away_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/895.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "19:45",
-      "home_team": "يونغ بويز",
-      "away_team": "ليل",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -77,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/214.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -90,7 +51,33 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2245.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "19:45",
+      "home_team": "نيس",
+      "away_team": "سبورتينج براغا",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
+      "away_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/895.png",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "19:45",
+      "home_team": "يونغ بويز",
+      "away_team": "ليل",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -103,6 +90,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/653.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "شيلبورن",
+      "away_team": "كريستال بالاس",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/849.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -159,19 +159,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "شيلبورن",
-      "away_team": "كريستال بالاس",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/849.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "آسيا, كأس الخليج تحت 23",
       "kickoff_baghdad": "12:30",
       "home_team": "البحرين تحت 23",
@@ -220,6 +207,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5090.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "الاتحاد السكندري",
+      "away_team": "المصري",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/8.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
