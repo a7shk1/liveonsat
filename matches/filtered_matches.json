@@ -29,6 +29,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "19:45",
+      "home_team": "يونغ بويز",
+      "away_team": "ليل",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "أوروبا, دوري المؤتمر الأوروبي",
       "kickoff_baghdad": "19:45",
       "home_team": "فيورنتينا",
@@ -39,7 +52,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/214.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "1-0"
     },
     {
       "competition": "أوروبا, الدوري الأوروبي",
@@ -52,7 +65,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2245.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "0-3"
     },
     {
       "competition": "أوروبا, الدوري الأوروبي",
@@ -68,19 +81,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "19:45",
-      "home_team": "يونغ بويز",
-      "away_team": "ليل",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "20:00",
       "home_team": "وادي دجلة",
@@ -91,33 +91,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/653.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "شيلبورن",
-      "away_team": "كريستال بالاس",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/849.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "سيلتا فيجو",
-      "away_team": "بولونيا",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
+      "result_text": "1-0"
     },
     {
       "competition": "أوروبا, الدوري الأوروبي",
@@ -155,6 +129,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/1138.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "شيلبورن",
+      "away_team": "كريستال بالاس",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/849.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "سيلتا فيجو",
+      "away_team": "بولونيا",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
