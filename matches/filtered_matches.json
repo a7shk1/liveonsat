@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, كأس الخليج تحت 23",
-      "kickoff_baghdad": "12:30",
-      "home_team": "البحرين تحت 23",
-      "away_team": "الكويت تحت 23",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48240.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/13436.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "آسيا, كأس الخليج تحت 23",
-      "kickoff_baghdad": "12:30",
-      "home_team": "قطر تحت 23",
-      "away_team": "السعودية تحت 23",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/13399.png",
-      "away_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/28914.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "الأردن, درع الإتحاد الأردني",
       "kickoff_baghdad": "16:00",
       "home_team": "الجزيرة",
@@ -161,19 +135,6 @@
     {
       "competition": "أوروبا, الدوري الأوروبي",
       "kickoff_baghdad": "22:00",
-      "home_team": "سيلتيك",
-      "away_team": "روما",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/754.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "22:00",
       "home_team": "أولمبيك ليون",
       "away_team": "غو أهيد إيغيلز",
       "channels_raw": [
@@ -206,7 +167,7 @@
         "beIN Sports HD"
       ],
       "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/849.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
+      "away_logo": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -221,6 +182,45 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/117.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "سيلتيك",
+      "away_team": "روما",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/754.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, كأس الخليج تحت 23",
+      "kickoff_baghdad": "12:30",
+      "home_team": "البحرين تحت 23",
+      "away_team": "الكويت تحت 23",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/48240.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/13436.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, كأس الخليج تحت 23",
+      "kickoff_baghdad": "12:30",
+      "home_team": "قطر تحت 23",
+      "away_team": "السعودية تحت 23",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/13399.png",
+      "away_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/28914.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
