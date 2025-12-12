@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, دوري الدرجة الأولى للشباب تحت 19",
-      "kickoff_baghdad": "13:00",
-      "home_team": "بارما تحت 19",
-      "away_team": "مونزا تحت 19",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/89290.png",
-      "away_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/76927.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب - ربع النهائي",
       "kickoff_baghdad": "16:30",
       "home_team": "الأردن",
@@ -117,6 +104,19 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/2014.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, دوري الدرجة الأولى للشباب تحت 19",
+      "kickoff_baghdad": "13:00",
+      "home_team": "بارما تحت 19",
+      "away_team": "مونزا تحت 19",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/89290.png",
+      "away_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/76927.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
