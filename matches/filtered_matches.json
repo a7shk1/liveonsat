@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "20:00",
-      "home_team": "الأهلي",
-      "away_team": "إنبي",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8300.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "21:30",
       "home_team": "يونيون برلين",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/244.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/124.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/2014.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -116,6 +103,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "20:00",
+      "home_team": "الأهلي",
+      "away_team": "إنبي",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8300.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
