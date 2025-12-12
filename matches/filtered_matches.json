@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب - ربع النهائي",
-      "kickoff_baghdad": "16:30",
-      "home_team": "الأردن",
-      "away_team": "العراق",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
-      "status_text": "جارية الان",
-      "result_text": "1-0"
-    },
-    {
       "competition": "دولي, المباريات الوديّة الدوليّة",
       "kickoff_baghdad": "18:20",
       "home_team": "الأهلي",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/451.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -118,6 +105,19 @@
       "away_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/76927.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب - ربع النهائي",
+      "kickoff_baghdad": "16:30",
+      "home_team": "الأردن",
+      "away_team": "العراق",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
+      "status_text": "انتهت",
+      "result_text": "1-0"
     }
   ]
 }
