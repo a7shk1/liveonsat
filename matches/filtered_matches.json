@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, المباريات الوديّة الدوليّة",
-      "kickoff_baghdad": "18:20",
-      "home_team": "الأهلي",
-      "away_team": "الرجاء البيضاوي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/451.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب - ربع النهائي",
       "kickoff_baghdad": "19:30",
       "home_team": "الجزائر",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8300.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -55,19 +42,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "21:45",
-      "home_team": "ليتشي",
-      "away_team": "بيسا",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "21:45",
       "home_team": "أنجيه",
@@ -77,6 +51,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1542.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/244.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "21:45",
+      "home_team": "ليتشي",
+      "away_team": "بيسا",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/204.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -118,6 +105,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/740.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "دولي, المباريات الوديّة الدوليّة",
+      "kickoff_baghdad": "18:20",
+      "home_team": "الأهلي",
+      "away_team": "الرجاء البيضاوي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/451.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
