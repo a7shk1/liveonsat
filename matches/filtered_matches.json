@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "21:30",
-      "home_team": "يونيون برلين",
-      "away_team": "لايبزيج",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2110.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/7171.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "21:45",
       "home_team": "أنجيه",
@@ -116,6 +103,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8300.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "21:30",
+      "home_team": "يونيون برلين",
+      "away_team": "لايبزيج",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2110.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/10/7171.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
