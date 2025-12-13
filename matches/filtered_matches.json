@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, كأس الخليج تحت 23 - نصف النهائي",
-      "kickoff_baghdad": "13:45",
-      "home_team": "السعودية تحت 23",
-      "away_team": "العراق تحت 23",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/28914.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28913.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "آسيا, كأس الخليج تحت 23 - نصف النهائي",
-      "kickoff_baghdad": "13:45",
-      "home_team": "الإمارات تحت 23",
-      "away_team": "قطر تحت 23",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28922.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/13399.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "15:00",
       "home_team": "أتلتيكو مدريد",
@@ -51,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/144.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/290.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -146,19 +120,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "بيرنلي",
-      "away_team": "فولهام",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/12.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "19:30",
       "home_team": "باير ليفركوزن",
@@ -181,6 +142,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/118.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "بيرنلي",
+      "away_team": "فولهام",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/12.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -247,6 +221,32 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/6075.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/315.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, كأس الخليج تحت 23 - نصف النهائي",
+      "kickoff_baghdad": "13:45",
+      "home_team": "السعودية تحت 23",
+      "away_team": "العراق تحت 23",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yallashootking.tv/wp-content/uploads/2025/12/28914.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28913.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, كأس الخليج تحت 23 - نصف النهائي",
+      "kickoff_baghdad": "13:45",
+      "home_team": "الإمارات تحت 23",
+      "away_team": "قطر تحت 23",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/28922.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/13399.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
