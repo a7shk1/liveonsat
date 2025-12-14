@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "فيردر بريمن",
-      "away_team": "شتوتجارت",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/168.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "21:45",
       "home_team": "أولمبيك مارسيليا",
@@ -52,7 +39,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/168.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/110.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "0-1"
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -226,19 +213,6 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "18:15",
-      "home_team": "أوكسير",
-      "away_team": "ليل",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/302.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
-      "status_text": "انتهت",
-      "result_text": "0-1"
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "18:15",
       "home_team": "ستراسبورج",
       "away_team": "لوريان",
       "channels_raw": [
@@ -261,6 +235,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/251.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "18:15",
+      "home_team": "أوكسير",
+      "away_team": "ليل",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/302.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     },
     {
       "competition": "ألمانيا, الدوري الألماني",
@@ -311,6 +298,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/150.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "فيردر بريمن",
+      "away_team": "شتوتجارت",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/168.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/160.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
