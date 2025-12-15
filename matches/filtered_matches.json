@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب - نصف النهائي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "السعودية",
-      "away_team": "الأردن",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "الجزائر, كأس الجزائر - دور الـ 32",
       "kickoff_baghdad": "20:00",
       "home_team": "وفاق عين بنيان",
@@ -38,20 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/132.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:00",
-      "home_team": "رايو فاييكانو",
-      "away_team": "ريال بيتيس",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/174.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -64,7 +38,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/95.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "رايو فاييكانو",
+      "away_team": "ريال بيتيس",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/174.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -103,6 +90,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16941.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/68794.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب - نصف النهائي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "السعودية",
+      "away_team": "الأردن",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
