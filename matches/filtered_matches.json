@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, المباريات الوديّة الدوليّة",
-      "kickoff_baghdad": "14:00",
-      "home_team": "الشارقة",
-      "away_team": "الخليج",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/188.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب - نصف النهائي",
       "kickoff_baghdad": "16:30",
       "home_team": "المغرب",
@@ -25,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -81,6 +68,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "مانشستر يونايتد",
+      "away_team": "بورنموث",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/95.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "رايو فاييكانو",
@@ -94,16 +94,16 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "مانشستر يونايتد",
-      "away_team": "بورنموث",
+      "competition": "دولي, المباريات الوديّة الدوليّة",
+      "kickoff_baghdad": "14:00",
+      "home_team": "الشارقة",
+      "away_team": "الخليج",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/95.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1453.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/188.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
