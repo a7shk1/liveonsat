@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "البحرين, كأس السوبر البحريني - النهائي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "المحرق",
-      "away_team": "الخالدية",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16941.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/68794.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب - نصف النهائي",
       "kickoff_baghdad": "19:30",
       "home_team": "السعودية",
@@ -105,6 +92,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
       "status_text": "انتهت",
       "result_text": "3-0"
+    },
+    {
+      "competition": "البحرين, كأس السوبر البحريني - النهائي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "المحرق",
+      "away_team": "الخالدية",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16941.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/68794.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
