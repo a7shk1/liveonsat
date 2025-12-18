@@ -1,19 +1,19 @@
 {
-  "date": "2025-12-18",
+  "date": "2025-12-19",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, السوبر الإيطالي - نصف النهائي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "نابولي",
-      "away_team": "ميلان",
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ريال مورسيا",
+      "away_team": "ريال بيتيس",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "Shahid MBC"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
+      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/149.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
       "status_text": "جارية الان",
-      "result_text": "1-0"
+      "result_text": "0-0"
     },
     {
       "competition": "أوروبا, دوري المؤتمر الأوروبي",
@@ -51,19 +51,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
       "away_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/1935.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ريال مورسيا",
-      "away_team": "ريال بيتيس",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/149.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -157,6 +144,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, السوبر الإيطالي - نصف النهائي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "نابولي",
+      "away_team": "ميلان",
+      "channels_raw": [
+        "تطبيق ثمانية"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
+      "status_text": "انتهت",
+      "result_text": "1-0"
     }
   ]
 }
