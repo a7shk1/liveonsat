@@ -3,45 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب - النهائي",
-      "kickoff_baghdad": "19:41",
-      "home_team": "الأردن",
-      "away_team": "المغرب",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
-      "status_text": "جارية الان",
-      "result_text": "2-3"
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
-      "kickoff_baghdad": "20:00",
-      "home_team": "بورغوس",
-      "away_team": "خيتافي",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/180.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
-      "kickoff_baghdad": "20:00",
-      "home_team": "أورينسي",
-      "away_team": "أتلتيك بلباو",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/55569.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, السوبر الإيطالي - نصف النهائي",
       "kickoff_baghdad": "21:00",
       "home_team": "نابولي",
@@ -51,6 +12,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
+      "status_text": "جارية الان",
+      "result_text": "1-0"
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "لوزان سبورت",
+      "away_team": "فيورنتينا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/1160.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -64,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/174.png",
       "away_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/45033.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -77,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/299.png",
       "away_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/1935.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -90,20 +64,7 @@
       ],
       "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/149.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "لوزان سبورت",
-      "away_team": "فيورنتينا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/1160.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -155,6 +116,45 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
       "away_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/958.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, كأس العرب - النهائي",
+      "kickoff_baghdad": "19:41",
+      "home_team": "الأردن",
+      "away_team": "المغرب",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
+      "status_text": "انتهت",
+      "result_text": "2-3"
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
+      "kickoff_baghdad": "20:00",
+      "home_team": "بورغوس",
+      "away_team": "خيتافي",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/180.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
+      "kickoff_baghdad": "20:00",
+      "home_team": "أورينسي",
+      "away_team": "أتلتيك بلباو",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/55569.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
