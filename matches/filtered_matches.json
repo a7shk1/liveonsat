@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "16:00",
-      "home_team": "تونس",
-      "away_team": "بوتسوانا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5406.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "17:00",
       "home_team": "البنك الاهلي",
@@ -26,7 +13,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/50527.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "1-1"
     },
     {
       "competition": "دولي, كأس العرب - النهائي",
@@ -38,7 +25,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
+      "result_text": "0-1"
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
+      "kickoff_baghdad": "20:00",
+      "home_team": "أورينسي",
+      "away_team": "أتلتيك بلباو",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/55569.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
     {
@@ -55,19 +55,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
-      "kickoff_baghdad": "20:00",
-      "home_team": "أورينسي",
-      "away_team": "أتلتيك بلباو",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/55569.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/144.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, السوبر الإيطالي - نصف النهائي",
       "kickoff_baghdad": "21:00",
       "home_team": "نابولي",
@@ -77,6 +64,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ريال مورسيا",
+      "away_team": "ريال بيتيس",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/149.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -120,19 +120,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ريال مورسيا",
-      "away_team": "ريال بيتيس",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/149.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "دولي, كأس العرب - المركز الثالث",
       "kickoff_baghdad": "15:00",
       "home_team": "السعودية",
@@ -142,6 +129,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/289.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1245.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "16:00",
+      "home_team": "تونس",
+      "away_team": "بوتسوانا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/33.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5406.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
