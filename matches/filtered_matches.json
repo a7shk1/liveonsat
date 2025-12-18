@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, كأس العرب - النهائي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الأردن",
-      "away_team": "المغرب",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
-      "status_text": "جارية الان",
-      "result_text": "2-2"
-    },
-    {
       "competition": "تركيا, كأس تركيا",
       "kickoff_baghdad": "19:30",
       "home_team": "غلطة سراي",
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/757.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/137.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -157,6 +144,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
       "status_text": "انتهت",
       "result_text": "1-1"
+    },
+    {
+      "competition": "دولي, كأس العرب - النهائي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الأردن",
+      "away_team": "المغرب",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/745.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
+      "status_text": "انتهت",
+      "result_text": "2-2"
     }
   ]
 }
