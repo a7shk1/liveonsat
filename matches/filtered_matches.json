@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "21:30",
-      "home_team": "بوروسيا دورتموند",
-      "away_team": "بوروسيا مونشنجلادباخ",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/154.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/164.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - دور الـ64",
-      "kickoff_baghdad": "21:45",
-      "home_team": "كانيه روسيون",
-      "away_team": "مونبلييه",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/50414.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/993.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "فالنسيا",
@@ -116,6 +90,32 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "21:30",
+      "home_team": "بوروسيا دورتموند",
+      "away_team": "بوروسيا مونشنجلادباخ",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/154.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/164.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, كأس فرنسا - دور الـ64",
+      "kickoff_baghdad": "21:45",
+      "home_team": "كانيه روسيون",
+      "away_team": "مونبلييه",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.m-yallashoot.com/wp-content/uploads/2025/12/50414.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/993.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
