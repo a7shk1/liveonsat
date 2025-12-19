@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, السوبر الإيطالي - نصف النهائي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "بولونيا",
-      "away_team": "إنتر ميلان",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "21:30",
       "home_team": "بوروسيا دورتموند",
@@ -116,6 +103,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إيطاليا, السوبر الإيطالي - نصف النهائي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "بولونيا",
+      "away_team": "إنتر ميلان",
+      "channels_raw": [
+        "تطبيق ثمانية"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/129.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/224.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
