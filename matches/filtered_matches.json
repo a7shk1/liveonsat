@@ -4,32 +4,6 @@
   "matches": [
     {
       "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "غزل المحلة",
-      "away_team": "فاركو",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1880.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "بتروجت",
-      "away_team": "الإسماعيلي",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/653.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/5.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "20:00",
       "home_team": "المصري",
       "away_team": "زد",
@@ -38,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/8.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1683.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -51,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -117,6 +91,32 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/112.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/121.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "بتروجت",
+      "away_team": "الإسماعيلي",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/653.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/5.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "غزل المحلة",
+      "away_team": "فاركو",
+      "channels_raw": [
+        "أون سبورت 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/7.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1880.png",
+      "status_text": "انتهت",
       "result_text": "0-0"
     }
   ]
