@@ -51,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/2.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/149.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -64,7 +64,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/860.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/13.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -77,6 +77,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/135.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/143.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ريال مدريد",
+      "away_team": "إشبيلية",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/110.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -120,19 +133,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ريال مدريد",
-      "away_team": "إشبيلية",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/110.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/126.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "14:30",
       "home_team": "نيوكاسل يونايتد",
@@ -159,19 +159,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "فرنسا, كأس فرنسا - دور الـ64",
-      "kickoff_baghdad": "16:30",
-      "home_team": "سان مور لوزي",
-      "away_team": "ليل",
-      "channels_raw": [
-        "beIN Sports 9 HD"
-      ],
-      "home_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/11354.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
-      "status_text": "انتهت",
-      "result_text": "0-1"
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "16:30",
       "home_team": "شتوتجارت",
@@ -183,6 +170,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/848.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "فرنسا, كأس فرنسا - دور الـ64",
+      "kickoff_baghdad": "16:30",
+      "home_team": "سان مور لوزي",
+      "away_team": "ليل",
+      "channels_raw": [
+        "beIN Sports 9 HD"
+      ],
+      "home_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/11354.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/310.png",
+      "status_text": "انتهت",
+      "result_text": "0-1"
     },
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
