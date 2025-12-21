@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "إلتشي",
-      "away_team": "رايو فاييكانو",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/156.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/174.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة أ",
       "kickoff_baghdad": "21:00",
       "home_team": "المغرب",
@@ -38,20 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ريال بيتيس",
-      "away_team": "خيتافي",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -64,7 +38,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
       "away_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/85086.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ريال بيتيس",
+      "away_team": "خيتافي",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/123.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/317.png",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -196,6 +183,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
       "status_text": "انتهت",
       "result_text": "5-1"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "إلتشي",
+      "away_team": "رايو فاييكانو",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/156.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/174.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
