@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "21:45",
-      "home_team": "جنوى",
-      "away_team": "أتالانتا",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, كأس فرنسا - دور الـ64",
       "kickoff_baghdad": "22:00",
       "home_team": "أولمبيك ليون",
@@ -146,19 +133,6 @@
       "result_text": "0-4"
     },
     {
-      "competition": "تركيا, الدوري التركي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "غلطة سراي",
-      "away_team": "قاسم باشا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
-      "away_logo": "https://www.kora-shoot.us/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "status_text": "انتهت",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "19:00",
       "home_team": "فيورنتينا",
@@ -170,6 +144,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
       "status_text": "انتهت",
       "result_text": "5-1"
+    },
+    {
+      "competition": "تركيا, الدوري التركي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "غلطة سراي",
+      "away_team": "قاسم باشا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/945.png",
+      "away_logo": "https://www.kora-shoot.us/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     },
     {
       "competition": "إسبانيا, الدوري الإسباني",
@@ -196,6 +183,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
       "status_text": "انتهت",
       "result_text": "2-0"
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "21:45",
+      "home_team": "جنوى",
+      "away_team": "أتالانتا",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/514.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/128.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
