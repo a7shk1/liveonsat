@@ -3,32 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "18:30",
-      "home_team": "هايدينهايم",
-      "away_team": "بايرن ميونخ",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/434.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:30",
-      "home_team": "أستون فيلا",
-      "away_team": "مانشستر يونايتد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/95.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "تركيا, الدوري التركي",
       "kickoff_baghdad": "19:00",
       "home_team": "غلطة سراي",
@@ -52,7 +26,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/323.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/145.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "5-1"
     },
     {
       "competition": "إسبانيا, الدوري الإسباني",
@@ -77,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/1065.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -196,6 +170,32 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
       "status_text": "انتهت",
       "result_text": "0-1"
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "18:30",
+      "home_team": "هايدينهايم",
+      "away_team": "بايرن ميونخ",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/434.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/331.png",
+      "status_text": "انتهت",
+      "result_text": "0-4"
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:30",
+      "home_team": "أستون فيلا",
+      "away_team": "مانشستر يونايتد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/84.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/95.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
