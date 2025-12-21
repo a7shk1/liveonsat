@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "15:00",
-      "home_team": "جيرونا",
-      "away_team": "أتلتيكو مدريد",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/2014.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "فرنسا, كأس فرنسا - دور الـ64",
       "kickoff_baghdad": "15:45",
       "home_team": "أوكسير",
@@ -64,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/127.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/111.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -159,19 +146,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "فرنسا, كأس فرنسا - دور الـ64",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أولمبيك ليون",
-      "away_team": "FC Saint-Cyr Collonges",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
-      "away_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/85086.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "22:00",
       "home_team": "ريال بيتيس",
@@ -185,6 +159,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "فرنسا, كأس فرنسا - دور الـ64",
+      "kickoff_baghdad": "22:00",
+      "home_team": "أولمبيك ليون",
+      "away_team": "FC Saint-Cyr Collonges",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/211.png",
+      "away_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/85086.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "13:30",
       "home_team": "كالياري",
@@ -194,6 +181,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/324.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/248.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "15:00",
+      "home_team": "جيرونا",
+      "away_team": "أتلتيكو مدريد",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/2014.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/06/134.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
