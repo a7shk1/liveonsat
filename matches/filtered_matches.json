@@ -3,15 +3,15 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس مصر - دور الـ 32",
-      "kickoff_baghdad": "17:00",
-      "home_team": "بيراميدز",
-      "away_team": "مسار",
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الشارقة",
+      "away_team": "الهلال",
       "channels_raw": [
-        "أون سبورت 2"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
-      "away_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/89524.png",
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
       "status_text": "جارية الان",
       "result_text": "0-0"
     },
@@ -29,19 +29,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الشارقة",
-      "away_team": "الهلال",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/872.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/269.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ب",
       "kickoff_baghdad": "19:00",
       "home_team": "جنوب أفريقيا",
@@ -51,7 +38,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5103.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/388.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
@@ -94,6 +81,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "فولهام",
+      "away_team": "نوتنجهام فورست",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/29.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0"
+    },
+    {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ب",
       "kickoff_baghdad": "22:00",
       "home_team": "مصر",
@@ -120,19 +120,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "فولهام",
-      "away_team": "نوتنجهام فورست",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/120.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/29.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, كأس مصر - دور الـ 32",
       "kickoff_baghdad": "14:30",
       "home_team": "المصري",
@@ -155,6 +142,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5101.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, كأس مصر - دور الـ 32",
+      "kickoff_baghdad": "17:00",
+      "home_team": "بيراميدز",
+      "away_team": "مسار",
+      "channels_raw": [
+        "أون سبورت 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/1451.png",
+      "away_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/89524.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
