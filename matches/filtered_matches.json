@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال الخليج للأندية",
-      "kickoff_baghdad": "19:00",
-      "home_team": "القادسية",
-      "away_team": "سترة",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/179.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16940.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ج",
       "kickoff_baghdad": "19:30",
       "home_team": "نيجيريا",
@@ -26,7 +13,7 @@
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2386.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/670.png",
       "status_text": "جارية الان",
-      "result_text": "0-0"
+      "result_text": "2-1"
     },
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
@@ -168,6 +155,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8347.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "آسيا, دوري أبطال الخليج للأندية",
+      "kickoff_baghdad": "19:00",
+      "home_team": "القادسية",
+      "away_team": "سترة",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/179.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16940.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
