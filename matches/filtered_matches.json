@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة د",
-      "kickoff_baghdad": "14:30",
-      "home_team": "الكونغو الديمقراطية",
-      "away_team": "بنين",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/14650.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/233.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, كأس مصر - دور الـ 32",
       "kickoff_baghdad": "14:30",
       "home_team": "سيراميكا كليوباترا",
@@ -29,6 +16,19 @@
       "result_text": "0-0"
     },
     {
+      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة د",
+      "kickoff_baghdad": "14:30",
+      "home_team": "الكونغو الديمقراطية",
+      "away_team": "بنين",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/14650.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/233.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
       "competition": "آسيا, دوري أبطال الخليج للأندية",
       "kickoff_baghdad": "16:30",
       "home_team": "العين",
@@ -38,6 +38,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/871.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/11273.png",
+      "status_text": "بعد قليل",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "مودرن سبورت",
+      "away_team": "وادي دجلة",
+      "channels_raw": [
+        "أون سبورت 2"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
@@ -64,19 +77,6 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5102.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/5406.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0"
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "مودرن سبورت",
-      "away_team": "وادي دجلة",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12724.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/1016.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0"
     },
