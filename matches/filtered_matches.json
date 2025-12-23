@@ -77,7 +77,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/646.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8347.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -146,19 +146,6 @@
       "result_text": "0-0"
     },
     {
-      "competition": "مصر, كأس مصر - دور الـ 32",
-      "kickoff_baghdad": "14:30",
-      "home_team": "سيراميكا كليوباترا",
-      "away_team": "ابو قير للاسمدة",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
-      "away_logo": "https://www.kora-shoot.us/wp-content/themes/AlbaYallaShoot/public/img/default.png",
-      "status_text": "انتهت",
-      "result_text": "2-0"
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة د",
       "kickoff_baghdad": "14:30",
       "home_team": "الكونغو الديمقراطية",
@@ -170,6 +157,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/233.png",
       "status_text": "انتهت",
       "result_text": "1-0"
+    },
+    {
+      "competition": "مصر, كأس مصر - دور الـ 32",
+      "kickoff_baghdad": "14:30",
+      "home_team": "سيراميكا كليوباترا",
+      "away_team": "ابو قير للاسمدة",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/12723.png",
+      "away_logo": "https://www.kora-shoot.us/wp-content/themes/AlbaYallaShoot/public/img/default.png",
+      "status_text": "انتهت",
+      "result_text": "2-0"
     }
   ]
 }
