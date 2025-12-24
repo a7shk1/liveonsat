@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة و",
-      "kickoff_baghdad": "19:30",
-      "home_team": "كوت ديفوار",
-      "away_team": "موزمبيق",
-      "channels_raw": [
-        "beIN Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2385.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/674.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
-    {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "20:00",
       "home_team": "المقاولون العرب",
@@ -38,7 +25,7 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/27.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/386.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0"
     },
     {
@@ -66,6 +53,19 @@
       "away_logo": "https://www.kora-shoot.us/wp-content/themes/AlbaYallaShoot/public/img/default.png",
       "status_text": "انتهت",
       "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ه",
+      "kickoff_baghdad": "17:00",
+      "home_team": "الجزائر",
+      "away_team": "السودان",
+      "channels_raw": [
+        "الجزائرية الأولى"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
+      "status_text": "انتهت",
+      "result_text": "3-0"
     },
     {
       "competition": "مصر, كأس الرابطة المصرية",
@@ -105,19 +105,6 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/8300.png",
       "status_text": "انتهت",
       "result_text": "2-1"
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ه",
-      "kickoff_baghdad": "17:00",
-      "home_team": "الجزائر",
-      "away_team": "السودان",
-      "channels_raw": [
-        "الجزائرية الأولى"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5109.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5099.png",
-      "status_text": "انتهت",
-      "result_text": "3-0"
     },
     {
       "competition": "آسيا, دوري أبطال آسيا 2 - المجموعات",
@@ -181,6 +168,19 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/179.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/16940.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة و",
+      "kickoff_baghdad": "19:30",
+      "home_team": "كوت ديفوار",
+      "away_team": "موزمبيق",
+      "channels_raw": [
+        "beIN Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/09/2385.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/674.png",
       "status_text": "انتهت",
       "result_text": "0-0"
     }
