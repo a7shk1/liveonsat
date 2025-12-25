@@ -1,20 +1,7 @@
 {
-  "date": "2025-12-25",
+  "date": "2025-12-26",
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
-    {
-      "competition": "الجزائر, الدوري الجزائري",
-      "kickoff_baghdad": "20:30",
-      "home_team": "شباب بلوزداد",
-      "away_team": "وفاق سطيف",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/941.png",
-      "away_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/8222.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0"
-    },
     {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "17:00",
@@ -66,6 +53,19 @@
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/02/860.png",
       "status_text": "انتهت",
       "result_text": "0-1"
+    },
+    {
+      "competition": "الجزائر, الدوري الجزائري",
+      "kickoff_baghdad": "20:30",
+      "home_team": "شباب بلوزداد",
+      "away_team": "وفاق سطيف",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/941.png",
+      "away_logo": "https://www.kora-shoot.us/wp-content/uploads/2025/12/8222.png",
+      "status_text": "انتهت",
+      "result_text": "0-0"
     }
   ]
 }
