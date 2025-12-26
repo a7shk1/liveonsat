@@ -3,19 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (single-best-by-time, custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة أ",
-      "kickoff_baghdad": "22:00",
-      "home_team": "المغرب",
-      "away_team": "مالي",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
-      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0"
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "22:00",
       "home_team": "مانشستر يونايتد",
@@ -25,7 +12,20 @@
       ],
       "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/95.png",
       "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/01/97.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
+      "result_text": "0-0"
+    },
+    {
+      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة أ",
+      "kickoff_baghdad": "22:00",
+      "home_team": "المغرب",
+      "away_team": "مالي",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/08/5093.png",
+      "away_logo": "https://www.yalla-shoot.info/wp-content/uploads/2025/03/19.png",
+      "status_text": "جارية الان",
       "result_text": "0-0"
     },
     {
