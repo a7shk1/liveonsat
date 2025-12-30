@@ -3,30 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "18:30",
-      "home_team": "الأهلي السعودي",
-      "away_team": "الفيحاء",
-      "channels_raw": [
-        "تطبيق ثمانية",
-        "DAZN 2 Portugal HD",
-        "ESPN 4 Brazil HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/ahliksa-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/20733-150x150.png",
-      "status_text": "جارية الان",
-      "result_text": "2-0",
-      "merge_debug": {
-        "score": 40,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ج",
       "kickoff_baghdad": "19:00",
       "home_team": "أوغندا",
@@ -40,7 +16,7 @@
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5107-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/2386-150x150.png",
       "status_text": "جارية الان",
-      "result_text": "0-1",
+      "result_text": "1-3",
       "merge_debug": {
         "score": 68,
         "dmin": 45,
@@ -83,7 +59,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8943-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/7549-150x150.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0",
       "merge_debug": {
         "score": 26,
@@ -235,6 +211,26 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "23:15",
+      "home_team": "أرسنال",
+      "away_team": "أستون فيلا",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/109-1-121x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "23:15",
       "home_team": "مانشستر يونايتد",
       "away_team": "وولفرهامبتون",
       "channels_raw": [
@@ -253,22 +249,26 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:15",
-      "home_team": "أرسنال",
-      "away_team": "أستون فيلا",
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "18:00",
+      "home_team": "طلائع الجيش",
+      "away_team": "غزل المحلة",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 2 HD"
+        "أون سبورت 2",
+        "DAZN 2 Portugal HD",
+        "ESPN 4 Brazil HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/109-1-121x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8306-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8610-112x150.png",
+      "status_text": "انتهت",
+      "result_text": "1-0",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -60,
+        "score": 40,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -297,22 +297,22 @@
       }
     },
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "طلائع الجيش",
-      "away_team": "غزل المحلة",
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "18:30",
+      "home_team": "الأهلي السعودي",
+      "away_team": "الفيحاء",
       "channels_raw": [
-        "أون سبورت 2",
+        "تطبيق ثمانية",
         "DAZN 2 Portugal HD",
         "ESPN 4 Brazil HD",
         "IRIB TV3 HD",
         "Persiana Sport HD",
         "Sky Sport Premier League HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8306-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8610-112x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/ahliksa-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/20733-150x150.png",
       "status_text": "انتهت",
-      "result_text": "1-0",
+      "result_text": "2-0",
       "merge_debug": {
         "score": 40,
         "dmin": 15,
