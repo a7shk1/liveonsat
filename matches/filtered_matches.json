@@ -15,7 +15,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8200-1-126x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8310-120x150.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0",
       "merge_debug": {
         "score": 28,
@@ -37,7 +37,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8306-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8610-112x150.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0",
       "merge_debug": {
         "score": 28,
@@ -83,7 +83,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5107-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/2386-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0",
       "merge_debug": {
         "score": 56,
@@ -105,7 +105,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5407-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5104-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "بعد قليل",
       "result_text": "0-0",
       "merge_debug": {
         "score": 55,
@@ -155,25 +155,6 @@
     {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة د",
       "kickoff_baghdad": "22:00",
-      "home_team": "بوتسوانا",
-      "away_team": "الكونغو الديمقراطية",
-      "channels_raw": [
-        "beIN Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5406-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/14650-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة د",
-      "kickoff_baghdad": "22:00",
       "home_team": "بنين",
       "away_team": "السنغال",
       "channels_raw": [
@@ -191,15 +172,15 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:30",
-      "home_team": "نوتنجهام فورست",
-      "away_team": "إيفرتون",
+      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة د",
+      "kickoff_baghdad": "22:00",
+      "home_team": "بوتسوانا",
+      "away_team": "الكونغو الديمقراطية",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "beIN Sports 2 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29-1-77x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/107-1-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5406-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/14650-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
@@ -268,21 +249,20 @@
     },
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:15",
-      "home_team": "أرسنال",
-      "away_team": "أستون فيلا",
+      "kickoff_baghdad": "22:30",
+      "home_team": "نوتنجهام فورست",
+      "away_team": "إيفرتون",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 1 HD"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/109-1-121x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29-1-77x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/107-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 36,
+        "score": 35,
         "dmin": 15,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -297,6 +277,26 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/105-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/15-1-150x142.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "23:15",
+      "home_team": "أرسنال",
+      "away_team": "أستون فيلا",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/109-1-121x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
