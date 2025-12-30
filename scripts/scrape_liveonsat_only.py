@@ -4,7 +4,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout, expect
 
-DEFAULT_URL = "https://liveonsat.com/2day.php"
+DEFAULT_URL = "https://m.liveonsat.com/2day.php"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = REPO_ROOT / "matches"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
