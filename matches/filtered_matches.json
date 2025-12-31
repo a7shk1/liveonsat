@@ -89,26 +89,6 @@
     {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ه",
       "kickoff_baghdad": "19:00",
-      "home_team": "غينيا الاستوائية",
-      "away_team": "الجزائر",
-      "channels_raw": [
-        "الجزائرية الأولى",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5419-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5109-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ه",
-      "kickoff_baghdad": "19:00",
       "home_team": "السودان",
       "away_team": "بوركينا فاسو",
       "channels_raw": [
@@ -124,6 +104,26 @@
         "score": 54,
         "dmin": 120,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ه",
+      "kickoff_baghdad": "19:00",
+      "home_team": "غينيا الاستوائية",
+      "away_team": "الجزائر",
+      "channels_raw": [
+        "الجزائرية الأولى",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5419-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5109-1-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
