@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "21:00",
-      "home_team": "زد",
-      "away_team": "حرس الحدود",
-      "channels_raw": [
-        "أون سبورت 2",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29732-136x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8307-150x150.png",
-      "status_text": "جارية الان",
-      "result_text": "2-0",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة و",
       "kickoff_baghdad": "22:00",
       "home_team": "الجابون",
@@ -34,11 +14,11 @@
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5409-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/2385-150x150.png",
       "status_text": "جارية الان",
-      "result_text": "2-0",
+      "result_text": "2-1",
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -54,51 +34,11 @@
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5418-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/2387-150x150.png",
       "status_text": "جارية الان",
-      "result_text": "1-1",
+      "result_text": "1-2",
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ه",
-      "kickoff_baghdad": "19:00",
-      "home_team": "السودان",
-      "away_team": "بوركينا فاسو",
-      "channels_raw": [
-        "beIN Sports 2 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5099-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5420-1-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "0-2",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - المجموعة ه",
-      "kickoff_baghdad": "19:00",
-      "home_team": "غينيا الاستوائية",
-      "away_team": "الجزائر",
-      "channels_raw": [
-        "الجزائرية الأولى",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5419-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5109-1-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "1-3",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -139,6 +79,26 @@
         "score": 26,
         "dmin": 30,
         "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "21:00",
+      "home_team": "زد",
+      "away_team": "حرس الحدود",
+      "channels_raw": [
+        "أون سبورت 2",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29732-136x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8307-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "2-0",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     }
