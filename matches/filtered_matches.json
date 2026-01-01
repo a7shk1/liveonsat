@@ -3,21 +3,21 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الإسماعيلي",
-      "away_team": "مودرن سبورت",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "سندرلاند",
+      "away_team": "مانشستر سيتي",
       "channels_raw": [
-        "أون سبورت 1",
+        "beIN Sports 1 HD",
         "TNT Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/8299-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50877-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/117-150x137.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
       "status_text": "جارية الان",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 13,
-        "dmin": 155,
+        "score": 26,
+        "dmin": 35,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -33,7 +33,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "0-0",
       "merge_debug": {
         "score": 26,
@@ -41,40 +41,6 @@
         "offset": -180,
         "team_sim": 0.0
       }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سندرلاند",
-      "away_team": "مانشستر سيتي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/117-150x137.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
-      "status_text": "بعد قليل",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 35,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "20:30",
-      "home_team": "شيفيلد يونايتد",
-      "away_team": "ليستر سيتي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/20-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "3-1",
-      "merge_debug": null
     },
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
@@ -103,6 +69,40 @@
       "status_text": "انتهت",
       "result_text": "0-0",
       "merge_debug": null
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "20:30",
+      "home_team": "شيفيلد يونايتد",
+      "away_team": "ليستر سيتي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/20-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "3-1",
+      "merge_debug": null
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الإسماعيلي",
+      "away_team": "مودرن سبورت",
+      "channels_raw": [
+        "أون سبورت 1",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/8299-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50877-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 13,
+        "dmin": 155,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     }
   ]
 }
