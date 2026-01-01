@@ -25,46 +25,6 @@
       }
     },
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "وادي دجلة",
-      "away_team": "الجونة",
-      "channels_raw": [
-        "أون سبورت 2",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8311-131x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8308-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الاتحاد السكندري",
-      "away_team": "الزمالك",
-      "channels_raw": [
-        "أون سبورت 1",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8201-132x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, ليغ وان",
       "kickoff_baghdad": "18:00",
       "home_team": "ويكومب",
@@ -95,6 +55,46 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/21-144x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/45-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "18:00",
+      "home_team": "وادي دجلة",
+      "away_team": "الجونة",
+      "channels_raw": [
+        "أون سبورت 2",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8311-131x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8308-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الاتحاد السكندري",
+      "away_team": "الزمالك",
+      "channels_raw": [
+        "أون سبورت 1",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8201-132x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
@@ -187,6 +187,26 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "23:00",
+      "home_team": "برينتفورد",
+      "away_team": "توتنهام هوتسبر",
+      "channels_raw": [
+        "beIN Sports HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "23:00",
       "home_team": "سندرلاند",
       "away_team": "مانشستر سيتي",
       "channels_raw": [
@@ -202,26 +222,6 @@
         "score": 54,
         "dmin": 150,
         "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "برينتفورد",
-      "away_team": "توتنهام هوتسبر",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 180,
         "team_sim": 0.0
       }
     }
