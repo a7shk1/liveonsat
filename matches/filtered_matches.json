@@ -8,16 +8,19 @@
       "home_team": "بلاكبيرن روفرز",
       "away_team": "ريكسهام",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/112-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/75.png",
       "status_text": "بعد قليل",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 28,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -37,8 +40,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 28,
-        "dmin": 60,
+        "score": 15,
+        "dmin": 120,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -59,8 +62,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 28,
-        "dmin": 60,
+        "score": 15,
+        "dmin": 120,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -81,8 +84,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 28,
-        "dmin": 60,
+        "score": 15,
+        "dmin": 120,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -103,8 +106,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 28,
-        "dmin": 60,
+        "score": 15,
+        "dmin": 120,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -116,7 +119,7 @@
       "away_team": "ليستر سيتي",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 2 HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/20-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22-150x150.png",
@@ -124,7 +127,7 @@
       "result_text": "0-0",
       "merge_debug": {
         "score": 13,
-        "dmin": 150,
+        "dmin": 125,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -136,7 +139,7 @@
       "away_team": "فولهام",
       "channels_raw": [
         "beIN Sports HD",
-        "TNT Sports 2 HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/10-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/120-150x150.png",
@@ -144,7 +147,7 @@
       "result_text": "0-0",
       "merge_debug": {
         "score": 13,
-        "dmin": 150,
+        "dmin": 125,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -156,7 +159,7 @@
       "away_team": "ليدز يونايتد",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "TNT Sports 2 HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/108-90x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/36-1-134x150.png",
@@ -164,7 +167,7 @@
       "result_text": "0-0",
       "merge_debug": {
         "score": 13,
-        "dmin": 150,
+        "dmin": 125,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -176,7 +179,7 @@
       "away_team": "مودرن سبورت",
       "channels_raw": [
         "أون سبورت 1",
-        "TNT Sports 2 HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/8299-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50877-150x150.png",
@@ -184,7 +187,7 @@
       "result_text": "0-0",
       "merge_debug": {
         "score": 13,
-        "dmin": 120,
+        "dmin": 95,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -196,7 +199,7 @@
       "away_team": "توتنهام هوتسبر",
       "channels_raw": [
         "beIN Sports HD",
-        "TNT Sports 2 HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
@@ -204,7 +207,7 @@
       "result_text": "0-0",
       "merge_debug": {
         "score": 36,
-        "dmin": 0,
+        "dmin": 25,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -216,7 +219,7 @@
       "away_team": "مانشستر سيتي",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "TNT Sports 2 HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/117-150x137.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
@@ -224,7 +227,7 @@
       "result_text": "0-0",
       "merge_debug": {
         "score": 36,
-        "dmin": 0,
+        "dmin": 25,
         "offset": -180,
         "team_sim": 0.0
       }
