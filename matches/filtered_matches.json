@@ -3,50 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إنجلترا, ليغ وان",
-      "kickoff_baghdad": "18:00",
-      "home_team": "ويكومب",
-      "away_team": "كارديف سيتي",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/58.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/14-150x150.png",
-      "status_text": "جارية الان",
-      "result_text": "0-1",
-      "merge_debug": {
-        "score": 15,
-        "dmin": 120,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "18:00",
-      "home_team": "ساوثهامبتون",
-      "away_team": "ميلوال",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/21-144x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/45-150x150.png",
-      "status_text": "جارية الان",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 15,
-        "dmin": 120,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "18:00",
       "home_team": "وادي دجلة",
@@ -82,7 +38,51 @@
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8201-132x150.png",
       "status_text": "جارية الان",
-      "result_text": "1-0",
+      "result_text": "2-0",
+      "merge_debug": {
+        "score": 15,
+        "dmin": 120,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, ليغ وان",
+      "kickoff_baghdad": "18:00",
+      "home_team": "ويكومب",
+      "away_team": "كارديف سيتي",
+      "channels_raw": [
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/58.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/14-150x150.png",
+      "status_text": "جارية الان",
+      "result_text": "1-1",
+      "merge_debug": {
+        "score": 15,
+        "dmin": 120,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "18:00",
+      "home_team": "ساوثهامبتون",
+      "away_team": "ميلوال",
+      "channels_raw": [
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/21-144x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/45-150x150.png",
+      "status_text": "جارية الان",
+      "result_text": "0-0",
       "merge_debug": {
         "score": 15,
         "dmin": 120,
@@ -173,14 +173,14 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "23:00",
-      "home_team": "برينتفورد",
-      "away_team": "توتنهام هوتسبر",
+      "home_team": "سندرلاند",
+      "away_team": "مانشستر سيتي",
       "channels_raw": [
-        "beIN Sports HD",
+        "beIN Sports 1 HD",
         "TNT Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/117-150x137.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
@@ -193,14 +193,14 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "23:00",
-      "home_team": "سندرلاند",
-      "away_team": "مانشستر سيتي",
+      "home_team": "برينتفورد",
+      "away_team": "توتنهام هوتسبر",
       "channels_raw": [
-        "beIN Sports 1 HD",
+        "beIN Sports HD",
         "TNT Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/117-150x137.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
