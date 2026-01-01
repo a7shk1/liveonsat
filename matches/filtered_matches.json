@@ -3,28 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "15:30",
-      "home_team": "بلاكبيرن روفرز",
-      "away_team": "ريكسهام",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/112-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/75.png",
-      "status_text": "جارية الان",
-      "result_text": "0-2",
-      "merge_debug": {
-        "score": 28,
-        "dmin": 30,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, ليغ وان",
       "kickoff_baghdad": "18:00",
       "home_team": "ويكومب",
@@ -115,26 +93,6 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "20:30",
-      "home_team": "كريستال بالاس",
-      "away_team": "فولهام",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/10-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/120-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 13,
-        "dmin": 125,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "20:30",
       "home_team": "ليفربول",
       "away_team": "ليدز يونايتد",
       "channels_raw": [
@@ -173,6 +131,26 @@
       }
     },
     {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "20:30",
+      "home_team": "كريستال بالاس",
+      "away_team": "فولهام",
+      "channels_raw": [
+        "beIN Sports HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/10-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/120-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 13,
+        "dmin": 125,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "21:00",
       "home_team": "الإسماعيلي",
@@ -188,6 +166,26 @@
       "merge_debug": {
         "score": 13,
         "dmin": 95,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "برينتفورد",
+      "away_team": "توتنهام هوتسبر",
+      "channels_raw": [
+        "beIN Sports HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 25,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -213,22 +211,24 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "برينتفورد",
-      "away_team": "توتنهام هوتسبر",
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "15:30",
+      "home_team": "بلاكبيرن روفرز",
+      "away_team": "ريكسهام",
       "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 1 HD"
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/63-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/112-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/75.png",
+      "status_text": "انتهت",
+      "result_text": "0-2",
       "merge_debug": {
-        "score": 36,
-        "dmin": 25,
-        "offset": -180,
+        "score": 28,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
