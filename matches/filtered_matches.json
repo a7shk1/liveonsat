@@ -8,18 +8,15 @@
       "home_team": "بلاكبيرن روفرز",
       "away_team": "ريكسهام",
       "channels_raw": [
-        "غير معروف",
-        "Football HD",
-        "Thmanyah 1",
-        "Thmanyah KSA"
+        "غير معروف"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/112-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/75.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 15,
-        "dmin": 180,
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -31,16 +28,18 @@
       "away_team": "كارديف سيتي",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 2 HD"
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/58.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/14-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
+        "score": 28,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -51,16 +50,18 @@
       "away_team": "ميلوال",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 2 HD"
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/21-144x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/45-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
+        "score": 28,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -71,16 +72,18 @@
       "away_team": "الجونة",
       "channels_raw": [
         "أون سبورت 2",
-        "TNT Sports 2 HD"
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8311-131x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8308-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
+        "score": 28,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -91,36 +94,18 @@
       "away_team": "الزمالك",
       "channels_raw": [
         "أون سبورت 1",
-        "TNT Sports 2 HD"
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8201-132x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "20:30",
-      "home_team": "شيفيلد يونايتد",
-      "away_team": "ليستر سيتي",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/20-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "0-0",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": 0,
+        "score": 28,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -140,7 +125,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -160,7 +145,27 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": 0,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "20:30",
+      "home_team": "شيفيلد يونايتد",
+      "away_team": "ليستر سيتي",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/20-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "0-0",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -180,7 +185,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -191,17 +196,16 @@
       "away_team": "مانشستر سيتي",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "Sky Sport Premier League HD",
-        "Football HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/117-150x137.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "0-0",
       "merge_debug": {
-        "score": 54,
-        "dmin": 150,
-        "offset": -180,
+        "score": 36,
+        "dmin": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -221,7 +225,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 180,
+        "offset": 60,
         "team_sim": 0.0
       }
     }
