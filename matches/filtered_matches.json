@@ -3,50 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "وادي دجلة",
-      "away_team": "الجونة",
-      "channels_raw": [
-        "أون سبورت 2",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8311-131x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8308-150x150.png",
-      "status_text": "جارية الان",
-      "result_text": "0-1",
-      "merge_debug": {
-        "score": 15,
-        "dmin": 120,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الاتحاد السكندري",
-      "away_team": "الزمالك",
-      "channels_raw": [
-        "أون سبورت 1",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8201-132x150.png",
-      "status_text": "جارية الان",
-      "result_text": "2-0",
-      "merge_debug": {
-        "score": 15,
-        "dmin": 120,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, ليغ وان",
       "kickoff_baghdad": "18:00",
       "home_team": "ويكومب",
@@ -83,6 +39,50 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/45-150x150.png",
       "status_text": "جارية الان",
       "result_text": "0-0",
+      "merge_debug": {
+        "score": 15,
+        "dmin": 120,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "18:00",
+      "home_team": "وادي دجلة",
+      "away_team": "الجونة",
+      "channels_raw": [
+        "أون سبورت 2",
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8311-131x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8308-150x150.png",
+      "status_text": "جارية الان",
+      "result_text": "0-1",
+      "merge_debug": {
+        "score": 15,
+        "dmin": 120,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الاتحاد السكندري",
+      "away_team": "الزمالك",
+      "channels_raw": [
+        "أون سبورت 1",
+        "DAZN 1 Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8201-132x150.png",
+      "status_text": "جارية الان",
+      "result_text": "2-0",
       "merge_debug": {
         "score": 15,
         "dmin": 120,
