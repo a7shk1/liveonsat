@@ -1,191 +1,35 @@
 {
-  "date": "2025-12-31",
+  "date": "2026-01-01",
   "source_url": "https://m.liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Maccabi Netanya v Hapoel Petah Tikva",
-      "kickoff_baghdad": "09:30",
-      "channels_raw": [
-        "Sport 3 Israel HD",
-        "Discover more",
-        "Soccer history books",
-        "Athletic",
-        "Collectible soccer memorabilia",
-        "Urheilu",
-        "Live sports commentary apps",
-        "Television",
-        "Basketball streaming service",
-        "Sport",
-        "Satellite TV equipment",
-        "Bundesliga jerseys",
-        "Saudi Professional League - Week 12"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Al Kholood v Al Hilal",
-      "kickoff_baghdad": "09:30",
-      "channels_raw": [
-        "Azam Sports 4 HD",
-        "Cosmote Sport 1 HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN Deutsch ($/geo/R)",
-        "Fox Deportes USA",
-        "Fox Sports 2 USA HD",
-        "Polsat Sport 2 HD",
-        "Prima Sport RO 1 HD",
-        "Sport TV1 Portugal HD",
-        "SportKlub 3 Slovenija",
-        "SportKlub 6 Hrvatska",
-        "Sporty TV Africa",
-        "SPOTV Malaysia HD",
-        "Spíler 1 TV Hungary HD",
-        "ST World Football HD",
-        "SuperSport 3 Albania HD",
-        "SuperSport ESPN HD",
-        "Thmanyah 1 HD",
-        "Thmanyah KSA [app]",
-        "TRT Spor Türkiye HD",
-        "Saudi Professional League - Week 12"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Al Shabab v Al Qadisiyah",
-      "kickoff_baghdad": "09:30",
-      "channels_raw": [
-        "Thmanyah 2 HD",
-        "Thmanyah KSA [app]",
-        "Israeli Ligat ha'Al (Premier) - Week 16"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Ashdod v Maccabi Haifa",
-      "kickoff_baghdad": "09:45",
-      "channels_raw": [
-        "Sport 1 Israel HD",
-        "Israeli Ligat ha'Al (Premier) - Week 16"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Hapoel Be'er Sheva v Hapoel Jerusalem",
-      "kickoff_baghdad": "10:00",
-      "channels_raw": [
-        "Sport 4 Israel HD",
-        "CAF African Cup of Nations - Group Stage: Round 3"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Gabon v Ivory Coast",
-      "kickoff_baghdad": "11:00",
-      "channels_raw": [
-        "4Seven",
-        "5 SPORT Israel HD",
-        "Afrosport TV",
-        "Arena Premium 2 Srbija HD",
-        "Arryadia TNT HD",
-        "Azam Sports 2 HD",
-        "beIN Connect USA",
-        "beIN Sports 1 HD (Astro)",
-        "beIN Sports Australia 2 HD",
-        "beIN Sports France 1 HD",
-        "beIN Sports MENA Max 3 HD",
-        "Canal 2 International",
-        "Canal+ Sport 1 Afrique HD",
-        "Channel 4 Streaming (ALL4)",
-        "DAZN Japan ($/geo/R)",
-        "EXXEN Digital Türkiye [$]",
-        "Gabon 1ère",
-        "IRIB Varzesh HD",
-        "M+ Liga de Campeones HD",
-        "MAX Sport 4 Bulgaria HD",
-        "Megogo Sport Kazakhstan [$]",
-        "New World Sport 3 Togo",
-        "New World Sport 4 Togo",
-        "New World Sport 5 Togo",
-        "Okko Prime Sport HD ($/geo/R)",
-        "ORTM 2 Mali",
-        "Persiana Sports 2 HD",
-        "RTB Burkina Faso",
-        "RTi La 3 Côte d’Ivoire",
-        "RTS 2 Senegal HD",
-        "SABC 2 HD",
-        "Sport TV3 Portugal HD",
-        "Sport+ Qazaqstan",
-        "Sportdigital FUSSBALL 2",
-        "Sportitalia SoloCalcio HD",
-        "SportKlub 2 Hrvatska",
-        "SportKlub 2 Slovenija",
-        "SuperSport MáXimo 3A HD",
-        "SuperSport PSL HD",
-        "UBC TV Uganda",
-        "VG+ Sport Norge ($/geo/R)",
-        "YouTube: Channel 4 Sport",
-        "Ziggo Sport HD",
-        "ZNBC TV 1",
-        "CAF African Cup of Nations - Group Stage: Round 3"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Mozambique v Cameroon",
-      "kickoff_baghdad": "11:00",
-      "channels_raw": [
-        "5 LIVE Israel HD",
-        "Arena Premium 3 Srbija HD",
-        "Azam Sports 1 HD",
-        "beIN Connect USA",
-        "beIN Sports 3 HD (Astro)",
-        "beIN Sports Australia 3 HD",
-        "beIN Sports France 2 HD",
-        "CRTV Cameroon",
-        "CRTV Sports Cameroon",
-        "DAZN Japan ($/geo/R)",
-        "ERT 2 Sport Hellas HD",
-        "EXXEN Digital Türkiye [$]",
-        "M+ #Vamos Bar",
-        "M+ Liga de Campeones 2 HD",
-        "M+ Vamos España HD",
-        "MAX Sport 3 Bulgaria HD",
-        "Megogo Futbol 2 ($/geo/R)",
-        "New World Sport 6 Togo",
-        "New World Sport 7 Togo",
-        "Okko Futbol HD ($/geo/R)",
-        "Persiana Sport HD",
-        "SABC 3 HD",
-        "Sport TV2 Portugal HD",
-        "SportKlub 4 Hrvatska",
-        "SportKlub 4 Slovenija",
-        "SuperSport LaLiga HD",
-        "SuperSport MáXimo 360",
-        "TV Miramar Mozambique",
-        "VG+ Sport Norge ($/geo/R)",
-        "YouTube: Channel 4 Sport",
-        "Ziggo Sport 2",
-        "Australian A League - Week 11"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Auckland FC v Newcastle Jets",
-      "kickoff_baghdad": "20:00",
+      "kickoff_baghdad": "22:00",
       "channels_raw": [
         "Discovery+ UK ($/geo/R)",
         "Sky Sport 1 NZ HD",
         "SPOTV Malaysia HD",
         "TNT Sports 2 HD",
+        "Discover more",
+        "Sport",
+        "American sports apparel",
+        "Spor",
+        "Ligue 1 match highlights",
+        "Personalized TV schedule",
+        "Television",
+        "Portable power banks",
+        "Daily TV schedules",
+        "Stadium tours",
+        "Soccer coaching courses",
         "Thursday, 1st January",
         "Australian A League - Week 11"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Western Sydney v Macarthur FC",
-      "kickoff_baghdad": "00:00",
+      "kickoff_baghdad": "02:00",
       "channels_raw": [
         "Discovery+ UK ($/geo/R)",
         "Sky Sport 1 NZ HD",
@@ -195,9 +39,9 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Colwyn Bay v Flint Town United",
-      "kickoff_baghdad": "04:30",
+      "kickoff_baghdad": "06:30",
       "channels_raw": [
         "BBC iPlayer (geo/R)",
         "S4C Clic ($/geo/R)",
@@ -208,9 +52,9 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Blackburn Rovers v Wrexham",
-      "kickoff_baghdad": "04:30",
+      "kickoff_baghdad": "06:30",
       "channels_raw": [
         "Arena Premium 1 BiH HD",
         "Arena Premium 2 Srbija HD",
@@ -239,7 +83,7 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "V Sport 2 Norge HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -251,33 +95,22 @@
         "ViaPlay Sverige HD",
         "Viaplay TV Suomi HD",
         "ViaPlay Ísland HD",
-        "Discover more",
-        "Athletic",
-        "Soccer training gear",
-        "Live sports streaming",
-        "Soccer competition tickets",
-        "La Liga merchandise",
-        "Cytavision",
-        "Fantasy soccer league tools",
-        "Sport",
-        "Sports analysis software",
-        "Sports",
         "English Championship - Week 25"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Bristol City v Portsmouth",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English Championship - Week 25"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Charlton Athletic v Coventry City",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Paramount+ USA ($/geo/R)",
         "Sky Sports+ [via APP]",
@@ -285,9 +118,9 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Derby County v Middlesbrough",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Paramount+ USA ($/geo/R)",
         "Sky Sports+ [via APP]",
@@ -296,9 +129,9 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Hull City v Stoke City",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Paramount+ USA ($/geo/R)",
         "Sky Sports+ [via APP]",
@@ -306,37 +139,48 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Ipswich Town v Oxford United",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English Championship - Week 25"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Preston N.E. v Sheffield Wednesday",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English Championship - Week 25"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Queens Park Rangers v Norwich City",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Paramount+ USA ($/geo/R)",
         "Sky Sports+ [via APP]",
+        "Discover more",
+        "Live sports streaming",
+        "Personalized TV schedule",
+        "Bundesliga jerseys",
+        "Collectible soccer memorabilia",
+        "Sports betting guide",
+        "Cytavision",
+        "Sports betting apps",
+        "Soccer history books",
+        "Women's football apparel",
+        "Soccer gear store",
         "English Championship - Week 25"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Southampton v Millwall",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Arena Premium 1 BiH HD",
         "Arena Premium 1 Slovenija",
@@ -361,7 +205,7 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "V Sport 2 Norge HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -376,40 +220,29 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Swansea City v West Bromwich Albion",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English Championship - Week 25"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Watford v Birmingham City",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "CBS Sports Network USA",
         "Paramount+ USA ($/geo/R)",
         "Sky Sports+ [via APP]",
-        "Discover more",
-        "Sports streaming subscriptions",
-        "Sports TV packages",
-        "Soccer history books",
-        "Sports betting apps",
-        "TV streaming guide",
-        "Official team merchandise",
-        "World Cup merchandise",
-        "VPN services",
-        "Satellite TV equipment",
-        "La Liga merchandise",
         "English League One - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Wycombe Wanderers v Cardiff City",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Arena Premium 3 Srbija HD",
         "Arena Sport 1 BiH HD",
@@ -434,218 +267,229 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Doncaster Rovers v Bolton Wanderers",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League One - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Exeter City v Luton Town",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League One - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Leyton Orient v AFC Wimbledon",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League One - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Lincoln City v Huddersfield Town",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League One - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Mansfield Town v Bradford City",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League One - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Northampton Town v Stockport County",
-      "kickoff_baghdad": "07:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "English League One - Week 24"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Port Vale v Blackpool",
-      "kickoff_baghdad": "07:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "English League One - Week 24"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Reading v Burton Albion",
-      "kickoff_baghdad": "07:00",
-      "channels_raw": [
-        "Sky Sports+ [via APP]",
-        "English League One - Week 24"
-      ]
-    },
-    {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
-      "title": "Rotherham United v Peterborough United",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "Discover more",
+        "Soccer competition tickets",
+        "Team-branded apparel",
+        "Sports streaming subscriptions",
+        "Football kits",
+        "Sports travel packages",
         "Soccer gear store",
-        "TV",
-        "Fantasy soccer league tools",
-        "UEFA Champions League gear",
-        "Soccer jerseys",
-        "Champions League tickets",
-        "Live sports streaming",
+        "Activewear",
         "American sports apparel",
-        "Sports TV packages",
-        "Daily TV schedules",
+        "Tickets to soccer matches",
+        "Personalized TV schedule",
         "English League One - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
+      "title": "Port Vale v Blackpool",
+      "kickoff_baghdad": "09:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]",
+        "English League One - Week 24"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 11",
+      "title": "Reading v Burton Albion",
+      "kickoff_baghdad": "09:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]",
+        "English League One - Week 24"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 11",
+      "title": "Rotherham United v Peterborough United",
+      "kickoff_baghdad": "09:00",
+      "channels_raw": [
+        "Sky Sports+ [via APP]",
+        "English League One - Week 24"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 11",
       "title": "Stevenage v Plymouth Argyle",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League One - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Wigan Athletic v Barnsley",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Barnet v Crawley Town",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Barrow v Salford City",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Bromley v Newport County",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Cambridge United v Walsall",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Colchester United v Milton Keynes Dons",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
+        "Discover more",
+        "Team-branded apparel",
+        "Official team merchandise",
+        "Sports streaming subscriptions",
+        "Daily TV schedules",
+        "Collectible soccer memorabilia",
+        "Soccer coaching courses",
+        "Stadium tours",
+        "TV streaming guide",
+        "VPN services",
+        "Tickets to soccer matches",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Crewe Alexandra v Cheltenham",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Fleetwood Town v Grimsby Town",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Harrogate Town v Tranmere Rovers",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Notts County v Accrington Stanley",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Oldham Athletic v Chesterfield",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Shrewsbury Town v Bristol Rovers",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "English League Two - Week 24"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Swindon Town v Gillingham",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Paramount+ USA ($/geo/R)",
         "Sky Sports+ [via APP]",
@@ -653,18 +497,18 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Al Hidd v Al Ahli",
-      "kickoff_baghdad": "08:00",
+      "kickoff_baghdad": "10:00",
       "channels_raw": [
         "Fanseat LIVE ($/geo/R)",
         "English Championship - Week 25"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Sheffield United v Leicester City",
-      "kickoff_baghdad": "09:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "Arena Premium 2 BiH HD",
         "Arena Premium 3 Srbija HD",
@@ -686,7 +530,7 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "V Sport 2 Norge HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -700,9 +544,9 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Liverpool v Leeds United",
-      "kickoff_baghdad": "09:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "Arena Premium 1 BiH HD",
         "Arena Premium 1 Srbija HD",
@@ -756,7 +600,7 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "V Sport Ultra 4K UHD (geo/R)",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -767,13 +611,24 @@
         "ViaPlay Suomi HD",
         "ViaPlay Sverige HD",
         "VOYO Pro TV Romania [$]",
+        "Discover more",
+        "Soccer training gear",
+        "Fantasy soccer league tools",
+        "Basketball streaming service",
+        "Bundesliga jerseys",
+        "Sports travel packages",
+        "Team-branded apparel",
+        "Spor",
+        "Women's football apparel",
+        "Personalized TV schedule",
+        "Daily TV schedules",
         "English Premier League - Week 19"
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "Crystal Palace v Fulham",
-      "kickoff_baghdad": "09:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "Arena Premium 1 Slovenija",
         "Arena Premium 2 Srbija HD",
@@ -816,10 +671,147 @@
       ]
     },
     {
-      "competition": "Israeli Ligat ha'Al (Premier) - Week 16",
+      "competition": "Australian A League - Week 11",
       "title": "V Sport Premier League 1 HD",
       "kickoff_baghdad": null,
       "channels_raw": [
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "VOYO Pro TV Romania [$]",
+        "Israeli Ligat ha'Al (Premier) - Week 16"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 11",
+      "title": "Beitar Jerusalem v Hapoel Tel Aviv",
+      "kickoff_baghdad": "12:30",
+      "channels_raw": [
+        "5 SPORT Israel HD",
+        "English Premier League - Week 19"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 11",
+      "title": "Brentford v Tottenham Hotspur",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "Arena Premium 2 Srbija HD",
+        "Arena Sport 1 BiH HD",
+        "Arena Sport 2 Slovenija HD",
+        "Arena Sport 3 Hrvatska HD",
+        "Astro Premier League 4 HD",
+        "beIN Connect MENA",
+        "beIN Connect Türkiye",
+        "beIN Sports MENA 2 HD",
+        "beIN Sports Türkiye 4 HD",
+        "Canal+ Extra 2 Polska HD",
+        "Canal+ Live 2 France HD",
+        "Canal+ Sport 360 HD",
+        "Canal+ Sport 4 Czech HD",
+        "DAZN 2 Bar Espana",
+        "DAZN 2 Espana HD",
+        "DAZN 3 Portugal HD",
+        "DAZN España ($/geo/R)",
+        "Diema Sport 3 HD",
+        "FuboTV Canada ($/geo/R)",
+        "Go3 Extra Sport Baltics ($/geo/R)",
+        "Hub Premier 3 HD ($/geo/R)",
+        "Match 4 Hungary HD",
+        "NBC Sports Network",
+        "Nova Sports Prime Hellas HD",
+        "Peacock Premium USA ($/geo/R)",
+        "Play Sports 2 Belgium",
+        "Setanta Sports 2 Eurasia HD",
+        "Sky Go UK [online]",
+        "Sky Sport 1 Deutsch HD",
+        "Sky Sport 2 NZ HD",
+        "Sky Sport Calcio HD",
+        "Sky Sports Premier League HD",
+        "Sport 2 Israel HD",
+        "Sport 24 Extra HD",
+        "Stan Sport Australia ($/geo/R)",
+        "SuperSport 3 Albania HD",
+        "SuperSport MáXimo 1 HD",
+        "SuperSport Variety 3 HD",
+        "TSN Malta 5 HD"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 11",
+      "title": "V Sport Premier League 1 HD",
+      "kickoff_baghdad": null,
+      "channels_raw": [
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "VOYO Pro TV Romania [$]",
+        "English Premier League - Week 19"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 11",
+      "title": "Sunderland v Manchester City",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "Arena Premium 1 BiH HD",
+        "Arena Premium 1 Slovenija",
+        "Arena Premium 1 Srbija HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Astro Premier League 2 HD",
+        "Astro Sports UHD",
+        "beIN Connect MENA",
+        "beIN Connect Türkiye",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA 4K UHD",
+        "beIN Sports Türkiye 3 HD",
+        "Canal+ Extra 1 Polska HD",
+        "Canal+ Foot HD",
+        "Canal+ Live 1 France HD",
+        "Canal+ Sport 1 Czech HD",
+        "DAZN 1 Bar Espana",
+        "DAZN 1 Espana HD",
+        "DAZN 1 Portugal HD",
+        "DAZN España ($/geo/R)",
+        "Diema Sport 2 HD",
+        "FuboTV Canada ($/geo/R)",
+        "Go3 Extra Sport Baltics ($/geo/R)",
+        "Hub Premier 1 HD ($/geo/R)",
+        "Hub Premier 1 UHD ($/geo/R)",
+        "Hub Premier 2 HD ($/geo/R)",
+        "Nova Sports Premier League HD",
+        "Play Sports 1 Belgium",
+        "See Dansk HD",
+        "Setanta Sports 1 Eurasia HD",
+        "Sky Go UK [online]",
+        "Sky Sport 8 NZ HD",
+        "Sky Sport Premier League DE HD",
+        "Sky Sport Top Event HD",
+        "Sky Sport Uno Italia HD",
+        "Sky Sports Main Event HD",
+        "Sky Sports Main Event UHD",
+        "Sky UK Ultra HD 1",
+        "Sport 1 Israel HD",
+        "Sport 24 At Sea HD",
+        "Sport 24 In Flight HD",
+        "Stan Sport Australia ($/geo/R)",
+        "SuperSport 2 Albania HD",
+        "SuperSport MáXimo 2A HD",
+        "SuperSport Premier League HD",
+        "TSN Malta 6 HD",
+        "USA Network HD"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 11",
+      "title": "V Sport Ultra 4K UHD (geo/R)",
+      "kickoff_baghdad": null,
+      "channels_raw": [
+        "ViaPlay 2 Urheilu HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
