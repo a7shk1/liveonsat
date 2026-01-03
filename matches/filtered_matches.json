@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "نيس",
-      "away_team": "ستراسبورج",
-      "channels_raw": [
-        "beIN Sports 5 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/470-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/479.png",
-      "status_text": "جارية الان",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 10,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - دور الـ 16",
       "kickoff_baghdad": "22:00",
       "home_team": "مالي",
@@ -77,7 +57,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/136-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/132-1-150x150.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "",
       "merge_debug": {
         "score": 57,
@@ -97,51 +77,11 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/478-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/477-1.png",
-      "status_text": "بعد قليل",
+      "status_text": "جارية الان",
       "result_text": "",
       "merge_debug": {
         "score": 53,
         "dmin": 115,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "موناكو",
-      "away_team": "أولمبيك ليون",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/471-1-94x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/465-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 10,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - دور الـ 16",
-      "kickoff_baghdad": "19:00",
-      "home_team": "السنغال",
-      "away_team": "السودان",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5102-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5099-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 10,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -163,6 +103,26 @@
         "score": 36,
         "dmin": 10,
         "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "إلتشي",
+      "away_team": "فياريال",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/156-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/133-1.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 20,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -207,21 +167,21 @@
       }
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "إلتشي",
-      "away_team": "فياريال",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "نيس",
+      "away_team": "ستراسبورج",
       "channels_raw": [
-        "beIN Sports 3 HD",
+        "beIN Sports 5 HD",
         "TNT Sports 2 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/156-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/133-1.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/470-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/479.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 20,
+        "dmin": 10,
         "offset": -60,
         "team_sim": 0.0
       }
