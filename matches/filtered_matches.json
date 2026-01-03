@@ -16,9 +16,9 @@
       "status_text": "جارية الان",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 50,
-        "offset": -180,
+        "score": 36,
+        "dmin": 10,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -29,15 +29,15 @@
       "away_team": "تونس",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "TNT Sports 2 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5097-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5104-150x150.png",
       "status_text": "جارية الان",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 10,
+        "score": 53,
+        "dmin": 180,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -58,7 +58,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 5,
-        "offset": -120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -69,16 +69,20 @@
       "away_team": "برشلونة",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "TNT Sports 2 HD"
+        "DAZN 1 Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Sky Sport Premier League HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/136-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/132-1-150x150.png",
       "status_text": "بعد قليل",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 10,
-        "offset": -120,
+        "score": 57,
+        "dmin": 150,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -89,16 +93,16 @@
       "away_team": "ستاد رين",
       "channels_raw": [
         "beIN Sports 4 HD",
-        "TNT Sports 2 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/478-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/477-1.png",
       "status_text": "بعد قليل",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -120,
+        "score": 53,
+        "dmin": 115,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -109,19 +113,16 @@
       "away_team": "أولمبيك ليون",
       "channels_raw": [
         "beIN Sports 4 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/471-1-94x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/465-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 69,
-        "dmin": 60,
-        "offset": 180,
+        "score": 36,
+        "dmin": 10,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -132,19 +133,16 @@
       "away_team": "السودان",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5102-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5099-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 69,
-        "dmin": 60,
-        "offset": 180,
+        "score": 36,
+        "dmin": 10,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -155,19 +153,16 @@
       "away_team": "ليتشي",
       "channels_raw": [
         "Starzplay 1",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/226-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/246.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 16,
-        "dmin": 120,
-        "offset": 180,
+        "score": 36,
+        "dmin": 10,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -178,19 +173,16 @@
       "away_team": "أرسنال",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50-1-126x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 56,
-        "dmin": 150,
-        "offset": 180,
+        "score": 36,
+        "dmin": 20,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -201,19 +193,16 @@
       "away_team": "التعاون",
       "channels_raw": [
         "ثمانية 1",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8593-122x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8941-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 16,
-        "dmin": 150,
-        "offset": 180,
+        "score": 36,
+        "dmin": 20,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -224,19 +213,16 @@
       "away_team": "فياريال",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/156-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/133-1.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 16,
-        "dmin": 150,
-        "offset": 180,
+        "score": 36,
+        "dmin": 20,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
