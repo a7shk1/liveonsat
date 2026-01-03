@@ -3,75 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "بورنموث",
-      "away_team": "أرسنال",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50-1-126x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
-      "status_text": "جارية الان",
-      "result_text": "",
-      "merge_debug": {
-        "score": 56,
-        "dmin": 150,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "الاتحاد",
-      "away_team": "التعاون",
-      "channels_raw": [
-        "ثمانية 1",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8593-122x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8941-150x150.png",
-      "status_text": "جارية الان",
-      "result_text": "",
-      "merge_debug": {
-        "score": 16,
-        "dmin": 150,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "إلتشي",
-      "away_team": "فياريال",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/156-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/133-1.png",
-      "status_text": "جارية الان",
-      "result_text": "",
-      "merge_debug": {
-        "score": 16,
-        "dmin": 150,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "21:00",
       "home_team": "نيس",
@@ -255,6 +186,75 @@
       "merge_debug": {
         "score": 16,
         "dmin": 120,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "20:30",
+      "home_team": "بورنموث",
+      "away_team": "أرسنال",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50-1-126x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 56,
+        "dmin": 150,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "20:30",
+      "home_team": "الاتحاد",
+      "away_team": "التعاون",
+      "channels_raw": [
+        "ثمانية 1",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8593-122x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8941-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 16,
+        "dmin": 150,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "إلتشي",
+      "away_team": "فياريال",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/156-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/133-1.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 16,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
