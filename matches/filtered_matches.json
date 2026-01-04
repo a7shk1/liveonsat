@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ريال سوسيداد",
-      "away_team": "أتلتيكو مدريد",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/154-146x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/134-128x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "مصر, كأس الرابطة المصرية",
       "kickoff_baghdad": "17:00",
       "home_team": "المصري",
@@ -148,27 +128,6 @@
       }
     },
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "21:00",
-      "home_team": "مودرن سبورت",
-      "away_team": "بيراميدز",
-      "channels_raw": [
-        "أون سبورت 1",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50877-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22143-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 14,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - دور الـ 16",
       "kickoff_baghdad": "22:00",
       "home_team": "جنوب أفريقيا",
@@ -224,6 +183,26 @@
       "merge_debug": {
         "score": 13,
         "dmin": 75,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريال سوسيداد",
+      "away_team": "أتلتيكو مدريد",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/154-146x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/134-128x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
