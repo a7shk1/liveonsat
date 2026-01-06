@@ -3,50 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "إنبي",
-      "away_team": "سيراميكا كليوباترا",
-      "channels_raw": [
-        "أون سبورت 2",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8300.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/50882-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 15,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الجونة",
-      "away_team": "بتروجت",
-      "channels_raw": [
-        "أون سبورت 1",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8308-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8302-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 15,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
       "kickoff_baghdad": "18:45",
       "home_team": "الوحدة",
@@ -98,7 +54,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/246.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": null
     },
@@ -188,28 +144,6 @@
       }
     },
     {
-      "competition": "الإمارات, دوري أدنوك للمحترفين",
-      "kickoff_baghdad": "16:00",
-      "home_team": "النصر الاماراتي",
-      "away_team": "الشارقة",
-      "channels_raw": [
-        "دبي الرياضية 1",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/1111334-70x70-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8351-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 28,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "17:00",
       "home_team": "بيسا",
@@ -229,6 +163,50 @@
       "merge_debug": {
         "score": 17,
         "dmin": 135,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "18:00",
+      "home_team": "إنبي",
+      "away_team": "سيراميكا كليوباترا",
+      "channels_raw": [
+        "أون سبورت 2",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8300.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/50882-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 15,
+        "dmin": 180,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الجونة",
+      "away_team": "بتروجت",
+      "channels_raw": [
+        "أون سبورت 1",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8308-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8302-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 15,
+        "dmin": 180,
         "offset": 180,
         "team_sim": 0.0
       }
