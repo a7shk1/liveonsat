@@ -3,34 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "البرتغال, كاس الدوري البرتغالي - نصف النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سبورتنج لشبونة",
-      "away_team": "فيتوريا غيماريش",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/890-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/889.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "وست هام يونايتد",
-      "away_team": "نوتنجهام فورست",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/113-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29-1-77x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "20:30",
       "home_team": "نابولي",
@@ -143,34 +115,6 @@
       "merge_debug": null
     },
     {
-      "competition": "إسبانيا, كأس ملك إسبانيا - الدور 3",
-      "kickoff_baghdad": "21:00",
-      "home_team": "غرناطة",
-      "away_team": "رايو فاييكانو",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/159-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/174.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الاتحاد السكندري",
-      "away_team": "زد",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29732-136x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - دور الـ 16",
       "kickoff_baghdad": "22:00",
       "home_team": "كوت ديفوار",
@@ -194,6 +138,34 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/266.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/226-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "البرتغال, كاس الدوري البرتغالي - نصف النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "سبورتنج لشبونة",
+      "away_team": "فيتوريا غيماريش",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/890-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/889.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "وست هام يونايتد",
+      "away_team": "نوتنجهام فورست",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/113-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29-1-77x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
