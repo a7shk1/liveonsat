@@ -3,15 +3,15 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "ليتشي",
-      "away_team": "روما",
+      "competition": "مصر, كأس الرابطة المصرية",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الاتحاد السكندري",
+      "away_team": "زد",
       "channels_raw": [
-        "Starzplay 1"
+        "أون سبورت 2"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/246.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29732-136x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": null
@@ -31,20 +31,6 @@
       "merge_debug": null
     },
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الاتحاد السكندري",
-      "away_team": "زد",
-      "channels_raw": [
-        "أون سبورت 2"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8312.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29732-136x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
       "competition": "أفريقيا, كأس أمم إفريقيا - دور الـ 16",
       "kickoff_baghdad": "22:00",
       "home_team": "كوت ديفوار",
@@ -54,7 +40,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/2385-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5420-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 12,
@@ -121,50 +107,6 @@
       }
     },
     {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الجونة",
-      "away_team": "بتروجت",
-      "channels_raw": [
-        "أون سبورت 1",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8308-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8302-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 15,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "18:00",
-      "home_team": "إنبي",
-      "away_team": "سيراميكا كليوباترا",
-      "channels_raw": [
-        "أون سبورت 2",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8300.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/50882-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 15,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
       "kickoff_baghdad": "18:45",
       "home_team": "الوحدة",
@@ -174,6 +116,20 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8350-127x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8345.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة أ",
+      "kickoff_baghdad": "19:00",
+      "home_team": "السعودية تحت 23",
+      "away_team": "قرغيزستان تحت 23",
+      "channels_raw": [
+        "الكأس 5"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/28914-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/24948-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
@@ -193,15 +149,15 @@
       "merge_debug": null
     },
     {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة أ",
-      "kickoff_baghdad": "19:00",
-      "home_team": "السعودية تحت 23",
-      "away_team": "قرغيزستان تحت 23",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "20:00",
+      "home_team": "ليتشي",
+      "away_team": "روما",
       "channels_raw": [
-        "الكأس 5"
+        "Starzplay 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/28914-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/24948-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/246.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
