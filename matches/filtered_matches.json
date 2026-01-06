@@ -9,16 +9,18 @@
       "away_team": "الأردن تحت 23",
       "channels_raw": [
         "الكأس 5",
-        "Persiana Sport HD"
+        "Football HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28923.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28920.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 180,
+        "score": 38,
+        "dmin": 15,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -29,18 +31,17 @@
       "away_team": "الشارقة",
       "channels_raw": [
         "دبي الرياضية 1",
+        "Football HD",
         "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD",
-        "Football HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/1111334-70x70-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8351-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
-        "dmin": 0,
+        "score": 38,
+        "dmin": 15,
         "offset": 120,
         "team_sim": 0.0
       }
@@ -52,18 +53,17 @@
       "away_team": "كومو",
       "channels_raw": [
         "Starzplay 1",
+        "Football HD",
         "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD",
-        "Football HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/248-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/6117-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
-        "dmin": 0,
+        "score": 38,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -75,40 +75,16 @@
       "away_team": "بني ياس",
       "channels_raw": [
         "دبي الرياضية 1",
+        "Football HD",
         "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD",
-        "Football HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8350-127x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8345.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 16,
-        "dmin": 105,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - دور الـ 16",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الجزائر",
-      "away_team": "الكونغو الديمقراطية",
-      "channels_raw": [
-        "الجزائرية الأولى",
-        "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5109-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/14650-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 16,
+        "score": 15,
         "dmin": 120,
         "offset": 180,
         "team_sim": 0.0
@@ -121,18 +97,39 @@
       "away_team": "قرغيزستان تحت 23",
       "channels_raw": [
         "الكأس 5",
+        "Football HD",
         "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD",
-        "Football HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/28914-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/24948-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 16,
-        "dmin": 120,
+        "score": 15,
+        "dmin": 135,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, كأس أمم إفريقيا - دور الـ 16",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الجزائر",
+      "away_team": "الكونغو الديمقراطية",
+      "channels_raw": [
+        "الجزائرية الأولى",
+        "Football HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5109-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/14650-1-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 15,
+        "dmin": 135,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -146,15 +143,14 @@
         "Starzplay 1",
         "Persiana Sport HD",
         "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD",
-        "Football HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/246.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 16,
+        "score": 15,
         "dmin": 180,
         "offset": 180,
         "team_sim": 0.0
