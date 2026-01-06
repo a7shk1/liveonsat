@@ -42,12 +42,7 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5420-1-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -59,14 +54,9 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/266.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/226-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 105,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "البرتغال, كاس الدوري البرتغالي - نصف النهائي",
@@ -80,12 +70,7 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/889.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 90,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
@@ -99,39 +84,6 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29-1-77x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 90,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة أ",
-      "kickoff_baghdad": "19:00",
-      "home_team": "السعودية تحت 23",
-      "away_team": "قرغيزستان تحت 23",
-      "channels_raw": [
-        "الكأس 5"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/28914-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/24948-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - دور الـ 16",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الجزائر",
-      "away_team": "الكونغو الديمقراطية",
-      "channels_raw": [
-        "الجزائرية الأولى"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5109-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/14650-1-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
       "merge_debug": null
     },
     {
@@ -140,13 +92,21 @@
       "home_team": "ليتشي",
       "away_team": "روما",
       "channels_raw": [
-        "Starzplay 1"
+        "Starzplay 1",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/246.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
       "status_text": "انتهت",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 15,
+        "dmin": 180,
+        "offset": 180,
+        "team_sim": 0.0
+      }
     }
   ]
 }
