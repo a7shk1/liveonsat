@@ -3,52 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ب",
-      "kickoff_baghdad": "14:30",
-      "home_team": "اليابان تحت 23",
-      "away_team": "سوريا تحت 23",
-      "channels_raw": [
-        "الكأس 5",
-        "ESPN 1 Brazil HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28912-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28910-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 49,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ج",
-      "kickoff_baghdad": "14:30",
-      "home_team": "كوريا الجنوبية تحت 23",
-      "away_team": "إيران تحت 23",
-      "channels_raw": [
-        "غير معروف",
-        "ESPN 1 Brazil HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28916-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28911.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 49,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
       "kickoff_baghdad": "16:00",
       "home_team": "كلباء",
@@ -59,7 +13,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8355-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8346.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
@@ -374,6 +328,29 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "23:15",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "ليدز يونايتد",
+      "channels_raw": [
+        "غير معروف",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Football HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/116-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/36-1-134x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 16,
+        "dmin": 135,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "23:15",
       "home_team": "بيرنلي",
       "away_team": "مانشستر يونايتد",
       "channels_raw": [
@@ -395,25 +372,48 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:15",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "ليدز يونايتد",
+      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ب",
+      "kickoff_baghdad": "14:30",
+      "home_team": "اليابان تحت 23",
+      "away_team": "سوريا تحت 23",
       "channels_raw": [
-        "غير معروف",
+        "الكأس 5",
+        "ESPN 1 Brazil HD",
         "IRIB TV3 HD",
         "Persiana Sport HD",
-        "Football HD",
-        "Varzish TV Sport HD"
+        "Sky Sports Main Event HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/116-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/36-1-134x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28912-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28910-150x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 16,
-        "dmin": 135,
-        "offset": -180,
+        "score": 49,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ج",
+      "kickoff_baghdad": "14:30",
+      "home_team": "كوريا الجنوبية تحت 23",
+      "away_team": "إيران تحت 23",
+      "channels_raw": [
+        "غير معروف",
+        "ESPN 1 Brazil HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28916-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28911.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 49,
+        "dmin": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
