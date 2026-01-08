@@ -14,7 +14,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/469-1.png",
       "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "إسبانيا, كأس السوبر الإسباني - نصف النهائي",
@@ -22,13 +27,19 @@
       "home_team": "أتلتيكو مدريد",
       "away_team": "ريال مدريد",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "تطبيق ثمانية",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/134-128x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/131-4-115x150.png",
       "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 36,
+        "dmin": 25,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -36,13 +47,19 @@
       "home_team": "ميلان",
       "away_team": "جنوى",
       "channels_raw": [
-        "Starzplay 1"
+        "Starzplay 1",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/231-123x150.png",
       "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 36,
+        "dmin": 10,
+        "offset": -120,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
@@ -50,13 +67,19 @@
       "home_team": "أرسنال",
       "away_team": "ليفربول",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/104-1-140x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/108-90x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 36,
+        "dmin": 25,
+        "offset": -120,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "السعودية, الدوري السعودي",
@@ -70,7 +93,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8947-1-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -84,7 +112,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/243-136x150.png",
       "status_text": "انتهت",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     }
   ]
 }
