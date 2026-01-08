@@ -10,6 +10,7 @@
       "channels_raw": [
         "الكأس 5",
         "Football HD",
+        "ESPN 4 Brazil HD",
         "Persiana Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28921.png",
@@ -17,9 +18,9 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 47,
+        "score": 48,
         "dmin": 15,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -30,17 +31,19 @@
       "away_team": "الصين تحت 23",
       "channels_raw": [
         "الكأس 5",
-        "IRIB Varzesh HD",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
         "Persiana Sport HD",
-        "TNT Sports 1 HD"
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/28913-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/25010-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 180,
+        "score": 40,
+        "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -52,16 +55,19 @@
       "away_team": "الحزم",
       "channels_raw": [
         "تطبيق ثمانية",
+        "ESPN 1 Brazil HD",
+        "IRIB Varzesh HD",
         "Persiana Sport HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "Football HD",
+        "Thmanyah KSA",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5457-127x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/14895-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 15,
+        "score": 18,
         "dmin": 175,
         "offset": 180,
         "team_sim": 0.0
@@ -73,15 +79,16 @@
       "home_team": "كريمونيسي",
       "away_team": "كالياري",
       "channels_raw": [
-        "Starzplay 1"
+        "Starzplay 1",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/290.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/243-136x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
+        "score": 13,
+        "dmin": 125,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -92,15 +99,16 @@
       "home_team": "النصر",
       "away_team": "القادسية",
       "channels_raw": [
-        "ثمانية 1"
+        "ثمانية 1",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/7549-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8947-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
+        "score": 13,
+        "dmin": 125,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -118,8 +126,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 25,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -130,16 +138,15 @@
       "home_team": "أتلتيكو مدريد",
       "away_team": "ريال مدريد",
       "channels_raw": [
-        "تطبيق ثمانية",
-        "TNT Sports 1 HD"
+        "تطبيق ثمانية"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/134-128x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/131-4-115x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 25,
+        "score": 35,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -160,7 +167,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 10,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -180,7 +187,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 25,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
