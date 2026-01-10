@@ -3,47 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
-      "kickoff_baghdad": "18:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "بورنموث",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/116-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50-1-126x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - ربع النهائي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الجزائر",
-      "away_team": "نيجيريا",
-      "channels_raw": [
-        "الجزائرية الأولى",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5109-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/2386-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ب",
       "kickoff_baghdad": "19:30",
       "home_team": "سوريا تحت 23",
@@ -243,69 +202,6 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "كومو",
-      "away_team": "بولونيا",
-      "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/6117-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "أودينيزي",
-      "away_team": "بيسا",
-      "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/229-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/248-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, كأس الرابطة المصرية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "فاركو",
-      "away_team": "الأهلي",
-      "channels_raw": [
-        "أون سبورت 1",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/46242-138x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8200-1-126x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "فرنسا, كأس فرنسا - دور الـ 32",
       "kickoff_baghdad": "17:30",
       "home_team": "أنجيه",
@@ -366,6 +262,27 @@
       }
     },
     {
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
+      "kickoff_baghdad": "18:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "بورنموث",
+      "channels_raw": [
+        "beIN Sports HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/116-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50-1-126x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "18:15",
       "home_team": "فياريال",
@@ -400,6 +317,26 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, كأس أمم إفريقيا - ربع النهائي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الجزائر",
+      "away_team": "نيجيريا",
+      "channels_raw": [
+        "الجزائرية الأولى",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5109-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/2386-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
       }
