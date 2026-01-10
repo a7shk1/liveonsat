@@ -163,26 +163,6 @@
     {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
       "kickoff_baghdad": "18:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "بورنموث",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/116-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50-1-126x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
-      "kickoff_baghdad": "18:00",
       "home_team": "مانشستر سيتي",
       "away_team": "إكسيتر",
       "channels_raw": [
@@ -198,6 +178,26 @@
         "score": 67,
         "dmin": 60,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
+      "kickoff_baghdad": "18:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "بورنموث",
+      "channels_raw": [
+        "beIN Sports HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/116-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50-1-126x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -281,25 +281,6 @@
       }
     },
     {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 32",
-      "kickoff_baghdad": "20:00",
-      "home_team": "افرانش",
-      "away_team": "ستراسبورج",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/7059-134x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/479.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "20:00",
       "home_team": "روما",
@@ -316,6 +297,25 @@
         "score": 36,
         "dmin": 0,
         "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, كأس فرنسا - دور الـ 32",
+      "kickoff_baghdad": "20:00",
+      "home_team": "افرانش",
+      "away_team": "ستراسبورج",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/7059-134x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/479.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 52,
+        "dmin": 180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -420,26 +420,6 @@
       }
     },
     {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
-      "kickoff_baghdad": "23:00",
-      "home_team": "تشارلتون اثلتيك",
-      "away_team": "تشيلسي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/106-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "فرنسا, كأس فرنسا - دور الـ 32",
       "kickoff_baghdad": "23:00",
       "home_team": "سوشو",
@@ -470,6 +450,26 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/139-130x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/156-1-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
+      "kickoff_baghdad": "23:00",
+      "home_team": "تشارلتون اثلتيك",
+      "away_team": "تشيلسي",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/106-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
