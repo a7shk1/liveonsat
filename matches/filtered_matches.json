@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-10",
+  "date": "2026-01-11",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
@@ -42,25 +42,6 @@
       }
     },
     {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
-      "kickoff_baghdad": "23:00",
-      "home_team": "تشارلتون اثلتيك",
-      "away_team": "تشيلسي",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/106-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "23:00",
       "home_team": "فالنسيا",
@@ -80,22 +61,21 @@
       }
     },
     {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 32",
-      "kickoff_baghdad": "20:00",
-      "home_team": "افرانش",
-      "away_team": "ستراسبورج",
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
+      "kickoff_baghdad": "23:00",
+      "home_team": "تشارلتون اثلتيك",
+      "away_team": "تشيلسي",
       "channels_raw": [
-        "beIN Sports 4 HD",
-        "TNT Sports 2 HD"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/7059-134x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/479.png",
-      "status_text": "انتهت",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/106-150x150.png",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 120,
+        "score": 65,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -120,21 +100,21 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "باير ليفركوزن",
-      "away_team": "شتوتجارت",
+      "competition": "فرنسا, كأس فرنسا - دور الـ 32",
+      "kickoff_baghdad": "20:00",
+      "home_team": "افرانش",
+      "away_team": "ستراسبورج",
       "channels_raw": [
-        "Shahid MBC",
+        "beIN Sports 4 HD",
         "TNT Sports 2 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/338.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/7059-134x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/479.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 30,
+        "score": 36,
+        "dmin": 0,
         "offset": 120,
         "team_sim": 0.0
       }
@@ -150,6 +130,26 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/175-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/143-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "باير ليفركوزن",
+      "away_team": "شتوتجارت",
+      "channels_raw": [
+        "Shahid MBC",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/338.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
