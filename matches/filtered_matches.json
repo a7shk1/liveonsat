@@ -43,6 +43,25 @@
     {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
       "kickoff_baghdad": "15:15",
+      "home_team": "ماكليسفيلد",
+      "away_team": "كريستال بالاس",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/73.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/10-1-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 75,
+        "dmin": 15,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
+      "kickoff_baghdad": "15:15",
       "home_team": "إيفرتون",
       "away_team": "سندرلاند",
       "channels_raw": [
@@ -56,25 +75,6 @@
       "result_text": "",
       "merge_debug": {
         "score": 37,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
-      "kickoff_baghdad": "15:15",
-      "home_team": "ماكليسفيلد",
-      "away_team": "كريستال بالاس",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/73.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/10-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 75,
         "dmin": 15,
         "offset": 60,
         "team_sim": 0.0
@@ -420,6 +420,26 @@
       }
     },
     {
+      "competition": "فرنسا, كأس فرنسا - دور الـ 32",
+      "kickoff_baghdad": "23:00",
+      "home_team": "سوشو",
+      "away_team": "لانس",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/483-123x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/481.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "23:00",
       "home_team": "فالنسيا",
@@ -450,26 +470,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/106-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 32",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سوشو",
-      "away_team": "لانس",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/483-123x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/481.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
