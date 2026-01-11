@@ -19,7 +19,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -40,7 +40,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -50,15 +50,17 @@
       "home_team": "رايو فاييكانو",
       "away_team": "ريال مايوركا",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "beIN Sports 3 HD",
+        "Football HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/174.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/142.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 37,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -76,8 +78,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 120,
+        "score": 65,
+        "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -88,17 +90,15 @@
       "home_team": "فيورنتينا",
       "away_team": "ميلان",
       "channels_raw": [
-        "Starzplay 1",
-        "Football HD",
-        "TNT Sports 2 HD"
+        "Starzplay 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/228-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 14,
-        "dmin": 135,
+        "score": 25,
+        "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -119,7 +119,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 14,
-        "dmin": 165,
+        "dmin": 105,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -140,7 +140,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 14,
-        "dmin": 165,
+        "dmin": 105,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -152,6 +152,7 @@
       "away_team": "زد",
       "channels_raw": [
         "أون سبورت 1",
+        "Football HD",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8201-132x150.png",
@@ -159,9 +160,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 60,
-        "offset": -180,
+        "score": 14,
+        "dmin": 135,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -172,6 +173,7 @@
       "away_team": "إسبانيول",
       "channels_raw": [
         "beIN Sports 3 HD",
+        "Football HD",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/150.png",
@@ -179,9 +181,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 45,
-        "offset": -180,
+        "score": 14,
+        "dmin": 150,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -191,19 +193,13 @@
       "home_team": "مانشستر يونايتد",
       "away_team": "برايتون",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 2 HD"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/105-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/38-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -120,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "ألمانيا, الدوري الألماني",
@@ -211,19 +207,13 @@
       "home_team": "بايرن ميونخ",
       "away_team": "فولفسبورج",
       "channels_raw": [
-        "Shahid MBC",
-        "TNT Sports 2 HD"
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/339-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -120,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -231,19 +221,13 @@
       "home_team": "هيلاس فيرونا",
       "away_team": "لاتسيو",
       "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 2 HD"
+        "Starzplay 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/316-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/236.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "إسبانيا, كأس السوبر الإسباني - النهائي",
@@ -251,17 +235,16 @@
       "home_team": "برشلونة",
       "away_team": "ريال مدريد",
       "channels_raw": [
-        "تطبيق ثمانية",
-        "TNT Sports 2 HD"
+        "تطبيق ثمانية"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/132-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/131-4-115x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 0,
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -272,16 +255,16 @@
       "away_team": "نابولي",
       "channels_raw": [
         "Starzplay 1",
-        "TNT Sports 2 HD"
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/224-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/234-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": 60,
+        "score": 13,
+        "dmin": 165,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
