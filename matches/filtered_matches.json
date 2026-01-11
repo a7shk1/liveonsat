@@ -3,27 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "16:00",
-      "home_team": "رايو فاييكانو",
-      "away_team": "ريال مايوركا",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "Football HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/174.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/142.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "17:00",
       "home_team": "فيورنتينا",
@@ -115,7 +94,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8201-132x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/29732-136x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 14,
@@ -136,7 +115,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/136-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 14,
@@ -144,20 +123,6 @@
         "offset": 180,
         "team_sim": 0.0
       }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "بايرن ميونخ",
-      "away_team": "فولفسبورج",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/339-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": null
     },
     {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
@@ -169,6 +134,20 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/105-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/38-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "بايرن ميونخ",
+      "away_team": "فولفسبورج",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/339-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": null
@@ -265,6 +244,27 @@
         "score": 37,
         "dmin": 15,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "16:00",
+      "home_team": "رايو فاييكانو",
+      "away_team": "ريال مايوركا",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "Football HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/174.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/142.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
