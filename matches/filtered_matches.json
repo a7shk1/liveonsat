@@ -40,34 +40,9 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/478-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/465-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": null
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "بايرن ميونخ",
-      "away_team": "فولفسبورج",
-      "channels_raw": [
-        "Shahid MBC",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "Football HD",
-        "Thmanyah KSA",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/339-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 18,
-        "dmin": 150,
-        "offset": 180,
-        "team_sim": 0.0
-      }
     },
     {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
@@ -81,12 +56,21 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/38-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 90,
-        "offset": 180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "بايرن ميونخ",
+      "away_team": "فولفسبورج",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/339-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": null
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -94,24 +78,13 @@
       "home_team": "هيلاس فيرونا",
       "away_team": "لاتسيو",
       "channels_raw": [
-        "Starzplay 1",
-        "ESPN 1 Brazil HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "Football HD",
-        "Thmanyah KSA",
-        "TNT Sports 1 HD"
+        "Starzplay 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/316-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/236.png",
       "status_text": "انتهت",
       "result_text": "",
-      "merge_debug": {
-        "score": 18,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     }
   ]
 }
