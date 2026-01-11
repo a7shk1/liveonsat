@@ -19,7 +19,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 60,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -40,7 +40,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 60,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -61,7 +61,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -72,7 +72,6 @@
       "away_team": "ميلان",
       "channels_raw": [
         "Starzplay 1",
-        "Football HD",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/228-150x150.png",
@@ -80,9 +79,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": 180,
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -99,8 +98,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 75,
-        "dmin": 0,
+        "score": 65,
+        "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -112,7 +111,6 @@
       "away_team": "أوغسبورغ",
       "channels_raw": [
         "Shahid MBC",
-        "Football HD",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/349.png",
@@ -120,9 +118,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 27,
-        "dmin": 45,
-        "offset": 180,
+        "score": 26,
+        "dmin": 30,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -133,7 +131,6 @@
       "away_team": "كوينز بارك رينجرز",
       "channels_raw": [
         "beIN Sports 5 HD",
-        "Football HD",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/113-1.png",
@@ -141,9 +138,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 27,
-        "dmin": 45,
-        "offset": 180,
+        "score": 26,
+        "dmin": 30,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -163,7 +160,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -183,7 +180,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -193,16 +190,17 @@
       "home_team": "مانشستر يونايتد",
       "away_team": "برايتون",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/105-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/38-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 150,
-        "offset": 180,
+        "score": 26,
+        "dmin": 30,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -242,7 +240,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -262,7 +260,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -282,7 +280,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": 180,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
