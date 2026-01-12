@@ -9,17 +9,16 @@
       "away_team": "فيتنام تحت 23",
       "channels_raw": [
         "beIN Sports 5 HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/28914-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28923.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 14,
-        "dmin": 165,
-        "offset": 180,
+        "score": 13,
+        "dmin": 90,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -30,36 +29,15 @@
       "away_team": "قرغيزستان تحت 23",
       "channels_raw": [
         "beIN Sports 6 HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28920.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/24948-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 14,
-        "dmin": 165,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "الهلال",
-      "away_team": "النصر",
-      "channels_raw": [
-        "ثمانية 1",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5457-127x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/7549-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
         "score": 13,
-        "dmin": 150,
+        "dmin": 90,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -78,8 +56,28 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 150,
+        "score": 26,
+        "dmin": 30,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "20:30",
+      "home_team": "الهلال",
+      "away_team": "النصر",
+      "channels_raw": [
+        "ثمانية 1",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5457-127x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/7549-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -100,7 +98,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -120,7 +118,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -140,7 +138,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -160,7 +158,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 10,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
