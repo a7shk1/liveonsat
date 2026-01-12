@@ -5,6 +5,25 @@
     {
       "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ج",
       "kickoff_baghdad": "14:30",
+      "home_team": "أوزبكستان تحت 23",
+      "away_team": "كوريا الجنوبية تحت 23",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28919-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28916-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 62,
+        "dmin": 120,
+        "offset": 180,
+        "team_sim": 0.17424242424242425
+      }
+    },
+    {
+      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ج",
+      "kickoff_baghdad": "14:30",
       "home_team": "إيران تحت 23",
       "away_team": "لبنان تحت 23",
       "channels_raw": [
@@ -22,25 +41,6 @@
         "dmin": 5,
         "offset": 180,
         "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ج",
-      "kickoff_baghdad": "14:30",
-      "home_team": "أوزبكستان تحت 23",
-      "away_team": "كوريا الجنوبية تحت 23",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28919-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28916-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 62,
-        "dmin": 120,
-        "offset": 180,
-        "team_sim": 0.17424242424242425
       }
     },
     {
@@ -109,7 +109,7 @@
       "home_team": "شتوتجارت",
       "away_team": "آينتراخت فرانكفورت",
       "channels_raw": [
-        "غير معروف",
+        "MBC Action",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/338.png",
@@ -129,7 +129,7 @@
       "home_team": "ماينز 05",
       "away_team": "هايدينهايم",
       "channels_raw": [
-        "غير معروف",
+        "Shahid MBC",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/352.png",
@@ -184,6 +184,26 @@
       }
     },
     {
+      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "روما",
+      "away_team": "تورينو",
+      "channels_raw": [
+        "Shahid MBC",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/235-137x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "فرنسا, كأس فرنسا - دور الـ 32",
       "kickoff_baghdad": "23:00",
       "home_team": "Bayeux",
@@ -224,21 +244,21 @@
       }
     },
     {
-      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "روما",
-      "away_team": "تورينو",
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
+      "kickoff_baghdad": "22:45",
+      "home_team": "ليفربول",
+      "away_team": "بارنزلي",
       "channels_raw": [
-        "Shahid MBC",
+        "beIN Sports HD",
         "TNT Sports 2 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/235-137x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/108-90x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/17-150x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 0,
+        "dmin": 15,
         "offset": -120,
         "team_sim": 0.0
       }
@@ -254,26 +274,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/226-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/290.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 3",
-      "kickoff_baghdad": "22:45",
-      "home_team": "ليفربول",
-      "away_team": "بارنزلي",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/108-90x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/17-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
