@@ -47,6 +47,20 @@
       }
     },
     {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "شتوتجارت",
+      "away_team": "آينتراخت فرانكفورت",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/338.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/337.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "20:30",
       "home_team": "ضمك",
@@ -62,17 +76,22 @@
     },
     {
       "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "شتوتجارت",
-      "away_team": "آينتراخت فرانكفورت",
+      "kickoff_baghdad": "22:30",
+      "home_team": "هامبورج",
+      "away_team": "باير ليفركوزن",
       "channels_raw": [
-        "MBC Action"
+        "Shahid MBC"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/338.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/337.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/334.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "ألمانيا, الدوري الألماني",
@@ -108,44 +127,6 @@
       "merge_debug": {
         "score": 12,
         "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "22:30",
-      "home_team": "هامبورج",
-      "away_team": "باير ليفركوزن",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/334.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "روما",
-      "away_team": "تورينو",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/235-137x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 120,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -208,45 +189,22 @@
       }
     },
     {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ج",
-      "kickoff_baghdad": "14:30",
-      "home_team": "أوزبكستان تحت 23",
-      "away_team": "كوريا الجنوبية تحت 23",
+      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "روما",
+      "away_team": "تورينو",
       "channels_raw": [
-        "beIN Sports 5 HD",
-        "Football HD",
-        "Varzish TV Sport HD"
+        "Shahid MBC"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28919-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28916-150x150.png",
-      "status_text": "انتهت",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/235-137x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 77,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.17424242424242425
-      }
-    },
-    {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - المجموعة ج",
-      "kickoff_baghdad": "14:30",
-      "home_team": "إيران تحت 23",
-      "away_team": "لبنان تحت 23",
-      "channels_raw": [
-        "الكأس 6 HD",
-        "Football HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28911.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/48242-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 40,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.2222222222222222
+        "score": 12,
+        "dmin": 120,
+        "offset": -180,
+        "team_sim": 0.0
       }
     }
   ]
