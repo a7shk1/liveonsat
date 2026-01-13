@@ -8,17 +8,20 @@
       "home_team": "إيران تحت 23",
       "away_team": "لبنان تحت 23",
       "channels_raw": [
-        "الكأس 6 HD"
+        "الكأس 6 HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28911.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/48242-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
-        "dmin": 60,
+        "score": 38,
+        "dmin": 0,
         "offset": 180,
-        "team_sim": 0.2361111111111111
+        "team_sim": 0.0
       }
     },
     {
@@ -34,8 +37,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 75,
-        "dmin": 60,
+        "score": 62,
+        "dmin": 180,
         "offset": 180,
         "team_sim": 0.17424242424242425
       }
@@ -47,18 +50,16 @@
       "away_team": "سوريا تحت 23",
       "channels_raw": [
         "الكأس 6 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "Shahid MBC"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/28922.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28910-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 15,
-        "dmin": 180,
-        "offset": 180,
+        "score": 13,
+        "dmin": 90,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -69,18 +70,16 @@
       "away_team": "قطر تحت 23",
       "channels_raw": [
         "beIN Sports 5 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "Shahid MBC"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28912-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/13399-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 15,
-        "dmin": 180,
-        "offset": 180,
+        "score": 13,
+        "dmin": 90,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -98,8 +97,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 150,
+        "score": 26,
+        "dmin": 30,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -118,8 +117,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 150,
+        "score": 26,
+        "dmin": 30,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -140,7 +139,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -160,7 +159,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -180,7 +179,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -200,7 +199,7 @@
       "merge_debug": {
         "score": 46,
         "dmin": 0,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.16666666666666666
       }
     },
@@ -220,7 +219,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -240,7 +239,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
