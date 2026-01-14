@@ -21,7 +21,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 0,
-        "offset": 180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -44,7 +44,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 0,
-        "offset": 180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -54,16 +54,20 @@
       "home_team": "السنغال",
       "away_team": "مصر",
       "channels_raw": [
-        "الجزائرية الأولى"
+        "الجزائرية الأولى",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "MBC Action HD",
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5102-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5100.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": -180,
+        "score": 16,
+        "dmin": 150,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -73,16 +77,20 @@
       "home_team": "فولفسبورج",
       "away_team": "سانت باولي",
       "channels_raw": [
-        "MBC Action"
+        "MBC Action",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "MBC Action HD",
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/339-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/359-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
+        "score": 16,
+        "dmin": 180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -92,16 +100,20 @@
       "home_team": "نابولي",
       "away_team": "بارما",
       "channels_raw": [
-        "Starzplay 1"
+        "Starzplay 1",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "MBC Action HD",
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/234-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/241-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
+        "score": 16,
+        "dmin": 180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -111,16 +123,20 @@
       "home_team": "الأهلي السعودي",
       "away_team": "التعاون",
       "channels_raw": [
-        "MBC Action"
+        "MBC Action",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "MBC Action HD",
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/ahliksa-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8941-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
+        "score": 16,
+        "dmin": 180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -136,12 +152,7 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/354-115x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "ألمانيا, الدوري الألماني",
@@ -155,12 +166,7 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -174,12 +180,7 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/246.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "إنجلترا, كأس الكاراباو - نصف النهائي",
@@ -194,8 +195,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 12,
+        "dmin": 180,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -213,8 +214,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 12,
+        "dmin": 180,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -232,8 +233,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 12,
+        "dmin": 180,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -251,8 +252,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 12,
+        "dmin": 180,
         "offset": -180,
         "team_sim": 0.0
       }
