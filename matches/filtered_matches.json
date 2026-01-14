@@ -3,44 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "22:30",
-      "home_team": "كولن",
-      "away_team": "بايرن ميونخ",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/350.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "22:30",
-      "home_team": "لايبزيج",
-      "away_team": "فرايبورج",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7171-150x108.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/354-115x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "22:45",
       "home_team": "إنتر ميلان",
@@ -55,25 +17,6 @@
       "merge_debug": {
         "score": 12,
         "dmin": 135,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - نصف النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "نيجيريا",
-      "away_team": "المغرب",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/2386-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5093-1-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 120,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -126,6 +69,25 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/146.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/156-1-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 120,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, كأس أمم إفريقيا - نصف النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "نيجيريا",
+      "away_team": "المغرب",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/2386-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5093-1-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -264,6 +226,25 @@
       }
     },
     {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "فولفسبورج",
+      "away_team": "سانت باولي",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/339-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/359-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 165,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "20:30",
       "home_team": "الأهلي السعودي",
@@ -303,20 +284,39 @@
     },
     {
       "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "فولفسبورج",
-      "away_team": "سانت باولي",
+      "kickoff_baghdad": "22:30",
+      "home_team": "كولن",
+      "away_team": "بايرن ميونخ",
       "channels_raw": [
         "MBC Action"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/339-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/359-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/350.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 12,
-        "dmin": 165,
-        "offset": 180,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "22:30",
+      "home_team": "لايبزيج",
+      "away_team": "فرايبورج",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7171-150x108.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/354-115x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
