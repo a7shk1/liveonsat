@@ -3,84 +3,7 @@
   "source_url": "https://m.liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": null,
-      "title": "Red Star Belgrade v Salzburg",
-      "kickoff_baghdad": "07:00",
-      "channels_raw": [
-        "Arena Premium 1 Srbija HD",
-        "Arena Sport 1 BiH HD",
-        "Arena Sport 10 Srbija HD",
-        "Qatar Stars League - Week 13"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Al Wakrah v Al Duhail",
-      "kickoff_baghdad": "07:30",
-      "channels_raw": [
-        "beIN Sports MENA 5 HD",
-        "Türkiye Cup - Group Stage: Round 2"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Bodrumspor v Konyaspor",
-      "kickoff_baghdad": "08:00",
-      "channels_raw": [
-        "A Spor Türkiye HD",
-        "SportKlub 2 Slovenija",
-        "SportKlub 3 Hrvatska",
-        "UAE Pro League - Week 10"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Shabab Al Ahli v Ajman",
-      "kickoff_baghdad": "08:45",
-      "channels_raw": [
-        "Thriller TV+ [online] ($/geo/R)",
-        "Albanian Superliga - Week 19"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Teuta v Dinamo City",
-      "kickoff_baghdad": "09:00",
-      "channels_raw": [
-        "FIFA+ [app] (geo/R)",
-        "RTSH Tani [app]",
-        "Bahrain Premiere League - Week 12"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Bahrain SC v Sitra",
-      "kickoff_baghdad": "09:00",
-      "channels_raw": [
-        "Fanseat LIVE ($/geo/R)",
-        "Bahrain Premiere League - Week 12"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Al Ahli v Muharraq",
-      "kickoff_baghdad": "09:00",
-      "channels_raw": [
-        "Fanseat LIVE ($/geo/R)",
-        "Qatar Stars League - Week 13"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Al Arabi v Al Gharafa",
-      "kickoff_baghdad": "09:30",
-      "channels_raw": [
-        "beIN Sports MENA Global HD",
-        "Italian Serie A - Week 16"
-      ]
-    },
-    {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Hellas Verona v Bologna",
       "kickoff_baghdad": "10:30",
       "channels_raw": [
@@ -122,6 +45,7 @@
         "S Sport+ Streaming",
         "Setanta Sports 1 Eurasia HD",
         "Sport 1 Czechia HD",
+        "Sport 1 Israel HD",
         "Sport 1 Slovakia HD",
         "Sport TV1 Portugal HD",
         "SuperSport Football HD",
@@ -138,7 +62,7 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Besiktas v Keçiörengücü",
       "kickoff_baghdad": "10:30",
       "channels_raw": [
@@ -152,7 +76,7 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Heerenveen v RKC Waalwijk",
       "kickoff_baghdad": "10:45",
       "channels_raw": [
@@ -162,7 +86,7 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Anderlecht v AA Gent",
       "kickoff_baghdad": "12:30",
       "channels_raw": [
@@ -171,7 +95,7 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "West Bromwich Albion v Everton",
       "kickoff_baghdad": "12:30",
       "channels_raw": [
@@ -181,7 +105,7 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Augsburg v Union Berlin",
       "kickoff_baghdad": "12:30",
       "channels_raw": [
@@ -207,6 +131,7 @@
         "Setanta Sports+ Ukraine HD",
         "Sky Sport Bundesliga HD",
         "Sky Sport Calcio HD",
+        "Sport 2 Israel HD",
         "Sport TV2 Slovenija",
         "SportKlub 3 Hrvatska",
         "Tivibu Spor 2 HD",
@@ -216,7 +141,7 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "V Sport Premium HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -231,7 +156,7 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Como v AC Milan",
       "kickoff_baghdad": "12:45",
       "channels_raw": [
@@ -283,13 +208,14 @@
         "TV2 Play Danmark ($/geo/R)",
         "TV4 Fotboll HD",
         "TV4 Play Sverige [online]",
+        "Varzish TV Sport HD (tjk)",
         "VG+ Sport Norge ($/geo/R)",
         "Ziggo Sport 2",
         "Dutch Cup (KNVB Beker) - 5th Round"
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Sparta Rotterdam v Volendam",
       "kickoff_baghdad": "13:00",
       "channels_raw": [
@@ -299,36 +225,45 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Racing Santander v Barcelona",
       "kickoff_baghdad": "13:00",
       "channels_raw": [
+        "América Peru HD",
         "Arena Premium 1 Slovenija",
         "Arena Premium 3 BiH HD",
         "Arena Sport 2 Hrvatska HD",
         "Arena Sport 2 Srbija HD",
+        "Cytavision Sports 8 HD",
         "Disney+ Danmark ($/geo/R)",
         "Disney+ Norge ($/geo/R)",
         "Eleven Sports 1 Polska HD",
+        "Futbol TV Tajikistan",
+        "GEM Sport HD",
         "M+ LaLiga HD",
         "MATCH! Russia HD",
         "MAX Sport 4 Bulgaria HD",
+        "MBC Masr 2 HD",
         "Movistar Plus+ HD",
         "Premier Sports 1 Ireland HD",
         "Premier Sports 1 UK HD",
         "Premier Sports GB Player HD",
         "Prima Sport RO 1 HD",
         "S Sport+ Streaming",
+        "Solh TV",
         "Sport 2 Hungary HD",
+        "Sport 3 Israel HD",
         "Sport TV3 Portugal HD",
         "Sport+ Qazaqstan",
+        "ST World Football HD",
         "SuperSport 2 Albania HD",
         "Ziggo Sport HD",
+        "Zor TV Uzbekistan",
         "Spanish Cup (Copa del Rey) - Round of 16"
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Burgos v Valencia",
       "kickoff_baghdad": "13:00",
       "channels_raw": [
@@ -346,16 +281,27 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Vizela v Paços Ferreira",
       "kickoff_baghdad": "13:15",
       "channels_raw": [
         "Sport TV1 Portugal HD",
+        "Discover more",
+        "Spor",
+        "Deportes",
+        "Motorsport Event Tickets",
+        "Live match tickets",
+        "Team merchandise",
+        "Team scarves",
+        "International tournament guides",
+        "Premier League",
+        "Television",
+        "Boxing Apparel",
         "Australian W-League - Week 13"
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Melbourne City v Newcastle Jets",
       "kickoff_baghdad": "22:50",
       "channels_raw": [
@@ -367,29 +313,18 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Western Sydney v Brisbane Roar",
       "kickoff_baghdad": "01:00",
       "channels_raw": [
         "Discovery+ UK ($/geo/R)",
         "Sky Sport 4 NZ HD",
         "TNT Sports 2 HD",
-        "Discover more",
-        "Sport",
-        "Sporty",
-        "SPORT",
-        "TV Networks & Stations",
-        "Spor",
-        "Movie & TV Streaming",
-        "Deportes",
-        "Sports News",
-        "Soccer",
-        "TV & Video",
         "Australian A League - Week 13"
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Melbourne City v Auckland FC",
       "kickoff_baghdad": "01:35",
       "channels_raw": [
@@ -401,7 +336,7 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Perth Glory v Brisbane Roar",
       "kickoff_baghdad": "03:45",
       "channels_raw": [
@@ -409,11 +344,27 @@
         "Sky Sport 4 NZ HD",
         "Sportdigital FUSSBALL HD",
         "TNT Sports 3 HD",
+        "AFC U-23 Asian Cup - Quarter Final"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Japan U-23 v Jordan U-23",
+      "kickoff_baghdad": "04:30",
+      "channels_raw": [
+        "Astro Arena Bola HD",
+        "Astro GO Malaysia ($/geo/R)",
+        "beIN Sports MENA 6 HD",
+        "OneFootball [app] ($/geo/R)",
+        "Spor Smart Türkiye HD",
+        "SportKlub 1 Hrvatska HD",
+        "SportKlub 1 Slovenija HD",
+        "YouTube: AFC Asian Cup",
         "Friendly Club Match"
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Novi Pazar v Karviná",
       "kickoff_baghdad": "05:00",
       "channels_raw": [
@@ -428,43 +379,244 @@
         "Omonoia TV on Cyta ($/geo/R)",
         "Polsat Sport 1 HD",
         "Premier Sports 1 Ireland HD",
+        "Sport 2 Israel HD",
         "TNT Sports 2 HD",
         "TV2 Play Danmark ($/geo/R)",
         "UEFA.TV [online] (geo/R)"
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "V Sport 3 Norge HD",
       "kickoff_baghdad": null,
       "channels_raw": [
         "ViaPlay Norge HD",
         "ViaPlay Suomi HD",
         "ViaPlay Ísland HD",
-        "AFC U-23 Asian Cup - Quarter Final"
+        "Israeli Liga Leumit (2nd) - Week 19"
       ]
     },
     {
-      "competition": null,
-      "title": "Japan U-23 v Jordan U-23",
-      "kickoff_baghdad": "05:30",
+      "competition": "Italian Serie A - Week 16",
+      "title": "Hapoel Ramat Gan v Bnei Yehuda",
+      "kickoff_baghdad": "06:00",
       "channels_raw": [
-        "Astro Arena Bola HD",
-        "Astro GO Malaysia ($/geo/R)",
-        "beIN Sports MENA 6 HD",
-        "Spor Smart Türkiye HD",
-        "SportKlub 1 Hrvatska HD",
-        "SportKlub 1 Slovenija HD",
-        "YouTube: AFC Asian Cup",
+        "5 STARS Israel HD",
+        "Israeli Liga Leumit (2nd) - Week 19"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Maccabi Herzliya v Kiryat Yam",
+      "kickoff_baghdad": "06:00",
+      "channels_raw": [
+        "5 LIVE Israel HD",
         "Saudi Pro League - Week 16"
       ]
     },
     {
-      "competition": null,
+      "competition": "Italian Serie A - Week 16",
       "title": "Al Najma v Al Fateh",
       "kickoff_baghdad": "06:40",
       "channels_raw": [
         "Thmanyah KSA [app]",
+        "Discover more",
+        "Spor",
+        "Fantasy football leagues",
+        "La Liga Match Tickets",
+        "Sports betting platforms",
+        "Football kits",
+        "Soccer Match Tickets",
+        "International tournament guides",
+        "Youth Soccer Training",
+        "Sports commentary podcasts",
+        "Football boots",
+        "Friendly Club Match"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Osijek v Sumqayit",
+      "kickoff_baghdad": "07:30",
+      "channels_raw": [
+        "MAX Sport 1 Hrvatska HD",
+        "Qatar Stars League - Week 13"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Al Shahania v Umm Salal",
+      "kickoff_baghdad": "07:30",
+      "channels_raw": [
+        "beIN Sports MENA 5 HD",
+        "Saudi Pro League - Week 16"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Al Khaleej v Al Akhdoud",
+      "kickoff_baghdad": "07:45",
+      "channels_raw": [
+        "Thmanyah KSA [app]",
+        "Friendly Club Match"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Brann v Slavia Prague",
+      "kickoff_baghdad": "08:00",
+      "channels_raw": [
+        "VG+ Sport Norge ($/geo/R)",
+        "AFC U-23 Asian Cup - Quarter Final"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Vietnam U-23 v U.A.E. U-23",
+      "kickoff_baghdad": "08:30",
+      "channels_raw": [
+        "Astro Arena HD",
+        "Astro GO Malaysia ($/geo/R)",
+        "beIN Sports MENA 6 HD",
+        "OneFootball [app] ($/geo/R)",
+        "Spor Smart Türkiye HD",
+        "SportKlub 1 Hrvatska HD",
+        "SportKlub 3 Slovenija",
+        "YouTube: AFC Asian Cup",
+        "Qatar Stars League - Week 13"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Al Sadd v Al Ahli",
+      "kickoff_baghdad": "09:30",
+      "channels_raw": [
+        "beIN Sports MENA Global HD",
+        "Cypriot 2. Division - Championship Round 1"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Doxa v Karmiotissa",
+      "kickoff_baghdad": "10:00",
+      "channels_raw": [
+        "Cytavision Sports 2 HD",
+        "Israeli Liga Leumit (2nd) - Week 19"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Hapoel Kfar Saba v Hapoel Afula",
+      "kickoff_baghdad": "10:00",
+      "channels_raw": [
+        "5 LIVE Israel HD",
+        "Türkiye 1. Lig - Week 21"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Corum FK v Adana Demirspor",
+      "kickoff_baghdad": "10:00",
+      "channels_raw": [
+        "beIN Connect Türkiye",
+        "beIN Sports Türkiye 2 HD",
+        "TRT Spor Türkiye HD",
+        "German 2. Bundesliga - Week 18"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Fortuna Düsseldorf v Arminia Bielefeld",
+      "kickoff_baghdad": "10:30",
+      "channels_raw": [
+        "Arena Premium 4 Srbija HD",
+        "beIN Sports 3 HD (Astro)",
+        "DAZN 2 Portugal HD",
+        "Diema Sport 3 HD",
+        "Eleven Sports 1 Polska HD",
+        "ESPN+ USA ($/geo/R)",
+        "Nova Sport 5 Czech HD",
+        "Nova Sports 2 Cyprus HD",
+        "Nova Sports 2 Hellas HD",
+        "OneFootball [app] ($/geo/R)",
+        "Prima Sport RO 5 HD",
+        "Sky Sport Bundesliga 3 HD",
+        "Sport 1 Israel HD",
+        "Sport TV1 Slovenija",
+        "SportKlub 3 Hrvatska",
+        "Tivibu Spor 2 HD",
+        "TSN Malta 6 HD",
+        "ViaPlay 3 Urheilu HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD",
+        "YouTube: Bundesliga",
+        "YouTube: German Football (geo/R)",
+        "Discover more",
+        "VPN services",
+        "Women's Soccer Gear",
+        "Cytavision",
+        "TV schedule apps",
+        "Football boots",
+        "Sports travel packages",
+        "Premier League",
+        "Deportes",
+        "Sport",
+        "Bundesliga Team Jerseys",
+        "German 2. Bundesliga - Week 18"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Braunschweig v Magdeburg",
+      "kickoff_baghdad": "10:30",
+      "channels_raw": [
+        "Arena Premium 3 Srbija HD",
+        "Diema Sport 2 HD",
+        "Eleven Sports 3 Polska HD",
+        "ESPN+ USA ($/geo/R)",
+        "Nova Sport 4 Czech HD",
+        "OneFootball [app] ($/geo/R)",
+        "Prima Sport RO PPV 1",
+        "Sky Sport Bundesliga 4 HD",
+        "Sport TV2 Slovenija",
+        "SportKlub 7 Hrvatska",
+        "Tivibu Spor 3 HD",
+        "TSN Malta 7 HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "Viaplay TV Suomi HD",
+        "ViaPlay Ísland HD",
+        "YouTube: Bundesliga",
+        "YouTube: German Football (geo/R)",
+        "Saudi Pro League - Week 16"
+      ]
+    },
+    {
+      "competition": "Italian Serie A - Week 16",
+      "title": "Al Ittihad v Al Ettifaq",
+      "kickoff_baghdad": "10:30",
+      "channels_raw": [
+        "Como TV ($/geo/R)",
+        "Cosmote Sport 3 HD",
+        "DAZN France ($/geo/R)",
+        "M+ Liga de Campeones HD",
+        "M+ Vamos 2 España HD",
+        "Prima Sport RO 2 HD",
+        "Setanta Sports Premium HD",
+        "Sport TV2 Portugal HD",
+        "Sportdigital FUSSBALL HD",
+        "SportKlub 1 Slovenija HD",
+        "SportKlub 5 Hrvatska",
+        "SuperSport 3 Albania HD",
+        "Thmanyah KSA [app]",
+        "YouTube: Saudi Pro League",
         "L.J.'s LIVE Football on Satellite TV. LiveOnSat.com. LJ-Sport.com. All Rights",
         "Reserved. Copyright (c) 1997 - 2026",
         "Cookie Consent by",
