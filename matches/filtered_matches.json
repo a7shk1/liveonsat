@@ -15,10 +15,10 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 79,
-        "dmin": 60,
+        "score": 65,
+        "dmin": 30,
         "offset": 180,
-        "team_sim": 0.23333333333333334
+        "team_sim": 0.0
       }
     },
     {
@@ -28,15 +28,15 @@
       "away_team": "الأخدود",
       "channels_raw": [
         "تطبيق ثمانية",
-        "TNT Sports 1 HD"
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/12138-136x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/55794-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 15,
+        "score": 13,
+        "dmin": 180,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -54,9 +54,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 90,
-        "offset": 180,
+        "score": 35,
+        "dmin": 20,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -74,9 +74,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 80,
-        "offset": -180,
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -87,16 +87,16 @@
       "away_team": "لوريان",
       "channels_raw": [
         "beIN Sports 4 HD",
-        "TNT Sports 1 HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/471-1-94x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/472.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 50,
-        "offset": -180,
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -115,8 +115,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 20,
-        "offset": -120,
+        "dmin": 0,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -135,8 +135,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 5,
-        "offset": -120,
+        "dmin": 15,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -146,17 +146,16 @@
       "home_team": "باريس سان جيرمان",
       "away_team": "ليل",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 1 HD"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/480-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/478-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 10,
-        "offset": -120,
+        "score": 65,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -167,7 +166,7 @@
       "away_team": "ميدلزبره",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 1 HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5-137x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/115-150x150.png",
@@ -175,8 +174,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 10,
-        "offset": -120,
+        "dmin": 0,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -187,16 +186,16 @@
       "away_team": "جيرونا",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "TNT Sports 1 HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/136-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/175-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 10,
-        "offset": -120,
+        "score": 53,
+        "dmin": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
