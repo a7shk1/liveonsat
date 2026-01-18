@@ -3,6 +3,46 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "16:05",
+      "home_team": "عجمان",
+      "away_team": "الظفرة",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1",
+        "Football HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8652-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/8352-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 20,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "18:45",
+      "home_team": "شباب الاهلي",
+      "away_team": "دبا الفجيرة",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8347-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/10880-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "20:30",
       "home_team": "كريمونيسي",
@@ -20,6 +60,25 @@
         "score": 14,
         "dmin": 165,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي - الدرجة الثانية",
+      "kickoff_baghdad": "22:45",
+      "home_team": "نانسي",
+      "away_team": "جانجون",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/467-139x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/496-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 135,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -76,25 +135,6 @@
       "merge_debug": {
         "score": 12,
         "dmin": 120,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, كأس أمم إفريقيا - النهائي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "السنغال",
-      "away_team": "المغرب",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5102-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/5093-1-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 180,
         "offset": -180,
         "team_sim": 0.0
       }
