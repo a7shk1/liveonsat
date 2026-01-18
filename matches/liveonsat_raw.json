@@ -1,983 +1,66 @@
 {
-  "date": "2026-01-17",
+  "date": "2026-01-18",
   "source_url": "https://m.liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": "English Championship - Week 27",
-      "title": "Swansea City v Birmingham City",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "Arena Sport 4 BiH HD",
-        "Arena Sport 9 Hrvatska HD",
-        "Astro Arena Bola 2 HD",
-        "beIN Sports France 10 HD max",
-        "beIN Sports MENA Xtra 1 HD",
-        "Cosmote Sport 1 HD",
-        "EXXEN Digital Türkiye [$]",
-        "Nova Sport 5 Czech HD",
-        "Nova Sport Bulgaria HD",
-        "Paramount+ USA ($/geo/R)",
-        "Sky Go UK [online]",
-        "Sky Sports Football HD",
-        "Sky Sports Main Event HD",
-        "Sky Sports Main Event UHD",
-        "Sky UK Ultra HD 1"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "V Sport 3 Norge HD",
-      "kickoff_baghdad": null,
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "English National League 1 - Week 27"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "York City v Southend United",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "DAZN Great Britain (geo/R)",
-        "DAZN Ireland ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "English Premier League - Week 22"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Nottingham Forest v Arsenal",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "Arena Premium 1 BiH HD",
-        "Arena Premium 1 Slovenija",
-        "Arena Premium 2 Srbija HD",
-        "Arena Sport 1 Hrvatska HD",
-        "Astro Grandstand HD",
-        "Astro Premier League HD",
-        "Astro Sports UHD",
-        "beIN Connect MENA",
-        "beIN Connect Türkiye",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA 4K UHD",
-        "beIN Sports MENA English 1 HD",
-        "beIN Sports Türkiye 3 HD",
-        "Canal+ Extra 1 Polska HD",
-        "Canal+ Foot HD",
-        "Canal+ Live 1 France HD",
-        "Canal+ Sport 1 Czech HD",
-        "Cytavision Sports 3 HD",
-        "DAZN 1 Bar Espana",
-        "DAZN 1 Espana HD",
-        "DAZN España ($/geo/R)",
-        "Diema Sport 2 HD",
-        "Discovery+ UK ($/geo/R)",
-        "FuboTV Canada ($/geo/R)",
-        "GEM Sport HD",
-        "Go3 Extra Sport Baltics ($/geo/R)",
-        "Hub Premier 1 HD ($/geo/R)",
-        "Hub Premier 2 HD ($/geo/R)",
-        "Hub Premier 2 UHD ($/geo/R)",
-        "Idman TV HD",
-        "NBC Universo USA",
-        "NBC USA HD",
-        "Nova Sports Premier League HD",
-        "Peacock Premium USA ($/geo/R)",
-        "Play Sports 1 Belgium",
-        "Setanta Sports 1 Eurasia HD",
-        "Setanta Sports 1 Georgia HD#0",
-        "Setanta Sports Ukraine HD",
-        "Sky Sport 8 NZ HD",
-        "Sky Sport Italia 4K UHD",
-        "Sky Sport Premier League DE HD",
-        "Sky Sport Uno Italia HD",
-        "Sport 1 Israel HD",
-        "Sport 24 At Sea HD",
-        "Sport 24 In Flight HD",
-        "Spíler 1 TV Hungary HD",
-        "Stan Sport Australia ($/geo/R)",
-        "Star Sports Select HD1",
-        "SuperSport 2 Albania HD",
-        "SuperSport MáXimo 2A HD",
-        "SuperSport Premier League HD",
-        "SÝN Sport 1 Ísland HD",
-        "TNT Sports 1 HD",
-        "TNT Sports Digital Exclusive",
-        "TNT Sports Ultimate UHD",
-        "TSN Malta 2 HD",
-        "TV3 MAX Dansk HD"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "V Sport Ultra 4K UHD (geo/R)",
-      "kickoff_baghdad": null,
-      "channels_raw": [
-        "Varzish TV Sport HD (tjk)",
-        "ViaPlay 2 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "VOYO Pro TV Romania [$]",
-        "Discover more",
-        "Fantasy football leagues",
-        "Television",
-        "Football boots",
-        "Sports travel packages",
-        "Sports statistics websites",
-        "Motorsport Event Tickets",
-        "Soccer training gear",
-        "Boxing Apparel",
-        "FIFA+ | Football entertainment",
-        "Urheilu",
-        "German 1. Bundesliga - Week 18"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "RB Leipzig v Bayern Munich",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "Arena 4 Hungary HD",
-        "Arena Premium 5 Srbija HD",
-        "beIN Sports 3 HD (Astro)",
-        "beIN Sports Australia 1 HD",
-        "beIN Sports France 4 HD max",
-        "CRTV Sports Cameroon",
-        "DAZN 3 Portugal HD",
-        "DAZN Japan ($/geo/R)",
-        "Diema Sport 3 HD",
-        "Digi Sport 2 Romania HD",
-        "Eleven Sports 1 Polska HD",
-        "ESPN+ USA ($/geo/R)",
-        "Futbol TV Tajikistan",
-        "Go3 Sport 2 Baltic HD",
-        "MBC Action HD",
-        "Nova Sport 3 Czech HD",
-        "Nova Sports Prime Cyprus HD",
-        "Nova Sports Prime Hellas HD",
-        "Okko Futbol HD ($/geo/R)",
-        "Okko Prime Sport HD ($/geo/R)",
-        "OneFootball [app] ($/geo/R)",
-        "Play Sports 2 Belgium",
-        "Prima Sport RO 2 HD",
-        "S Sport+ Streaming",
-        "See Dansk HD",
-        "Setanta Sports 2 Baltic",
-        "Setanta Sports 3 Georgia HD#0",
-        "Setanta Sports+ Ukraine HD",
-        "Sky Go UK [online]",
-        "Sky Sport Arena Italia HD",
-        "Sky Sport Bundesliga 1 HD",
-        "Sky Sport Bundesliga HD",
-        "Sky Sport Top Event HD",
-        "Sky Sports Football HD",
-        "Sky Sports+ [via APP]",
-        "Sky Sports+ TV HD",
-        "Sport 4 Israel HD",
-        "Sport TV2 Slovenija",
-        "SportKlub 2 Hrvatska",
-        "ST World Football HD",
-        "Tivibu Spor 2 HD",
-        "Tring Sport 2 HD",
-        "TSN Malta 5 HD",
-        "TV2 Play Norge ($/geo/R)"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "V Sport Football HD",
-      "kickoff_baghdad": null,
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "Israeli Ligat ha'Al (Premier) - Week 19"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Bnei Sakhnin v Maccabi Netanya",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "Sport 3 Israel HD",
-        "Saudi Pro League - Week 16"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Al Nassr v Al Shabab",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "Azam Sports 4 HD",
-        "Como TV ($/geo/R)",
-        "Cosmote Sport 7 HD",
-        "DAZN France ($/geo/R)",
-        "M+ Liga de Campeones 2 HD",
-        "M+ Vamos España HD",
-        "Okko Futbol HD ($/geo/R)",
-        "Polsat Sport Premium 1 HD",
-        "Prima Sport RO 3 HD",
-        "S Sport+ Streaming",
-        "Setanta Sports Premium HD",
-        "Setanta Sports Qazaqstan HD",
-        "Sport TV4 Portugal HD",
-        "Sportdigital FUSSBALL 2",
-        "Sportitalia SoloCalcio HD",
-        "SportKlub 2 Slovenija",
-        "SportKlub 3 Hrvatska",
-        "SPOTV Malaysia HD",
-        "ST Sports Arena",
-        "Strike TV",
-        "SuperSport 5 Albania HD",
-        "SuperSport ESPN HD",
-        "Thmanyah KSA [app]",
-        "YouTube: Saudi Pro League",
-        "Spanish La Liga (Primera) - Week 20"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Osasuna v Real Oviedo",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "Arena Premium 3 BiH HD",
-        "Arena Sport 1x2 Srbija",
-        "Arena Sport 3 Hrvatska HD",
-        "beIN Connect MENA",
-        "beIN Sports 1 HD (Astro)",
-        "beIN Sports France 8 HD max",
-        "beIN Sports MENA 3 HD",
-        "beIN Sports MENA English 2 HD",
-        "Blue Sport 4 Live HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN 2 Portugal HD",
-        "DAZN Belgium ($/geo/R)",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "DAZN LaLiga 2 HD",
-        "Eleven Sports 3 Polska HD",
-        "ESPN Deportes",
-        "ESPN+ USA ($/geo/R)",
-        "Fast Sports [online] ($/geo/R)",
-        "Fubo Sports USA ($/geo/R)",
-        "LaLiga TV Bar HD",
-        "LaLiga TV UK [stream] ($/geo/R)",
-        "MATCH! Futbol 2 HD",
-        "MAX Sport 4 Bulgaria HD",
-        "Megogo Futbol 3 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R)",
-        "MTV Urheilu 1 Suomi HD",
-        "Nova Sport 4 Czech HD",
-        "Nova Sports 1 Hellas HD",
-        "ONE Sport Israel HD",
-        "Premier Sports GB Player HD",
-        "Prima Sport RO PPV 2",
-        "S Sport 1 Türkiye HD",
-        "S Sport+ Streaming",
-        "Spíler 2 TV Hungary HD",
-        "ST Sports Life",
-        "SuperSport 1 Albania HD",
-        "SuperSport LaLiga HD",
-        "SuperSport MáXimo 3A HD",
-        "TSN Malta 4 HD",
-        "TSN+ Canada ($/geo/R)",
-        "TV2 Play Danmark ($/geo/R)",
-        "TV2 Play Norge ($/geo/R)",
-        "TV2 Sport Premium HD",
-        "TV4 Play Sverige [online]",
-        "ViaPlay Norge HD",
-        "Ziggo Sport 3",
-        "Spanish La Liga 2 - Week 22"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Real Zaragoza v Real Sociedad II",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "Aragon Deporte Stream",
-        "Aragón TV HD",
-        "DAZN España ($/geo/R)",
-        "GOL España HD",
-        "GolStadium ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "LaLiga TV Bar 2",
-        "Spanish Liga F Femenino - Week 16"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Eibar v Madrid CFF",
-      "kickoff_baghdad": "12:30",
-      "channels_raw": [
-        "DAZN 2 Bar Espana",
-        "DAZN 2 Espana HD",
-        "DAZN España ($/geo/R)",
-        "Dutch Eredivisie - Week 19"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "PEC Zwolle v AZ Alkmaar",
-      "kickoff_baghdad": "12:45",
-      "channels_raw": [
-        "Arena Sport 1 Srbija HD",
-        "Arena Sport 2 Slovakia HD",
-        "ESPN 1 Nederland HD",
-        "ESPN Extra Nederland",
-        "ESPN+ USA ($/geo/R)",
-        "Premier Sports GB Player HD",
-        "SportKlub 11 Hrvatska",
-        "Thriller TV+ [online] ($/geo/R)",
-        "Tivibu Spor 3 HD",
-        "TV Start Russia HD",
-        "French Ligue 1 - Week 18"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Toulouse v Nice",
-      "kickoff_baghdad": "13:00",
-      "channels_raw": [
-        "Arena Premium 3 Srbija HD",
-        "Arena Sport 3 BiH HD",
-        "Arena Sport 7 Hrvatska HD",
-        "beIN Connect MENA",
-        "beIN Connect Türkiye",
-        "beIN Connect USA",
-        "beIN Sports MENA 4 HD",
-        "beIN Sports Türkiye 4 HD",
-        "beIN Sports US Español",
-        "beIN Sports US HD",
-        "Cablenet Sports 2 HD",
-        "DAZN France ($/geo/R)",
-        "Diema Sport HD",
-        "Eleven Sports 4 Polska HD",
-        "Fanatiz USA ($/geo/R)",
-        "Fubo Sports USA ($/geo/R)",
-        "Ligue 1+ ($/geo/R)",
-        "Megogo Futbol 4 ($/geo/R)",
-        "Sport TV3 Portugal HD"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "V Sport 1 Sverige HD",
-      "kickoff_baghdad": null,
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "Portuguese Liga Portugal - Week 18"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "AVS Futebol v Arouca",
-      "kickoff_baghdad": "13:00",
-      "channels_raw": [
-        "Megogo Futbol 6 ($/geo/R)",
-        "Sport TV6 Portugal HD",
-        "Portuguese Liga Portugal - Week 18"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Alverca v Moreirense",
-      "kickoff_baghdad": "13:00",
-      "channels_raw": [
-        "Megogo Futbol 5 ($/geo/R)",
-        "Sport TV1 Portugal HD",
-        "Portuguese Liga Portugal 2 - Week 18"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Benfica II v Chaves",
-      "kickoff_baghdad": "13:00",
-      "channels_raw": [
-        "Benfica TV HD",
-        "Romanian Superliga - Week 22"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Rapid Bucharest v Metaloglobus",
-      "kickoff_baghdad": "13:00",
-      "channels_raw": [
-        "Arena Sport 10 Hrvatska HD",
-        "Digi Sport 1 Romania HD",
-        "Prima Sport RO 1 HD",
-        "Belgian W/Super League - Week 14"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Zulte Waregem v Leuven",
-      "kickoff_baghdad": "13:30",
-      "channels_raw": [
-        "DAZN Belgium ($/geo/R)",
-        "Italian Serie BKT - Week 20"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Bari v Juve Stabia",
-      "kickoff_baghdad": "13:30",
-      "channels_raw": [
-        "DAZN Italia ($/geo/R)",
-        "LaB Channel ($/geo/R)",
-        "OneFootball [app] ($/geo/R)",
-        "Belgian Challenger Pro League - Week 20"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Patro Eisden v Kortrijk",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "DAZN Belgium ($/geo/R)",
-        "Belgian Challenger Pro League - Week 20"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Eupen v SK Beveren",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "DAZN Belgium ($/geo/R)",
-        "Belgian Challenger Pro League - Week 20"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "RFC Liège v Francs Borains",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "DAZN Belgium ($/geo/R)",
-        "Dutch Eredivisie - Week 19"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Fortuna Sittard v PSV Eindhoven",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "Arena Premium 4 Srbija HD",
-        "Arena Sport 1 Slovakia HD",
-        "Cablenet Sports 1 HD",
-        "Como TV ($/geo/R)",
-        "Dubai Sports 2 HD",
-        "ESPN 2 Nederland HD",
-        "ESPN Extra Nederland",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sports 4 Hellas HD",
-        "Play Sports 3 Belgium",
-        "Polsat Sport 2 HD",
-        "Ring Bulgaria HD",
-        "S Sport+ Streaming",
-        "Sport 2 Israel HD",
-        "Sport TV3 Slovenija",
-        "Sportdigital FUSSBALL HD",
-        "SportKlub 5 Hrvatska",
-        "SuperSport 4 Albania HD",
-        "SuperSport ESPN 2 HD",
-        "Thriller TV+ [online] ($/geo/R)",
-        "Tivibu Spor 4 HD",
-        "TV Start Triumph HD",
-        "Dutch Eredivisie - Week 19"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Excelsior v Telstar",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "ESPN 3 Nederland HD",
-        "ESPN Extra Nederland",
-        "Portuguese Liga 3 - Week 17"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Varzim v Sanjoanense",
-      "kickoff_baghdad": "14:00",
-      "channels_raw": [
-        "Canal 11 [online] (geo/R)",
-        "Canal 11 Portugal HD",
-        "German 2. Bundesliga - Week 18"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Hertha Berlin v Schalke 04",
-      "kickoff_baghdad": "14:30",
-      "channels_raw": [
-        "Arena Sport 8 Srbija HD",
-        "beIN Sports Australia 3 HD",
-        "DAZN 3 Portugal HD",
-        "DAZN España ($/geo/R)",
-        "Eleven Sports 2 Polska HD",
-        "ESPN+ USA ($/geo/R)",
-        "Nova Sport 6 Czech HD",
-        "Nova Sport Bulgaria HD",
-        "Nova Sports Start Cyprus HD",
-        "Nova Sports Start Hellas HD",
-        "Okko Futbol HD ($/geo/R)",
-        "OneFootball [app] ($/geo/R)",
-        "Prima Sport RO PPV 1",
-        "RTL Deutschland HD",
-        "RTL Schweiz HD",
-        "RTL Österreich HD",
-        "Setanta Sports Ukraine HD",
-        "Sky Sport Bundesliga 2 HD",
-        "Sky Sport Bundesliga UHD",
-        "Sky Sport Max Italia HD",
-        "Sky Sport Top Event HD",
-        "Sport 4 Israel HD",
-        "Sport TV1 Slovenija",
-        "SportKlub 1 Hrvatska HD",
-        "Tivibu Spor 2 HD",
-        "TSN Malta 7 HD"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "V Sport 2 Norge HD",
-      "kickoff_baghdad": null,
-      "channels_raw": [
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "ViaPlay Ísland HD",
-        "YouTube: Bundesliga",
-        "YouTube: German Football (geo/R)",
-        "Swiss Super League - Week 20"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Young Boys v Lausanne Sport",
-      "kickoff_baghdad": "14:30",
-      "channels_raw": [
-        "Arena Sport 4 BiH HD",
-        "Blue Sport 1 Live UHD",
-        "Blue Sport 4 Live HDR",
-        "Blue Sport 5 Live HD",
-        "Blue Sport D 1 HD",
-        "Play RTS Sport (geo/R)",
-        "RSI La 2 Svizzera HD",
-        "RTS 2 Suisse HD",
-        "SportKlub 4 Hrvatska",
-        "SportKlub 4 Slovenija",
-        "SRF Zwei Schweiz HD",
-        "Belgian Pro League - Week 21"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Union St Gilloise v Mechelen",
-      "kickoff_baghdad": "14:45",
-      "channels_raw": [
-        "DAZN Belgium ($/geo/R)",
-        "DAZN Danmark ($/geo/R)",
-        "DAZN Great Britain (geo/R)",
-        "DAZN Ireland ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "DAZN Norge ($/geo/R)",
-        "DAZN Worldwide ($/geo/R)",
-        "Italian Serie A - Week 21"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Cagliari v Juventus",
-      "kickoff_baghdad": "14:45",
-      "channels_raw": [
-        "Arena Premium 1 Slovenija",
-        "Arena Premium 2 BiH HD",
-        "Arena Premium 2 Srbija HD",
-        "Arena Sport 4 Hrvatska HD",
-        "ART Motion Sport 1 HD",
-        "Astro Football HD",
-        "Astro GO Malaysia ($/geo/R)",
-        "Azam Sports 3 HD",
-        "beIN Connect Australia",
-        "beIN Connect Hong Kong",
-        "beIN Connect New Zealand",
-        "beIN Sports Australia 2 HD",
-        "beIN Sports HK 1 HD",
-        "Canal+ Polska [online]",
-        "CBS Sports Golazo N/W (geo/R)",
-        "Cosmote Sport 2 HD",
-        "Cytavision Sports 4 HD",
-        "DAZN Belgium ($/geo/R)",
-        "DAZN Canada ($/geo/R)",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN España ($/geo/R)",
-        "DAZN France ($/geo/R)",
-        "DAZN Great Britain (geo/R)",
-        "DAZN Ireland ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "DAZN Japan ($/geo/R)",
-        "DAZN Switzerland ($/geo/R)",
-        "DAZN USA en Español ($/geo/R)",
-        "Digi Sport 2 Romania HD",
-        "Discovery+ UK ($/geo/R)",
-        "Disney+ Argentina ($/geo/R)",
-        "Disney+ Brazil ($/geo/R)",
-        "Disney+ Chile ($/geo/R)",
-        "Disney+ Mexico ($/geo/R)",
-        "Disney+ Norte ($/geo/R)",
-        "Disney+ Sur ($/geo/R)",
-        "Diwan Sport ($/geo/R)",
-        "Eleven Sports 1 Polska HD",
-        "ESPN 1 Brazil HD",
-        "ESPN 2 Caribbean",
-        "ESPN 2 Norte Latin",
-        "Fast Sports [online] ($/geo/R)",
-        "Fast Sports TV Armenia",
-        "Fubo Sports USA ($/geo/R)",
-        "FuboTV Canada ($/geo/R)",
-        "Futbol TV Tajikistan",
-        "Match 4 Hungary HD",
-        "MATCH! Futbol 1 HD",
-        "MATCH! Russia HD",
-        "MAX Sport 3 Bulgaria HD",
-        "Megogo Futbol 1 ($/geo/R)",
-        "MTV Katsomon+ ($/geo/R)",
-        "MTV Urheilu 2 Suomi HD",
-        "ONE2 Sport Israel HD",
-        "Paramount+ USA ($/geo/R)",
-        "Prima Sport RO 2 HD",
-        "Prime Video USA [$]",
-        "S Sport 2 Türkiye HD",
-        "S Sport+ Streaming",
-        "Setanta Sports 1 Baltic",
-        "Setanta Sports 1 Eurasia HD",
-        "Setanta Sports 1 Georgia HD#0",
-        "Sky Go Italy [online]",
-        "Sky Sport 251 Italia HD",
-        "Sky Sport Calcio HD",
-        "Sky Sport Italia 4K UHD",
-        "Sky Sport Uno Italia HD",
-        "Sport 1 Czechia HD",
-        "Sport 1 Slovakia HD",
-        "Sport TV2 Portugal HD",
-        "Starzplay Sports HD [app]",
-        "SuperSport Football HD",
-        "SuperSport MáXimo 1 HD",
-        "Tivibu Spor 1 HD",
-        "TLN Canada",
-        "TNT Sports 1 HD",
-        "TNT Sports 3 HD",
-        "Tring Sport 1 HD",
-        "TSN Malta 3 HD",
-        "TV2 Play Danmark ($/geo/R)",
-        "TV4 Fotboll HD",
-        "TV4 Play Sverige [online]",
-        "TVNet Sport Azerbaijan (geo/R)",
-        "VG+ Sport Norge ($/geo/R)",
-        "Z Sports 2 Angola",
-        "ZhiBo8 TV (China)",
-        "Ziggo Sport 2",
-        "Zor TV Uzbekistan",
-        "French Ligue 2 - Week 19"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "St Etienne v Clermont Foot",
-      "kickoff_baghdad": "14:55",
-      "channels_raw": [
-        "Arena Sport 7 Hrvatska HD",
-        "beIN Sports France 1 HD",
-        "beIN Sports Türkiye 2 HD",
-        "Megogo Futbol 7 ($/geo/R)",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "Dutch Eredivisie - Week 19"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "NAC Breda v NEC Nijmegen",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "ESPN 1 Nederland HD",
-        "ESPN Extra Nederland",
-        "French Féminine Première Ligue - Week 13"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Le Havre v Paris St Germain",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Canal+ Foot HD",
-        "DAZN Great Britain (geo/R)",
-        "DAZN Ireland ($/geo/R)",
-        "Scottish Cup - 4th Round"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Hearts v Falkirk",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Como TV ($/geo/R)",
-        "Falkirk TV [$]",
-        "Hearts TV ($/geo/R)",
-        "Premier Sports 1 UK HD",
-        "Premier Sports GB Player HD",
-        "SportKlub 11 Hrvatska",
-        "Spanish La Liga (Primera) - Week 20"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Real Betis v Villarreal",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Arena Premium 3 BiH HD",
-        "Arena Premium 3 Srbija HD",
-        "Arena Sport 1 Hrvatska HD",
-        "Arena Sport 4 Slovenija HD",
-        "ART Motion Sport 3 HD",
-        "beIN Connect MENA",
-        "beIN Sports 1 HD (Astro)",
-        "beIN Sports Australia 1 HD",
-        "beIN Sports France 2 HD",
-        "beIN Sports MENA 3 HD",
-        "Belarus 5 HD",
-        "Blue Sport 1 Live HD",
-        "Canal+ Sport 1 Polska HD",
-        "CRTV Sports Cameroon",
-        "Cytavision Sports 8 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN 2 Bar Deutsch HD",
-        "DAZN Belgium ($/geo/R)",
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "Digi Sport 4 Romania",
-        "Disney+ UK ($/geo/R)",
-        "ESPN Deportes",
-        "ESPN+ USA ($/geo/R)",
-        "Fast Sports [online] ($/geo/R)",
-        "Fubo Sports USA ($/geo/R)",
-        "Go3 Sport 2 Baltic HD",
-        "Idman TV HD",
-        "LaLiga TV Bar HD",
-        "M+ LaLiga HD",
-        "M+ LaLiga HDR",
-        "MATCH! Futbol 2 HD",
-        "MAX Sport 4 Bulgaria HD",
-        "Megogo Futbol 3 ($/geo/R)",
-        "Movistar Plus+ HD",
-        "MTV Katsomon+ ($/geo/R)",
-        "MTV Urheilu 1 Suomi HD",
-        "Nova Sport 4 Czech HD",
-        "Nova Sports 1 Hellas HD",
-        "ONE Sport Israel HD",
-        "Orange Fútbol 1 HD",
-        "Premier Sports GB Player HD",
-        "Prima Sport RO 3 HD",
-        "S Sport 1 Türkiye HD",
-        "S Sport+ Streaming",
-        "Setanta Sports 2 Baltic",
-        "Setanta Sports 2 Eurasia HD",
-        "Sporty TV Africa",
-        "Spíler 2 TV Hungary HD",
-        "ST Sports Premium HD",
-        "SuperSport 2 Albania HD",
-        "SuperSport LaLiga HD",
-        "SuperSport MáXimo 3A HD",
-        "TSN Malta 4 HD",
-        "TSN+ Canada ($/geo/R)",
-        "TV2 Play Danmark ($/geo/R)",
-        "TV2 Play Norge ($/geo/R)",
-        "TV2 Sport 1 Norge HD",
-        "TV2 Sport X Dansk HD",
-        "TV4 Play Sverige [online]",
-        "Varzish TV Sport HD (tjk)",
-        "ViaPlay Norge HD",
-        "Ziggo Sport 5",
-        "Spanish La Liga 2 - Week 22"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Almería v Deportivo La Coruña",
-      "kickoff_baghdad": "15:00",
-      "channels_raw": [
-        "Arena Sport 1x2 Srbija",
-        "beIN Sports 2 HD (Astro)",
-        "beIN Sports MENA 9 HD",
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "LaLiga TV Bar 2",
-        "Megogo Futbol 5 ($/geo/R)",
-        "MTV Urheilu 3 Suomi HD",
-        "ST Sports Life",
-        "French Ligue 1 - Week 18"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Angers v Marseille",
-      "kickoff_baghdad": "15:05",
-      "channels_raw": [
-        "5 STARS Israel HD",
-        "Arena Premium 5 Srbija HD",
-        "Arena Sport 3 BiH HD",
-        "Arena Sport 3 Hrvatska HD",
-        "ART Motion Sport 4 HD",
-        "beIN Connect MENA",
-        "beIN Connect Türkiye",
-        "beIN Connect USA",
-        "beIN Sports MENA 2 HD",
-        "beIN Sports MENA French 1 HD",
-        "beIN Sports Türkiye 4 HD",
-        "beIN Sports US Español",
-        "beIN Sports US HD",
-        "Cablenet Sports 2 HD",
-        "DAZN France ($/geo/R)",
-        "Diema Sport 3 HD",
-        "Eleven Sports 3 Polska HD",
-        "Fanatiz USA ($/geo/R)",
-        "Fubo Sports USA ($/geo/R)",
-        "Ligue 1+ ($/geo/R)",
-        "Megogo Futbol 4 ($/geo/R)",
-        "Megogo Sport Ukraine HD",
-        "Nova Sport 3 Czech HD",
-        "Okko Prime Sport HD ($/geo/R)",
-        "Prime Video UK PPV [$]",
-        "Setanta Sports 2 Georgia HD#0",
-        "Setanta Sports Qazaqstan HD",
-        "Sky Sport Arena Italia HD",
-        "Sport TV3 Portugal HD",
-        "SuperSport 3 Albania HD",
-        "TV5 Monde Afrique HD",
-        "TV5 Monde Amérique Latine",
-        "TV5 Monde Asie",
-        "TV5 Monde Europe HD",
-        "TV5 Monde Maghreb-Orient HD",
-        "ViaPlay 2 Urheilu HD",
-        "ViaPlay Danmark HD",
-        "ViaPlay Nederland HD",
-        "ViaPlay Norge HD",
-        "ViaPlay Suomi HD",
-        "ViaPlay Sverige HD",
-        "Portuguese Liga Portugal - Week 18"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Rio Ave v Benfica",
-      "kickoff_baghdad": "15:30",
-      "channels_raw": [
-        "Arena Sport 2 Slovakia HD",
-        "Arena Sport 2 Srbija HD",
-        "beIN Sports France 8 HD max",
-        "Cosmote Sport 3 HD",
-        "Cytavision Sports 7 HD",
-        "DAZN 1 Italia HD",
-        "DAZN Italia ($/geo/R)",
-        "Eleven Sports 4 Polska HD",
-        "Kuwait Sport HD",
-        "Megogo Futbol 2 ($/geo/R)",
-        "Megogo Sport Kazakhstan [$]",
-        "Megogo Sport Ukraine HD",
-        "Ring Bulgaria HD",
-        "S Sport+ Streaming",
-        "Sport 1 Lithuania HD [$]",
-        "Sport 2 Hungary HD",
-        "Sport 3 Israel HD",
-        "Sport TV1 Portugal HD",
-        "Sport+ Qazaqstan",
-        "Sportdigital FUSSBALL 2",
-        "SportKlub 2 Hrvatska",
-        "SportKlub 2 Slovenija",
-        "Tivibu Spor 3 HD",
-        "TV Start Russia HD"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "TVi V+ Portugal",
-      "kickoff_baghdad": null,
-      "channels_raw": [
-        "VG+ Sport Norge ($/geo/R)",
-        "Ziggo Sport 3",
-        "Portuguese Liga 3 - Week 17"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
-      "title": "Belenenses v 1º Dezembro",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "Canal 11 [online] (geo/R)",
-        "Canal 11 Portugal HD",
-        "Sunday, 18th January",
-        "Australian A League - Week 13"
-      ]
-    },
-    {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Sydney FC v Wellington Phoenix",
-      "kickoff_baghdad": "01:00",
+      "kickoff_baghdad": "00:00",
       "channels_raw": [
         "Discovery+ UK ($/geo/R)",
         "Sky Sport 3 NZ HD",
         "TNT Sports 2 HD",
+        "Discover more",
+        "Handball Match Tickets",
+        "Team merchandise",
+        "Urheilu",
+        "Football kits",
+        "Ligue 1 Collectibles",
+        "Champions League Apparel",
+        "Sports",
+        "Soccer video games",
+        "La Liga Match Tickets",
+        "Soccer balls",
         "Australian W-League - Week 13"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Central Coast Mariners v Perth Glory",
-      "kickoff_baghdad": "01:00",
+      "kickoff_baghdad": "00:00",
       "channels_raw": [
         "Discovery+ UK ($/geo/R)",
         "Sky Sport 9 NZ HD",
+        "TNT Sports 10",
         "TNT Sports 5 HD",
         "Malaysian Cup - Round of 16 (1st Leg)"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Penang v Kuching City",
-      "kickoff_baghdad": "04:00",
+      "kickoff_baghdad": "03:00",
       "channels_raw": [
         "Astro Arena Bola HD",
         "Astro GO Malaysia ($/geo/R)",
+        "Discover more",
+        "Ice Hockey Equipment",
+        "Live match tickets",
+        "Sports+",
+        "La Liga Match Tickets",
+        "Sports",
+        "Premier League",
+        "Sports statistics websites",
+        "Gaelic Sport Gear",
+        "Football kits",
+        "Television",
         "Malaysian Cup - Round of 16 (1st Leg)"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "PDRM FC v Johor Darul Ta'zim",
-      "kickoff_baghdad": "04:30",
+      "kickoff_baghdad": "03:30",
       "channels_raw": [
         "Astro Arena Bola 2 HD",
         "Astro GO Malaysia ($/geo/R)",
@@ -985,42 +68,75 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Erzurumspor v Amedspor",
-      "kickoff_baghdad": "05:30",
+      "kickoff_baghdad": "04:30",
       "channels_raw": [
         "beIN Connect Türkiye",
         "beIN Sports Türkiye Max 1 HD",
         "SportKlub 2 Slovenija",
         "SportKlub 5 Hrvatska",
         "TRT Spor Türkiye HD",
+        "Discover more",
+        "Soccer Fan Apparel",
+        "La Liga Match Tickets",
+        "Sports Streaming Service",
+        "TV",
+        "Live Soccer TV",
+        "Sport",
+        "Handball Match Tickets",
+        "Europa League Tickets",
+        "Soccer Match Tickets",
+        "Football boots",
         "Portuguese Womens Cup - Quarter Final"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Marítimo v FC Porto",
-      "kickoff_baghdad": "06:00",
+      "kickoff_baghdad": "05:00",
       "channels_raw": [
         "Canal 11 Portugal HD",
+        "Discover more",
+        "Sports travel packages",
+        "Soccer jerseys",
+        "Premier League",
+        "Soccer Match Tickets",
+        "Live Soccer TV",
+        "Team merchandise",
+        "Sports+",
+        "Spor",
+        "Ice Hockey Equipment",
+        "Youth Soccer Training",
         "Spanish Liga F Femenino - Week 16"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Costa Adeje Tenerife v Athletic Bilbao",
-      "kickoff_baghdad": "06:00",
+      "kickoff_baghdad": "05:00",
       "channels_raw": [
         "DAZN 2 Bar Espana",
         "DAZN 2 Espana HD",
         "DAZN España ($/geo/R)",
+        "Discover more",
+        "Sports statistics websites",
+        "Spor",
+        "Soccer balls",
+        "Baseball Memorabilia",
+        "Sports travel packages",
+        "Soccer training gear",
+        "Ice Hockey Equipment",
+        "Sporty",
+        "TV schedule apps",
+        "Motorsport Event Tickets",
         "Spanish Liga F Femenino - Week 16"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Alhama v Barcelona",
-      "kickoff_baghdad": "06:00",
+      "kickoff_baghdad": "05:00",
       "channels_raw": [
         "DAZN España ($/geo/R)",
         "DAZN Great Britain (geo/R)",
@@ -1028,31 +144,53 @@
         "GOL España HD",
         "GolStadium ($/geo/R)",
         "TV3 Catalunya HD",
+        "Discover more",
+        "Basketball Training Equipment",
+        "Live Soccer TV",
+        "Gaelic Sport Gear",
+        "Handball Match Tickets",
+        "Sports League Subscriptions",
+        "Europa League Tickets",
+        "Motorsport Event Tickets",
+        "Football kits",
+        "Soccer video games",
+        "Sports",
         "Spanish Liga F Femenino - Week 16"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Badalona v Deportivo La Coruña",
-      "kickoff_baghdad": "06:00",
+      "kickoff_baghdad": "05:00",
       "channels_raw": [
         "DAZN España ($/geo/R)",
+        "Discover more",
+        "Movie & TV Streaming",
+        "Sports+",
+        "Soccer",
+        "Sports News",
+        "Sport",
+        "Sporty",
+        "Sports",
+        "TV & Video",
+        "TV Networks & Stations",
+        "Spor",
         "Dutch Eerste Divisie (2nd) - Week 23"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Den Bosch v MVV Maastricht",
-      "kickoff_baghdad": "06:15",
+      "kickoff_baghdad": "05:15",
       "channels_raw": [
         "ESPN 4 Nederland HD",
         "Dutch Eredivisie - Week 19"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Heerenveen v Groningen",
-      "kickoff_baghdad": "06:15",
+      "kickoff_baghdad": "05:15",
       "channels_raw": [
         "ESPN 2 Nederland HD",
         "ESPN Extra Nederland",
@@ -1060,18 +198,18 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "NAC Breda v ADO Den Haag",
-      "kickoff_baghdad": "06:15",
+      "kickoff_baghdad": "05:15",
       "channels_raw": [
         "ESPN 1 Nederland HD",
         "Italian Serie A - Week 21"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Parma v Genoa",
-      "kickoff_baghdad": "06:30",
+      "kickoff_baghdad": "05:30",
       "channels_raw": [
         "Arena Premium 2 BiH HD",
         "Arena Premium 2 Srbija HD",
@@ -1127,9 +265,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Forli v Sambenedettese",
-      "kickoff_baghdad": "06:30",
+      "kickoff_baghdad": "05:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 258 Italia HD",
@@ -1138,9 +276,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Atalanta U-23 v Salernitana",
-      "kickoff_baghdad": "06:30",
+      "kickoff_baghdad": "05:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 257 Italia HD",
@@ -1149,9 +287,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Roma v Sassuolo",
-      "kickoff_baghdad": "06:30",
+      "kickoff_baghdad": "05:30",
       "channels_raw": [
         "DAZN Belgium ($/geo/R)",
         "DAZN Great Britain (geo/R)",
@@ -1162,9 +300,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Kasimpasa v Antalyaspor",
-      "kickoff_baghdad": "06:30",
+      "kickoff_baghdad": "05:30",
       "channels_raw": [
         "beIN Connect Türkiye",
         "beIN Sports Türkiye 2 HD",
@@ -1172,9 +310,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Paris FC v Lyon",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "06:00",
       "channels_raw": [
         "Canal+ Foot HD",
         "Nova Sport 1 Czech HD",
@@ -1182,9 +320,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Partizan Belgrade v Raków Czestochowa",
-      "kickoff_baghdad": "07:00",
+      "kickoff_baghdad": "06:00",
       "channels_raw": [
         "Arena Premium 1 Srbija HD",
         "Arena Sport 5 BiH HD",
@@ -1192,9 +330,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Perak v Kuala Lumpur City",
-      "kickoff_baghdad": "07:15",
+      "kickoff_baghdad": "06:15",
       "channels_raw": [
         "Astro Arena Bola HD",
         "Astro GO Malaysia ($/geo/R)",
@@ -1202,9 +340,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "AA Gent v Anderlecht",
-      "kickoff_baghdad": "07:30",
+      "kickoff_baghdad": "06:30",
       "channels_raw": [
         "DAZN Belgium ($/geo/R)",
         "DAZN Great Britain (geo/R)",
@@ -1216,9 +354,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Kaiserslautern v Hannover 96",
-      "kickoff_baghdad": "07:30",
+      "kickoff_baghdad": "06:30",
       "channels_raw": [
         "Arena 4 Hungary HD",
         "Arena Sport 4 Srbija HD",
@@ -1253,9 +391,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Holstein Kiel v Paderborn",
-      "kickoff_baghdad": "07:30",
+      "kickoff_baghdad": "06:30",
       "channels_raw": [
         "Diema Sport 3 HD",
         "ESPN+ USA ($/geo/R)",
@@ -1282,9 +420,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Bochum v Darmstadt 98",
-      "kickoff_baghdad": "07:30",
+      "kickoff_baghdad": "06:30",
       "channels_raw": [
         "Arena Sport 5 Srbija HD",
         "Eleven Sports 3 Polska HD",
@@ -1313,9 +451,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Stuttgart II v Duisburg",
-      "kickoff_baghdad": "07:30",
+      "kickoff_baghdad": "06:30",
       "channels_raw": [
         "Arena Sport 2 Slovakia HD",
         "Magenta Sport ($/geo/R)",
@@ -1326,18 +464,18 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Partick Thistle v Glasgow City",
-      "kickoff_baghdad": "08:00",
+      "kickoff_baghdad": "07:00",
       "channels_raw": [
         "YouTube: Partick Thistle WFC",
         "Spanish La Liga (Primera) - Week 20"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Getafe v Valencia",
-      "kickoff_baghdad": "08:00",
+      "kickoff_baghdad": "07:00",
       "channels_raw": [
         "Arena Premium 3 BiH HD",
         "Arena Premium 4 Srbija HD",
@@ -1361,6 +499,7 @@
         "Fast Sports [online] ($/geo/R)",
         "Fubo Sports USA ($/geo/R)",
         "LaLiga TV Bar HD",
+        "LaLiga TV UK [stream] ($/geo/R)",
         "M+ LaLiga HD",
         "M+ LaLiga HDR",
         "MATCH! Futbol 2 HD",
@@ -1391,9 +530,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Mirandés v Andorra",
-      "kickoff_baghdad": "08:00",
+      "kickoff_baghdad": "07:00",
       "channels_raw": [
         "DAZN España ($/geo/R)",
         "LaLiga Hypermotion HD",
@@ -1402,9 +541,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Servette v Zürich",
-      "kickoff_baghdad": "08:00",
+      "kickoff_baghdad": "07:00",
       "channels_raw": [
         "Blue Sport 1 Live HD",
         "Blue Sport 2 Live HDR",
@@ -1414,9 +553,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Boluspor v Sariyer",
-      "kickoff_baghdad": "08:00",
+      "kickoff_baghdad": "07:00",
       "channels_raw": [
         "beIN Connect Türkiye",
         "beIN Sports Türkiye Max 1 HD",
@@ -1425,27 +564,27 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Almere City v De Graafschap",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "ESPN 2 Nederland HD",
         "Dutch Eerste Divisie (2nd) - Week 23"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "RKC Waalwijk v Dordrecht",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "ESPN 4 Nederland HD",
         "Dutch Eredivisie - Week 19"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Volendam v Utrecht",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "ESPN 3 Nederland HD",
         "ESPN Extra Nederland",
@@ -1453,9 +592,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Heracles Almelo v Twente",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "ESPN 1 Nederland HD",
         "ESPN Extra Nederland",
@@ -1463,9 +602,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Pro Vercelli v Union Brescia",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 252 Italia HD",
@@ -1474,9 +613,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Arzignano v Vicenza",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 251 Italia HD",
@@ -1485,9 +624,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Perugia v Gubbio",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 254 Italia HD",
@@ -1495,9 +634,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Siracusa v Audace Cerignola",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 256 Italia HD",
@@ -1505,9 +644,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Trapani 1905 v Sorrento",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 255 Italia HD",
@@ -1515,9 +654,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Potenza v Casertana",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 253 Italia HD",
@@ -1525,9 +664,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Csikszereda v Botosani",
-      "kickoff_baghdad": "08:30",
+      "kickoff_baghdad": "07:30",
       "channels_raw": [
         "Arena Sport 3 BiH HD",
         "Arena Sport 6 Hrvatska HD",
@@ -1537,18 +676,18 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Omonia Nicosia v Anorthosis",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "Cytavision Sports 1 HD",
         "English Premier League - Week 22"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Wolves v Newcastle United",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "Arena Premium 1 BiH HD",
         "Arena Premium 2 Srbija HD",
@@ -1603,7 +742,7 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "V Sport Premium HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -1618,9 +757,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Arsenal v Aston Villa",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "Channel 4 Streaming (ALL4)",
         "Channel 4 UK HD",
@@ -1630,9 +769,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Strasbourg v Metz",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "5 PLUS Israel HD",
         "Arena Sport 1 BiH HD",
@@ -1661,7 +800,7 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "V Sport 1 Sverige HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -1674,9 +813,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Bologna v Fiorentina",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "Arena Premium 2 BiH HD",
         "Arena Premium 5 Srbija HD",
@@ -1733,9 +872,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Pescara v Modena",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "DAZN Italia ($/geo/R)",
         "LaB Channel ($/geo/R)",
@@ -1744,36 +883,36 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Ternana v Lazio",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "DAZN Italia ($/geo/R)",
         "Portuguese Liga Portugal 2 - Week 18"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Lusitânia Lourosa v Marítimo",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "Sport TV+ Portugal",
         "Portuguese Womens Cup - Quarter Final"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Sporting Braga v Rio Ave",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "Canal 11 Portugal HD",
         "Türkiye Süper Lig - Week 18"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Kocaelispor v Trabzonspor",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "Arena Sport 2 Srbija HD",
         "ART Motion Sport 5 HD",
@@ -1787,14 +926,15 @@
         "beIN Sports US XTRA",
         "MATCH! Futbol 3 HD",
         "Prima Sport RO PPV 3",
+        "Sport+ Qazaqstan",
         "SportKlub 8 Hrvatska",
         "Türkiye Süper Lig - Week 18"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Gençlerbirligi v Samsunspor",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "beIN Connect Türkiye",
         "beIN Sports Türkiye 2 HD",
@@ -1802,9 +942,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Stuttgart v Union Berlin",
-      "kickoff_baghdad": "09:30",
+      "kickoff_baghdad": "08:30",
       "channels_raw": [
         "Arena 4 Hungary HD",
         "Arena Premium 3 Srbija HD",
@@ -1841,7 +981,7 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "V Sport Football HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -1856,9 +996,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Inter Milan v Juventus",
-      "kickoff_baghdad": "09:30",
+      "kickoff_baghdad": "08:30",
       "channels_raw": [
         "DAZN Belgium ($/geo/R)",
         "DAZN Great Britain (geo/R)",
@@ -1870,9 +1010,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Aberdeen v Raith Rovers",
-      "kickoff_baghdad": "09:30",
+      "kickoff_baghdad": "08:30",
       "channels_raw": [
         "BBC iPlayer (geo/R)",
         "BBC iPlayer 4K (geo/R)",
@@ -1884,45 +1024,45 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Beerschot Wilrijk v Olympic Charleroi",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "DAZN Belgium ($/geo/R)",
         "Belgian Challenger Pro League - Week 20"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Club Brugge II v Lokeren-Temse",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "DAZN Belgium ($/geo/R)",
         "Belgian Pro League - Week 21"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Dender v Antwerp",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "DAZN Belgium ($/geo/R)",
         "Cypriot 1. Division - Week 18"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "AEK Larnaca v Krasava FC",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Cytavision Sports 2 HD",
         "Greek Super League 1 - Week 17"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "AEL Larissa v Aris Thessaloniki",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Cosmote Sport 1 HD",
         "Cytavision Sports 5 HD",
@@ -1930,36 +1070,36 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Vitória Guimarães II v Fafe",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Canal 11 [online] (geo/R)",
         "Portuguese Liga 3 - Week 17"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Trofense v Marco 09",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Canal 11 [online] (geo/R)",
         "Portuguese Liga 3 - Week 17"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Paredes v Amarante",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Canal 11 [online] (geo/R)",
         "Spanish Liga F Femenino - Week 16"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Sevilla v Real Sociedad",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "DAZN 2 Bar Espana",
         "DAZN 2 Espana HD",
@@ -1970,9 +1110,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Al Hazem v Al Qadisiyah",
-      "kickoff_baghdad": "10:15",
+      "kickoff_baghdad": "09:15",
       "channels_raw": [
         "Band Sports Brazil HD",
         "Thmanyah KSA [app]",
@@ -1980,9 +1120,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Atlético Madrid v Alavés",
-      "kickoff_baghdad": "10:15",
+      "kickoff_baghdad": "09:15",
       "channels_raw": [
         "Arena Premium 1 Slovenija",
         "Arena Premium 1 Srbija HD",
@@ -2011,6 +1151,7 @@
         "Fubo Sports USA ($/geo/R)",
         "Go3 Sport 1 Baltic HD",
         "LaLiga TV Bar HD",
+        "LaLiga TV UK [stream] ($/geo/R)",
         "MATCH! Futbol 2 HD",
         "MATCH! Russia HD",
         "MAX Sport 4 Bulgaria HD",
@@ -2041,9 +1182,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Racing Santander v Las Palmas",
-      "kickoff_baghdad": "10:15",
+      "kickoff_baghdad": "09:15",
       "channels_raw": [
         "DAZN España ($/geo/R)",
         "LaLiga Hypermotion HD",
@@ -2054,9 +1195,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Schweinfurt v Viktoria Cologne",
-      "kickoff_baghdad": "10:30",
+      "kickoff_baghdad": "09:30",
       "channels_raw": [
         "Magenta Sport ($/geo/R)",
         "OneFootball [app] ($/geo/R)",
@@ -2066,9 +1207,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Santa Clara v Famalicão",
-      "kickoff_baghdad": "10:30",
+      "kickoff_baghdad": "09:30",
       "channels_raw": [
         "Megogo Futbol 5 ($/geo/R)",
         "Megogo Sport Kazakhstan [$]",
@@ -2077,9 +1218,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Grasshoppers v Thun",
-      "kickoff_baghdad": "10:30",
+      "kickoff_baghdad": "09:30",
       "channels_raw": [
         "Blue Sport 3 Live HD",
         "Blue Sport 4 Live HDR",
@@ -2089,9 +1230,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Basel v Sion",
-      "kickoff_baghdad": "10:30",
+      "kickoff_baghdad": "09:30",
       "channels_raw": [
         "Blue Sport 1 Live UHD",
         "Blue Sport 3 Live HDR",
@@ -2102,18 +1243,18 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "FC Eindhoven v Willem II",
-      "kickoff_baghdad": "10:45",
+      "kickoff_baghdad": "09:45",
       "channels_raw": [
         "ESPN 4 Nederland HD",
         "Dutch Eredivisie - Week 19"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Feyenoord v Sparta Rotterdam",
-      "kickoff_baghdad": "10:45",
+      "kickoff_baghdad": "09:45",
       "channels_raw": [
         "Arena Premium 4 Srbija HD",
         "Arena Sport 1 Slovakia HD",
@@ -2138,45 +1279,45 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Heerenveen v AZ Alkmaar",
-      "kickoff_baghdad": "10:45",
+      "kickoff_baghdad": "09:45",
       "channels_raw": [
         "ESPN Extra Nederland",
         "Dutch Vrouwen Eredivisie - Week 11"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "PEC Zwolle v PSV Eindhoven",
-      "kickoff_baghdad": "10:45",
+      "kickoff_baghdad": "09:45",
       "channels_raw": [
         "ESPN Extra Nederland",
         "Dutch Vrouwen Eredivisie - Week 11"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Utrecht v HERA United",
-      "kickoff_baghdad": "10:45",
+      "kickoff_baghdad": "09:45",
       "channels_raw": [
         "ESPN Extra Nederland",
         "Dutch Vrouwen Eredivisie - Week 11"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Feyenoord v Excelsior",
-      "kickoff_baghdad": "10:45",
+      "kickoff_baghdad": "09:45",
       "channels_raw": [
         "ESPN Extra Nederland",
         "Romanian Superliga - Week 22"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "CFR Cluj v Otelul Galati",
-      "kickoff_baghdad": "10:45",
+      "kickoff_baghdad": "09:45",
       "channels_raw": [
         "Arena Sport 6 Hrvatska HD",
         "Digi Sport 1 Romania HD",
@@ -2185,9 +1326,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Flamurtari v Bylis",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "10:00",
       "channels_raw": [
         "FIFA+ [app] (geo/R)",
         "RTSH Tani [app]",
@@ -2195,9 +1336,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Egnatia v Elbasani",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "10:00",
       "channels_raw": [
         "FIFA+ [app] (geo/R)",
         "RTSH Tani [app]",
@@ -2205,27 +1346,27 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Zeleznicar v Teplice",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "10:00",
       "channels_raw": [
         "Arena Sport 10 Srbija HD",
         "Portuguese Womens Cup - Quarter Final"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Torreense v Benfica",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "10:00",
       "channels_raw": [
         "Canal 11 Portugal HD",
         "Türkiye 1. Lig - Week 21"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Umraniyespor v Serik Belediyespor",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "10:00",
       "channels_raw": [
         "beIN Connect Türkiye",
         "beIN Sports Türkiye Max 1 HD",
@@ -2234,9 +1375,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Rangers v Hibernian",
-      "kickoff_baghdad": "11:10",
+      "kickoff_baghdad": "10:10",
       "channels_raw": [
         "BBC Alba HD",
         "BBC iPlayer (geo/R)",
@@ -2246,9 +1387,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Nantes v Paris FC",
-      "kickoff_baghdad": "11:15",
+      "kickoff_baghdad": "10:15",
       "channels_raw": [
         "5 LIVE Israel HD",
         "Arena Sport 3 BiH HD",
@@ -2280,9 +1421,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Rennes v Le Havre",
-      "kickoff_baghdad": "11:15",
+      "kickoff_baghdad": "10:15",
       "channels_raw": [
         "Arena Sport 5 BiH HD",
         "Arena Sport 5 Hrvatska HD",
@@ -2303,7 +1444,7 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "V Sport 1 Sverige HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -2316,9 +1457,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Palermo v Spezia",
-      "kickoff_baghdad": "11:15",
+      "kickoff_baghdad": "10:15",
       "channels_raw": [
         "5 LIVE Israel HD",
         "Blue Sport 5 Live HD",
@@ -2331,9 +1472,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Aston Villa v Everton",
-      "kickoff_baghdad": "11:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "Arena Premium 1 BiH HD",
         "Arena Premium 2 Srbija HD",
@@ -2394,7 +1535,7 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "V Sport Ultra 4K UHD (geo/R)",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -2409,9 +1550,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Augsburg v Freiburg",
-      "kickoff_baghdad": "11:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "Arena 4 Hungary HD",
         "Arena Sport 2 Srbija HD",
@@ -2446,7 +1587,7 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "V Sport Football HD",
       "kickoff_baghdad": null,
       "channels_raw": [
@@ -2461,9 +1602,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Renate v AlbinoLeffe",
-      "kickoff_baghdad": "11:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 256 Italia HD",
@@ -2471,9 +1612,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Inter Milan U-23 v Virtus Verona",
-      "kickoff_baghdad": "11:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 252 Italia HD",
@@ -2482,9 +1623,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Pontedera v Pineto",
-      "kickoff_baghdad": "11:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 254 Italia HD",
@@ -2492,9 +1633,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "AC Bra v Ravenna",
-      "kickoff_baghdad": "11:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 253 Italia HD",
@@ -2503,18 +1644,18 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Ternana v Rimini",
-      "kickoff_baghdad": "11:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "** C-A-N-C-E-L-L-E-D **",
         "Italian Serie C Girone C - Girone C - 22"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Picerno v Latina",
-      "kickoff_baghdad": "11:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "Sky Go Italy [online]",
         "Sky Sport 255 Italia HD",
@@ -2522,18 +1663,18 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Apollon Limassol v APOEL Nicosia",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "11:00",
       "channels_raw": [
         "Cytavision Sports 1 HD",
         "Greek Super League 1 - Week 17"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "PAOK Thessaloniki v OFI Crete",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "11:00",
       "channels_raw": [
         "Arena Sport 1x2 Srbija",
         "Arena Sport 4 BiH HD",
@@ -2547,9 +1688,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Torino v Roma",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "11:00",
       "channels_raw": [
         "Arena Premium 2 BiH HD",
         "Arena Premium 3 Srbija HD",
@@ -2611,9 +1752,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Académica v Amora",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "11:00",
       "channels_raw": [
         "Canal 11 [online] (geo/R)",
         "Canal 11 Portugal HD",
@@ -2621,9 +1762,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Badalona v Deportivo La Coruña",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "11:00",
       "channels_raw": [
         "DAZN 3 Espana HD",
         "DAZN España ($/geo/R)",
@@ -2631,9 +1772,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Alanyaspor v Fenerbahçe",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "11:00",
       "channels_raw": [
         "Arena Sport 3 Srbija HD",
         "ART Motion Sport 5 HD",
@@ -2685,9 +1826,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Sporting Charleroi v Standard Liège",
-      "kickoff_baghdad": "12:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "DAZN Belgium ($/geo/R)",
         "DAZN Great Britain (geo/R)",
@@ -2697,9 +1838,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "NEOM SC v Al Hilal",
-      "kickoff_baghdad": "12:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "Como TV ($/geo/R)",
         "DAZN France ($/geo/R)",
@@ -2717,18 +1858,18 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Al Riyadh v Al Taawoun",
-      "kickoff_baghdad": "12:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "Thmanyah KSA [app]",
         "Scottish Cup - 4th Round"
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Auchinleck Talbot v Celtic",
-      "kickoff_baghdad": "12:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "Arena Sport 1 Slovakia HD",
         "Celtic TV ($/geo/R)",
@@ -2740,9 +1881,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Celta Vigo v Rayo Vallecano",
-      "kickoff_baghdad": "12:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "Arena Premium 1 Slovenija",
         "Arena Premium 1 Srbija HD",
@@ -2768,6 +1909,7 @@
         "Fast Sports [online] ($/geo/R)",
         "Fubo Sports USA ($/geo/R)",
         "LaLiga TV Bar HD",
+        "LaLiga TV UK [stream] ($/geo/R)",
         "M+ LaLiga HD",
         "M+ LaLiga HDR",
         "MATCH! Futbol 2 HD",
@@ -2799,9 +1941,9 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Burgos v Huesca",
-      "kickoff_baghdad": "12:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "DAZN España ($/geo/R)",
         "LaLiga Hypermotion 2",
@@ -2810,13 +1952,400 @@
       ]
     },
     {
-      "competition": "English Championship - Week 27",
+      "competition": "Australian A League - Week 13",
       "title": "Albacete v Cádiz",
-      "kickoff_baghdad": "12:30",
+      "kickoff_baghdad": "11:30",
       "channels_raw": [
         "DAZN España ($/geo/R)",
         "LaLiga Hypermotion HD",
         "LaLiga TV Bar 2",
+        "Portuguese Liga Portugal - Week 18"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Tondela v Sporting Braga",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "Cosmote Sport 3 HD",
+        "Megogo Futbol 5 ($/geo/R)",
+        "Sport TV2 Portugal HD",
+        "Sportdigital FUSSBALL 2",
+        "SportKlub 6 Hrvatska",
+        "SportKlub 6 Slovenija",
+        "Belgian Pro League - Week 21"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Sint-Truiden v Leuven",
+      "kickoff_baghdad": "12:15",
+      "channels_raw": [
+        "DAZN Belgium ($/geo/R)",
+        "German 3. Liga - Week 20"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "TSV Havelse v Hoffenheim II",
+      "kickoff_baghdad": "12:30",
+      "channels_raw": [
+        "Magenta Sport ($/geo/R)",
+        "OneFootball [app] ($/geo/R)",
+        "SportKlub 9 Hrvatska",
+        "Israeli Ligat ha'Al (Premier) - Week 19"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Maccabi Haifa v Maccabi Tel Aviv",
+      "kickoff_baghdad": "12:30",
+      "channels_raw": [
+        "5 SPORT Israel HD",
+        "Romanian Superliga - Week 22"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Dinamo Bucharest v Universitatea Cluj",
+      "kickoff_baghdad": "12:30",
+      "channels_raw": [
+        "Arena Sport 5 BiH HD",
+        "Arena Sport 5 Hrvatska HD",
+        "Digi Sport 1 Romania HD",
+        "Prima Sport RO 1 HD",
+        "CAF African Cup of Nations - FINAL"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Senegal v Morocco",
+      "kickoff_baghdad": "13:00",
+      "channels_raw": [
+        "5 PLUS Israel HD",
+        "Afrosport TV",
+        "Arena Premium 2 Srbija HD",
+        "Arryadia TNT HD",
+        "ART Motion Sport 3 HD",
+        "Azam Sports 1 HD",
+        "Azam Sports 2 HD",
+        "Band Sports Brazil HD",
+        "beIN Connect USA",
+        "beIN Sports 3 HD (Astro)",
+        "beIN Sports Australia 3 HD",
+        "beIN Sports France 1 HD",
+        "beIN Sports MENA Max 1 HD",
+        "beIN Sports MENA Max 2 HD",
+        "beIN Sports MENA Max 3 HD",
+        "beIN Sports MENA Max 4 HD",
+        "beIN Sports US Español",
+        "beIN Sports US HD",
+        "Cablenet Sports 3 HD",
+        "Canal 2 International",
+        "Canal+ CAN Afrique HD",
+        "Channel 4 Streaming (ALL4)",
+        "CRTV Sports Cameroon",
+        "Dash TV",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Japan ($/geo/R)",
+        "DAZN Switzerland ($/geo/R)",
+        "E4 UK HD",
+        "ERT 2 Sport Hellas HD",
+        "EXXEN Digital Türkiye [$]",
+        "Fanatiz USA ($/geo/R)",
+        "FanCode India ($/geo/R)",
+        "Fubo Sports USA ($/geo/R)",
+        "Gabon 1ère",
+        "La Nouvelle Chaîne Ivorienne",
+        "M+ #Vamos Bar 2",
+        "M+ Liga de Campeones HD",
+        "M+ Vamos 2 España HD",
+        "MAX Sport 2 Bulgaria HD",
+        "Media Sports Infos",
+        "Megogo Futbol 1 ($/geo/R)",
+        "Megogo Sport Kazakhstan [$]",
+        "Movistar Plus+ HD",
+        "New World Sport 2 Mauritius",
+        "New World Sport 3 Togo",
+        "New World Sport 4 Togo",
+        "New World Sport 5 Togo",
+        "New World Sport 6 Togo",
+        "New World Sport 7 Togo",
+        "ORTB Benin",
+        "ORTM 1 Mali",
+        "RTB Burkina Faso",
+        "RTB Zénith",
+        "RTG Guinea",
+        "RTi La 3 Côte d’Ivoire",
+        "RTNC Congo DR",
+        "RTS 1 Senegal HD",
+        "RTS 2 Senegal HD",
+        "SABC 2 HD",
+        "Sport TV3 Portugal HD",
+        "Sport+ Qazaqstan",
+        "Sportdigital FUSSBALL HD",
+        "Sportitalia HD",
+        "SportKlub 1 Hrvatska HD",
+        "SportKlub 1 Slovenija HD",
+        "SuperSport Grandstand HD",
+        "SuperSport MáXimo 360",
+        "SuperSport PSL HD",
+        "Tele Congo",
+        "Tolo TV",
+        "TPA 2 Angola",
+        "TV Miramar Mozambique",
+        "TVGE Internacional",
+        "TVT Togo",
+        "Télé Tchad",
+        "UBC TV Uganda",
+        "Veikkaus TV ($/geo/R)",
+        "VG+ Sport Norge ($/geo/R)",
+        "ZBC Zimbabwe HD",
+        "Ziggo Sport HD",
+        "ZNBC TV 1",
+        "Greek Super League 1 - Week 17"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "AEK Athens v Panathinaikos",
+      "kickoff_baghdad": "13:00",
+      "channels_raw": [
+        "Arena Premium 3 Srbija HD",
+        "Arena Sport 4 BiH HD",
+        "Cosmote Sport 1 HD",
+        "Cytavision Sports 3 HD",
+        "Diema Sport HD",
+        "SportKlub 2 Hrvatska",
+        "SportKlub 2 Slovenija",
+        "Italian Serie C Girone C - Girone C - 22"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Foggia v Giugliano",
+      "kickoff_baghdad": "13:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 253 Italia HD",
+        "Sky Sport Max Italia HD",
+        "Italian Serie C Girone C - Girone C - 22"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Monopoli v Catania",
+      "kickoff_baghdad": "13:30",
+      "channels_raw": [
+        "Sky Go Italy [online]",
+        "Sky Sport 252 Italia HD",
+        "French Ligue 1 - Week 18"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Lyon v Brest",
+      "kickoff_baghdad": "13:45",
+      "channels_raw": [
+        "5 STARS Israel HD",
+        "Arena Sport 1 Srbija HD",
+        "Arena Sport 3 BiH HD",
+        "Arena Sport 4 Hrvatska HD",
+        "ART Motion Sport 5 HD",
+        "beIN Connect MENA",
+        "beIN Connect Türkiye",
+        "beIN Connect USA",
+        "beIN Sports MENA 4 HD",
+        "beIN Sports Türkiye 4 HD",
+        "beIN Sports US XTRA",
+        "beIN Sports US XTRA Español",
+        "Cablenet Sports 2 HD",
+        "DAZN France ($/geo/R)",
+        "Diema Sport 2 HD",
+        "Eleven Sports 3 Polska HD",
+        "Fanatiz USA ($/geo/R)",
+        "Fubo Sports USA ($/geo/R)",
+        "Ligue 1+ ($/geo/R)",
+        "Megogo Futbol 4 ($/geo/R)",
+        "Megogo Sport Ukraine HD",
+        "Nova Sport 3 Czech HD",
+        "Prime Video UK PPV [$]",
+        "Sky Sport Calcio HD",
+        "Sport TV6 Portugal HD",
+        "SuperSport MáXimo 1 HD",
+        "ViaPlay 2 Urheilu HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "Viaplay TV Suomi HD",
+        "ViX TV [app] (geo/R)",
+        "Italian Serie A - Week 21"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "AC Milan v Lecce",
+      "kickoff_baghdad": "13:45",
+      "channels_raw": [
+        "Arena Premium 1 Srbija HD",
+        "Arena Premium 2 BiH HD",
+        "Arena Sport 1 Hrvatska HD",
+        "Arena Sport 3 Slovenija HD",
+        "ART Motion Sport 1 HD",
+        "beIN Sports Australia 2 HD",
+        "Cosmote Sport 2 HD",
+        "Cytavision Sports 4 HD",
+        "DAZN 1 Italia HD",
+        "DAZN Belgium ($/geo/R)",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN France ($/geo/R)",
+        "DAZN Great Britain (geo/R)",
+        "DAZN Ireland ($/geo/R)",
+        "DAZN Italia ($/geo/R)",
+        "DAZN USA en Español ($/geo/R)",
+        "Digi Sport 3 Romania",
+        "Discovery+ UK ($/geo/R)",
+        "Eleven Sports 1 Polska HD",
+        "Fast Sports [online] ($/geo/R)",
+        "Match 4 Hungary HD",
+        "MATCH! Futbol 1 HD",
+        "MAX Sport 3 Bulgaria HD",
+        "Megogo Futbol 3 ($/geo/R)",
+        "MTV Katsomon+ ($/geo/R)",
+        "MTV Urheilu 1 Suomi HD",
+        "Paramount+ USA ($/geo/R)",
+        "Prima Sport RO 3 HD",
+        "S Sport 2 Türkiye HD",
+        "S Sport+ Streaming",
+        "Setanta Sports 1 Eurasia HD",
+        "Sport 1 Czechia HD",
+        "Sport 1 Slovakia HD",
+        "Sport 4 Israel HD",
+        "Sport TV4 Portugal HD",
+        "SuperSport Football HD",
+        "SuperSport MáXimo 2A HD",
+        "Tivibu Spor 1 HD",
+        "TNT Sports 1 HD",
+        "Tring Sport 1 HD",
+        "TSN Malta 3 HD",
+        "TV12 Sverige HD",
+        "TV2 Play Danmark ($/geo/R)",
+        "TV4 Play Sverige [online]",
+        "VG+ Sport Norge ($/geo/R)",
+        "Ziggo Sport 2",
+        "Spanish La Liga (Primera) - Week 20"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Real Sociedad v Barcelona",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "Arena Premium 1 Slovenija",
+        "Arena Premium 3 BiH HD",
+        "Arena Premium 4 Srbija HD",
+        "Arena Sport 3 Hrvatska HD",
+        "ART Motion Sport 4 HD",
+        "beIN Connect MENA",
+        "beIN Sports 1 HD (Astro)",
+        "beIN Sports Australia 1 HD",
+        "beIN Sports France 2 HD",
+        "beIN Sports MENA 1 HD",
+        "beIN Sports MENA French 1 HD",
+        "Belarus 5 HD",
+        "Blue Sport D 1 HD",
+        "Canal+ Sport 1 Polska HD",
+        "Cytavision Sports 8 HD",
+        "DAZN 1 Bar Deutsch HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Belgium ($/geo/R)",
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN España ($/geo/R)",
+        "DAZN Italia ($/geo/R)",
+        "DAZN LaLiga 2 HD",
+        "DAZN LaLiga HD",
+        "Digi Sport 2 Romania HD",
+        "ESPN Deportes",
+        "ESPN+ USA ($/geo/R)",
+        "Fast Sports [online] ($/geo/R)",
+        "Fubo Sports USA ($/geo/R)",
+        "Go3 Sport 1 Baltic HD",
+        "Idman TV HD",
+        "LaLiga TV Bar HD",
+        "MATCH! Futbol 2 HD",
+        "MATCH! Russia HD",
+        "MAX Sport 4 Bulgaria HD",
+        "Megogo Futbol 2 ($/geo/R)",
+        "MTV Katsomon+ ($/geo/R)",
+        "MTV Urheilu 3 Suomi HD",
+        "Nova Sport 4 Czech HD",
+        "Nova Sports 1 Hellas HD",
+        "ONE Sport Israel HD",
+        "Premier Sports 2 Ireland HD",
+        "Premier Sports 2 UK HD",
+        "Premier Sports GB Player HD",
+        "Prima Sport RO 2 HD",
+        "S Sport 1 Türkiye HD",
+        "S Sport+ Streaming",
+        "Spíler 2 TV Hungary HD",
+        "SuperSport LaLiga HD",
+        "SuperSport MáXimo 3A HD",
+        "TSN Malta 4 HD",
+        "TSN+ Canada ($/geo/R)",
+        "TV2 Play Danmark ($/geo/R)",
+        "TV2 Play Norge ($/geo/R)",
+        "TV2 Sport 1 Norge HD",
+        "TV2 Sport X Dansk HD",
+        "TV4 Play Sverige [online]",
+        "ViaPlay Norge HD",
+        "Ziggo Sport 3",
+        "Spanish La Liga 2 - Week 22"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Córdoba v Málaga",
+      "kickoff_baghdad": "14:00",
+      "channels_raw": [
+        "Arena Sport 1x2 Srbija",
+        "DAZN España ($/geo/R)",
+        "LaLiga Hypermotion HD",
+        "LaLiga TV Bar 2",
+        "Megogo Futbol 6 ($/geo/R)",
+        "ONE2 Sport Israel HD",
+        "TV4 Play Sverige [online]",
+        "TV4 Sportkanalen HD",
+        "Portuguese Liga Portugal - Week 18"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 13",
+      "title": "Vitória Guimarães v FC Porto",
+      "kickoff_baghdad": "14:30",
+      "channels_raw": [
+        "Arena Sport 1 Slovakia HD",
+        "Arena Sport 5 Srbija HD",
+        "beIN Sports France 4 HD max",
+        "Cosmote Sport 3 HD",
+        "Cytavision Sports 6 HD",
+        "DAZN Italia ($/geo/R)",
+        "Eleven Sports 2 Polska HD",
+        "Megogo Futbol 5 ($/geo/R)",
+        "Ring Bulgaria HD",
+        "S Sport+ Streaming",
+        "Sport 1 Lithuania HD [$]",
+        "Sport 2 Hungary HD",
+        "Sport 2 Israel HD",
+        "Sport TV1 Portugal HD",
+        "Sportdigital FUSSBALL 2",
+        "SportKlub 3 Hrvatska",
+        "SportKlub 3 Slovenija",
+        "Tivibu Spor 2 HD",
+        "TV Start Russia HD",
+        "VG+ Sport Norge ($/geo/R)",
         "L.J.'s LIVE Football on Satellite TV. LiveOnSat.com. LJ-Sport.com. All Rights",
         "Reserved. Copyright (c) 1997 - 2026",
         "Cookie Consent by",
