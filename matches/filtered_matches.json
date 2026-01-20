@@ -14,7 +14,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/10564-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/1169-126x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 67,
@@ -36,7 +36,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/28923.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/25010-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 28,
@@ -86,6 +86,26 @@
         "score": 15,
         "dmin": 165,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أولمبياكوس",
+      "away_team": "باير ليفركوزن",
+      "channels_raw": [
+        "beIN Sports 6 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/1023-136x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -187,47 +207,6 @@
         "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أولمبياكوس",
-      "away_team": "باير ليفركوزن",
-      "channels_raw": [
-        "beIN Sports 6 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/1023-136x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - نصف النهائي",
-      "kickoff_baghdad": "14:30",
-      "home_team": "اليابان تحت 23",
-      "away_team": "كوريا الجنوبية تحت 23",
-      "channels_raw": [
-        "الكأس 5",
-        "Football HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28912-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28916-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.18803418803418803
       }
     }
   ]
