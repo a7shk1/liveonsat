@@ -3,139 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "23:00",
-      "home_team": "تشيلسي",
-      "away_team": "أيه.أي. بافوس",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/106-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/2273-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أتالانتا",
-      "away_team": "أتلتيك بلباو",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/232-1-105x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/144-1-145x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "23:00",
-      "home_team": "بايرن ميونخ",
-      "away_team": "يونيون سانت جيلواز",
-      "channels_raw": [
-        "beIN Sports 6 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1204-1-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "ليفربول",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/469-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/108-90x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سلافيا براغ",
-      "away_team": "برشلونة",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1789-148x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/132-1-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "23:00",
-      "home_team": "يوفنتوس",
-      "away_team": "بنفيكا",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/226-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/888.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "23:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "آيندهوفن",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/116-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/725-150x114.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "20:30",
       "home_team": "القادسية",
@@ -207,22 +74,17 @@
     },
     {
       "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أوتريخت",
-      "away_team": "جينك",
+      "kickoff_baghdad": "20:45",
+      "home_team": "باوك سالونيكا",
+      "away_team": "ريال بيتيس",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 8 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/698.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1177.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/1029.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/146.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "أوروبا, الدوري الأوروبي",
@@ -282,32 +144,156 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "20:45",
-      "home_team": "كارباغ اغدام",
-      "away_team": "آينتراخت فرانكفورت",
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أوتريخت",
+      "away_team": "جينك",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "غير معروف"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7521.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/337.png",
-      "status_text": "انتهت",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/698.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1177.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "أوروبا, دوري أبطال اوروبا",
-      "kickoff_baghdad": "20:45",
-      "home_team": "غلطة سراي",
-      "away_team": "أتلتيكو مدريد",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أولمبيك مارسيليا",
+      "away_team": "ليفربول",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/469-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/108-90x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "23:00",
+      "home_team": "سلافيا براغ",
+      "away_team": "برشلونة",
       "channels_raw": [
         "beIN Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/945-127x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/134-128x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1789-148x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/132-1-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "23:00",
+      "home_team": "يوفنتوس",
+      "away_team": "بنفيكا",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/226-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/888.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "23:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "آيندهوفن",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/116-1-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/725-150x114.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "23:00",
+      "home_team": "تشيلسي",
+      "away_team": "أيه.أي. بافوس",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/106-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/2273-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أتالانتا",
+      "away_team": "أتلتيك بلباو",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/232-1-105x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/144-1-145x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا",
+      "kickoff_baghdad": "23:00",
+      "home_team": "بايرن ميونخ",
+      "away_team": "يونيون سانت جيلواز",
+      "channels_raw": [
+        "beIN Sports 6 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1204-1-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     }
   ]
 }
