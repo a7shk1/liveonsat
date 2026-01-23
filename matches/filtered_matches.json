@@ -3,27 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أوكسير",
-      "away_team": "باريس سان جيرمان",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 1 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/476-130x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/480-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "22:30",
       "home_team": "سانت باولي",
@@ -64,27 +43,6 @@
       }
     },
     {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "23:00",
-      "home_team": "دربي كاونتي",
-      "away_team": "وست بروميتش",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/3-150x113.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5-137x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "23:00",
       "home_team": "ليفانتي",
@@ -104,6 +62,27 @@
         "score": 56,
         "dmin": 150,
         "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "23:00",
+      "home_team": "دربي كاونتي",
+      "away_team": "وست بروميتش",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 1 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/3-150x113.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5-137x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -146,6 +125,27 @@
         "score": 37,
         "dmin": 0,
         "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "أوكسير",
+      "away_team": "باريس سان جيرمان",
+      "channels_raw": [
+        "beIN Sports HD",
+        "TNT Sports 1 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/476-130x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/480-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 0,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
