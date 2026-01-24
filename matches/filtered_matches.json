@@ -3,20 +3,41 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "17:30",
-      "home_team": "باير ليفركوزن",
-      "away_team": "فيردر بريمن",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "مانشستر سيتي",
+      "away_team": "وولفرهامبتون",
       "channels_raw": [
-        "Shahid MBC"
+        "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD",
+        "Varzish TV Sport HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/332-107x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/15-1-150x142.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 67,
+        "dmin": 60,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "فولهام",
+      "away_team": "برايتون",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/120-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/38-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 25,
+        "dmin": 10,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -60,46 +81,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "مانشستر سيتي",
-      "away_team": "وولفرهامبتون",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/110-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/15-1-150x142.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 67,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "فولهام",
-      "away_team": "برايتون",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/120-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/38-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 10,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "18:15",
       "home_team": "فالنسيا",
@@ -121,13 +102,13 @@
     {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "19:00",
-      "home_team": "الترجي",
-      "away_team": "سيمبا",
+      "home_team": "شبيبة القبائل",
+      "away_team": "الجيش الملكي",
       "channels_raw": [
-        "beIN Sports 7 HD"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8235-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/10464-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8223-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5455-139x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -140,13 +121,13 @@
     {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "19:00",
-      "home_team": "شبيبة القبائل",
-      "away_team": "الجيش الملكي",
+      "home_team": "الترجي",
+      "away_team": "سيمبا",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports 7 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8223-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5455-139x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8235-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/10464-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -271,15 +252,15 @@
       }
     },
     {
-      "competition": "أفريقيا, الكونفدرالية الافريقية",
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "22:00",
-      "home_team": "اتحاد العاصمة",
-      "away_team": "دجوليبا المالي",
+      "home_team": "نهضة بركان",
+      "away_team": "بيراميدز",
       "channels_raw": [
-        "beIN Sports 8 HD"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8220.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/19392.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/9974-131x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22143-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -290,15 +271,15 @@
       }
     },
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "competition": "أفريقيا, الكونفدرالية الافريقية",
       "kickoff_baghdad": "22:00",
-      "home_team": "نهضة بركان",
-      "away_team": "بيراميدز",
+      "home_team": "اتحاد العاصمة",
+      "away_team": "دجوليبا المالي",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports 8 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/9974-131x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22143-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8220.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/19392.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -384,6 +365,25 @@
         "score": 75,
         "dmin": 5,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "17:30",
+      "home_team": "باير ليفركوزن",
+      "away_team": "فيردر بريمن",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/332-107x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 25,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
