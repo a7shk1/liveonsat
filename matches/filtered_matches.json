@@ -22,20 +22,39 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "17:30",
-      "home_team": "بايرن ميونخ",
-      "away_team": "أوغسبورغ",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "بيرنلي",
+      "away_team": "توتنهام هوتسبر",
       "channels_raw": [
-        "MBC Action"
+        "beIN Sports 3 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/358.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/12-1-143x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 25,
+        "score": 52,
+        "dmin": 90,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, كأس آسيا تحت 23 سنة - النهائي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الصين تحت 23",
+      "away_team": "اليابان تحت 23",
+      "channels_raw": [
+        "beIN Sports 6 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/25010-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28912-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 65,
+        "dmin": 55,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -81,44 +100,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "بيرنلي",
-      "away_team": "توتنهام هوتسبر",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/12-1-143x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/114-1-83x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 90,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, كأس آسيا تحت 23 سنة - النهائي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الصين تحت 23",
-      "away_team": "اليابان تحت 23",
-      "channels_raw": [
-        "beIN Sports 6 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/25010-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/28912-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 55,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "18:15",
       "home_team": "فالنسيا",
@@ -140,14 +121,14 @@
     {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "19:00",
-      "home_team": "شبيبة القبائل",
-      "away_team": "الجيش الملكي",
+      "home_team": "الترجي",
+      "away_team": "سيمبا",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports 7 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8223-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5455-139x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8235-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/10464-150x150.png",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -159,14 +140,14 @@
     {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "19:00",
-      "home_team": "الترجي",
-      "away_team": "سيمبا",
+      "home_team": "شبيبة القبائل",
+      "away_team": "الجيش الملكي",
       "channels_raw": [
-        "beIN Sports 7 HD"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8235-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/10464-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8223-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/5455-139x150.png",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -290,15 +271,15 @@
       }
     },
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "competition": "أفريقيا, الكونفدرالية الافريقية",
       "kickoff_baghdad": "22:00",
-      "home_team": "نهضة بركان",
-      "away_team": "بيراميدز",
+      "home_team": "اتحاد العاصمة",
+      "away_team": "دجوليبا المالي",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports 8 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/9974-131x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22143-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8220.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/19392.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -309,15 +290,15 @@
       }
     },
     {
-      "competition": "أفريقيا, الكونفدرالية الافريقية",
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "22:00",
-      "home_team": "اتحاد العاصمة",
-      "away_team": "دجوليبا المالي",
+      "home_team": "نهضة بركان",
+      "away_team": "بيراميدز",
       "channels_raw": [
-        "beIN Sports 8 HD"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8220.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/19392.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/9974-131x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/22143-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -367,28 +348,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "15:30",
-      "home_team": "وست هام يونايتد",
-      "away_team": "سندرلاند",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/113-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/117-150x137.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 68,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "16:00",
       "home_team": "باور ديناموز",
@@ -425,6 +384,25 @@
         "score": 75,
         "dmin": 5,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "17:30",
+      "home_team": "بايرن ميونخ",
+      "away_team": "أوغسبورغ",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/331-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/358.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 25,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
