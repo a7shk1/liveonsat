@@ -3,34 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
-      "kickoff_baghdad": "22:30",
-      "home_team": "نادي سبتة",
-      "away_team": "ديبورتيفا ليونيسا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/6144-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/6347-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "هيلاس فيرونا",
-      "away_team": "أودينيزي",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/316-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/229-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
       "competition": "إنجلترا, تشامبيونشيب",
       "kickoff_baghdad": "23:00",
       "home_team": "نورويتش سيتي",
@@ -114,20 +86,6 @@
     {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "22:30",
-      "home_team": "سانت باولي",
-      "away_team": "لايبزيج",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/359-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7171-150x108.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "22:30",
       "home_team": "فيردر بريمن",
       "away_team": "هوفنهايم",
       "channels_raw": [
@@ -135,6 +93,20 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/332-107x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/351.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "22:30",
+      "home_team": "سانت باولي",
+      "away_team": "لايبزيج",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/359-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/7171-150x108.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": null
@@ -178,29 +150,29 @@
       }
     },
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "الاتحاد",
-      "away_team": "الأخدود",
+      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
+      "kickoff_baghdad": "22:30",
+      "home_team": "نادي سبتة",
+      "away_team": "ديبورتيفا ليونيسا",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "غير معروف"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8593-122x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/55794-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/6144-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/6347-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
     },
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "النصر",
-      "away_team": "التعاون",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "هيلاس فيرونا",
+      "away_team": "أودينيزي",
       "channels_raw": [
-        "ثمانية 1"
+        "Starzplay 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/7549-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8941-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/316-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/229-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
