@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "18:00",
-      "home_team": "الأهلي",
-      "away_team": "وادي دجلة",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8200-1-126x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8311-131x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "22:30",
       "home_team": "فيردر بريمن",
@@ -60,6 +41,25 @@
       }
     },
     {
+      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "فيورنتينا",
+      "away_team": "كومو",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/228-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/6117-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 45,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إنجلترا, ليغ وان",
       "kickoff_baghdad": "23:00",
       "home_team": "دونكاستر",
@@ -79,20 +79,20 @@
       }
     },
     {
-      "competition": "إيطاليا, كأس إيطاليا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "فيورنتينا",
-      "away_team": "كومو",
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "18:00",
+      "home_team": "الأهلي",
+      "away_team": "وادي دجلة",
       "channels_raw": [
-        "Shahid MBC"
+        "أون سبورت 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/228-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/6117-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8200-1-126x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8311-131x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 45,
+        "score": 35,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
