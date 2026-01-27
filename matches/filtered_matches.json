@@ -8,16 +8,15 @@
       "home_team": "الأهلي",
       "away_team": "وادي دجلة",
       "channels_raw": [
-        "أون سبورت 1",
-        "Sky Sports Main Event HD"
+        "أون سبورت 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8200-1-126x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8311-131x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
+        "score": 35,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -37,7 +36,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -56,7 +55,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -73,8 +72,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
+        "score": 25,
+        "dmin": 45,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -92,8 +91,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
+        "score": 25,
+        "dmin": 45,
         "offset": 180,
         "team_sim": 0.0
       }
