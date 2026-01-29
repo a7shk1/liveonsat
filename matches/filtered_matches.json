@@ -45,12 +45,12 @@
     {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
       "kickoff_baghdad": "19:00",
-      "home_team": "النصر",
+      "home_team": "النصر الاماراتي",
       "away_team": "بني ياس",
       "channels_raw": [
         "أبو ظبي الرياضية 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/7549-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/1111334-70x70-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/8345.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
@@ -77,6 +77,44 @@
         "score": 35,
         "dmin": 20,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "باناثينيكوس",
+      "away_team": "روما",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1022.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 20,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريال بيتيس",
+      "away_team": "فاينورد",
+      "channels_raw": [
+        "beIN Sports 6 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/146.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/691-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 20,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -223,44 +261,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/465-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/1029.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 20,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "باناثينيكوس",
-      "away_team": "روما",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/09/1022.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/225-1-127x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 20,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ريال بيتيس",
-      "away_team": "فاينورد",
-      "channels_raw": [
-        "beIN Sports 6 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/146.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/691-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
