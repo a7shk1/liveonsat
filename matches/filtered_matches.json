@@ -18,7 +18,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -36,7 +36,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 52,
-        "dmin": 90,
+        "dmin": 150,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -56,7 +56,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -75,7 +75,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -95,7 +95,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -105,16 +105,17 @@
       "home_team": "لانس",
       "away_team": "لو آفر",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "beIN Sports 4 HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/481.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/485.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 135,
-        "offset": -180,
+        "score": 36,
+        "dmin": 15,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -134,7 +135,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -154,7 +155,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -173,7 +174,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
