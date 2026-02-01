@@ -17,7 +17,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 10,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -36,7 +36,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 10,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -55,7 +55,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 10,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -110,8 +110,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 50,
+        "score": 35,
+        "dmin": 10,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -130,7 +130,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
+        "dmin": 10,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -149,7 +149,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 52,
-        "dmin": 135,
+        "dmin": 75,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -168,7 +168,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 5,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -187,7 +187,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 5,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -207,7 +207,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 53,
-        "dmin": 150,
+        "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -227,7 +227,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 53,
-        "dmin": 165,
+        "dmin": 105,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -246,7 +246,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
+        "dmin": 20,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -265,7 +265,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 10,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -276,15 +276,16 @@
       "home_team": "خيتافي",
       "away_team": "سيلتا فيجو",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "beIN Sports 5 HD",
+        "DAZN 1 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/140.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/158-1.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 20,
+        "score": 53,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -303,7 +304,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 20,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
