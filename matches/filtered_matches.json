@@ -3,44 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, كأس المانيا - ربع النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "باير ليفركوزن",
-      "away_team": "سانت باولي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/359-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "بولونيا",
-      "away_team": "ميلان",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, كأس الكاراباو - نصف النهائي",
       "kickoff_baghdad": "23:00",
       "home_team": "أرسنال",
@@ -51,26 +13,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - ربع النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ألباسيتي",
-      "away_team": "برشلونة",
-      "channels_raw": [
-        "Shahid MBC",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/170.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -389,44 +331,6 @@
       }
     },
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "الخليج",
-      "away_team": "القادسية",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12138-136x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8947-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "الاتفاق",
-      "away_team": "التعاون",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8943-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8941-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "21:00",
       "home_team": "البنك الاهلي",
@@ -461,6 +365,64 @@
         "score": 35,
         "dmin": 0,
         "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "بولونيا",
+      "away_team": "ميلان",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, كأس المانيا - ربع النهائي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "باير ليفركوزن",
+      "away_team": "سانت باولي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/359-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - ربع النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ألباسيتي",
+      "away_team": "برشلونة",
+      "channels_raw": [
+        "Shahid MBC",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/170.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
