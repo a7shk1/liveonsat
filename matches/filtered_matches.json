@@ -3,46 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إنجلترا, كأس الكاراباو - نصف النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أرسنال",
-      "away_team": "تشيلسي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
-      "kickoff_baghdad": "23:10",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "ستاد رين",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/469.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/477.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 20,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري أبطال أوروبا للشباب - دور الـ 32",
       "kickoff_baghdad": "16:30",
       "home_team": "باريس تحت 19",
@@ -331,25 +291,6 @@
       }
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "21:00",
-      "home_team": "البنك الاهلي",
-      "away_team": "الأهلي",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50527.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8200-1-126x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "فرنسا, كأس فرنسا - دور الـ 16",
       "kickoff_baghdad": "22:30",
       "home_team": "ستاد ريمس",
@@ -364,25 +305,6 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "بولونيا",
-      "away_team": "ميلان",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
         "offset": -120,
         "team_sim": 0.0
       }
@@ -407,6 +329,45 @@
       }
     },
     {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "بولونيا",
+      "away_team": "ميلان",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, كأس الكاراباو - نصف النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أرسنال",
+      "away_team": "تشيلسي",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إسبانيا, كأس ملك إسبانيا - ربع النهائي",
       "kickoff_baghdad": "23:00",
       "home_team": "ألباسيتي",
@@ -422,6 +383,26 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
+      "kickoff_baghdad": "23:10",
+      "home_team": "أولمبيك مارسيليا",
+      "away_team": "ستاد رين",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/469.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/477.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 20,
         "offset": -180,
         "team_sim": 0.0
       }
