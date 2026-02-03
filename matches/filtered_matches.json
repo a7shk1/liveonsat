@@ -27,16 +27,17 @@
       "home_team": "ضمك",
       "away_team": "الخلود",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "تطبيق ثمانية",
+        "DAZN 1 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/24241-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/55800-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 10,
-        "offset": -120,
+        "score": 26,
+        "dmin": 55,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -46,16 +47,17 @@
       "home_team": "الخليج",
       "away_team": "القادسية",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "تطبيق ثمانية",
+        "DAZN 1 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/12138-136x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8947-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 0,
+        "score": 13,
+        "dmin": 165,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -65,16 +67,17 @@
       "home_team": "الاتفاق",
       "away_team": "التعاون",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "تطبيق ثمانية",
+        "DAZN 1 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8943-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8941-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 0,
+        "score": 13,
+        "dmin": 165,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -84,16 +87,17 @@
       "home_team": "البنك الاهلي",
       "away_team": "الأهلي",
       "channels_raw": [
-        "أون سبورت 1"
+        "أون سبورت 1",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/50527.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8200-1-126x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 0,
+        "score": 13,
+        "dmin": 180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -112,26 +116,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, كأس المانيا - ربع النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "باير ليفركوزن",
-      "away_team": "سانت باولي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/359-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -150,7 +135,26 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 120,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, كأس المانيا - ربع النهائي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "باير ليفركوزن",
+      "away_team": "سانت باولي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/359-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -169,7 +173,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
-        "offset": 120,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -188,7 +192,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
-        "offset": 120,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -207,7 +211,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 20,
-        "offset": 180,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
