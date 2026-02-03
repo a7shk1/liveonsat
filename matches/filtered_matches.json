@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال أوروبا للشباب - دور الـ 32",
-      "kickoff_baghdad": "18:00",
-      "home_team": "ريال مدريد تحت 19",
-      "away_team": "Olympique Marseille U19",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/27516-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/67928-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 45,
-        "dmin": 50,
-        "offset": 180,
-        "team_sim": 0.3333333333333333
-      }
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "18:40",
       "home_team": "ضمك",
@@ -29,6 +10,7 @@
       "channels_raw": [
         "تطبيق ثمانية",
         "ESPN 1 Brazil HD",
+        "IRIB TV3 HD",
         "Persiana Sport HD",
         "Sky Sport Premier League HD",
         "Sky Sports Main Event HD",
@@ -41,7 +23,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 18,
-        "dmin": 100,
+        "dmin": 160,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -56,11 +38,11 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/12138-136x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8947-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 35,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -75,11 +57,11 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8943-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/8941-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 35,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -99,7 +81,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -109,16 +91,17 @@
       "home_team": "ستاد ريمس",
       "away_team": "لومان",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/499-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/10/468-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -128,16 +111,17 @@
       "home_team": "باير ليفركوزن",
       "away_team": "سانت باولي",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/333-150x127.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/08/359-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 15,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -147,16 +131,17 @@
       "home_team": "بولونيا",
       "away_team": "ميلان",
       "channels_raw": [
-        "Starzplay 1"
+        "Starzplay 1",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 15,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -176,7 +161,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -196,7 +181,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -216,8 +201,27 @@
       "merge_debug": {
         "score": 36,
         "dmin": 20,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال أوروبا للشباب - دور الـ 32",
+      "kickoff_baghdad": "18:00",
+      "home_team": "ريال مدريد تحت 19",
+      "away_team": "Olympique Marseille U19",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/11/27516-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/67928-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 32,
+        "dmin": 110,
+        "offset": 180,
+        "team_sim": 0.3333333333333333
       }
     }
   ]
