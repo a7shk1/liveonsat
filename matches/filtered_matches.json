@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال أوروبا للشباب - دور الـ 32",
-      "kickoff_baghdad": "16:30",
-      "home_team": "باريس تحت 19",
-      "away_team": "Dinamo Minsk U19",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/27524-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/67921-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 47,
-        "dmin": 0,
-        "offset": 0,
-        "team_sim": 0.2
-      }
-    },
-    {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "18:00",
       "home_team": "زد",
@@ -74,6 +55,25 @@
       "merge_debug": {
         "score": 12,
         "dmin": 120,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
+      "kickoff_baghdad": "22:30",
+      "home_team": "أولمبيك ليون",
+      "away_team": "لافال",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/465-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/5434-132x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -136,25 +136,6 @@
       }
     },
     {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
-      "kickoff_baghdad": "22:30",
-      "home_team": "أولمبيك ليون",
-      "away_team": "لافال",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/465-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/5434-132x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "ألمانيا, كأس المانيا - ربع النهائي",
       "kickoff_baghdad": "22:45",
       "home_team": "هولشتاين كيل",
@@ -169,6 +150,25 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, كأس الكاراباو - نصف النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "مانشستر سيتي",
+      "away_team": "نيوكاسل يونايتد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -250,22 +250,22 @@
       }
     },
     {
-      "competition": "إنجلترا, كأس الكاراباو - نصف النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "مانشستر سيتي",
-      "away_team": "نيوكاسل يونايتد",
+      "competition": "أوروبا, دوري أبطال أوروبا للشباب - دور الـ 32",
+      "kickoff_baghdad": "16:30",
+      "home_team": "باريس تحت 19",
+      "away_team": "Dinamo Minsk U19",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "غير معروف"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/27524-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/67921-150x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 47,
         "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
+        "offset": 0,
+        "team_sim": 0.2
       }
     }
   ]
