@@ -15,10 +15,10 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
+        "score": 47,
         "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.29411764705882354
+        "offset": 0,
+        "team_sim": 0.2
       }
     },
     {
@@ -36,7 +36,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -55,7 +55,7 @@
       "merge_debug": {
         "score": 41,
         "dmin": 30,
-        "offset": 60,
+        "offset": 180,
         "team_sim": 0.2777777777777778
       }
     },
@@ -72,8 +72,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
+        "score": 12,
+        "dmin": 120,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -91,9 +91,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
+        "score": 25,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -110,9 +110,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
+        "score": 25,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -129,9 +129,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
+        "score": 25,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -148,9 +148,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
+        "score": 25,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -169,66 +169,6 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, كأس إيطاليا - ربع النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "تورينو",
-      "channels_raw": [
-        "Shahid MBC",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/224-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/235-137x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "تروا",
-      "away_team": "لانس",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/488.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/481.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - ربع النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "فالنسيا",
-      "away_team": "أتلتيك بلباو",
-      "channels_raw": [
-        "Shahid MBC",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/139-130x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -239,16 +179,15 @@
       "home_team": "ألافيس",
       "away_team": "ريال سوسيداد",
       "channels_raw": [
-        "Shahid MBC",
-        "TNT Sports 1 HD"
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/168-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 30,
+        "score": 35,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -259,16 +198,72 @@
       "home_team": "مانشستر سيتي",
       "away_team": "نيوكاسل يونايتد",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 1 HD"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 30,
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, كأس إيطاليا - ربع النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "إنتر ميلان",
+      "away_team": "تورينو",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/224-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/235-137x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "تروا",
+      "away_team": "لانس",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/488.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/481.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - ربع النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "فالنسيا",
+      "away_team": "أتلتيك بلباو",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/139-130x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
