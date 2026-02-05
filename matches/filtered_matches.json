@@ -9,16 +9,18 @@
       "away_team": "فاركو",
       "channels_raw": [
         "أون سبورت 1",
-        "TNT Sports 1 HD"
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8307-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/46242-138x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 38,
         "dmin": 0,
-        "offset": -60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -29,16 +31,18 @@
       "away_team": "النجمة",
       "channels_raw": [
         "تطبيق ثمانية",
-        "TNT Sports 1 HD"
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/20733-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/24240-114x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 38,
         "dmin": 20,
-        "offset": -60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -58,7 +62,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -68,16 +72,15 @@
       "home_team": "الأهلي السعودي",
       "away_team": "الحزم",
       "channels_raw": [
-        "تطبيق ثمانية",
-        "TNT Sports 1 HD"
+        "تطبيق ثمانية"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/14895-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 30,
+        "score": 35,
+        "dmin": 0,
         "offset": 60,
         "team_sim": 0.0
       }
@@ -88,16 +91,15 @@
       "home_team": "الأخدود",
       "away_team": "الهلال",
       "channels_raw": [
-        "تطبيق ثمانية",
-        "TNT Sports 1 HD"
+        "تطبيق ثمانية"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55794-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 30,
+        "score": 35,
+        "dmin": 0,
         "offset": 60,
         "team_sim": 0.0
       }
