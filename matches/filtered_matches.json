@@ -15,9 +15,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "score": 25,
+        "dmin": 30,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -35,8 +35,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 20,
-        "offset": 120,
+        "dmin": 10,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -55,7 +55,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -74,7 +74,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -91,9 +91,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -110,9 +110,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -129,9 +129,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -148,123 +148,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 135,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
-      "kickoff_baghdad": "22:30",
-      "home_team": "أولمبيك ليون",
-      "away_team": "لافال",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/465-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/5434-132x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
-      "kickoff_baghdad": "22:30",
-      "home_team": "تولوز",
-      "away_team": "أميان",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/497-137x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
-      "kickoff_baghdad": "22:30",
-      "home_team": "نيس",
-      "away_team": "مونبلييه",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/470-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/491.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - دور الـ 16",
-      "kickoff_baghdad": "22:30",
-      "home_team": "لوريان",
-      "away_team": "باريس أف.سي.",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6075.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, كأس المانيا - ربع النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "هولشتاين كيل",
-      "away_team": "شتوتجارت",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/430.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 165,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, كأس الكاراباو - نصف النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "مانشستر سيتي",
-      "away_team": "نيوكاسل يونايتد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -281,9 +167,9 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -300,9 +186,9 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -319,9 +205,9 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -338,9 +224,28 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, كأس الكاراباو - نصف النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "مانشستر سيتي",
+      "away_team": "نيوكاسل يونايتد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
