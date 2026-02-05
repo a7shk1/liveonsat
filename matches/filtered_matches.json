@@ -64,6 +64,26 @@
       }
     },
     {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "kickoff_baghdad": "22:00",
+      "home_team": "مولودية الجزائر",
+      "away_team": "الهلال السوداني",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8218-131x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12778.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "22:30",
       "home_team": "يونيون برلين",
@@ -163,6 +183,26 @@
       }
     },
     {
+      "competition": "إيطاليا, كأس إيطاليا - ربع النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أتالانتا",
+      "away_team": "يوفنتوس",
+      "channels_raw": [
+        "Shahid MBC",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/226-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "فرنسا, كأس فرنسا - دور الـ 16",
       "kickoff_baghdad": "23:00",
       "home_team": "ستراسبورج",
@@ -193,26 +233,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/134-128x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, كأس إيطاليا - ربع النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أتالانتا",
-      "away_team": "يوفنتوس",
-      "channels_raw": [
-        "Shahid MBC",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/226-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
