@@ -9,6 +9,7 @@
       "away_team": "الرياض",
       "channels_raw": [
         "تطبيق ثمانية",
+        "DAZN 1 Portugal HD",
         "Sky Sports Main Event HD",
         "Sky Sport Premier League HD"
       ],
@@ -17,7 +18,7 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 38,
         "dmin": 25,
         "offset": 180,
         "team_sim": 0.0
@@ -39,7 +40,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": 0,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -59,7 +60,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -79,7 +80,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": 60,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -99,7 +100,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": 120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -119,7 +120,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": 120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -139,7 +140,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -159,7 +160,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
