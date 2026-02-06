@@ -4,28 +4,6 @@
   "matches": [
     {
       "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "17:25",
-      "home_team": "نيوم",
-      "away_team": "الرياض",
-      "channels_raw": [
-        "تطبيق ثمانية",
-        "DAZN 1 Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55793-135x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12135-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 25,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "20:30",
       "home_team": "النصر",
       "away_team": "الاتحاد",
@@ -33,14 +11,14 @@
         "ثمانية 1",
         "TNT Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7549-70x70-1.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7549-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -120,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -50,17 +28,16 @@
       "home_team": "مولودية الجزائر",
       "away_team": "الهلال السوداني",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 1 HD"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8218-131x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12778.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -60,
+        "score": 52,
+        "dmin": 90,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -78,9 +55,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": 0,
+        "score": 36,
+        "dmin": 5,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -100,7 +77,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -120,7 +97,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -131,16 +108,17 @@
       "away_team": "أوساسونا",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "TNT Sports 1 HD"
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/143-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 0,
+        "score": 54,
+        "dmin": 150,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -160,7 +138,27 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "17:25",
+      "home_team": "نيوم",
+      "away_team": "الرياض",
+      "channels_raw": [
+        "تطبيق ثمانية",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55793-135x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12135-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 25,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
