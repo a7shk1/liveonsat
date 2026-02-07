@@ -54,7 +54,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/76692-150x149.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9974-131x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 52,
@@ -80,26 +80,6 @@
         "score": 36,
         "dmin": 25,
         "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "بورنموث",
-      "away_team": "أستون فيلا",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50-126x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 5,
-        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -157,6 +137,26 @@
       "merge_debug": {
         "score": 75,
         "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "بورنموث",
+      "away_team": "أستون فيلا",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50-126x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 76,
+        "dmin": 5,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -220,25 +220,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "برينتفورد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/63-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 150,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "20:30",
       "home_team": "بوروسيا مونشنجلادباخ",
@@ -272,6 +253,25 @@
       "merge_debug": {
         "score": 52,
         "dmin": 165,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "20:30",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "برينتفورد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/63-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 52,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
