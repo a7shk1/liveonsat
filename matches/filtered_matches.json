@@ -5,29 +5,6 @@
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "16:45",
-      "home_team": "الوحدة",
-      "away_team": "الأهلي السعودي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8350-127x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 79,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "16:45",
       "home_team": "ناساف كارشي",
       "away_team": "الشرطة",
       "channels_raw": [
@@ -43,6 +20,29 @@
       "result_text": "",
       "merge_debug": {
         "score": 39,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "16:45",
+      "home_team": "الوحدة",
+      "away_team": "الأهلي السعودي",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8350-127x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 79,
         "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
