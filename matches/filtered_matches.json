@@ -3,26 +3,22 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "16:45",
-      "home_team": "ناساف كارشي",
-      "away_team": "الشرطة",
+      "competition": "Super Bowl LX",
+      "kickoff_baghdad": "02:30",
+      "home_team": "Seattle Seahawks",
+      "away_team": "New England Patriots",
       "channels_raw": [
-        "beIN Sports HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "غير معروف"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8596-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8246-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55555566-70x70-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/222222222222222-70x70-1.png",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
+        "score": 33,
+        "dmin": 30,
+        "offset": -180,
+        "team_sim": 0.14957264957264957
       }
     },
     {
@@ -43,6 +39,29 @@
       "result_text": "",
       "merge_debug": {
         "score": 79,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "16:45",
+      "home_team": "ناساف كارشي",
+      "away_team": "الشرطة",
+      "channels_raw": [
+        "beIN Sports HD",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8596-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8246-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
         "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
@@ -148,20 +167,20 @@
       }
     },
     {
-      "competition": "أفريقيا, الكونفدرالية الافريقية",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أولمبيك آسفي",
-      "away_team": "دجوليبا المالي",
+      "competition": "البرتغال, الدوري البرتغالي",
+      "kickoff_baghdad": "23:45",
+      "home_team": "بورتو",
+      "away_team": "سبورتنج لشبونة",
       "channels_raw": [
-        "beIN Sports 6 HD"
+        "غير معروف"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8210.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/19392.png",
-      "status_text": "انتهت",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
+        "score": 12,
+        "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
       }
