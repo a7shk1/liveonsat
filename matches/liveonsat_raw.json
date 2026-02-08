@@ -10,9 +10,9 @@
         "Discovery+ UK ($/geo/R)",
         "TNT Sports 3 HD",
         "Discover more",
-        "Stadium tours",
-        "Europa League Tickets",
-        "Football kits",
+        "Spor",
+        "World Cup tickets",
+        "Bundesliga Fan Gear",
         "Australian W-League - Week 16"
       ]
     },
@@ -52,10 +52,6 @@
       "channels_raw": [
         "Discovery+ UK ($/geo/R)",
         "TNT Sports 4 HD",
-        "Discover more",
-        "TV Schedule App",
-        "Sports memorabilia",
-        "American Sports Apparel",
         "Bulgarian First League - Week 20"
       ]
     },
@@ -65,6 +61,7 @@
       "kickoff_baghdad": "04:00",
       "channels_raw": [
         "Diema Sport HD",
+        "SportKlub 1 Hrvatska HD",
         "Türkiye 1. Lig - Week 24"
       ]
     },
@@ -99,10 +96,6 @@
         "DAZN 1 Espana HD",
         "DAZN Great Britain (geo/R)",
         "DAZN Ireland ($/geo/R)",
-        "Discover more",
-        "Sport",
-        "Television",
-        "Football boots",
         "Spanish Liga F Femenino - Week 19"
       ]
     },
@@ -113,6 +106,10 @@
       "channels_raw": [
         "DAZN 2 Bar Espana",
         "DAZN 2 Espana HD",
+        "Discover more",
+        "Ligue 1 Jerseys",
+        "TV",
+        "Fan apparel",
         "Dutch Eredivisie - Week 22"
       ]
     },
@@ -132,6 +129,7 @@
         "S Sport+ Streaming",
         "Setanta Sports Ukraine HD",
         "Sport 4 Israel HD",
+        "SportKlub 2 Hrvatska",
         "SuperSport 2 Albania HD",
         "Thriller TV+ [online] ($/geo/R)",
         "Tivibu Spor 2 HD",
@@ -207,10 +205,6 @@
         "Sky Go UK [online]",
         "Sky Sports+ [via APP]",
         "YouTube: W/Super League",
-        "Discover more",
-        "Womens Football Gear",
-        "Sports TV Guide",
-        "Youth Soccer Equipment",
         "English Womens Super League - Week 15"
       ]
     },
@@ -232,6 +226,12 @@
         "Sky Go UK [online]",
         "Sky Showcase UK HD",
         "Sky Sports+ TV HD",
+        "SportKlub 4 Hrvatska",
+        "SportKlub 4 Slovenija",
+        "Discover more",
+        "FIFA video games",
+        "Live Soccer TV",
+        "Team merchandise",
         "English WSL 2 - Week 15"
       ]
     },
@@ -241,6 +241,15 @@
       "kickoff_baghdad": "06:00",
       "channels_raw": [
         "YouTube: W/Super League 2",
+        "Slovenian 1. SNL - Week 21"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 16",
+      "title": "Mura v Aluminij",
+      "kickoff_baghdad": "06:00",
+      "channels_raw": [
+        "SportKlub 1 Slovenija HD",
         "English Championship - Week 31"
       ]
     },
@@ -262,10 +271,6 @@
         "Sky UK Ultra HD 1",
         "Sport 1 Israel HD",
         "ViaPlay Sport Sverige HD",
-        "Discover more",
-        "Sports",
-        "Sports commentary books",
-        "Sports Streaming Service",
         "Bulgarian First League - Week 20"
       ]
     },
@@ -297,7 +302,14 @@
         "Arena 4 Hungary HD",
         "OneFootball [app] ($/geo/R)",
         "Sky Sport Bundesliga 3 HD",
+        "SportKlub 1 Hrvatska HD",
         "Tivibu Spor 4 HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD",
         "YouTube: Bundesliga",
         "German 2. Bundesliga - Week 21"
       ]
@@ -312,7 +324,14 @@
         "OneFootball [app] ($/geo/R)",
         "S Sport+ Streaming",
         "Sky Sport Bundesliga 2 HD",
+        "SportKlub 8 Hrvatska",
         "Tivibu Spor 3 HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD",
         "YouTube: Bundesliga",
         "German 2. Bundesliga - Week 21"
       ]
@@ -325,6 +344,12 @@
         "Nova Sport 6 Czech HD",
         "OneFootball [app] ($/geo/R)",
         "Sky Sport Bundesliga 4 HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
+        "ViaPlay Ísland HD",
         "YouTube: Bundesliga",
         "German 3. Liga - Week 23"
       ]
@@ -421,6 +446,16 @@
       "channels_raw": [
         "DAZN 2 Bar Espana",
         "DAZN 2 Espana HD",
+        "Swiss Super League - Week 23"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 16",
+      "title": "Servette v Thun",
+      "kickoff_baghdad": "07:00",
+      "channels_raw": [
+        "SportKlub 2 Slovenija",
+        "SportKlub 6 Hrvatska",
         "Türkiye 1. Lig - Week 24"
       ]
     },
@@ -443,6 +478,28 @@
         "beIN Connect Türkiye",
         "beIN Sports Türkiye Max 1 HD",
         "TRT Spor Türkiye HD",
+        "Austrian Bundesliga - Week 18"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 16",
+      "title": "Wolfsberger AC v Grazer AK",
+      "kickoff_baghdad": "07:30",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R)",
+        "Sky Go Germany [online]",
+        "Sky Sport 1 Austria HD [s/cast]",
+        "Austrian Bundesliga - Week 18"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 16",
+      "title": "Rheindorf Altach v Blau-Weiß Linz",
+      "kickoff_baghdad": "07:30",
+      "channels_raw": [
+        "OneFootball [app] ($/geo/R)",
+        "Sky Go Germany [online]",
+        "Sky Sport 1 Austria HD [s/cast]",
         "Dutch Eredivisie - Week 22"
       ]
     },
@@ -460,6 +517,7 @@
         "Ring Bulgaria HD",
         "S Sport+ Streaming",
         "Sport 4 Israel HD",
+        "SportKlub 3 Hrvatska",
         "SuperSport 4 Albania HD",
         "Thriller TV+ [online] ($/geo/R)",
         "Tivibu Spor HD",
@@ -562,6 +620,15 @@
       "kickoff_baghdad": "08:00",
       "channels_raw": [
         "YouTube: W/Super League 2",
+        "French Féminine Première Ligue - Week 15"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 16",
+      "title": "Lyon v St Etienne",
+      "kickoff_baghdad": "08:00",
+      "channels_raw": [
+        "Canal+ France HD",
         "French Ligue 1 - Week 21"
       ]
     },
@@ -585,6 +652,11 @@
       "title": "V Sport 1 Sverige HD",
       "kickoff_baghdad": null,
       "channels_raw": [
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
         "Greek Super League 1 - Week 20"
       ]
     },
@@ -664,6 +736,15 @@
         "Premier Sports 1 UK HD",
         "Premier Sports GB Player HD",
         "Rangers TV ($/geo/R)",
+        "Slovenian 1. SNL - Week 21"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 16",
+      "title": "Olimpija v Celje",
+      "kickoff_baghdad": "08:00",
+      "channels_raw": [
+        "SportKlub 10 Hrvatska",
         "Türkiye Süper Lig - Week 21"
       ]
     },
@@ -714,6 +795,15 @@
         "SportKlub 1 Slovenija HD",
         "SportKlub 2 Hrvatska",
         "SuperSport 3 Albania HD",
+        "French Féminine Première Ligue - Week 15"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 16",
+      "title": "Strasbourg v Marseille",
+      "kickoff_baghdad": "08:15",
+      "channels_raw": [
+        "YouTube: Première Ligue",
         "English Womens Super League - Week 15"
       ]
     },
@@ -726,6 +816,8 @@
         "BBC iPlayer 4K (geo/R)",
         "BBC Sport Website (geo/R)",
         "BBC Two HD",
+        "SportKlub 6 Slovenija",
+        "SportKlub 8 Hrvatska",
         "YouTube: W/Super League",
         "Czech First League - Week 21"
       ]
@@ -763,6 +855,7 @@
         "Setanta Sports+ Ukraine HD",
         "Sky Sport Arena Italia HD",
         "Sport 3 Israel HD",
+        "SportKlub 1 Hrvatska HD",
         "SuperSport 3 Albania HD",
         "Tivibu Spor 2 HD",
         "TV2 Play Norge ($/geo/R)",
@@ -866,6 +959,7 @@
         "Fubo Sports USA ($/geo/R)",
         "LaLiga TV Bar HD",
         "LaLiga TV UK [stream] ($/geo/R)",
+        "MAX Sport 4 Bulgaria HD",
         "MTV Katsomon+ ($/geo/R)",
         "Nova Sport 6 Czech HD",
         "Premier Sports GB Player HD",
@@ -991,6 +1085,7 @@
         "Ring Bulgaria HD",
         "S Sport+ Streaming",
         "Sport 4 Israel HD",
+        "SportKlub 6 Hrvatska",
         "SuperSport 4 Albania HD",
         "Thriller TV+ [online] ($/geo/R)",
         "Tivibu Spor 4 HD",
@@ -1002,6 +1097,11 @@
       "title": "Sturm Graz v Ried",
       "kickoff_baghdad": "10:00",
       "channels_raw": [
+        "OneFootball [app] ($/geo/R)",
+        "Sky Go Germany [online]",
+        "Sky Sport 1 Austria HD",
+        "SportKlub 3 Hrvatska",
+        "SportKlub 3 Slovenija",
         "TV Start Russia HD",
         "CAF African Confederation Cup - Group Stage: Round 5"
       ]
@@ -1053,10 +1153,10 @@
       "title": "Angers v Toulouse",
       "kickoff_baghdad": "10:15",
       "channels_raw": [
-        "#0",
         "beIN Connect Türkiye",
         "beIN Sports MENA 8 HD",
-        "beIN Sports MENA Xtra 3 HD"
+        "beIN Sports MENA Xtra 3 HD",
+        "Ligue 1+ 6 ($/geo/R)"
       ]
     },
     {
@@ -1064,6 +1164,11 @@
       "title": "V Sport Football HD",
       "kickoff_baghdad": null,
       "channels_raw": [
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
         "French Ligue 1 - Week 21"
       ]
     },
@@ -1074,7 +1179,8 @@
       "channels_raw": [
         "beIN Connect Türkiye",
         "beIN Sports MENA 4 HD",
-        "beIN Sports Türkiye Max 2 HD"
+        "beIN Sports Türkiye Max 2 HD",
+        "Ligue 1+ 5 ($/geo/R)"
       ]
     },
     {
@@ -1082,6 +1188,11 @@
       "title": "V Sport Extra Sverige HD",
       "kickoff_baghdad": null,
       "channels_raw": [
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
         "French Ligue 1 - Week 21"
       ]
     },
@@ -1095,6 +1206,7 @@
         "beIN Sports Türkiye 4 HD",
         "Cablenet Sports 2 HD",
         "Eleven Sports 4 Polska HD",
+        "Ligue 1+ 4 ($/geo/R)",
         "Nova Sport 1 Czech HD"
       ]
     },
@@ -1103,6 +1215,11 @@
       "title": "V Sport 1 Sverige HD",
       "kickoff_baghdad": null,
       "channels_raw": [
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
         "English Premier League - Week 25"
       ]
     },
@@ -1201,6 +1318,7 @@
         "Setanta Sports+ Ukraine HD",
         "Sky Sport 255 Italia HD",
         "Sport 3 Israel HD",
+        "SportKlub 1 Hrvatska HD",
         "SuperSport 2 Albania HD",
         "Tivibu Spor 3 HD",
         "TV2 Play Norge ($/geo/R)",
@@ -1240,6 +1358,7 @@
       "channels_raw": [
         "Nova Sports Prime Cyprus HD",
         "Nova Sports Prime Hellas HD",
+        "SportKlub 2 Hrvatska",
         "Italian Serie A - Week 24"
       ]
     },
@@ -1270,6 +1389,16 @@
         "Tring Sport 1 HD",
         "TV4 Fotboll HD",
         "Ziggo Sport 2",
+        "Slovenian 1. SNL - Week 21"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 16",
+      "title": "Maribor v Koper",
+      "kickoff_baghdad": "11:00",
+      "channels_raw": [
+        "SportKlub 1 Slovenija HD",
+        "SportKlub 8 Hrvatska",
         "Spanish Liga F Femenino - Week 19"
       ]
     },
@@ -1439,6 +1568,8 @@
         "Ring Bulgaria HD",
         "Sport TV1 Portugal HD",
         "Sportdigital FUSSBALL HD",
+        "SportKlub 3 Slovenija",
+        "SportKlub 6 Hrvatska",
         "Tivibu Spor 2 HD",
         "Tring Sport 4 HD",
         "Voyo Player PPV (bg) [$]",
@@ -1471,6 +1602,8 @@
       "channels_raw": [
         "Magenta Sport ($/geo/R)",
         "OneFootball [app] ($/geo/R)",
+        "SportKlub 5 Slovenija",
+        "SportKlub 7 Hrvatska",
         "YouTube: German Football (geo/R)",
         "Greek Super League 1 - Week 20"
       ]
@@ -1481,6 +1614,7 @@
       "kickoff_baghdad": "13:00",
       "channels_raw": [
         "Cosmote Sport 1 HD",
+        "SportKlub 3 Hrvatska",
         "Scottish Cup - 5th Round"
       ]
     },
@@ -1525,7 +1659,12 @@
         "SuperSport 3 Albania HD",
         "TV3 Sport Dansk HD",
         "TVM Sport+ HD",
+        "ViaPlay Danmark HD",
+        "ViaPlay Nederland HD",
+        "ViaPlay Norge HD",
         "ViaPlay Sport Sverige HD",
+        "ViaPlay Suomi HD",
+        "ViaPlay Sverige HD",
         "Italian Serie A - Week 24"
       ]
     },
@@ -1650,6 +1789,8 @@
         "Sport Live Dansk HD",
         "Sport+ Qazaqstan",
         "Sportdigital FUSSBALL HD",
+        "SportKlub 2 Hrvatska",
+        "SportKlub 2 Slovenija",
         "Tivibu Spor 2 HD",
         "Tring Sport 4 HD",
         "TV Start Russia HD",
