@@ -14,12 +14,7 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/243-136x150.png",
       "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 135,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "إسبانيا, الدوري الإسباني",
@@ -31,11 +26,11 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/133.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/136-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 12,
-        "dmin": 120,
+        "dmin": 180,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -54,50 +49,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 12,
-        "dmin": 75,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "شباب الاهلي",
-      "away_team": "الهلال",
-      "channels_raw": [
-        "beIN Sports HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8347-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 15,
         "dmin": 135,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الدحيل",
-      "away_team": "الشارقة",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 2 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8329-133x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 53,
-        "dmin": 150,
-        "offset": 180,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -108,14 +61,16 @@
       "away_team": "كريمونيسي",
       "channels_raw": [
         "Starzplay 1",
-        "ESPN 1 Brazil HD"
+        "IRIB Varzesh HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/290.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
+        "score": 15,
         "dmin": 165,
         "offset": 180,
         "team_sim": 0.0
