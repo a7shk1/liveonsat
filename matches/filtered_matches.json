@@ -47,6 +47,26 @@
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "19:00",
+      "home_team": "الدحيل",
+      "away_team": "الشارقة",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "DAZN 2 Portugal HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8329-133x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 53,
+        "dmin": 150,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "19:00",
       "home_team": "شباب الاهلي",
       "away_team": "الهلال",
       "channels_raw": [
@@ -62,26 +82,6 @@
       "merge_debug": {
         "score": 15,
         "dmin": 135,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الدحيل",
-      "away_team": "الشارقة",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 2 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8329-133x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 53,
-        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
