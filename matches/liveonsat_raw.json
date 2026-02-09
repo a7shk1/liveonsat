@@ -3,263 +3,40 @@
   "source_url": "https://m.liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": "Serbian Super League - Week 22",
-      "title": "OFK Belgrade v Cukaricki",
-      "kickoff_baghdad": "06:00",
-      "channels_raw": [
-        "Arena Premium 1 Srbija HD",
-        "Arena Sport 10 Srbija HD",
-        "AFC Champions League Elite - Round 7"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Nasaf Qarshi v Al Shorta",
-      "kickoff_baghdad": "07:45",
-      "channels_raw": [
-        "Al Kass 8 HD",
-        "beIN Sports MENA 2 HD",
-        "DAZN Japan ($/geo/R)",
-        "Nova Sport Bulgaria HD",
-        "Q Sport Football HD",
-        "Silk Sport 2 HD",
-        "Spor Smart Türkiye HD",
-        "Sport 2 Ukraine",
-        "SportKlub 3 Hrvatska",
-        "SportKlub 3 Slovenija",
-        "YouTube: The AFC Hub",
-        "AFC Champions League Elite - Round 7"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Al Wahda v Al Ahli",
-      "kickoff_baghdad": "07:45",
-      "channels_raw": [
-        "Al Kass 7 HD",
-        "beIN Sports MENA 1 HD",
-        "DAZN Japan ($/geo/R)",
-        "Diema Sport 2 HD",
-        "ESPN 2 Brazil HD",
-        "Futbol TV Tajikistan",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "Silk Sport 1 HD",
-        "Spor Smart 2 Türkiye HD",
-        "Sport 1 Ukraine",
-        "Sportdigital 1+ Deutsch HD",
-        "SportKlub 1 Hrvatska HD",
-        "SportKlub 1 Slovenija HD",
-        "TV Start Triumph HD",
-        "YouTube: Saudi Pro League",
-        "YouTube: The AFC Hub",
-        "Discover more",
-        "Womens Football Gear",
-        "Sports",
-        "Football boots",
-        "Türkiye Süper Lig - Week 21"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Kayserispor v Kocaelispor",
-      "kickoff_baghdad": "08:00",
-      "channels_raw": [
-        "beIN Connect Türkiye",
-        "beIN Sports Türkiye 1 HD",
-        "AFC Champions League Elite - Round 7"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Shabab Al Ahli v Al Hilal",
-      "kickoff_baghdad": "10:00",
-      "channels_raw": [
-        "Al Kass 7 HD",
-        "Astro Grandstand HD",
-        "beIN Sports MENA 2 HD",
-        "beIN Sports MENA English 1 HD",
-        "DAZN Japan ($/geo/R)",
-        "Diema Sport 3 HD",
-        "ESPN 2 Brazil HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "Q Sport Football HD",
-        "Silk Sport 2 HD",
-        "Spor Smart Türkiye HD",
-        "Sport 1 Ukraine",
-        "Sportdigital 1+ Deutsch HD",
-        "SportKlub 3 Hrvatska",
-        "SportKlub 5 Slovenija",
-        "Sporty TV Africa",
-        "TV Start Russia HD",
-        "Varzish TV Sport HD (tjk)",
-        "YouTube: The AFC Hub",
-        "AFC Champions League Elite - Round 7"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Al Duhail v Sharjah",
-      "kickoff_baghdad": "10:00",
-      "channels_raw": [
-        "Al Kass 6 HD",
-        "Astro Arena Bola 2 HD",
-        "beIN Sports MENA 1 HD",
-        "DAZN Japan ($/geo/R)",
-        "Futbol TV Tajikistan",
-        "Nova Sport Bulgaria HD",
-        "Silk Sport 1 HD",
-        "Spor Smart 2 Türkiye HD",
-        "Sport 2 Ukraine",
-        "TV Start Triumph HD",
-        "YouTube: The AFC Hub",
-        "German Frauen Bundesliga - Week 17"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "FC Cologne v SGS Essen",
-      "kickoff_baghdad": "11:00",
-      "channels_raw": [
-        "DAZN Deutsch ($/geo/R)",
-        "DAZN Great Britain (geo/R)",
-        "DAZN Ireland ($/geo/R)",
-        "Magenta Sport ($/geo/R)",
-        "Sport 1 Germany HD",
-        "Türkiye 1. Lig - Week 24"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Sakaryaspor v Erzurumspor",
-      "kickoff_baghdad": "11:00",
-      "channels_raw": [
-        "beIN Connect Türkiye",
-        "beIN Sports Türkiye Max 1 HD",
-        "TRT Spor Türkiye HD",
-        "Türkiye Süper Lig - Week 21"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Gaziantep v Kasimpasa",
-      "kickoff_baghdad": "11:00",
-      "channels_raw": [
-        "beIN Connect Türkiye",
-        "beIN Sports Türkiye 2 HD",
-        "Prima Sport RO PPV 1",
-        "Türkiye Süper Lig - Week 21"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Fenerbahçe v Gençlerbirligi",
-      "kickoff_baghdad": "11:00",
-      "channels_raw": [
-        "Arena Premium 3 Srbija HD",
-        "ART Motion Sport 3 HD",
-        "beIN Connect Australia",
-        "beIN Connect Canada",
-        "beIN Connect Hong Kong",
-        "beIN Connect Indonesia",
-        "beIN Connect Malaysia",
-        "beIN Connect New Zealand",
-        "beIN Connect Philippines",
-        "beIN Connect Singapore",
-        "beIN Connect Thailand",
-        "beIN Connect Türkiye",
-        "beIN Connect USA",
-        "beIN Sports 1 HD (Astro)",
-        "beIN Sports France 2 HD",
-        "beIN Sports HK 3 HD",
-        "beIN Sports Indonesia 1 HD",
-        "beIN Sports MENA French 1 HD",
-        "beIN Sports MENA French 2 HD",
-        "beIN Sports Philippines 1 HD",
-        "beIN Sports Thailand 1 HD",
-        "beIN Sports Türkiye 1 HD",
-        "beIN Sports US Español",
-        "beIN Sports US HD",
-        "Disney+ Argentina ($/geo/R)",
-        "Disney+ Brazil ($/geo/R)",
-        "Disney+ Caribbean ($/geo/R)",
-        "Disney+ Chile ($/geo/R)",
-        "Disney+ Mexico ($/geo/R)",
-        "Disney+ Norte ($/geo/R)",
-        "Disney+ Sur ($/geo/R)",
-        "ESPN 3 Sur Latin",
-        "ESPN 4 Brazil HD",
-        "ESPN Africa",
-        "ESPN Mexico",
-        "Fox Sports 1 Chile",
-        "Fox Sports 2 Argentina HD",
-        "Fox Sports HD Colombia",
-        "MATCH! Futbol 3 HD",
-        "Persiana Sports 2 HD",
-        "Sport 1 Hungary HD",
-        "Sport TV2 Portugal HD",
-        "Sport+ Qazaqstan",
-        "SportKlub 1 Hrvatska HD",
-        "SportKlub 3 Slovenija",
-        "SuperSport ESPN HD",
-        "ZhiBo8 TV (China)",
-        "Discover more",
-        "Ice Hockey Jerseys",
-        "Collectible trading cards",
-        "Television",
-        "Italian Serie A - Week 24"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
-      "title": "Atalanta v Cremonese",
-      "kickoff_baghdad": "11:30",
-      "channels_raw": [
-        "Arena Premium 2 Srbija HD",
-        "beIN Sports Australia 3 HD",
-        "Cosmote Sport 4 HD",
-        "DAZN Great Britain (geo/R)",
-        "DAZN Ireland ($/geo/R)",
-        "DAZN Italia ($/geo/R)",
-        "MAX Sport 3 Bulgaria HD",
-        "Persiana Sports 3 HD",
-        "S Sport 2 Türkiye HD",
-        "S Sport+ Streaming",
-        "Sport 2 Israel HD",
-        "Tivibu Spor 1 HD",
-        "Tring Sport 1 HD",
-        "Israeli Ligat ha'Al (Premier) - Week 22"
-      ]
-    },
-    {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Maccabi Tel Aviv v Maccabi Bnei Raina",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "13:00",
       "channels_raw": [
         "Sport 4 Israel HD",
+        "Discover more",
+        "TV Networks & Stations",
+        "Soccer",
+        "Sports News",
+        "Sports",
+        "Sport",
+        "Spor",
+        "TV & Video",
+        "Sporting",
+        "Movie & TV Streaming",
+        "Sports+",
         "Polish Ekstraklasa - Week 20"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Piast Gliwice v Wisla Plock",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "13:00",
       "channels_raw": [
         "Arena Sport 2 Srbija HD",
         "Canal+ Sport 3 Polska HD",
         "Ekstraklasa TV ($/PPV)",
-        "Discover more",
-        "Ligue 1 Jerseys",
-        "Football kits",
-        "Europa League Tickets",
         "Romanian Superliga - Week 26"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Dinamo Bucharest v Universitatea Craiova",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "13:00",
       "channels_raw": [
         "Digi Sport 1 Romania HD",
         "Prima Sport RO 1 HD",
@@ -267,18 +44,29 @@
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Hapoel Be'er Sheva v Beitar Jerusalem",
-      "kickoff_baghdad": "12:30",
+      "kickoff_baghdad": "13:30",
       "channels_raw": [
         "5 SPORT Israel HD",
+        "Discover more",
+        "Europa League Tickets",
+        "Football kits",
+        "Euro Cup tickets",
+        "Boxing Fitness Gear",
+        "Sports memorabilia",
+        "Bundesliga Fan Gear",
+        "Football boots",
+        "Sports news subscriptions",
+        "La Liga Subscription",
+        "Streaming Device Deals",
         "Portuguese Liga Portugal - Week 21"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Famalicão v AVS Futebol",
-      "kickoff_baghdad": "12:45",
+      "kickoff_baghdad": "13:45",
       "channels_raw": [
         "Cosmote Sport 9 HD",
         "Sport TV5 Portugal HD",
@@ -287,31 +75,27 @@
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Emmen v Cambuur-Leeuwarden",
-      "kickoff_baghdad": "13:00",
+      "kickoff_baghdad": "14:00",
       "channels_raw": [
         "ESPN 1 Nederland HD",
         "Dutch Eerste Divisie (2nd) - Week 22"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "PSV Youths v FC Oss",
-      "kickoff_baghdad": "13:00",
+      "kickoff_baghdad": "14:00",
       "channels_raw": [
         "ESPN 1 Nederland HD",
-        "Discover more",
-        "Football jerseys",
-        "Sporting",
-        "Sports memorabilia",
         "Spanish La Liga 2 - Week 25"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Racing Santander v Mirandés",
-      "kickoff_baghdad": "13:30",
+      "kickoff_baghdad": "14:30",
       "channels_raw": [
         "Arena Sport 1x2 Srbija",
         "beIN Sports MENA English 1 HD",
@@ -326,19 +110,30 @@
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Amiens v Clermont Foot",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "beIN Sports France 1 HD",
         "beIN Sports MENA French 1 HD",
+        "Discover more",
+        "Team scarves",
+        "Sports memorabilia",
+        "FIFA video games",
+        "Collectible trading cards",
+        "Team merchandise",
+        "Sports",
+        "Football kits",
+        "Boxing Fitness Gear",
+        "Sport",
+        "Youth Soccer Equipment",
         "Italian Serie A - Week 24"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Roma v Cagliari",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "Arena Premium 2 Srbija HD",
         "beIN Sports Australia 3 HD",
@@ -360,18 +155,18 @@
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "AGF Århus v OB Odense",
-      "kickoff_baghdad": "14:00",
+      "kickoff_baghdad": "15:00",
       "channels_raw": [
         "TV3 Sport Dansk HD",
         "Spanish La Liga (Primera) - Week 23"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Villarreal v Espanyol",
-      "kickoff_baghdad": "14:00",
+      "kickoff_baghdad": "15:00",
       "channels_raw": [
         "Arena Premium 3 Srbija HD",
         "beIN Connect France",
@@ -401,18 +196,30 @@
         "S Sport 1 Türkiye HD",
         "S Sport+ Streaming",
         "Spíler 2 TV Hungary HD",
+        "SuperSport 2 Albania HD",
         "SuperSport LaLiga HD",
         "TSN+ Canada ($/geo/R)",
         "TV2 Play Danmark ($/geo/R)",
         "TV2 Play Norge ($/geo/R)",
         "ViaPlay Norge HD",
+        "Discover more",
+        "Spor",
+        "Sports TV Guide",
+        "Cytavision",
+        "TV",
+        "Activewear",
+        "Football jerseys",
+        "Sports news subscriptions",
+        "Motorsport Tickets",
+        "Sports betting guides",
+        "Sports memorabilia",
         "English Championship - Week 31"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Sheffield United v Middlesbrough",
-      "kickoff_baghdad": "14:01",
+      "kickoff_baghdad": "15:01",
       "channels_raw": [
         "Arena Premium 4 Srbija HD",
         "beIN Sports France 6 HD max",
@@ -428,15 +235,17 @@
         "Sky Sports Main Event UHD",
         "Sky UK Ultra HD 1",
         "Sport 2 Israel HD",
+        "SuperSport 3 Albania HD",
         "Portuguese Liga Portugal - Week 21"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "FC Porto v Sporting Lisbon",
-      "kickoff_baghdad": "14:45",
+      "kickoff_baghdad": "15:45",
       "channels_raw": [
         "Arena Premium 5 Srbija HD",
+        "Arena Sport 1 Slovakia HD",
         "beIN Sports France 2 HD",
         "Cosmote Sport 3 HD",
         "ESPN 1 Brazil HD",
@@ -458,9 +267,9 @@
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Vissel Kobe v FC Seoul",
-      "kickoff_baghdad": "04:00",
+      "kickoff_baghdad": "05:00",
       "channels_raw": [
         "beIN Sports MENA 5 HD",
         "DAZN Japan ($/geo/R)",
@@ -470,13 +279,24 @@
         "SportKlub 1 Hrvatska HD",
         "SportKlub 1 Slovenija HD",
         "YouTube: The AFC Hub",
+        "Discover more",
+        "World Cup tickets",
+        "Television",
+        "FIFA video games",
+        "TV",
+        "Europa League Tickets",
+        "Sports commentary books",
+        "Ligue 1 Jerseys",
+        "Bundesliga Fan Gear",
+        "Sports",
+        "La Liga Subscription",
         "AFC Champions League Elite - Round 7"
       ]
     },
     {
-      "competition": "Serbian Super League - Week 22",
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
       "title": "Sanfrecce Hiroshima v Johor Darul Ta'zim",
-      "kickoff_baghdad": "04:00",
+      "kickoff_baghdad": "05:00",
       "channels_raw": [
         "beIN Sports MENA 4 HD",
         "DAZN Japan ($/geo/R)",
@@ -486,10 +306,119 @@
         "SportKlub 3 Hrvatska",
         "SportKlub 3 Slovenija",
         "YouTube: The AFC Hub",
-        "Discover more",
-        "Baseball Memorabilia",
-        "World Cup tickets",
-        "Fan apparel",
+        "AFC Champions League Elite - Round 7"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "Shanghai Shenhua v Machida Zelvia",
+      "kickoff_baghdad": "07:15",
+      "channels_raw": [
+        "beIN Sports MENA 5 HD",
+        "DAZN Japan ($/geo/R)",
+        "Diema Sport 3 HD",
+        "Spor Smart 2 Türkiye HD",
+        "Sport 2 Ukraine",
+        "Sport 4 Israel HD",
+        "SportKlub 1 Hrvatska HD",
+        "SportKlub 1 Slovenija HD",
+        "YouTube: The AFC Hub",
+        "AFC Champions League Elite - Round 7"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "Chengdu Rongcheng v Buriram United",
+      "kickoff_baghdad": "07:15",
+      "channels_raw": [
+        "beIN Sports MENA 4 HD",
+        "DAZN Japan ($/geo/R)",
+        "Nova Sport Bulgaria HD",
+        "Spor Smart Türkiye HD",
+        "Sport 1 Ukraine",
+        "SportKlub 3 Hrvatska",
+        "SportKlub 3 Slovenija",
+        "YouTube: The AFC Hub",
+        "AFC Champions League 2 - Round of 16 Play-Off (1st Leg)"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "Esteghlal Tehran v Al Hussein",
+      "kickoff_baghdad": "08:45",
+      "channels_raw": [
+        "DAZN Japan ($/geo/R)",
+        "Diema Sport 2 HD",
+        "SportKlub 5 Slovenija",
+        "YouTube: The AFC Hub",
+        "Bosnia-Herzegovina Cup - Round of 16"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "Sloga Doboj v Tekstilac Derventa",
+      "kickoff_baghdad": "09:30",
+      "channels_raw": [
+        "Arena Sport 9 Srbija HD",
+        "AFC Champions League 2 - Round of 16 Play-Off (1st Leg)"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "Al Zawra'a v Al Wasl",
+      "kickoff_baghdad": "11:00",
+      "channels_raw": [
+        "DAZN Japan ($/geo/R)",
+        "Nova Sport Bulgaria HD",
+        "Spor Smart 2 Türkiye HD",
+        "Sport 2 Ukraine",
+        "SportKlub 5 Slovenija",
+        "YouTube: The AFC Hub",
+        "AFC Champions League Elite - Round 7"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "Tractor Sazi v Al Sadd",
+      "kickoff_baghdad": "11:00",
+      "channels_raw": [
+        "DAZN Japan ($/geo/R)",
+        "Diema Sport 3 HD",
+        "Spor Smart Türkiye HD",
+        "Sport 1 Ukraine",
+        "SportKlub 3 Hrvatska",
+        "SportKlub 3 Slovenija",
+        "YouTube: The AFC Hub",
+        "Bulgarian Cup - Quarter Final"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "CSKA Sofia v CSKA 1948 Sofia",
+      "kickoff_baghdad": "11:00",
+      "channels_raw": [
+        "Diema Sport HD",
+        "SportKlub 1 Hrvatska HD",
+        "SportKlub 1 Slovenija HD",
+        "Bosnia-Herzegovina Cup - Round of 16"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "Zrinjski v Stupcanica Olovo",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "Arena Sport 9 Srbija HD",
+        "Italian Serie BKT - Week 24"
+      ]
+    },
+    {
+      "competition": "Israeli Ligat ha'Al (Premier) - Week 22",
+      "title": "Sampdoria v Palermo",
+      "kickoff_baghdad": "13:00",
+      "channels_raw": [
+        "Arena Sport 2 Srbija HD",
+        "DAZN Italia ($/geo/R)",
         "L.J.'s LIVE Football on Satellite TV. LiveOnSat.com. LJ-Sport.com. All Rights",
         "Reserved. Copyright (c) 1997 - 2026",
         "Cookie Consent by",
