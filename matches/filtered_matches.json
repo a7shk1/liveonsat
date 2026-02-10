@@ -3,54 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "15:15",
-      "home_team": "شنغهاي شنهوا",
-      "away_team": "ماتشيدا زيروبيا",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2179-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9133.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 40,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "15:15",
-      "home_team": "تشينغدو رونغتشنغ",
-      "away_team": "بوريرام يونايتد",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29675-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7747.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 40,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "آسيا, دوري أبطال آسيا 2 - دور الـ 16",
       "kickoff_baghdad": "16:45",
       "home_team": "استقلال",
@@ -251,9 +203,9 @@
     },
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "13:00",
-      "home_team": "فيسيل كوبي",
-      "away_team": "سيؤول",
+      "kickoff_baghdad": "15:15",
+      "home_team": "شنغهاي شنهوا",
+      "away_team": "ماتشيدا زيروبيا",
       "channels_raw": [
         "غير معروف",
         "DAZN 1 Portugal HD",
@@ -262,22 +214,22 @@
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2151.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9820.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2179-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9133.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 40,
-        "dmin": 15,
-        "offset": -60,
+        "dmin": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "13:00",
-      "home_team": "سانفريس هيروشيما",
-      "away_team": "جوهور",
+      "kickoff_baghdad": "15:15",
+      "home_team": "تشينغدو رونغتشنغ",
+      "away_team": "بوريرام يونايتد",
       "channels_raw": [
         "غير معروف",
         "DAZN 1 Portugal HD",
@@ -286,14 +238,14 @@
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2159.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/10080-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29675-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7747.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 40,
-        "dmin": 15,
-        "offset": -60,
+        "dmin": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     }
