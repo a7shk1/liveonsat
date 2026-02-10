@@ -4,54 +4,6 @@
   "matches": [
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "تراکتورسازي",
-      "away_team": "السد",
-      "channels_raw": [
-        "beIN Sports HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9353-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6992-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 30,
-        "dmin": 45,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا 2 - دور الـ 16",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الزوراء",
-      "away_team": "الوصل",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8248-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8346.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 70,
-        "dmin": 45,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "21:15",
       "home_team": "الاتحاد",
       "away_team": "الغرافة",
@@ -185,24 +137,49 @@
     },
     {
       "competition": "آسيا, دوري أبطال آسيا 2 - دور الـ 16",
-      "kickoff_baghdad": "16:45",
-      "home_team": "استقلال",
-      "away_team": "الحسين إربد",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الزوراء",
+      "away_team": "الوصل",
       "channels_raw": [
-        "الكأس 7",
-        "DAZN 2 Portugal HD",
-        "IRIB Varzesh HD",
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
         "Persiana Sport HD",
-        "Varzish TV Sport HD"
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9358.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8285-124x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8248-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8346.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
-        "dmin": 15,
-        "offset": 120,
+        "score": 70,
+        "dmin": 45,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "19:00",
+      "home_team": "تراکتورسازي",
+      "away_team": "السد",
+      "channels_raw": [
+        "beIN Sports HD",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9353-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6992-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 30,
+        "dmin": 45,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
