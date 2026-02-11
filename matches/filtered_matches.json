@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, كأس المانيا - ربع النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "بايرن ميونخ",
-      "away_team": "لايبزيج",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7171-150x108.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, كأس ملك إسبانيا - نصف النهائي",
       "kickoff_baghdad": "23:00",
       "home_team": "أتلتيك بلباو",
@@ -224,25 +205,6 @@
       }
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الزمالك",
-      "away_team": "سموحة",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8309-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "22:30",
       "home_team": "مانشستر سيتي",
@@ -314,6 +276,25 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, كأس المانيا - ربع النهائي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "بايرن ميونخ",
+      "away_team": "لايبزيج",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7171-150x108.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
