@@ -3,20 +3,20 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "21:00",
-      "home_team": "الزمالك",
-      "away_team": "سموحة",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "22:30",
+      "home_team": "كريستال بالاس",
+      "away_team": "بيرنلي",
       "channels_raw": [
-        "أون سبورت 1"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8309-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12-1-143x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -34,9 +34,9 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -53,9 +53,9 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -72,28 +72,9 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:30",
-      "home_team": "كريستال بالاس",
-      "away_team": "بيرنلي",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12-1-143x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -107,31 +88,12 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7171-150x108.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, كأس ملك إسبانيا - نصف النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أتلتيك بلباو",
-      "away_team": "ريال سوسيداد",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -145,12 +107,12 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/236.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -164,12 +126,31 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/49225-138x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/56903-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - نصف النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أتلتيك بلباو",
+      "away_team": "ريال سوسيداد",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -183,30 +164,30 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/117-150x137.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -180,
+        "score": 25,
+        "dmin": 45,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "آسيا, دوري أبطال آسيا 2 - دور الـ 16",
-      "kickoff_baghdad": "19:00",
-      "home_team": "سباهان",
-      "away_team": "الأهلي القطري",
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "21:00",
+      "home_team": "الزمالك",
+      "away_team": "سموحة",
       "channels_raw": [
-        "beIN Sports HD"
+        "أون سبورت 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9356.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7085-70x70-1.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8309-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
