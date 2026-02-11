@@ -3,54 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "13:00",
-      "home_team": "أولسان هيونداي",
-      "away_team": "ملبورن سيتي",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD",
-        "DAZN 4 Portugal HD",
-        "ESPN 2 Brazil HD",
-        "Persiana Sport HD",
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8967-109x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7550.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 40,
-        "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "13:00",
-      "home_team": "غانغوون",
-      "away_team": "شنغهاي بورت",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD",
-        "DAZN 4 Portugal HD",
-        "ESPN 2 Brazil HD",
-        "Persiana Sport HD",
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9825.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/10300-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 40,
-        "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "آسيا, دوري أبطال آسيا 2 - دور الـ 16",
       "kickoff_baghdad": "15:15",
       "home_team": "كونغ آن هانوي",
@@ -337,6 +289,54 @@
         "score": 53,
         "dmin": 165,
         "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "13:00",
+      "home_team": "أولسان هيونداي",
+      "away_team": "ملبورن سيتي",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD",
+        "DAZN 4 Portugal HD",
+        "ESPN 2 Brazil HD",
+        "Persiana Sport HD",
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8967-109x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7550.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 40,
+        "dmin": 15,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "13:00",
+      "home_team": "غانغوون",
+      "away_team": "شنغهاي بورت",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD",
+        "DAZN 4 Portugal HD",
+        "ESPN 2 Brazil HD",
+        "Persiana Sport HD",
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9825.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/10300-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 40,
+        "dmin": 15,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
