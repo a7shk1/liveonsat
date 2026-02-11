@@ -53,30 +53,6 @@
     {
       "competition": "آسيا, دوري أبطال آسيا 2 - دور الـ 16",
       "kickoff_baghdad": "15:15",
-      "home_team": "راتشابوري",
-      "away_team": "يرسيب باندونغ",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/10318-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6034-140x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 40,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا 2 - دور الـ 16",
-      "kickoff_baghdad": "15:15",
       "home_team": "كونغ آن هانوي",
       "away_team": "تامبينيز روفرز",
       "channels_raw": [
@@ -89,6 +65,30 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/72909.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2369.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 40,
+        "dmin": 0,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا 2 - دور الـ 16",
+      "kickoff_baghdad": "15:15",
+      "home_team": "راتشابوري",
+      "away_team": "يرسيب باندونغ",
+      "channels_raw": [
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "IRIB TV3 HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/10318-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6034-140x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -154,7 +154,7 @@
         "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9356.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/12121.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7085-70x70-1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -260,6 +260,25 @@
       }
     },
     {
+      "competition": "إسبانيا, كأس ملك إسبانيا - نصف النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أتلتيك بلباو",
+      "away_team": "ريال سوسيداد",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 90,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إيطاليا, كأس إيطاليا - ربع النهائي",
       "kickoff_baghdad": "23:00",
       "home_team": "بولونيا",
@@ -298,25 +317,6 @@
       }
     },
     {
-      "competition": "إسبانيا, كأس ملك إسبانيا - نصف النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أتلتيك بلباو",
-      "away_team": "ريال سوسيداد",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 90,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "23:15",
       "home_team": "سندرلاند",
@@ -327,63 +327,6 @@
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/117-150x137.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
       "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 105,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, كأس المانيا - ربع النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "هرتا برلين",
-      "away_team": "فرايبورج",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/342.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 75,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, كأس إيطاليا - ربع النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "نابولي",
-      "away_team": "كومو",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/234-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6117-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 90,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:15",
-      "home_team": "وست هام يونايتد",
-      "away_team": "مانشستر يونايتد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/113.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/105-150x150.png",
-      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 52,
