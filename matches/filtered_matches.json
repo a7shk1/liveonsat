@@ -161,25 +161,6 @@
       }
     },
     {
-      "competition": "إسبانيا, كأس ملك إسبانيا - نصف النهائي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أتلتيكو مدريد",
-      "away_team": "برشلونة",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/134-128x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 10,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري أبطال أوروبا للسيدات - بلاي اوف",
       "kickoff_baghdad": "23:00",
       "home_team": "أتليتكو مدريد - سيدات",
@@ -208,6 +189,25 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/63-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 10,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, كأس ملك إسبانيا - نصف النهائي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أتلتيكو مدريد",
+      "away_team": "برشلونة",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/134-128x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
