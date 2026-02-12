@@ -9,21 +9,17 @@
       "away_team": "غامبا أوساكا",
       "channels_raw": [
         "غير معروف",
-        "Abu Dhabi Sports 2 HD",
-        "Football HD",
-        "DAZN 4 Portugal HD",
-        "ESPN 2 Brazil HD",
-        "Persiana Sport HD",
-        "Shahid MBC"
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9822.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2150-128x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 41,
-        "dmin": 15,
-        "offset": -120,
+        "score": 37,
+        "dmin": 0,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -34,21 +30,17 @@
       "away_team": "ماكارثر",
       "channels_raw": [
         "غير معروف",
-        "DAZN 2 Portugal HD",
-        "IRIB TV3 HD",
-        "Persiana Sport HD",
         "TNT Sports 1 HD",
-        "TNT Sports HD",
-        "Varzish TV Sport HD"
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7753.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/67689-132x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 41,
-        "dmin": 0,
-        "offset": 0,
+        "score": 37,
+        "dmin": 15,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -85,8 +77,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -104,8 +96,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -123,8 +115,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -142,8 +134,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -161,8 +153,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -180,8 +172,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -200,7 +192,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 45,
-        "offset": 180,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
