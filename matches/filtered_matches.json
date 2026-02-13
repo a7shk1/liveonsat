@@ -8,16 +8,15 @@
       "home_team": "بوروسيا دورتموند",
       "away_team": "ماينز 05",
       "channels_raw": [
-        "Shahid MBC",
-        "TNT Sports 1 HD"
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/352.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 5,
+        "score": 25,
+        "dmin": 30,
         "offset": -120,
         "team_sim": 0.0
       }
@@ -28,16 +27,15 @@
       "home_team": "بيسا",
       "away_team": "ميلان",
       "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD"
+        "Starzplay 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/248-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 10,
+        "score": 35,
+        "dmin": 15,
         "offset": -120,
         "team_sim": 0.0
       }
@@ -48,16 +46,15 @@
       "home_team": "هال سيتي",
       "away_team": "تشيلسي",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "TNT Sports 1 HD"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/11-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 10,
+        "score": 35,
+        "dmin": 15,
         "offset": -120,
         "team_sim": 0.0
       }
@@ -68,16 +65,15 @@
       "home_team": "إلتشي",
       "away_team": "أوساسونا",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "TNT Sports 1 HD"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/156-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/143-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 25,
+        "score": 35,
+        "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
       }
@@ -95,9 +91,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 175,
-        "offset": -180,
+        "score": 35,
+        "dmin": 5,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -116,7 +112,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
-        "offset": -60,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -133,9 +129,9 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 150,
-        "offset": -180,
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
