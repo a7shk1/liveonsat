@@ -19,7 +19,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -40,7 +40,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 10,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -59,7 +59,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 25,
-        "offset": 180,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -77,8 +77,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
-        "offset": 180,
+        "dmin": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -97,7 +97,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -116,7 +116,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -133,9 +133,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 20,
-        "offset": -120,
+        "score": 25,
+        "dmin": 30,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -153,8 +153,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 5,
-        "offset": -120,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -172,8 +172,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 5,
-        "offset": -120,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -191,8 +191,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 10,
-        "offset": -120,
+        "dmin": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -210,8 +210,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
-        "offset": -120,
+        "dmin": 5,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
