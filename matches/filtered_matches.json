@@ -46,6 +46,49 @@
       }
     },
     {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "kickoff_baghdad": "16:00",
+      "home_team": "الهلال السوداني",
+      "away_team": "سانت إيلوي لوبوبو",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12778.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29705-126x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 77,
+        "dmin": 15,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي - الدرجة الثانية",
+      "kickoff_baghdad": "16:00",
+      "home_team": "مونبلييه",
+      "away_team": "لومان",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/491.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/468-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 38,
+        "dmin": 0,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "16:00",
       "home_team": "إسبانيول",
@@ -80,49 +123,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7277.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8218-131x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
-      "kickoff_baghdad": "16:00",
-      "home_team": "الهلال السوداني",
-      "away_team": "سانت إيلوي لوبوبو",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12778.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29705-126x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 77,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي - الدرجة الثانية",
-      "kickoff_baghdad": "16:00",
-      "home_team": "مونبلييه",
-      "away_team": "لومان",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/491.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/468-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -220,6 +220,44 @@
       }
     },
     {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الترجي",
+      "away_team": "بترو اتليتكو",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8235-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/11284-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "أولمبيك مارسيليا",
+      "away_team": "ستراسبورج",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/469.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 65,
+        "dmin": 55,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "أفريقيا, الكونفدرالية الافريقية",
       "kickoff_baghdad": "19:00",
       "home_team": "المصري",
@@ -255,44 +293,6 @@
       "merge_debug": {
         "score": 54,
         "dmin": 75,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الترجي",
-      "away_team": "بترو اتليتكو",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8235-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/11284-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "ستراسبورج",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/469.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 55,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -377,15 +377,15 @@
       }
     },
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "competition": "أفريقيا, الكونفدرالية الافريقية",
       "kickoff_baghdad": "22:00",
-      "home_team": "نهضة بركان",
-      "away_team": "ريفرز يونايتد",
+      "home_team": "اتحاد العاصمة",
+      "away_team": "أولمبيك آسفي",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "beIN Sports 3 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9974-131x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6994-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8220.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8210.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -396,15 +396,15 @@
       }
     },
     {
-      "competition": "أفريقيا, الكونفدرالية الافريقية",
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
       "kickoff_baghdad": "22:00",
-      "home_team": "اتحاد العاصمة",
-      "away_team": "أولمبيك آسفي",
+      "home_team": "نهضة بركان",
+      "away_team": "ريفرز يونايتد",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "beIN Sports 5 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8220.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8210.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9974-131x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6994-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
