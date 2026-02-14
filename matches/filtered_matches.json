@@ -3,44 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس مصر - ربع النهائي",
-      "kickoff_baghdad": "15:30",
-      "home_team": "حرس الحدود",
-      "away_team": "زد",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8307-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 25,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "16:00",
-      "home_team": "إسبانيول",
-      "away_team": "سيلتا فيجو",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/136-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "16:55",
       "home_team": "الرياض",
@@ -135,6 +97,25 @@
         "score": 55,
         "dmin": 180,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "18:15",
+      "home_team": "خيتافي",
+      "away_team": "فياريال",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/140.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/133.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -348,25 +329,6 @@
       }
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ريال مدريد",
-      "away_team": "ريال سوسيداد",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 4",
       "kickoff_baghdad": "23:00",
       "home_team": "ليفربول",
@@ -382,6 +344,25 @@
         "score": 65,
         "dmin": 30,
         "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريال مدريد",
+      "away_team": "ريال سوسيداد",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -427,6 +408,46 @@
       }
     },
     {
+      "competition": "مصر, كأس مصر - ربع النهائي",
+      "kickoff_baghdad": "15:30",
+      "home_team": "حرس الحدود",
+      "away_team": "زد",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8307-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 25,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
+      "kickoff_baghdad": "16:00",
+      "home_team": "الهلال السوداني",
+      "away_team": "سانت إيلوي لوبوبو",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12778.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29705-126x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 54,
+        "dmin": 75,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "فرنسا, الدوري الفرنسي - الدرجة الثانية",
       "kickoff_baghdad": "16:00",
       "home_team": "مونبلييه",
@@ -436,6 +457,25 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/491.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/468-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "16:00",
+      "home_team": "إسبانيول",
+      "away_team": "سيلتا فيجو",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/136-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
@@ -461,27 +501,6 @@
         "score": 35,
         "dmin": 0,
         "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
-      "kickoff_baghdad": "16:00",
-      "home_team": "الهلال السوداني",
-      "away_team": "سانت إيلوي لوبوبو",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12778.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29705-126x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 54,
-        "dmin": 75,
-        "offset": 180,
         "team_sim": 0.0
       }
     }
