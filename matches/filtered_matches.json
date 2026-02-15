@@ -14,7 +14,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/470-1.png",
       "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 135,
+        "offset": 180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "إيطاليا, الدوري الإيطالي",
@@ -28,7 +33,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/225-127x150.png",
       "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 135,
+        "offset": 180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "إسبانيا, الدوري الإسباني",
@@ -42,7 +52,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": 180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "أفريقيا, دوري أبطال أفريقيا - المجموعات",
@@ -58,8 +73,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 120,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -77,8 +92,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 120,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -96,8 +111,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 120,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -116,7 +131,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 53,
-        "dmin": 150,
+        "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -136,7 +151,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -154,7 +169,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 52,
-        "dmin": 150,
+        "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -174,7 +189,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -193,7 +208,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -203,15 +218,17 @@
       "home_team": "ليفانتي",
       "away_team": "فالنسيا",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "beIN Sports 3 HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/139-130x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 54,
+        "dmin": 165,
         "offset": 180,
         "team_sim": 0.0
       }
