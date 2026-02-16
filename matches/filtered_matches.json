@@ -8,16 +8,15 @@
       "home_team": "الاتحاد السكندري",
       "away_team": "سموحة",
       "channels_raw": [
-        "أون سبورت 1",
-        "Sky Sports Main Event HD"
+        "أون سبورت 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8312.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8309-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
+        "score": 25,
+        "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -28,16 +27,15 @@
       "home_team": "الشارقة",
       "away_team": "ناساف كارشي",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "IRIB Varzesh HD"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8596-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 53,
-        "dmin": 165,
+        "score": 12,
+        "dmin": 120,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -48,16 +46,15 @@
       "home_team": "الأهلي السعودي",
       "away_team": "شباب الاهلي",
       "channels_raw": [
-        "beIN Sports HD",
-        "Sky Sports Main Event HD"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8347-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 60,
+        "score": 12,
+        "dmin": 120,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -68,17 +65,16 @@
       "home_team": "إنبي",
       "away_team": "البنك الاهلي",
       "channels_raw": [
-        "أون سبورت 1",
-        "Sky Sports Main Event HD"
+        "أون سبورت 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50527.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 180,
-        "offset": 180,
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -95,9 +91,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -114,9 +110,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -133,9 +129,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 90,
-        "offset": -180,
+        "score": 25,
+        "dmin": 30,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -152,9 +148,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 75,
-        "offset": -180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -171,9 +167,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 75,
-        "offset": -180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -190,9 +186,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": -180,
+        "score": 35,
+        "dmin": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
