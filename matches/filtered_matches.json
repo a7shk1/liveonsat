@@ -207,6 +207,25 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
       "kickoff_baghdad": "23:00",
+      "home_team": "بنفيكا",
+      "away_team": "ريال مدريد",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/888.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
+      "kickoff_baghdad": "23:00",
       "home_team": "موناكو",
       "away_team": "باريس سان جيرمان",
       "channels_raw": [
@@ -262,20 +281,20 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "بنفيكا",
-      "away_team": "ريال مدريد",
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 4",
+      "kickoff_baghdad": "22:30",
+      "home_team": "ماكليسفيلد",
+      "away_team": "برينتفورد",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 6 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/888.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/73.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/63-150x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 25,
+        "dmin": 30,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -290,25 +309,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9255-146x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/152-145x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 4",
-      "kickoff_baghdad": "22:30",
-      "home_team": "ماكليسفيلد",
-      "away_team": "برينتفورد",
-      "channels_raw": [
-        "beIN Sports 6 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/73.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/63-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
