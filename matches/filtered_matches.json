@@ -25,26 +25,6 @@
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "19:00",
-      "home_team": "الأهلي السعودي",
-      "away_team": "شباب الاهلي",
-      "channels_raw": [
-        "beIN Sports HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8347-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
       "home_team": "الشارقة",
       "away_team": "ناساف كارشي",
       "channels_raw": [
@@ -58,6 +38,26 @@
       "merge_debug": {
         "score": 53,
         "dmin": 165,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الأهلي السعودي",
+      "away_team": "شباب الاهلي",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8347-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
       }
