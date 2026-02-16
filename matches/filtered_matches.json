@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "21:00",
-      "home_team": "إنبي",
-      "away_team": "البنك الاهلي",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50527.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "آسيا, دوري أبطال آسيا للنخبة",
       "kickoff_baghdad": "21:15",
       "home_team": "الشرطة",
@@ -34,9 +15,9 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -180,
+        "score": 12,
+        "dmin": 135,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -53,8 +34,27 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
+        "score": 12,
+        "dmin": 135,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
+      "kickoff_baghdad": "22:30",
+      "home_team": "ريال سوسيداد ب",
+      "away_team": "مالقا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9255-146x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/152-145x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -74,26 +74,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
-      "kickoff_baghdad": "22:30",
-      "home_team": "ريال سوسيداد ب",
-      "away_team": "مالقا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9255-146x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/152-145x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -112,7 +93,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -131,7 +112,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -145,44 +126,25 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/175-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الأهلي السعودي",
-      "away_team": "شباب الاهلي",
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "21:00",
+      "home_team": "إنبي",
+      "away_team": "البنك الاهلي",
       "channels_raw": [
-        "beIN Sports HD"
+        "أون سبورت 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8347-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 120,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الشارقة",
-      "away_team": "ناساف كارشي",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8596-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50527.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
