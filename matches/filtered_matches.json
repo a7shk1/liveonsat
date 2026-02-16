@@ -9,34 +9,14 @@
       "away_team": "سموحة",
       "channels_raw": [
         "أون سبورت 1",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8312.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8309-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة",
-      "kickoff_baghdad": "19:00",
-      "home_team": "الشارقة",
-      "away_team": "ناساف كارشي",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8596-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
+        "score": 26,
         "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
@@ -48,15 +28,40 @@
       "home_team": "الأهلي السعودي",
       "away_team": "شباب الاهلي",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "Football HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8347-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 15,
+        "dmin": 150,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة",
+      "kickoff_baghdad": "19:00",
+      "home_team": "الشارقة",
+      "away_team": "ناساف كارشي",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "Football HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8596-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 15,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -74,9 +79,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "score": 12,
+        "dmin": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -93,9 +98,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 45,
-        "offset": 180,
+        "score": 12,
+        "dmin": 105,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -112,9 +117,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 45,
-        "offset": 180,
+        "score": 12,
+        "dmin": 105,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -131,9 +136,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 120,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -150,9 +155,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 135,
-        "offset": 180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -169,9 +174,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 135,
-        "offset": 180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -188,28 +193,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ريال مايوركا",
-      "away_team": "ريال بيتيس",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/142.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": 180,
+        "score": 35,
+        "dmin": 0,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
