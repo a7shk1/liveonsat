@@ -3,44 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "ميلان",
-      "away_team": "كومو",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6117-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "بودو جليمت",
-      "away_team": "إنتر ميلان",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1978.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/224-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 45,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
       "kickoff_baghdad": "23:00",
       "home_team": "أولمبياكوس",
@@ -93,6 +55,27 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
+      "kickoff_baghdad": "20:45",
+      "home_team": "باوك سالونيكا",
+      "away_team": "سيلتا فيجو",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "DAZN 1 Portugal HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1029.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 54,
+        "dmin": 165,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -159,27 +142,6 @@
       }
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "20:45",
-      "home_team": "باوك سالونيكا",
-      "away_team": "سيلتا فيجو",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "DAZN 1 Portugal HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1029.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 54,
-        "dmin": 165,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "22:00",
       "home_team": "الأهلي السعودي",
@@ -214,25 +176,6 @@
         "score": 35,
         "dmin": 0,
         "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ليل",
-      "away_team": "النجم الأحمر",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8957-106x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 45,
-        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -294,25 +237,21 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
-      "kickoff_baghdad": "20:45",
-      "home_team": "كارباغ اغدام",
-      "away_team": "نيوكاسل يونايتد",
+      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ليل",
+      "away_team": "النجم الأحمر",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 3 Portugal HD",
-        "DAZN Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7521.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
-      "status_text": "انتهت",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8957-106x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 56,
-        "dmin": 165,
-        "offset": 180,
+        "score": 65,
+        "dmin": 45,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -370,6 +309,44 @@
         "score": 25,
         "dmin": 30,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "ميلان",
+      "away_team": "كومو",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6117-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
+      "kickoff_baghdad": "23:00",
+      "home_team": "بودو جليمت",
+      "away_team": "إنتر ميلان",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1978.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/224-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 65,
+        "dmin": 45,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
