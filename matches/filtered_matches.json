@@ -5,6 +5,44 @@
     {
       "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
       "kickoff_baghdad": "20:45",
+      "home_team": "دينامو زغرب",
+      "away_team": "جينك",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2245.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - بلاي اوف",
+      "kickoff_baghdad": "20:45",
+      "home_team": "نواه",
+      "away_team": "ألكمار",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/56933-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/699.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
+      "kickoff_baghdad": "20:45",
       "home_team": "بران بيرغن",
       "away_team": "بولونيا",
       "channels_raw": [
@@ -79,40 +117,21 @@
       }
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "20:45",
-      "home_team": "دينامو زغرب",
-      "away_team": "جينك",
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "الأهلي السعودي",
+      "away_team": "النجمة",
       "channels_raw": [
-        "غير معروف"
+        "تطبيق ثمانية"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2245.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/24240-114x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "20:45",
-      "home_team": "نواه",
-      "away_team": "ألكمار",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/56933-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/699.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -126,7 +145,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8943-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8942-111x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 25,
@@ -145,26 +164,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55800-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12135-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "الأهلي السعودي",
-      "away_team": "النجمة",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/24240-114x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 25,
@@ -188,6 +188,25 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - بلاي اوف",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أومونيا نيقوسيا",
+      "away_team": "رييكا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2262.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2248.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -278,25 +297,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8528-123x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6020-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أومونيا نيقوسيا",
-      "away_team": "رييكا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2262.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2248.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
