@@ -4,26 +4,6 @@
   "matches": [
     {
       "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أتلتيك بلباو",
-      "away_team": "إلتشي",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/156-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "16:00",
       "home_team": "ريال سوسيداد",
       "away_team": "ريال أوفييدو",
@@ -65,13 +45,13 @@
     {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "17:30",
-      "home_team": "فولفسبورج",
-      "away_team": "أوغسبورغ",
+      "home_team": "بايرن ميونخ",
+      "away_team": "آينتراخت فرانكفورت",
       "channels_raw": [
         "MBC Action"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/339-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/358.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/337.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -84,13 +64,13 @@
     {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "17:30",
-      "home_team": "بايرن ميونخ",
-      "away_team": "آينتراخت فرانكفورت",
+      "home_team": "فولفسبورج",
+      "away_team": "أوغسبورغ",
       "channels_raw": [
         "MBC Action"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/337.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/339-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/358.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -200,25 +180,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "وست هام يونايتد",
-      "away_team": "بورنموث",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/113.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50-126x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "20:30",
       "home_team": "لايبزيج",
@@ -266,6 +227,25 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8346.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/57374-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "20:30",
+      "home_team": "وست هام يونايتد",
+      "away_team": "بورنموث",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/113.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50-126x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -356,25 +336,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "23:00",
-      "home_team": "مانشستر سيتي",
-      "away_team": "نيوكاسل يونايتد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 150,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "23:00",
       "home_team": "أتلتيكو مدريد",
@@ -391,6 +352,25 @@
         "score": 36,
         "dmin": 0,
         "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "23:00",
+      "home_team": "مانشستر سيتي",
+      "away_team": "نيوكاسل يونايتد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 52,
+        "dmin": 150,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -415,15 +395,15 @@
       }
     },
     {
-      "competition": "مصر, الدوري المصري",
+      "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "22:30",
-      "home_team": "الزمالك",
-      "away_team": "حرس الحدود",
+      "home_team": "ماينز 05",
+      "away_team": "هامبورج",
       "channels_raw": [
-        "أون سبورت 1"
+        "Shahid MBC"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8307-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/352.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/334.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
@@ -434,15 +414,15 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
+      "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "22:30",
-      "home_team": "ماينز 05",
-      "away_team": "هامبورج",
+      "home_team": "الزمالك",
+      "away_team": "حرس الحدود",
       "channels_raw": [
-        "Shahid MBC"
+        "أون سبورت 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/352.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/334.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8307-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
@@ -488,6 +468,26 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أتلتيك بلباو",
+      "away_team": "إلتشي",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/156-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
         "offset": 60,
         "team_sim": 0.0
       }
