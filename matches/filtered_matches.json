@@ -3,6 +3,63 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "20:30",
+      "home_team": "عجمان",
+      "away_team": "الشارقة",
+      "channels_raw": [
+        "الشارقة الریاضية HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8652-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "20:30",
+      "home_team": "الوحدة",
+      "away_team": "الجزيرة",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8350-127x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8283.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "20:30",
+      "home_team": "الظفرة",
+      "away_team": "شباب الاهلي",
+      "channels_raw": [
+        "ابوظبي الرياضية 2"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/8352-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8347-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "مصر, الدوري المصري",
       "kickoff_baghdad": "22:30",
       "home_team": "الزمالك",
@@ -108,120 +165,6 @@
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/144-145x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/156-150x150.png",
       "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ليل",
-      "away_team": "النجم الأحمر",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8957-106x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سيلتيك",
-      "away_team": "شتوتجارت",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/754.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "لودوجوريتس",
-      "away_team": "فيرينتسفاروشي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8528-123x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6020-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أومونيا نيقوسيا",
-      "away_team": "رييكا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2262.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2248.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ياغييلونيا بياويستوك",
-      "away_team": "فيورنتينا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2220-102x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/228-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "باناثينيكوس",
-      "away_team": "فيكتوريا بلزن",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1022.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1796-117x150.png",
-      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 35,
