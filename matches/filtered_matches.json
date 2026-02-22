@@ -3,15 +3,15 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "ميلان",
-      "away_team": "بارما",
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "20:30",
+      "home_team": "النصر الاماراتي",
+      "away_team": "خورفكان",
       "channels_raw": [
-        "Starzplay 1"
+        "ابوظبي الرياضية 2"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/241-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8349-70x70-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/11134-150x146.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -57,25 +57,6 @@
       "merge_debug": {
         "score": 54,
         "dmin": 165,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "الإمارات, دوري أدنوك للمحترفين",
-      "kickoff_baghdad": "20:30",
-      "home_team": "النصر الاماراتي",
-      "away_team": "خورفكان",
-      "channels_raw": [
-        "ابوظبي الرياضية 2"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8349-70x70-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/11134-150x146.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -157,20 +138,20 @@
       }
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "18:15",
-      "home_team": "برشلونة",
-      "away_team": "ليفانتي",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:15",
+      "home_team": "أنجيه",
+      "away_team": "ليل",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports 6 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/493-136x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
+        "score": 52,
+        "dmin": 165,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -214,20 +195,20 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:15",
-      "home_team": "أنجيه",
-      "away_team": "ليل",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "توتنهام هوتسبر",
+      "away_team": "أرسنال",
       "channels_raw": [
-        "beIN Sports 6 HD"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/493-136x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/114-83x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 52,
-        "dmin": 165,
+        "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -252,20 +233,20 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "توتنهام هوتسبر",
-      "away_team": "أرسنال",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "20:00",
+      "home_team": "ميلان",
+      "away_team": "بارما",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "Starzplay 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/114-83x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/241-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 90,
+        "score": 35,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
