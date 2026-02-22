@@ -373,17 +373,16 @@
       "home_team": "ستراسبورج",
       "away_team": "أولمبيك ليون",
       "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 1 HD"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/465-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -120,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -393,17 +392,16 @@
       "home_team": "روما",
       "away_team": "كريمونيسي",
       "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD"
+        "Starzplay 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/225-127x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/290.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -120,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -413,17 +411,16 @@
       "home_team": "فياريال",
       "away_team": "فالنسيا",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "TNT Sports 1 HD"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/133.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/139-130x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
