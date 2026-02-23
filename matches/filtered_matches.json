@@ -50,7 +50,7 @@
       "home_team": "أتلتيكو مدريد",
       "away_team": "كلوب بروج",
       "channels_raw": [
-        "غير معروف",
+        "beIN Sports 3 HD",
         "DAZN 1 Portugal HD",
         "DAZN Portugal HD",
         "IRIB Varzesh HD",
@@ -63,7 +63,7 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 18,
+        "score": 58,
         "dmin": 165,
         "offset": 180,
         "team_sim": 0.0
@@ -72,13 +72,13 @@
     {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "22:00",
-      "home_team": "الحزم",
-      "away_team": "الاتحاد",
+      "home_team": "التعاون",
+      "away_team": "الهلال",
       "channels_raw": [
-        "غير معروف"
+        "تطبيق ثمانية"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/14895-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8941-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": null
@@ -86,13 +86,13 @@
     {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "22:00",
-      "home_team": "التعاون",
-      "away_team": "الهلال",
+      "home_team": "الحزم",
+      "away_team": "الاتحاد",
       "channels_raw": [
-        "غير معروف"
+        "تطبيق ثمانية"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8941-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/14895-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": null
@@ -103,7 +103,7 @@
       "home_team": "زد",
       "away_team": "الزمالك",
       "channels_raw": [
-        "غير معروف"
+        "أون سبورت 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
@@ -114,10 +114,24 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
       "kickoff_baghdad": "23:00",
+      "home_team": "إنتر ميلان",
+      "away_team": "بودو جليمت",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/224-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1978.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
+      "kickoff_baghdad": "23:00",
       "home_team": "باير ليفركوزن",
       "away_team": "أولمبياكوس",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 4 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1023-136x150.png",
@@ -131,67 +145,11 @@
       "home_team": "نيوكاسل يونايتد",
       "away_team": "كارباغ اغدام",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7521.png",
       "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "بودو جليمت",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/224-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1978.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ضمك",
-      "away_team": "الأهلي السعودي",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/24241-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "القادسية",
-      "away_team": "الاتفاق",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8947-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8943-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "22:30",
-      "home_team": "سموحة",
-      "away_team": "الأهلي",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8309-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8200-1-126x150.png",
-      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
     },
