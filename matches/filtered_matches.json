@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "غير معروف",
-      "kickoff_baghdad": "18:00",
-      "home_team": "Eintracht Frankfurt U19",
-      "away_team": "Sporting CP U19",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/71017-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/44910.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 62,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.46236559139784944
-      }
-    },
-    {
       "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
       "kickoff_baghdad": "20:45",
       "home_team": "أتلتيكو مدريد",
@@ -87,20 +68,6 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
       "kickoff_baghdad": "23:00",
-      "home_team": "باير ليفركوزن",
-      "away_team": "أولمبياكوس",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1023-136x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
-      "kickoff_baghdad": "23:00",
       "home_team": "نيوكاسل يونايتد",
       "away_team": "كارباغ اغدام",
       "channels_raw": [
@@ -127,24 +94,36 @@
       "merge_debug": null
     },
     {
-      "competition": "أوروبا, دوري أبطال أوروبا للشباب",
-      "kickoff_baghdad": "16:00",
-      "home_team": "إنتر تحت 19",
-      "away_team": "Real Betis U19",
+      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
+      "kickoff_baghdad": "23:00",
+      "home_team": "باير ليفركوزن",
+      "away_team": "أولمبياكوس",
       "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50053-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/84774.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1023-136x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "18:00",
+      "home_team": "Eintracht Frankfurt U19",
+      "away_team": "Sporting CP U19",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/71017-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/44910.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 50,
+        "score": 62,
         "dmin": 15,
         "offset": 180,
-        "team_sim": 0.21739130434782608
+        "team_sim": 0.46236559139784944
       }
     }
   ]
