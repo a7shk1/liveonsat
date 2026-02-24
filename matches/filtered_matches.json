@@ -8,17 +8,18 @@
       "home_team": "إنتر تحت 19",
       "away_team": "Real Betis U19",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50053-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/84774.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 50,
-        "dmin": 15,
+        "score": 35,
+        "dmin": 60,
         "offset": 180,
-        "team_sim": 0.25
+        "team_sim": 0.15789473684210525
       }
     },
     {
@@ -27,17 +28,18 @@
       "home_team": "Eintracht Frankfurt U19",
       "away_team": "Sporting CP U19",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/71017-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/44910.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
-        "dmin": 135,
+        "score": 36,
+        "dmin": 180,
         "offset": 180,
-        "team_sim": 0.46236559139784944
+        "team_sim": 0.3904761904761905
       }
     },
     {
@@ -108,7 +110,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1978.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 52,
+        "dmin": 180,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
@@ -122,7 +129,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1023-136x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 180,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
@@ -136,7 +148,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7521.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 180,
+        "offset": -180,
+        "team_sim": 0.0
+      }
     }
   ]
 }
