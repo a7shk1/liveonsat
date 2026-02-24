@@ -3,29 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال أوروبا للشباب",
-      "kickoff_baghdad": "16:00",
-      "home_team": "إنتر تحت 19",
-      "away_team": "Real Betis U19",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "IRIB Varzesh HD",
-        "Persiana Sport HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50053-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/84774.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 60,
-        "offset": 180,
-        "team_sim": 0.15789473684210525
-      }
-    },
-    {
       "competition": "غير معروف",
       "kickoff_baghdad": "18:00",
       "home_team": "Eintracht Frankfurt U19",
@@ -37,7 +14,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/71017-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/44910.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 37,
@@ -105,6 +82,25 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
       "kickoff_baghdad": "23:00",
+      "home_team": "باير ليفركوزن",
+      "away_team": "أولمبياكوس",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1023-136x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 180,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
+      "kickoff_baghdad": "23:00",
       "home_team": "نيوكاسل يونايتد",
       "away_team": "كارباغ اغدام",
       "channels_raw": [
@@ -141,22 +137,26 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "باير ليفركوزن",
-      "away_team": "أولمبياكوس",
+      "competition": "أوروبا, دوري أبطال أوروبا للشباب",
+      "kickoff_baghdad": "16:00",
+      "home_team": "إنتر تحت 19",
+      "away_team": "Real Betis U19",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD",
+        "TNT Sports 2 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1023-136x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50053-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/84774.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": -180,
-        "team_sim": 0.0
+        "score": 38,
+        "dmin": 60,
+        "offset": 180,
+        "team_sim": 0.15789473684210525
       }
     }
   ]
