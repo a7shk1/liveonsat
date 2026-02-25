@@ -8,14 +8,18 @@
       "home_team": "ريال مدريد تحت 19",
       "away_team": "تشيلسي تحت 19",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/27516-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/27485-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 39,
         "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
@@ -27,16 +31,20 @@
       "home_team": "أتالانتا",
       "away_team": "بوروسيا دورتموند",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "beIN Sports 4 HD",
+        "DAZN 1 Portugal HD",
+        "IRIB Varzesh HD",
+        "Persiana Sport HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 120,
+        "score": 56,
+        "dmin": 165,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -54,7 +62,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
+        "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -72,8 +80,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -91,8 +99,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -110,8 +118,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -129,8 +137,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -152,7 +160,7 @@
       "merge_debug": {
         "score": 43,
         "dmin": 0,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.1
       }
     }
