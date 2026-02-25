@@ -8,8 +8,7 @@
       "home_team": "باريس تحت 19",
       "away_team": "HJK U19",
       "channels_raw": [
-        "غير معروف",
-        "Thmanyah KSA"
+        "غير معروف"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/27524-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/54194-150x150.png",
@@ -18,8 +17,8 @@
       "merge_debug": {
         "score": 42,
         "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.1
+        "offset": 180,
+        "team_sim": 0.125
       }
     },
     {
@@ -28,16 +27,14 @@
       "home_team": "ريال مدريد تحت 19",
       "away_team": "تشيلسي تحت 19",
       "channels_raw": [
-        "غير معروف",
-        "IRIB Varzesh HD",
-        "TNT Sports 2 HD"
+        "غير معروف"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/27516-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/27485-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
@@ -49,15 +46,14 @@
       "home_team": "أتالانتا",
       "away_team": "بوروسيا دورتموند",
       "channels_raw": [
-        "beIN Sports 4 HD",
-        "Sky Sports Main Event HD"
+        "beIN Sports 4 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 53,
+        "score": 12,
         "dmin": 165,
         "offset": 180,
         "team_sim": 0.0
@@ -76,8 +72,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 12,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -95,8 +91,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 12,
+        "dmin": 180,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -107,16 +103,17 @@
       "home_team": "يوفنتوس",
       "away_team": "غلطة سراي",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "beIN Sports 3 HD",
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/226-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/945-127x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "score": 13,
+        "dmin": 180,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -126,16 +123,17 @@
       "home_team": "باريس سان جيرمان",
       "away_team": "موناكو",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/471-94x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "score": 13,
+        "dmin": 180,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -145,16 +143,17 @@
       "home_team": "ريال مدريد",
       "away_team": "بنفيكا",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/888.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 180,
+        "score": 13,
+        "dmin": 180,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
