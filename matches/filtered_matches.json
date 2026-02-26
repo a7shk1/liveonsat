@@ -14,7 +14,12 @@
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8204.png",
       "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": null
+      "merge_debug": {
+        "score": 12,
+        "dmin": 150,
+        "offset": 180,
+        "team_sim": 0.0
+      }
     },
     {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
@@ -31,7 +36,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -50,7 +55,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -67,9 +72,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 120,
+        "score": 52,
+        "dmin": 165,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -86,9 +91,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 120,
+        "score": 52,
+        "dmin": 165,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -107,7 +112,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -126,7 +131,7 @@
       "merge_debug": {
         "score": 25,
         "dmin": 30,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -143,8 +148,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -162,8 +167,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -181,8 +186,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -200,8 +205,8 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -219,8 +224,8 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -238,8 +243,8 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 25,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
