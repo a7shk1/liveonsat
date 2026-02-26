@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "01:00",
-      "home_team": "نهضة بركان",
-      "away_team": "الرجاء البيضاوي",
-      "channels_raw": [
-        "الرياضية المغربية (3)"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9974-131x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8204.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
       "kickoff_baghdad": "20:30",
       "home_team": "الجزيرة",
@@ -136,25 +117,6 @@
       }
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سيلتا فيجو",
-      "away_team": "باوك سالونيكا",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1029.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري المؤتمر الأوروبي - بلاي اوف",
       "kickoff_baghdad": "23:00",
       "home_team": "كريستال بالاس",
@@ -193,54 +155,16 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
+      "competition": "أوروبا, الدوري الأوروبي - بلاي اوف",
       "kickoff_baghdad": "23:00",
-      "home_team": "ريال مدريد",
-      "away_team": "بنفيكا",
+      "home_team": "سيلتا فيجو",
+      "away_team": "باوك سالونيكا",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/888.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "يوفنتوس",
-      "away_team": "غلطة سراي",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/226-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/945-127x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - بلاي اوف",
-      "kickoff_baghdad": "23:00",
-      "home_team": "باريس سان جيرمان",
-      "away_team": "موناكو",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/471-94x150.png",
-      "status_text": "انتهت",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1029.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 25,
