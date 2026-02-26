@@ -5,38 +5,40 @@
     {
       "competition": "الإمارات, دوري أدنوك للمحترفين",
       "kickoff_baghdad": "20:30",
-      "home_team": "الجزيرة",
-      "away_team": "الشارقة",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8283.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "الإمارات, دوري أدنوك للمحترفين",
-      "kickoff_baghdad": "20:30",
       "home_team": "كلباء",
       "away_team": "الظفرة",
       "channels_raw": [
-        "ابوظبي الرياضية 2"
+        "ابوظبي الرياضية 2",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8355-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/8352-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 13,
+        "dmin": 125,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "20:30",
+      "home_team": "الجزيرة",
+      "away_team": "الشارقة",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8283.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8351-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 13,
+        "dmin": 125,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -46,16 +48,17 @@
       "home_team": "فيورنتينا",
       "away_team": "ياغييلونيا بياويستوك",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "beIN Sports 3 HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/228-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2220-102x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 165,
-        "offset": 180,
+        "score": 13,
+        "dmin": 110,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -65,16 +68,17 @@
       "home_team": "النجم الأحمر",
       "away_team": "ليل",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8957-106x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
+        "score": 13,
+        "dmin": 110,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -84,16 +88,17 @@
       "home_team": "شتوتجارت",
       "away_team": "سيلتيك",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "beIN Sports 4 HD",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/754.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 165,
-        "offset": 180,
+        "score": 13,
+        "dmin": 110,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -111,8 +116,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 155,
+        "score": 26,
+        "dmin": 35,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -131,8 +136,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 95,
+        "score": 36,
+        "dmin": 25,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -151,8 +156,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 95,
+        "score": 36,
+        "dmin": 25,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -171,8 +176,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 13,
-        "dmin": 95,
+        "score": 36,
+        "dmin": 25,
         "offset": -180,
         "team_sim": 0.0
       }
