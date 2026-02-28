@@ -215,25 +215,6 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "19:15",
-      "home_team": "ميتز",
-      "away_team": "بريست",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/534-135x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:15",
       "home_team": "لوريان",
       "away_team": "أوكسير",
       "channels_raw": [
@@ -270,20 +251,20 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "آينتراخت فرانكفورت",
-      "away_team": "فرايبورج",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:15",
+      "home_team": "ميتز",
+      "away_team": "بريست",
       "channels_raw": [
-        "MBC Action"
+        "beIN Sports 3 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/337.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/534-135x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 15,
         "offset": 120,
         "team_sim": 0.0
       }
@@ -298,6 +279,25 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "آينتراخت فرانكفورت",
+      "away_team": "فرايبورج",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/337.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
