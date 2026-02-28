@@ -3,40 +3,40 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ريال أوفييدو",
-      "away_team": "أتلتيكو مدريد",
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "01:00",
+      "home_team": "أولمبيك آسفي",
+      "away_team": "أولمبيك الدشيرة",
       "channels_raw": [
-        "beIN Sports HD"
+        "المغربية (5)"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/193.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/134-128x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8210.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/21191.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": 180,
+        "score": 35,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "23:05",
-      "home_team": "لو آفر",
-      "away_team": "باريس سان جيرمان",
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "01:00",
+      "home_team": "اتحاد طنجة",
+      "away_team": "اتحاد تواركة",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "الرياضية المغربية (3)"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/485.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/14596-121x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/14597-127x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 85,
-        "offset": -180,
+        "score": 35,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -441,25 +441,6 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "موناكو",
-      "away_team": "أنجيه",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/471-94x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/493-136x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "22:00",
       "home_team": "الفيحاء",
@@ -513,6 +494,44 @@
         "score": 35,
         "dmin": 15,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريال أوفييدو",
+      "away_team": "أتلتيكو مدريد",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/193.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/134-128x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 60,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "23:05",
+      "home_team": "لو آفر",
+      "away_team": "باريس سان جيرمان",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/485.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 52,
+        "dmin": 85,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
