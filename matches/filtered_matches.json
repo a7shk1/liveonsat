@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "كومو",
-      "away_team": "ليتشي",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6117-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/246.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "17:30",
       "home_team": "فيردر بريمن",
@@ -35,7 +16,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 25,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -54,45 +35,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "ليفربول",
-      "away_team": "وست هام يونايتد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/113.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "إيفرتون",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/107-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 120,
+        "dmin": 25,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -110,8 +53,46 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 115,
+        "score": 65,
+        "dmin": 55,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "ليفربول",
+      "away_team": "وست هام يونايتد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/113.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 65,
+        "dmin": 60,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "إيفرتون",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/107-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 65,
+        "dmin": 60,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -131,7 +112,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -145,12 +126,12 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/477.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -169,45 +150,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "ريال مايوركا",
-      "away_team": "ريال سوسيداد",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/142.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "بوروسيا دورتموند",
-      "away_team": "بايرن ميونخ",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -226,7 +169,45 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "ريال مايوركا",
+      "away_team": "ريال سوسيداد",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/142.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/154-146x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "بوروسيا دورتموند",
+      "away_team": "بايرن ميونخ",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -245,7 +226,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -264,7 +245,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -319,8 +300,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -339,7 +320,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 52,
-        "dmin": 85,
+        "dmin": 145,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -359,7 +340,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 25,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -376,8 +357,28 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 120,
+        "score": 65,
+        "dmin": 60,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "17:00",
+      "home_team": "كومو",
+      "away_team": "ليتشي",
+      "channels_raw": [
+        "Starzplay 1",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6117-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/246.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
