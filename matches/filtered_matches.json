@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "ريال بيتيس",
-      "away_team": "إشبيلية",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/135-135x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "21:30",
       "home_team": "هامبورج",
@@ -50,7 +31,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/22143-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -119,6 +100,27 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "19:15",
+      "home_team": "ميتز",
+      "away_team": "بريست",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "Starzplay 1",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/534-135x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 54,
+        "dmin": 90,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:15",
       "home_team": "لوريان",
       "away_team": "أوكسير",
       "channels_raw": [
@@ -155,21 +157,19 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:15",
-      "home_team": "ميتز",
-      "away_team": "بريست",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "أرسنال",
+      "away_team": "تشيلسي",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "Starzplay 1",
-        "TNT Sports 2 HD"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/534-135x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 54,
+        "score": 52,
         "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
@@ -195,25 +195,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "أرسنال",
-      "away_team": "تشيلسي",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 90,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "20:00",
       "home_team": "تورينو",
@@ -229,6 +210,25 @@
         "score": 35,
         "dmin": 0,
         "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "ريال بيتيس",
+      "away_team": "إشبيلية",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/135-135x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
