@@ -15,7 +15,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/290.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2025/12/227-1.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 38,
@@ -187,6 +187,27 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "19:15",
+      "home_team": "ميتز",
+      "away_team": "بريست",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "Starzplay 1",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/534-135x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 54,
+        "dmin": 90,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:15",
       "home_team": "لوريان",
       "away_team": "أوكسير",
       "channels_raw": [
@@ -223,21 +244,19 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:15",
-      "home_team": "ميتز",
-      "away_team": "بريست",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "أرسنال",
+      "away_team": "تشيلسي",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "Starzplay 1",
-        "TNT Sports 2 HD"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/534-135x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 54,
+        "score": 52,
         "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
@@ -258,25 +277,6 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "أرسنال",
-      "away_team": "تشيلسي",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
       }
