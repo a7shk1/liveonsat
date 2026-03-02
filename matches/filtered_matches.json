@@ -16,8 +16,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
-        "offset": -180,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -35,27 +35,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "23:00",
-      "home_team": "برمنغهام",
-      "away_team": "ميدلزبره",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1-116x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/115-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
         "dmin": 15,
-        "offset": -180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -69,12 +50,31 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/140.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "23:00",
+      "home_team": "برمنغهام",
+      "away_team": "ميدلزبره",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1-116x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/115-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -92,8 +92,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -112,7 +112,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
