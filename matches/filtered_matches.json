@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "البرتغال, كأس البرتغال - نصف النهائي",
-      "kickoff_baghdad": "23:45",
-      "home_team": "سبورتنج لشبونة",
-      "away_team": "بورتو",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "فرنسا, كأس فرنسا - ربع النهائي",
       "kickoff_baghdad": "22:30",
       "home_team": "لوريان",
@@ -339,6 +319,26 @@
         "score": 76,
         "dmin": 15,
         "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "البرتغال, كأس البرتغال - نصف النهائي",
+      "kickoff_baghdad": "23:45",
+      "home_team": "سبورتنج لشبونة",
+      "away_team": "بورتو",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
