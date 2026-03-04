@@ -3,46 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "فرنسا, كأس فرنسا - ربع النهائي",
-      "kickoff_baghdad": "22:30",
-      "home_team": "لوريان",
-      "away_team": "نيس",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/470-1.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "22:30",
-      "home_team": "فولهام",
-      "away_team": "وست هام يونايتد",
-      "channels_raw": [
-        "beIN Sports 6 HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/120-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/113.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "22:30",
       "home_team": "مانشستر سيتي",
@@ -113,6 +73,46 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/334.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, كأس فرنسا - ربع النهائي",
+      "kickoff_baghdad": "22:30",
+      "home_team": "لوريان",
+      "away_team": "نيس",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/470-1.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "22:30",
+      "home_team": "فولهام",
+      "away_team": "وست هام يونايتد",
+      "channels_raw": [
+        "beIN Sports 6 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/120-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/113.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
