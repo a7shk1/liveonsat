@@ -5,25 +5,6 @@
     {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "22:00",
-      "home_team": "الهلال",
-      "away_team": "النجمة",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/24240-114x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "22:00",
       "home_team": "الأهلي السعودي",
       "away_team": "الاتحاد",
       "channels_raw": [
@@ -36,26 +17,26 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "22:30",
-      "home_team": "الزمالك",
-      "away_team": "الاتحاد السكندري",
+      "competition": "السعودية, الدوري السعودي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "الهلال",
+      "away_team": "النجمة",
       "channels_raw": [
-        "أون سبورت 1"
+        "تطبيق ثمانية"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8312.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/24240-114x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 0,
+        "score": 35,
+        "dmin": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -72,9 +53,28 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 0,
+        "score": 35,
+        "dmin": 5,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "22:30",
+      "home_team": "الزمالك",
+      "away_team": "الاتحاد السكندري",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8312.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 5,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -91,9 +91,9 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 0,
+        "score": 52,
+        "dmin": 105,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -112,7 +112,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -126,12 +126,50 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "01:00",
+      "home_team": "النادي المكناسي",
+      "away_team": "اتحاد طنجة",
+      "channels_raw": [
+        "الرياضية المغربية (3)"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8677.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/14596-121x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "01:00",
+      "home_team": "اتحاد يعقوب المنصور",
+      "away_team": "الفتح الرباطي",
+      "channels_raw": [
+        "الرياضية المغربية (3) 1"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/82477.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8206.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
