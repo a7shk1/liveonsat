@@ -5,6 +5,25 @@
     {
       "competition": "المغرب, الدوري المغربي",
       "kickoff_baghdad": "01:00",
+      "home_team": "أولمبيك الدشيرة",
+      "away_team": "المغرب الفاسي",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/21191.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8321-131x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "01:00",
       "home_team": "الرجاء البيضاوي",
       "away_team": "أولمبيك آسفي",
       "channels_raw": [
@@ -209,6 +228,26 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "19:15",
+      "home_team": "ليل",
+      "away_team": "لوريان",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:15",
       "home_team": "نيس",
       "away_team": "ستاد رين",
       "channels_raw": [
@@ -237,26 +276,6 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/534-135x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/485.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:15",
-      "home_team": "ليل",
-      "away_team": "لوريان",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
