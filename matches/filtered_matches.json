@@ -3,40 +3,98 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "01:00",
-      "home_team": "النادي المكناسي",
-      "away_team": "اتحاد طنجة",
+      "competition": "ألمانيا, الدوري الألماني الدرجة الثانية",
+      "kickoff_baghdad": "15:00",
+      "home_team": "دارمشتات",
+      "away_team": "هولشتاين كيل",
       "channels_raw": [
-        "الرياضية المغربية (3)"
+        "غير معروف",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8677.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/14596-121x150.png",
-      "status_text": "مباشر",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/454-1.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/430.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 40,
         "dmin": 0,
-        "offset": 120,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "01:00",
-      "home_team": "اتحاد يعقوب المنصور",
-      "away_team": "الفتح الرباطي",
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 5",
+      "kickoff_baghdad": "15:15",
+      "home_team": "مانسفيلد",
+      "away_team": "أرسنال",
       "channels_raw": [
-        "الرياضية المغربية (3) 1"
+        "beIN Sports 1 HD",
+        "DAZN 2 Portugal HD",
+        "DAZN Portugal HD",
+        "MBC Action HD",
+        "Shahid MBC",
+        "Football HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/82477.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8206.png",
-      "status_text": "مباشر",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/74-134x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 80,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "15:30",
+      "home_team": "بلاكبيرن روفرز",
+      "away_team": "بورتسموث",
+      "channels_raw": [
+        "غير معروف",
+        "DAZN 2 Portugal HD",
+        "DAZN Portugal HD",
+        "MBC Action HD",
+        "Shahid MBC",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/112-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/111-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 40,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "16:00",
+      "home_team": "أوساسونا",
+      "away_team": "ريال مايوركا",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/143-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/142.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 40,
+        "dmin": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -80,6 +138,30 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "18:00",
+      "home_team": "دربي كاونتي",
+      "away_team": "شيفيلد وينزداي",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/3-150x113.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/25-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 40,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -148,6 +230,25 @@
       }
     },
     {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "كولن",
+      "away_team": "بوروسيا دورتموند",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/350.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "20:30",
       "home_team": "أتلتيكو مدريد",
@@ -167,21 +268,22 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "كولن",
-      "away_team": "بوروسيا دورتموند",
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 5",
+      "kickoff_baghdad": "20:45",
+      "home_team": "ريكسهام",
+      "away_team": "تشيلسي",
       "channels_raw": [
-        "MBC Action"
+        "beIN Sports 3 HD",
+        "Football HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/350.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/75.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 60,
+        "score": 53,
+        "dmin": 180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -246,6 +348,26 @@
       }
     },
     {
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 5",
+      "kickoff_baghdad": "23:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "مانشستر سيتي",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "23:00",
       "home_team": "أتلتيك بلباو",
@@ -281,46 +403,6 @@
       "merge_debug": {
         "score": 36,
         "dmin": 5,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سيلتا فيجو",
-      "away_team": "ريال مدريد",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 5",
-      "kickoff_baghdad": "23:00",
-      "home_team": "وولفرهامبتون",
-      "away_team": "ليفربول",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/15-150x142.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
         "offset": 120,
         "team_sim": 0.0
       }
