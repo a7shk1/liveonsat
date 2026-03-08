@@ -3,29 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "14:30",
-      "home_team": "ليتشي",
-      "away_team": "كريمونيسي",
-      "channels_raw": [
-        "Starzplay 1",
-        "Football HD",
-        "ESPN 1 Brazil HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/246.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/290.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 39,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 5",
       "kickoff_baghdad": "15:00",
       "home_team": "فولهام",
@@ -101,7 +78,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/51-1-142x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/117-150x137.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 76,
@@ -383,6 +360,29 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": null
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "14:30",
+      "home_team": "ليتشي",
+      "away_team": "كريمونيسي",
+      "channels_raw": [
+        "Starzplay 1",
+        "Football HD",
+        "ESPN 1 Brazil HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/246.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/290.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
     }
   ]
 }
