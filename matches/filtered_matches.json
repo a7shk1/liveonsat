@@ -3,42 +3,18 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "01:00",
-      "home_team": "نهضة بركان",
-      "away_team": "الدفاع الحسني الجديدي",
+      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
+      "kickoff_baghdad": "22:30",
+      "home_team": "ألميريا",
+      "away_team": "ديبورتيفا ليونيسا",
       "channels_raw": [
-        "المغربية (5)"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/9974-2-131x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8203-2.png",
-      "status_text": "مباشر",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/138.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/6347-150x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "01:00",
-      "home_team": "اتحاد تواركة",
-      "away_team": "الوداد الرياضي",
-      "channels_raw": [
-        "الرياضية المغربية (3)"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/14597-2-127x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8326-2-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - الدور 5",
@@ -93,25 +69,6 @@
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/136-2-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/193-2.png",
       "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "فالنسيا",
-      "away_team": "ألافيس",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/139-2-130x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/168-2-150x150.png",
-      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 12,
