@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10",
+  "date": "2026-03-11",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
@@ -12,6 +12,25 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8308-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8303-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أتالانتا",
+      "away_team": "بايرن ميونخ",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -61,19 +80,38 @@
     },
     {
       "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "أتالانتا",
-      "away_team": "بايرن ميونخ",
+      "kickoff_baghdad": "20:45",
+      "home_team": "باير ليفركوزن",
+      "away_team": "أرسنال",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
-      "status_text": "مباشر",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 75,
+        "dmin": 15,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريال مدريد",
+      "away_team": "مانشستر سيتي",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 65,
+        "dmin": 30,
         "offset": 120,
         "team_sim": 0.0
       }
