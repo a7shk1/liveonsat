@@ -19,7 +19,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -40,7 +40,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -61,7 +61,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -71,16 +71,18 @@
       "home_team": "باير ليفركوزن",
       "away_team": "أرسنال",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "DAZN 2 Portugal HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 75,
-        "dmin": 15,
-        "offset": 120,
+        "score": 54,
+        "dmin": 165,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -118,7 +120,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -135,8 +137,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 90,
+        "score": 65,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -156,7 +158,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -173,8 +175,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 90,
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
