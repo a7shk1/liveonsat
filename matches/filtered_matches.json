@@ -122,25 +122,6 @@
     {
       "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
       "kickoff_baghdad": "23:00",
-      "home_team": "نوتنجهام فورست",
-      "away_team": "ميتييلاند",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1823.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
       "home_team": "فيرينتسفاروشي",
       "away_team": "سبورتينج براغا",
       "channels_raw": [
@@ -253,16 +234,16 @@
       }
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "22:30",
-      "home_team": "إنبي",
-      "away_team": "الزمالك",
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "نوتنجهام فورست",
+      "away_team": "ميتييلاند",
       "channels_raw": [
-        "أون سبورت 1"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
-      "status_text": "انتهت",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1823.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -272,15 +253,15 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "باريس سان جيرمان",
-      "away_team": "تشيلسي",
+      "competition": "مصر, الدوري المصري",
+      "kickoff_baghdad": "22:30",
+      "home_team": "إنبي",
+      "away_team": "الزمالك",
       "channels_raw": [
-        "beIN Sports HD"
+        "أون سبورت 1"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
@@ -343,6 +324,25 @@
       "merge_debug": {
         "score": 65,
         "dmin": 30,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "باريس سان جيرمان",
+      "away_team": "تشيلسي",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
