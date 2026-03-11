@@ -5,28 +5,6 @@
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة - دور الـ 16",
       "kickoff_baghdad": "13:00",
-      "home_team": "فيسيل كوبي",
-      "away_team": "سيؤول",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/2151.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/9820.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة - دور الـ 16",
-      "kickoff_baghdad": "13:00",
       "home_team": "سانفريس هيروشيما",
       "away_team": "جوهور",
       "channels_raw": [
@@ -110,6 +88,25 @@
       }
     },
     {
+      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريال مدريد",
+      "away_team": "مانشستر سيتي",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إنجلترا, تشامبيونشيب",
       "kickoff_baghdad": "23:00",
       "home_team": "كوفنتري سيتي",
@@ -167,21 +164,24 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ريال مدريد",
-      "away_team": "مانشستر سيتي",
+      "competition": "آسيا, دوري أبطال آسيا للنخبة - دور الـ 16",
+      "kickoff_baghdad": "13:00",
+      "home_team": "فيسيل كوبي",
+      "away_team": "سيؤول",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/2151.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/9820.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 38,
+        "dmin": 15,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
