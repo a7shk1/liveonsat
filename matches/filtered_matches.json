@@ -17,7 +17,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -31,12 +31,12 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 120,
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -50,12 +50,12 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/24-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/23-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 120,
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -69,11 +69,11 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1978.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 150,
+        "score": 65,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -88,12 +88,12 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 120,
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -103,15 +103,18 @@
       "home_team": "باير ليفركوزن",
       "away_team": "أرسنال",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "DAZN 2 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
+        "score": 55,
+        "dmin": 165,
         "offset": 180,
         "team_sim": 0.0
       }
