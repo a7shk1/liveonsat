@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "20:45",
-      "home_team": "بولونيا",
-      "away_team": "روما",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/225-127x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
       "kickoff_baghdad": "20:45",
       "home_team": "ألكمار",
@@ -35,7 +16,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -54,7 +35,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -73,7 +54,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -84,18 +65,15 @@
       "home_team": "ليل",
       "away_team": "أستون فيلا",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 2 Portugal HD",
-        "Persiana Sport HD",
-        "TNT Sports 2 HD"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 55,
-        "dmin": 165,
+        "score": 75,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -114,26 +92,26 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
     },
     {
       "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "جينك",
-      "away_team": "فرايبورج",
+      "kickoff_baghdad": "20:45",
+      "home_team": "بولونيا",
+      "away_team": "روما",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/225-127x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -151,8 +129,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 52,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -170,9 +148,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -189,9 +167,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -208,8 +186,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 65,
-        "dmin": 30,
+        "score": 52,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -227,9 +205,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -246,28 +224,28 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "مصر, الدوري المصري",
-      "kickoff_baghdad": "22:30",
-      "home_team": "إنبي",
-      "away_team": "الزمالك",
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "جينك",
+      "away_team": "فرايبورج",
       "channels_raw": [
-        "أون سبورت 1"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8201-132x150.png",
-      "status_text": "انتهت",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -284,8 +262,8 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 52,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -303,9 +281,9 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -322,8 +300,8 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 65,
-        "dmin": 30,
+        "score": 52,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -341,9 +319,9 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 25,
+        "dmin": 30,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
