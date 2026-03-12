@@ -43,25 +43,6 @@
     {
       "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
       "kickoff_baghdad": "20:45",
-      "home_team": "باناثينيكوس",
-      "away_team": "ريال بيتيس",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1022.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "20:45",
       "home_team": "بولونيا",
       "away_team": "روما",
       "channels_raw": [
@@ -155,40 +136,21 @@
       }
     },
     {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "كريستال بالاس",
-      "away_team": "آيك لارنكا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2274.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 30,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "نوتنجهام فورست",
-      "away_team": "ميتييلاند",
+      "kickoff_baghdad": "20:45",
+      "home_team": "باناثينيكوس",
+      "away_team": "ريال بيتيس",
       "channels_raw": [
-        "beIN Sports HD"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1823.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1022.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "dmin": 15,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -288,21 +250,40 @@
       }
     },
     {
-      "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
-      "kickoff_baghdad": "06:30",
-      "home_team": "سان دييجو",
-      "away_team": "تولوكا",
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "كريستال بالاس",
+      "away_team": "آيك لارنكا",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 3 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/80778.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2078-150x150.png",
-      "status_text": "انتهت",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2274.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 65,
+        "dmin": 30,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "نوتنجهام فورست",
+      "away_team": "ميتييلاند",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1823.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 60,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
