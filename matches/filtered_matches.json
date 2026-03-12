@@ -12,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/465-2-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 65,
@@ -31,7 +31,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/228-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/13058-137x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -50,7 +50,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1798-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/352.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -69,7 +69,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2274.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 65,
@@ -88,7 +88,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1823.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -107,7 +107,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/6020-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/895.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -126,31 +126,12 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
         "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "الإمارات, دوري أدنوك للمحترفين",
-      "kickoff_baghdad": "20:30",
-      "home_team": "العين",
-      "away_team": "الوصل",
-      "channels_raw": [
-        "أبو ظبي الرياضية 1"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8353-115x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8346.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -174,21 +155,21 @@
       }
     },
     {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "20:45",
-      "home_team": "سامسون سبور",
-      "away_team": "رايو فاييكانو",
+      "competition": "الإمارات, دوري أدنوك للمحترفين",
+      "kickoff_baghdad": "20:30",
+      "home_team": "العين",
+      "away_team": "الوصل",
       "channels_raw": [
-        "غير معروف"
+        "أبو ظبي الرياضية 1"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/997.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/174.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8353-115x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8346.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -278,6 +259,25 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "20:45",
+      "home_team": "سامسون سبور",
+      "away_team": "رايو فاييكانو",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/997.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/174.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
