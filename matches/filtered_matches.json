@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - ربع النهائي",
-      "kickoff_baghdad": "21:00",
-      "home_team": "صن داونز",
-      "away_team": "ستاد مالي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/7277.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/12172-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 53,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "22:00",
       "home_team": "الرياض",
@@ -103,26 +83,6 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "تورينو",
-      "away_team": "بارما",
-      "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/235-137x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/241-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "22:45",
       "home_team": "أولمبيك مارسيليا",
@@ -143,21 +103,21 @@
       }
     },
     {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ريكسهام",
-      "away_team": "سوانزي سيتي",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "تورينو",
+      "away_team": "بارما",
       "channels_raw": [
-        "غير معروف",
+        "Starzplay 1",
         "TNT Sports 2 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/75.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/28-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/235-137x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/241-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 0,
+        "dmin": 15,
         "offset": 120,
         "team_sim": 0.0
       }
@@ -183,6 +143,26 @@
       }
     },
     {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريكسهام",
+      "away_team": "سوانزي سيتي",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/75.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/28-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "أفريقيا, دوري أبطال أفريقيا - ربع النهائي",
       "kickoff_baghdad": "01:00",
       "home_team": "الجيش الملكي",
@@ -198,6 +178,26 @@
         "score": 52,
         "dmin": 90,
         "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - ربع النهائي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "صن داونز",
+      "away_team": "ستاد مالي",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/7277.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/12172-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 53,
+        "dmin": 180,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
