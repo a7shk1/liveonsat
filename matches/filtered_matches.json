@@ -18,7 +18,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -38,7 +38,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -58,7 +58,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -78,7 +78,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -98,7 +98,7 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -118,7 +118,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -138,27 +138,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ريكسهام",
-      "away_team": "سوانزي سيتي",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/75.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/28-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -178,7 +158,27 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريكسهام",
+      "away_team": "سوانزي سيتي",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/75.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/28-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
