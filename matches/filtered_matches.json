@@ -13,12 +13,12 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/25287-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1264-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -60,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -38,7 +38,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -57,7 +57,7 @@
       "merge_debug": {
         "score": 65,
         "dmin": 30,
-        "offset": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -76,7 +76,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -95,7 +95,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -105,16 +105,17 @@
       "home_team": "سيراميكا كليوباترا",
       "away_team": "طلائع الجيش",
       "channels_raw": [
-        "أون سبورت 1"
+        "أون سبورت 1",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2025/12/50882-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8306-2-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "score": 26,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -124,16 +125,17 @@
       "home_team": "بوروسيا مونشنجلادباخ",
       "away_team": "سانت باولي",
       "channels_raw": [
-        "Shahid MBC"
+        "Shahid MBC",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/349.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/359-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "score": 26,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -143,16 +145,17 @@
       "home_team": "تورينو",
       "away_team": "بارما",
       "channels_raw": [
-        "Starzplay 1"
+        "Starzplay 1",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/235-137x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/241-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 15,
-        "offset": 180,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -169,9 +172,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 75,
-        "dmin": 15,
-        "offset": 120,
+        "score": 52,
+        "dmin": 75,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -181,16 +184,17 @@
       "home_team": "ريكسهام",
       "away_team": "سوانزي سيتي",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/75.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/28-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 0,
-        "offset": 180,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -207,141 +211,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 65,
-        "dmin": 30,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "جينك",
-      "away_team": "فرايبورج",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سيلتا فيجو",
-      "away_team": "أولمبيك ليون",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/465-2-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 30,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "فيورنتينا",
-      "away_team": "راكوف تشانستوخوفا",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/228-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/13058-137x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سيغما أولوموتس",
-      "away_team": "ماينز 05",
-      "channels_raw": [
-        "beIN Sports 8 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1798-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/352.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "كريستال بالاس",
-      "away_team": "آيك لارنكا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2274.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 30,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "نوتنجهام فورست",
-      "away_team": "ميتييلاند",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1823.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "فيرينتسفاروشي",
-      "away_team": "سبورتينج براغا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/6020-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/895.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 52,
+        "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
       }
