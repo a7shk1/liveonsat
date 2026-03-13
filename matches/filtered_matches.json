@@ -38,7 +38,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -58,27 +58,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "22:30",
-      "home_team": "بوروسيا مونشنجلادباخ",
-      "away_team": "سانت باولي",
-      "channels_raw": [
-        "Shahid MBC",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/349.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/359-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -98,27 +78,27 @@
       "merge_debug": {
         "score": 26,
         "dmin": 30,
-        "offset": -120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "أوكسير",
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "22:30",
+      "home_team": "بوروسيا مونشنجلادباخ",
+      "away_team": "سانت باولي",
       "channels_raw": [
-        "beIN Sports 3 HD",
+        "Shahid MBC",
         "TNT Sports 2 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/469.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/476-130x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/349.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/359-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -120,
+        "score": 26,
+        "dmin": 30,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -138,27 +118,27 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": -120,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ألافيس",
-      "away_team": "فياريال",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "أولمبيك مارسيليا",
+      "away_team": "أوكسير",
       "channels_raw": [
-        "beIN Sports 1 HD",
+        "beIN Sports 3 HD",
         "TNT Sports 2 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/168-2-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/133.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/469.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/476-130x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 0,
-        "offset": -120,
+        "dmin": 15,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -178,7 +158,26 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ألافيس",
+      "away_team": "فياريال",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/168-2-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/133.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 52,
+        "dmin": 90,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
