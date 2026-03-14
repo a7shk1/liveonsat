@@ -4,81 +4,6 @@
   "matches": [
     {
       "competition": "Australian A League - Week 21",
-      "title": "Central Coast Mariners v Adelaide United",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "Discovery+ UK ($/geo/R)",
-        "TNT Sports 2 HD",
-        "Japanese J1 League - Week 6"
-      ]
-    },
-    {
-      "competition": "Australian A League - Week 21",
-      "title": "Yokohama F-Marinos v JEF United Chiba",
-      "kickoff_baghdad": "21:00",
-      "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "YouTube: J.League International",
-        "Australian W-League - Week 19"
-      ]
-    },
-    {
-      "competition": "Australian A League - Week 21",
-      "title": "Wellington Phoenix v Brisbane Roar",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "Discovery+ UK ($/geo/R)",
-        "TNT Sports 8",
-        "Japanese J1 League - Week 6"
-      ]
-    },
-    {
-      "competition": "Australian A League - Week 21",
-      "title": "Kashiwa Reysol v Machida Zelvia",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "Japanese J1 League - Week 6"
-      ]
-    },
-    {
-      "competition": "Australian A League - Week 21",
-      "title": "Kyoto Sanga v Cerezo Osaka",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "Japanese J1 League - Week 6"
-      ]
-    },
-    {
-      "competition": "Australian A League - Week 21",
-      "title": "Mito Hollyhock v FC Tokyo",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "Japanese J1 League - Week 6"
-      ]
-    },
-    {
-      "competition": "Australian A League - Week 21",
-      "title": "Nagoya Grampus v Vissel Kobe",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "Japanese J1 League - Week 6"
-      ]
-    },
-    {
-      "competition": "Australian A League - Week 21",
-      "title": "Shimizu S-Pulse v Fagiano Okayama",
-      "kickoff_baghdad": "22:00",
-      "channels_raw": [
-        "DAZN Japan ($/geo/R)",
-        "Australian A League - Week 21"
-      ]
-    },
-    {
-      "competition": "Australian A League - Week 21",
       "title": "Newcastle Jets v Auckland FC",
       "kickoff_baghdad": "23:00",
       "channels_raw": [
@@ -103,10 +28,6 @@
       "kickoff_baghdad": "23:00",
       "channels_raw": [
         "DAZN Japan ($/geo/R)",
-        "Discover more",
-        "Womens soccer apparel",
-        "Sports themed snacks",
-        "Basketball fan gear",
         "Saturday, 14th March",
         "Australian W-League - Week 19"
       ]
@@ -138,6 +59,10 @@
         "beIN Connect Türkiye",
         "beIN Sports Türkiye Max 1 HD",
         "TRT Spor Türkiye HD",
+        "Discover more",
+        "Home theater systems",
+        "Premier League merchandise",
+        "Live TV streaming",
         "Türkiye Süper Lig - Week 26"
       ]
     },
@@ -207,10 +132,6 @@
         "ViaPlay Norge HD",
         "ViaPlay Suomi HD",
         "ViaPlay Sverige HD",
-        "Discover more",
-        "Spor",
-        "Fantasy football aids",
-        "Football news subscriptions",
         "German 2. Bundesliga - Week 26"
       ]
     },
@@ -339,6 +260,10 @@
         "Paramount+ USA ($/geo/R)",
         "Sky Sports+ [via APP]",
         "Sky Sports+ TV HD",
+        "Discover more",
+        "Liga de Campeones",
+        "Sports betting platforms",
+        "Football team merchandise",
         "English League One - Week 37"
       ]
     },
@@ -412,10 +337,6 @@
         "beIN Sports France 1 HD",
         "beIN Sports MENA French 1 HD",
         "beIN Sports Türkiye 2 HD",
-        "Discover more",
-        "Cytavision",
-        "Live TV streaming",
-        "VPN services for geo-restricted content",
         "French Ligue 2 - Week 27"
       ]
     },
@@ -447,6 +368,10 @@
       "kickoff_baghdad": "06:00",
       "channels_raw": [
         "Magenta Sport ($/geo/R)",
+        "Discover more",
+        "La Liga streaming",
+        "Sports TV packages",
+        "Basketball fan gear",
         "German 3. Liga - Week 29"
       ]
     },
@@ -545,10 +470,6 @@
         "TV2 Play Norge ($/geo/R)",
         "TV4 Play Sverige [online]",
         "ViaPlay Norge HD",
-        "Discover more",
-        "Sports betting tips",
-        "Sports memorabilia store",
-        "Sports statistics software",
         "Bulgarian First League - Week 26"
       ]
     },
@@ -623,6 +544,10 @@
         "Arena Sport 6 Hrvatska HD",
         "Canal+ Sport 3 Polska HD",
         "Ekstraklasa TV ($/PPV)",
+        "Discover more",
+        "Sports+",
+        "Champions League tickets",
+        "Bundesliga travel packages",
         "Albanian First Division - Week 26"
       ]
     },
@@ -641,10 +566,6 @@
       "kickoff_baghdad": "07:00",
       "channels_raw": [
         "FIFA+ [app] (geo/R)",
-        "Discover more",
-        "Home theater systems",
-        "Sporting",
-        "Sports+",
         "Albanian First Division - Week 26"
       ]
     },
@@ -778,10 +699,6 @@
       "channels_raw": [
         "DAZN Italia ($/geo/R)",
         "LaB Channel ($/geo/R)",
-        "Discover more",
-        "Live sports commentary",
-        "Sports betting platforms",
-        "Youth soccer programs",
         "Italian Serie BKT - Week 30"
       ]
     },
@@ -2400,6 +2317,15 @@
       "channels_raw": [
         "Discovery+ UK ($/geo/R)",
         "TNT Sports 6",
+        "Japanese J1 League - Week 6"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 21",
+      "title": "V-Varen Nagasaki v Avispa Fukuoka",
+      "kickoff_baghdad": "22:00",
+      "channels_raw": [
+        "DAZN Japan ($/geo/R)",
         "L.J.'s LIVE Football on Satellite TV. LiveOnSat.com. LJ-Sport.com. All Rights",
         "Reserved. Copyright (c) 1997 - 2026",
         "Cookie Consent by",
