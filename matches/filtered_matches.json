@@ -145,17 +145,16 @@
       "home_team": "سندرلاند",
       "away_team": "برايتون",
       "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 2 HD"
+        "beIN Sports HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/117-150x137.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/38-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 35,
         "dmin": 0,
-        "offset": -180,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -215,7 +214,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -311,7 +310,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -331,7 +330,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -351,7 +350,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -371,7 +370,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": 120,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -391,7 +390,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -411,7 +410,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -450,7 +449,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 5,
-        "offset": 120,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
