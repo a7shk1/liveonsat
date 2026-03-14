@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "لوريان",
-      "away_team": "لانس",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/481.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 75,
-        "dmin": 5,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "20:00",
       "home_team": "نابولي",
@@ -37,25 +18,6 @@
         "score": 35,
         "dmin": 0,
         "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "20:30",
-      "home_team": "هامبورج",
-      "away_team": "كولن",
-      "channels_raw": [
-        "MBC Action"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/334.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/350.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -121,6 +83,25 @@
       }
     },
     {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "20:30",
+      "home_team": "هامبورج",
+      "away_team": "كولن",
+      "channels_raw": [
+        "MBC Action"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/334.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/350.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "21:00",
       "home_team": "أنجيه",
@@ -130,7 +111,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/493-136x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/470-1.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 52,
@@ -240,7 +221,7 @@
       "home_team": "المصري",
       "away_team": "شباب بلوزداد",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 4 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8303-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8225-120x150.png",
@@ -269,28 +250,6 @@
         "score": 35,
         "dmin": 5,
         "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "أتالانتا",
-      "channels_raw": [
-        "Starzplay 1",
-        "Football HD",
-        "Thmanyah 3",
-        "Thmanyah KSA"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/224-2-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 0,
-        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -391,6 +350,25 @@
         "score": 77,
         "dmin": 15,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "لوريان",
+      "away_team": "لانس",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/481.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 75,
+        "dmin": 5,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
