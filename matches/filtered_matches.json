@@ -46,6 +46,26 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "17:00",
+      "home_team": "مانشستر يونايتد",
+      "away_team": "أستون فيلا",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/105-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 76,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:00",
       "home_team": "كريستال بالاس",
       "away_team": "ليدز يونايتد",
       "channels_raw": [
@@ -78,26 +98,6 @@
       "merge_debug": {
         "score": 75,
         "dmin": 15,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "مانشستر يونايتد",
-      "away_team": "أستون فيلا",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/105-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 0,
         "offset": 120,
         "team_sim": 0.0
       }
@@ -182,25 +182,6 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "فرايبورج",
-      "away_team": "يونيون برلين",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/392-1.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "19:30",
       "home_team": "ليفربول",
@@ -216,6 +197,25 @@
       "merge_debug": {
         "score": 53,
         "dmin": 90,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "فرايبورج",
+      "away_team": "يونيون برلين",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/392-1.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -279,15 +279,15 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
+      "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "22:45",
-      "home_team": "ستاد رين",
-      "away_team": "ليل",
+      "home_team": "لاتسيو",
+      "away_team": "ميلان",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "Starzplay 1"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/477.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/236-2.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -298,15 +298,15 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
+      "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "22:45",
-      "home_team": "لاتسيو",
-      "away_team": "ميلان",
+      "home_team": "ستاد رين",
+      "away_team": "ليل",
       "channels_raw": [
-        "Starzplay 1"
+        "beIN Sports 5 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/236-2.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/477.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
