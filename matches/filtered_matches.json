@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - ربع النهائي",
-      "kickoff_baghdad": "00:00",
-      "home_team": "الترجي",
-      "away_team": "الأهلي",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8235-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8200-1-2-126x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أفريقيا, الكونفدرالية الافريقية - ربع النهائي",
       "kickoff_baghdad": "01:00",
       "home_team": "أولمبيك آسفي",
@@ -94,6 +75,25 @@
         "score": 12,
         "dmin": 120,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - ربع النهائي",
+      "kickoff_baghdad": "00:00",
+      "home_team": "الترجي",
+      "away_team": "الأهلي",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8235-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8200-1-2-126x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
