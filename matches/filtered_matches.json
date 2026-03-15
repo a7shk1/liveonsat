@@ -32,7 +32,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/36-134x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 66,
@@ -51,7 +51,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/120-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 52,
@@ -71,7 +71,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/105-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 66,
@@ -90,7 +90,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/332-107x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/352.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -121,25 +121,6 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "19:15",
-      "home_team": "ميتز",
-      "away_team": "تولوز",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:15",
       "home_team": "لو آفر",
       "away_team": "أولمبيك ليون",
       "channels_raw": [
@@ -157,20 +138,20 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "فرايبورج",
-      "away_team": "يونيون برلين",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:15",
+      "home_team": "ميتز",
+      "away_team": "تولوز",
       "channels_raw": [
-        "Shahid MBC"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/392-1.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -185,6 +166,25 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/114-83x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "19:30",
+      "home_team": "فرايبورج",
+      "away_team": "يونيون برلين",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/392-1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
