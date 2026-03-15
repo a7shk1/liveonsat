@@ -46,26 +46,6 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "17:00",
-      "home_team": "كريستال بالاس",
-      "away_team": "ليدز يونايتد",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/36-134x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:00",
       "home_team": "نوتنجهام فورست",
       "away_team": "فولهام",
       "channels_raw": [
@@ -93,6 +73,26 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/105-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 76,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:00",
+      "home_team": "كريستال بالاس",
+      "away_team": "ليدز يونايتد",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/36-134x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -146,13 +146,13 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "19:15",
-      "home_team": "ميتز",
-      "away_team": "تولوز",
+      "home_team": "لو آفر",
+      "away_team": "أولمبيك ليون",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "beIN Sports 5 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/485.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/465-2-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -165,13 +165,13 @@
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "19:15",
-      "home_team": "لو آفر",
-      "away_team": "أولمبيك ليون",
+      "home_team": "ميتز",
+      "away_team": "تولوز",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "beIN Sports 4 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/485.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/465-2-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/484-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -279,15 +279,15 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
+      "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "22:45",
-      "home_team": "لاتسيو",
-      "away_team": "ميلان",
+      "home_team": "ستاد رين",
+      "away_team": "ليل",
       "channels_raw": [
-        "Starzplay 1"
+        "beIN Sports 5 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/236-2.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/477.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -298,15 +298,15 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
+      "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "22:45",
-      "home_team": "ستاد رين",
-      "away_team": "ليل",
+      "home_team": "لاتسيو",
+      "away_team": "ميلان",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "Starzplay 1"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/477.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/236-2.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
