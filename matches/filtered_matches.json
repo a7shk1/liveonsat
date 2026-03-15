@@ -1,26 +1,7 @@
 {
-  "date": "2026-03-15",
+  "date": "2026-03-16",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "لاتسيو",
-      "away_team": "ميلان",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/236-2.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 105,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
     {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "22:45",
@@ -31,6 +12,25 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/477.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 105,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "لاتسيو",
+      "away_team": "ميلان",
+      "channels_raw": [
+        "Starzplay 1"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/236-2.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
