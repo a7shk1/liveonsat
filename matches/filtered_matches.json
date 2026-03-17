@@ -8,21 +8,17 @@
       "home_team": "Villarreal U19",
       "away_team": "باريس تحت 19",
       "channels_raw": [
-        "غير معروف",
-        "DAZN 3 Portugal HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "غير معروف"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/68902-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/27524-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 56,
+        "score": 47,
         "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.29411764705882354
+        "offset": 0,
+        "team_sim": 0.2
       }
     },
     {
@@ -31,16 +27,17 @@
       "home_team": "سبورتنج لشبونة",
       "away_team": "بودو جليمت",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1978.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 15,
-        "offset": 180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -60,7 +57,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -78,7 +75,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -97,7 +94,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -116,7 +113,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
