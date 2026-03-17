@@ -121,25 +121,6 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
       "kickoff_baghdad": "23:00",
-      "home_team": "ليفربول",
-      "away_team": "غلطة سراي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/945-127x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
       "home_team": "توتنهام هوتسبر",
       "away_team": "أتلتيكو مدريد",
       "channels_raw": [
@@ -176,36 +157,16 @@
       }
     },
     {
-      "competition": "مصر, كأس مصر - ربع النهائي",
-      "kickoff_baghdad": "22:30",
-      "home_team": "بتروجت",
-      "away_team": "بيراميدز",
-      "channels_raw": [
-        "أون سبورت 1",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8302-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/22143-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
       "kickoff_baghdad": "23:00",
-      "home_team": "أرسنال",
-      "away_team": "باير ليفركوزن",
+      "home_team": "ليفربول",
+      "away_team": "غلطة سراي",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
-      "status_text": "انتهت",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/945-127x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -243,6 +204,25 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أرسنال",
+      "away_team": "باير ليفركوزن",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
