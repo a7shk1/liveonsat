@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال أوروبا للشباب - ربع النهائي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "Villarreal U19",
-      "away_team": "باريس تحت 19",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/68902-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/27524-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 47,
-        "dmin": 0,
-        "offset": 0,
-        "team_sim": 0.2
-      }
-    },
-    {
       "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
       "kickoff_baghdad": "20:45",
       "home_team": "سبورتنج لشبونة",
@@ -32,7 +13,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1978.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
@@ -58,6 +39,25 @@
         "score": 36,
         "dmin": 0,
         "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "تشيلسي",
+      "away_team": "باريس سان جيرمان",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -100,22 +100,22 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "تشيلسي",
-      "away_team": "باريس سان جيرمان",
+      "competition": "أوروبا, دوري أبطال أوروبا للشباب - ربع النهائي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "Villarreal U19",
+      "away_team": "باريس تحت 19",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/106-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/68902-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/27524-150x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 47,
         "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
+        "offset": 0,
+        "team_sim": 0.2
       }
     }
   ]
