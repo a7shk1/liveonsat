@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال أوروبا للشباب - ربع النهائي",
-      "kickoff_baghdad": "16:00",
-      "home_team": "ريال مدريد تحت 19",
-      "away_team": "Sporting CP U19",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/27516-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/44910.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 55,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.34782608695652173
-      }
-    },
-    {
       "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
       "kickoff_baghdad": "18:30",
       "home_team": "سبورتينج براغا",
@@ -31,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/895.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/6020-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -62,12 +43,12 @@
     {
       "competition": "السعودية, كأس الملك - نصف النهائي",
       "kickoff_baghdad": "22:00",
-      "home_team": "الأهلي",
+      "home_team": "الأهلي السعودي",
       "away_team": "الهلال",
       "channels_raw": [
         "تطبيق ثمانية"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8200-1-2-126x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
@@ -171,6 +152,25 @@
         "dmin": 0,
         "offset": 120,
         "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال أوروبا للشباب - ربع النهائي",
+      "kickoff_baghdad": "16:00",
+      "home_team": "ريال مدريد تحت 19",
+      "away_team": "Sporting CP U19",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/27516-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/44910.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 55,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.34782608695652173
       }
     }
   ]
