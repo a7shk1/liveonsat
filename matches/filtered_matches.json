@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
-      "kickoff_baghdad": "20:45",
-      "home_team": "برشلونة",
-      "away_team": "نيوكاسل يونايتد",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "السعودية, كأس الملك - نصف النهائي",
       "kickoff_baghdad": "22:00",
       "home_team": "الأهلي السعودي",
@@ -36,7 +17,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -55,7 +36,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -81,6 +62,25 @@
     {
       "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
       "kickoff_baghdad": "23:00",
+      "home_team": "بايرن ميونخ",
+      "away_team": "أتالانتا",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
+      "kickoff_baghdad": "23:00",
       "home_team": "ليفربول",
       "away_team": "غلطة سراي",
       "channels_raw": [
@@ -88,12 +88,12 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/945-127x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -107,31 +107,31 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/114-83x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/134-128x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
     {
       "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "بايرن ميونخ",
-      "away_team": "أتالانتا",
+      "kickoff_baghdad": "20:45",
+      "home_team": "برشلونة",
+      "away_team": "نيوكاسل يونايتد",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/116-150x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
