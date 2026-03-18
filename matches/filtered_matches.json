@@ -1,45 +1,7 @@
 {
-  "date": "2026-03-18",
+  "date": "2026-03-19",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
-    {
-      "competition": "السعودية, كأس الملك - نصف النهائي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "الأهلي السعودي",
-      "away_team": "الهلال",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "السعودية, كأس الملك - نصف النهائي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "الخلود",
-      "away_team": "الاتحاد",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/55800-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
     {
       "competition": "مصر, كأس مصر - نصف النهائي",
       "kickoff_baghdad": "22:30",
@@ -117,6 +79,272 @@
       }
     },
     {
+      "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
+      "kickoff_baghdad": "02:00",
+      "home_team": "انتر ميامي",
+      "away_team": "ناشفيل",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/54729-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/51126-115x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 60,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
+      "kickoff_baghdad": "04:00",
+      "home_team": "كلوب أمريكا",
+      "away_team": "فيلادلفيا يونيون",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1255-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/7364-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
+      "kickoff_baghdad": "06:00",
+      "home_team": "تولوكا",
+      "away_team": "سان دييجو",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2078-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/80778.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
+      "kickoff_baghdad": "06:00",
+      "home_team": "سياتيل ساونديرز",
+      "away_team": "فانكوفر وايت كابس",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1347.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8389.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "20:45",
+      "home_team": "آيك لارنكا",
+      "away_team": "كريستال بالاس",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2274.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "20:45",
+      "home_team": "فرايبورج",
+      "away_team": "جينك",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "20:45",
+      "home_team": "ميتييلاند",
+      "away_team": "نوتنجهام فورست",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1823.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "20:45",
+      "home_team": "أولمبيك ليون",
+      "away_team": "سيلتا فيجو",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/465-2-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ستراسبورج",
+      "away_team": "رييكا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/2248.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "سبارتا براغ",
+      "away_team": "ألكمار",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1788-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/699.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ريال بيتيس",
+      "away_team": "باناثينيكوس",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1022.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "روما",
+      "away_team": "بولونيا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/225-127x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "أستون فيلا",
+      "away_team": "ليل",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "بورتو",
+      "away_team": "شتوتجارت",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "أوروبا, دوري أبطال اوروبا - دور الـ 16",
       "kickoff_baghdad": "20:45",
       "home_team": "برشلونة",
@@ -132,6 +360,44 @@
         "score": 35,
         "dmin": 15,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "السعودية, كأس الملك - نصف النهائي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "الأهلي السعودي",
+      "away_team": "الهلال",
+      "channels_raw": [
+        "تطبيق ثمانية"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/01/alba_img_6977e5c40e10f-70x70-1.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "السعودية, كأس الملك - نصف النهائي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "الخلود",
+      "away_team": "الاتحاد",
+      "channels_raw": [
+        "تطبيق ثمانية"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/55800-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
