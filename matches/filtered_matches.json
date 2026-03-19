@@ -5,25 +5,6 @@
     {
       "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
       "kickoff_baghdad": "20:45",
-      "home_team": "فرايبورج",
-      "away_team": "جينك",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "20:45",
       "home_team": "ميتييلاند",
       "away_team": "نوتنجهام فورست",
       "channels_raw": [
@@ -34,8 +15,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
+        "score": 52,
+        "dmin": 165,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -65,15 +46,92 @@
       "home_team": "آيك لارنكا",
       "away_team": "كريستال بالاس",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "beIN Sports 4 HD",
+        "DAZN 2 Portugal HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2274.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/10-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
+        "score": 53,
+        "dmin": 165,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "20:45",
+      "home_team": "فرايبورج",
+      "away_team": "جينك",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/1177.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
         "score": 35,
         "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "بورتو",
+      "away_team": "شتوتجارت",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "ستراسبورج",
+      "away_team": "رييكا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/2248.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "سبارتا براغ",
+      "away_team": "ألكمار",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1788-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/699.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -93,7 +151,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -112,7 +170,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -131,64 +189,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "بورتو",
-      "away_team": "شتوتجارت",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "ستراسبورج",
-      "away_team": "رييكا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/2248.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
-      "home_team": "سبارتا براغ",
-      "away_team": "ألكمار",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1788-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/699.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
