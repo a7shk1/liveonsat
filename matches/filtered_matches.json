@@ -82,25 +82,6 @@
     {
       "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
       "kickoff_baghdad": "23:00",
-      "home_team": "روما",
-      "away_team": "بولونيا",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/225-127x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
-      "kickoff_baghdad": "23:00",
       "home_team": "أستون فيلا",
       "away_team": "ليل",
       "channels_raw": [
@@ -194,40 +175,21 @@
       }
     },
     {
-      "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
-      "kickoff_baghdad": "06:00",
-      "home_team": "تولوكا",
-      "away_team": "سان دييجو",
+      "competition": "أوروبا, الدوري الأوروبي - دور الـ 16",
+      "kickoff_baghdad": "23:00",
+      "home_team": "روما",
+      "away_team": "بولونيا",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2078-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/80778.png",
-      "status_text": "انتهت",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/225-127x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
-      "kickoff_baghdad": "06:00",
-      "home_team": "سياتيل ساونديرز",
-      "away_team": "فانكوفر وايت كابس",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1347.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8389.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
