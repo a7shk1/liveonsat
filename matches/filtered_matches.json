@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
-      "kickoff_baghdad": "04:00",
-      "home_team": "تيغريس",
-      "away_team": "سينسيناتي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1264-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/25287-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
       "kickoff_baghdad": "18:00",
       "home_team": "حرس الحدود",
@@ -195,20 +176,20 @@
     },
     {
       "competition": "شمال امريكا, دوري أبطال ش. امريكا - دور الـ 16",
-      "kickoff_baghdad": "02:00",
-      "home_team": "مونت بليسانت",
-      "away_team": "لوس أنجلوس غالاكسي",
+      "kickoff_baghdad": "04:00",
+      "home_team": "تيغريس",
+      "away_team": "سينسيناتي",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/54489-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1342-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/1264-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/25287-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
