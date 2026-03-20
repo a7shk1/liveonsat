@@ -291,6 +291,26 @@
       }
     },
     {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "لانس",
+      "away_team": "أنجيه",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/481.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/493-136x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "22:45",
       "home_team": "جنوى",
@@ -311,21 +331,21 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "لانس",
-      "away_team": "أنجيه",
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "23:00",
+      "home_team": "بريستون نورث إند",
+      "away_team": "ستوك سيتي",
       "channels_raw": [
-        "beIN Sports 4 HD",
+        "غير معروف",
         "TNT Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/481.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/493-136x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/23-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/01/7-140x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 15,
+        "dmin": 0,
         "offset": 120,
         "team_sim": 0.0
       }
@@ -361,26 +381,6 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/50-126x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/105-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "23:00",
-      "home_team": "بريستون نورث إند",
-      "away_team": "ستوك سيتي",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/23-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/01/7-140x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
