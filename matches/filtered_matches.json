@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "20:30",
-      "home_team": "كالياري",
-      "away_team": "نابولي",
-      "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/243-136x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/234-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
       "kickoff_baghdad": "21:00",
       "home_team": "وادي دجلة",
@@ -52,7 +32,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/7171-150x108.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/351.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -72,7 +52,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/231-123x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/229-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
@@ -92,7 +72,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/481.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/493-136x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
@@ -158,6 +138,26 @@
         "score": 36,
         "dmin": 0,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "20:30",
+      "home_team": "كالياري",
+      "away_team": "نابولي",
+      "channels_raw": [
+        "Starzplay 1",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/243-136x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/234-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
