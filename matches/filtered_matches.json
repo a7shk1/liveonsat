@@ -138,17 +138,16 @@
       "home_team": "ميلان",
       "away_team": "تورينو",
       "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD"
+        "غير معروف"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/235-137x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 0,
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -206,7 +205,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -226,7 +225,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -237,7 +236,7 @@
       "away_team": "ساسولو",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 1 HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/226-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/266-2.png",
@@ -245,8 +244,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 15,
-        "offset": 180,
+        "dmin": 25,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -257,7 +256,7 @@
       "away_team": "فالنسيا",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 1 HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/135-135x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/139-2-130x150.png",
@@ -265,8 +264,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 0,
-        "offset": 180,
+        "dmin": 10,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
