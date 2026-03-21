@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "ميلان",
-      "away_team": "تورينو",
-      "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/235-137x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "20:30",
       "home_team": "أوساسونا",
@@ -156,7 +136,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8200-1-2-126x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8235-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
@@ -176,7 +156,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8225-120x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8303-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
@@ -201,26 +181,6 @@
       "merge_debug": {
         "score": 36,
         "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "23:00",
-      "home_team": "إشبيلية",
-      "away_team": "فالنسيا",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/135-135x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/139-2-130x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
         "offset": 0,
         "team_sim": 0.0
       }
@@ -266,67 +226,40 @@
       }
     },
     {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "18:00",
-      "home_team": "شيفيلد يونايتد",
-      "away_team": "ريكسهام",
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "23:00",
+      "home_team": "إشبيلية",
+      "away_team": "فالنسيا",
       "channels_raw": [
         "غير معروف",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/20-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/75.png",
-      "status_text": "انتهت",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/135-135x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/139-2-130x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 38,
+        "score": 36,
         "dmin": 0,
-        "offset": 180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "فولهام",
-      "away_team": "بيرنلي",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "19:00",
+      "home_team": "تولوز",
+      "away_team": "لوريان",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
+        "beIN Sports 5 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/120-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/12-1-143x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 78,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "18:15",
-      "home_team": "إسبانيول",
-      "away_team": "خيتافي",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "Sky Sport Premier League HD",
-        "Sky Sports Main Event HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/136-2-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/140.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 78,
-        "dmin": 15,
+        "score": 52,
+        "dmin": 180,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -351,21 +284,22 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:00",
-      "home_team": "تولوز",
-      "away_team": "لوريان",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "20:00",
+      "home_team": "ميلان",
+      "away_team": "تورينو",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "Starzplay 1",
+        "TNT Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/472.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/235-137x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 180,
-        "offset": 180,
+        "score": 36,
+        "dmin": 0,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
