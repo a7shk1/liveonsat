@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "21:30",
-      "home_team": "أوغسبورغ",
-      "away_team": "شتوتجارت",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/358.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أفريقيا, الكونفدرالية الافريقية - ربع النهائي",
       "kickoff_baghdad": "22:00",
       "home_team": "اتحاد العاصمة",
@@ -60,15 +41,15 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
+      "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "22:45",
-      "home_team": "فيورنتينا",
-      "away_team": "إنتر ميلان",
+      "home_team": "نانت",
+      "away_team": "ستراسبورج",
       "channels_raw": [
-        "Starzplay 1"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/228-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/224-2-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/486-127x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -79,15 +60,15 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
+      "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "22:45",
-      "home_team": "نانت",
-      "away_team": "ستراسبورج",
+      "home_team": "فيورنتينا",
+      "away_team": "إنتر ميلان",
       "channels_raw": [
-        "غير معروف"
+        "Starzplay 1"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/486-127x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/228-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/224-2-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -112,83 +93,6 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:15",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "ليل",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/469.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/478-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "19:15",
-      "home_team": "باريس أف.سي.",
-      "away_team": "لو آفر",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/6075-2.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/485.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "19:30",
-      "home_team": "سانت باولي",
-      "away_team": "فرايبورج",
-      "channels_raw": [
-        "Shahid MBC"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/359-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, كأس الكاراباو - النهائي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "أرسنال",
-      "away_team": "مانشستر سيتي",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 53,
-        "dmin": 90,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -228,6 +132,25 @@
         "score": 35,
         "dmin": 0,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "21:30",
+      "home_team": "أوغسبورغ",
+      "away_team": "شتوتجارت",
+      "channels_raw": [
+        "Shahid MBC"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/358.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
