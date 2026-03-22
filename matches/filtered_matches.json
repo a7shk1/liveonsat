@@ -65,6 +65,26 @@
     {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "17:00",
+      "home_team": "أتالانتا",
+      "away_team": "هيلاس فيرونا",
+      "channels_raw": [
+        "Starzplay 1",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/316-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "17:00",
       "home_team": "بولونيا",
       "away_team": "لاتسيو",
       "channels_raw": [
@@ -103,22 +123,21 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "17:00",
-      "home_team": "أتالانتا",
-      "away_team": "هيلاس فيرونا",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "17:15",
+      "home_team": "توتنهام هوتسبر",
+      "away_team": "نوتنجهام فورست",
       "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD"
+        "beIN Sports 6 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/316-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/114-83x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 75,
         "dmin": 15,
-        "offset": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -139,25 +158,6 @@
         "score": 66,
         "dmin": 30,
         "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "17:15",
-      "home_team": "توتنهام هوتسبر",
-      "away_team": "نوتنجهام فورست",
-      "channels_raw": [
-        "beIN Sports 6 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/114-83x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 75,
-        "dmin": 15,
-        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -240,25 +240,6 @@
       }
     },
     {
-      "competition": "إنجلترا, كأس الكاراباو - النهائي",
-      "kickoff_baghdad": "19:30",
-      "home_team": "أرسنال",
-      "away_team": "مانشستر سيتي",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 65,
-        "dmin": 30,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "19:30",
       "home_team": "سانت باولي",
@@ -273,6 +254,25 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, كأس الكاراباو - النهائي",
+      "kickoff_baghdad": "19:30",
+      "home_team": "أرسنال",
+      "away_team": "مانشستر سيتي",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/110-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 65,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
