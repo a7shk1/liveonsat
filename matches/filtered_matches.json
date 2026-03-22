@@ -1,41 +1,22 @@
 {
-  "date": "2026-03-22",
+  "date": "2026-03-23",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أفريقيا, الكونفدرالية الافريقية - ربع النهائي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "اتحاد العاصمة",
-      "away_team": "مانييما يونيون",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "فيورنتينا",
+      "away_team": "إنتر ميلان",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "Starzplay 1"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8220.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/50818-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/228-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/224-2-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, الكونفدرالية الافريقية - ربع النهائي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "الوداد الرياضي",
-      "away_team": "أولمبيك آسفي",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8326-2-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8210.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
+        "score": 25,
+        "dmin": 30,
         "offset": 120,
         "team_sim": 0.0
       }
@@ -50,25 +31,6 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/486-127x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "فيورنتينا",
-      "away_team": "إنتر ميلان",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/228-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/224-2-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
@@ -94,25 +56,6 @@
         "score": 35,
         "dmin": 15,
         "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "20:00",
-      "home_team": "روما",
-      "away_team": "ليتشي",
-      "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/225-127x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/246.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -151,6 +94,44 @@
         "score": 35,
         "dmin": 0,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, الكونفدرالية الافريقية - ربع النهائي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "اتحاد العاصمة",
+      "away_team": "مانييما يونيون",
+      "channels_raw": [
+        "beIN Sports 5 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8220.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/50818-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, الكونفدرالية الافريقية - ربع النهائي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "الوداد الرياضي",
+      "away_team": "أولمبيك آسفي",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8326-2-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8210.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
