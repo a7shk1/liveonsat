@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "وادي دجلة",
-      "away_team": "طلائع الجيش",
-      "channels_raw": [
-        "أون سبورت 1",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8311-131x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8306-2-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري أبطال أوروبا للسيدات - ربع النهائي",
       "kickoff_baghdad": "20:45",
       "home_team": "ريال مدريد - سيدات",
@@ -32,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/56903-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/24094-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -51,7 +31,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8302-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -76,6 +56,26 @@
         "score": 25,
         "dmin": 60,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "وادي دجلة",
+      "away_team": "طلائع الجيش",
+      "channels_raw": [
+        "أون سبورت 1",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8311-131x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8306-2-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
