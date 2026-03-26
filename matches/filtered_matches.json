@@ -22,20 +22,20 @@
       }
     },
     {
-      "competition": "أوروبا, دوري الأمم الأوروبية - League C/D Playoffs",
+      "competition": "أوروبا, دوري الأمم الأوروبية - تصفيات الدوري ج / د",
       "kickoff_baghdad": "20:00",
       "home_team": "جبل طارق",
       "away_team": "لاتفيا",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/12775-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2300-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 65,
+        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -46,7 +46,7 @@
       "home_team": "تركيا",
       "away_team": "رومانيا",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5047-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5060-150x150.png",
@@ -60,12 +60,12 @@
       }
     },
     {
-      "competition": "أوروبا, دوري الأمم الأوروبية - League C/D Playoffs",
+      "competition": "أوروبا, دوري الأمم الأوروبية - تصفيات الدوري ج / د",
       "kickoff_baghdad": "20:00",
       "home_team": "مالطا",
       "away_team": "لوكسمبورج",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5035-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5033-150x150.png",
@@ -75,46 +75,6 @@
         "score": 35,
         "dmin": 0,
         "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "إيطاليا",
-      "away_team": "إيرلندا الشمالية",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2375.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5037.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "أوكرانيا",
-      "away_team": "السويد",
-      "channels_raw": [
-        "غير معروف",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5057-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2371-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -169,6 +129,46 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5040-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5064-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "إيطاليا",
+      "away_team": "إيرلندا الشمالية",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2375.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5037.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
+      "kickoff_baghdad": "22:45",
+      "home_team": "أوكرانيا",
+      "away_team": "السويد",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5057-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2371-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
