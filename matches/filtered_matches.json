@@ -25,14 +25,14 @@
     {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "20:00",
-      "home_team": "النمسا",
-      "away_team": "غانا",
+      "home_team": "مونتينيغرو",
+      "away_team": "أندورا",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5059-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5094-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5063-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5052-150x150.png",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -44,14 +44,14 @@
     {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "20:00",
-      "home_team": "مونتينيغرو",
-      "away_team": "أندورا",
+      "home_team": "النمسا",
+      "away_team": "غانا",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5063-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5052-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5059-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5094-150x150.png",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -103,26 +103,6 @@
     {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "22:45",
-      "home_team": "إنجلترا",
-      "away_team": "أوروغواي",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5054-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/656.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "22:45",
       "home_team": "هولندا",
       "away_team": "النرويج",
       "channels_raw": [
@@ -151,6 +131,26 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5032-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "22:45",
+      "home_team": "إنجلترا",
+      "away_team": "أوروغواي",
+      "channels_raw": [
+        "beIN Sports HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5054-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/656.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -197,46 +197,6 @@
         "score": 36,
         "dmin": 15,
         "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس الأمم الإفريقية - تصفيات أولية",
-      "kickoff_baghdad": "16:00",
-      "home_team": "الصومال",
-      "away_team": "موريشيوس",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/27810-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5598-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس الأمم الإفريقية - تصفيات أولية",
-      "kickoff_baghdad": "16:00",
-      "home_team": "تشاد",
-      "away_team": "بورندي",
-      "channels_raw": [
-        "غير معروف",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5615-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5600.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": 0,
         "team_sim": 0.0
       }
     }
