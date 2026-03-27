@@ -4,26 +4,6 @@
   "matches": [
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "20:30",
-      "home_team": "السعودية",
-      "away_team": "مصر",
-      "channels_raw": [
-        "أون سبورت 1",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5087-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5100.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "22:00",
       "home_team": "اليونان",
       "away_team": "باراغواي",
@@ -45,26 +25,6 @@
     {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "22:45",
-      "home_team": "سويسرا",
-      "away_team": "ألمانيا",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5032-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "22:45",
       "home_team": "إنجلترا",
       "away_team": "أوروغواي",
       "channels_raw": [
@@ -73,7 +33,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5054-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/656.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
@@ -93,7 +53,27 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2377-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2376-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "22:45",
+      "home_team": "سويسرا",
+      "away_team": "ألمانيا",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5032-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
@@ -143,22 +123,21 @@
       }
     },
     {
-      "competition": "أفريقيا, تصفيات كأس الأمم الإفريقية - تصفيات أولية",
-      "kickoff_baghdad": "19:00",
-      "home_team": "ساو تومي",
-      "away_team": "أثيوبيا",
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "20:00",
+      "home_team": "النمسا",
+      "away_team": "غانا",
       "channels_raw": [
-        "غير معروف",
-        "Football HD"
+        "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/9007.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5413-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5059-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5094-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": 180,
+        "score": 35,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -183,20 +162,21 @@
     },
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "20:00",
-      "home_team": "النمسا",
-      "away_team": "غانا",
+      "kickoff_baghdad": "20:30",
+      "home_team": "السعودية",
+      "away_team": "مصر",
       "channels_raw": [
-        "غير معروف"
+        "أون سبورت 1",
+        "TNT Sports 2 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5059-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5094-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5087-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5100.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -120,
+        "score": 36,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
