@@ -4,46 +4,6 @@
   "matches": [
     {
       "competition": "دولي, تصفيات كأس العالم - الملحق العالمي - نصف النهائي",
-      "kickoff_baghdad": "01:00",
-      "home_team": "بوليفيا",
-      "away_team": "سورينام",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/747.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5616-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "02:30",
-      "home_team": "كولومبيا",
-      "away_team": "كرواتيا",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/189.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5055-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 26,
-        "dmin": 30,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "دولي, تصفيات كأس العالم - الملحق العالمي - نصف النهائي",
       "kickoff_baghdad": "06:00",
       "home_team": "كاليدونيا الجديدة",
       "away_team": "جامايكا",
@@ -58,27 +18,6 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, تصفيات كأس الأمم الإفريقية - تصفيات أولية",
-      "kickoff_baghdad": "16:00",
-      "home_team": "الصومال",
-      "away_team": "موريشيوس",
-      "channels_raw": [
-        "غير معروف",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/27810-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5598-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 15,
         "offset": 60,
         "team_sim": 0.0
       }
@@ -90,17 +29,36 @@
       "away_team": "بورندي",
       "channels_raw": [
         "غير معروف",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD"
+        "Football HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5615-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5600.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 36,
         "dmin": 15,
-        "offset": 60,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أفريقيا, تصفيات كأس الأمم الإفريقية - تصفيات أولية",
+      "kickoff_baghdad": "16:00",
+      "home_team": "الصومال",
+      "away_team": "موريشيوس",
+      "channels_raw": [
+        "غير معروف",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/27810-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5598-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -110,16 +68,17 @@
       "home_team": "ساو تومي",
       "away_team": "أثيوبيا",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "Football HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/9007.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5413-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "score": 36,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -138,7 +97,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -157,7 +116,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -174,9 +133,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "score": 25,
+        "dmin": 30,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -195,6 +154,44 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "22:45",
+      "home_team": "هولندا",
+      "away_team": "النرويج",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2377-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2376-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "22:45",
+      "home_team": "سويسرا",
+      "away_team": "ألمانيا",
+      "channels_raw": [
+        "beIN Sports 3 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5032-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -214,45 +211,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "22:45",
-      "home_team": "هولندا",
-      "away_team": "النرويج",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2377-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2376-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "22:45",
-      "home_team": "سويسرا",
-      "away_team": "ألمانيا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5032-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -269,8 +228,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 180,
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -290,102 +249,27 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "أوكرانيا",
-      "away_team": "السويد",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5057-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2371-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "ويلز",
-      "away_team": "البوسنة الهرسك",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5043-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5048-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "بولندا",
-      "away_team": "ألبانيا",
-      "channels_raw": [
-        "beIN Sports 3 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5038-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5029-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "جمهورية التشيك",
-      "away_team": "أيرلندا",
-      "channels_raw": [
-        "beIN Sports 5 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5040-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5064-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, تصفيات كأس العالم أوروبا - البلاي أوف - نصف النهائي",
-      "kickoff_baghdad": "22:45",
-      "home_team": "إيطاليا",
-      "away_team": "إيرلندا الشمالية",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2375.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5037.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 165,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "02:30",
+      "home_team": "كولومبيا",
+      "away_team": "كرواتيا",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "TNT Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/189.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5055-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 26,
+        "dmin": 30,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
