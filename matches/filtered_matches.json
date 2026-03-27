@@ -8,7 +8,7 @@
       "home_team": "الأرجنتين",
       "away_team": "موريتانيا",
       "channels_raw": [
-        "غير معروف",
+        "الشارقة الریاضية HD",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/72.png",
@@ -66,6 +66,25 @@
     {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "20:00",
+      "home_team": "المجر",
+      "away_team": "سلوفينيا",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5026-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5041-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "20:00",
       "home_team": "اسكتلندا",
       "away_team": "اليابان",
       "channels_raw": [
@@ -84,20 +103,21 @@
     },
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "20:00",
-      "home_team": "المجر",
-      "away_team": "سلوفينيا",
+      "kickoff_baghdad": "22:45",
+      "home_team": "إنجلترا",
+      "away_team": "أوروغواي",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "TNT Sports 2 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5026-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5041-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5054-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/656.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -132,26 +152,6 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5032-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "22:45",
-      "home_team": "إنجلترا",
-      "away_team": "أوروغواي",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5054-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/656.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
