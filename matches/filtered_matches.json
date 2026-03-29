@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "17:00",
-      "home_team": "أرمينيا",
-      "away_team": "روسيا البيضاء",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5049-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5053-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 52,
-        "dmin": 120,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
       "kickoff_baghdad": "18:00",
       "home_team": "طلائع الجيش",
@@ -36,7 +17,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -53,9 +34,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": -180,
+        "score": 25,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -65,18 +46,16 @@
       "home_team": "ألميريا",
       "away_team": "ريال سوسيداد ب",
       "channels_raw": [
-        "غير معروف",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "غير معروف"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/138.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/9255-146x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 14,
-        "dmin": 180,
-        "offset": -180,
+        "score": 12,
+        "dmin": 150,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -86,18 +65,16 @@
       "home_team": "كولومبيا",
       "away_team": "فرنسا",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/189.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5061-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 14,
-        "dmin": 180,
-        "offset": -180,
+        "score": 12,
+        "dmin": 150,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -114,9 +91,29 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 0,
+        "score": 52,
+        "dmin": 150,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "17:00",
+      "home_team": "أرمينيا",
+      "away_team": "روسيا البيضاء",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5049-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5053-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 66,
+        "dmin": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
