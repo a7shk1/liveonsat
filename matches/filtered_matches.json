@@ -3,35 +3,111 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
-      "kickoff_baghdad": "22:00",
-      "home_team": "ألميريا",
-      "away_team": "ريال سوسيداد ب",
+      "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "المصري",
+      "away_team": "الجونة",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8303-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8308-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, سلسلة فيفا",
+      "kickoff_baghdad": "18:00",
+      "home_team": "أذربيجان",
+      "away_team": "سيراليون",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/138.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/9255-146x150.png",
-      "status_text": "مباشر",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5042-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5603-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "19:00",
+      "home_team": "قبرص",
+      "away_team": "مولدوفا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5065-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5031-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
+      "kickoff_baghdad": "21:00",
+      "home_team": "المقاولون العرب",
+      "away_team": "زد",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8310-120x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 12,
-        "dmin": 180,
+        "dmin": 150,
         "offset": 180,
         "team_sim": 0.0
       }
     },
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "22:00",
-      "home_team": "كولومبيا",
-      "away_team": "فرنسا",
+      "kickoff_baghdad": "21:45",
+      "home_team": "ألمانيا",
+      "away_team": "غانا",
       "channels_raw": [
         "beIN Sports 1 HD"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/189.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5061-150x150.png",
-      "status_text": "مباشر",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5094-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 165,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "الجزائر, الدوري الجزائري",
+      "kickoff_baghdad": "22:00",
+      "home_team": "مولودية الجزائر",
+      "away_team": "اتحاد العاصمة",
+      "channels_raw": [
+        "الجزائرية السادسة"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8218-131x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8220.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 12,
@@ -55,6 +131,44 @@
       "merge_debug": {
         "score": 12,
         "dmin": 150,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
+      "kickoff_baghdad": "22:00",
+      "home_team": "ألميريا",
+      "away_team": "ريال سوسيداد ب",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/138.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/9255-146x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 180,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "22:00",
+      "home_team": "كولومبيا",
+      "away_team": "فرنسا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/189.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5061-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 180,
         "offset": 180,
         "team_sim": 0.0
       }
