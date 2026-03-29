@@ -79,27 +79,6 @@
       }
     },
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "22:00",
-      "home_team": "كولومبيا",
-      "away_team": "فرنسا",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/189.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5061-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 14,
-        "dmin": 180,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
       "kickoff_baghdad": "22:00",
       "home_team": "ألميريا",
@@ -111,6 +90,27 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/138.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/9255-146x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 14,
+        "dmin": 180,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "22:00",
+      "home_team": "كولومبيا",
+      "away_team": "فرنسا",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Sky Sports Main Event HD",
+        "Sky Sport Premier League HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/189.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5061-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
