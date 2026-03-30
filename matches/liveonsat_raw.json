@@ -1,95 +1,27 @@
 {
-  "date": "2026-03-29",
+  "date": "2026-03-30",
   "source_url": "https://m.liveonsat.com/2day.php",
   "matches": [
     {
       "competition": null,
-      "title": "Colombia v France",
-      "kickoff_baghdad": "12:00",
-      "channels_raw": [
-        "América Peru HD",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA English 1 HD",
-        "Caracol Nacional",
-        "DAZN España ($/geo/R)",
-        "DAZN España HD FTA (geo)",
-        "ITV X (geo/R)",
-        "Persiana Sport HD",
-        "RCN TV HD",
-        "Solh TV",
-        "Sport 1 Israel HD",
-        "Sport TV1 Portugal HD",
-        "Sportdigital FUSSBALL HD",
-        "SporTV Brazil HD",
-        "Spíler 2 TV Hungary HD",
-        "TF1 France HD",
-        "TF1 Suisse HD",
-        "VG+ Sport Norge ($/geo/R)",
-        "Spanish La Liga 2 - Week 32"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Almería v Real Sociedad II",
-      "kickoff_baghdad": "12:00",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "LaLiga Hypermotion HD",
-        "Spanish Liga F Femenino - Week 24"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Real Madrid v Barcelona",
-      "kickoff_baghdad": "12:00",
-      "channels_raw": [
-        "DAZN España ($/geo/R)",
-        "DAZN France ($/geo/R)",
-        "Brazilian Série A - Week 5"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Atlético Paranaense v Botafogo",
-      "kickoff_baghdad": "15:30",
-      "channels_raw": [
-        "Fanatiz EU ($/geo/R)",
-        "National Womens Soccer League (NWSL) - Group Stage"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "NJ/NY Gotham v Orlando Pride",
-      "kickoff_baghdad": "16:00",
-      "channels_raw": [
-        "NWSL+ [app] (geo/R)",
-        "Monday, 30th March",
-        "Friendly International"
-      ]
-    },
-    {
-      "competition": null,
       "title": "Cyprus v Moldova",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "beIN Sports MENA 2 HD",
         "beIN Sports MENA English 1 HD",
         "DAZN Deutsch ($/geo/R)",
         "EXXEN Digital Türkiye [$]",
         "Sport 1 Czechia HD",
-        "Discover more",
-        "Fantasy League Tools",
-        "Football boots",
-        "Football video games",
         "German Frauen Bundesliga - Week 22"
       ]
     },
     {
       "competition": null,
       "title": "Hamburg v Bayer Leverkusen",
-      "kickoff_baghdad": "09:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R)",
         "Magenta Sport ($/geo/R)",
         "Sport 1 Germany HD",
         "Friendly International"
@@ -98,18 +30,154 @@
     {
       "competition": null,
       "title": "Germany v Ghana",
-      "kickoff_baghdad": "11:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "ARD Das Erste HD",
         "beIN Sports MENA 1 HD",
         "beIN Sports MENA English 1 HD",
         "EXXEN Digital Türkiye [$]",
+        "Prime Video UK PPV [$]",
         "Sport 1 Czechia HD",
         "Sport 1 Slovakia HD",
         "UEFA.TV PPV ($/geo/R)",
         "Virgin Media PLAY (geo/R)",
         "Virgin Media TV [app] (geo/R)",
         "Virgin Media Two HD",
+        "Tuesday, 31st March",
+        "UEFA U-21 Championship 2027 Qualifiers"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Hungary U-21 v Ukraine U-21",
+      "kickoff_baghdad": "10:30",
+      "channels_raw": [
+        "M4 Sport Hungary HD",
+        "UEFA U-21 Championship 2027 Qualifiers"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Czechia U-21 v Gibraltar U-21",
+      "kickoff_baghdad": "11:00",
+      "channels_raw": [
+        "CT Sport Czech HD",
+        "Friendly International"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Norway v Switzerland",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "beIN Sports MENA 3 HD",
+        "DAZN Deutsch ($/geo/R)",
+        "EXXEN Digital Türkiye [$]",
+        "Play RTS Sport (geo/R)",
+        "RSI La 2 Svizzera HD",
+        "RTS 2 Suisse HD",
+        "SRF Zwei Schweiz HD",
+        "SuperSport MáXimo 1 HD",
+        "SuperSport Premier League HD",
+        "Discover more",
+        "Stadium tours",
+        "Sports",
+        "Projectors",
+        "Friendly International"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Montenegro v Slovenia",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "beIN Sports MENA 4 HD",
+        "beIN Sports MENA English 2 HD",
+        "DAZN Deutsch ($/geo/R)",
+        "EXXEN Digital Türkiye [$]",
+        "Friendly International"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "San Marino v Andorra",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "#0",
+        "DAZN Deutsch ($/geo/R)",
+        "Friendly International"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Spain v Egypt",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "Prime Video UK PPV [$]",
+        "RTVE Play ($/geo/R)",
+        "TVE La 1 HD España",
+        "Friendly International - Mukuru 4 Nations - Final"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Zimbabwe v Zambia",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "SuperSport PSL HD",
+        "SuperSport Variety 4 HD",
+        "UEFA Nations League - Promotion/Regulation Play-Off (2nd Leg)"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Latvia v Gibraltar",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "beIN Sports MENA Xtra 1 HD",
+        "EXXEN Digital Türkiye [$]",
+        "UEFA Nations League - Promotion/Regulation Play-Off (2nd Leg)"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Luxembourg v Malta",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "beIN Sports MENA Xtra 2 HD",
+        "EXXEN Digital Türkiye [$]",
+        "UEFA U-21 Championship 2027 Qualifiers"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Austria U-21 v Belarus U-21",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "ORF Sport+ Austria HD",
+        "UEFA U-21 Championship 2027 Qualifiers"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Denmark U-21 v Wales U-21",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "BBC iPlayer (geo/R)",
+        "BBC iPlayer 4K (geo/R)",
+        "S4C Clic ($/geo/R)",
+        "S4C Sgorio Cymru [online]",
+        "YouTube: Sgorio",
+        "UEFA U-21 Championship 2027 Qualifiers"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Greece U-21 v Germany U-21",
+      "kickoff_baghdad": "12:00",
+      "channels_raw": [
+        "ProSieben MAXX Austria",
+        "ProSieben MAXX Deutsch HD",
         "L.J.'s LIVE Football on Satellite TV. LiveOnSat.com. LJ-Sport.com. All Rights",
         "Reserved. Copyright (c) 1997 - 2026",
         "Cookie Consent by",
