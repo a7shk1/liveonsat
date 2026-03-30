@@ -3,34 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
-      "kickoff_baghdad": "18:00",
-      "home_team": "المصري",
-      "away_team": "الجونة",
-      "channels_raw": [
-        "أون سبورت 1"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8303-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8308-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
-      "competition": "دولي, سلسلة فيفا",
-      "kickoff_baghdad": "18:00",
-      "home_team": "أذربيجان",
-      "away_team": "سيراليون",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5042-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5603-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
       "competition": "دولي, مباريات ودية دولية",
       "kickoff_baghdad": "19:00",
       "home_team": "قبرص",
@@ -83,6 +55,34 @@
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8218-131x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8220.png",
       "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
+      "kickoff_baghdad": "18:00",
+      "home_team": "المصري",
+      "away_team": "الجونة",
+      "channels_raw": [
+        "أون سبورت 1"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8303-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8308-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "دولي, سلسلة فيفا",
+      "kickoff_baghdad": "18:00",
+      "home_team": "أذربيجان",
+      "away_team": "سيراليون",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5042-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5603-150x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
     }
