@@ -1,18 +1,32 @@
 {
-  "date": "2026-03-30",
+  "date": "2026-03-31",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "21:45",
-      "home_team": "ألمانيا",
-      "away_team": "غانا",
+      "kickoff_baghdad": "20:00",
+      "home_team": "صربيا",
+      "away_team": "السعودية",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "STC TV"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5094-150x150.png",
-      "status_text": "مباشر",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2374-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5087-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "21:00",
+      "home_team": "المغرب",
+      "away_team": "باراغواي",
+      "channels_raw": [
+        "الرياضية المغربية (3)"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5093-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5070.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": null
     },
@@ -26,6 +40,20 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8310-120x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "21:45",
+      "home_team": "ألمانيا",
+      "away_team": "غانا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2372-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5094-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
