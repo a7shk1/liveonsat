@@ -3,20 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "19:00",
-      "home_team": "قبرص",
-      "away_team": "مولدوفا",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5065-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5031-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
       "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
       "kickoff_baghdad": "21:00",
       "home_team": "المقاولون العرب",
@@ -26,7 +12,7 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/8310-120x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": null
     },
@@ -59,6 +45,20 @@
       "merge_debug": null
     },
     {
+      "competition": "دولي, سلسلة فيفا",
+      "kickoff_baghdad": "18:00",
+      "home_team": "أذربيجان",
+      "away_team": "سيراليون",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5042-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5603-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": null
+    },
+    {
       "competition": "مصر, كأس الرابطة المصرية - ربع النهائي",
       "kickoff_baghdad": "18:00",
       "home_team": "المصري",
@@ -73,15 +73,15 @@
       "merge_debug": null
     },
     {
-      "competition": "دولي, سلسلة فيفا",
-      "kickoff_baghdad": "18:00",
-      "home_team": "أذربيجان",
-      "away_team": "سيراليون",
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "19:00",
+      "home_team": "قبرص",
+      "away_team": "مولدوفا",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5042-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5603-150x150.png",
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5065-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5031-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": null
