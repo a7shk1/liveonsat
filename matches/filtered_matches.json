@@ -16,8 +16,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -35,8 +35,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -53,8 +53,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 12,
+        "dmin": 75,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -71,12 +71,7 @@
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 150,
-        "offset": 180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "دولي, مباريات ودية دولية",
@@ -90,12 +85,7 @@
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5094-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 165,
-        "offset": 180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "الجزائر, الدوري الجزائري",
@@ -109,12 +99,7 @@
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8220.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
-      "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": 180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     }
   ]
 }
