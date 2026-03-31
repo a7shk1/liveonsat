@@ -1,47 +1,24 @@
 {
-  "date": "2026-03-30",
+  "date": "2026-03-31",
   "source_url": "https://m.liveonsat.com/2day.php",
   "matches": [
     {
       "competition": null,
-      "title": "Germany v Ghana",
-      "kickoff_baghdad": "13:45",
-      "channels_raw": [
-        "ARD Das Erste HD",
-        "beIN Sports MENA 1 HD",
-        "beIN Sports MENA English 1 HD",
-        "CBC Sport HD",
-        "Diema Sport 3 HD",
-        "EXXEN Digital Türkiye [$]",
-        "Okko Futbol HD ($/geo/R)",
-        "Prime Video UK PPV [$]",
-        "Sport 1 Czechia HD",
-        "Sport 1 Slovakia HD",
-        "UEFA.TV PPV ($/geo/R)",
-        "Virgin Media PLAY (geo/R)",
-        "Virgin Media TV [app] (geo/R)",
-        "Virgin Media Two HD",
-        "Discover more",
-        "Football training equipment",
-        "Stadium tours",
-        "Sports photography prints",
-        "Tuesday, 31st March",
-        "UEFA U-21 Championship 2027 Qualifiers"
-      ]
-    },
-    {
-      "competition": null,
       "title": "Hungary U-21 v Ukraine U-21",
-      "kickoff_baghdad": "09:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "M4 Sport Hungary HD",
+        "Discover more",
+        "Sports Memorabilia Shop",
+        "Sports photography prints",
+        "Youth Soccer Camps",
         "UEFA U-21 Championship 2027 Qualifiers"
       ]
     },
     {
       "competition": null,
       "title": "Czechia U-21 v Gibraltar U-21",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "11:00",
       "channels_raw": [
         "CT Sport Czech HD",
         "Friendly International"
@@ -50,7 +27,7 @@
     {
       "competition": null,
       "title": "Norway v Switzerland",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "beIN Sports MENA 3 HD",
         "DAZN Deutsch ($/geo/R)",
@@ -67,7 +44,7 @@
     {
       "competition": null,
       "title": "Montenegro v Slovenia",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "beIN Sports MENA 4 HD",
         "beIN Sports MENA English 2 HD",
@@ -79,7 +56,7 @@
     {
       "competition": null,
       "title": "San Marino v Andorra",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "#0",
         "DAZN Deutsch ($/geo/R)",
@@ -89,7 +66,7 @@
     {
       "competition": null,
       "title": "Spain v Egypt",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "Prime Video UK PPV [$]",
         "RTVE Play ($/geo/R)",
@@ -100,7 +77,7 @@
     {
       "competition": null,
       "title": "Zimbabwe v Zambia",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "SuperSport PSL HD",
         "SuperSport Variety 4 HD",
@@ -110,7 +87,7 @@
     {
       "competition": null,
       "title": "Latvia v Gibraltar",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "beIN Sports MENA Xtra 1 HD",
         "EXXEN Digital Türkiye [$]",
@@ -120,7 +97,7 @@
     {
       "competition": null,
       "title": "Luxembourg v Malta",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "beIN Sports MENA Xtra 2 HD",
         "EXXEN Digital Türkiye [$]",
@@ -130,20 +107,16 @@
     {
       "competition": null,
       "title": "Austria U-21 v Belarus U-21",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "ORF Sport+ Austria HD",
-        "Discover more",
-        "Fantasy League Tools",
-        "Sports",
-        "Soccer Fan Gear",
         "UEFA U-21 Championship 2027 Qualifiers"
       ]
     },
     {
       "competition": null,
       "title": "Denmark U-21 v Wales U-21",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "BBC iPlayer (geo/R)",
         "BBC iPlayer 4K (geo/R)",
@@ -156,7 +129,7 @@
     {
       "competition": null,
       "title": "Greece U-21 v Germany U-21",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "ProSieben MAXX Austria",
         "ProSieben MAXX Deutsch HD",
@@ -166,7 +139,7 @@
     {
       "competition": null,
       "title": "Hungary v Greece",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "13:00",
       "channels_raw": [
         "#0",
         "DAZN Deutsch ($/geo/R)",
@@ -177,7 +150,7 @@
     {
       "competition": null,
       "title": "Mirandés v Albacete",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "13:00",
       "channels_raw": [
         "DAZN España ($/geo/R)",
         "Spanish La Liga 2 - Week 33"
@@ -186,7 +159,7 @@
     {
       "competition": null,
       "title": "Deportivo La Coruña v Córdoba",
-      "kickoff_baghdad": "13:00",
+      "kickoff_baghdad": "14:00",
       "channels_raw": [
         "DAZN España ($/geo/R)",
         "UEFA U-21 Championship 2027 Qualifiers"
@@ -195,16 +168,20 @@
     {
       "competition": null,
       "title": "England U-21 v Moldova U-21",
-      "kickoff_baghdad": "13:00",
+      "kickoff_baghdad": "14:00",
       "channels_raw": [
         "YouTube: England FA",
+        "Discover more",
+        "Sports Streaming Service",
+        "Smart TV Deals",
+        "TV & Video",
         "Friendly International"
       ]
     },
     {
       "competition": null,
       "title": "Scotland v Ivory Coast",
-      "kickoff_baghdad": "13:30",
+      "kickoff_baghdad": "14:30",
       "channels_raw": [
         "BBC iPlayer (geo/R)",
         "BBC iPlayer 4K (geo/R)",
@@ -222,7 +199,7 @@
     {
       "competition": null,
       "title": "Portugal U-21 v Scotland U-21",
-      "kickoff_baghdad": "13:30",
+      "kickoff_baghdad": "14:30",
       "channels_raw": [
         "YouTube: Scotland NT",
         "English National League 1 - Week 36"
@@ -231,7 +208,7 @@
     {
       "competition": null,
       "title": "Wealdstone v Hartlepool United",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "DAZN Great Britain (geo/R)",
         "DAZN Ireland ($/geo/R)",
@@ -241,20 +218,16 @@
     {
       "competition": null,
       "title": "Southend United v Yeovil Town",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "DAZN Great Britain (geo/R)",
-        "Discover more",
-        "sport",
-        "Football team jerseys",
-        "Team specific accessories",
         "English National League 1 - Week 33"
       ]
     },
     {
       "competition": null,
       "title": "Woking v Altrincham",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "DAZN Great Britain (geo/R)",
         "English National League North - North - 11"
@@ -263,7 +236,7 @@
     {
       "competition": null,
       "title": "Hereford FC v Macclesfield Town",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "DAZN Great Britain (geo/R)",
         "DAZN Ireland ($/geo/R)",
@@ -273,7 +246,7 @@
     {
       "competition": null,
       "title": "Bosnia-Herzegovina v Italy",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "DAZN Deutsch ($/geo/R)",
         "EXXEN Digital Türkiye [$]",
@@ -288,7 +261,7 @@
     {
       "competition": null,
       "title": "Sweden v Poland",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "beIN Sports MENA 4 HD",
         "DAZN Deutsch ($/geo/R)",
@@ -302,7 +275,7 @@
     {
       "competition": null,
       "title": "Kosovo v Türkiye",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "beIN Sports MENA 2 HD",
         "beIN Sports MENA 6 HD",
@@ -318,7 +291,7 @@
     {
       "competition": null,
       "title": "Czechia v Denmark",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "beIN Sports MENA 3 HD",
         "CT Sport Czech HD",
@@ -330,13 +303,17 @@
         "Virgin Media PLAY (geo/R)",
         "Virgin Media TV [app] (geo/R)",
         "Virgin Media Two HD",
+        "Discover more",
+        "Soccer",
+        "League Pass Subscription",
+        "Sports",
         "Friendly International"
       ]
     },
     {
       "competition": null,
       "title": "Netherlands v Ecuador",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "beIN Sports MENA 6 HD",
         "beIN Sports MENA 8 HD",
@@ -351,7 +328,7 @@
     {
       "competition": null,
       "title": "England v Japan",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "beIN Sports MENA 5 HD",
         "beIN Sports MENA 6 HD",
@@ -371,7 +348,7 @@
     {
       "competition": null,
       "title": "Austria v South Korea",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "DAZN Deutsch ($/geo/R)",
         "EXXEN Digital Türkiye [$]",
@@ -381,24 +358,20 @@
     {
       "competition": null,
       "title": "Ireland v North Macedonia",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "beIN Sports MENA Xtra 1 HD",
         "Prime Video UK PPV [$]",
         "RTÉ 2 Ireland HD",
         "RTÉ News Ireland",
         "RTÉ Player (geo/R)",
-        "Discover more",
-        "Soundbars",
-        "Football video games",
-        "European League Merch",
         "Friendly International"
       ]
     },
     {
       "competition": null,
       "title": "Wales v Northern Ireland",
-      "kickoff_baghdad": "13:45",
+      "kickoff_baghdad": "14:45",
       "channels_raw": [
         "BBC iPlayer (geo/R)",
         "BBC iPlayer 4K (geo/R)",
@@ -411,6 +384,97 @@
         "S4C Clic ($/geo/R)",
         "S4C Digital HD",
         "S4C Sgorio Cymru [online]",
+        "Spanish La Liga 2 - Week 33"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Real Valladolid v Cádiz",
+      "kickoff_baghdad": "15:30",
+      "channels_raw": [
+        "beIN Sports Australia 3 HD",
+        "DAZN España ($/geo/R)",
+        "Premier Sports 1 Ireland HD",
+        "Premier Sports 1 UK HD",
+        "Premier Sports GB Player HD",
+        "FIFA/WC Inter Confederation Play-Offs - Path 1 FINAL"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Jamaica v Congo DR",
+      "kickoff_baghdad": "17:00",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R)",
+        "EXXEN Digital Türkiye [$]",
+        "FIFA+ [app] (geo/R)",
+        "Friendly International"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "United States v Portugal",
+      "kickoff_baghdad": "19:00",
+      "channels_raw": [
+        "NBC Universo USA",
+        "Peacock Premium USA ($/geo/R)",
+        "Premier Sports 2 Ireland HD",
+        "Premier Sports 2 UK HD",
+        "Premier Sports GB Player HD",
+        "Telemundo USA",
+        "TNT USA",
+        "truTV USA",
+        "Friendly International"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Argentina v Zambia",
+      "kickoff_baghdad": "19:15",
+      "channels_raw": [
+        "DAZN España ($/geo/R)",
+        "DAZN España HD FTA (geo)",
+        "Friendly International"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Brazil v Croatia",
+      "kickoff_baghdad": "20:00",
+      "channels_raw": [
+        "DAZN España ($/geo/R)",
+        "DAZN España HD FTA (geo)",
+        "ITV 4 HD",
+        "ITV 4+1 HD",
+        "ITV X (geo/R)",
+        "Discover more",
+        "Streaming service subscriptions",
+        "Sport",
+        "Athlete Interview Series",
+        "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Bolivia v Iraq",
+      "kickoff_baghdad": "23:00",
+      "channels_raw": [
+        "DAZN Deutsch ($/geo/R)",
+        "DAZN Great Britain (geo/R)",
+        "EXXEN Digital Türkiye [$]",
+        "FIFA+ [app] (geo/R)",
+        "ITV X (geo/R)",
+        "Wednesday, 1st April",
+        "Japanese J1 League - Week 11"
+      ]
+    },
+    {
+      "competition": null,
+      "title": "Vissel Kobe v Shimizu S-Pulse",
+      "kickoff_baghdad": "06:00",
+      "channels_raw": [
+        "YouTube: J.League International",
         "L.J.'s LIVE Football on Satellite TV. LiveOnSat.com. LJ-Sport.com. All Rights",
         "Reserved. Copyright (c) 1997 - 2026",
         "Cookie Consent by",
