@@ -18,7 +18,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -38,6 +38,66 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "21:45",
+      "home_team": "البوسنة الهرسك",
+      "away_team": "إيطاليا",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5048-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2375.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "21:45",
+      "home_team": "السويد",
+      "away_team": "بولندا",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2371-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5038-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "21:45",
+      "home_team": "كوسوفو",
+      "away_team": "تركيا",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/19414-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5047-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -49,7 +109,7 @@
       "away_team": "مصر",
       "channels_raw": [
         "أون سبورت 1",
-        "Abu Dhabi Sports 1 HD"
+        "Football HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5050-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5100.png",
@@ -69,15 +129,15 @@
       "away_team": "أوروغواي",
       "channels_raw": [
         "الجزائرية الأولى",
-        "Abu Dhabi Sports 1 HD"
+        "Abu Dhabi Sports 2 HD"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5109-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/656.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 30,
+        "score": 36,
+        "dmin": 15,
         "offset": 180,
         "team_sim": 0.0
       }
