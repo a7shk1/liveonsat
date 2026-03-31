@@ -4,7 +4,7 @@
   "matches": [
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "20:00",
+      "kickoff_baghdad": "19:00",
       "home_team": "صربيا",
       "away_team": "السعودية",
       "channels_raw": [
@@ -13,11 +13,31 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2374-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5087-150x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 36,
         "dmin": 0,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "20:30",
+      "home_team": "الأردن",
+      "away_team": "نيجيريا",
+      "channels_raw": [
+        "أون سبورت 1",
+        "Abu Dhabi Sports 2 HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5083-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2386-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
         "offset": 60,
         "team_sim": 0.0
       }
@@ -39,6 +59,26 @@
         "score": 36,
         "dmin": 0,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "غير معروف",
+      "kickoff_baghdad": "21:45",
+      "home_team": "كوسوفو",
+      "away_team": "تركيا",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Football HD"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/19414-150x150.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5047-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -73,26 +113,6 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/2371-150x150.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5038-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "غير معروف",
-      "kickoff_baghdad": "21:45",
-      "home_team": "كوسوفو",
-      "away_team": "تركيا",
-      "channels_raw": [
-        "beIN Sports HD",
-        "Football HD"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/19414-150x150.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5047-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
