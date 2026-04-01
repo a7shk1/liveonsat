@@ -4,25 +4,6 @@
   "matches": [
     {
       "competition": "أوروبا, دوري أبطال أوروبا للسيدات - ربع النهائي",
-      "kickoff_baghdad": "19:45",
-      "home_team": "بايرن ميونيخ - سيدات",
-      "away_team": "مانشستر يونايتد - سيدات",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/24126.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/55157-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال أوروبا للسيدات - ربع النهائي",
       "kickoff_baghdad": "22:00",
       "home_team": "تشيلسي - سيدات",
       "away_team": "أرسنال - سيدات",
@@ -56,6 +37,25 @@
         "score": 25,
         "dmin": 30,
         "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال أوروبا للسيدات - ربع النهائي",
+      "kickoff_baghdad": "19:45",
+      "home_team": "بايرن ميونيخ - سيدات",
+      "away_team": "مانشستر يونايتد - سيدات",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/24126.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/55157-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
