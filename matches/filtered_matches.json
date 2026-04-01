@@ -23,7 +23,7 @@
     },
     {
       "competition": "دولي, مباريات ودية دولية",
-      "kickoff_baghdad": "02:15",
+      "kickoff_baghdad": "02:30",
       "home_team": "الأرجنتين",
       "away_team": "زامبيا",
       "channels_raw": [
@@ -31,12 +31,31 @@
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/72.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5101-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 30,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "دولي, مباريات ودية دولية",
+      "kickoff_baghdad": "03:00",
+      "home_team": "البرازيل",
+      "away_team": "كرواتيا",
+      "channels_raw": [
+        "أبو ظبي الرياضية 1"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/04/51.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/5055-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
-        "offset": -180,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
