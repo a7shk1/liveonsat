@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "22:00",
-      "home_team": "أولمبيك آسفي",
-      "away_team": "نهضة بركان",
-      "channels_raw": [
-        "الرياضية المغربية (3)"
-      ],
-      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8210.png",
-      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/9974-2-131x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 30,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري أبطال أوروبا للسيدات - ربع النهائي",
       "kickoff_baghdad": "22:00",
       "home_team": "تشيلسي - سيدات",
@@ -35,8 +16,27 @@
       "result_text": "",
       "merge_debug": {
         "score": 25,
-        "dmin": 30,
-        "offset": 120,
+        "dmin": 35,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "22:00",
+      "home_team": "أولمبيك آسفي",
+      "away_team": "نهضة بركان",
+      "channels_raw": [
+        "الرياضية المغربية (3)"
+      ],
+      "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/8210.png",
+      "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/9974-2-131x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 25,
+        "dmin": 35,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -55,7 +55,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
