@@ -8,18 +8,16 @@
       "home_team": "بايرن ميونيخ - سيدات",
       "away_team": "مانشستر يونايتد - سيدات",
       "channels_raw": [
-        "غير معروف",
-        "Abu Dhabi Sports 1 HD",
-        "Persiana Sport HD"
+        "غير معروف"
       ],
       "home_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/03/24126.png",
       "away_logo": "https://www.yalla1shoot.com/wp-content/uploads/2026/02/55157-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 15,
-        "offset": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -38,7 +36,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -57,7 +55,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -74,9 +72,9 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 105,
-        "offset": -180,
+        "score": 35,
+        "dmin": 0,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
