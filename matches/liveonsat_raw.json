@@ -3,75 +3,46 @@
   "source_url": "https://m.liveonsat.com/2day.php",
   "matches": [
     {
-      "competition": null,
-      "title": "Brazil v Croatia",
-      "kickoff_baghdad": "18:00",
-      "channels_raw": [
-        "Abu Dhabi Sports 1 HD",
-        "Arena Premium 2 Srbija HD",
-        "Arena Sport 1 BiH HD",
-        "DAZN España ($/geo/R)",
-        "DAZN España HD FTA (geo)",
-        "ESPN Deportes",
-        "ITV 4 HD",
-        "ITV 4+1 HD",
-        "ITV X (geo/R)",
-        "L´Équipe Live Foot (geo/R)",
-        "Nova TV Hrvatska HD",
-        "Persiana Sport HD",
-        "Sport TV4 Portugal HD",
-        "SporTV Brazil HD",
-        "TRT Spor Türkiye HD",
-        "Ziggo Sport 2",
-        "Ziggo Sport HD",
-        "Discover more",
-        "Sports Training Programs",
-        "Streaming service subscriptions",
-        "Sports news subscriptions",
-        "Friendly International"
-      ]
-    },
-    {
-      "competition": null,
-      "title": "Mexico v Belgium",
-      "kickoff_baghdad": "19:00",
-      "channels_raw": [
-        "Canal 5 Mexico HD",
-        "Fox Deportes USA",
-        "RTL Club Belgique",
-        "TUDN Español USA",
-        "Univision USA",
-        "VTM Belgium HD",
-        "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL"
-      ]
-    },
-    {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Bolivia v Iraq",
-      "kickoff_baghdad": "21:00",
+      "kickoff_baghdad": "23:00",
       "channels_raw": [
         "DAZN Deutsch ($/geo/R)",
         "DAZN Great Britain (geo/R)",
         "EXXEN Digital Türkiye [$]",
         "FIFA+ [app] (geo/R)",
         "ITV X (geo/R)",
+        "Discover more",
+        "Satellite TV packages",
+        "Projectors",
+        "Football Match Tickets",
         "Wednesday, 1st April",
         "Japanese J1 League - Week 11"
       ]
     },
     {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Vissel Kobe v Shimizu S-Pulse",
-      "kickoff_baghdad": "04:00",
+      "kickoff_baghdad": "06:00",
       "channels_raw": [
+        "DAZN Japan ($/geo/R)",
         "YouTube: J.League International",
+        "Japanese J1 League - Week 11"
+      ]
+    },
+    {
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
+      "title": "Machida Zelvia v FC Tokyo",
+      "kickoff_baghdad": "06:00",
+      "channels_raw": [
+        "DAZN Japan ($/geo/R)",
         "UEFA Womens Champions League - Quarter Final (2nd Leg)"
       ]
     },
     {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Bayern Munich v Manchester United",
-      "kickoff_baghdad": "10:45",
+      "kickoff_baghdad": "12:45",
       "channels_raw": [
         "beIN Sports MENA 2 HD",
         "beIN Sports MENA English 1 HD",
@@ -85,45 +56,45 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Babelsberg v BFC Dynamo",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "13:00",
       "channels_raw": [
         "MDR LiveStream Online",
         "Spanish La Liga 2 - Week 33"
       ]
     },
     {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Andorra v Málaga",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "13:00",
       "channels_raw": [
         "beIN Sports MENA Xtra 1 HD",
         "English WSL 2 - Week 20"
       ]
     },
     {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Birmingham City v Sunderland",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "14:00",
       "channels_raw": [
         "YouTube: W/Super League 2",
         "Spanish La Liga 2 - Week 33"
       ]
     },
     {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Huesca v Cultural Leonesa",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "14:00",
       "channels_raw": [
         "beIN Sports MENA 3 HD",
         "UEFA Womens Champions League - Quarter Final (2nd Leg)"
       ]
     },
     {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Chelsea v Arsenal",
-      "kickoff_baghdad": "13:00",
+      "kickoff_baghdad": "15:00",
       "channels_raw": [
         "BBC iPlayer (geo/R)",
         "BBC iPlayer 4K (geo/R)",
@@ -145,17 +116,28 @@
       ]
     },
     {
-      "competition": null,
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
       "title": "Racing Santander v Sporting Gijón",
-      "kickoff_baghdad": "13:30",
+      "kickoff_baghdad": "15:30",
       "channels_raw": [
         "beIN Sports Australia 3 HD",
         "beIN Sports France 5 HD max",
         "beIN Sports MENA Xtra 1 HD",
+        "Brazilian Série A - Week 9"
+      ]
+    },
+    {
+      "competition": "FIFA/WC Inter Confederation Play-Offs - Path 2 FINAL",
+      "title": "Fluminense v Corinthians",
+      "kickoff_baghdad": "20:30",
+      "channels_raw": [
+        "Premier Sports 2 Ireland HD",
+        "Premier Sports 2 UK HD",
+        "Premier Sports GB Player HD",
         "Discover more",
-        "Sports Streaming Service",
-        "Timezone converter tools",
-        "Soundbars",
+        "Premier League News",
+        "VPN services",
+        "Sport",
         "L.J.'s LIVE Football on Satellite TV. LiveOnSat.com. LJ-Sport.com. All Rights",
         "Reserved. Copyright (c) 1997 - 2026",
         "Cookie Consent by",
