@@ -3,20 +3,39 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
-      "kickoff_baghdad": "09:00",
-      "home_team": "كاستييون",
-      "away_team": "ألميريا",
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "الجيش الملكي",
+      "away_team": "أولمبيك الدشيرة",
       "channels_raw": [
-        "غير معروف"
+        "تطبيق ثمانية"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/157.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/138.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/5455-139x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/21191.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
+        "dmin": 0,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال أوروبا للسيدات - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "أولمبيك ليون - سيدات",
+      "away_team": "فولفسبورج - سيدات",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/19622-141x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/24121-150x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
         "offset": -60,
         "team_sim": 0.0
       }
@@ -35,46 +54,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "الجيش الملكي",
-      "away_team": "أولمبيك الدشيرة",
-      "channels_raw": [
-        "تطبيق ثمانية"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/5455-139x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/21191.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال أوروبا للسيدات - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "أولمبيك ليون - سيدات",
-      "away_team": "فولفسبورج - سيدات",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/19622-141x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/24121-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": 0,
+        "dmin": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -95,6 +76,25 @@
         "score": 36,
         "dmin": 15,
         "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
+      "kickoff_baghdad": "09:00",
+      "home_team": "كاستييون",
+      "away_team": "ألميريا",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/157.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/138.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
