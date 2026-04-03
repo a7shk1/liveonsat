@@ -17,7 +17,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 5,
+        "dmin": 20,
         "offset": 60,
         "team_sim": 0.0
       }
@@ -37,7 +37,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 25,
+        "dmin": 10,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -57,7 +57,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 25,
+        "dmin": 10,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -68,16 +68,17 @@
       "home_team": "إنبي",
       "away_team": "بيراميدز",
       "channels_raw": [
-        "أون سبورت 1"
+        "أون سبورت 1",
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/22143-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
+        "score": 36,
+        "dmin": 25,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -88,7 +89,7 @@
       "away_team": "الحزم",
       "channels_raw": [
         "تطبيق ثمانية",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/14895-150x150.png",
@@ -96,7 +97,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 15,
+        "dmin": 20,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -116,7 +117,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -126,16 +127,17 @@
       "home_team": "باريس سان جيرمان",
       "away_team": "تولوز",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/482-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 75,
+        "score": 76,
         "dmin": 15,
-        "offset": -120,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -154,7 +156,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -173,7 +175,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -192,7 +194,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 0,
-        "offset": -60,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
