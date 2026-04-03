@@ -18,7 +18,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 20,
-        "offset": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -37,8 +37,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 10,
-        "offset": 180,
+        "dmin": 25,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -57,8 +57,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 10,
-        "offset": 180,
+        "dmin": 25,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -78,7 +78,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 25,
-        "offset": 60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -89,7 +89,7 @@
       "away_team": "الحزم",
       "channels_raw": [
         "تطبيق ثمانية",
-        "TNT Sports 1 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/14895-150x150.png",
@@ -97,8 +97,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 36,
-        "dmin": 20,
-        "offset": 180,
+        "dmin": 15,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -137,45 +137,7 @@
       "merge_debug": {
         "score": 76,
         "dmin": 15,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "10:00",
-      "home_team": "كوفنتري سيتي",
-      "away_team": "دربي كاونتي",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/24-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/3-150x113.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "الفتح الرباطي",
-      "away_team": "الوداد الرياضي",
-      "channels_raw": [
-        "الرياضية المغربية (3)"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8206.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8326-2-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -185,16 +147,57 @@
       "home_team": "رايو فاييكانو",
       "away_team": "إلتشي",
       "channels_raw": [
-        "beIN Sports 3 HD"
+        "beIN Sports 3 HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/174.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/156-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 75,
+        "score": 76,
         "dmin": 0,
-        "offset": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "10:00",
+      "home_team": "كوفنتري سيتي",
+      "away_team": "دربي كاونتي",
+      "channels_raw": [
+        "غير معروف",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/24-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/3-150x113.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "الفتح الرباطي",
+      "away_team": "الوداد الرياضي",
+      "channels_raw": [
+        "الرياضية المغربية (3)",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8206.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8326-2-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
