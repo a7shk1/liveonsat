@@ -3,27 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, كأس مصر - نصف النهائي",
-      "kickoff_baghdad": "06:00",
-      "home_team": "إنبي",
-      "away_team": "بيراميدز",
-      "channels_raw": [
-        "أون سبورت 1",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/22143-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "07:15",
       "home_team": "الاتحاد",
@@ -148,6 +127,27 @@
     {
       "competition": "إنجلترا, تشامبيونشيب",
       "kickoff_baghdad": "05:00",
+      "home_team": "أوكسفورد يونايتد",
+      "away_team": "هال سيتي",
+      "channels_raw": [
+        "غير معروف",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/87-144x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/11-150x150.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "05:00",
       "home_team": "ليستر سيتي",
       "away_team": "بريستون نورث إند",
       "channels_raw": [
@@ -167,23 +167,23 @@
       }
     },
     {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "05:00",
-      "home_team": "أوكسفورد يونايتد",
-      "away_team": "هال سيتي",
+      "competition": "مصر, كأس مصر - نصف النهائي",
+      "kickoff_baghdad": "06:00",
+      "home_team": "إنبي",
+      "away_team": "بيراميدز",
       "channels_raw": [
-        "غير معروف",
+        "أون سبورت 1",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/87-144x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/11-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8300.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/22143-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
