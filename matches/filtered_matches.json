@@ -283,27 +283,6 @@
       }
     },
     {
-      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "ساوثهامبتون",
-      "away_team": "أرسنال",
-      "channels_raw": [
-        "beIN Sports HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/21-144x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "10:00",
       "home_team": "أتلتيكو مدريد",
@@ -319,6 +298,27 @@
       "result_text": "",
       "merge_debug": {
         "score": 77,
+        "dmin": 15,
+        "offset": 120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, كاس الاتحاد الإنجليزي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "ساوثهامبتون",
+      "away_team": "أرسنال",
+      "channels_raw": [
+        "beIN Sports HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/21-144x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
         "dmin": 15,
         "offset": 120,
         "team_sim": 0.0
