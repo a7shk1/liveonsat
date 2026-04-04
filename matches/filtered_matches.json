@@ -83,15 +83,15 @@
     {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "04:30",
-      "home_team": "فرايبورج",
-      "away_team": "بايرن ميونخ",
+      "home_team": "باير ليفركوزن",
+      "away_team": "فولفسبورج",
       "channels_raw": [
-        "Shahid MBC",
+        "MBC Action",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/339-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -104,15 +104,15 @@
     {
       "competition": "ألمانيا, الدوري الألماني",
       "kickoff_baghdad": "04:30",
-      "home_team": "باير ليفركوزن",
-      "away_team": "فولفسبورج",
+      "home_team": "فرايبورج",
+      "away_team": "بايرن ميونخ",
       "channels_raw": [
-        "MBC Action",
+        "Shahid MBC",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/339-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -201,27 +201,6 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "07:30",
-      "home_team": "شتوتجارت",
-      "away_team": "بوروسيا دورتموند",
-      "channels_raw": [
-        "MBC Action",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "07:30",
       "home_team": "ريال بيتيس",
@@ -233,6 +212,27 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/136-2-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 15,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "07:30",
+      "home_team": "شتوتجارت",
+      "away_team": "بوروسيا دورتموند",
+      "channels_raw": [
+        "MBC Action",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/338.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/341-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
