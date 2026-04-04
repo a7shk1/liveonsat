@@ -15,8 +15,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 65,
-        "dmin": 45,
+        "score": 75,
+        "dmin": 15,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -34,8 +34,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 90,
+        "score": 65,
+        "dmin": 30,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -65,31 +65,12 @@
       "home_team": "ساسولو",
       "away_team": "كالياري",
       "channels_raw": [
-        "Starzplay 1"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/266-2.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/243-136x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "04:30",
-      "home_team": "باير ليفركوزن",
-      "away_team": "فولفسبورج",
-      "channels_raw": [
-        "MBC Action",
+        "Starzplay 1",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/339-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/266-2.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/243-136x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -116,7 +97,28 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": -180,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "04:30",
+      "home_team": "باير ليفركوزن",
+      "away_team": "فولفسبورج",
+      "channels_raw": [
+        "MBC Action",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/333-150x127.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/339-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 15,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -154,7 +156,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 0,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -175,7 +177,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": -60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -194,7 +196,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 15,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -215,7 +217,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -236,7 +238,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -255,7 +257,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 0,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -276,7 +278,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -297,7 +299,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -318,7 +320,7 @@
       "merge_debug": {
         "score": 77,
         "dmin": 15,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -336,7 +338,7 @@
       "result_text": "",
       "merge_debug": {
         "score": 75,
-        "dmin": 25,
+        "dmin": 5,
         "offset": 180,
         "team_sim": 0.0
       }
