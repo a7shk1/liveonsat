@@ -17,7 +17,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 15,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -38,7 +38,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -48,16 +48,18 @@
       "home_team": "لو آفر",
       "away_team": "أوكسير",
       "channels_raw": [
-        "beIN Sports 5 HD"
+        "beIN Sports 5 HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/485.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/476-130x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 75,
+        "score": 37,
         "dmin": 15,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -78,7 +80,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -97,7 +99,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 15,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -108,7 +110,7 @@
       "away_team": "ليدز يونايتد",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 2 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/113-2.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/36-134x150.png",
@@ -117,7 +119,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -128,7 +130,7 @@
       "away_team": "كولن",
       "channels_raw": [
         "MBC Action",
-        "TNT Sports 2 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/337.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/350.png",
@@ -137,7 +139,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -158,7 +160,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -169,7 +171,7 @@
       "away_team": "إشبيلية",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 2 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/193-2.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/135-135x150.png",
@@ -178,7 +180,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -199,7 +201,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -220,7 +222,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -241,7 +243,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -262,7 +264,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -281,7 +283,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 0,
-        "offset": 120,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -302,7 +304,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": 120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -319,8 +321,8 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 90,
+        "score": 75,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -331,16 +333,17 @@
       "home_team": "أنجيه",
       "away_team": "أولمبيك ليون",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/493-136x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/465-2-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -350,16 +353,17 @@
       "home_team": "كريمونيسي",
       "away_team": "بولونيا",
       "channels_raw": [
-        "Starzplay 1"
+        "Starzplay 1",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/290.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -369,16 +373,17 @@
       "home_team": "يونيون برلين",
       "away_team": "سانت باولي",
       "channels_raw": [
-        "Shahid MBC"
+        "Shahid MBC",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/392-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/359-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -120,
+        "score": 36,
+        "dmin": 0,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
