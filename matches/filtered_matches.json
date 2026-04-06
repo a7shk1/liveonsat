@@ -3,25 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "09:00",
-      "home_team": "زد",
-      "away_team": "المقاولون العرب",
-      "channels_raw": [
-        "أون سبورت"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8310-120x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "09:45",
       "home_team": "نابولي",
@@ -98,41 +79,21 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "07:00",
-      "home_team": "يوفنتوس",
-      "away_team": "جنوى",
+      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
+      "kickoff_baghdad": "09:00",
+      "home_team": "زد",
+      "away_team": "المقاولون العرب",
       "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD"
+        "أون سبورت"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/226-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/231-123x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "07:30",
-      "home_team": "سوانزي سيتي",
-      "away_team": "ميدلزبره",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/28-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/115-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8310-120x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 0,
+        "offset": 120,
         "team_sim": 0.0
       }
     }
