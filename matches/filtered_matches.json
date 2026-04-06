@@ -8,18 +8,16 @@
       "home_team": "زد",
       "away_team": "المقاولون العرب",
       "channels_raw": [
-        "أون سبورت",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "أون سبورت"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8310-120x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 0,
-        "offset": -120,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -29,18 +27,16 @@
       "home_team": "نابولي",
       "away_team": "ميلان",
       "channels_raw": [
-        "Starzplay 1",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "Starzplay 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/234-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/227-1-2.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 15,
-        "offset": -60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -50,18 +46,16 @@
       "home_team": "هال سيتي",
       "away_team": "كوفنتري سيتي",
       "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "غير معروف"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/11-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/24-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -71,18 +65,16 @@
       "home_team": "الوداد الرياضي",
       "away_team": "الدفاع الحسني الجديدي",
       "channels_raw": [
-        "الرياضية المغربية (3)",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "الرياضية المغربية (3)"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8326-2-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8203-2.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -92,18 +84,16 @@
       "home_team": "جيرونا",
       "away_team": "فياريال",
       "channels_raw": [
-        "غير معروف",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "غير معروف"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/175-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/133.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -114,7 +104,7 @@
       "away_team": "جنوى",
       "channels_raw": [
         "Starzplay 1",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/226-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/231-123x150.png",
@@ -123,7 +113,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -142,7 +132,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 0,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
