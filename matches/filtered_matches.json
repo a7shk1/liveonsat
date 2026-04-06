@@ -9,15 +9,15 @@
       "away_team": "كومو",
       "channels_raw": [
         "Starzplay 1",
-        "TNT Sports 1 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/229-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/6117-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 26,
-        "dmin": 30,
+        "score": 36,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -29,7 +29,7 @@
       "away_team": "أتالانتا",
       "channels_raw": [
         "Starzplay 1",
-        "TNT Sports 1 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/246.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/232-105x150.png",
@@ -38,7 +38,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -49,7 +49,7 @@
       "away_team": "برمنغهام",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 1 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/9-131x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/1-116x150.png",
@@ -58,7 +58,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -69,7 +69,7 @@
       "away_team": "تشارلتون اثلتيك",
       "channels_raw": [
         "غير معروف",
-        "TNT Sports 1 HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/4-147x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/01/8-150x150.png",
@@ -78,7 +78,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -89,16 +89,17 @@
       "away_team": "بتروجت",
       "channels_raw": [
         "أون سبورت",
-        "TNT Sports 1 HD"
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/19506-120x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8302-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 37,
         "dmin": 0,
-        "offset": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -109,16 +110,17 @@
       "away_team": "جنوى",
       "channels_raw": [
         "Starzplay 1",
-        "Sky Sports Main Event HD"
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/226-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/231-123x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 37,
         "dmin": 0,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -138,7 +140,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -159,7 +161,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -180,7 +182,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": -120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -201,7 +203,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -222,7 +224,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -120,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -243,7 +245,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -120,
+        "offset": 60,
         "team_sim": 0.0
       }
     }
