@@ -1,7 +1,26 @@
 {
-  "date": "2026-04-07",
+  "date": "2026-04-08",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "سبورتنج لشبونة",
+      "away_team": "أرسنال",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
+      "status_text": "مباشر",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 60,
+        "team_sim": 0.0
+      }
+    },
     {
       "competition": "غير معروف",
       "kickoff_baghdad": "09:00",
@@ -12,7 +31,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/50882-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8200-1-2-126x150.png",
-      "status_text": "مباشر",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -31,31 +50,12 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/131-4-115x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/331-150x150.png",
-      "status_text": "مباشر",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 75,
         "dmin": 0,
         "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "سبورتنج لشبونة",
-      "away_team": "أرسنال",
-      "channels_raw": [
-        "beIN Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 60,
         "team_sim": 0.0
       }
     }
