@@ -15,9 +15,9 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 120,
+        "score": 25,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -27,19 +27,16 @@
       "home_team": "سيراميكا كليوباترا",
       "away_team": "الأهلي",
       "channels_raw": [
-        "أون سبورت",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD"
+        "أون سبورت"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/50882-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8200-1-2-126x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 38,
+        "score": 35,
         "dmin": 0,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -59,9 +56,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 78,
-        "dmin": 0,
-        "offset": -120,
+        "score": 55,
+        "dmin": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -71,19 +68,16 @@
       "home_team": "سبورتنج لشبونة",
       "away_team": "أرسنال",
       "channels_raw": [
-        "beIN Sports HD",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/890-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/104-140x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 38,
+        "score": 35,
         "dmin": 0,
-        "offset": -120,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
