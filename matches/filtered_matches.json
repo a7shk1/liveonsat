@@ -62,28 +62,6 @@
       }
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "فرايبورج",
-      "away_team": "سيلتا فيجو",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD",
-        "TNT Sports 2 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 68,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
       "kickoff_baghdad": "10:00",
       "home_team": "شاختار دونيتسك",
@@ -194,62 +172,44 @@
       }
     },
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "09:00",
-      "home_team": "الهلال",
-      "away_team": "الخلود",
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "فرايبورج",
+      "away_team": "سيلتا فيجو",
       "channels_raw": [
-        "تطبيق ثمانية",
-        "DAZN 1 Portugal HD"
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "TNT Sports 2 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55800-150x150.png",
-      "status_text": "انتهت",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 15,
+        "score": 68,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "السعودية, الدوري السعودي",
-      "kickoff_baghdad": "09:00",
-      "home_team": "الاتحاد",
-      "away_team": "نيوم",
+      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "باريس سان جيرمان",
+      "away_team": "ليفربول",
       "channels_raw": [
-        "تطبيق ثمانية",
+        "beIN Sports 1 HD",
         "DAZN 1 Portugal HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55793-135x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 76,
         "dmin": 15,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "09:00",
-      "home_team": "غزل المحلة",
-      "away_team": "الجونة",
-      "channels_raw": [
-        "أون سبورت",
-        "DAZN 1 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8610-112x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8308-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 15,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -272,26 +232,6 @@
         "score": 38,
         "dmin": 0,
         "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "باريس سان جيرمان",
-      "away_team": "ليفربول",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 15,
-        "offset": -120,
         "team_sim": 0.0
       }
     }
