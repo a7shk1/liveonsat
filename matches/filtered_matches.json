@@ -3,28 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
-      "kickoff_baghdad": "07:45",
-      "home_team": "سبورتينج براغا",
-      "away_team": "ريال بيتيس",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/895.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 78,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
       "kickoff_baghdad": "09:00",
       "home_team": "غزل المحلة",
@@ -103,7 +81,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/480-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/108-90x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 78,
@@ -125,33 +103,12 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/132-1-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/134-128x150.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 38,
         "dmin": 15,
         "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "06:00",
-      "home_team": "وادي دجلة",
-      "away_team": "فاركو",
-      "channels_raw": [
-        "أون سبورت",
-        "Thmanyah 3",
-        "Thmanyah KSA"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8311-131x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/46242-138x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 5,
-        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -174,6 +131,28 @@
         "score": 38,
         "dmin": 10,
         "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "07:45",
+      "home_team": "سبورتينج براغا",
+      "away_team": "ريال بيتيس",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "Football HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/895.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/146.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 78,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
