@@ -3,20 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا 2 - نصف النهائي",
-      "kickoff_baghdad": "01:00",
-      "home_team": "غامبا أوساكا",
-      "away_team": "بانكوك يونايتد",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2150-128x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7753.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": null
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "06:55",
       "home_team": "الفيحاء",
@@ -63,16 +49,18 @@
       "home_team": "الهلال",
       "away_team": "الخلود",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "تطبيق ثمانية",
+        "Thmanyah 3",
+        "Thmanyah KSA"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/5457-127x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55800-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -60,
+        "score": 37,
+        "dmin": 5,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -82,16 +70,18 @@
       "home_team": "الاتحاد",
       "away_team": "نيوم",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "تطبيق ثمانية",
+        "Thmanyah 3",
+        "Thmanyah KSA"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8593-122x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/55793-135x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -60,
+        "score": 37,
+        "dmin": 5,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -137,6 +127,20 @@
         "offset": -180,
         "team_sim": 0.0
       }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا 2 - نصف النهائي",
+      "kickoff_baghdad": "01:00",
+      "home_team": "غامبا أوساكا",
+      "away_team": "بانكوك يونايتد",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/2150-128x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/7753.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": null
     }
   ]
 }
