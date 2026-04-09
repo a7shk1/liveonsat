@@ -8,16 +8,18 @@
       "home_team": "ضمك",
       "away_team": "القادسية",
       "channels_raw": [
-        "تطبيق ثمانية"
+        "تطبيق ثمانية",
+        "Football HD",
+        "Thmanyah 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/24241-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8947-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 37,
         "dmin": 0,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -36,9 +38,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 54,
-        "dmin": 120,
-        "offset": -180,
+        "score": 77,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -49,15 +51,17 @@
       "away_team": "الرياض",
       "channels_raw": [
         "تطبيق ثمانية",
+        "DAZN 3 Portugal HD",
+        "Persiana Sport HD",
         "Football HD",
-        "Thmanyah 1"
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8943-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/12135-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 39,
         "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
@@ -70,15 +74,17 @@
       "away_team": "أستون فيلا",
       "channels_raw": [
         "غير معروف",
+        "DAZN 3 Portugal HD",
+        "Persiana Sport HD",
         "Football HD",
-        "Thmanyah 1"
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2025/12/245-1-107x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/109-121x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 39,
         "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
@@ -91,15 +97,17 @@
       "away_team": "نوتنجهام فورست",
       "channels_raw": [
         "beIN Sports HD",
+        "DAZN 3 Portugal HD",
+        "Persiana Sport HD",
         "Football HD",
-        "Thmanyah 1"
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 39,
         "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
@@ -122,9 +130,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 56,
-        "dmin": 120,
-        "offset": -180,
+        "score": 79,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -135,15 +143,17 @@
       "away_team": "ألكمار",
       "channels_raw": [
         "غير معروف",
+        "DAZN 3 Portugal HD",
+        "Persiana Sport HD",
         "Football HD",
-        "Thmanyah 1"
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/1955-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/699.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 39,
         "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
@@ -155,19 +165,17 @@
       "home_team": "ماينز 05",
       "away_team": "ستراسبورج",
       "channels_raw": [
-        "غير معروف",
-        "Football HD",
-        "Thmanyah 1"
+        "غير معروف"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/352.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/479.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 43,
         "dmin": 0,
         "offset": -120,
-        "team_sim": 0.0
+        "team_sim": 0.14285714285714285
       }
     },
     {
@@ -184,9 +192,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 53,
-        "dmin": 120,
-        "offset": -180,
+        "score": 76,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     }
