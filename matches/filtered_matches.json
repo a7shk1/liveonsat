@@ -3,44 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "06:00",
-      "home_team": "كهرباء الاسماعيلية",
-      "away_team": "الاتحاد السكندري",
-      "channels_raw": [
-        "أون سبورت"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/19506-120x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8312.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 25,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "06:00",
-      "home_team": "طلائع الجيش",
-      "away_team": "البنك الاهلي",
-      "channels_raw": [
-        "أون سبورت ماكس"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8306-2-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50527.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 25,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "السعودية, الدوري السعودي",
       "kickoff_baghdad": "07:00",
       "home_team": "ضمك",
@@ -71,12 +33,33 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/174.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/1024-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 67,
         "dmin": 60,
         "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
+      "kickoff_baghdad": "09:00",
+      "home_team": "بتروجت",
+      "away_team": "زد",
+      "channels_raw": [
+        "أون سبورت ماكس",
+        "Football HD",
+        "Thmanyah 1"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8302-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 37,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -102,23 +85,46 @@
       }
     },
     {
-      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "09:00",
-      "home_team": "بتروجت",
-      "away_team": "زد",
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "بورتو",
+      "away_team": "نوتنجهام فورست",
       "channels_raw": [
-        "أون سبورت ماكس",
+        "beIN Sports HD",
         "Football HD",
         "Thmanyah 1"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8302-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29732-136x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -120,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "فرايبورج",
+      "away_team": "سيلتا فيجو",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 3 Portugal HD",
+        "Persiana Sport HD",
+        "Football HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 69,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -206,46 +212,40 @@
       }
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "بورتو",
-      "away_team": "نوتنجهام فورست",
+      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
+      "kickoff_baghdad": "06:00",
+      "home_team": "طلائع الجيش",
+      "away_team": "البنك الاهلي",
       "channels_raw": [
-        "beIN Sports HD",
-        "Football HD",
-        "Thmanyah 1"
+        "أون سبورت ماكس"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/887-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/29-77x150.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/03/8306-2-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/50527.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": -60,
+        "score": 35,
+        "dmin": 25,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "فرايبورج",
-      "away_team": "سيلتا فيجو",
+      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
+      "kickoff_baghdad": "06:00",
+      "home_team": "كهرباء الاسماعيلية",
+      "away_team": "الاتحاد السكندري",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 3 Portugal HD",
-        "Persiana Sport HD",
-        "Football HD",
-        "TNT Sports HD"
+        "أون سبورت"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/354-115x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/158.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/19506-120x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/02/8312.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 69,
-        "dmin": 60,
-        "offset": -180,
+        "score": 35,
+        "dmin": 25,
+        "offset": 60,
         "team_sim": 0.0
       }
     }
