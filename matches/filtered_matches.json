@@ -70,6 +70,30 @@
       }
     },
     {
+      "competition": "أفريقيا, الكونفدرالية الافريقية - نصف النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "شباب بلوزداد",
+      "away_team": "الزمالك",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "Sky Sport Premier League HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8225-logo-120x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8201-logo-132x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 70,
+        "dmin": 30,
+        "offset": 180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "10:00",
       "home_team": "ريال مدريد",
@@ -104,30 +128,6 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, الكونفدرالية الافريقية - نصف النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "شباب بلوزداد",
-      "away_team": "الزمالك",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "Sky Sport Premier League HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8225-logo-120x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8201-logo-132x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 70,
-        "dmin": 30,
         "offset": 180,
         "team_sim": 0.0
       }
