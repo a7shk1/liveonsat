@@ -374,6 +374,26 @@
       }
     },
     {
+      "competition": "أفريقيا, دوري أبطال أفريقيا - نصف النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "الترجي",
+      "away_team": "صن داونز",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8235-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/7277-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 76,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "المغرب, الدوري المغربي",
       "kickoff_baghdad": "10:00",
       "home_team": "المغرب الفاسي",
@@ -390,26 +410,6 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, دوري أبطال أفريقيا - نصف النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "الترجي",
-      "away_team": "صن داونز",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8235-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/7277-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
       }
