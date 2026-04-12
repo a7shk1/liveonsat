@@ -3,20 +3,20 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "05:15",
-      "home_team": "ريال مايوركا",
-      "away_team": "رايو فاييكانو",
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "06:15",
+      "home_team": "تولوز",
+      "away_team": "ليل",
       "channels_raw": [
-        "beIN Sports 4 HD",
-        "DAZN 2 Portugal HD"
+        "beIN Sports HD",
+        "Football HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/142-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/174-logo.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/482-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/478-logo-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 76,
+        "score": 36,
         "dmin": 15,
         "offset": -180,
         "team_sim": 0.0
@@ -28,39 +28,34 @@
       "home_team": "نيس",
       "away_team": "لو آفر",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "Football HD",
-        "TNT Sports 2 HD"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/470-1-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/485-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 77,
-        "dmin": 15,
+        "score": 65,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "06:15",
-      "home_team": "تولوز",
-      "away_team": "ليل",
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "06:30",
+      "home_team": "شتوتجارت",
+      "away_team": "هامبورج",
       "channels_raw": [
-        "beIN Sports HD",
-        "DAZN 4 Portugal HD",
-        "DAZN Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "MBC Action",
+        "DAZN 2 Portugal HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/482-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/478-logo-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/338-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/334-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
+        "score": 36,
         "dmin": 15,
         "offset": -180,
         "team_sim": 0.0
@@ -72,36 +67,20 @@
       "home_team": "تشيلسي",
       "away_team": "مانشستر سيتي",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/106-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/110-logo-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 75,
-        "dmin": 0,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "06:30",
-      "home_team": "شتوتجارت",
-      "away_team": "هامبورج",
-      "channels_raw": [
-        "MBC Action",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/338-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/334-logo.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": 0,
+        "score": 69,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -112,17 +91,14 @@
       "away_team": "ليتشي",
       "channels_raw": [
         "Starzplay 1",
-        "DAZN 4 Portugal HD",
-        "DAZN Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/245-1-logo-107x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/246-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
+        "score": 36,
         "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
@@ -139,12 +115,12 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/158-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/193-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 76,
         "dmin": 15,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -155,17 +131,14 @@
       "away_team": "الوداد الرياضي",
       "channels_raw": [
         "الرياضية المغربية (3)",
-        "DAZN 4 Portugal HD",
-        "DAZN Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8321-logo-131x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8326-logo-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
+        "score": 36,
         "dmin": 0,
         "offset": -60,
         "team_sim": 0.0
@@ -177,17 +150,21 @@
       "home_team": "ماينز 05",
       "away_team": "فرايبورج",
       "channels_raw": [
-        "Shahid MBC"
+        "Shahid MBC",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/352-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/354-logo-115x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 41,
+        "score": 39,
         "dmin": 0,
-        "offset": 0,
-        "team_sim": 0.1111111111111111
+        "offset": -120,
+        "team_sim": 0.0
       }
     },
     {
@@ -197,10 +174,10 @@
       "away_team": "إنتر ميلان",
       "channels_raw": [
         "Starzplay 1",
-        "DAZN 4 Portugal HD",
+        "DAZN 1 Portugal HD",
         "DAZN Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/6117-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/224-logo-150x150.png",
@@ -209,7 +186,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 15,
-        "offset": 60,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -220,10 +197,10 @@
       "away_team": "لوريان",
       "channels_raw": [
         "beIN Sports HD",
-        "DAZN 4 Portugal HD",
+        "DAZN 1 Portugal HD",
         "DAZN Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/465-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/472-logo.png",
@@ -232,7 +209,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 15,
-        "offset": 60,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -251,8 +228,8 @@
       "result_text": "",
       "merge_debug": {
         "score": 76,
-        "dmin": 0,
-        "offset": 120,
+        "dmin": 15,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -262,40 +239,16 @@
       "home_team": "الترجي",
       "away_team": "صن داونز",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 4 Portugal HD",
-        "DAZN Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8235-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/7277-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 79,
+        "score": 75,
         "dmin": 0,
         "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "03:00",
-      "home_team": "أوساسونا",
-      "away_team": "ريال بيتيس",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "DAZN 2 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/143-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/146-logo.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 53,
-        "dmin": 120,
-        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -312,8 +265,8 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 65,
-        "dmin": 30,
+        "score": 52,
+        "dmin": 120,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -324,17 +277,16 @@
       "home_team": "كريستال بالاس",
       "away_team": "نيوكاسل يونايتد",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "Football HD"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/10-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/116-logo-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 66,
-        "dmin": 30,
-        "offset": -120,
+        "score": 35,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -344,18 +296,16 @@
       "home_team": "بارما",
       "away_team": "نابولي",
       "channels_raw": [
-        "Starzplay 1",
-        "Football HD",
-        "Sky Sports Main Event HD"
+        "Starzplay 1"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/241-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/234-9-logo.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": -180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -365,18 +315,16 @@
       "home_team": "نوتنجهام فورست",
       "away_team": "أستون فيلا",
       "channels_raw": [
-        "beIN Sports HD",
-        "Football HD",
-        "Sky Sports Main Event HD"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/29-logo-77x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/109-logo-121x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": -180,
+        "score": 35,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -386,17 +334,36 @@
       "home_team": "كولن",
       "away_team": "فيردر بريمن",
       "channels_raw": [
-        "Shahid MBC",
-        "Football HD"
+        "Shahid MBC"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/350-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/332-logo-107x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -120,
+        "score": 35,
+        "dmin": 15,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "05:15",
+      "home_team": "ريال مايوركا",
+      "away_team": "رايو فاييكانو",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "DAZN 2 Portugal HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/142-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/174-logo.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 66,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
