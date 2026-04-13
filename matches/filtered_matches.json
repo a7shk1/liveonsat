@@ -1,7 +1,143 @@
 {
-  "date": "2026-04-13",
+  "date": "2026-04-14",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة - دور الـ 16",
+      "kickoff_baghdad": "05:45",
+      "home_team": "تراکتورسازي",
+      "away_team": "شباب الاهلي",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/9353-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8347-logo-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 12,
+        "dmin": 75,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة - دور الـ 16",
+      "kickoff_baghdad": "09:00",
+      "home_team": "الاتحاد",
+      "away_team": "الوحدة",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "Sky Sport Premier League HD",
+        "Sky Sports Main Event HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8593-logo-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/9976-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 58,
+        "dmin": 120,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "أتلتيكو مدريد",
+      "away_team": "برشلونة",
+      "channels_raw": [
+        "غير معروف",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/134-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/132-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "10:00",
+      "home_team": "بورتسموث",
+      "away_team": "إبسويتش تاون",
+      "channels_raw": [
+        "غير معروف",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/111-1-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/9-1-logo-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, تشامبيونشيب",
+      "kickoff_baghdad": "10:00",
+      "home_team": "ساوثهامبتون",
+      "away_team": "بلاكبيرن روفرز",
+      "channels_raw": [
+        "غير معروف",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/21-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/112-logo-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "ليفربول",
+      "away_team": "باريس سان جيرمان",
+      "channels_raw": [
+        "غير معروف",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/108-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/480-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
     {
       "competition": "آسيا, دوري أبطال آسيا للنخبة - دور الـ 16",
       "kickoff_baghdad": "09:00",
@@ -12,7 +148,26 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/5457-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/6992-logo-150x150.png",
-      "status_text": "مباشر",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
+      "kickoff_baghdad": "09:00",
+      "home_team": "البنك الاهلي",
+      "away_team": "المقاولون العرب",
+      "channels_raw": [
+        "أون سبورت"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/50527-1-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8310-1-logo-150x150.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -35,7 +190,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/228-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/236-1-logo.png",
-      "status_text": "مباشر",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 39,
@@ -58,7 +213,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/530-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/488-logo.png",
-      "status_text": "مباشر",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 39,
@@ -83,7 +238,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/105-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/36-1-logo.png",
-      "status_text": "مباشر",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 71,
@@ -108,31 +263,12 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/150-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/140-logo.png",
-      "status_text": "مباشر",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
         "score": 71,
         "dmin": 60,
         "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "09:00",
-      "home_team": "البنك الاهلي",
-      "away_team": "المقاولون العرب",
-      "channels_raw": [
-        "أون سبورت"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/50527-1-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8310-1-logo-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -60,
         "team_sim": 0.0
       }
     }
