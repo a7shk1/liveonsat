@@ -24,27 +24,6 @@
       }
     },
     {
-      "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "09:00",
-      "home_team": "البنك الاهلي",
-      "away_team": "المقاولون العرب",
-      "channels_raw": [
-        "أون سبورت",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/50527-1-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8310-1-logo-150x150.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "09:45",
       "home_team": "فيورنتينا",
@@ -102,7 +81,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/105-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/36-1-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 77,
@@ -127,7 +106,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/150-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/140-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 71,
@@ -138,22 +117,22 @@
     },
     {
       "competition": "مصر, الدوري المصري - المرحلة النهائية - مجموعة الهبوط",
-      "kickoff_baghdad": "06:00",
-      "home_team": "غزل المحلة",
-      "away_team": "وادي دجلة",
+      "kickoff_baghdad": "09:00",
+      "home_team": "البنك الاهلي",
+      "away_team": "المقاولون العرب",
       "channels_raw": [
         "أون سبورت",
         "Persiana Sport HD",
         "Football HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8610-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8311-1-logo-150x150.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/50527-1-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8310-1-logo-150x150.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 27,
-        "dmin": 45,
-        "offset": -180,
+        "score": 37,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
