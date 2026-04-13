@@ -17,8 +17,8 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 54,
-        "dmin": 120,
+        "score": 67,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -29,37 +29,18 @@
       "home_team": "غزل المحلة",
       "away_team": "وادي دجلة",
       "channels_raw": [
-        "أون سبورت"
+        "أون سبورت",
+        "Persiana Sport HD",
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8610-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8311-1-logo-150x150.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
+        "score": 27,
+        "dmin": 45,
         "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة - دور الـ 16",
-      "kickoff_baghdad": "09:00",
-      "home_team": "الهلال",
-      "away_team": "السد",
-      "channels_raw": [
-        "beIN Sports HD",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/5457-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/6992-logo-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -80,27 +61,27 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "09:45",
-      "home_team": "فيورنتينا",
-      "away_team": "لاتسيو",
+      "competition": "آسيا, دوري أبطال آسيا للنخبة - دور الـ 16",
+      "kickoff_baghdad": "09:00",
+      "home_team": "الهلال",
+      "away_team": "السد",
       "channels_raw": [
-        "Starzplay 1",
+        "beIN Sports HD",
         "Persiana Sport HD",
         "Football HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/228-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/236-1-logo.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/5457-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/6992-logo-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 37,
-        "dmin": 0,
+        "dmin": 15,
         "offset": -60,
         "team_sim": 0.0
       }
@@ -112,17 +93,42 @@
       "away_team": "تروا",
       "channels_raw": [
         "غير معروف",
+        "ESPN 4 Brazil HD",
         "Persiana Sport HD",
-        "Football HD"
+        "Football HD",
+        "Varzish TV Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/530-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/488-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": -60,
+        "score": 39,
+        "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "09:45",
+      "home_team": "فيورنتينا",
+      "away_team": "لاتسيو",
+      "channels_raw": [
+        "Starzplay 1",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/228-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/236-1-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -143,7 +149,7 @@
       "merge_debug": {
         "score": 77,
         "dmin": 15,
-        "offset": -60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -166,8 +172,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 58,
-        "dmin": 120,
+        "score": 71,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
