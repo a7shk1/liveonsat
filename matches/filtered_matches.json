@@ -20,7 +20,7 @@
       "merge_debug": {
         "score": 38,
         "dmin": 0,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -42,7 +42,7 @@
       "merge_debug": {
         "score": 38,
         "dmin": 0,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -62,9 +62,9 @@
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 78,
-        "dmin": 0,
-        "offset": -120,
+        "score": 68,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -86,7 +86,7 @@
       "merge_debug": {
         "score": 38,
         "dmin": 0,
-        "offset": -60,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -106,9 +106,9 @@
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 78,
-        "dmin": 0,
-        "offset": -120,
+        "score": 68,
+        "dmin": 60,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
