@@ -41,6 +41,25 @@
       }
     },
     {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "07:45",
+      "home_team": "ألكمار",
+      "away_team": "شاختار دونيتسك",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/699-logo-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1955-logo-1.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
       "kickoff_baghdad": "07:45",
       "home_team": "سيلتا فيجو",
@@ -61,20 +80,20 @@
     },
     {
       "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
-      "kickoff_baghdad": "07:45",
-      "home_team": "ألكمار",
-      "away_team": "شاختار دونيتسك",
+      "kickoff_baghdad": "10:00",
+      "home_team": "أيك أثينا",
+      "away_team": "رايو فاييكانو",
       "channels_raw": [
         "غير معروف"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/699-logo-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1955-logo-1.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1024-logo-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/174-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
-        "offset": -120,
+        "dmin": 0,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -177,21 +196,21 @@
       }
     },
     {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
+      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
       "kickoff_baghdad": "10:00",
-      "home_team": "أيك أثينا",
-      "away_team": "رايو فاييكانو",
+      "home_team": "بايرن ميونخ",
+      "away_team": "ريال مدريد",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1024-logo-1.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/174-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/331-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/131-logo.png",
+      "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 0,
+        "score": 75,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -211,25 +230,6 @@
         "score": 35,
         "dmin": 0,
         "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "بايرن ميونخ",
-      "away_team": "ريال مدريد",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/331-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/131-logo.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 75,
-        "dmin": 15,
-        "offset": -180,
         "team_sim": 0.0
       }
     }
