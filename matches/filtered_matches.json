@@ -12,14 +12,9 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/7753-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/2150-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
-      "merge_debug": {
-        "score": 25,
-        "dmin": 45,
-        "offset": -180,
-        "team_sim": 0.0
-      }
+      "merge_debug": null
     },
     {
       "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
@@ -29,6 +24,7 @@
       "channels_raw": [
         "beIN Sports 1 HD",
         "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
         "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/331-logo-150x150.png",
@@ -36,9 +32,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 77,
-        "dmin": 0,
-        "offset": -120,
+        "score": 55,
+        "dmin": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -48,18 +44,16 @@
       "home_team": "أرسنال",
       "away_team": "سبورتنج لشبونة",
       "channels_raw": [
-        "beIN Sports HD",
-        "DAZN 1 Portugal HD",
-        "TNT Sports 2 HD"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/104-1-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/890-1-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 0,
-        "offset": -120,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
