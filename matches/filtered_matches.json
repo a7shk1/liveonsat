@@ -8,19 +8,16 @@
       "home_team": "بايرن ميونخ",
       "away_team": "ريال مدريد",
       "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD",
-        "TNT Sports 2 HD"
+        "beIN Sports 1 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/331-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/131-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 78,
-        "dmin": 0,
-        "offset": -120,
+        "score": 75,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -30,20 +27,16 @@
       "home_team": "أرسنال",
       "away_team": "سبورتنج لشبونة",
       "channels_raw": [
-        "beIN Sports HD",
-        "Persiana Sport HD",
-        "Football HD",
-        "Thmanyah 1",
-        "Thmanyah KSA"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/104-1-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/890-1-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
+        "score": 35,
         "dmin": 0,
-        "offset": -60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -53,20 +46,16 @@
       "home_team": "النصر",
       "away_team": "الاتفاق",
       "channels_raw": [
-        "تطبيق ثمانية",
-        "Persiana Sport HD",
-        "Football HD",
-        "Thmanyah 1",
-        "Thmanyah KSA"
+        "تطبيق ثمانية"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/7549-1-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/8943-1-logo.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
+        "score": 35,
         "dmin": 0,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
