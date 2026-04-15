@@ -5,20 +5,20 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Corvinul Hunedoara v Chindia Târgoviste",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "07:00",
       "channels_raw": [
         "Digi Sport 1 Romania HD",
         "Discover more",
-        "Soccer balls",
-        "Sports+",
-        "Sport",
+        "Women's Soccer News",
+        "Team merchandise",
+        "Live sports event tickets",
         "Romanian Liga 2 - Championship Group - 4"
       ]
     },
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Sepsi OSK v Voluntari",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "07:00",
       "channels_raw": [
         "Digi Sport 1 Romania HD",
         "Bulgarian First League - Week 30"
@@ -27,7 +27,7 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Cherno More Varna v CSKA 1948 Sofia",
-      "kickoff_baghdad": "11:00",
+      "kickoff_baghdad": "08:00",
       "channels_raw": [
         "Diema Sport HD",
         "Romanian Liga 2 - Championship Group - 4"
@@ -36,7 +36,7 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Steaua Bucharest v Bihor Oradea",
-      "kickoff_baghdad": "12:00",
+      "kickoff_baghdad": "09:00",
       "channels_raw": [
         "Digi Sport 1 Romania HD",
         "Norwegian Eliteserien - Week 1"
@@ -45,7 +45,7 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Sarpsborg 08 v Bodø/Glimt",
-      "kickoff_baghdad": "13:00",
+      "kickoff_baghdad": "10:00",
       "channels_raw": [
         "TV2 Play Norge ($/geo/R)",
         "Bulgarian First League - Week 30"
@@ -54,7 +54,7 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Arda v Ludogorets",
-      "kickoff_baghdad": "13:30",
+      "kickoff_baghdad": "10:30",
       "channels_raw": [
         "Diema Sport HD",
         "Saudi Pro League - Week 29"
@@ -63,12 +63,20 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Al Nassr v Al Ettifaq",
-      "kickoff_baghdad": "14:00",
+      "kickoff_baghdad": "11:00",
       "channels_raw": [
+        "Band Sports Brazil HD",
         "Cosmote Sport 5 HD",
+        "Fox Deportes USA",
+        "Fox Sports 2 USA HD",
+        "MAX Sport 3 Bulgaria HD",
+        "Okko Sport HD ($/geo/R)",
         "Prima Sport RO 3 HD",
+        "Sport TV1 Portugal HD",
         "Sportdigital FUSSBALL HD",
+        "Sporty TV Africa",
         "SPOTV Malaysia HD",
+        "Spíler 1 TV Hungary HD",
         "Strike TV",
         "SuperSport 2 Albania HD",
         "SuperSport ESPN HD",
@@ -79,7 +87,7 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "AFC Wimbledon v Stockport County",
-      "kickoff_baghdad": "14:45",
+      "kickoff_baghdad": "11:45",
       "channels_raw": [
         "Sky Sports+ [via APP]",
         "Sky Sports+ TV HD",
@@ -89,9 +97,11 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Bayern Munich v Real Madrid",
-      "kickoff_baghdad": "15:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "5 SPORT Israel HD",
+        "Arena Premium 1 BiH HD",
+        "Arena Premium 1 Srbija HD",
         "Arena Sport 1 Hrvatska HD",
         "beIN Sports MENA 1 HD",
         "beIN Sports MENA English 1 HD",
@@ -107,11 +117,13 @@
         "Cytavision Sports 4K 1 UHD",
         "Cytavision Sports PPV 1 HD",
         "DAZN 1 Bar Deutsch HD",
+        "DAZN 1 Portugal HD",
         "DAZN Canada ($/geo/R)",
         "DAZN Deutsch ($/geo/R)",
         "Digi 4K UHD",
         "Digi Sport 1 Romania HD",
         "Fast Sports TV Armenia",
+        "Futbol TV Uzbekistan",
         "Go3 Extra Sport Baltics ($/geo/R)",
         "HBO Max (uk/ire) [$/geo/R]",
         "HRT 2 Hrvatska HD",
@@ -123,6 +135,8 @@
         "MEGA Hellas HD",
         "Megogo Futbol 1 ($/geo/R)",
         "Meraj TV",
+        "MTV Urheilu 1 Suomi HD",
+        "Nova Sport 3 Czech HD",
         "Paramount+ USA ($/geo/R)",
         "Prima Sport RO 1 HD",
         "Prime Video Italia [$]",
@@ -134,31 +148,48 @@
         "RTS 1 Srbija HD",
         "RTÉ 2 Ireland HD",
         "RTÉ Player (geo/R)",
+        "Setanta Sports 1 Georgia HD#0",
+        "Silk Universal HD",
+        "Solh TV",
         "Sony Sports TEN 2 India HD",
         "Sony Sports TEN 3 India HD",
         "Sony Sports TEN 4 India HD",
         "Sport 24 At Sea HD",
         "Sport 24 In Flight HD",
+        "SuperSport MáXimo 2A HD",
         "SuperSport Variety 3 HD",
         "Tabii Spor Türkiye ($/geo/R)",
         "TNT Sports 2 HD",
         "Tring Sport 1 HD",
         "TSN Malta 5 HD",
+        "Turkmenistan Sport HD",
         "TV3+ Dansk HD",
+        "TVM+ Malta HD",
         "TVP 1 Polska HD",
-        "TVP Sport Polska HD",
+        "TVP Sport Polska HD"
+      ]
+    },
+    {
+      "competition": "Romanian Liga 2 - Championship Group - 4",
+      "title": "V Sport Ultra 4K UHD (geo/R)",
+      "kickoff_baghdad": null,
+      "channels_raw": [
+        "Varzish TV Sport HD (tjk)",
         "Vizion Plus HD",
         "VTM 2 Belgium HD",
         "Ziggo Sport HD",
+        "Zor TV Uzbekistan",
         "UEFA Champions League - Quarter Final (2nd Leg)"
       ]
     },
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Arsenal v Sporting Lisbon",
-      "kickoff_baghdad": "15:00",
+      "kickoff_baghdad": "12:00",
       "channels_raw": [
         "5 PLUS Israel HD",
+        "Arena Premium 2 BiH HD",
+        "Arena Premium 2 Srbija HD",
         "Arena Sport 2 Hrvatska HD",
         "ART Motion Sport 1 HD",
         "beIN Sports MENA 2 HD",
@@ -175,11 +206,14 @@
         "DAZN Deutsch ($/geo/R)",
         "Digi Sport 2 Romania HD",
         "Fast Sports 1 Armenia ($/geo/R)",
+        "Futbol TV Tajikistan",
         "Go3 Extra Sport Baltics ($/geo/R)",
         "HBO Max (uk/ire) [$/geo/R]",
         "M+ Liga de Campeones 2 HD",
         "M+ Liga de Campeones 2 HDR",
         "Megogo Futbol 2 ($/geo/R)",
+        "MTV Urheilu 2 Suomi HD",
+        "Nova Sport 4 Czech HD",
         "Paramount+ USA ($/geo/R)",
         "Play Sports 3 Belgium",
         "Prima Sport RO 2 HD",
@@ -187,6 +221,8 @@
         "Ring Bulgaria HD",
         "RSI La 2 Svizzera HD",
         "RTS 2 Suisse HD",
+        "Setanta Sports 2 Georgia HD#0",
+        "Silk Sport 1 HD",
         "Sky Sport 1 Austria HD",
         "Sky Sport Calcio HD",
         "Sky Sport Italia 4K UHD",
@@ -194,16 +230,21 @@
         "Sony Sports TEN 1 India HD",
         "Sport 1 Hungary HD",
         "Sport 24 Extra HD",
+        "Sport TV Uzbekistan",
+        "Sport TV5 Portugal HD",
         "SportKlub 1 Slovenija HD",
         "SRF Zwei Schweiz HD",
+        "SuperSport MáXimo 1 HD",
         "SuperSport Premier League HD",
         "Tabii Spor 1 ($/geo/R)",
         "TNT Sports 1 HD",
         "TNT Sports Ultimate UHD",
         "Tring Sport 2 HD",
         "TSN Malta 4 HD",
+        "TV2 Sport 1 Norge HD",
         "TV3 Sport Dansk HD",
         "TV8 Italia HD",
+        "ViaPlay Sport Sverige HD",
         "Virgin Media PLAY (geo/R)",
         "Virgin Media TV [app] (geo/R)",
         "Virgin Media Two HD",
@@ -215,13 +256,13 @@
     {
       "competition": "Romanian Liga 2 - Championship Group - 4",
       "title": "Septemvri Sofia v Spartak Varna",
-      "kickoff_baghdad": "10:00",
+      "kickoff_baghdad": "07:00",
       "channels_raw": [
         "Diema Sport HD",
         "Discover more",
-        "Team merchandise",
-        "Soccer",
-        "Spor",
+        "Televised Football Listings",
+        "Sports News",
+        "Live Soccer Streams",
         "L.J.'s LIVE Football on Satellite TV. LiveOnSat.com. LJ-Sport.com. All Rights",
         "Reserved. Copyright (c) 1997 - 2026",
         "Cookie Consent by",
