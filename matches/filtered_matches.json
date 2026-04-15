@@ -1,18 +1,75 @@
 {
-  "date": "2026-04-15",
+  "date": "2026-04-16",
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "بايرن ميونخ",
-      "away_team": "ريال مدريد",
+      "competition": "آسيا, دوري أبطال آسيا للنخبة - ربع النهائي",
+      "kickoff_baghdad": "07:15",
+      "home_team": "السد",
+      "away_team": "فيسيل كوبي",
       "channels_raw": [
         "beIN Sports 1 HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/331-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/131-logo.png",
-      "status_text": "مباشر",
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/6992-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/2151-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 52,
+        "dmin": 150,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "07:45",
+      "home_team": "سيلتا فيجو",
+      "away_team": "فرايبورج",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/158-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/354-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "07:45",
+      "home_team": "ألكمار",
+      "away_team": "شاختار دونيتسك",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/699-logo-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1955-logo-1.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 15,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "أستون فيلا",
+      "away_team": "بولونيا",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/109-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/245-logo.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 75,
@@ -22,16 +79,95 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
       "kickoff_baghdad": "10:00",
-      "home_team": "أرسنال",
-      "away_team": "سبورتنج لشبونة",
+      "home_team": "ستراسبورج",
+      "away_team": "ماينز 05",
       "channels_raw": [
-        "beIN Sports HD"
+        "غير معروف"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/104-1-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/890-1-logo.png",
-      "status_text": "مباشر",
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/479-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/352-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "فيورنتينا",
+      "away_team": "كريستال بالاس",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/228-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/10-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "نوتنجهام فورست",
+      "away_team": "بورتو",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/29-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/887-logo-1.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "ريال بيتيس",
+      "away_team": "سبورتينج براغا",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/146-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/895-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 55,
+        "dmin": 120,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "أيك أثينا",
+      "away_team": "رايو فاييكانو",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1024-logo-1.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/174-logo.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 35,
@@ -56,6 +192,44 @@
         "score": 35,
         "dmin": 0,
         "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "بايرن ميونخ",
+      "away_team": "ريال مدريد",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/331-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/131-logo.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 75,
+        "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال اوروبا - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "أرسنال",
+      "away_team": "سبورتنج لشبونة",
+      "channels_raw": [
+        "beIN Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/104-1-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/890-1-logo.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 35,
+        "dmin": 0,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
