@@ -66,6 +66,48 @@
       }
     },
     {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "ستراسبورج",
+      "away_team": "ماينز 05",
+      "channels_raw": [
+        "غير معروف"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/479-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/352-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 43,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.14285714285714285
+      }
+    },
+    {
+      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "فيورنتينا",
+      "away_team": "كريستال بالاس",
+      "channels_raw": [
+        "غير معروف",
+        "Persiana Sport HD",
+        "Football HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/228-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/10-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
       "kickoff_baghdad": "10:00",
       "home_team": "نوتنجهام فورست",
@@ -152,48 +194,6 @@
         "score": 77,
         "dmin": 15,
         "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "ستراسبورج",
-      "away_team": "ماينز 05",
-      "channels_raw": [
-        "غير معروف"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/479-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/352-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 43,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.14285714285714285
-      }
-    },
-    {
-      "competition": "أوروبا, دوري المؤتمر الأوروبي - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "فيورنتينا",
-      "away_team": "كريستال بالاس",
-      "channels_raw": [
-        "غير معروف",
-        "Persiana Sport HD",
-        "Football HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/228-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/10-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 39,
-        "dmin": 0,
-        "offset": -120,
         "team_sim": 0.0
       }
     }
