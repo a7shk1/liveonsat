@@ -8,19 +8,15 @@
       "home_team": "نوتنجهام فورست",
       "away_team": "بورتو",
       "channels_raw": [
-        "beIN Sports 4 HD",
-        "Persiana Sport HD",
-        "Football HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "beIN Sports 4 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/29-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/887-logo-1.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 56,
-        "dmin": 120,
+        "score": 75,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -32,16 +28,18 @@
       "away_team": "سبورتينج براغا",
       "channels_raw": [
         "beIN Sports 3 HD",
-        "DAZN 4 Portugal HD",
-        "Persiana Sport HD"
+        "Persiana Sport HD",
+        "Football HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/146-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/895-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 77,
-        "dmin": 15,
+        "score": 69,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -53,17 +51,16 @@
       "away_team": "رايو فاييكانو",
       "channels_raw": [
         "غير معروف",
-        "DAZN 4 Portugal HD",
-        "Persiana Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1024-logo-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/174-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": -180,
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -74,17 +71,16 @@
       "away_team": "بولونيا",
       "channels_raw": [
         "beIN Sports 1 HD",
-        "DAZN 4 Portugal HD",
-        "Persiana Sport HD"
+        "ESPN 3 Brazil HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/109-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/245-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 77,
-        "dmin": 15,
-        "offset": -180,
+        "score": 76,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -95,17 +91,16 @@
       "away_team": "ماينز 05",
       "channels_raw": [
         "غير معروف",
-        "DAZN 4 Portugal HD",
-        "Persiana Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/479-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/352-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": -180,
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -116,17 +111,16 @@
       "away_team": "كريستال بالاس",
       "channels_raw": [
         "غير معروف",
-        "DAZN 4 Portugal HD",
-        "Persiana Sport HD"
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/228-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/10-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
-        "dmin": 15,
-        "offset": -180,
+        "score": 36,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -146,7 +140,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 10,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -166,7 +160,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 10,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     }
