@@ -203,6 +203,25 @@
     {
       "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
       "kickoff_baghdad": "10:00",
+      "home_team": "نوتنجهام فورست",
+      "away_team": "بورتو",
+      "channels_raw": [
+        "beIN Sports 4 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/29-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/887-logo-1.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 75,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
+      "kickoff_baghdad": "10:00",
       "home_team": "ريال بيتيس",
       "away_team": "سبورتينج براغا",
       "channels_raw": [
@@ -300,25 +319,6 @@
         "score": 36,
         "dmin": 0,
         "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, الدوري الأوروبي - ربع النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "نوتنجهام فورست",
-      "away_team": "بورتو",
-      "channels_raw": [
-        "beIN Sports 4 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/29-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/887-logo-1.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 75,
-        "dmin": 0,
-        "offset": -180,
         "team_sim": 0.0
       }
     }
