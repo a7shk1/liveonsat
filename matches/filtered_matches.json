@@ -8,16 +8,17 @@
       "home_team": "لوس أنجلوس غالاكسي",
       "away_team": "تولوكا",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1342-logo-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/2078-logo-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
-        "offset": -180,
+        "score": 36,
+        "dmin": 25,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -46,16 +47,17 @@
       "home_team": "سيلتا فيجو",
       "away_team": "فرايبورج",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/158-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/354-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -120,
+        "score": 36,
+        "dmin": 10,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -65,16 +67,17 @@
       "home_team": "ألكمار",
       "away_team": "شاختار دونيتسك",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "TNT Sports 2 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/699-logo-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/1955-logo-1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 15,
-        "offset": -120,
+        "score": 36,
+        "dmin": 10,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -84,16 +87,19 @@
       "home_team": "نوتنجهام فورست",
       "away_team": "بورتو",
       "channels_raw": [
-        "beIN Sports 4 HD"
+        "beIN Sports 4 HD",
+        "Football HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/29-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/887-logo-1.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": 0,
+        "score": 55,
+        "dmin": 120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -103,17 +109,14 @@
       "home_team": "ريال بيتيس",
       "away_team": "سبورتينج براغا",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/146-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/895-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 55,
+        "score": 52,
         "dmin": 120,
         "offset": -180,
         "team_sim": 0.0
