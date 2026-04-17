@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة - ربع النهائي",
-      "kickoff_baghdad": "09:00",
-      "home_team": "ماتشيدا زيروبيا",
-      "away_team": "الاتحاد",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/9133-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8593-logo-1.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 15,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي الدرجة الثانية",
       "kickoff_baghdad": "09:30",
       "home_team": "سامبدوريا",
@@ -125,26 +105,6 @@
       }
     },
     {
-      "competition": "أفريقيا, الكونفدرالية الافريقية - نصف النهائي",
-      "kickoff_baghdad": "07:00",
-      "home_team": "الزمالك",
-      "away_team": "شباب بلوزداد",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8201-logo-1-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8225-logo-1.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 0,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "07:30",
       "home_team": "ساسولو",
@@ -185,6 +145,26 @@
         "dmin": 0,
         "offset": -120,
         "team_sim": 0.15592203898050974
+      }
+    },
+    {
+      "competition": "آسيا, دوري أبطال آسيا للنخبة - ربع النهائي",
+      "kickoff_baghdad": "09:00",
+      "home_team": "ماتشيدا زيروبيا",
+      "away_team": "الاتحاد",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "Football HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/9133-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8593-logo-1.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 76,
+        "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
       }
     }
   ]
