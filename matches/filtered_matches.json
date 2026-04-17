@@ -3,26 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "أوروبا, دوري أبطال أوروبا للشباب - نصف النهائي",
-      "kickoff_baghdad": "03:00",
-      "home_team": "بنفيكا تحت 19",
-      "away_team": "Club Brugge U19",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/27515-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/44903-logo.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 44,
-        "dmin": 120,
-        "offset": -180,
-        "team_sim": 0.5300207039337475
-      }
-    },
-    {
       "competition": "آسيا, دوري أبطال آسيا للنخبة - ربع النهائي",
       "kickoff_baghdad": "05:45",
       "home_team": "الأهلي السعودي",
@@ -209,6 +189,26 @@
         "dmin": 0,
         "offset": 120,
         "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال أوروبا للشباب - نصف النهائي",
+      "kickoff_baghdad": "03:00",
+      "home_team": "بنفيكا تحت 19",
+      "away_team": "Club Brugge U19",
+      "channels_raw": [
+        "غير معروف",
+        "DAZN 1 Portugal HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/27515-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shooot.com/wp-content/uploads/2026/04/44903-logo.png",
+      "status_text": "انتهت",
+      "result_text": "",
+      "merge_debug": {
+        "score": 44,
+        "dmin": 120,
+        "offset": -180,
+        "team_sim": 0.5300207039337475
       }
     }
   ]
