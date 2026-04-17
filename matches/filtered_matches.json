@@ -137,6 +137,27 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "05:00",
+      "home_team": "ليدز يونايتد",
+      "away_team": "وولفرهامبتون",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "DAZN Portugal HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/36-1-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/15-1-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 77,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "05:00",
       "home_team": "نيوكاسل يونايتد",
       "away_team": "بورنموث",
       "channels_raw": [
@@ -151,27 +172,6 @@
       "result_text": "",
       "merge_debug": {
         "score": 78,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "05:00",
-      "home_team": "ليدز يونايتد",
-      "away_team": "وولفرهامبتون",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "DAZN Portugal HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/36-1-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/15-1-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 77,
         "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
@@ -378,28 +378,6 @@
       "merge_debug": {
         "score": 78,
         "dmin": 20,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, تشامبيونشيب",
-      "kickoff_baghdad": "10:00",
-      "home_team": "بلاكبيرن روفرز",
-      "away_team": "كوفنتري سيتي",
-      "channels_raw": [
-        "غير معروف",
-        "Persiana Sport HD",
-        "Football HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/112-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24-logo-150x150.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 15,
         "offset": -180,
         "team_sim": 0.0
       }
