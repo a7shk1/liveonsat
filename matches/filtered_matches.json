@@ -51,7 +51,7 @@
       "home_team": "صن داونز",
       "away_team": "الترجي",
       "channels_raw": [
-        "غير معروف"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/7277-3-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8235-3-logo.png",
@@ -134,6 +134,25 @@
     {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "05:00",
+      "home_team": "نيوكاسل يونايتد",
+      "away_team": "بورنموث",
+      "channels_raw": [
+        "beIN Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/116-1-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/50-1-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 75,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "05:00",
       "home_team": "ليدز يونايتد",
       "away_team": "وولفرهامبتون",
       "channels_raw": [
@@ -148,25 +167,6 @@
       "merge_debug": {
         "score": 54,
         "dmin": 120,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "05:00",
-      "home_team": "نيوكاسل يونايتد",
-      "away_team": "بورنموث",
-      "channels_raw": [
-        "beIN Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/116-1-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/50-1-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 75,
-        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -311,28 +311,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "تشيلسي",
-      "away_team": "مانشستر يونايتد",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/106-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/105-logo-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 78,
-        "dmin": 0,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "أفريقيا, دوري أبطال أفريقيا - نصف النهائي",
       "kickoff_baghdad": "10:00",
       "home_team": "نهضة بركان",
@@ -349,6 +327,28 @@
       "result_text": "",
       "merge_debug": {
         "score": 38,
+        "dmin": 0,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "تشيلسي",
+      "away_team": "مانشستر يونايتد",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "Persiana Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/106-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/105-logo-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 78,
         "dmin": 0,
         "offset": 0,
         "team_sim": 0.0
