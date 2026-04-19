@@ -127,7 +127,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/110-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/104-1-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 81,
@@ -152,7 +152,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/331-logo-150x150.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/338-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 41,
@@ -256,6 +256,29 @@
       }
     },
     {
+      "competition": "أفريقيا, الكونفدرالية الافريقية - نصف النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "أولمبيك آسفي",
+      "away_team": "اتحاد العاصمة",
+      "channels_raw": [
+        "beIN Sports 3 HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD",
+        "TNT Sports 1 HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8210-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8220-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 79,
+        "dmin": 15,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "آسيا, دوري أبطال آسيا 2 - نصف النهائي",
       "kickoff_baghdad": "10:00",
       "home_team": "الأهلي القطري",
@@ -277,29 +300,6 @@
         "score": 41,
         "dmin": 0,
         "offset": 180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أفريقيا, الكونفدرالية الافريقية - نصف النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "أولمبيك آسفي",
-      "away_team": "اتحاد العاصمة",
-      "channels_raw": [
-        "beIN Sports 3 HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "Football HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8210-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8220-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 79,
-        "dmin": 15,
-        "offset": -180,
         "team_sim": 0.0
       }
     },
