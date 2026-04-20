@@ -3,28 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
-      "kickoff_baghdad": "09:30",
-      "home_team": "ديبورتيفو لاكورونيا",
-      "away_team": "ميراندس",
-      "channels_raw": [
-        "غير معروف",
-        "ESPN 4 Brazil HD",
-        "Football HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/148-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8800-logo.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 15,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "09:45",
       "home_team": "ليتشي",
@@ -39,7 +17,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 0,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -50,37 +28,36 @@
       "away_team": "وست هام يونايتد",
       "channels_raw": [
         "beIN Sports HD",
-        "ESPN 4 Brazil HD",
-        "Football HD",
-        "Varzish TV Sport HD"
+        "Football HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/10-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/113-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 38,
+        "score": 36,
         "dmin": 15,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
     {
-      "competition": "آسيا, دوري أبطال آسيا للنخبة - نصف النهائي",
-      "kickoff_baghdad": "07:15",
-      "home_team": "فيسيل كوبي",
-      "away_team": "الأهلي السعودي",
+      "competition": "إسبانيا, الدوري الاسباني الدرجة الثانية",
+      "kickoff_baghdad": "09:30",
+      "home_team": "ديبورتيفو لاكورونيا",
+      "away_team": "ميراندس",
       "channels_raw": [
-        "غير معروف"
+        "غير معروف",
+        "Football HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/2151-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8946-logo.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/148-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8800-logo.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
+        "score": 36,
         "dmin": 15,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
