@@ -12,12 +12,12 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/2151-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8946-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -36,7 +36,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": -60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -46,16 +46,19 @@
       "home_team": "كريستال بالاس",
       "away_team": "وست هام يونايتد",
       "channels_raw": [
-        "beIN Sports HD"
+        "beIN Sports HD",
+        "ESPN 4 Brazil HD",
+        "Football HD",
+        "Varzish TV Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/10-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/113-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 35,
-        "dmin": 0,
-        "offset": -180,
+        "score": 38,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     }
