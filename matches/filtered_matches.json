@@ -88,29 +88,6 @@
       }
     },
     {
-      "competition": "إيطاليا, كأس إيطاليا - نصف النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "كومو",
-      "channels_raw": [
-        "MBC Action",
-        "DAZN 3 Portugal HD",
-        "DAZN Portugal HD",
-        "Sky Sports Main Event HD",
-        "Sky Sport Premier League HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/224-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/6117-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 39,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, الدوري الإنجليزي",
       "kickoff_baghdad": "10:00",
       "home_team": "برايتون",
@@ -128,6 +105,29 @@
       "result_text": "",
       "merge_debug": {
         "score": 79,
+        "dmin": 0,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, كأس إيطاليا - نصف النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "إنتر ميلان",
+      "away_team": "كومو",
+      "channels_raw": [
+        "MBC Action",
+        "DAZN 3 Portugal HD",
+        "DAZN Portugal HD",
+        "Sky Sports Main Event HD",
+        "Sky Sport Premier League HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/224-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/6117-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 39,
         "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
