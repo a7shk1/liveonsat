@@ -17,7 +17,7 @@
       "merge_debug": {
         "score": 35,
         "dmin": 15,
-        "offset": 60,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -34,8 +34,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 120,
+        "score": 65,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -53,8 +53,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 52,
-        "dmin": 120,
+        "score": 65,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -73,26 +73,6 @@
       "result_text": "",
       "merge_debug": {
         "score": 35,
-        "dmin": 15,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إيطاليا, كأس إيطاليا - نصف النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "إنتر ميلان",
-      "away_team": "كومو",
-      "channels_raw": [
-        "MBC Action",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/224-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/6117-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
         "dmin": 15,
         "offset": -120,
         "team_sim": 0.0
@@ -113,7 +93,27 @@
       "merge_debug": {
         "score": 75,
         "dmin": 0,
-        "offset": -180,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إيطاليا, كأس إيطاليا - نصف النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "إنتر ميلان",
+      "away_team": "كومو",
+      "channels_raw": [
+        "MBC Action",
+        "Football HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/224-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/6117-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 15,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -133,7 +133,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 5,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -143,16 +143,19 @@
       "home_team": "ريال مدريد",
       "away_team": "ألافيس",
       "channels_raw": [
-        "beIN Sports 1 HD"
+        "beIN Sports 1 HD",
+        "DAZN Portugal HD",
+        "Sky Sports Main Event HD",
+        "Sky Sport Premier League HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/131-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/168-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 65,
+        "score": 68,
         "dmin": 30,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -169,9 +172,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 65,
-        "dmin": 30,
-        "offset": -120,
+        "score": 75,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     }
