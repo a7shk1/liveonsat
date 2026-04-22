@@ -22,6 +22,28 @@
       }
     },
     {
+      "competition": "إسبانيا, الدوري الإسباني",
+      "kickoff_baghdad": "08:00",
+      "home_team": "إلتشي",
+      "away_team": "أتلتيكو مدريد",
+      "channels_raw": [
+        "beIN Sports 6 HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/156-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/134-logo-1.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 68,
+        "dmin": 60,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "08:00",
       "home_team": "باريس سان جيرمان",
@@ -67,28 +89,6 @@
     },
     {
       "competition": "إسبانيا, الدوري الإسباني",
-      "kickoff_baghdad": "08:00",
-      "home_team": "إلتشي",
-      "away_team": "أتلتيكو مدريد",
-      "channels_raw": [
-        "beIN Sports 6 HD",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/156-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/134-logo-1.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 68,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "09:00",
       "home_team": "ريال سوسيداد",
       "away_team": "خيتافي",
@@ -127,6 +127,50 @@
         "score": 38,
         "dmin": 15,
         "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, كأس فرنسا - نصف النهائي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "ستراسبورج",
+      "away_team": "نيس",
+      "channels_raw": [
+        "غير معروف",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/479-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/470-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 38,
+        "dmin": 0,
+        "offset": -60,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "بورنموث",
+      "away_team": "ليدز يونايتد",
+      "channels_raw": [
+        "beIN Sports 4 HD",
+        "DAZN 1 Portugal HD",
+        "Persiana Sport HD",
+        "Varzish TV Sport HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/50-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/36-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 78,
+        "dmin": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -193,50 +237,6 @@
         "score": 38,
         "dmin": 0,
         "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, كأس فرنسا - نصف النهائي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "ستراسبورج",
-      "away_team": "نيس",
-      "channels_raw": [
-        "غير معروف",
-        "ESPN 4 Brazil HD",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/479-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/470-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 0,
-        "offset": -60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "بورنموث",
-      "away_team": "ليدز يونايتد",
-      "channels_raw": [
-        "beIN Sports 4 HD",
-        "DAZN 1 Portugal HD",
-        "Persiana Sport HD",
-        "Varzish TV Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/50-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/36-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 78,
-        "dmin": 0,
-        "offset": -120,
         "team_sim": 0.0
       }
     },
