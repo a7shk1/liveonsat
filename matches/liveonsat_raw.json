@@ -10,9 +10,9 @@
         "HBO Max (uk/ire) [$/geo/R]",
         "TNT Sports 7",
         "Discover more",
-        "Sports betting tips",
-        "Women's football gear",
-        "TV & Video",
+        "Sport",
+        "Basketball training equipment",
+        "Soccer",
         "Japanese J1 League - Week 12"
       ]
     },
@@ -51,8 +51,12 @@
       "channels_raw": [
         "Arena 4 Hungary HD",
         "beIN Sports Australia 2 HD",
+        "Eleven Sports 2 Polska HD",
+        "Nova Sport 4 Czech HD",
+        "Nova Sport Bulgaria HD",
         "OneFootball [app] ($/geo/R)",
         "Sky Sport Bundesliga 3 HD",
+        "Tivibu Spor 3 HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
@@ -69,8 +73,12 @@
       "kickoff_baghdad": "12:30",
       "channels_raw": [
         "beIN Sports Australia 3 HD",
+        "Diema Sport 2 HD",
+        "Eleven Sports 4 Polska HD",
+        "Nova Sport 6 Czech HD",
         "OneFootball [app] ($/geo/R)",
         "Sky Sport Bundesliga 4 HD",
+        "Tivibu Spor 2 HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
@@ -175,9 +183,9 @@
       "channels_raw": [
         "beIN Sports France 7 HD max",
         "Discover more",
-        "Europa League merchandise",
-        "Spor",
-        "American sports merchandise",
+        "Sports betting tips",
+        "Sporty",
+        "Stadium tours",
         "French Ligue 2 - Week 32"
       ]
     },
@@ -199,13 +207,32 @@
         "BBC iPlayer (geo/R)",
         "BBC iPlayer 4K (geo/R)",
         "BBC Sport Website (geo/R)",
+        "DAZN 3 Portugal HD",
+        "Diema Sport 3 HD",
+        "Eleven Sports 3 Polska HD",
         "ESPN+ USA ($/geo/R)",
+        "M+ Vamos 2 España HD",
+        "Nova Sport 3 Czech HD",
+        "Nova Sports 3 Hellas HD",
         "OneFootball [app] ($/geo/R)",
+        "Orange Fútbol 3 HD",
+        "Polsat Sport 3 HD",
         "Setanta Sports+ Ukraine HD",
+        "Sky Sport 251 Italia HD",
         "Sky Sport Bundesliga 1 HD",
         "Sky Sport Bundesliga HD",
         "Sky Sport Bundesliga UHD",
         "Sky Sport Top Event HD",
+        "Tivibu Spor 2 HD",
+        "Tivibu Spor 4 HD"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 26",
+      "title": "V Sport Football HD",
+      "kickoff_baghdad": null,
+      "channels_raw": [
+        "ViaPlay 3 Urheilu HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
@@ -232,6 +259,7 @@
       "channels_raw": [
         "LaLiga Hypermotion HD",
         "Premier Sports GB Player HD",
+        "TV2 Sport Premium 2 HD",
         "French Ligue 1 - Week 31"
       ]
     },
@@ -241,8 +269,22 @@
       "kickoff_baghdad": "14:45",
       "channels_raw": [
         "beIN Sports MENA 3 HD",
+        "beIN Sports Türkiye 4 HD",
+        "Diema Sport HD",
+        "Eleven Sports 4 Polska HD",
         "Ligue 1+ ($/geo/R)",
+        "Nova Sport 4 Czech HD",
         "Prime Video UK PPV [$]",
+        "Sky Sport 252 Italia HD",
+        "Sport TV3 Portugal HD"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 26",
+      "title": "V Sport 1 Sverige HD",
+      "kickoff_baghdad": null,
+      "channels_raw": [
+        "ViaPlay 1 Urheilu HD",
         "Irish First Division - Week 12"
       ]
     },
@@ -288,10 +330,6 @@
       "kickoff_baghdad": "14:45",
       "channels_raw": [
         "LOI TV ($/geo/R)",
-        "Discover more",
-        "Sports analysis software",
-        "Champions League tickets",
-        "Live sports subscriptions",
         "Irish Premier Division - Week 13"
       ]
     },
@@ -318,13 +356,25 @@
       "title": "Napoli v Cremonese",
       "kickoff_baghdad": "14:45",
       "channels_raw": [
+        "Cosmote Sport 2 HD",
         "DAZN 1 Bar Deutsch HD",
+        "DAZN 1 Italia HD",
         "DAZN Great Britain (geo/R)",
         "DAZN Ireland ($/geo/R)",
+        "Eleven Sports 2 Polska HD",
+        "Futbol TV Tajikistan",
         "HBO Max (uk/ire) [$/geo/R]",
+        "MATCH! Futbol 1 HD",
+        "MAX Sport 3 Bulgaria HD",
         "Megogo Futbol 2 ($/geo/R)",
+        "MTV Urheilu 2 Suomi HD",
+        "Polsat Sport 2 HD",
         "Setanta Sports 1 Eurasia HD",
+        "Sport TV2 Portugal HD",
+        "Tivibu Spor 3 HD",
         "TNT Sports 2 HD",
+        "TV4 Sport Live 1 HD",
+        "VG+ Sport Norge ($/geo/R)",
         "Scottish Championship - Week 35"
       ]
     },
@@ -350,9 +400,24 @@
       "channels_raw": [
         "beIN Sports MENA 4 HD",
         "beIN Sports MENA English 2 HD",
+        "Cosmote Sport 9 HD",
+        "ESPN 4 Brazil HD",
+        "Nova Sport Bulgaria HD",
         "Sky Go UK [online]",
         "Sky Sports Football HD",
-        "Sky UK Ultra HD 1",
+        "Sky UK Ultra HD 1"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 26",
+      "title": "V Sport 2 Norge HD",
+      "kickoff_baghdad": null,
+      "channels_raw": [
+        "ViaPlay Sport Sverige HD",
+        "Discover more",
+        "Bundesliga fan apparel",
+        "Spor",
+        "Champions League tickets",
         "English Premier League - Week 34"
       ]
     },
@@ -361,28 +426,46 @@
       "title": "Sunderland v Nottingham Forest",
       "kickoff_baghdad": "15:00",
       "channels_raw": [
+        "Astro Grandstand HD",
+        "Astro Premier League HD",
         "beIN Connect MENA",
         "beIN Connect Türkiye",
         "beIN Sports MENA 2 HD",
         "beIN Sports MENA English 1 HD",
+        "beIN Sports Türkiye 3 HD",
+        "Canal+ Extra 1 Polska HD",
         "Canal+ Sport 1 Czech HD",
+        "DAZN 1 Bar Espana",
+        "DAZN 1 Espana HD",
+        "DAZN 2 Portugal HD",
         "DAZN Canada ($/geo/R)",
         "DAZN España ($/geo/R)",
         "DAZN Portugal ($/geo/R)",
+        "Diema Sport 2 HD",
         "Fast Sports [online] ($/geo/R)",
         "FuboTV Canada ($/geo/R)",
         "Go3 Extra Sport Baltics ($/geo/R)",
         "Monomax Streaming ($/geo/R)",
+        "Nova Sports Premier League HD",
         "Setanta Sports Qazaqstan HD",
         "Setanta Sports Ukraine HD",
         "Sky Go UK [online]",
+        "Sky Sport Calcio HD",
         "Sky Sports Main Event HD",
         "Sky Sports Main Event UHD",
         "Sky Sports Premier League HD",
         "Sky UK Ultra HD 1",
         "Sport 24 Extra HD",
         "Stan Sport Australia ($/geo/R)",
-        "USA Network HD",
+        "USA Network HD"
+      ]
+    },
+    {
+      "competition": "Australian A League - Week 26",
+      "title": "V Sport Premium HD",
+      "kickoff_baghdad": null,
+      "channels_raw": [
+        "ViaPlay 2 Urheilu HD",
         "ViaPlay Danmark HD",
         "ViaPlay Nederland HD",
         "ViaPlay Norge HD",
@@ -423,14 +506,28 @@
         "beIN Sports MENA 1 HD",
         "beIN Sports MENA French 1 HD",
         "Belarus 5 HD",
+        "DAZN 1 Portugal HD",
         "DAZN 2 Bar Deutsch HD",
         "DAZN LaLiga HD",
+        "Eleven Sports 1 Polska HD",
+        "ESPN 1 Brazil HD",
+        "Idman TV HD",
         "LaLiga TV Bar HD",
+        "MATCH! Futbol 2 HD",
+        "MATCH! Russia HD",
+        "MAX Sport 4 Bulgaria HD",
         "Megogo Futbol 1 ($/geo/R)",
+        "MTV Urheilu 3 Suomi HD",
+        "Nova Sport 5 Czech HD",
+        "Nova Sports 1 Hellas HD",
         "Premier Sports GB Player HD",
+        "S Sport 1 Türkiye HD",
         "Setanta Sports 2 Eurasia HD",
         "Spíler 2 TV Hungary HD",
+        "TV2 Sport 1 Norge HD",
         "TV2 Sport X Dansk HD",
+        "TV4 Fotboll HD",
+        "Varzish TV Sport HD (tjk)",
         "National Womens Soccer League (NWSL) - Group Stage"
       ]
     },
@@ -440,10 +537,6 @@
       "kickoff_baghdad": "17:30",
       "channels_raw": [
         "NWSL+ [app] (geo/R)",
-        "Discover more",
-        "Basketball training equipment",
-        "Sport",
-        "Bundesliga fan apparel",
         "National Womens Soccer League (NWSL) - Group Stage"
       ]
     },
