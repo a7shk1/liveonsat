@@ -8,21 +8,15 @@
       "home_team": "فولهام",
       "away_team": "أستون فيلا",
       "channels_raw": [
-        "beIN Sports 3 HD",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "beIN Sports 3 HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/120-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/109-logo.png",
       "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
-        "score": 58,
-        "dmin": 120,
+        "score": 75,
+        "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
       }
@@ -34,14 +28,15 @@
       "away_team": "أوكسير",
       "channels_raw": [
         "beIN Sports HD",
-        "Sky Sport Premier League HD"
+        "DAZN 2 Portugal HD",
+        "Persiana Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/465-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/476-logo-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 37,
         "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
@@ -54,14 +49,15 @@
       "away_team": "بيسا",
       "channels_raw": [
         "Starzplay 1",
-        "Sky Sport Premier League HD"
+        "DAZN 2 Portugal HD",
+        "Persiana Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/241-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/248-logo-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 36,
+        "score": 37,
         "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
@@ -78,6 +74,7 @@
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD",
+        "Sky Sport Premier League HD",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
@@ -88,7 +85,7 @@
       "merge_debug": {
         "score": 41,
         "dmin": 0,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -103,6 +100,7 @@
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD",
+        "Sky Sport Premier League HD",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
@@ -113,7 +111,7 @@
       "merge_debug": {
         "score": 41,
         "dmin": 0,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -132,7 +130,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 0,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -151,7 +149,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 0,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -170,7 +168,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 0,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -185,6 +183,7 @@
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD",
+        "Sky Sport Premier League HD",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
@@ -195,7 +194,7 @@
       "merge_debug": {
         "score": 81,
         "dmin": 15,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -206,7 +205,8 @@
       "away_team": "اتحاد طنجة",
       "channels_raw": [
         "الرياضية المغربية (3)",
-        "DAZN 2 Portugal HD",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
         "Persiana Sport HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8323-logo.png",
@@ -214,9 +214,9 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 38,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -238,7 +238,7 @@
       "merge_debug": {
         "score": 38,
         "dmin": 0,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -260,7 +260,7 @@
       "merge_debug": {
         "score": 78,
         "dmin": 15,
-        "offset": -180,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -275,6 +275,7 @@
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD",
+        "Sky Sport Premier League HD",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
@@ -285,7 +286,7 @@
       "merge_debug": {
         "score": 41,
         "dmin": 15,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -300,6 +301,7 @@
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD",
+        "Sky Sport Premier League HD",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
@@ -310,7 +312,7 @@
       "merge_debug": {
         "score": 41,
         "dmin": 15,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -325,6 +327,7 @@
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD",
+        "Sky Sport Premier League HD",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
@@ -335,7 +338,7 @@
       "merge_debug": {
         "score": 41,
         "dmin": 0,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -350,6 +353,7 @@
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD",
+        "Sky Sport Premier League HD",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
@@ -360,7 +364,7 @@
       "merge_debug": {
         "score": 81,
         "dmin": 0,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -382,7 +386,7 @@
       "merge_debug": {
         "score": 68,
         "dmin": 30,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -393,18 +397,20 @@
       "away_team": "أولمبيك آسفي",
       "channels_raw": [
         "الرياضية المغربية (3)",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "Persiana Sport HD"
+        "Football HD",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/14597-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8210-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 38,
-        "dmin": 0,
-        "offset": -120,
+        "score": 40,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -426,7 +432,7 @@
       "merge_debug": {
         "score": 78,
         "dmin": 0,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -437,18 +443,20 @@
       "away_team": "الدفاع الحسني الجديدي",
       "channels_raw": [
         "المغربية (5)",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "Persiana Sport HD"
+        "Football HD",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8677-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8203-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 38,
-        "dmin": 0,
-        "offset": -120,
+        "score": 40,
+        "dmin": 15,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -463,6 +471,7 @@
         "DAZN Portugal HD",
         "ESPN 1 Brazil HD",
         "Persiana Sport HD",
+        "Sky Sport Premier League HD",
         "TNT Sports 1 HD",
         "TNT Sports HD"
       ],
@@ -473,7 +482,7 @@
       "merge_debug": {
         "score": 41,
         "dmin": 15,
-        "offset": 120,
+        "offset": 180,
         "team_sim": 0.0
       }
     },
@@ -495,7 +504,7 @@
       "merge_debug": {
         "score": 78,
         "dmin": 0,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     },
@@ -519,7 +528,7 @@
       "merge_debug": {
         "score": 40,
         "dmin": 15,
-        "offset": -120,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -541,7 +550,7 @@
       "merge_debug": {
         "score": 78,
         "dmin": 5,
-        "offset": 0,
+        "offset": 60,
         "team_sim": 0.0
       }
     }
