@@ -28,26 +28,6 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "04:00",
-      "home_team": "بارما",
-      "away_team": "بيسا",
-      "channels_raw": [
-        "Starzplay 1",
-        "Sky Sport Premier League HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/241-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/248-logo-1-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "فرنسا, الدوري الفرنسي",
       "kickoff_baghdad": "04:00",
       "home_team": "أولمبيك ليون",
@@ -68,25 +48,20 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "04:30",
-      "home_team": "كولن",
-      "away_team": "باير ليفركوزن",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "04:00",
+      "home_team": "بارما",
+      "away_team": "بيسا",
       "channels_raw": [
-        "MBC Action",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "Starzplay 1",
+        "Sky Sport Premier League HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/25570-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24129-logo.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/241-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/248-logo-1-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 41,
+        "score": 36,
         "dmin": 0,
         "offset": -180,
         "team_sim": 0.0
@@ -108,6 +83,31 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/352-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/331-logo-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 41,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "04:30",
+      "home_team": "كولن",
+      "away_team": "باير ليفركوزن",
+      "channels_raw": [
+        "MBC Action",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/25570-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24129-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -243,31 +243,6 @@
       }
     },
     {
-      "competition": "أوروبا, دوري أبطال أوروبا للسيدات - نصف النهائي",
-      "kickoff_baghdad": "07:15",
-      "home_team": "بايرن ميونيخ - سيدات",
-      "away_team": "برشلونة - سيدات",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24126-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24094-logo-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 41,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - نصف النهائي",
       "kickoff_baghdad": "07:15",
       "home_team": "مانشستر سيتي",
@@ -310,6 +285,56 @@
       "merge_debug": {
         "score": 41,
         "dmin": 15,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "أوروبا, دوري أبطال أوروبا للسيدات - نصف النهائي",
+      "kickoff_baghdad": "07:15",
+      "home_team": "بايرن ميونيخ - سيدات",
+      "away_team": "برشلونة - سيدات",
+      "channels_raw": [
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24126-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24094-logo-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 41,
+        "dmin": 15,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "ألمانيا, الدوري الألماني",
+      "kickoff_baghdad": "07:30",
+      "home_team": "هامبورج",
+      "away_team": "هوفنهايم",
+      "channels_raw": [
+        "MBC Action",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/334-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/351-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 41,
+        "dmin": 0,
         "offset": 0,
         "team_sim": 0.0
       }
@@ -362,27 +387,24 @@
       }
     },
     {
-      "competition": "ألمانيا, الدوري الألماني",
-      "kickoff_baghdad": "07:30",
-      "home_team": "هامبورج",
-      "away_team": "هوفنهايم",
+      "competition": "المغرب, الدوري المغربي",
+      "kickoff_baghdad": "08:00",
+      "home_team": "اتحاد تواركة",
+      "away_team": "أولمبيك آسفي",
       "channels_raw": [
-        "MBC Action",
+        "الرياضية المغربية (3)",
         "DAZN 1 Portugal HD",
         "DAZN Portugal HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "Persiana Sport HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/334-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/351-logo.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/14597-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8210-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 41,
+        "score": 38,
         "dmin": 0,
-        "offset": 0,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -421,28 +443,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8677-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8203-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 38,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "المغرب, الدوري المغربي",
-      "kickoff_baghdad": "08:00",
-      "home_team": "اتحاد تواركة",
-      "away_team": "أولمبيك آسفي",
-      "channels_raw": [
-        "الرياضية المغربية (3)",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "Persiana Sport HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/14597-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8210-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
