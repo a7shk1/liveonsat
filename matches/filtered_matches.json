@@ -28,26 +28,6 @@
       }
     },
     {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "04:00",
-      "home_team": "أولمبيك ليون",
-      "away_team": "أوكسير",
-      "channels_raw": [
-        "beIN Sports HD",
-        "Sky Sport Premier League HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/465-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/476-logo-150x150.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 36,
-        "dmin": 0,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إيطاليا, الدوري الإيطالي",
       "kickoff_baghdad": "04:00",
       "home_team": "بارما",
@@ -58,6 +38,26 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/241-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/248-logo-1-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 36,
+        "dmin": 0,
+        "offset": -180,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "04:00",
+      "home_team": "أولمبيك ليون",
+      "away_team": "أوكسير",
+      "channels_raw": [
+        "beIN Sports HD",
+        "Sky Sport Premier League HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/465-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/476-logo-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
@@ -243,6 +243,31 @@
       }
     },
     {
+      "competition": "أوروبا, دوري أبطال أوروبا للسيدات - نصف النهائي",
+      "kickoff_baghdad": "07:15",
+      "home_team": "بايرن ميونيخ - سيدات",
+      "away_team": "برشلونة - سيدات",
+      "channels_raw": [
+        "غير معروف",
+        "DAZN 1 Portugal HD",
+        "DAZN Portugal HD",
+        "ESPN 1 Brazil HD",
+        "Persiana Sport HD",
+        "TNT Sports 1 HD",
+        "TNT Sports HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24126-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24094-logo-150x150.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 41,
+        "dmin": 15,
+        "offset": 0,
+        "team_sim": 0.0
+      }
+    },
+    {
       "competition": "إنجلترا, كاس الاتحاد الإنجليزي - نصف النهائي",
       "kickoff_baghdad": "07:15",
       "home_team": "مانشستر سيتي",
@@ -280,31 +305,6 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8946-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/9133-logo-1.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 41,
-        "dmin": 15,
-        "offset": 0,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "أوروبا, دوري أبطال أوروبا للسيدات - نصف النهائي",
-      "kickoff_baghdad": "07:15",
-      "home_team": "بايرن ميونيخ - سيدات",
-      "away_team": "برشلونة - سيدات",
-      "channels_raw": [
-        "غير معروف",
-        "DAZN 1 Portugal HD",
-        "DAZN Portugal HD",
-        "ESPN 1 Brazil HD",
-        "Persiana Sport HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24126-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/24094-logo-150x150.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
