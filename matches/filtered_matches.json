@@ -81,26 +81,6 @@
       }
     },
     {
-      "competition": "إنجلترا, الدوري الإنجليزي",
-      "kickoff_baghdad": "10:00",
-      "home_team": "مانشستر يونايتد",
-      "away_team": "برينتفورد",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/105-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/63-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "إسبانيا, الدوري الإسباني",
       "kickoff_baghdad": "10:00",
       "home_team": "إسبانيول",
@@ -122,42 +102,21 @@
       }
     },
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "09:45",
-      "home_team": "ميلان",
-      "away_team": "يوفنتوس",
-      "channels_raw": [
-        "Starzplay 1",
-        "ESPN 1 Brazil HD",
-        "TNT Sports 1 HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/227-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/226-logo.png",
-      "status_text": "انتهت",
-      "result_text": "",
-      "merge_debug": {
-        "score": 37,
-        "dmin": 0,
-        "offset": -120,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "09:45",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "نيس",
+      "competition": "إنجلترا, الدوري الإنجليزي",
+      "kickoff_baghdad": "10:00",
+      "home_team": "مانشستر يونايتد",
+      "away_team": "برينتفورد",
       "channels_raw": [
         "beIN Sports 1 HD",
         "DAZN 1 Portugal HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/469-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/470-logo.png",
-      "status_text": "انتهت",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/105-logo-150x150.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/63-logo.png",
+      "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
         "score": 76,
-        "dmin": 15,
+        "dmin": 0,
         "offset": -120,
         "team_sim": 0.0
       }
