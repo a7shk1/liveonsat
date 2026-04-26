@@ -15,8 +15,8 @@
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 25,
-        "dmin": 60,
+        "score": 35,
+        "dmin": 0,
         "offset": 180,
         "team_sim": 0.0
       }
@@ -27,18 +27,16 @@
       "home_team": "رايو فاييكانو",
       "away_team": "ريال سوسيداد",
       "channels_raw": [
-        "beIN Sports HD",
-        "ESPN 1 Brazil HD",
-        "Sky Sports Main Event HD"
+        "beIN Sports HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/174-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/154-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 35,
         "dmin": 0,
-        "offset": -180,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -57,7 +55,7 @@
       "merge_debug": {
         "score": 65,
         "dmin": 30,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -78,7 +76,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -98,7 +96,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -118,7 +116,7 @@
       "merge_debug": {
         "score": 76,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -139,7 +137,7 @@
       "merge_debug": {
         "score": 37,
         "dmin": 15,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -159,7 +157,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -170,19 +168,17 @@
       "away_team": "المغرب الفاسي",
       "channels_raw": [
         "الرياضية المغربية (3)",
-        "Football HD",
         "ESPN 1 Brazil HD",
-        "TNT Sports 1 HD",
-        "TNT Sports HD"
+        "Sky Sports Main Event HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/49266-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8321-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 39,
+        "score": 37,
         "dmin": 0,
-        "offset": -180,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -202,7 +198,7 @@
       "merge_debug": {
         "score": 76,
         "dmin": 15,
-        "offset": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -223,7 +219,7 @@
       "merge_debug": {
         "score": 77,
         "dmin": 15,
-        "offset": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -242,7 +238,7 @@
       "merge_debug": {
         "score": 75,
         "dmin": 15,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -262,7 +258,7 @@
       "merge_debug": {
         "score": 36,
         "dmin": 0,
-        "offset": 0,
+        "offset": -60,
         "team_sim": 0.0
       }
     },
@@ -285,7 +281,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 0,
-        "offset": -120,
+        "offset": -180,
         "team_sim": 0.0
       }
     },
@@ -296,17 +292,16 @@
       "away_team": "إشبيلية",
       "channels_raw": [
         "beIN Sports HD",
-        "DAZN 2 Portugal HD",
-        "MBC Action HD"
+        "DAZN 2 Portugal HD"
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/143-logo-1.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/135-logo.png",
       "status_text": "لم تبدأ بعد",
       "result_text": "",
       "merge_debug": {
-        "score": 37,
+        "score": 36,
         "dmin": 0,
-        "offset": -180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -329,7 +324,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 0,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -352,7 +347,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 0,
-        "offset": -60,
+        "offset": -120,
         "team_sim": 0.0
       }
     },
@@ -375,7 +370,27 @@
       "merge_debug": {
         "score": 39,
         "dmin": 0,
-        "offset": -60,
+        "offset": -120,
+        "team_sim": 0.0
+      }
+    },
+    {
+      "competition": "فرنسا, الدوري الفرنسي",
+      "kickoff_baghdad": "09:45",
+      "home_team": "أولمبيك مارسيليا",
+      "away_team": "نيس",
+      "channels_raw": [
+        "beIN Sports 1 HD",
+        "DAZN 1 Portugal HD"
+      ],
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/469-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/470-logo.png",
+      "status_text": "لم تبدأ بعد",
+      "result_text": "",
+      "merge_debug": {
+        "score": 76,
+        "dmin": 15,
+        "offset": 120,
         "team_sim": 0.0
       }
     },
@@ -398,27 +413,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 15,
-        "offset": 60,
-        "team_sim": 0.0
-      }
-    },
-    {
-      "competition": "فرنسا, الدوري الفرنسي",
-      "kickoff_baghdad": "09:45",
-      "home_team": "أولمبيك مارسيليا",
-      "away_team": "نيس",
-      "channels_raw": [
-        "beIN Sports 1 HD",
-        "DAZN 1 Portugal HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/469-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/470-logo.png",
-      "status_text": "لم تبدأ بعد",
-      "result_text": "",
-      "merge_debug": {
-        "score": 76,
-        "dmin": 15,
-        "offset": 180,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -441,7 +436,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 0,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     },
@@ -464,7 +459,7 @@
       "merge_debug": {
         "score": 39,
         "dmin": 0,
-        "offset": 60,
+        "offset": 0,
         "team_sim": 0.0
       }
     }
