@@ -3,28 +3,6 @@
   "source_url": "yallashoot (primary) + liveonsat (best-by-score: time+offset+teams+bein+bucket; custom channel filter)",
   "matches": [
     {
-      "competition": "إيطاليا, الدوري الإيطالي",
-      "kickoff_baghdad": "07:30",
-      "home_team": "كالياري",
-      "away_team": "أتالانتا",
-      "channels_raw": [
-        "Starzplay 1",
-        "ESPN 4 Brazil HD",
-        "Persiana Sport HD",
-        "Football HD"
-      ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/243-logo.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/232-logo.png",
-      "status_text": "مباشر",
-      "result_text": "",
-      "merge_debug": {
-        "score": 28,
-        "dmin": 60,
-        "offset": -180,
-        "team_sim": 0.0
-      }
-    },
-    {
       "competition": "غير معروف",
       "kickoff_baghdad": "08:00",
       "home_team": "بيراميدز",
@@ -56,7 +34,7 @@
       ],
       "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/236-logo.png",
       "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/229-logo.png",
-      "status_text": "لم تبدأ بعد",
+      "status_text": "مباشر",
       "result_text": "",
       "merge_debug": {
         "score": 38,
@@ -111,20 +89,23 @@
       }
     },
     {
-      "competition": "غير معروف",
-      "kickoff_baghdad": "05:00",
-      "home_team": "الزمالك",
-      "away_team": "إنبي",
+      "competition": "إيطاليا, الدوري الإيطالي",
+      "kickoff_baghdad": "07:30",
+      "home_team": "كالياري",
+      "away_team": "أتالانتا",
       "channels_raw": [
-        "أون سبورت ماكس"
+        "Starzplay 1",
+        "ESPN 4 Brazil HD",
+        "Persiana Sport HD",
+        "Football HD"
       ],
-      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8201-logo-150x150.png",
-      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/8300-logo.png",
+      "home_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/243-logo.png",
+      "away_logo": "https://i0.wp.com/www.yalla1shoot.com/wp-content/uploads/2026/04/232-logo.png",
       "status_text": "انتهت",
       "result_text": "",
       "merge_debug": {
-        "score": 12,
-        "dmin": 180,
+        "score": 28,
+        "dmin": 60,
         "offset": -180,
         "team_sim": 0.0
       }
